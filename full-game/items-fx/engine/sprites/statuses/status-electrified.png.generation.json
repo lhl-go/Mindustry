@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-electrified.png",
+  "sha256": "577afbc471f1e304da7c8cb886cbbd7ca4d111667c72d1228675e36dbbaa75f4",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-electrified.png",
+      "sha256": "4d0f3862b0ddbc620cea8cdb739225215274efe9e0277b8b26e3be038585281e",
+      "generationRecord": "full-game/items-fx/assets/status-electrified.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

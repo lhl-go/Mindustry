@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/ferric-boulder1.png",
+  "sha256": "18dbf510e5b49a9f2d245ffd0e903524db29dffc345638c90b4d95712345b75f",
+  "createdAt": "2026-10-26T18:36:04.415135+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/16-boulder-props.png",
+      "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+      "generationRecord": "full-game/terrain/source/16-boulder-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      29,
+      746,
+      259,
+      975
+    ],
+    "nativeExtractedSize": [
+      230,
+      229
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.13043478260869565,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      32,
+      32
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

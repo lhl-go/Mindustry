@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/carbon-stone2.png",
+  "sha256": "5cc33562e53e97711e1a10d1a0b28570cc57ec32cdd97ce38a5c3b0d2d83e54b",
+  "createdAt": "2026-10-26T16:49:49.678117+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+      "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+      "generationRecord": "full-game/terrain/source/05-erekir-mineral-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      258,
+      1238,
+      510,
+      1534
+    ],
+    "nativeExtractedSize": [
+      252,
+      296
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.0193302681944725
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

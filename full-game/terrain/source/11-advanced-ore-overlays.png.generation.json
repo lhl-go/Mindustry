@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/11-advanced-ore-overlays.png",
+  "sha256": "99493f4fdd10bf12344e1a253854ed50c9f39af5f28f4c70a9d04d54c3cc46af",
+  "generatedAt": "2026-10-26 17:38:58 UTC",
+  "startedAt": "2026-10-26 17:37:56 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite atlas. Paint18 NEW flat mineral vein overlays for Mindustry, strict top-down orthographic. Refined bright clean Daoist Q hand-painted material finish from attached refs ONLY; no UI/text/characters/symbols/frames. Requested1536×3072 portrait, exactly3columns×6rows of independent patches on fully TRANSPARENT background. Each complete irregular patch centered occupying65-70percent of cell, generous empty gutters, no detached stray pixels far from patch. Each row3 independently painted variant distributions, same color/scale, never copies. Minerals embed FLUSH into a ground/wall top surface: not tall rocks, piles or inventory gems. Thin broken seams with small readable broad mineral flecks, alpha gaps exposing underlying terrain. No opaque ground square beneath; no detached shadow or glow haze.\nRow1 TUNGSTEN ore: cool desaturated steel-gray silvery heavy mineral shards with faint bluish rims.\nRow2 CRYSTAL THORIUM ore: pale rose-lilac small flat crystal facets and a few short prismatic pink mineral veins, brighter/more crystalline than normal thorium yet flat.\nRow3 WALL BERYLLIUM ore: pale jade-green branching broad mineral veins and flattened broken jade flecks, compact flush patch for rock wall top.\nRow4 WALL GRAPHITE ore: dark graphite-black layered short flattened flakes and fine black seams, visibly distinct slate-gray highlights.\nRow5 WALL THORIUM ore: dusty vivid rose-pink short mineral veins and smooth flattened chips, compact broken patch.\nRow6 WALL TUNGSTEN ore: silver blue-gray angular flattened metallic vein bands and broken small flakes.\nEach piece fully isolated, complete silhouette and transparent holes, no ground tiles, borders or text. Soft top-left light restrained enough to remain top-down.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/11-advanced-ore-overlays.txt",
+  "promptSha256": "d5e3d3bafa6af835e3560611d8ba7c5b3ba455c79bff195e5a713660405b8041",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/11-advanced-ore-overlays.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-d4881978-e88e-4c77-8145-78ee086f376d.png",
+    "originalOutputSha256": "99493f4fdd10bf12344e1a253854ed50c9f39af5f28f4c70a9d04d54c3cc46af"
+  },
+  "regions": [
+    "ore-tungsten1",
+    "ore-tungsten2",
+    "ore-tungsten3",
+    "ore-crystal-thorium1",
+    "ore-crystal-thorium2",
+    "ore-crystal-thorium3",
+    "ore-wall-beryllium1",
+    "ore-wall-beryllium2",
+    "ore-wall-beryllium3",
+    "ore-wall-graphite1",
+    "ore-wall-graphite2",
+    "ore-wall-graphite3",
+    "ore-wall-thorium1",
+    "ore-wall-thorium2",
+    "ore-wall-thorium3",
+    "ore-wall-tungsten1",
+    "ore-wall-tungsten2",
+    "ore-wall-tungsten3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-tungsten1.png",
+      "sha256": "f5bca9523389aabd101883ab26d421a352a55da0562f2a7ecb4d99ccfb5fd44a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-tungsten2.png",
+      "sha256": "9e1278abe35631badd43527fdb360657ff3c326bc0951d5bc872b88fa9076185"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-tungsten3.png",
+      "sha256": "45734e611e27ff55140820e2f8a59b9f5708a40779a149ccb0136a310238bc24"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-crystal-thorium1.png",
+      "sha256": "5ca50f90c2b6556ddc7c64d11ee64aec9861f63ff01610f3595cabc392ace4fb"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-crystal-thorium2.png",
+      "sha256": "d785de93fbc1b9a2d04a88eec78735a92e95434ddf1a3137a037ab49340dc761"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-crystal-thorium3.png",
+      "sha256": "350e0b112f077b1cb9213ba3638049ff77d3370d4d7de64eb3f9b9e8b4c597f7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-beryllium1.png",
+      "sha256": "dc4252b3cd25f763ebf602acdb2b4b8e494744c10db31c13992a9a73aaaecaee"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-beryllium2.png",
+      "sha256": "ac20826bbed725366a672256eec093bf6b74bba4e80b0b694a678c9f3c8dd418"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-beryllium3.png",
+      "sha256": "7716684fd40b3f2811c51017fe8c1509d7b6d0ab3eaf8e718db7411f41d327e9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-graphite1.png",
+      "sha256": "79ee2068c86ba18695e77914e02370bb78637a721279181e64acb52e94f38e40"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-graphite2.png",
+      "sha256": "aa68b5ec3adf249299376aa9db2a0ed17cac37928595c5ae830e6b2e52c81def"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-graphite3.png",
+      "sha256": "107f6aa79a6ef76e04ea9841a810a1f08f71bfee77cfff45ba816b4daa27d954"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-thorium1.png",
+      "sha256": "8ec7516207c7069bb7a27958a69d1b26211169ff8430bf3b337219ee2c5561a4"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-thorium2.png",
+      "sha256": "719f5fef52977ce508cc024bbdf0644420212a5c627b1153adbafef51d8b5d28"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-thorium3.png",
+      "sha256": "6a851b40ef037620592e522df32305102323566b4d0601d6a326d087c820cfc4"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-tungsten1.png",
+      "sha256": "922c52d2574cf6df78f40f3ffc65a26fbee4d123d76ea864a1a53ff2dc719aa4"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-tungsten2.png",
+      "sha256": "5d79ed9b14215fd898ee6b1bc97cac0462ca5af390d54e40ea17e8a69cb77e14"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-tungsten3.png",
+      "sha256": "5675d67d37aed157eae9adca4caabc9a7c35df4cc03af182d97bc2248d4b2455"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

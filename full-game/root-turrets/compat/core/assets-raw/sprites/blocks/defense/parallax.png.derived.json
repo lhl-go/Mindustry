@@ -1,0 +1,42 @@
+{
+  "region": "parallax",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/defense/parallax.png",
+  "sha256": "de22f2a21e60315be056c8a892c365ea3bc7e5b40187c82c6b48faf464354dbe",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:45.964299+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/parallax.png",
+      "sha256": "1b8183262fa09eb7e99f0af206495354b5affc125a961a3cb6fa12512712b9ef",
+      "record": "full-game/root-turrets/masters/parallax.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/parallax.png",
+      "sha256": "c5ed050c4c768490df33a9250326e0627381bb59b911031eb233471ce4cdead9",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      14,
+      10,
+      50,
+      55
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      272,
+      347
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

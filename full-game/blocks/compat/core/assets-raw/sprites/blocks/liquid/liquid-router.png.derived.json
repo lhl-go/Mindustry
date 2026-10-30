@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/liquid-router.png",
+  "sourceGitBlob": "9a357e43da23e9f9ee093d7e6890cfc693a56265",
+  "sourceSha256": "5298b2a98b32b508af58e98878981e4e21f43d0ada0ff7cf154042b152cd1f6d",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "liquid-router",
+  "blockId": "liquid-router",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-router.png",
+  "sha256": "95064042def3333e50ae3fe1247e6ff55847475bc6def52f8d42358752330f03",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-router.png",
+  "engineSha256": "95064042def3333e50ae3fe1247e6ff55847475bc6def52f8d42358752330f03",
+  "nativeFile": "full-game/blocks/masters/liquid-router.png",
+  "nativeSha256": "7963980c77ee92890e3b72b8553f9fa14c5cd50a5d092d1475ad44c41fe1a854",
+  "nativeSize": [
+    278,
+    289
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_on_original_liquid_window_frame",
+    "originalLiquidWindowsAndExteriorOcclusionPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_liquid_window_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/liquid-router.png",
+      "sha256": "7963980c77ee92890e3b72b8553f9fa14c5cd50a5d092d1475ad44c41fe1a854"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/liquid-router.png",
+      "sha256": "5298b2a98b32b508af58e98878981e4e21f43d0ada0ff7cf154042b152cd1f6d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-router.png.derived.json"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone4.png",
+  "sha256": "61ad37441b4cdcfcf466517b10bef864bd791bacfee4bddca125d123b7a0681c",
+  "size": [
+    292,
+    291
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/07-crystal-crater-floors.png",
+      "sha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238",
+      "generationRecord": "full-game/terrain/source/07-crystal-crater-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    2,
+    298,
+    294,
+    589
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

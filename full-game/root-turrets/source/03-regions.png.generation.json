@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/root-turrets/source/03-regions.png",
+  "sha256": "1aa7ef54c2cb6c9430de900630308c8ff04c44732f0b33bdef3e68736edd1342",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T12:55:32-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/root-turrets/reference/guide-03.png"
+    ],
+    "prompt": "Native HD transparent game sprite sheet requested1536x1024, exactly FOUR columns THREE rows, twelve separate turret parts. Repaint each corresponding region in reference3, preserving its precise footprint/negative spaces/north orientation, in the approved Daoist Q hand-painted material style of refs1-2. Softly rounded graphite-blue iron, jade/ivory tiny carvings, warm gold edges, original per-family functional blue or magenta power colors. STRICT flat orthographic TOP view, no perspective bases, no separate whole buildings. Row1: lancer blue-white lance emitter chassis, central upright pointed head with two flared curving arms; lustre-blade-l single thin crooked LEFT blade spine, dark slate white-blue stripes; lustre-inner-l separate narrow left inner cheek plate dark with diagonal icy-blue channel; lustre-mid separate U-shaped central back plate with two vertically aligned white-blue diamond energy pieces. Row2: malign-back-l single angular rear-left armor plate with magenta stripe; malign-end separate squat rear center plate, dark body magenta V inlay; malign-front-l single slanting front-left armor plate magenta band; malign-main separate long narrow central spine with magenta diamonds and chevrons. Row3: malign-mid separate small diamond shaped middle cap with central magenta diamond; malign-mouth separate paired upright fork/muzzle shell with pink tip accents, complete U notch; malign-spine-l single curved white-ivory pipe bracket shaped like source open hook, no chassis; meltdown wide double-pronged beam turret center chassis graphite with fiery coral-orange channels and central straight groove. Keep all malign parts stylistically consistent but each distinct shape exactly like its source. Detached pieces must remain detached; do not complete them into guns. Every part complete with generous13% margin in equal cell. No text, no labels, no surrounding floor, no grid, no cast shadows or outer glow. True transparent alpha."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/root-turrets/prompts/03-regions.txt",
+  "promptSha256": "31d01ab8f3922ad0f3949c5959490c5d8bc18fdf481bd2a13521c161d905e642",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\root-turrets\\reference\\guide-03.png",
+      "sha256": "7371e40b057d5d8e1c4e383182079420c099c420ddebd8a586e6b5fce8533779",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\root-turrets\\records\\03-regions-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-9472aed7-7909-4e78-aaa3-472fa45834f4.png",
+    "nativePngSha256": "1aa7ef54c2cb6c9430de900630308c8ff04c44732f0b33bdef3e68736edd1342",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 962298,
+  "status": "generated_pending_review"
+}

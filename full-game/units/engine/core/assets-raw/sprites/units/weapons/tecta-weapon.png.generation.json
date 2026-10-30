@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+  "sha256": "0c6a2e3adef2335e81e8399d6e3b96f4870042adedb7e11484ee066f5798e4cf",
+  "width": 55,
+  "height": 121,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+      "sha256": "22a132f978d43a50be56de29860c5c2d39eef1e7045f039e3f12332f8deac35f",
+      "generationRecord": "units/air-erekir-parts/assets/tecta-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      325,
+      303
+    ],
+    "sourcePivot": [
+      179,
+      202
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      30
+    ],
+    "sourceDimensions": [
+      357,
+      335
+    ],
+    "targetDimensions": [
+      55,
+      121
+    ],
+    "officialAlphaBounds": [
+      8,
+      4,
+      50,
+      115
+    ],
+    "scale": 0.18027210884353742,
+    "engineAnchorPx": [
+      27.5,
+      60.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+    "gitBlobSha1": "85ab504421526158052718cecdf28e9f58e80b6b",
+    "sha256": "cce258da00000947f874e14c5e2aba4ff53192d3d40a74c9b3b9d07efbdecaab"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

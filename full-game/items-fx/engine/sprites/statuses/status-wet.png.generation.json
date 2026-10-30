@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-wet.png",
+  "sha256": "a5e95c5991347a3bfc8f5399530f97bd027507ec9e2a3eb33f704c63958f0864",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-wet.png",
+      "sha256": "48a0a6c25203807bc295ff3a24e1c6ba3f51984244c98328534ff9622cc95874",
+      "generationRecord": "full-game/items-fx/assets/status-wet.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

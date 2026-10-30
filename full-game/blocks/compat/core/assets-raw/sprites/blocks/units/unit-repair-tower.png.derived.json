@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/unit-repair-tower.png",
+  "sourceGitBlob": "fca0c991d36aec3e15024b037c6e472b1ff95e9c",
+  "sourceSha256": "2465088c9dd7f30c0f70249315be1c3ecf8e2ed5ff44772ce0d73d953e128bdb",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "unit-repair-tower",
+  "blockId": "unit-repair-tower",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower.png",
+  "sha256": "d1899e33fe6e11fbde70904e7b864179859c9cef9c42d043c385f98e8558cfa1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower.png",
+  "engineSha256": "d1899e33fe6e11fbde70904e7b864179859c9cef9c42d043c385f98e8558cfa1",
+  "nativeFile": "full-game/blocks/masters/unit-repair-tower.png",
+  "nativeSha256": "9f801493278ed0a44dcce9bbcc4479a22535a16e58f557df3df5b02a731fa019",
+  "nativeSize": [
+    314,
+    339
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/unit-repair-tower.png",
+      "sha256": "9f801493278ed0a44dcce9bbcc4479a22535a16e58f557df3df5b02a731fa019"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/unit-repair-tower.png",
+      "sha256": "2465088c9dd7f30c0f70249315be1c3ecf8e2ed5ff44772ce0d73d953e128bdb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/unit-repair-tower.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/evoke-cell.png",
+  "sha256": "93f28ea95c995c1bcb4b2d6989fafb88de993c13e9ce6a468cfbcdc564c2e139",
+  "width": 56,
+  "height": 54,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/evoke.png",
+      "sha256": "c8cfecb81f7c711670609f43820a1dc2fad906c93c93564c11a443fcb76c4a36",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/evoke.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "evoke",
+    "baseCanvas": [
+      56,
+      54
+    ],
+    "outputCanvas": [
+      56,
+      54
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/evoke-cell.png",
+    "gitBlobSha1": "fd59b26b4abcc926677af9772d4eb0512c6faaf3",
+    "sha256": "d78c4050fe4c246b7d11c850fcf9081b9cb53952d5944ef38aa748235a053cec"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

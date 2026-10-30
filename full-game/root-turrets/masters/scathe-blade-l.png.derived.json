@@ -1,0 +1,41 @@
+{
+  "region": "scathe-blade-l",
+  "file": "full-game/root-turrets/masters/scathe-blade-l.png",
+  "sha256": "cf4acfc15d3dd5c268e70cd7d3803db5fbb97dd480d164c644102a20865baef2",
+  "size": [
+    144,
+    339
+  ],
+  "derivedAt": "2026-10-26T18:34:44.479772+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 4,
+    "sourceBox": [
+      133,
+      354,
+      253,
+      669
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

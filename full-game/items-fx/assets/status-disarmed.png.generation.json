@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/07-statuses-combat.png",
+      "sha256": "ac6ca1afc32eae50c2bcb7a58aef7aaa7ddd639ab6a6403d5023426f88151988",
+      "generationRecord": "full-game/items-fx/source/07-statuses-combat.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      64,
+      0,
+      439,
+      396
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-disarmed.png",
+  "sha256": "11daccff6fad86cd5006d2cfeb1d8c44714d309b6fbcb4705dc3302491a8c5f0",
+  "width": 407,
+  "height": 428,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.655873+00:00"
+}

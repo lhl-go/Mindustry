@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+  "sha256": "b630133503c90899b93fbb240593ca5e9dcb27db68b403b9e97c6d9b21fb1a55",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+      "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+      "generationRecord": "units/air-erekir-parts/assets/heal-weapon-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      282,
+      288
+    ],
+    "sourcePivot": [
+      160,
+      169
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      3,
+      1
+    ],
+    "sourceDimensions": [
+      314,
+      320
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      20,
+      12,
+      28,
+      33
+    ],
+    "scale": 0.1678832116788321,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+    "gitBlobSha1": "2ff4d59c4af1b4e63efe67015ccea5b53f8ea1bd",
+    "sha256": "12a83f4c514a654b293d2e88da8de6c1a9e61710cc25035d3ded7dcd7cb61b45"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

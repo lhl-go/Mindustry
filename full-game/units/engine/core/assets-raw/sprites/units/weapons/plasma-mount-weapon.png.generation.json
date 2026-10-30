@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+  "sha256": "7ed777d6c17e27e53e5d556e4f05cd9a921e4f5d05720918dc0973f3f9c3c595",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+      "sha256": "a9cb255ee833c402f09dd2cfea27402894948b36249c52e2caeffd322e281e97",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-flame.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      267,
+      263
+    ],
+    "sourcePivot": [
+      141.5,
+      201.25
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      1
+    ],
+    "sourceDimensions": [
+      283,
+      279
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      15,
+      9,
+      30,
+      35
+    ],
+    "scale": 0.1241565452091768,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+    "gitBlobSha1": "57dad881debcb7a05c055801e12c40b2b97b869b",
+    "sha256": "256ea25f20470407ffc2a8367a1e60c5a33812bb3afe28d4ca889e23e851ef07"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

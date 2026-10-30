@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/impulse-pump.png",
+  "sha256": "d240ec45e537b6a26c3ed271928b334bb38489f51e08eab668f110730ba28363",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      643,
+      10,
+      956,
+      307
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      313,
+      297
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    345,
+    329
+  ],
+  "anchorPixels": [
+    172.5,
+    164.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

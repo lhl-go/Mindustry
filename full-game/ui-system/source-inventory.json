@@ -1,0 +1,4400 @@
+{
+  "schemaVersion": 1,
+  "referenceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "assets": [
+    {
+      "sourcePath": "android/ic_launcher-web.png",
+      "sourceGitBlob": "e511ce80dc058328c2e2d58a13b06b529ea3799b",
+      "sourceBytes": 89121,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/android/ic_launcher-web.png",
+      "sha256": "a6359cbc4a9c9cfb577d86274d36b99365f0477aa6362fba5256e7a36799854e",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/admin.svg",
+      "sourceGitBlob": "998fabfb62e5eb834f54ace996f713324b5bc26e",
+      "sourceBytes": 1998,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/admin.svg",
+      "sha256": "cd259f84f5997e9970721834924796d67db7327e563e1e50c60d823fca68bbce"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/distribution.svg",
+      "sourceGitBlob": "79610d87e98215f306d87e20d7045307b6dbb974",
+      "sourceBytes": 1936,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/distribution.svg",
+      "sha256": "d8998515fbd338b95f1d70cff2e2a9fe856903b551bc18ed89a5b8a7489f3478"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/effect.svg",
+      "sourceGitBlob": "1bf4efdb86a79b59d0f66bdfec5fe8f3a8ef3b19",
+      "sourceBytes": 1903,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/effect.svg",
+      "sha256": "6b49546c58f237ddf94fd39e0638c213ec9cc807457f7453469179dfa061449e"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/file-image.svg",
+      "sourceGitBlob": "a0f2775d196bce30d7eb57acfda6079ae8af24aa",
+      "sourceBytes": 2124,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/file-image.svg",
+      "sha256": "d3448765ca12cd39334fd84a9101918a3431ca58e87d5abf4458f9d696ffef22"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/info.svg",
+      "sourceGitBlob": "b4a8d54a458a47b85ec33eac72cfd6fc5008a1cf",
+      "sourceBytes": 1884,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/info.svg",
+      "sha256": "356d3e072054b9a337e3ff730de57e5076ab1abfe3edcb5dc45acd5edda29f68"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/logic.svg",
+      "sourceGitBlob": "93fc13edd01ba28909f261cb61c57ae89bec5e77",
+      "sourceBytes": 2083,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/logic.svg",
+      "sha256": "c1095c40d51fcaa6bff83fc165a53d0059f822a20a9e2aa9889cab264df10580"
+    },
+    {
+      "sourcePath": "core/assets-raw/fontgen/extra/planet.svg",
+      "sourceGitBlob": "9bcbe643dea1dc6054c520e5338f7344db54bbae",
+      "sourceBytes": 2830,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/fontgen/extra/planet.svg",
+      "sha256": "f868651e949e76eb4b53dfbda4166b9d4625fa4982102933691003b9a4af7b3a"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/about.png",
+      "sourceGitBlob": "3943975b97dc93050702f1481ccf3d82cd8d9cf4",
+      "sourceBytes": 95,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/about.png",
+      "sha256": "5611b7b6990754c8e37dd171e49f795cf0706b3f0fc5234f9f94855910c57a3d",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/add.png",
+      "sourceGitBlob": "328c8ca46978e90084d228421b79b6ff8001414a",
+      "sourceBytes": 99,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/add.png",
+      "sha256": "74346795f3352f60d1668040f49dac198b582588f20b36d10ab8ea5c7a7905f8",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/admin.png",
+      "sourceGitBlob": "f4101c0423def7e4cdcdd6d79eb9e3110d5afe0b",
+      "sourceBytes": 3781,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/admin.png",
+      "sha256": "1b87b1ef280973ff22c679d75a195b39312fe209d7fa521e6d36e3bb67ff5f20",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/arrow-note.png",
+      "sourceGitBlob": "36dbf86c3ac137fe58db73717063d1fa38c3ddcf",
+      "sourceBytes": 411,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/arrow-note.png",
+      "sha256": "de3ff9644b4d4fc92fdc969239332a7ae10fd9dd8f3a2c9709d2b1cab4481747",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/book.png",
+      "sourceGitBlob": "a4395e4ed5bc8abe90c6cfd8c8c64636b0c7e83c",
+      "sourceBytes": 2389,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/book.png",
+      "sha256": "bc02c966fd5dd31d16b980419ff43bcd9fd495cda32de47ae144ab0d5e6c6de1",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/break.png",
+      "sourceGitBlob": "c4b079735c938909321754c970371644aba4790b",
+      "sourceBytes": 145,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/break.png",
+      "sha256": "41a0c2dbdc521b383f2c127ce471ac4dfb44cc1b9ce7c2e96763a18d0b0e3ccc",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/cancel.png",
+      "sourceGitBlob": "03ea12174f578754b7a4c6e589af8f25d7c9b54a",
+      "sourceBytes": 131,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/cancel.png",
+      "sha256": "1b5813185a6b900340656616482ffdde7e20b0cc2d934d6fbb600bec5d0b5b3b",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/changelog.png",
+      "sourceGitBlob": "e6fbf8d3c173baa30f3a22cdd47f137fe5f96e3b",
+      "sourceBytes": 1498,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/changelog.png",
+      "sha256": "4c1dee0ba6f64a0f6dcd9a58253a0676a18f4be069ae9fef97afb4064b569322",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/chat.png",
+      "sourceGitBlob": "85f52fa41c226888160175426b67b47b43712326",
+      "sourceBytes": 106,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/chat.png",
+      "sha256": "5acf13f47621650b117be6124d62b3f1da9446b04e04522479814b92dc7f9986",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/check.png",
+      "sourceGitBlob": "db96907362f6b72ecc5b1338259795883033edcd",
+      "sourceBytes": 1097,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/check.png",
+      "sha256": "823d9d2cd843cee7e287a1b197f6a95808e364fb176067f4d1f630f5c96b7a7f",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/command-attack.png",
+      "sourceGitBlob": "655f81933874497a30a1436f796ebf4fdcce1669",
+      "sourceBytes": 109,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/command-attack.png",
+      "sha256": "9084d87b594a693c870e088b8089af7ac5b57d9c62e9fa80d14b16eec08d2e6e",
+      "sourceSize": [
+        8,
+        8
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/command-rally.png",
+      "sourceGitBlob": "4271a5a321c23bebe747d301f6a19fafad79502c",
+      "sourceBytes": 95,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/command-rally.png",
+      "sha256": "49f3687757087ad4b9e1d47537919f3b41e4b3e75078798b3696f9df9c2d4bdb",
+      "sourceSize": [
+        8,
+        8
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/copy.png",
+      "sourceGitBlob": "0f03ee5d04608fe55e397a962ec3799a8fb478c0",
+      "sourceBytes": 120,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/copy.png",
+      "sha256": "88a118842047ef044acfaf635aa5e6fe9c0e75fe5b46a81d63eb3221c9d5e928",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/crafting.png",
+      "sourceGitBlob": "3f7022e87b5d3ab8efc690fa91c9b31ee0be1533",
+      "sourceBytes": 1535,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/crafting.png",
+      "sha256": "a38ccaec6e225cb3df2ed3dc1e8e20b08f762aa60262175d28429cdd0e96993d",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/cursor.png",
+      "sourceGitBlob": "1025a08a9eab8b62fde96fa9039099d358c7eda3",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/cursor.png",
+      "sha256": "7782d04f5ee9f568ed5006f1b07e2b10272219aa60b6227cb3ee085a57ebc7da",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/defense.png",
+      "sourceGitBlob": "694492a16077f8cab29303c70d576ee78b19edef",
+      "sourceBytes": 544,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/defense.png",
+      "sha256": "91de8fa4e6559e4e769bdfc0fef60eb650be50554474d7b6fe5a52e11aa417e5",
+      "sourceSize": [
+        8,
+        8
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/diagonal.png",
+      "sourceGitBlob": "262be1cebc1adf6d4ded13ddf23a0c23624f1dd7",
+      "sourceBytes": 1526,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/diagonal.png",
+      "sha256": "499100f5dffdcd81100a928e5cc5a8c4450ef798deef7ca6ecd5e7bb83e5a561",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "unknown",
+      "referenceDecodeError": "UnidentifiedImageError",
+      "dimensionEvidence": "PNG IHDR only; upstream Git blob bytes verified, replacement exported separately"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/distribution.png",
+      "sourceGitBlob": "3a202b38e8aa81ce104dbbdbed994a31301fe1f5",
+      "sourceBytes": 3281,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/distribution.png",
+      "sha256": "e130ee913f0dc22b2cb1edbe699b61b2d3d1f3dc659277cef66d9c310512f111",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/donate.png",
+      "sourceGitBlob": "cad39eb1ba9800e66f29e6b0b2995426879a72ab",
+      "sourceBytes": 3708,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/donate.png",
+      "sha256": "9f7ce2094fc4615e787d4e7786e808f831ab1157af2b4f70cfda59ccee3ee56b",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/dots.png",
+      "sourceGitBlob": "a8d656d6cc7fd20d25fc5605f058ba4a8f8cc535",
+      "sourceBytes": 95,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/dots.png",
+      "sha256": "f0a1cde48e618c9ef8bed329c4dc0766f09f3dcdf2c46bef45e8465a5fa458be",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/download.png",
+      "sourceGitBlob": "d6f5700c7f8635bb7b5e060b403af44ed9aa5366",
+      "sourceBytes": 160,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/download.png",
+      "sha256": "71c3a60cdd28788bc88c25e95d0a6c881bd1012fa74533289c8e9a33a1f4fa0b",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/editor.png",
+      "sourceGitBlob": "6cb0a64f9fd31902668680514a1de171e357515b",
+      "sourceBytes": 2523,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/editor.png",
+      "sha256": "e9e4955f1f7c146b7e21a93db905e076a993440da430fe6c9d37f62ddc0cbca6",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/effect.png",
+      "sourceGitBlob": "212034645bc1fbafbb8d67bac28b02640cef46ca",
+      "sourceBytes": 2141,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/effect.png",
+      "sha256": "5765a4057cb49a9778b4d32444ac076705b92fd6f35438d75da847cc4bd2f0cb",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/elevation.png",
+      "sourceGitBlob": "cbc30c8cc12572b9fd3d914a6988d6def7c23ff7",
+      "sourceBytes": 109,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/elevation.png",
+      "sha256": "6e2318abe4a0724e9041ecf6fcb7f83db19ac6d43e746ea0bad7c9c203169505",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/eraser.png",
+      "sourceGitBlob": "fc72acc9f233875e1dd6d5fac34359c0de745d87",
+      "sourceBytes": 1338,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/eraser.png",
+      "sha256": "501b53fd07bb04706700d23a8835742147a35a4a9dba1b4032e1805302608358",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/exit.png",
+      "sourceGitBlob": "e5cc257e39bced8951d43eea7ae34177ddba6f5d",
+      "sourceBytes": 161,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/exit.png",
+      "sha256": "66fdac301a606b3795a455a2fc0f851f3aa8779b219f0763f1ff70cc722257ba",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/export.png",
+      "sourceGitBlob": "4607f74b75849dd2de6fe0a028bfd8617b2e81b2",
+      "sourceBytes": 168,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/export.png",
+      "sha256": "635d5dd1f2f6a26b4faef90479bf01706815858a9f2f271f0efd26203bde5c89",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/eye-off.png",
+      "sourceGitBlob": "cf304c9f77c5eed312a160333da181e1af57068e",
+      "sourceBytes": 548,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/eye-off.png",
+      "sha256": "a851f22f07661726326111e57551f8daa13b6793167c0dfd92552cc8c2d523e0",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/eye.png",
+      "sourceGitBlob": "1a14383523c6867f200622deccb4844aca6ef706",
+      "sourceBytes": 540,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/eye.png",
+      "sha256": "4511958301564700c52336a7a39c5669f67a895be0aaa6adecf1b453c3fc3be2",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/fdroid.png",
+      "sourceGitBlob": "24c7cb884d589dbf3e473c4fb4cb8db916bee7c9",
+      "sourceBytes": 1762,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/fdroid.png",
+      "sha256": "7dc4d9018fbe04172406b1e0910e327296883ae9843ff18f289c03529d810dae",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/file-image.png",
+      "sourceGitBlob": "254ea95f3d02883d6135288b8dd4d1414e493f16",
+      "sourceBytes": 129,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/file-image.png",
+      "sha256": "466d58c62e3176a2503241a21378892ebe881d6e911cc8aac5bfb67ae956e60f",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/file-text.png",
+      "sourceGitBlob": "41b4fbc342c062e229cc6c5a68f720140a3d45eb",
+      "sourceBytes": 116,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/file-text.png",
+      "sha256": "3f83ec150af37c250f181416b9a1a20c58f7fac0c818d4afdc0b52a35daeba49",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/file.png",
+      "sourceGitBlob": "0f41e17cbf202a9441ed53ebcb0b6c94bb4d5940",
+      "sourceBytes": 111,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/file.png",
+      "sha256": "c2d820734ccc083b4625b62dd6651d2be60659b0465eb27264a813feab97a833",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/fill.png",
+      "sourceGitBlob": "79bc8b2c3952600884106e3e50aed9d92b7a3836",
+      "sourceBytes": 141,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/fill.png",
+      "sha256": "e44dcd9c4c3c311051d6454956ab6577f0f3d32f083d3b51cbf1fa5490b77c05",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/flip.png",
+      "sourceGitBlob": "d81d7414341c073de398ac1eecba89a82b7171c7",
+      "sourceBytes": 4349,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/flip.png",
+      "sha256": "ec832aebd9c4c8199710a2d062753bc8ea4cbd70333a3efb48eb4612376669b4",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/folder-parent.png",
+      "sourceGitBlob": "160f2be90246e6e12d344f122bb8e0a68193c0b1",
+      "sourceBytes": 115,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/folder-parent.png",
+      "sha256": "e2ef55c4404f48b4d475d509dbd9629ce9240b6e845e92fd0fdcc963fc64d1ea",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/folder.png",
+      "sourceGitBlob": "c55313ef324824f8a668e06c2f7e155b258598b0",
+      "sourceBytes": 99,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/folder.png",
+      "sha256": "ac4db741d326d4be43395942341966f7810dc58786fa4deaa3dd7670632f702d",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/grid.png",
+      "sourceGitBlob": "5427571a1610ad52c0529c2a029603eed4f32122",
+      "sourceBytes": 114,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/grid.png",
+      "sha256": "4d0796fd25deb5b00fa0537a83ef808c967723dec11abca0486160f4e3e61cb6",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/hammer.png",
+      "sourceGitBlob": "1ee4a5c3bff128731c76e0740459c5c77ccfe9f4",
+      "sourceBytes": 166,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/hammer.png",
+      "sha256": "0c63b964f00c45f03faee0c5ed8b4db41cc2031b12edff01d517acf9f92d95fd",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/home.png",
+      "sourceGitBlob": "b97dba2a11b60ea144edb01c5a3ce09298213358",
+      "sourceBytes": 105,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/home.png",
+      "sha256": "9c504dcf93214c67c7992b043fae4126c469b4e1ae66bfb1a723e1eae5788f0a",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/host.png",
+      "sourceGitBlob": "6253c986bd25a1c642b26e7ce336c928904ad90f",
+      "sourceBytes": 107,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/host.png",
+      "sha256": "3ca88bbe7f1ae6a1e2bb0ee8b6ec125acb08892c0dabc2e868d6262aa07d35f4",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/info.png",
+      "sourceGitBlob": "7e2bb400376e2e6b14a14598183571f86a3a1ce2",
+      "sourceBytes": 2355,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/info.png",
+      "sha256": "e2ec3b2e4ce3bf3e7b102bd10a80f0c4732be4411d10c0c15c62e04c77b12ae1",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/itchio.png",
+      "sourceGitBlob": "ec92eb3725af699d64aeba8a18ed749275004d68",
+      "sourceBytes": 1474,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/itchio.png",
+      "sha256": "3548792066fc99368e384bceaeafad36a908b5617abd8f2faca0f289a5ed89f0",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/item.png",
+      "sourceGitBlob": "9dd6da22498f84a85f4ae24f3dfa736cb5b55de6",
+      "sourceBytes": 112,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/item.png",
+      "sha256": "9ccce643b2c11bf9380b57949f6591aa3149de9632310a9ff63871e19a3bd5a0",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/line.png",
+      "sourceGitBlob": "5ce2cfdc7882d9018bf2f813b7af35ddac48a7b4",
+      "sourceBytes": 128,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/line.png",
+      "sha256": "2cda4071992e636d0465d3a94a7ba0f9a74c756d5d1ee0d62a819da3945c884b",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/link.png",
+      "sourceGitBlob": "71446afcc070ebdf8a5701871d9aff8fa23e3c47",
+      "sourceBytes": 139,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/link.png",
+      "sha256": "da7daf70aee0197a7929f1d3163de1844d7667a5c3cef7228b60d78b494d49aa",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/liquid-consume.png",
+      "sourceGitBlob": "48c93ed9d2b8efc2fe381c718d8114bed0465853",
+      "sourceBytes": 110,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/liquid-consume.png",
+      "sha256": "0c210434975abc66f6b05977fcd975b60138bd5da2a47ec1795e4606f53c002c",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/liquid.png",
+      "sourceGitBlob": "41fe7d5f9236a10a8a5f8daf3f884bbdd651f465",
+      "sourceBytes": 551,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/liquid.png",
+      "sha256": "6804d88762a57351180315c7db7dfed90394c98bd5186572578d4668216ce3b0",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/load-image.png",
+      "sourceGitBlob": "88a162b628c9a137344e3accc4ecc7a7f18e52ac",
+      "sourceBytes": 134,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/load-image.png",
+      "sha256": "38c15324afb56ed479da32a0b03e6752ffd3a93c92635f402abeaabbba61d115",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/load.png",
+      "sourceGitBlob": "ecbd0c08cffb3c8d14e17e713f8269c19c45a29c",
+      "sourceBytes": 124,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/load.png",
+      "sha256": "c9249c8d2468cfce0ad2c2f2936348cc767a87aac0bd0f7c7272a112fc4c0d23",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/loading.png",
+      "sourceGitBlob": "0fd2d5265dc611c182fecbd9306cbc5bfb997808",
+      "sourceBytes": 1355,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/loading.png",
+      "sha256": "5feb29b34d24688fa33db7087dcf00a3c0ed9b8c5bb2a596aab285e0b72bf9b5",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/lock-open.png",
+      "sourceGitBlob": "36b637b0b9ead71d4631d67b2db46b55f1a81190",
+      "sourceBytes": 122,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/lock-open.png",
+      "sha256": "7825c1285c856f2f91df5596b8108c7cf669851aab1fa30cb70550d613aef276",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/lock.png",
+      "sourceGitBlob": "cf438bcd9c0a8373e3a285ce42c13aa2add5c2e0",
+      "sourceBytes": 551,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/lock.png",
+      "sha256": "d733474674efff6a88c382c54fb466c9db5f4016e889fd8323cfb4dba517e51a",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/map.png",
+      "sourceGitBlob": "92ff76d74f628ac79dc1f36627704e57ba4b2e50",
+      "sourceBytes": 2409,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/map.png",
+      "sha256": "b6c819f7ceceaf1f52c19126dd98f34b2b8c05790706895dc00df1136e639f1f",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/menu.png",
+      "sourceGitBlob": "0469f997211e19df410e1b59475b5030172e560b",
+      "sourceBytes": 97,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/menu.png",
+      "sha256": "5cc07f39f3b39ca39cf0f61e07c05926063e10c658bda0144f855bdcb963bbf1",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/missing.png",
+      "sourceGitBlob": "6a9c5d9012e5755cbc54b6a700f0145a1c08dfdf",
+      "sourceBytes": 117,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/missing.png",
+      "sha256": "514c94fb18a822ae1a1e96e8fc43a5e44e22c7eba7de262ccd4450d46c0a42f0",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/mode-attack.png",
+      "sourceGitBlob": "c6aac862591c7386c5876b464e8d5214c3b95d15",
+      "sourceBytes": 1356,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/mode-attack.png",
+      "sha256": "425c5e1c900f9bdb7e7d25488861caf8e569e840faf0711c1a8edee01ba5198f",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/mode-pvp.png",
+      "sourceGitBlob": "3a0c63ceb6af35952c29c52120fe7f3f4a3baf55",
+      "sourceBytes": 2202,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/mode-pvp.png",
+      "sha256": "9b0624bdaa8931b696e3650f15b79f73a435b4b9a2d4dce4c76ec4000a36eefa",
+      "sourceSize": [
+        18,
+        18
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/mode-survival.png",
+      "sourceGitBlob": "c88da7b3b6a8ca0ae464ab4d648083f808620724",
+      "sourceBytes": 1338,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/mode-survival.png",
+      "sha256": "3718628d8042a81107d86e5f3e6f717548f9592745b3213abf955cc86320734c",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/none.png",
+      "sourceGitBlob": "fcf22bc9dacaf5aa82c3a2927fb490c497b615bc",
+      "sourceBytes": 125,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/none.png",
+      "sha256": "34d8f3a017a9c3ad5132467d9e6de825f25817b09cb7bf445f33ef08b87d499e",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/paste.png",
+      "sourceGitBlob": "606165ed342024f089f6c7ec8e468631aa065ccf",
+      "sourceBytes": 118,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/paste.png",
+      "sha256": "ae2ba617948ca0ccdcb2de286bb28f319eca338a5f28773816b62cae11d74ef0",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/pause.png",
+      "sourceGitBlob": "7471836eaaf369540b7e35eae92c22c0c9abf6bb",
+      "sourceBytes": 93,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/pause.png",
+      "sha256": "0c48241f8914065d6e314e833bc297d3b15a8e522c70167674dbb0ad89a9e66a",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/pencil.png",
+      "sourceGitBlob": "053a283d08a63ebfb029c3eb8e8d3ec0aa46b574",
+      "sourceBytes": 1359,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/pencil.png",
+      "sha256": "c1c6640c8d9a41d9e39e771facfb49e3d7c3034ddf3e40b8b020edf3cecf50f0",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/pick.png",
+      "sourceGitBlob": "dfd77430307d5121a0beadda9c57c8102362ee08",
+      "sourceBytes": 1347,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/pick.png",
+      "sha256": "dd7e10b1be779c20fd1665f710a38a3db37e2c2a4c1f38893932d25e4e38c272",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/planet.png",
+      "sourceGitBlob": "6a5c136add32189c84ea9a0884da3a44a05484d6",
+      "sourceBytes": 578,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/planet.png",
+      "sha256": "d02beda63e9a05bf50c812699f17dacebb0efafcb46249668f41df0ca53c5a5a",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/play-2.png",
+      "sourceGitBlob": "c001e60b04b10a81bdddc4af8a58c12de957689b",
+      "sourceBytes": 123,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/play-2.png",
+      "sha256": "29a24706049d0ecebdd6e03c46fe2b017f35984e374d7daff4a141894bb7f110",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/play.png",
+      "sourceGitBlob": "8530e6b09d4f6bbad4ed2a8885e2cc50e430b927",
+      "sourceBytes": 104,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/play.png",
+      "sha256": "01d13772893ee94bdf2146953d75a5134eaecef280c8b600eed668a3c2849496",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/players.png",
+      "sourceGitBlob": "be4746291fb55f4bbae8f0b688d51809e45f3610",
+      "sourceBytes": 105,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/players.png",
+      "sha256": "f9272fcfb3c01348d64ae1f35341b7a27a3c58a27b3332b6361ed29ab8c1db24",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/power.png",
+      "sourceGitBlob": "149248be305bdf948a5683ccd39ea11e907746d4",
+      "sourceBytes": 511,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/power.png",
+      "sha256": "c13911ce9baeeb68da14f8bc16cf84f99d47ae9360b7c90f1e1272c9ef35c623",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/production.png",
+      "sourceGitBlob": "fe6c3523c03e66d835c2fbc96ae571549c6c35ab",
+      "sourceBytes": 1789,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/production.png",
+      "sha256": "b77384a36e539c7f825970bd3d9b07dacab1affa277ceb09dda469f82058eace",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/quit.png",
+      "sourceGitBlob": "26a9634945837c2b3c0982abd993a639bd9b3156",
+      "sourceBytes": 129,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/quit.png",
+      "sha256": "14ff630df82b0618c8bedff730187e803313cd77e4986013311bec9d9f8e61f3",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/redo.png",
+      "sourceGitBlob": "4c53eb56ef30bf2fe4132e9a57fd3feae3acc0dc",
+      "sourceBytes": 1344,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/redo.png",
+      "sha256": "6e4cad64ac00afae28509f5243114125b865f9b3a1c3da0e0470235887be6149",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/refresh.png",
+      "sourceGitBlob": "cd1050f017944cf091242a91c983a6ba5631d6ea",
+      "sourceBytes": 4011,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/refresh.png",
+      "sha256": "d4b5f9637926396717b3cac847a29afc0c3f3a63e0ea071f3808f0dd5279cf00",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/rename.png",
+      "sourceGitBlob": "4a6731a31b8bc44754431fc05438225a072199fd",
+      "sourceBytes": 92,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/rename.png",
+      "sha256": "233d8b40b5a5c40372a1401aebfdd17ffe0fd53e2258b7cb373928fee74dce2c",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/resize.png",
+      "sourceGitBlob": "ee53c8470f640dcd280f402bbd94e85fd3bb96a0",
+      "sourceBytes": 133,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/resize.png",
+      "sha256": "32c1089c526cb1dac8a7c0800ae52ccb2e36ee93225108d09b5b6664daeb2785",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/rotate-arrow.png",
+      "sourceGitBlob": "22039f30208b4b9b9b294f9ccc967a764772193e",
+      "sourceBytes": 118,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/rotate-arrow.png",
+      "sha256": "d89f72e6c349d4f280bae714c1f45dcd49e1f2f64ebc9fb79f52277be7c2abbf",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/rotate-left.png",
+      "sourceGitBlob": "9b05efec5f389430dad439ec6ec7a208e096a7cd",
+      "sourceBytes": 111,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/rotate-left.png",
+      "sha256": "c6b0e6cc67e7c807cab9f37ab23b72776dd5cd6a9e2d57499a508f2a1fb2097d",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/rotate-right.png",
+      "sourceGitBlob": "2009c9394d8582b8eba8dc2344c1726742ed56f2",
+      "sourceBytes": 114,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/rotate-right.png",
+      "sha256": "028c435ec0649d0bb4dbccd07de9b523e6ad089d75ae9b013a76a1ef59efcd86",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/rotate.png",
+      "sourceGitBlob": "3c989a555f5bfd7c405a389424c7729b849b0f74",
+      "sourceBytes": 103,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/rotate.png",
+      "sha256": "03ecb35852ffc5aecbc380d9dae736e04b2f8bceca0a8c6fd53626a89ffcda63",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/save-image.png",
+      "sourceGitBlob": "5234c4f2f4c125bdacf39f7bde5f6cc2af24d49c",
+      "sourceBytes": 132,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/save-image.png",
+      "sha256": "b43c7546277797007298219e0c4c309e58767c282fde45ba5f3ce7d36fcdb1ad",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/save.png",
+      "sourceGitBlob": "e8ba657ab7b91f444943a07b5aabbe693d3a3a1d",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/save.png",
+      "sha256": "ca8184d424a7e4fde5ed2a37147080aedb88b3ff53d7811b56d99d93bb00cfaa",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/search.png",
+      "sourceGitBlob": "02736c1a4b5580d92e25788452f0cdecf53c9341",
+      "sourceBytes": 1351,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/search.png",
+      "sha256": "7a5fdf14947386a18979087071251843d8f3ed9b0a48ebe1086f76beb44eddfd",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/settings.png",
+      "sourceGitBlob": "2653418e1998d7d7bba36364b341f0cb8e0ac617",
+      "sourceBytes": 136,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/settings.png",
+      "sha256": "213c7add95283e70f6b698c0171fc6ff4095aa35ce3be5e385adbc71c3e8fab5",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/spray.png",
+      "sourceGitBlob": "17198d657b0a9fa85749d9d529f639786f941dfa",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/spray.png",
+      "sha256": "63aefd1a890927e7b9b3024a10279d5a8f8dae6764b39e5e770f34caf73f405f",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/terrain.png",
+      "sourceGitBlob": "a9bd73972e6e3b26cdc7f7c58825152d9db56f58",
+      "sourceBytes": 532,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/terrain.png",
+      "sha256": "694aba3bce1f68d92db70a2fcf44088124e6e48554f0e14172c387dfb4dd0f6d",
+      "sourceSize": [
+        12,
+        12
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/tools.png",
+      "sourceGitBlob": "2ece1ae8f450070e3955cfd725fe840086fad868",
+      "sourceBytes": 4557,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/tools.png",
+      "sha256": "38db486a8617fb442bfa99920fded4268ddf9db8b94ef3e9db4c1d724552e5e3",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/trash-16.png",
+      "sourceGitBlob": "a1de49233bdf9cf765b12f23391031ba163d181d",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/trash-16.png",
+      "sha256": "e3e852d0c0d1e6ad2bc1bf3dc99449712d2e3c825b6750498f4bf886daba8e17",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/trash.png",
+      "sourceGitBlob": "e0f419f2f38b1c379817f37bed824d2e9bf729e1",
+      "sourceBytes": 115,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/trash.png",
+      "sha256": "d383d6ab3df05c2893112524e23673b120e75de0470b0970bd2e6eb44efa255d",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/tree.png",
+      "sourceGitBlob": "0901a7a72194831d630570067499d12f14a80975",
+      "sourceBytes": 156,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/tree.png",
+      "sha256": "8095afab450064b35cbd1d0ce27de85e9fe17ba61c838abe2406e34d1ca09041",
+      "sourceSize": [
+        15,
+        15
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/turret.png",
+      "sourceGitBlob": "32fd01b464fd55c2b2efad90d641948684f31477",
+      "sourceBytes": 2488,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/turret.png",
+      "sha256": "0de3420dbb7dd9f4aad39b5535f14d8d8413e8f7c47c640efe9dfe2943887c93",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/tutorial.png",
+      "sourceGitBlob": "40ba90a5e4060098da56631d66634807b5142ec3",
+      "sourceBytes": 147,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/tutorial.png",
+      "sha256": "512efc10986a4e9bd4d02f190f0b9868282778174ab844475c7e85c24b8b261e",
+      "sourceSize": [
+        14,
+        14
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/undo.png",
+      "sourceGitBlob": "cf5dd4c1546284a5a74bf7e53208dda21ab793a4",
+      "sourceBytes": 1344,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/undo.png",
+      "sha256": "194301b8000b758f3af3e837f7678e7d14296a211b72c4c9523d3184cd9092a3",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/units.png",
+      "sourceGitBlob": "1ee9cd9f554285f0a199d923b65aa83035a26fed",
+      "sourceBytes": 2234,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/units.png",
+      "sha256": "05b9fc1906f639f4a5465afb640ee4d5cf3bf3fad720e33284bb28764ca08674",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/icons/upload.png",
+      "sourceGitBlob": "b8e4c1d7257445576bfbba3decd6f48e772967c5",
+      "sourceBytes": 158,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/icons/upload.png",
+      "sha256": "bb85083bb23726ad81a32cd3834e7822fd6f681afa19885a45c4a6a14d14e3ff",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/blocks/extra/block-border.png",
+      "sourceGitBlob": "daf204a949a233e480e5d52885b9d913482ca2e9",
+      "sourceBytes": 146,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/blocks/extra/block-border.png",
+      "sha256": "32a4bd746ddc0229fde9e8a7d895885949abec8e39676302f6d6f2dc87633606",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/blocks/extra/block-middle.png",
+      "sourceGitBlob": "2a856aef48fe6828531b1b1afada12016c15520a",
+      "sourceBytes": 107,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/blocks/extra/block-middle.png",
+      "sha256": "06ae4bb1eb4f7d7aabdccad365d65b1c7f226b4fcb5ea1f10660908a1371a721",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/blocks/extra/block-select.png",
+      "sourceGitBlob": "62f6a9576fb40ef6455d24ed9085d017a626dd82",
+      "sourceBytes": 158,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/blocks/extra/block-select.png",
+      "sha256": "05919adad55df71d393434ff460b372ff7e58f161df5dd0b2f80488a2fac1b03",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/blocks/extra/place-arrow.png",
+      "sourceGitBlob": "a5004f1232b1c7a3e8303f2fd390c175fe7ef481",
+      "sourceBytes": 540,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/blocks/extra/place-arrow.png",
+      "sha256": "bf6d1cf3926b3e878e6618e18efab4551dbed1599fb9fc581f7197eb3085bcdf",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/alpha-bg-line.png",
+      "sourceGitBlob": "02becdcf15d341425465a6016adb307c6dd87c61",
+      "sourceBytes": 1331,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/alpha-bg-line.png",
+      "sha256": "a7bc9f7b7fb07c19e48ad44e6d4199a98030cf0da987d5fd5abfe0e5bc965240",
+      "sourceSize": [
+        128,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/alpha-bg.png",
+      "sourceGitBlob": "22a7e1eb92bff491638c7ac343885b93c21ce6a6",
+      "sourceBytes": 333,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/alpha-bg.png",
+      "sha256": "26c531f0cb35bf1d3935a1bc19fc240e114c91c36cc42fbe4439348fcead7293",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "sourceMode": "RGB"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/alphaaaa.png",
+      "sourceGitBlob": "36c7491b119ac0af89639f3357317358e2556c1e",
+      "sourceBytes": 10765,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/alphaaaa.png",
+      "sha256": "e3ea4efe36bc7654f0edfdefbdaf82890ec718f1840b7ef06e275aef72eca086",
+      "sourceSize": [
+        40,
+        36
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/bar-top.9.png",
+      "sourceGitBlob": "e06822ecf0444b51c7bf591c22257e8eaf9d8c7d",
+      "sourceBytes": 169,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/bar-top.9.png",
+      "sha256": "d8e97be2435f6270fafac38eb9cfe71e154cb66d33998fa1d2952aa053554d7f",
+      "sourceSize": [
+        29,
+        38
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/bar.9.png",
+      "sourceGitBlob": "5e9ab3f2a0d45775828863d9f130e8c431be39d8",
+      "sourceBytes": 184,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/bar.9.png",
+      "sha256": "895b4083980a79a0e2cc59e108d0bfea9241f9a680ffdbc84f27121611bb1b6e",
+      "sourceSize": [
+        29,
+        38
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-disabled.9.png",
+      "sourceGitBlob": "a1532fa6e9605e4acc72deeb4de5e0485d8e62c9",
+      "sourceBytes": 199,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-disabled.9.png",
+      "sha256": "c264390f6ce4b5685397d3983e167e1fa4254563183328bf2110a339c486e6c0",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-down.9.png",
+      "sourceGitBlob": "f566ef953450bbb410ef673aab4f5d784b898c4e",
+      "sourceBytes": 326,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-down.9.png",
+      "sha256": "ec0f08af7cc34a0b683aba735a9f9014be2a0a1fb914e216ce298ddb7588a228",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-1.9.png",
+      "sourceGitBlob": "af8447dda1422c732319a3f4b5f3957a87db8f19",
+      "sourceBytes": 183,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-1.9.png",
+      "sha256": "37242eb8effcf17f614b47b797e70d8d2e22b22e1f8944aed7252afadb49315e",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-2.9.png",
+      "sourceGitBlob": "1b8702a15ae242a3b9c8f1c0dddaf3774cc8d61c",
+      "sourceBytes": 183,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-2.9.png",
+      "sha256": "2c3fbab8f29a3e84b6ebec6c794d7546ce6200bff8677457495b63f2d45945fa",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-3.9.png",
+      "sourceGitBlob": "b54c7911636e23980c051f7e5ea5c55c8a30134d",
+      "sourceBytes": 159,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-3.9.png",
+      "sha256": "fba6af412f3e4585efca653f76684a21df08686a142e9093319222b7b1cab463",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-4.9.png",
+      "sourceGitBlob": "c80ec376f6305adbff5cc4c909af7435637f0334",
+      "sourceBytes": 184,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-4.9.png",
+      "sha256": "35d778419e412e74d6ecaee3c07ac603a06970949d93fce931ebbd9cf45e7ee3",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-down-1.9.png",
+      "sourceGitBlob": "14811612f75a2e16735db027d0676e4024311133",
+      "sourceBytes": 250,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-down-1.9.png",
+      "sha256": "e723250c15e382cfa4df95f204883f062e6e91f9a9ad1d967d42394fc22f4508",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-down-3.9.png",
+      "sourceGitBlob": "0bdf193a9725da84a0a039cc9f3dd1b8b5e7416c",
+      "sourceBytes": 218,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-down-3.9.png",
+      "sha256": "484bd1eeb9fcc26d17b3edd6dcc4edf2192a1435faf3c7c0ab8240c558b81f53",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-over-1.9.png",
+      "sourceGitBlob": "11e9d35f69cb4c1b4f2b6ff922c5bb7220557a9b",
+      "sourceBytes": 258,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-over-1.9.png",
+      "sha256": "1c68eee75e976d18bdcb1fd99d983955be3d87375a830ed8a8ca3fda5c9911d4",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-over-3.9.png",
+      "sourceGitBlob": "5137b12671c36e3b5ac5a67b335380c9f5dca88e",
+      "sourceBytes": 228,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-over-3.9.png",
+      "sha256": "bb7631aa80feb4406c909b4dad3d44e48286ce7ae34cebaca593a7ab873580ae",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-edge-over-4.9.png",
+      "sourceGitBlob": "ab288bee1383c14e80e5ef73977592a8b74515c5",
+      "sourceBytes": 183,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-over-4.9.png",
+      "sha256": "aab03f067ba6362f794cbeb3ad460dbf556716f203f0a92c3275c329c32c9bca",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-over.9.png",
+      "sourceGitBlob": "c88fe60f909ae67f4f07a03a86fb3322f02e0c9e",
+      "sourceBytes": 318,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-over.9.png",
+      "sha256": "f8281608dda7a45b39cc553b4ee01035abc855e91c0f4f8157433b56e3ad8fff",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-red.9.png",
+      "sourceGitBlob": "89098436ffd3e4bf7b786cbd81ea23c017370428",
+      "sourceBytes": 217,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-red.9.png",
+      "sha256": "48eaff6e7dbf16c65605e7f0995fbb4f0199128fddbd1483fb327cd38316b851",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-right-disabled.9.png",
+      "sourceGitBlob": "4201ec590a65bba639d3f93acd52838db57c5d45",
+      "sourceBytes": 241,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-right-disabled.9.png",
+      "sha256": "51544c4ab59d6b4c312210ab6a7898a5de5dfb09425f65ea08fad724b35b69b7",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-right-down.9.png",
+      "sourceGitBlob": "e0f26e84af12c68d742457b64e2468e56eaad2d8",
+      "sourceBytes": 232,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-right-down.9.png",
+      "sha256": "db7f4d8248ef3eed7841a24bf5cd54e0d64775eb5c182ab7fa6313b5d8b97cea",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-right-over.9.png",
+      "sourceGitBlob": "af7f6d1d6d338d9c0952def72fda75222713de88",
+      "sourceBytes": 257,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-right-over.9.png",
+      "sha256": "0663385da04b29831febd74128a66a256eaf54ddebe6c6169d25102a65d33361",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-right.9.png",
+      "sourceGitBlob": "2fd7ee856dc6dc74300ee99084913e361a576b0a",
+      "sourceBytes": 250,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-right.9.png",
+      "sha256": "533b0e7d0e65318c5cd63e8d1fd48041d9073e0344b6f4060051fb94738f3eac",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-select-trans.9.png",
+      "sourceGitBlob": "65c60f4aff83fd9f77bc75ad4007d495ed277af3",
+      "sourceBytes": 163,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-select-trans.9.png",
+      "sha256": "86341fb89e62c639be12e5af80eef00f20e57ee41ce35e8f87080300719e3495",
+      "sourceSize": [
+        26,
+        26
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-select.9.png",
+      "sourceGitBlob": "8011cad610ed7999b0c83dde4a43cf84ff50022d",
+      "sourceBytes": 112,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-select.9.png",
+      "sha256": "3683a4d75227dba16b78b4b307b2c8f5c8694a9de81c9e0f068f8a86ed8f0e1e",
+      "sourceSize": [
+        26,
+        26
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-left-down.9.png",
+      "sourceGitBlob": "77135c13a714eda84f8fad16a5b76e12109f1263",
+      "sourceBytes": 278,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-left-down.9.png",
+      "sha256": "503fd7566937ca20a3906b42f24624dfb75d432381f9d660775b48608e13aca7",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-left-over.9.png",
+      "sourceGitBlob": "344289a29f8874a4e32c34f37f407af854732247",
+      "sourceBytes": 272,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-left-over.9.png",
+      "sha256": "feda5e7fa441a2037cd20d0b812e2ad7c03501324ec5edf8e0f636e3de8d2db9",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-left.9.png",
+      "sourceGitBlob": "7b59f1d3b2f7cb1d716c3c67bad5c4e878fe630e",
+      "sourceBytes": 273,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-left.9.png",
+      "sha256": "0e3aea726bfd058c5c78ec3f69fb5f07e049a7db8cb13da7a881829102d9f4be",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-right-down.9.png",
+      "sourceGitBlob": "aa34b5e53f7a314de1e849d0cabd4e91a955a2d6",
+      "sourceBytes": 280,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-right-down.9.png",
+      "sha256": "6ff693b8cb301d241e62f774d9ff8ed6d6892f90985a4255d3bb6303c93414d4",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-right-over.9.png",
+      "sourceGitBlob": "dad0de712ecfa0cd42bbe17b0a43e81363bc93c0",
+      "sourceBytes": 277,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-right-over.9.png",
+      "sha256": "318a504fc3876e42dc28af551f763f72e4d0f2982c90ae2686d9b39cc244b201",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-side-right.9.png",
+      "sourceGitBlob": "32123ba7d987446d5fbfd08589a180426faabe24",
+      "sourceBytes": 276,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-right.9.png",
+      "sha256": "d4f806f1b2c26bfe393f3be07e749f80adb18e3668b38031a2696d427c33f157",
+      "sourceSize": [
+        38,
+        28
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button-trans.9.png",
+      "sourceGitBlob": "fc179a9e9f32c0a2375c643475011c032f768b3a",
+      "sourceBytes": 210,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-trans.9.png",
+      "sha256": "cea3ae758dc15432f1e74a2d11b7ca6c66a509f3e40ae9d7ccb45d987b8e62a1",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/button.9.png",
+      "sourceGitBlob": "8a01a045d13fb4798261df42b1125e41d6b605bf",
+      "sourceBytes": 313,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button.9.png",
+      "sha256": "1b34bb342d00181c15c49cab73fba9c4122719bc116761ac78b36301dff3857f",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/cat.png",
+      "sourceGitBlob": "cdc94db9f9811319432d9aa19ccdac0bab23a248",
+      "sourceBytes": 20911,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/cat.png",
+      "sha256": "3b4da68d109fe2c02b210cec34845cf9156a961e82567369f298bd908a63aa36",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGB"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-disabled.png",
+      "sourceGitBlob": "a2f6137cbfbefb010893662eee373abc2dc07210",
+      "sourceBytes": 211,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-disabled.png",
+      "sha256": "c3bb053f7eb4f55a4e4fb269ffbd370e9d76dbd17570162a535b2b0fba287c7e",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-off.png",
+      "sourceGitBlob": "94deb45bb77713e08ba673805233ef3fcda66f77",
+      "sourceBytes": 233,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-off.png",
+      "sha256": "b0277087a3506b996fbd654f5dcfe7d0b2f63e4fc5e88e825fb7e61bec56c9c6",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-on-disabled.png",
+      "sourceGitBlob": "f42ee9409c2721dd37064271a00860ecb4fea4f7",
+      "sourceBytes": 241,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-on-disabled.png",
+      "sha256": "0d2d2fe9c07960641198c87f54ba2d13f5e159b3145632e22fa92c082fe0652e",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-on-over.png",
+      "sourceGitBlob": "6b5d91a61e79b7f03b8c03a582b12588c6e810b1",
+      "sourceBytes": 246,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-on-over.png",
+      "sha256": "b8dd99d219020dbdc4c831e3b607e79c9f0bbd5166a33e41eab5e04f0e0cb897",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-on.png",
+      "sourceGitBlob": "807abeaf6bd0d5e6cf520b335559ba365e4e3239",
+      "sourceBytes": 248,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-on.png",
+      "sha256": "21ec9119753f47f38902ae5933badd85793981c226c5f0666674d1605a34a252",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/check-over.png",
+      "sourceGitBlob": "64cef03a18f38cb1a4a87112cc77b8eb37270bdf",
+      "sourceBytes": 230,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/check-over.png",
+      "sha256": "79ffeb17b41a30d71a519b13a8e155210f58ce211070c5638fd51c616da281ce",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/clear.png",
+      "sourceGitBlob": "9e1edf5b137885e007b10f72219cf81a75e188f9",
+      "sourceBytes": 90,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/clear.png",
+      "sha256": "02e3984f253ac2d7c7c7d9a0d6fff1af5a603f224b6f3d9c0651115fcc3d3764",
+      "sourceSize": [
+        10,
+        10
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/crater.png",
+      "sourceGitBlob": "36fd7287ff6324c75043f0e2928e16eb3ff046c3",
+      "sourceBytes": 9305,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/crater.png",
+      "sha256": "947bc9d3e540b7968021e16938d4076da0eb382df494a0d0534a9293db8aa62c",
+      "sourceSize": [
+        18,
+        18
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/cursor.png",
+      "sourceGitBlob": "83efefe2b39aa001add44595d999cbc26b30e6cb",
+      "sourceBytes": 79,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/cursor.png",
+      "sha256": "817aa992f00c37512531dcf31eab10a3658e13cf1cbc13da6447d57093da7739",
+      "sourceSize": [
+        4,
+        4
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/discord-banner.png",
+      "sourceGitBlob": "49efc827119bd0c017476cfce42aad44af844778",
+      "sourceBytes": 338,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/discord-banner.png",
+      "sha256": "33e89c06db6c7977bca4119084c2f1faa02784a1fba83a32ca96fb754d21cd42",
+      "sourceSize": [
+        89,
+        50
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/flat-angled.9.png",
+      "sourceGitBlob": "a9919160e6007ec192e36d26d80b694f55fb5631",
+      "sourceBytes": 269,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/flat-angled.9.png",
+      "sha256": "bcf73dbac9c3435d9682b970d9424a8689b799a69be0e64e971b74b8a6078e95",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/flat-down-base.9.png",
+      "sourceGitBlob": "9a96a4a2cd6a824f79298220222eff24d1242241",
+      "sourceBytes": 149,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/flat-down-base.9.png",
+      "sha256": "b125ccd7a8809507594affa1215324774b03c68a23f924ac229a22f247fc3472",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/info-banner.png",
+      "sourceGitBlob": "51942acebf3c307b3e500d63ad2a8975f8d9f806",
+      "sourceBytes": 309,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/info-banner.png",
+      "sha256": "338f9172040887b9e324f1cd61d0c796bb8d8a8430ea0d8f70c859aec4ee3744",
+      "sourceSize": [
+        84,
+        45
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/inventory.9.png",
+      "sourceGitBlob": "97990b925364dfddcf4ad337b7155bcdae7c84c1",
+      "sourceBytes": 192,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/inventory.9.png",
+      "sha256": "688dbba81aa7032cad66b82e8934d57923ff3f1d6e0a7aba03bd47d322cee3b5",
+      "sourceSize": [
+        26,
+        42
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/logic-node.png",
+      "sourceGitBlob": "9ea7fa6a9beec7d6f2e1b05f9b798d90ad7115c5",
+      "sourceBytes": 212,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/logic-node.png",
+      "sha256": "15586651a3a524d58d1343ea549fca3ddc1d037e284dfaf5d1290c194ff2c959",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/logo.png",
+      "sourceGitBlob": "e064a8a450aa3c4f086dafe977138ce3cc6f2ca8",
+      "sourceBytes": 14725,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/logo.png",
+      "sha256": "c0c216b16835a598c504d2de95fa191e57c11cedaafd447582437133032c9a70",
+      "sourceSize": [
+        768,
+        107
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/nomap.png",
+      "sourceGitBlob": "9233e4b89b8de1a0cc5baa90765990a1cdb33e16",
+      "sourceBytes": 2179,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/nomap.png",
+      "sha256": "9b2e3bb44dbe93fa3657b061258a1da38c585d7578cfe7dc64e997da09e3edfb",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane-2.9.png",
+      "sourceGitBlob": "35a4822e6735f2f746a858788fb3fd8213b0205c",
+      "sourceBytes": 144,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane-2.9.png",
+      "sha256": "265b8303c0c84836783f647bf9d51c6800ce820b9e5a96fb1cacc7fcc476a59f",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane-left.9.png",
+      "sourceGitBlob": "8019c41497dd86e74150055271d7c3f228a2aa4e",
+      "sourceBytes": 185,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane-left.9.png",
+      "sha256": "96d7fda0d29b6d4a2de53d66decf07facdd1186ca6fe37b9ed067edcd9abdce8",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane-right.9.png",
+      "sourceGitBlob": "62f65042dd16e3f282f38673efeed0751e295388",
+      "sourceBytes": 191,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane-right.9.png",
+      "sha256": "c1846b4176e74f19c44938d4a357500272910fc33c740b2d5d29d8e7088a5fd8",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane-solid.9.png",
+      "sourceGitBlob": "f7a6a53b36fb6233ddf3608a21007514df45c2ed",
+      "sourceBytes": 2498,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane-solid.9.png",
+      "sha256": "7731d296c1eda4733d517b52065d5228c15d8ee400d6ee696a732f5bb2ecabee",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane-top.9.png",
+      "sourceGitBlob": "9a8931d2e8195decd779cbdd6034acacf3d726fc",
+      "sourceBytes": 200,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane-top.9.png",
+      "sha256": "926328f610de6d1344737ab389630b6e0ede50ed560a2f5742b9c38d3a76152a",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/pane.9.png",
+      "sourceGitBlob": "a4a5f0992f2e9c9a3a5fd2451246f882fbad2d02",
+      "sourceBytes": 143,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/pane.9.png",
+      "sha256": "aaf22826ee3902fb0ca0132bdb6a90e2936fb49af1777cbcae69cb760f734a1f",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/ranai.png",
+      "sourceGitBlob": "e6fc9b930c1f030fc4bd367acc28b7348c9930a8",
+      "sourceBytes": 17401,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/ranai.png",
+      "sha256": "d437a5b0c18e06dda6a18847368a9d2c27f55ff8860076a23e13a2981a1c1747",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+      "sourceGitBlob": "72c4cda25f3e42bd5f7546dc50924e82f2f5dba2",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+      "sha256": "698c420fc09d14814817321bc1607731b9db0a362b039534d3a7aac9611d5e8c",
+      "sourceSize": [
+        37,
+        26
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/scroll-knob-horizontal-black.png",
+      "sourceGitBlob": "91b2db7313b91ff582c634a244b68a8af21c63bf",
+      "sourceBytes": 102,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll-knob-horizontal-black.png",
+      "sha256": "78524184c1baa79f173369d3dea074ef55249903ac6118b19b4163dc94d7da2f",
+      "sourceSize": [
+        40,
+        24
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/scroll-knob-vertical-black.png",
+      "sourceGitBlob": "dd00e9cf9936ba34485b206163e43e1e0c97a179",
+      "sourceBytes": 101,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll-knob-vertical-black.png",
+      "sha256": "b07298100c3110a8877c72a986edccbe01069886481f4d514b9e65d1de51b13c",
+      "sourceSize": [
+        24,
+        40
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/scroll-knob-vertical-thin.png",
+      "sourceGitBlob": "1657573fcff0f60896883996fdf87b0d99254129",
+      "sourceBytes": 90,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll-knob-vertical-thin.png",
+      "sha256": "915364a0bb2feeec1547b75820fca042252e881023d7db249d0208db3c36cbd1",
+      "sourceSize": [
+        12,
+        40
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/scroll.9.png",
+      "sourceGitBlob": "4c92865fcb9989ba98cca85d704e6841dab2e93c",
+      "sourceBytes": 113,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll.9.png",
+      "sha256": "b7e27ac77620dfd570fba3346658b37aa123d9d150bb31b260ea0876ba2b9384",
+      "sourceSize": [
+        26,
+        37
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-aegis.png",
+      "sourceGitBlob": "6c94d6b757a8ecc84ae1e7aa723ee4499bec0613",
+      "sourceBytes": 604,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-aegis.png",
+      "sha256": "499884e9c00c0c996b8bd01933cc03babb07ff8ffd91f280808822d44f23a323",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+      "sourceGitBlob": "3d101b1403577cd2db1ad070b77b9350ace6134e",
+      "sourceBytes": 509,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+      "sha256": "d64170fead8a2ef4d648eaa5fa1cf02d66f35a4971d138f3b21e3835b6a6a189",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-atolls.png",
+      "sourceGitBlob": "77df2ab519d9c03bc8ee82f7fbc7f2f6dbb780da",
+      "sourceBytes": 701,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-atolls.png",
+      "sha256": "b35a4abae72b9b91b2d22845afecfd1e110d2b1e104a996ce42fd2a2b5c7e9e9",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-basin.png",
+      "sourceGitBlob": "d397bf100f4161422ff270782f2d7d0e6c78a759",
+      "sourceBytes": 660,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-basin.png",
+      "sha256": "3899f7ecbda7b4972e9606fa6c54680b626535b758860cf55e198b6140c7b53d",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-biomassFacility.png",
+      "sourceGitBlob": "dc328e89b1cf8de4f24acd8f1f7261fa60f58769",
+      "sourceBytes": 652,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-biomassFacility.png",
+      "sha256": "e68ed18f40cd7bf4ad62ebbf9d8c2a9fa3e9605cc324acd12a867d029f877467",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-caldera-erekir.png",
+      "sourceGitBlob": "82542e66e8a640d758bd6d219f236fe47b86784d",
+      "sourceBytes": 660,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-caldera-erekir.png",
+      "sha256": "160da3846d93330add30199fb1a337827feedc1f01e30eedbc4a4a316acabe2c",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-coastline.png",
+      "sourceGitBlob": "02c081073f6a610c1b45c3d2f547dc87e74e905f",
+      "sourceBytes": 759,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-coastline.png",
+      "sha256": "d1a5ec6689b35d60fea9d067d0c2961900e3c7c886ce5495c59c939fb26f06c8",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crateredBattleground.png",
+      "sourceGitBlob": "c9c402f09ad388a84121a6fa494429ef75719f92",
+      "sourceBytes": 660,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crateredBattleground.png",
+      "sha256": "f577dce8dff18bca6f95e3011a9cba57de434fff17c578a2c1859dd116db8266",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crevice.png",
+      "sourceGitBlob": "01a3482b1c31e1ae87484dbde7458a771ff0aba3",
+      "sourceBytes": 637,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crevice.png",
+      "sha256": "0073792407c43fe3333b15ffc163c14c2204599ceef4291adc90585f65badaf6",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crossroads.png",
+      "sourceGitBlob": "c97bbd3a2776a12da31c80de1cf021c678c7cac5",
+      "sourceBytes": 535,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crossroads.png",
+      "sha256": "8cd3e9e38b52aad80156a075fd48a3faaa34f120ce093a6c32476167a30d4f36",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-cruxscape.png",
+      "sourceGitBlob": "c0a4e6de102e94246a22fb4522aa5ac742ebe041",
+      "sourceBytes": 695,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-cruxscape.png",
+      "sha256": "39dff2f85120db6c92bb1d92cead904cdfa1be87a1a03d9dded5003a24f7dc9b",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-desolateRift.png",
+      "sourceGitBlob": "2b03daef7e2f48ded3eb45a8ad7c2edb0c40bfaf",
+      "sourceBytes": 529,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-desolateRift.png",
+      "sha256": "65d775e740adc52a43120336eae3e821652d6a7ac408e57a7bed6f188b3b35f4",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-extractionOutpost.png",
+      "sourceGitBlob": "9b18e2c913db7e1bf972a598468e5fc4432e92b2",
+      "sourceBytes": 676,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-extractionOutpost.png",
+      "sha256": "74023abf006986680922fe8d138c461d5cdf357044f88be7436165f467a71a1a",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-facility32m.png",
+      "sourceGitBlob": "8d2746fcbbe4d0b4d9d7e37b8e082bba5149c77a",
+      "sourceBytes": 676,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-facility32m.png",
+      "sha256": "eed6c2a8ff4ddabf7ffe6cd4b317f69ee5fc914b9b3feeb2a28f1a2e16bd5693",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-fallenVessel.png",
+      "sourceGitBlob": "007d10eb79e71d1761425daaf610f6c088080327",
+      "sourceBytes": 819,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-fallenVessel.png",
+      "sha256": "dfb9596bdb6550f5c454a0ee4bcff51f190be615ef2169fb6382b0512044c946",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-frontier.png",
+      "sourceGitBlob": "72d526679d66d4f2938ba18096a81405d6855888",
+      "sourceBytes": 616,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-frontier.png",
+      "sha256": "41081853f1ffe582db8088f04c2c16779ea4e39140f88a8186b4489a54bf9ce1",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-frozenForest.png",
+      "sourceGitBlob": "180a317349c1f6b7a3d433e5e9b375ec292ad298",
+      "sourceBytes": 702,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-frozenForest.png",
+      "sha256": "c576c6cb02c08933fde24b58948e52040f5155a1586d3682351e6251a0867a06",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-fungalPass.png",
+      "sourceGitBlob": "50d9f1207bcfa395f3b42ec27f002c8878a6ebfb",
+      "sourceBytes": 497,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-fungalPass.png",
+      "sha256": "48119d6b28cdd1e7787f382cff1666c0274cf9310b999397ee4159d2ce325983",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-geothermalStronghold.png",
+      "sourceGitBlob": "1d6a26d35b39784da546807adc059d3b576f58d3",
+      "sourceBytes": 774,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-geothermalStronghold.png",
+      "sha256": "a8b683b989a6207c3dbd7d0ff5d6b0c1ad41e9f695ac6887915c4cd1d65eb610",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-groundZero.png",
+      "sourceGitBlob": "caab01dad9d8d37d070a1f12e3386fe28e953780",
+      "sourceBytes": 640,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-groundZero.png",
+      "sha256": "1d2361f1a3f04612abb39cd0988277371095a7e1b5530396c91b2678d1b06184",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-impact0078.png",
+      "sourceGitBlob": "90e9aad6f3b0ceb6b3a34fe4878103d927eb5e16",
+      "sourceBytes": 626,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-impact0078.png",
+      "sha256": "14d4e75cc1399ef71b36f42071108a4e9ea1f6880e62247a612e0a5fe870858a",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-infestedCanyons.png",
+      "sourceGitBlob": "5bc4f5c3787052d5f64aff9538c92d0288d9a681",
+      "sourceBytes": 714,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-infestedCanyons.png",
+      "sha256": "f855c992c131e74faa41f677023388d734173aa64ebd878046827438b8c67e91",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-intersect.png",
+      "sourceGitBlob": "ddef0b7fdb18a7aa394b50e5bda66317e283c69e",
+      "sourceBytes": 618,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-intersect.png",
+      "sha256": "0b3174c764044feb7e6565a9558abcc57148cb81fd9d6ef97a89c3de6dd84d0e",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-karst.png",
+      "sourceGitBlob": "9a0b98f632996706d5a9459318becf8dde9baf98",
+      "sourceBytes": 654,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-karst.png",
+      "sha256": "647fe32abadae7019ffc97ad55adb66a01ae2fd286a760926ad08d6543b5bcc0",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-lake.png",
+      "sourceGitBlob": "cfd5dfdbb0cf88aa0a2f41e756f313121efb36f8",
+      "sourceBytes": 469,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-lake.png",
+      "sha256": "77d8e07ab6b91f7534b9c1022c2fde5242c0e5e0e751fd20ca33fd06785b2759",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-littoralShipyard.png",
+      "sourceGitBlob": "dc679611408a5cc7da52b9d3b22320c461734af9",
+      "sourceBytes": 852,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-littoralShipyard.png",
+      "sha256": "8f97e135a2c4d6a340fb07c713ac9396389db3600b55bd4fa0400341aaff0966",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-marsh.png",
+      "sourceGitBlob": "dcbc5bc6d325f5c028d6118ef8b8168a5e20a727",
+      "sourceBytes": 666,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-marsh.png",
+      "sha256": "a49e5d84b107d8c785406c4f5ef5b914999de2dfd952056df0af25c2d4ce7ac4",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-mycelialBastion.png",
+      "sourceGitBlob": "fe0f310405d83486715a38c866ea7b239098b25e",
+      "sourceBytes": 629,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-mycelialBastion.png",
+      "sha256": "f08fa7993608f3a6efbc7eae545ae4835427bbaf4f6f5ec355014404d7f088e2",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-navalFortress.png",
+      "sourceGitBlob": "9b21ec68e5e8115d24e4cd58280b32adfe0706ff",
+      "sourceBytes": 848,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-navalFortress.png",
+      "sha256": "80e6c29277cd8f6ddefcf6856de8f1603480c999a58b66020d144b39f0a0907a",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-nuclearComplex.png",
+      "sourceGitBlob": "39037b3f906365549018e8dde11e34f320c17a03",
+      "sourceBytes": 661,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-nuclearComplex.png",
+      "sha256": "e2ac478e3e7e59ca981f629d59a30ce8adbb7d7d13db3a9057675a03ca9246b7",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-onset.png",
+      "sourceGitBlob": "8b8cf255a780933445f6fb3472af512133faa113",
+      "sourceBytes": 631,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-onset.png",
+      "sha256": "fa13903b8c4c788024cf7695e7d5e6b3efc3bd6a704ef8a3c6b19b13a52501af",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-origin.png",
+      "sourceGitBlob": "8852690ad46454a618c3d005f4b776c9809834f2",
+      "sourceBytes": 887,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-origin.png",
+      "sha256": "35294e9a9b2d7ebf6709f307189f93c0a89a355b9c0eec42037f7331bb96e3d1",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-overgrowth.png",
+      "sourceGitBlob": "656114a689a2a018caa2ab6873dda021ac512ecc",
+      "sourceBytes": 732,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-overgrowth.png",
+      "sha256": "eae70c503a6255b47d173ad69465e955c3aaf43251e3a5687def82d52c0925f9",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-peaks.png",
+      "sourceGitBlob": "43b90614cc93a4f338ef38809b10ac946efb7099",
+      "sourceBytes": 608,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-peaks.png",
+      "sha256": "7904155615f12777780d6de4e5bccce73100065f6fa9346afdc8e6d9e120d66a",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-perilousHarbor.png",
+      "sourceGitBlob": "b7d94b75630ab304ae89a2bfd18bd157f23cb48e",
+      "sourceBytes": 808,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-perilousHarbor.png",
+      "sha256": "49a884b44e2b8e958854d77c1e76556958dc1709231f403c588557fec2f65c14",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-planetaryTerminal.png",
+      "sourceGitBlob": "dfd4d8dd3d05650a7942057d22c67969768d5bf0",
+      "sourceBytes": 814,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-planetaryTerminal.png",
+      "sha256": "e90678be9e144f4911ad94f012749aea4617a2d63857c4f584d3f8a0617c8ec6",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-ravine.png",
+      "sourceGitBlob": "206ba91e9f4a21f46b2b7876ba60fdb6803ab71a",
+      "sourceBytes": 636,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-ravine.png",
+      "sha256": "03e8d6d4344520c5b5ade1c2d92aa74c579bb5d9e0cf35b1a3dd3eda3fb148bd",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-ruinousShores.png",
+      "sourceGitBlob": "9ca7e86cefda6cf3a5b9ffb8b8ad15f445995328",
+      "sourceBytes": 633,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-ruinousShores.png",
+      "sha256": "986c7ae060992606d5a1ea314d1e5d01839b8d49b1d7ef0a6f13f8eb1efe9b8d",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-saltFlats.png",
+      "sourceGitBlob": "958053850c03f6103a9eaa76c4016393370e96b6",
+      "sourceBytes": 597,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-saltFlats.png",
+      "sha256": "94d95a999006072c7a467c6eb5c09c65d98beeeae436ff70c1c671cec0f8c31f",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-siege.png",
+      "sourceGitBlob": "492398fd3b9723a38ed47532dd19820b5ae5192a",
+      "sourceBytes": 722,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-siege.png",
+      "sha256": "5091bbb5103830f5eb057d8a108fd8d41e82d9208aa1a0972a1f46e2597d22d3",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-split.png",
+      "sourceGitBlob": "68889389a46ce08d4a3af305b3b8dcaadfd2b27d",
+      "sourceBytes": 631,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-split.png",
+      "sha256": "2b9cb5ae04469151025286790e15d49f3c61890aa1db11d9c26921a9ecfc3349",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-stainedMountains.png",
+      "sourceGitBlob": "8efb9e25d24883b6a3ecc7f520d86c7a69da8030",
+      "sourceBytes": 611,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-stainedMountains.png",
+      "sha256": "4a42a906cc9df57b3dcad98e0490578d41a372cc14ea2f4d460008e1ec1822f7",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-stronghold.png",
+      "sourceGitBlob": "aa3bc2212d53716d406ea36440d6401af5729952",
+      "sourceBytes": 648,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-stronghold.png",
+      "sha256": "6fc7a4b61164ccdb5ba9409ca9c6137f3331433e3621563d487249d751c450c6",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-sunkenPier.png",
+      "sourceGitBlob": "a930ae211712271bbfac40c21839e1489f1a4b0e",
+      "sourceBytes": 723,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-sunkenPier.png",
+      "sha256": "44e3b66250f97869a7581038e0bdd512f68e121e340d5183770f80975d06467c",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-taintedWoods.png",
+      "sourceGitBlob": "9ade8036fc11aa478a6d10fe6d741e55e4a53ae0",
+      "sourceBytes": 842,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-taintedWoods.png",
+      "sha256": "4692f73960e6188eada9b17af00b849070afdee0da86c8f2490e0e25be4f6980",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-tarFields.png",
+      "sourceGitBlob": "81c248e641e05bfe9f968fadb34b486aea0a86c1",
+      "sourceBytes": 750,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-tarFields.png",
+      "sha256": "1c0ced2a1e20a0f0d631c5d5e3da816674532d96ca1e05ca7a436b2dd7e33238",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-testingGrounds.png",
+      "sourceGitBlob": "78ea4df653e90f04a9ebc55129553745c523dc9a",
+      "sourceBytes": 711,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-testingGrounds.png",
+      "sha256": "e87b4dc16a0403591474d73a67cd52c2e4346f97b2a58000c2d77f29162ef772",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-weatheredChannels.png",
+      "sourceGitBlob": "fc85e19815fdb58b23c17a438c769595fea25dcd",
+      "sourceBytes": 675,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-weatheredChannels.png",
+      "sha256": "3fae6ac556fe04b3221b91522d767a4861813dd94ad50752e96bcaf7360bbd3c",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-windsweptIslands.png",
+      "sourceGitBlob": "7dbe82285ceb008e53fe70eb65fcfb88f4457f53",
+      "sourceBytes": 774,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-windsweptIslands.png",
+      "sha256": "3de296a42b7997023996ee10cca1270871de4d1c30f9b4ff9915de270ef1d02e",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/selection.png",
+      "sourceGitBlob": "b75e1ce6d2a41c36edb32557db59db4cb90e19c6",
+      "sourceBytes": 70,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/selection.png",
+      "sha256": "5b68616ad40e64370d3aee637721076862422d4bf890e696bc36835699ef58b2",
+      "sourceSize": [
+        1,
+        1
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sideline-over.9.png",
+      "sourceGitBlob": "fec86b6d352279066ab580608379f486af274d5f",
+      "sourceBytes": 241,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sideline-over.9.png",
+      "sha256": "0106bfccf92f635a2bea0566a52d59066418a7e59b481c6b72574ce73850bbd8",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/sideline.9.png",
+      "sourceGitBlob": "4a5413a68520b12d7d7cddb54dde61270a6ef73f",
+      "sourceBytes": 256,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sideline.9.png",
+      "sha256": "04ee43e882e25f19e7ac0b14f192870c11a52586ff683cf81873ea8417f86783",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/slider-back.9.png",
+      "sourceGitBlob": "013c6cc7bdc27d80826e13861cb50026f3219751",
+      "sourceBytes": 2418,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/slider-back.9.png",
+      "sha256": "4c61f019ca8fd9346db3b8e6c5f1b791fad7d87f188c33a0bdb32982a0a6c176",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/slider-knob-down.png",
+      "sourceGitBlob": "72ff323d0bc28a74d749159c4070c9e0dc21b77b",
+      "sourceBytes": 117,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/slider-knob-down.png",
+      "sha256": "0f555ec0a410f2c7f164cbce552a67eec3acf6f8b3ac0c822d25eccd77e8d2c3",
+      "sourceSize": [
+        29,
+        42
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/slider-knob-over.png",
+      "sourceGitBlob": "d7ca8fb4eaf731b98a183d7a63fb32bb9fdb380a",
+      "sourceBytes": 120,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/slider-knob-over.png",
+      "sha256": "dfcfaf008da78c3d1fb0c94bb8d3e0189710289b363ec34244083babed45cb87",
+      "sourceSize": [
+        29,
+        42
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/slider-knob.png",
+      "sourceGitBlob": "7c4e35233e6c2f47ac712e89c48c07aa25c435b5",
+      "sourceBytes": 120,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/slider-knob.png",
+      "sha256": "4c84d5092ae9ac9d4782f398ef472cb6fcacde113907838d39e3afca54677e8c",
+      "sourceSize": [
+        29,
+        42
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/slider.png",
+      "sourceGitBlob": "cb2e464ff902f4f1ad89cb28984d42476d473033",
+      "sourceBytes": 73,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/slider.png",
+      "sha256": "6160b85b200437e2c549234629b213463a79ec481f791d1d48d35ef4faf4b6e8",
+      "sourceSize": [
+        1,
+        8
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline-2.9.png",
+      "sourceGitBlob": "f703111db25c2bf7db2855816fa873c58d5de728",
+      "sourceBytes": 144,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-2.9.png",
+      "sha256": "501baf6a9e6d5c37bb6a95df6c3f1d3a1caf1f7fc42c7a4e252f3463e5a4eab7",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline-disabled.9.png",
+      "sourceGitBlob": "d0b71215568de913cec28aab483bba2a745727aa",
+      "sourceBytes": 152,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-disabled.9.png",
+      "sha256": "069de5b4a1ff3ffa0d1a3f573e72d309f77d9f1b5d6794ccb95c148d6c524c7f",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline-over.9.png",
+      "sourceGitBlob": "d138927c1a1927b1f26ee52294715a6b5c5babb8",
+      "sourceBytes": 206,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-over.9.png",
+      "sha256": "a4864e795d97605c0aac031319634931a96c991df870a287b7841706b773955d",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline-red.9.png",
+      "sourceGitBlob": "af1810f47aa669c176a1de5d709ded349d578533",
+      "sourceBytes": 151,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-red.9.png",
+      "sha256": "925f7eb25e8e1d0872c5b3ce3cd051b55242d8494ffba055c71a98f5f8a2807b",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline-white.9.png",
+      "sourceGitBlob": "3f5f7ffba86511b51eef326c7e6163a3f1797dc2",
+      "sourceBytes": 213,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-white.9.png",
+      "sha256": "3efa365811d20ff0099f4fcba3793fe5dee7dc8f370f18c201b42839cc5f9566",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/underline.9.png",
+      "sourceGitBlob": "c1ed2c32acd20ae083a51098ac50e103df2c7500",
+      "sourceBytes": 149,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline.9.png",
+      "sha256": "bd52c47593a7d6ce6308f6cbe2bdbf1071e6718849c78958da5b290dffbf859a",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/wavepane.9.png",
+      "sourceGitBlob": "29ae8b98520cca17866e071585cb42a9a1296bd8",
+      "sourceBytes": 193,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/wavepane.9.png",
+      "sha256": "d874f1529287dab7619209d747b9c8cf35bc1a6d4e8d97d9703927e1a80756b7",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/white-pane.9.png",
+      "sourceGitBlob": "bf35b6daae5898291894d381d5078e2e2362f6b1",
+      "sourceBytes": 201,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/white-pane.9.png",
+      "sha256": "1e342fc3e993df8d89bb70010975e5e7d46f70ddc061b20b7c4d92cf9aa17238",
+      "sourceSize": [
+        38,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/whiteui.png",
+      "sourceGitBlob": "ba9bf827c1f3fd6fc95544f0d9c34f0ffc29a2ec",
+      "sourceBytes": 71,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/whiteui.png",
+      "sha256": "9585d99e7a6e84a43fb6d281ed584714b8ec31f6c78e8d3f0a9091b515f4d90c",
+      "sourceSize": [
+        3,
+        3
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/ui/window-empty.9.png",
+      "sourceGitBlob": "007da0d88897732835f8b0f70093a4bffcd2a721",
+      "sourceBytes": 167,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/window-empty.9.png",
+      "sha256": "d149fc0a5f7282b2dc74292abcef77e2f72967117fe8c1cd90cc54434e0e16a0",
+      "sourceSize": [
+        29,
+        63
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/cursor.png",
+      "sourceGitBlob": "b7a6a8311e2d1d926fd7396abaa8feb3c0dff946",
+      "sourceBytes": 336,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/cursor.png",
+      "sha256": "0901b10d9b65e3dc8871fe6a7528d8610e741f5cf2f2ff89ae05daf084f79b76",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/drill.png",
+      "sourceGitBlob": "c5619bb81ec01dedfc4232265cbff56778cd5f5a",
+      "sourceBytes": 375,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/drill.png",
+      "sha256": "7889e498fcc3dfbefe9d26f70631483a3068f22131c1c32151c809ef98d90ea7",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/hand.png",
+      "sourceGitBlob": "606629a9601dac3eb3bdf7b01c7c1b90994cd841",
+      "sourceBytes": 350,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/hand.png",
+      "sha256": "b7d93005b7487fb7a241fe84af20678339ecb14d4abbe27c88132e0e4326f855",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/ibeam.png",
+      "sourceGitBlob": "ca512752a4ddd0b890a17943603d1c81c5b77100",
+      "sourceBytes": 230,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/ibeam.png",
+      "sha256": "8c6d07ccf9e66b12912eb346619e7819f770716cd952b52cc6c4143253e6a6b9",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/repair.png",
+      "sourceGitBlob": "0604903f1d045c2eedf31d36024cc8a4683ea25f",
+      "sourceBytes": 1027,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/repair.png",
+      "sha256": "5ee749244c537f3cdc539ff3ead01d5fc986db922cf6a1abcdeb170ac546f6f3",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/target.png",
+      "sourceGitBlob": "1b5d8d519d2309b79edaa3c96b2a008962c8a98a",
+      "sourceBytes": 1290,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/target.png",
+      "sha256": "62b24c212b31bfb6c8e794a9f9ffb4b266ced408e7b9dbea9593fc85da166773",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/cursors/unload.png",
+      "sourceGitBlob": "827b513007ded7214f33ad0b1c069fb9cbd9022b",
+      "sourceBytes": 368,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/cursors/unload.png",
+      "sha256": "4d8cb562f8bbd4c321e082f2934a91b616e28c40a4ed1897427c97d2ddc2a0c4",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/icons/icon.icns",
+      "sourceGitBlob": "4838003e4bf933f72c6f2f8b2c04279122ea1087",
+      "sourceBytes": 512218,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/icons/icon.icns",
+      "sha256": "80aa3f58c2211188e9586b1ef47892956b0bb4042dcea7ea29e954b996ea786f"
+    },
+    {
+      "sourcePath": "core/assets/icons/icon.png",
+      "sourceGitBlob": "9ae3d2eb05893f548f58d7dae35e261c31b36f67",
+      "sourceBytes": 26382,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/icons/icon.png",
+      "sha256": "4f4fa0207bca299d9c6810fbf9835397c3f8bdd953c1a8b8be21b1a20da9ca03",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/sprites/error.png",
+      "sourceGitBlob": "f784bec9230ea08004de9a019d4c537de4862696",
+      "sourceBytes": 276,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/sprites/error.png",
+      "sha256": "22681c4c920b864d6304b5e3a2ccdff05b24255982c6f7305a79f7fe455f4dc8",
+      "sourceSize": [
+        48,
+        48
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/sprites/logo.png",
+      "sourceGitBlob": "eee1e0e65808859e195e5d5cd182377b190fdb23",
+      "sourceBytes": 20324,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/sprites/logo.png",
+      "sha256": "1d57bda6a86209462244707e5fd3ee9ba51a4508b666398bdb4aca6ff98cbd92",
+      "sourceSize": [
+        768,
+        107
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "core/assets/sprites/schematic-background.png",
+      "sourceGitBlob": "d0085b65d965090fab3a47d43b91fd3220a207a9",
+      "sourceBytes": 1242,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/core/assets/sprites/schematic-background.png",
+      "sha256": "af834d598c75db67337e4783c1091ae41e070abb6ad04c7600892a0454340f15",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-100.png",
+      "sourceGitBlob": "fd45cfe80b9049e630bea7338e52198b8e146e47",
+      "sourceBytes": 5092,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-100.png",
+      "sha256": "34d57e10f240bc1824ca6465951af44c92eccd9504ab1a0b10600e65e44c930d",
+      "sourceSize": [
+        100,
+        100
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-114.png",
+      "sourceGitBlob": "ba6b68e58826dcee5b29831777c93eef68ab3325",
+      "sourceBytes": 5855,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-114.png",
+      "sha256": "efa062fa63263fdeb0d71ab2495e1b652d57348812d984423d2306e075915fd3",
+      "sourceSize": [
+        114,
+        114
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-120.png",
+      "sourceGitBlob": "c5705a2ccbef75e640e60817ef1b96cf5141b18c",
+      "sourceBytes": 6464,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-120.png",
+      "sha256": "5ef36cb2c05cac0c92fc67240a821b0e6163a2928bd012997afa3e3cae6fe9b2",
+      "sourceSize": [
+        120,
+        120
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-128.png",
+      "sourceGitBlob": "d0dddf8c09a8183a1f59e8e54e746a1a6da9e551",
+      "sourceBytes": 6812,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-128.png",
+      "sha256": "c233936ea25c15bb11db24c6f6f4c8f561820f9638188b01a4ab382336bae270",
+      "sourceSize": [
+        128,
+        128
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-144.png",
+      "sourceGitBlob": "156945e9bf43ecdc97104018f0cc47c7d1630bcd",
+      "sourceBytes": 7933,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-144.png",
+      "sha256": "9235b79bb87f403c624562a74757595e1476052ccd5c528d001542727621d9e0",
+      "sourceSize": [
+        144,
+        144
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-152.png",
+      "sourceGitBlob": "d6dbd58433c65089d19b47da1ef4ff930af78845",
+      "sourceBytes": 8412,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-152.png",
+      "sha256": "895d73ebfc2ab8cd9ca8182f4bd6ee3c8e0b3d691d9cdf95e53163bad37a22c7",
+      "sourceSize": [
+        152,
+        152
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-16.png",
+      "sourceGitBlob": "7b2a5e8bd0d751723a8aa0369650781b8ace6ec6",
+      "sourceBytes": 644,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-16.png",
+      "sha256": "4cb03d2e1b0c04cefd0b2e311a6bd3ccf2e3164d9c5f00bac5ea84792fcf8513",
+      "sourceSize": [
+        16,
+        16
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-167.png",
+      "sourceGitBlob": "0ae6480a901c8208efcd45fa5cb2423205979197",
+      "sourceBytes": 9360,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-167.png",
+      "sha256": "2ab851aa29708bb48e045de3d25a56dc93065102c1bee7fd0e74ca5100019cb6",
+      "sourceSize": [
+        167,
+        167
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-172.png",
+      "sourceGitBlob": "e52e17baf4e018421e4b06a883ecaed64c2044d7",
+      "sourceBytes": 9699,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-172.png",
+      "sha256": "0cf740726a653ae6caf3f8b64038fca51448fbc3317cdbcb96fad3614df64b69",
+      "sourceSize": [
+        172,
+        172
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-180.png",
+      "sourceGitBlob": "6874831844aaa71ca69ff8672b758626c7e1252e",
+      "sourceBytes": 10052,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-180.png",
+      "sha256": "8e404768897fc76c44732d74b12f3b4b733d52362d0ce02ecb3842c7f74c6410",
+      "sourceSize": [
+        180,
+        180
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-196.png",
+      "sourceGitBlob": "cae5b445b2e6686342f39568184fc01db1479c80",
+      "sourceBytes": 11191,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-196.png",
+      "sha256": "426df47d51ed4e0bbef5585c05bd9570c3a7c19756f8c35d92e1ab9fa67a4a02",
+      "sourceSize": [
+        196,
+        196
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-20.png",
+      "sourceGitBlob": "404483d418bdaf9a459572a778e70d9e3e038519",
+      "sourceBytes": 815,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-20.png",
+      "sha256": "f91538383dc80891672e35ae640af08d58efa0811a3eb0f82bce957f8635260f",
+      "sourceSize": [
+        20,
+        20
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-256.png",
+      "sourceGitBlob": "baf57cf18320d709c01a124c0fc5ee532828e66b",
+      "sourceBytes": 14822,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-256.png",
+      "sha256": "294193f9cd05c8069a9202bca815f749e5fb5e9430fef6927fff588cb614be48",
+      "sourceSize": [
+        256,
+        256
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-29.png",
+      "sourceGitBlob": "e9333bb41114539cbdbe660094bf958d230c23b3",
+      "sourceBytes": 1304,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-29.png",
+      "sha256": "eb291f85389a7b23c0335ee131773fa1f7f1afd028cce9ef5b3c62a651a2012d",
+      "sourceSize": [
+        29,
+        29
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-32.png",
+      "sourceGitBlob": "ca0a64365e1cf0a3483ca1f27b5d66edde3e13f9",
+      "sourceBytes": 1431,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-32.png",
+      "sha256": "b1b79d98776c1f5947dc65eff93d2209c274cf84dec8575151c7c1474e3f0d90",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-40.png",
+      "sourceGitBlob": "733f2bba4f5fb51ffa518e2345aa34bf00acbda7",
+      "sourceBytes": 1772,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-40.png",
+      "sha256": "fe5e2bd27fdbce5b796b3a5259b1bbefd0c93eac433c9cf51acb36a1a9ff5a8b",
+      "sourceSize": [
+        40,
+        40
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-48.png",
+      "sourceGitBlob": "93e9536a737506f00847c1086a25f4c2c44b3d18",
+      "sourceBytes": 2319,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-48.png",
+      "sha256": "04cd1b5e792739aa12cb745d9253a5288f88582bdb036bd1ab53760c8c3fda37",
+      "sourceSize": [
+        48,
+        48
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-50.png",
+      "sourceGitBlob": "2715846e6eaa2d33743cbc94ae7a822e8345917e",
+      "sourceBytes": 2326,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-50.png",
+      "sha256": "e2f8687e6f75810d5115cae63f96235a25748f1ed11ad0efbc65eeaa5de7618d",
+      "sourceSize": [
+        50,
+        50
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-512.png",
+      "sourceGitBlob": "58dd70355c65ca6b194a37b57edddc00151719a3",
+      "sourceBytes": 34102,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-512.png",
+      "sha256": "02167710d8ac8efa8f827ae4804e4b14fe41764a3b823791cfea6def6bef7dd5",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-55.png",
+      "sourceGitBlob": "9d79226bd51ec385cca3526b18b77396c328a89a",
+      "sourceBytes": 2560,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-55.png",
+      "sha256": "f89d1c43a42c234e577c359fd0775a00921a6caeb4202d13936f45c0cfbc68b5",
+      "sourceSize": [
+        55,
+        55
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-57.png",
+      "sourceGitBlob": "58a24312a9137d00952c6d3330eadb4fe4918e36",
+      "sourceBytes": 2761,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-57.png",
+      "sha256": "7cff60cef3822fa05d7e85d8dc159a31ef3965130a4b11d9e8000a4007e052d7",
+      "sourceSize": [
+        57,
+        57
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-58.png",
+      "sourceGitBlob": "bca7b41f26634d2ca96fcc0b0e12105d1e01cc72",
+      "sourceBytes": 2796,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-58.png",
+      "sha256": "e0255305eff8c729da3e39f69c5688faae4b20c1c6860718ee76509ffb68399d",
+      "sourceSize": [
+        58,
+        58
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-60.png",
+      "sourceGitBlob": "36a927604ec6e3ccdbb3f4a140428340a7a53a29",
+      "sourceBytes": 2818,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-60.png",
+      "sha256": "6b39f38f82e408c2daa772a056290a4fbcc013b7d3744f61877210cd46652781",
+      "sourceSize": [
+        60,
+        60
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-64.png",
+      "sourceGitBlob": "6a135ed7abe9b38b5545302082f11f2e6775ed5e",
+      "sourceBytes": 3088,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-64.png",
+      "sha256": "8d050e61c582c029928791d4b4f7aa9db9201f7485434d7cc579483016f22041",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-72.png",
+      "sourceGitBlob": "26c3306986dd3da2f8e801fb7452682748f67fe1",
+      "sourceBytes": 3671,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-72.png",
+      "sha256": "58142e0ae86e54cacaaac90a7c2b0965b7a16c810c0665a55638b87855543a84",
+      "sourceSize": [
+        72,
+        72
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-76.png",
+      "sourceGitBlob": "961fd9447db0036f8f7920879b18316d75289287",
+      "sourceBytes": 3822,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-76.png",
+      "sha256": "d264c4731fa849692b29710c273ecbf9acf62c95aca45e1da1318a5773080ba4",
+      "sourceSize": [
+        76,
+        76
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-80.png",
+      "sourceGitBlob": "4b087f4adc24856febb097b72ba2486b98fd33b1",
+      "sourceBytes": 3915,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-80.png",
+      "sha256": "871b75e8cf5c648fc3916223fb9d953945e48cfe511839fb0689fbce3e36ca07",
+      "sourceSize": [
+        80,
+        80
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-87.png",
+      "sourceGitBlob": "9c675b9c7b59c8e50aa769dfc4757152929cb268",
+      "sourceBytes": 4357,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-87.png",
+      "sha256": "0ca36625801b4941b9ef123e6ce9ab70561ea86ec1732c065f5c1bc4b04fcd90",
+      "sourceSize": [
+        87,
+        87
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-88.png",
+      "sourceGitBlob": "5016ced120a2ee6c5869e745a9b8b4ee9b7275f6",
+      "sourceBytes": 4457,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-88.png",
+      "sha256": "7afd0766c9a18bfbffa3709b54fed00aa1ad4db59b1b273ccafa3b41b9d6ee09",
+      "sourceSize": [
+        88,
+        88
+      ],
+      "sourceMode": "RGBA"
+    },
+    {
+      "sourcePath": "ios/data/Assets.xcassets/AppIcon.appiconset/icon-main.png",
+      "sourceGitBlob": "c54308af68f2a8279d57cab81873eb62d52a4409",
+      "sourceBytes": 109688,
+      "owner": "ui-system",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "localReference": "full-game/ui-system/reference/ios/data/Assets.xcassets/AppIcon.appiconset/icon-main.png",
+      "sha256": "e7eb2491e6f0ca9af2a7fec1ad2af9486ec939b2b1d2c3d9acb39737d136c06b",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "sourceMode": "RGBA"
+    }
+  ]
+}

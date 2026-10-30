@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-heater-top2.png",
+  "sourceGitBlob": "a0ba5f84460d00fc2cf7ec460664bf07f63e97fb",
+  "sourceSha256": "9d6fe995ef777a814f9116907a457dfe74ffdc7798f3391c5ec1af77ba60757d",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "slag-heater-top2",
+  "blockId": "slag-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-top2.png",
+  "sha256": "9f07a800422253d89275f2f85baac7048b8d917b0fc2b4fa2b9a5bb97f30b57e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-top2.png",
+  "engineSha256": "9f07a800422253d89275f2f85baac7048b8d917b0fc2b4fa2b9a5bb97f30b57e",
+  "nativeFile": "full-game/blocks/masters/slag-heater.png",
+  "nativeSha256": "12c07aaf261813ef08fae1dcbbee0e6f6b77ea2e6ee676f5b0e8eff571b2c29a",
+  "nativeSize": [
+    331,
+    395
+  ],
+  "sourceAlphaBounds": [
+    51,
+    4,
+    96,
+    92
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-heater.png",
+      "sha256": "12c07aaf261813ef08fae1dcbbee0e6f6b77ea2e6ee676f5b0e8eff571b2c29a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-heater-top2.png",
+      "sha256": "9d6fe995ef777a814f9116907a457dfe74ffdc7798f3391c5ec1af77ba60757d"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

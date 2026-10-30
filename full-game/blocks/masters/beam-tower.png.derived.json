@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/beam-tower.png",
+  "sha256": "da2650b046fb73bead373ed57df40168a2c6bd14142cd651c4ed8f8dbd30eae0",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      946,
+      315,
+      1245,
+      623
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      299,
+      308
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    331,
+    340
+  ],
+  "anchorPixels": [
+    165.5,
+    170.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ferric-craters2.png",
+  "sha256": "78ddc9f56925fa29370e428989d9c6ff8fb2533fdaadc1fa2146a428358915d8",
+  "createdAt": "2026-10-26T16:59:26.265500+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/07-crystal-crater-floors.png",
+      "sha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238",
+      "generationRecord": "full-game/terrain/source/07-crystal-crater-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      298,
+      1480,
+      589,
+      1772
+    ],
+    "nativeExtractedSize": [
+      291,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.3960814263846975
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/08-statuses-power.png",
+      "sha256": "bda3badfec43648fe7bec7fd2e3b3aae4760344bd4e14592a0110dff1751cb4c",
+      "generationRecord": "full-game/items-fx/source/08-statuses-power.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      627,
+      627,
+      1254
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      35,
+      37,
+      607,
+      560
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-shielded.png",
+  "sha256": "3b4d4543386335ce3f6e89c292b44b5e397abcd83f23c092eb89076a5d82aa09",
+  "width": 604,
+  "height": 555,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.838242+00:00"
+}

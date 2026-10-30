@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+  "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": {
+    "width": 3072,
+    "height": 2048,
+    "submission": "prompt_only"
+  },
+  "resized": false,
+  "generatedAt": "2026-10-26T05:51:23.916000-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "prompt": "Create ONE production sprite atlas for the three related Mindustry core-builder aircraft Alpha, Beta, Gamma, redesigned as finely hand-painted Daoist Q fantasy jade engineering drones. Use the TWO attached images only as the mandatory art style reference: rounded rich forms, jade and ivory, fine warm gold trim, controlled soft shading, cloud engraving, small red tassel details. Do not copy UI, Chinese text, people, scenery. This is a sprite asset layout, not a poster. Strict orthographic TOP DOWN view, camera exactly vertically overhead, nose of every object at 12 o'clock. No front perspective, no horizon, no visible face, no ground, no cast shadow, no glow or exhaust. Real transparent background. Target native 3072x2048 at maximum supported quality/detail; no text anywhere. Six independent disconnected assets arranged in exactly 3 columns x 2 rows with generous transparent gutters and 10% outer margin. Top row: three BODY ONLY flying builder craft, no weapon barrels baked into these bodies. Alpha left: smallest compact jade rounded triangular scout glider, two ivory folded side wings, small gold circular tool socket, utilitarian. Beta center: medium wider kite-shaped craft, two swept ivory-jade wings, more armor and twin rear engine rings. Gamma right: largest broad ornate oval-delta builder craft, four short winglets and sturdy ivory jade armor, three rear engine rings. These are 3 clearly distinct tiers but same family, round cute elegant top-down mechanical craft, no humanoid bodies or faces. Bottom row: corresponding ONE separate gun/tool part under each body. Left a single short jade-gold laser nozzle on a small circular mount; center a larger short jade-gold doubled nozzle mount; right the same doubled nozzle mount design as Beta (official shared small-mount-weapon) slightly richer trim, no body attached. All three separate parts face exactly up. The detached weapon parts are smaller than their bodies, as independently loadable sprites. Render enough clean closed surfaces on every body beneath weapon mount positions for independent parts to overlay. Avoid metallic plastic toy glare; match delicate hand-painted finish of references, readable silhouettes and native fine detail. All six assets fully inside the frame and mutually separated."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "prompts/root-builders/01-core-builders-parts-v1.txt",
+  "promptSha256": "3f647017ae3c1877d02694ede8e07d73e7fe79c8582ee7129b7ecd64d8f13250",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records\\workers\\root-builders\\01-core-builders-parts-v1.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-310b5c82-09d6-412e-974c-2b0d5b0d4418.png",
+    "nativePngSha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 1054123,
+  "status": "generated_pending_review",
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

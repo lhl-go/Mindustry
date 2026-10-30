@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "quell-body",
+  "file": "units/air-erekir/layers/quell-body.png",
+  "sha256": "ad523984559e9b2577f79a0b5998092cc397a63f37fa801a9819f912f7fd6295",
+  "width": 739,
+  "height": 747,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/10-erekir-carrier-body.png",
+      "sha256": "f833059dda94f008f9688b6205ce0821789eb200dd869498fcd8c89a7e0e2c7b",
+      "generationRecord": "units/air-erekir/source/10-erekir-carrier-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      35,
+      90,
+      765,
+      845
+    ],
+    "trimBoundsInRegion": [
+      20,
+      21,
+      727,
+      736
+    ],
+    "padding": 16,
+    "width": 739,
+    "height": 747,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

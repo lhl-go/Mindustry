@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/impact-drill-arrow.png",
+  "sourceGitBlob": "9277d3930be38d5e585d787c60bd96d714cb942a",
+  "sourceSha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-drill-arrow",
+  "blockId": "impact-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow.png",
+  "sha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow.png",
+  "engineSha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow.png",
+  "nativeSha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a",
+  "nativeSize": [
+    128,
+    128
+  ],
+  "sourceAlphaBounds": [
+    75,
+    37,
+    91,
+    53
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow.png",
+      "sha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow.png",
+      "sha256": "7e48ea74fe3d1e23d6cdf3ba3d5d7830cfd6e74eee009c22451ed6734003a61a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

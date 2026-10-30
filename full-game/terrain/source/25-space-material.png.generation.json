@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/25-space-material.png",
+  "sha256": "a7d66fbf919506def13c0cc41af81f2ec96bfedd068d88e422cdccb026fe9b2a",
+  "generatedAt": "2026-10-26 20:25:30 UTC",
+  "startedAt": "2026-10-26 20:24:32 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    2048,
+    2048
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game space texture. Paint one full-bleed seamless square deep celestial space material, requested 2048x2048, opaque. Attached two reference images guide only refined clean Daoist Q hand-painted finish and jade/ivory/warm-gold taste. Absolutely no UI, borders, panels, lettering, buildings, people, planets or large individual objects. Dense very small naturally scattered warm ivory and muted jade star pinpoints across a deep nearly-black blue-green sky, with extremely subtle hand-painted dark jade gaseous wisps, faint muted warm-gold dust. Low contrast, even brightness across the square, no vignette, no central focal object, no bright enormous flare. Visually distinct from a panorama: this square is a quiet repeating space material sampled by a game shader, all four edges should tile seamlessly. Tiny stars retain varied independent spacing without grid patterns. Beautifully refined illustrative game texture, pure unobstructed space.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/25-space-material.txt",
+  "promptSha256": "efa277319e93e8e84ae7bd674a85f9af026ba6866f0bab48f2350e2c043d0b32",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/25-space-material.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-fa56fa91-3d6c-43f8-b109-e21739040b8c.png",
+    "originalOutputSha256": "a7d66fbf919506def13c0cc41af81f2ec96bfedd068d88e422cdccb026fe9b2a"
+  },
+  "regions": [
+    "space-shader"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets/sprites/space.png",
+      "sha256": "b6e4bb505bd58dc9f935b4e362f942470d724eb8e40478decabbc4ae7eacbb5e"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

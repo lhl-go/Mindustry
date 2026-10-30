@@ -1,0 +1,40 @@
+{
+  "file": "ui/kit/icon-save.png",
+  "sha256": "72a1c168983118068444a39bef3f4969088db443bef92d2e5b984bba72194a75",
+  "width": 225,
+  "height": 206,
+  "derivedFrom": {
+    "file": "ui/components/ui-functional-icons-v1.png",
+    "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104",
+    "generationRecord": "ui/components/ui-functional-icons-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "connected_component_group_crop_alpha_cleanup_and_padding",
+    "sourceBox": [
+      552,
+      306,
+      761,
+      496
+    ],
+    "localAlphaBounds": [
+      0,
+      0,
+      209,
+      190
+    ],
+    "padding": 8,
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "componentGrouping": "by midpoint to six by four atlas cells; full components retained across grid lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true
+  },
+  "nativeSourceSize": [
+    1536,
+    1024
+  ],
+  "resampled": false,
+  "modelEvidence": "Inherited from source; not new model generation",
+  "semanticKey": "save",
+  "sourceImageRetained": false
+}

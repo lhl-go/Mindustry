@@ -1,0 +1,41 @@
+{
+  "region": "smite-blade-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-heat.png",
+  "sha256": "765b44a4b4059331cc8bfb301b5afe849fe0595d2c1815f9e655f9c2b731ee3d",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.517372+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-blade-heat.png",
+      "sha256": "95bbe21f9ea85cafbc8ca6840f3e948207074dbad0dd3b2430d3db3dcd9c0c26",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-r.png",
+      "sha256": "4a3cd94be7e7162174fcf995d7608ac8e0ea8bafb4530bd12d66ed17ce54b75a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-l.png",
+      "sha256": "4a3cd94be7e7162174fcf995d7608ac8e0ea8bafb4530bd12d66ed17ce54b75a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "smite-blade-r",
+      "smite-blade-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 2401
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

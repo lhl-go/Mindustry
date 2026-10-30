@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/fortress.png",
+  "sha256": "a19fc0af23b2bd1f52adeb7aad23f2d65fe3b2022d657221857d33f97225435d",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/fortress.png",
+      "sha256": "9de9f92fb02488a9c24024dc696ff571cde9717747db6c8f858c9449e47c7876",
+      "generationRecord": "units/serpulo-ground-naval/bodies/fortress.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-mortar.png",
+      "sha256": "a9b940b0c9bc39999f04fd26b929a27458ad45e574ab863da9ff3dbf3d79702c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-mortar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      812,
+      882,
+      1388,
+      1364
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          155.18,
+          239.0
+        ],
+        "scale": [
+          0.5728155339805825,
+          0.5711382113821138
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          26,
+          176
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          420.82,
+          239.0
+        ],
+        "scale": [
+          0.5728155339805825,
+          0.5711382113821138
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          350,
+          176
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/fortress.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/fortress.png.generation.json",
+        "sourceAnchorPx": [
+          229.0,
+          210.0
+        ],
+        "targetAnchorPx": [
+          288,
+          218
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          59,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-mortar.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-mortar.png.generation.json",
+        "sourceAnchorPx": [
+          136.0,
+          270.87
+        ],
+        "targetAnchorPx": [
+          86.48,
+          222.2
+        ],
+        "scale": [
+          0.5036764705882353,
+          0.5041322314049587
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          18,
+          86
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-mortar.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-mortar.png.generation.json",
+        "sourceAnchorPx": [
+          136.0,
+          270.87
+        ],
+        "targetAnchorPx": [
+          489.52,
+          222.2
+        ],
+        "scale": [
+          0.5036764705882353,
+          0.5041322314049587
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          421,
+          86
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 576,
+    "height": 482,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 117090,
+    "opaquePixelCount": 153905,
+    "partialPixelCount": 6637,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      552,
+      458
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "fortress",
+    "sha256": "a19fc0af23b2bd1f52adeb7aad23f2d65fe3b2022d657221857d33f97225435d",
+    "size": [
+      576,
+      482
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

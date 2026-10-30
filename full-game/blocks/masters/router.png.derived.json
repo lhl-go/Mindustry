@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/router.png",
+  "sha256": "a3157444a5e4df66a39d932f32a481184660d57f7351aa5f00d25fab133df4f1",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-nodes-01.png",
+      "sha256": "ac03dacfd94bdb6c13808d49d7491f071076f5c482dc092fb0480546c6102f84",
+      "generationRecord": "full-game/blocks/records/logistics-nodes-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      50,
+      67,
+      477,
+      477
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      427,
+      410
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    459,
+    442
+  ],
+  "anchorPixels": [
+    229.5,
+    221.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

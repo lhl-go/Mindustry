@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pebbles1.png",
+  "sha256": "5f49068c91c2b5332deb39db73e2f22296bb36db41bfe4603eb55d5690434311",
+  "size": [
+    236,
+    208
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/17-rock-ground-props.png",
+      "sha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9",
+      "generationRecord": "full-game/terrain/source/17-rock-ground-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    982,
+    677,
+    1218,
+    885
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

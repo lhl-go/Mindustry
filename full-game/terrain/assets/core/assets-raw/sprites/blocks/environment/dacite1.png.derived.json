@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/dacite1.png",
+  "sha256": "df1dea7b6fb2c32d310759715d1568832ca0f4d393308c88e007aba93805aeaa",
+  "createdAt": "2026-10-26T16:42:00.146209+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/04-volcanic-floors.png",
+      "sha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc",
+      "generationRecord": "full-game/terrain/source/04-volcanic-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      2,
+      294,
+      294
+    ],
+    "nativeExtractedSize": [
+      292,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 2.598692347267454
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

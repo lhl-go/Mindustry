@@ -1,0 +1,53 @@
+{
+  "args": {
+    "prompt": "Use case: game-sprite atlas. Paint24 independent BOULDER props for Mindustry, pure strict TOP-DOWN orthographic from directly above, rounded clean Daoist Q hand-painted rocks consistent with attached references' finish ONLY. No UI, text, people, frames or symbols. Requested2048×3072 portrait, exact4 equal columns×6 equal rows, every cell one centered COMPLETE isolated boulder occupying65-70percent, at least15percent transparent padding, no pieces touching boundaries. Fully transparent background; no ground tile, no cast shadow, no tiny far-away debris. Every pair two different rock silhouettes and facet patterns, NEVER copies. Broad rounded chunky forms with tiny mineral texture and soft overhead light, not noisy photorealism, not side-view or isometric pillars.\nRow1 col1/2 ordinary pale cool-gray limestone boulders, col3/4 charcoal blue-gray basalt boulders.\nRow2 col1/2 pale sage-jade beryllic boulders, col3/4 dark charcoal carbon boulders.\nRow3 col1/2 pale lavender-gray crystalline boulders with2-3 tiny lilac embedded crystals, col3/4 pale warm gray speckled dacite boulders.\nRow4 col1/2 warm rust-ochre ferric boulders, col3/4 warm pale beige sandstone boulders.\nRow5 col1/2 muted purple-gray flaky shale boulders, col3/4 gray boulders heavily capped with soft clean white snow.\nRow6 col1/2 warm golden ochre yellow-stone boulders, col3/4 dusty rose pink rounded red-ice boulders with thin pale ice fractures.\nAll24 isolated whole props, transparent holes outside only, no glow haze or decoration. Top silhouettes visually distinct yet material family coherent.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 18:34:40 UTC",
+  "returnedAt": "2026-10-26 18:36:03 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-e207aa17-87c9-4625-929e-2ffbed8e106e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    2048,
+    3072
+  ],
+  "grid": [
+    4,
+    6
+  ],
+  "regions": [
+    "boulder1",
+    "boulder2",
+    "basalt-boulder1",
+    "basalt-boulder2",
+    "beryllic-boulder1",
+    "beryllic-boulder2",
+    "carbon-boulder1",
+    "carbon-boulder2",
+    "crystalline-boulder1",
+    "crystalline-boulder2",
+    "dacite-boulder1",
+    "dacite-boulder2",
+    "ferric-boulder1",
+    "ferric-boulder2",
+    "sand-boulder1",
+    "sand-boulder2",
+    "shale-boulder1",
+    "shale-boulder2",
+    "snow-boulder1",
+    "snow-boulder2",
+    "yellow-stone-boulder1",
+    "yellow-stone-boulder2",
+    "red-ice-boulder1",
+    "red-ice-boulder2"
+  ]
+}

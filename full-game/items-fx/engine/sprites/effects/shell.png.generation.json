@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/shell.png",
+  "sha256": "81b838fc0bc8e81f8b1a36602c38195ff38e3ad7d18db5f223163f6ab1e488c2",
+  "width": 36,
+  "height": 36,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/shell.png",
+      "sha256": "881dc6dc9be50439d437efe2b67101e975d8dd06ffc41c68090ab8d978e5b6e3",
+      "generationRecord": "full-game/items-fx/assets/shell.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      36,
+      36
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

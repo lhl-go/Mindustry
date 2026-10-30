@@ -1,0 +1,23 @@
+{
+  "stem": "04-assault-naval",
+  "startedAt": "2026-10-26T08:49:29.359Z",
+  "returnedAt": "2026-10-26T08:50:11.951Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "submittedArguments": {
+    "prompt": "Use case: stylized-concept. Game sprite source board, not a UI screenshot.\nThe two attached images are PRIMARY ART STYLE references only: carry over refined Daoist Chinese Q/chibi hand painting, rounded substantial shapes, jade-green/teal enamel, ivory ceramic panels, restrained warm-gold bronze details, delicate cloud ornament and occasional small red cord. Do not copy people, portraits, text, screens, frames or scenic backgrounds.\nProduce a landscape 3:2 transparent RGBA source board, requested 3072×2048 native if supported. Layout is a precise invisible 3-column by 2-row grid with equal cells. EXACTLY five different complete mechanical units, first row left/center/right and second row left/center. Sixth bottom-right cell is EMPTY TRANSPARENT. Each unit stays fully inside its own cell with at least 15% empty margin; no overlap and no detached spare parts.\nAll units viewed strictly from DIRECTLY OVERHEAD, orthographic, facing the TOP edge (north), symmetrical readable silhouettes. Show the top of armor, machinery and chassis. No front-facing faces, no standing human figure, no isometric or side perspective, no feet pointing toward camera. A usable RTS top-down painted sprite. Every unit includes its own attached appropriate locomotion and weapons at rest, no firing effect. Each unit unique with increasing sophistication, not simple scaled copies.\nTrue transparent background and gaps, alpha=0 outside silhouettes. No colored fringe, no ground, no cast shadow plane, no text, no labels, no numbers, no border, no watermark, no checkerboard. Crisp natural painted edges and fully opaque bodies, no glow bleeding outside. High native detail without noise, no pixel art and no plastic 3D look. Target configured GPT Image 2.5 / highest quality.\n\nFamily: Serpulo surface assault boats. All are genuine boats seen directly overhead, bows point up, elongated naval hulls with curved Daoist dragon-prow motifs kept subtle, no sails, no water, no people.\nCELL 1 top-left RISSO: small swift patrol hull, compact forward deck gun plus tiny aft missile pod.\nCELL 2 top-center MINKE: medium broad gunboat, forward anti-air gun and rear mortar turret, visible stern propulsion vents.\nCELL 3 top-right BRYDE: artillery cruiser, long central deck artillery piece and two compact side missile pods, rounded jade hull.\nCELL 4 bottom-left SEI: heavy wide cruiser with large paired missile launchers, multiple smaller deck gun turrets, layered ivory armor.\nCELL 5 bottom-center OMURA: largest long battleship, unmistakably massive central long railgun pointing north, flanking bronze deck rings and rear flight-support bay details; bow and stern stay entirely inside the cell. Substantially more imposing hull than Sei.\nCRITICAL CAMERA OVERRIDE: Strict 90-degree overhead camera like a naval strategy map token. See ONLY the upper decks, no hull sidewalls. Bow at top and stern at bottom. All long gun barrels lie in the image plane pointing UP, no circular muzzles facing the viewer.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4 as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-19ef97c1-b59b-42fe-bc3f-ff727e8d15a0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-19ef97c1-b59b-42fe-bc3f-ff727e8d15a0.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

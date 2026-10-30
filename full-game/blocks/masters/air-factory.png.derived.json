@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/air-factory.png",
+  "sha256": "6830520efba20428ee3d27b01ec67e5678fd870dccd0879910b729d9cdd2b638",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      381,
+      51,
+      713,
+      359
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      332,
+      308
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    364,
+    340
+  ],
+  "anchorPixels": [
+    182.0,
+    170.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

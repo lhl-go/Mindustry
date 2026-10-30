@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/clear-editor.png",
+  "sha256": "c51496b33e3f1d38bbe7357932d65d40fa8c8d6ec20e59cbf45c722eb4ee5125",
+  "createdAt": "2026-10-26T17:24:43.686853+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets-raw/sprites/blocks/environment/clear-editor.png",
+  "officialGitBlobSha1": "f65a75d14472e888bb30a75ec58cd7be776b9aeb",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets-raw/sprites/blocks/environment/clear-editor.png",
+  "sourceSha256": "c51496b33e3f1d38bbe7357932d65d40fa8c8d6ec20e59cbf45c722eb4ee5125",
+  "byteIdenticalToOfficial": true,
+  "width": 2,
+  "height": 2,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    0
+  ],
+  "reason": "Editor sentinel/removal/error or blank procedural shader carrier; preserving exact function marker/transparent coverage prevents changing editor/runtime semantics. Official utility asset retained and disclosed.",
+  "technicalEvidence": [
+    "core/src/mindustry/content/Blocks.java",
+    "core/src/mindustry/graphics/Shaders.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

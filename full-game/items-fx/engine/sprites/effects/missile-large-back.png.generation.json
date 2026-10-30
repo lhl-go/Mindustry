@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/missile-large-back.png",
+  "sha256": "8295dab47c90ba7dc4d8f69e0d116a3a96bedebf6b13fb8bab7e5b60c6850883",
+  "width": 56,
+  "height": 56,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/missile-large-back.png",
+      "sha256": "163183304dd46c53ec99e9269901cd566d0eb1deec19b5d6d109bb9c21f1612f",
+      "generationRecord": "full-game/items-fx/assets/missile-large-back.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      56,
+      56
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

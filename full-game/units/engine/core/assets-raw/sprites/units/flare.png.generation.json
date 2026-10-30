@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/flare.png",
+  "sha256": "614ed0e06c7d20a86f36f49d3624adce3b1c5396a062846a8f2413075b24acec",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/flare.png",
+      "sha256": "40dd6c2a3730b2e2deb6a69cbde8493e56683c2a27b35887a3509412372b5811",
+      "generationRecord": "units/air-erekir/individual/flare.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      392,
+      373
+    ],
+    "sourcePivot": [
+      204.0,
+      194.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      5
+    ],
+    "sourceDimensions": [
+      408,
+      389
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      44,
+      44
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/flare.png",
+    "gitBlobSha1": "fe81ef23df25be58634b91a3dab4ea85b22d3c54",
+    "sha256": "667f12602fe7b9b82316de24f30b84cbb23b98bec57fffc92c130dfb33fbdea1"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

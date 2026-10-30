@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-tarFields",
+  "file": "full-game/ui-system/sectors/sector-tarFields.png",
+  "sha256": "b23146537b2fea18457efdbabd2fd381d8f7a0833f0fdd3c4347a8f63413d6b9",
+  "width": 578,
+  "height": 578,
+  "derivedAt": "2026-10-26T15:54:03.156022+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/12-sectors-06.png",
+    "sha256": "e92a685280cf27df018a87b334250b5db1cbd9bbd3802e3c8e9b4adef4975ded",
+    "generationRecord": "full-game/ui-system/source/12-sectors-06.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      2,
+      2
+    ],
+    "index": 0,
+    "sourceBox": [
+      44,
+      39,
+      598,
+      565
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

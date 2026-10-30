@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/parts/naval-plasma-missile.png",
+  "sha256": "6390d304e17a14b96caf1e9ee61a07f72b1c7488939798c79dfc3e980cc98a5b",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "generationRecord": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      435,
+      748,
+      714,
+      998
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 311,
+    "height": 282,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 32231,
+    "opaquePixelCount": 53161,
+    "partialPixelCount": 2310,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      295,
+      266
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    155.5,
+    203.5
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "part"
+}

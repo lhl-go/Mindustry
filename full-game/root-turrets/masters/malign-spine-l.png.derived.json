@@ -1,0 +1,41 @@
+{
+  "region": "malign-spine-l",
+  "file": "full-game/root-turrets/masters/malign-spine-l.png",
+  "sha256": "0652bda58037bc8c4c3f74b22363689695ab9595e9a8ea174760bc2a1105c044",
+  "size": [
+    317,
+    238
+  ],
+  "derivedAt": "2026-10-26T18:34:44.103612+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/03-regions.png",
+      "sha256": "1aa7ef54c2cb6c9430de900630308c8ff04c44732f0b33bdef3e68736edd1342",
+      "record": "full-game/root-turrets/source/03-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 10,
+    "sourceBox": [
+      814,
+      738,
+      1107,
+      952
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

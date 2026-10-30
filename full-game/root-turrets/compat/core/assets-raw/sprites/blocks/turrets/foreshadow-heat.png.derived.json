@@ -1,0 +1,35 @@
+{
+  "region": "foreshadow-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/foreshadow-heat.png",
+  "sha256": "b9ed5a07ef5ffcc274d988c021ab202bcc057141c4ddc6dd5d7d16e5ae8548b1",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.441988+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/foreshadow-heat.png",
+      "sha256": "8bb85ceab7fdf27588c570e381151566578b309e404a9f8a9dff446fd563946c",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/foreshadow.png",
+      "sha256": "18ff5277dc0ed1cfea482d8e95062ae02dc832ece906b5c0b0784f86761dc5f6",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/foreshadow.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "foreshadow"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1548
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

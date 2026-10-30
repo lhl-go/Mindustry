@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/pulverizer.png",
+  "sourceGitBlob": "bd07997cdf6217dcca590a11bf14e6bbb9b88682",
+  "sourceSha256": "437c06a00b2b37e6ad05715c130075b72f5023e7e019283cbc9b98b19e2a8db7",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "pulverizer",
+  "blockId": "pulverizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer.png",
+  "sha256": "afb1763a711d901d37f4f0dddc7b9e1977a2fe4907b2222578faefbf2d697eca",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer.png",
+  "engineSha256": "afb1763a711d901d37f4f0dddc7b9e1977a2fe4907b2222578faefbf2d697eca",
+  "nativeFile": "full-game/blocks/masters/pulverizer.png",
+  "nativeSha256": "bd1f2c86b9b8c7341f129b02bee657336d3209a3510a67b8f53dff2fd4074052",
+  "nativeSize": [
+    328,
+    266
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pulverizer.png",
+      "sha256": "bd1f2c86b9b8c7341f129b02bee657336d3209a3510a67b8f53dff2fd4074052"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/pulverizer.png",
+      "sha256": "437c06a00b2b37e6ad05715c130075b72f5023e7e019283cbc9b98b19e2a8db7"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

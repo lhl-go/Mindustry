@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/quell-missile.png",
+  "sha256": "c9199375b808eae7008fc05ae3b21832c240284ba619e7bd6299123aaee56e39",
+  "width": 49,
+  "height": 47,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/quell-missile.png",
+      "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+      "generationRecord": "units/special/assets/quell-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      385,
+      472
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      9,
+      4
+    ],
+    "sourceDimensions": [
+      417,
+      504
+    ],
+    "targetDimensions": [
+      49,
+      47
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      45,
+      43
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.5,
+      23.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/quell-missile.png",
+    "gitBlobSha1": "6aadf02c8a51708130f99ecee95bd394f057a871",
+    "sha256": "87d72a024cb6caa678c849fabaa1d00cd4742289cb43307158b5293d1ab42d45"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,84 @@
+{
+  "reviewedAt": "2026-10-28T07:59:04.802448+00:00",
+  "status": "passed_read_only_preflight_pending_final_art_freeze",
+  "blockingFindings": [],
+  "scope": "Read-only review of package selection, overlay, private Git preparation/push and public release verification. No credentials read or printed, no network writes or Git writes executed. Final blocks freeze is an acknowledged remaining dependency, not a defect.",
+  "sources": [
+    {
+      "file": "full-game/prepare_delivery.py",
+      "sha256": "dcd7e6f520875dd3a3e64d509918ef7b0b1f53304c35bb69ce3e26dc4250bab8"
+    },
+    {
+      "file": "full-game/package_delivery.py",
+      "sha256": "ae811c585872305e078e993ccfcc88b85b9d62a62da266dc571bd50ee6839abd"
+    },
+    {
+      "file": "full-game/export_source_overlay.py",
+      "sha256": "4df40daf5e0261b43b3f1486ece37bf6ad045d3ca409d7b62cde6a9e4d485481"
+    },
+    {
+      "file": ".work/github-publish/prepare_full.py",
+      "sha256": "a15d8135841e3346ae268b04bbefcaac123c2a06f339aaac59c70a8ae5649b3a"
+    },
+    {
+      "file": ".work/github-publish/publish_full_release.py",
+      "sha256": "4c330a2dc0d6276d439e695ccb1d0697ff0959fd218d511c6658fb5a3a12da3b"
+    },
+    {
+      "file": ".work/github-publish/push_full.py",
+      "sha256": "7f6ce42c3d950feccd4c4680ba0d4420f6285216b0012f47a4d22198153484c6"
+    },
+    {
+      "file": ".work/github-publish/verify_full_download.py",
+      "sha256": "ae8f9031e112c5b92a469f87143039a28a0b09d63d992412bd34da9fa8c75f96"
+    },
+    {
+      "file": ".work/github-publish/verify_full_remote.py",
+      "sha256": "66a2588c8a583a02770a921766ed3078e4b1639318b7793f830a08b7ca99abc1"
+    },
+    {
+      "file": ".work/github-publish/retire_initial_release_assets.py",
+      "sha256": "f573852c851ae12a552b4de32c5e7717fadbcfa517937c4423e12ab0ef1186d7"
+    },
+    {
+      "file": ".work/github-publish/prepare.py",
+      "sha256": "fd342d1819f67fe5abf70fd71fb4a07b8a773c83eeecbf8b678008695a067b5f"
+    }
+  ],
+  "checks": {
+    "overlayCounts": {
+      "officialImageSourcePaths": 2368,
+      "runtimeTechnicalFiles": 47,
+      "additionalUnitSourceRegions": 2,
+      "expectedTotal": 2417,
+      "generatedTreadFramesExcludedFromSourceOverlay": 144
+    },
+    "plannedSelectionWithFinalBlocksMerged": {
+      "selectedFileCountAtReview": 10548,
+      "missingSelectedFiles": 0,
+      "excludedFilesRequiredByFinalAssets": 0,
+      "modelRecordOmissions": 0,
+      "aiBoardsSelectedAsMedia": 0,
+      "embeddedBase64ImagePayloads": 0,
+      "credentialPatternMatches": 0,
+      "largestFileBytes": 6081020
+    },
+    "provenance": "Text records, native masters, technical integration geometry inputs, font/shader bytes and font license notices are included by current selection rules; consumed AI boards are omitted. Native technical refs are not counted as newly painted images.",
+    "packageIntegrity": "Frozen file hashes rechecked before ZIP construction; archive CRC is checked. Public independent download reconstructs split bytes and checks full ZIP SHA256 plus every embedded file checksum.",
+    "privateGit": "GIT_DIR and GIT_INDEX_FILE target private publisher paths. commit-tree has no parent argument; rev-list count must equal 1. Shared image Git is not operated by reviewed scripts.",
+    "remoteWriteGuard": "Push reads current main/tag and requires each equal either the exact previous published commit or this prepared commit. Atomic push includes explicit force-with-lease constraints for both refs.",
+    "releaseRetirement": "Initial release assets retire only after full independent public download succeeded; old IDs/names/digests/sizes are compared and overlap with new asset IDs is forbidden."
+  },
+  "limitations": [
+    "This preflight is not a publication receipt. Final frozen manifest, gallery pass, actual remote commit/blob checks and independent download receipts must still be produced.",
+    "Credential scanning is a bounded pattern check of selected text; private .work paths and known credential filenames are also excluded."
+  ],
+  "postReviewCoordinatorAdjustments": {
+    "changes": [
+      "Omit superseded root-working/hud-working metadata from delivery.",
+      "Skip explicitly excluded obsolete QA images when local cleanup is rejected."
+    ],
+    "prepareDeliveryCurrentSha256": "75ea37d76c3a050f10a33a9e229ac7e264df38893aa13c8c6e3e2f0f890f6dec",
+    "finalPackageStillRequiresActualFreezeHashAndIndependentDownload": true
+  }
+}

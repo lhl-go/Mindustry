@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/redweed1.png",
+  "sha256": "ebb88406c158c95bb7bc1a495e9c45e6f3eb0e7d2a01fbf3cc03f5da74dff6aa",
+  "createdAt": "2026-10-26T19:14:29.912858+00:00",
+  "kind": "derived_image",
+  "width": 50,
+  "height": 50,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/18-vegetation-props.png",
+      "sha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430",
+      "generationRecord": "full-game/terrain/source/18-vegetation-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      28,
+      24,
+      306,
+      303
+    ],
+    "nativeExtractedSize": [
+      278,
+      279
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.17204301075268819,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      50,
+      50
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

@@ -1,0 +1,1121 @@
+{
+  "status": "passed_25_complete_3_awaiting_coordinator_patch",
+  "checkedAt": "2026-10-26T11:49:14.909683+00:00",
+  "unitCount": 28,
+  "uniquePixelsChecked": 79,
+  "checks": [
+    {
+      "file": "units/air-erekir/individual/flare.png",
+      "sha256": "40dd6c2a3730b2e2deb6a69cbde8493e56683c2a27b35887a3509412372b5811",
+      "size": [
+        408,
+        389
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/horizon.png",
+      "sha256": "bde20e7f36ec53aaa7fd85494af5d1827a31f4430c0202845c958aed48a7b184",
+      "size": [
+        520,
+        454
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/zenith.png",
+      "sha256": "2878a9c8505b2580e8f49d024f33b5ac94e7a0ebd0bb38920f9d84a4a1911042",
+      "size": [
+        516,
+        491
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/zenith-body.png",
+      "sha256": "4323f4c7fef832b690280ddea9d9f89f34004dfe164578149a132b8b487e7aee",
+      "size": [
+        671,
+        635
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+      "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+      "size": [
+        337,
+        433
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/antumbra.png",
+      "sha256": "915e40a7e234d43fe4340a4e09b1f7dff0880beb751083323215fea7ce108315",
+      "size": [
+        518,
+        414
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/antumbra-body.png",
+      "sha256": "e49d1181f948da410a8ea3ed4244664ba94c48ac1014a62b5a3f7515e481a845",
+      "size": [
+        743,
+        578
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+      "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+      "size": [
+        375,
+        428
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/missiles-mount.png",
+      "sha256": "c78ea6ee4766675a14b7a34272692c1855c21aaa1f5d1fa39378f97d0ffdcd85",
+      "size": [
+        418,
+        474
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/eclipse.png",
+      "sha256": "e18736874929a8c481cf63317726746509a08a26597ff9784543a3eb5552a4fb",
+      "size": [
+        518,
+        508
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/eclipse-body.png",
+      "sha256": "80db0edc11629f1d269625a554a345756c24ac8fc173de19cfb819446c6b7f5c",
+      "size": [
+        740,
+        724
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/large-artillery.png",
+      "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+      "size": [
+        348,
+        389
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+      "sha256": "afe2e74d3740bd8605d67c28dc5566ca5f07735499ef943040dea97bcef35489",
+      "size": [
+        323,
+        465
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/mono.png",
+      "sha256": "d89c5ff4d7ff61455e2823165d5f78e02d1887b0580c4f75815e9567c363545e",
+      "size": [
+        354,
+        357
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/poly.png",
+      "sha256": "7e230b2b2889d925d8652364535310a42fff55c4d6bedb45ef1d238a3bd345f2",
+      "size": [
+        427,
+        416
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/mega.png",
+      "sha256": "a52844983ef868b36a110b5436694614c2ae83f7ff3bf45ea5e17be7f78d7218",
+      "size": [
+        508,
+        448
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/mega-body.png",
+      "sha256": "113f04b8beb019d134c31600aadfdf04c6d8a6e5240ea2245a35b41c0c034680",
+      "size": [
+        535,
+        467
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+      "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+      "size": [
+        314,
+        320
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/quad.png",
+      "sha256": "f2eeb53a162808a149aaa695cae2e9a745ae19a47ae527327370bc424382cb84",
+      "size": [
+        585,
+        495
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/oct.png",
+      "sha256": "229a6c50faae27b37ba94fd657e40ad8f623107d4c981194ac627de2c6d074ae",
+      "size": [
+        625,
+        562
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/stell.png",
+      "sha256": "72bf45b611850daa5077307965ff237b1dca068e2c2fb91fe5d03c3aa1041759",
+      "size": [
+        435,
+        439
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/stell-body.png",
+      "sha256": "1d9a2b7aa4c71986478fc008bafc6d5a4448b3e4026c9a330ab8f61b56aafa3b",
+      "size": [
+        403,
+        361
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/stell-weapon.png",
+      "sha256": "a7a88552ae0f56ee085c31330eeb189d7996962d2cf5e0a174ac55ec84ec6b3d",
+      "size": [
+        267,
+        348
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "size": [
+        215,
+        435
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/locus.png",
+      "sha256": "7f30341ff0748b9e7cd5194c892fbfce367c2f46f8d25328071e9519ae940665",
+      "size": [
+        487,
+        467
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/locus-body.png",
+      "sha256": "ec3f42bc6094d9903b42bff452140aa9bb21979488fb8143e7c981787748fd5d",
+      "size": [
+        455,
+        423
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/locus-weapon.png",
+      "sha256": "bad4e625196b7c53022318ce06f67f5427ef2868e0785711b876980418036144",
+      "size": [
+        325,
+        370
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/precept.png",
+      "sha256": "af90bebcca9457aa079967f72b1d5293366820cd44c419e4881fc428306b3070",
+      "size": [
+        508,
+        492
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/precept-body.png",
+      "sha256": "514c8542222f97129342c74f7f10aee01800d3daf600017bc355a2367b6b6526",
+      "size": [
+        492,
+        459
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/precept-weapon.png",
+      "sha256": "4f5b7455ff5f2dbfb6c4aa2e9b63b7dee99df528162586a9d656b571279fb47c",
+      "size": [
+        341,
+        423
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/vanquish.png",
+      "sha256": "2e09bc77baecc910d928fb966be73431e3884f49d084c93bee2c63d7f008b816",
+      "size": [
+        508,
+        468
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/vanquish-body.png",
+      "sha256": "36396e17181d291b5e6c0c749b7e56bbe53636473085caa6ffd86ae222a183c0",
+      "size": [
+        494,
+        452
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+      "sha256": "952b0b08dfef214bf7076bb863b04fc925d851e5fa99e0017ee2c737735b2674",
+      "size": [
+        258,
+        306
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+      "sha256": "ee4aa403fdc6d49fcd98e5d54c822b4142accd28a4ca11d77db93082e3c0db92",
+      "size": [
+        392,
+        464
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/conquer.png",
+      "sha256": "d402dd07f5760865f76e58e5f5ae66594ce6c4daf82cc832f778a52971da19f0",
+      "size": [
+        510,
+        484
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/conquer-body.png",
+      "sha256": "d763d22fc2cef137013f04c464954180ee66473a01fbe476164561b74cb21c6b",
+      "size": [
+        540,
+        510
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+      "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+      "size": [
+        427,
+        435
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "size": [
+        470,
+        383
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/merui.png",
+      "sha256": "3cc3aebae3d49dc53028cc94e69ea76447fd9dc075c1b88d459f8e0ac5ea567d",
+      "size": [
+        868,
+        521
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/merui-body-v2.png",
+      "sha256": "bb18178d01933c1ec5c46901a8c724911614dd834227fe6ad5df23fec48a540c",
+      "size": [
+        789,
+        841
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/merui-weapon.png",
+      "sha256": "c8e27f94c16f3f09c9bb582d00c95bb977fff207519544c786191acbbf0a34c2",
+      "size": [
+        304,
+        319
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-short-upper.png",
+      "sha256": "2c1119478850802e55919429f3af1e8b0a534b69cf7f5e343ae9a1a73552517f",
+      "size": [
+        175,
+        333
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-short-lower.png",
+      "sha256": "db84a2a497d1fbe9e208436bb8f8950916b2eafeb09daa6c65a774019d0f6efa",
+      "size": [
+        166,
+        347
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-short.png",
+      "sha256": "91f8858af28f88424979ea3c02a3387fc8c627ee1580cd9bce187b27062b304d",
+      "size": [
+        242,
+        311
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/cleroi.png",
+      "sha256": "7c68049438b018985309053ce4afcddce5c6db294dbebe4932312d38ded26430",
+      "size": [
+        922,
+        435
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 3,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/cleroi-body.png",
+      "sha256": "5ce14a6b757074b65d2afef3aeb5f0469b5a7c29dac13900c6facbebb15abdc0",
+      "size": [
+        510,
+        416
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/cleroi-point-defense.png",
+      "sha256": "402eac6f9696b214815232ee7a51e2d520b99528b170f509f019d631a5003c47",
+      "size": [
+        237,
+        230
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/cleroi-weapon.png",
+      "sha256": "fe355adb4e525608d303b64bfa7953f7532c94251dfff122aea4f494966e9762",
+      "size": [
+        318,
+        367
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/anthicus.png",
+      "sha256": "b4c4c5cb63d609b009c3208d26ca97d69256dd671de2b189a20d7f6094fa7a0c",
+      "size": [
+        542,
+        510
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 3,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/anthicus-body.png",
+      "sha256": "32fb89c371b6357b308367def1e16419bb7ad223fb5255d972d44aa133d2f6a0",
+      "size": [
+        298,
+        515
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+      "sha256": "06415c55537275b01f51de7b183990fd4a6bc698e995209bed55191eabc4407e",
+      "size": [
+        297,
+        332
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+      "sha256": "111bfbc97e1b656e1c65099165f655ebe9576fb63f11c721cd27ed4d233d2000",
+      "size": [
+        210,
+        367
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+      "sha256": "0daf2f3585757c72aa5f579ae70131bf111fd1986f8e67a5ffdd74904a326ccb",
+      "size": [
+        198,
+        396
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-medium.png",
+      "sha256": "26422925d2985feb3296351cf5903921d97e0b77bb6efd38f5928cb9a7b61cab",
+      "size": [
+        327,
+        348
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/tecta.png",
+      "sha256": "513bee172f479dd1eeb9cd0de411aab5c99e84b6ef62aefd935777517e6904b0",
+      "size": [
+        860,
+        508
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/tecta-body.png",
+      "sha256": "07d7148e17c1cdc37f3cbf3acc2076f420b1efb19b64aa38e81c9b929ebe3c46",
+      "size": [
+        475,
+        492
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+      "sha256": "22a132f978d43a50be56de29860c5c2d39eef1e7045f039e3f12332f8deac35f",
+      "size": [
+        357,
+        335
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+      "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+      "size": [
+        257,
+        408
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "size": [
+        252,
+        414
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-heavy.png",
+      "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+      "size": [
+        373,
+        403
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/tecta-shield.png",
+      "sha256": "e6e7b08ee8cf7f96ef7eb909b2951c82ee7b7b63c4db45748bd54c892ccb8f58",
+      "size": [
+        353,
+        398
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/collaris.png",
+      "sha256": "1ac77c18b65ffb210a60064955990896f21ab049569ba2810efbe58bc7048595",
+      "size": [
+        788,
+        522
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/collaris-body-v2.png",
+      "sha256": "72b57c8c69045c1fcdc6838021c058fa757c1ae4dd8cdb43539921d5fa6572ea",
+      "size": [
+        774,
+        879
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+      "sha256": "4ce7eb613dba05cd9c3914268995301985e426ded8d9a8375a88e1dc271aa474",
+      "size": [
+        276,
+        378
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/elude.png",
+      "sha256": "41148d92060b58fc6fc89561f12a9235ad0e311fa1b2d8023365deeb0d7d57ba",
+      "size": [
+        289,
+        445
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/avert.png",
+      "sha256": "43ec076c5f425538e9d7513e3a0b39e1d8faa474b4214e297cb1c610512c1324",
+      "size": [
+        433,
+        446
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/obviate.png",
+      "sha256": "a1b1acc30eaf960e87c1fdb7508e20162206e16ff77020cf25a088ddd3d5168a",
+      "size": [
+        510,
+        505
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/obviate.png",
+      "sha256": "35a2e9754939cb1c541849fc846c579e204b6547cd0979751e62e0a9edda0f79",
+      "size": [
+        508,
+        504
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/quell.png",
+      "sha256": "1808b74524490350053d870dff005ad3ae220216fcee2776ee39b9bf64b81909",
+      "size": [
+        513,
+        518
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/quell-body.png",
+      "sha256": "ad523984559e9b2577f79a0b5998092cc397a63f37fa801a9819f912f7fd6295",
+      "size": [
+        739,
+        747
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/quell-weapon.png",
+      "sha256": "5f136f385541686ae8513dd0ab9154c8171c9a3908f3f0ff5611ccba683db312",
+      "size": [
+        408,
+        393
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/disrupt.png",
+      "sha256": "776f8890657283f32af53f533716991f6fdfaed5daca69ff426acc10d84c6d3f",
+      "size": [
+        524,
+        440
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/disrupt-body.png",
+      "sha256": "272d002067d65e09722ae73e55c5a1dad5ca35f3c5843d18a22bcdefe240984e",
+      "size": [
+        989,
+        812
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+      "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+      "size": [
+        476,
+        403
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/evoke.png",
+      "sha256": "39a5aaee2082489850d1162cab417a61ab1255521eaae4234d0bb7cc3706f8e4",
+      "size": [
+        464,
+        512
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/assembled/incite.png",
+      "sha256": "cd2c0cda44fe9954fa826327437ca4799d3a0cafbb821a2fc2b143585f8da5c3",
+      "size": [
+        457,
+        483
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/layers/incite-body.png",
+      "sha256": "1d51717e5cd6b80d8853e7e898409bce1ff11a12682ea98753b40098cddd8171",
+      "size": [
+        425,
+        451
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/build-weapon.png",
+      "sha256": "b0ec57a71d75b833f3431fbb6eccd1c192aecf09b507a89c633b745477ce7adb",
+      "size": [
+        326,
+        400
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    },
+    {
+      "file": "units/air-erekir/individual/emanate.png",
+      "sha256": "00b729089c8caf9fd9b71123fa3513e5cf9d396c17036f29589132a544229ac7",
+      "size": [
+        831,
+        720
+      ],
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "borderPixels": 0,
+      "hiddenRgbPixels": 0,
+      "significantComponents": 1,
+      "status": "passed_alpha_bounds_and_hidden_rgb"
+    }
+  ],
+  "visualReviewed": true,
+  "bodyOnlyResidualWeaponCorrections": [
+    "merui",
+    "collaris"
+  ],
+  "independentReview": "records/workers/serpulo-ground-naval/air-erekir-readonly-audit.json",
+  "engineNotVerified": true
+}

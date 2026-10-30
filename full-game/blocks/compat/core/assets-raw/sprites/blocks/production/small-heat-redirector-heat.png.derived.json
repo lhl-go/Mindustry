@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/small-heat-redirector-heat.png",
+  "sourceGitBlob": "4b75fbf11ac134b30a2dbe1aac6d06792b155a6f",
+  "sourceSha256": "e039a34f81a0c710b3857faa819b9c032c5e59ffd5491a2463b79a26001b3e8e",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "small-heat-redirector-heat",
+  "blockId": "small-heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-heat.png",
+  "sha256": "8c272c50cadea67443fed52e91f37e0278cdd2a34b898ae1d196e05a9596c3bf",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-heat.png",
+  "engineSha256": "8c272c50cadea67443fed52e91f37e0278cdd2a34b898ae1d196e05a9596c3bf",
+  "nativeFile": "full-game/blocks/masters/small-heat-redirector.png",
+  "nativeSha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1",
+  "nativeSize": [
+    239,
+    268
+  ],
+  "sourceAlphaBounds": [
+    32,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/small-heat-redirector.png",
+      "sha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/small-heat-redirector-heat.png",
+      "sha256": "e039a34f81a0c710b3857faa819b9c032c5e59ffd5491a2463b79a26001b3e8e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

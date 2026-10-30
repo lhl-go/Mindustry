@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/sei.png",
+  "sha256": "dc82f1f3818acd036557247419b3a3b3e4f0269f009b8a78c4e373a7ad134ff3",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/sei.png",
+      "sha256": "60df1f865e4bac6a695ad13768cfd2c8016d667c55e13141ac0d32062e98220e",
+      "generationRecord": "units/serpulo-ground-naval/bodies/sei.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-missile-six.png",
+      "sha256": "9a328639c6dc12984fdfe390eab615585662f243e62bc08e06bf3a632b9ced49",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-six.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+      "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      896,
+      822,
+      1305,
+      1377
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/bodies/sei.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/sei.png.generation.json",
+        "sourceAnchorPx": [
+          196.5,
+          269.5
+        ],
+        "targetAnchorPx": [
+          204,
+          278
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          8,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-missile-six.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-six.png.generation.json",
+        "sourceAnchorPx": [
+          158.5,
+          224.5
+        ],
+        "targetAnchorPx": [
+          204,
+          278
+        ],
+        "scale": [
+          0.4952681388012618,
+          0.4967741935483871
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          126,
+          166
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          93.96,
+          439.7
+        ],
+        "scale": [
+          0.47413793103448276,
+          0.4729241877256318
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          39,
+          345
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          314.04,
+          439.7
+        ],
+        "scale": [
+          0.47413793103448276,
+          0.4729241877256318
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          259,
+          345
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 409,
+    "height": 555,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 103719,
+    "opaquePixelCount": 120240,
+    "partialPixelCount": 3036,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      385,
+      531
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "sei",
+    "sha256": "dc82f1f3818acd036557247419b3a3b3e4f0269f009b8a78c4e373a7ad134ff3",
+    "size": [
+      409,
+      555
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

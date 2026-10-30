@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-leg.png",
+  "sha256": "6bd400e4b89d16e16eae335cb483e0830772dd5937762502eaf0a991899634d8",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+      "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      296,
+      498
+    ],
+    "sourcePivot": [
+      156.0,
+      83.48
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      89,
+      43
+    ],
+    "sourceDimensions": [
+      312,
+      514
+    ],
+    "targetDimensions": [
+      128,
+      128
+    ],
+    "officialAlphaBounds": [
+      89,
+      29,
+      121,
+      112
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      64.0,
+      64.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vela-leg.png",
+    "gitBlobSha1": "80e25079bf3291965ff26735be2bcf966a9d0a9c",
+    "sha256": "f49b4d1b8344d22f9e1db93b499f882e262bada1c5107b17e4f97426a2735022"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

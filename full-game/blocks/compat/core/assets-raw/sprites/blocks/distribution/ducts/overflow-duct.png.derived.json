@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct.png",
+  "sourceGitBlob": "0f647a8ae42c9aa9bbae9944eefe00dc459cc94e",
+  "sourceSha256": "7eb846db07adceba160271930fe2c6cc44922705f735d1a6d24794048ac09ae0",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "overflow-duct",
+  "blockId": "overflow-duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct.png",
+  "sha256": "c5618e51a6734e171228a26c97c7226d07de6f2a2e57921d6e73956cb0120426",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct.png",
+  "engineSha256": "c5618e51a6734e171228a26c97c7226d07de6f2a2e57921d6e73956cb0120426",
+  "nativeFile": "full-game/blocks/masters-derived/overflow-duct.png",
+  "nativeSha256": "d93b1365fd1d5df8f9d20e7cd134f499b8abd8ba8384914920f391955d5e7097",
+  "nativeSize": [
+    304,
+    264
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/overflow-duct.png",
+      "sha256": "d93b1365fd1d5df8f9d20e7cd134f499b8abd8ba8384914920f391955d5e7097"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/overflow-duct.png",
+      "sha256": "7eb846db07adceba160271930fe2c6cc44922705f735d1a6d24794048ac09ae0"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct.png.derived.json"
+}

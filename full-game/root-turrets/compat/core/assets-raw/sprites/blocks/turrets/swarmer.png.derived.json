@@ -1,0 +1,42 @@
+{
+  "region": "swarmer",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/swarmer.png",
+  "sha256": "56f785fb3ac31ef25fb2780e0303f8d799b6d579afcb4e1dd005f3f61e0f0a1b",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.250290+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/swarmer.png",
+      "sha256": "7bb5f57417faf7085b2291cea17e3107b96efb29cc49fee198892b250c902d02",
+      "record": "full-game/root-turrets/masters/swarmer.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/swarmer.png",
+      "sha256": "d39cb7a42542f6033f1c5beffaa19bd2ff343c0d8a482eb84f6fa4429fb3a165",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      299,
+      306
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

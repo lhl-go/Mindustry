@@ -1,0 +1,72 @@
+{
+  "file": "full-game/items-fx/source/04-liquids.png",
+  "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+  "generatedAt": "2026-10-26T16:10:38.345Z",
+  "startedAt": "2026-10-26T16:07:59.553Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Production sprite atlas of exactly 7 DISTINCT objects, strict invisible 4 columns x2 rows reading order. Target 2048x1024. Draw refined Daoist chibi HD hand-painted item icons in the style of the two actual references, jade/ivory/warm gold material language but KEEP each described identity color. Bold readable silhouettes, delicate painted detail. Each liquid is a distinct contained droplet/splash mass with a small swirl and raised droplet, NO container or bottle. 1 water: deep clean indigo blue glossy fluid. 2 slag: bright molten orange with amber hot core and darker crust edges. 3 oil: thick black charcoal viscous fluid with subtle brown reflections. 4 cryofluid: crystalline ice-cyan fluid with frosty luminous edges. 5 neoplasm: organic red cellular slime with orange cell pockets. 6 arkycite: olive yellow-green viscous swamp fluid with bubbles. 7 gallium: silver lavender metallic fluid, smoothly reflective. Each isolated complete object comfortably within its cell with15% clear margin. True transparent RGBA. NO text, names, grid, panels, floor, cast shadows, people or glow fog. Do not draw the reference UI. Native crisp painted detail, never blurry. Last unused cells empty.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/04-liquids.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/04-liquids.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-1760fb7b-2646-4f5f-9bb2-dced26ff8a36.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "liquid-water",
+    "liquid-slag",
+    "liquid-oil",
+    "liquid-cryofluid",
+    "liquid-neoplasm",
+    "liquid-arkycite",
+    "liquid-gallium"
+  ],
+  "sourceImageRetained": true
+}

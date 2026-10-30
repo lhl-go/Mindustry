@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/ship-assembler.png",
+  "sha256": "5e0048581625689995b1aee85f4c969127840bcda81758da61cd363f9542c05b",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      420,
+      368,
+      689,
+      706
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      269,
+      338
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    301,
+    370
+  ],
+  "anchorPixels": [
+    150.5,
+    185.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

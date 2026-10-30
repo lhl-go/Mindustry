@@ -1,0 +1,47 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. NEW Mindustry flat terrain texture atlas. Attached approved images ONLY guide clean bright refined Daoist Q hand-painted material finish. Never draw UI, text, symbols, people, walls or props. Requested1536×3072 portrait, exactly THREE equal columns × SIX equal rows; 18 square fullbleed swatches, no gutters, borders, margins or labels. Every row three different native variants, same average light/color/detail scale, independent cracks and grains. Pure overhead orthographic flat ground with uniform diffuse daylight, no gradient/vignette, quiet tileable four edges, low contrast broad readable shapes. Every cell opaque.\nRow1 RHYOLITE: muted lavender-gray fine volcanic stone ground, subtly layered fine mineral streaks and small rounded shallow fracture plates.\nRow2 RHYOLITE CRATER: same muted lavender-gray base but sparse small shallow circular meteor impact depressions and fine scattered dust, craters subtle and flat not black holes.\nRow3 REGOLITH: dusty pale mauve tan lunar soil, tiny rounded pebbles and fine compact powder with subtle pitted irregular marks.\nRow4 YELLOW STONE: warm muted golden yellow-ochre mineral stone, naturally broken soft round stone plates, ivory-tan tiny grains.\nRow5 YELLOW STONE PLATES: same golden ochre geological material with large thin irregular flat flaking plates and delicate warm beige seams, no manufactured bricks or tiles.\nRow6 ARKYIC STONE: desaturated blue slate cyan-gray alien mineral rock, subtle teal flecks, broad rounded cracked flat surface.\nExactly18 distinct cells no repeated copy, no typography, no outlines.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:53:18 UTC",
+  "returnedAt": "2026-10-26 16:54:13 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-88f242ce-4e59-422c-a618-846138c09332.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "rhyolite1",
+    "rhyolite2",
+    "rhyolite3",
+    "rhyolite-crater1",
+    "rhyolite-crater2",
+    "rhyolite-crater3",
+    "regolith1",
+    "regolith2",
+    "regolith3",
+    "yellow-stone1",
+    "yellow-stone2",
+    "yellow-stone3",
+    "yellow-stone-plates1",
+    "yellow-stone-plates2",
+    "yellow-stone-plates3",
+    "arkyic-stone1",
+    "arkyic-stone2",
+    "arkyic-stone3"
+  ]
+}

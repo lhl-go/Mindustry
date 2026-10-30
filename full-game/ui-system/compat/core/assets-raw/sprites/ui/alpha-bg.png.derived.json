@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/alpha-bg.png",
+  "sourceGitBlob": "22a7e1eb92bff491638c7ac343885b93c21ce6a6",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/alpha-bg.png",
+  "sha256": "26c531f0cb35bf1d3935a1bc19fc240e114c91c36cc42fbe4439348fcead7293",
+  "sourceSize": [
+    128,
+    128
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/alpha-bg.png",
+      "sha256": "26c531f0cb35bf1d3935a1bc19fc240e114c91c36cc42fbe4439348fcead7293",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "byte_exact_technical_texture",
+    "reason": "Alpha checkerboard conveys actual image transparency; changing its neutral contrast would obscure editor alpha.",
+    "sourceEvidence": "22a7e1eb92bff491638c7ac343885b93c21ce6a6"
+  },
+  "disposition": "verified_technical_reuse",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

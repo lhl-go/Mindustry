@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets/sprites/clouds.png",
+  "sha256": "039e055c525eaec1011a9b8fa095a7d14c8cc3e16891e311d757c96b28dec2e4",
+  "createdAt": "2026-10-26T17:24:44.238597+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets/sprites/clouds.png",
+  "officialGitBlobSha1": "adcf7a97db7ab0058d8d65eb6b9c61216c892b9f",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets/sprites/clouds.png",
+  "sourceSha256": "039e055c525eaec1011a9b8fa095a7d14c8cc3e16891e311d757c96b28dec2e4",
+  "byteIdenticalToOfficial": true,
+  "width": 256,
+  "height": 256,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "reason": "Technical scalar/alpha modulation texture for procedural rendering; frequency, channel and repeat behavior retained byte-exact. These are runtime shader inputs, not replacement scenic paintings.",
+  "technicalEvidence": [
+    "core/src/mindustry/graphics/Shaders.java",
+    "core/src/mindustry/graphics/CacheLayer.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/tungsten-wall.png",
+  "sourceGitBlob": "1e57bcea46bd1fa2f83fd4df5178e966421f42bf",
+  "sourceSha256": "1de4e9783aa0f7f25473de33c7778e24dc9bd21d0e2faeaa21e44afec070d027",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "tungsten-wall",
+  "blockId": "tungsten-wall",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/tungsten-wall.png",
+  "sha256": "db3b7da0cabacc010e0e4435d3dc090215d6410db3978798b5df12ba828eb954",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/tungsten-wall.png",
+  "engineSha256": "db3b7da0cabacc010e0e4435d3dc090215d6410db3978798b5df12ba828eb954",
+  "nativeFile": "full-game/blocks/masters/tungsten-wall.png",
+  "nativeSha256": "829a6ac37cd1584e348742811b92b168a6e5265b7287fe3cbc3cfd00558bba88",
+  "nativeSize": [
+    329,
+    328
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tungsten-wall.png",
+      "sha256": "829a6ac37cd1584e348742811b92b168a6e5265b7287fe3cbc3cfd00558bba88"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/tungsten-wall.png",
+      "sha256": "1de4e9783aa0f7f25473de33c7778e24dc9bd21d0e2faeaa21e44afec070d027"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/tungsten-wall.png.derived.json"
+}

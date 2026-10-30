@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mono.png",
+  "sha256": "3c8ddbb7fcb53f17c146645b9208062e3b5b179c2cb2b5423b306eb76273ca07",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/mono.png",
+      "sha256": "d89c5ff4d7ff61455e2823165d5f78e02d1887b0580c4f75815e9567c363545e",
+      "generationRecord": "units/air-erekir/individual/mono.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      338,
+      341
+    ],
+    "sourcePivot": [
+      177.0,
+      178.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      4
+    ],
+    "sourceDimensions": [
+      354,
+      357
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      44,
+      44
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mono.png",
+    "gitBlobSha1": "573d2d06552c35fd1b9ad8ab2314634154878bfc",
+    "sha256": "c1cee9667fc832746e7b9aec8fb1b63429d335e9e6c1705eb45b95c4785d0136"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

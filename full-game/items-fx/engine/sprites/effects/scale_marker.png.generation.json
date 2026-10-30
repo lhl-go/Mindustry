@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/scale_marker.png",
+  "sha256": "ee2e02f8966ea2efddbafb8a6f0bc12534f3ca78be9e268f5c9f404d3940df9f",
+  "width": 4,
+  "height": 4,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/scale_marker.png",
+      "sha256": "5c6812655505c1d12367eba267978c5688f62bf232d7c91b76bd64e4387bd435",
+      "generationRecord": "full-game/items-fx/assets/scale_marker.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      4,
+      4
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/check-on-disabled.png",
+  "sourceGitBlob": "f42ee9409c2721dd37064271a00860ecb4fea4f7",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/check-on-disabled.png",
+  "sha256": "1e6f52745425fdf4019ef49fb7ec82a3aee00a4e00fbf1564c767fbec3753086",
+  "sourceSize": [
+    32,
+    32
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/controls/check-on.png",
+      "sha256": "8cacf4d9ff07c8cad454772f3ced74fbcdf02fe7d09e91cc527e09e1951f48d9",
+      "record": "full-game/ui-system/controls/check-on.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "checkbox_skin_composite",
+    "stateTransform": "disabled",
+    "checked": true,
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

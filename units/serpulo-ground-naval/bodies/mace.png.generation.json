@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/bodies/mace.png",
+  "sha256": "71c1c093141aa93aaab272289528825d200b1675228aa27af3899d61feffd98e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "generationRecord": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      555,
+      67,
+      981,
+      439
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 458,
+    "height": 404,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 72728,
+    "opaquePixelCount": 108976,
+    "partialPixelCount": 3328,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      442,
+      388
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    229.0,
+    202.0
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "body"
+}

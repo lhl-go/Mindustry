@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-glow.png",
+  "sha256": "944af531f351b3841fdf4cc5f12a5811915a0242e2569947a708ab2064183a03",
+  "width": 231,
+  "height": 231,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+      "sha256": "a826ce6b02fd557fb310b3a9a1412d5462e53a3028c1b6d59f63a7cd1e1f8932",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_glow_mask",
+    "baseRegion": "conquer",
+    "baseCanvas": [
+      213,
+      276
+    ],
+    "outputCanvas": [
+      231,
+      231
+    ],
+    "centerRegistrationOffset": [
+      9,
+      -22
+    ],
+    "colorSelection": "existing warm-gold illuminated surface pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/conquer-glow.png",
+    "gitBlobSha1": "b1374eb85a5939960daed7f0a1f21854a9b90dd2",
+    "sha256": "ac0bf0196d1ba09eede7db86d2cd7ce9afdaab877704f905a9166b993dd8559f"
+  },
+  "runtime": {
+    "function": "RegionPart.draw",
+    "tint": "Color.red",
+    "blending": "additive",
+    "progress": "default warmup",
+    "layer": -1,
+    "outline": false,
+    "sourceLines": [
+      3142,
+      3147
+    ],
+    "sourceFile": "records/reference-unit-sources/UnitTypes.java",
+    "sourceSha256": "0deee2e5ba342cd6e195a00586fa270e9ec368181c3bd38cec0bfa2d69016ae4",
+    "geometry": "Independent mask aligned to its new body/weapon/sinks base; all original runtime transforms retained."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

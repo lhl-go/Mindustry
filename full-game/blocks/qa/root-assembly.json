@@ -1,0 +1,295 @@
+{
+  "checkedAt": "2026-10-28T07:57:14.059202+00:00",
+  "purpose": "Static alpha/layer-order inspection only; not an engine run. Liquid fill is a solid inspection color and core thrusters use their extended canvas anchors.",
+  "checks": [
+    {
+      "region": "liquid-router",
+      "originalFrameAlphaUnchanged": true
+    },
+    {
+      "region": "liquid-container",
+      "originalFrameAlphaUnchanged": true
+    },
+    {
+      "region": "liquid-tank",
+      "originalFrameAlphaUnchanged": true
+    },
+    {
+      "region": "reinforced-liquid-router",
+      "originalFrameAlphaUnchanged": true
+    },
+    {
+      "region": "reinforced-liquid-container",
+      "originalFrameAlphaUnchanged": true
+    },
+    {
+      "region": "reinforced-liquid-tank",
+      "originalFrameAlphaUnchanged": true
+    }
+  ],
+  "images": [
+    {
+      "file": "full-game/blocks/qa/root-assembly-01.png",
+      "sha256": "563747c6573b4c3dce8799b318bd4714bbe17479b305ecfa0e34ee28f9d78247"
+    },
+    {
+      "file": "full-game/blocks/qa/root-assembly-02.png",
+      "sha256": "abbd3a294776bb7dcc262585229cd5be5553be76c255b2e9eed69869b23c28b5"
+    }
+  ],
+  "inputs": [
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door.png",
+      "sha256": "7cbb8a151bcc91e77fbd0813c20573e59723fe14282a3c42370e7c6f78bacf6f"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door-open.png",
+      "sha256": "5d4778357e61eb2a0fcaa323a1ba2e1bd9931d9fde8f130123659acdb55a4b49"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-bottom-0.png",
+      "sha256": "e9f0e084a04212abfdad810938335d835bc109a365a17e30ad9450ebe945f1ae"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-bottom-1.png",
+      "sha256": "e3523ecdcb78409a2c0bf2eaeda28b5a58e34edd2387bdb0754c607d59404b3e"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-bottom-2.png",
+      "sha256": "245a82e115217ea58a29329710f13d48617347f30d71db98f8c7657ad7b696d5"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-bottom-3.png",
+      "sha256": "245a82e115217ea58a29329710f13d48617347f30d71db98f8c7657ad7b696d5"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-bottom-4.png",
+      "sha256": "245a82e115217ea58a29329710f13d48617347f30d71db98f8c7657ad7b696d5"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-0.png",
+      "sha256": "6fb8049a8ef0b927dc1762c3550f3fc385c13de9cf784161686e816f43fd43bc"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-1.png",
+      "sha256": "7a220f4f045ddd62646aacc033a9de9caaf3e0e1d148abb3a7ceb6cfe6f01c07"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-2.png",
+      "sha256": "7853ca58221313a6c4299f38e7788aefe53359bf8b1d78801bf9f5c1235fd345"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-3.png",
+      "sha256": "23d728c72224dc02447ffc0fd41da58500208e67b7e97112522b33fc372a1a5f"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-4.png",
+      "sha256": "c2590f43c70436989daa9b9b758ed7daf6b7f6dba9d9b35b963d743c7669ae6f"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis.png",
+      "sha256": "9e38363f5d25a15bca8c0f736c0a09c60febbdf71b0caa4336e3b2fe944f1085"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-thruster1.png",
+      "sha256": "50625e1065fd12a849aa52cf17f57534eac378737b1fac3a59dcfb5b0c05bdb1"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-thruster2.png",
+      "sha256": "84807d1a6128c76897b755b494c24bdaf8fc64e45ab47906e21891b879a11c0b"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion.png",
+      "sha256": "8acd330fa2c3fbc99331b48f153c3fc8bf7d7688410ed84641eca93cfbab9edc"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion-thruster1.png",
+      "sha256": "ffc298cd5317b0e3de104eb7e51aca8cd96f97cb9f66241d671e35beaabcbbef"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion-thruster2.png",
+      "sha256": "b8fef61a74519d16eaa4e9f55adb2a504b11bae90f55b7372ff615fead129c3a"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel.png",
+      "sha256": "cd8d8421ea746f5986cf8c9ef0d432538457fe873ef889a8430873e85f3e40aa"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-thruster1.png",
+      "sha256": "f492984ca64c7db279ff2523f71a0650288276b401fef4fa6841eae1e7117cb3"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-thruster2.png",
+      "sha256": "81e078ea85f90d1ec629fe7edb3ef5779d7dbefe37164dc93e68191327c3a27c"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation.png",
+      "sha256": "ae61a4a3f4132b27268373717eb8c14939881c75cbc626ac3db8c6c4bf378b37"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation-thruster1.png",
+      "sha256": "1f9072ce912d3a6841b802cee9b89c93efd9abaafdf25d137a9ca18bc6dc1f04"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation-thruster2.png",
+      "sha256": "b9aba6e14e1098f8c590103b126d5e9d4bbac1cf01e38d24d13f15af4fbba504"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus.png",
+      "sha256": "826e58be8fbed35df4430061e9b4d943191068880585f5e5e00144d599fb0a51"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-thruster1.png",
+      "sha256": "909f073190de4a0e26125fca0d8fd14cff6351a2c3bac6924149a65b8b6db3fe"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-thruster2.png",
+      "sha256": "035a4b79cedb37ee71a50d13317381ff527329a1b16442f9f3adc4b7baade3c0"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard.png",
+      "sha256": "2800ecee5029edcdce439ae89b0702d71f805a362ae9d121d91974005ae41ed3"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-thruster1.png",
+      "sha256": "f6ef9d291ff9f460f2b76fc604631b840c763493a95aa84204711e5839e4b790"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-thruster2.png",
+      "sha256": "a7a4fcbb0767be0741bf4024eea91337a2c6f753485182dd3ed0bf16952c8660"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door.png",
+      "sha256": "c7974d86302154c498c9514816fd52795f57751662fb036dda1ea6091bc1d3dc"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-large.png",
+      "sha256": "960db979695b2e1f29308fb5d24c7e57dfde63877a7ed86ba31683d4ff94cc9f"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-large-open.png",
+      "sha256": "078c22eb0fd1932d186bc6a5be870035ed52cb88e695ccd525c038d069499e89"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-open.png",
+      "sha256": "50f49e83316fe6706501b772df2a4d72320cfe2d72abaed58edaa15fb2527272"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-container.png",
+      "sha256": "cc2d940c85357e8403b5529cadbe36d8039742875446b0d44e5009e185fabb4c"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-container-bottom.png",
+      "sha256": "7588441ea55353acbbe146de224b55a171d7ab20e981c49e26a6a5cf7e25ef13"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-router.png",
+      "sha256": "95064042def3333e50ae3fe1247e6ff55847475bc6def52f8d42358752330f03"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-router-bottom.png",
+      "sha256": "0fdfdc0801ffda5717136b6a9acc358055612380ea0aa079c5e0071f84a48c03"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-tank.png",
+      "sha256": "0031477d2a99e279d317eb386651511a9b1de8b96723756f1f36ef26ba737a15"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-tank-bottom.png",
+      "sha256": "3d917add77f092b8b4f2e37820cd012ac0218c266894a60fb19c3a7884cf7426"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver.png",
+      "sha256": "10ed294d57ef2e4c96d9c1e1fc1a1e73d643f47eb94f912eb1ae47f1e72564fe"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver-base.png",
+      "sha256": "ce41d343182e93b63b154c803e915e6509d28d45d5aee2881e47d14387d1ed85"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-0.png",
+      "sha256": "526208d4dcfac160dcf838cb851a96699dc53884b7646d6f37582922a42e9ad2"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-1.png",
+      "sha256": "e523303f2127364802d8cee72d7001d229fe79d540c958d628b450c467da99d6"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-2.png",
+      "sha256": "6c76a8ebec2011b37e5cd69a0f236bba24590927f61e8a3aa588e16ae05db0b8"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-3.png",
+      "sha256": "88c952dde4d84c1e0faa27ed15fc9836c3360785eb5d73393e14e6e1ccb06e12"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-4.png",
+      "sha256": "e2102dd302df6e94f690aa44f9c98f9399ddf03fc4149ec755c9de7013842cb2"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-0.png",
+      "sha256": "f5cfb3a8d324cdde5f2be8853512c1e7c13cb8058a335c3928a54c8be43546b8"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-1.png",
+      "sha256": "3d596442ac99d61fcd222650d37a32edf8108e477059d20828b88ec5f50caa84"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-2.png",
+      "sha256": "36d26849ee9710ab2b75554f8ada0d7e9e9bfab404b0c2ef63904380f485075e"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-3.png",
+      "sha256": "719cf3b7f2f3856a6483a42d0ba87e6bd7b4d4de03817721309c19a518795536"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-4.png",
+      "sha256": "df6b57c1a0d63428d90997ce643e49d9dd99b55a0fbf927d4b0855b6664da5df"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-0.png",
+      "sha256": "a4bf23bc492b64e925eebaba74af6adda74f6833d362f79d00ef2d5e96eb1d7f"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-1.png",
+      "sha256": "3940a707848faf7be2687355ffe1c815c29880da4d00e2dd1063e16f9ae1b6ae"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-2.png",
+      "sha256": "f07ad58d041e81e92a6af966e7d4808e0a5d4d066a44656235083848426cab65"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png",
+      "sha256": "d63a703465ee610cdd663c7eaf0e7086250faa9de57f13fe96b50cf1ba26b83a"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-4.png",
+      "sha256": "0ca1bf3efc54e07504b2431055688b158afba584aba239cac5b6118151f0d9d6"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container.png",
+      "sha256": "41b38b1a99af19e215117dc354e4c902a971a72be53ed5a3f505d5b22948b679"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container-bottom.png",
+      "sha256": "c2e093e0009bed7bb51a7c9b4f4f81340a022e1065e7ac1752d983c7bcad8a6c"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-router.png",
+      "sha256": "9513a011569f72bb72a8e770d710d0211b7cf082538510109f00b05490312d84"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-router-bottom.png",
+      "sha256": "194f3f5469112fa62e9f78c03b40247e29ea13f1f3fcd117d17efce287885b4b"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank.png",
+      "sha256": "9165bd4b9344429458fed9b9c6b0d8e9321c5cce9990fea6fc59d44a38f35b59"
+    },
+    {
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank-bottom.png",
+      "sha256": "a04e879260318e4b5e2c0a28b1e7d0938d3e25273372b2f7de839e8f0d4e960a"
+    }
+  ],
+  "runtimeIntegrationVerified": false
+}

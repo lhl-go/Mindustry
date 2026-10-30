@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ore-beryllium1.png",
+  "sha256": "5147b7500aed99dcc6b9141a2b2ecf15d86088738519318c400eb3dde4f8fce1",
+  "createdAt": "2026-10-26T17:30:56.104135+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      48,
+      1617,
+      249,
+      1856
+    ],
+    "nativeExtractedSize": [
+      201,
+      239
+    ],
+    "nativeComponents": 3,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.12552301255230125,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      32,
+      32
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

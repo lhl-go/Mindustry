@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "conquer-body",
+  "file": "units/air-erekir/layers/conquer-body.png",
+  "sha256": "d763d22fc2cef137013f04c464954180ee66473a01fbe476164561b74cb21c6b",
+  "width": 540,
+  "height": 510,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/08-tank-body.png",
+      "sha256": "7b1dfcab2cbbe148a21c659195dbdb92ebc39140d7fe93792d05d7d034973154",
+      "generationRecord": "units/air-erekir/source/08-tank-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      495,
+      475,
+      1040,
+      990
+    ],
+    "trimBoundsInRegion": [
+      18,
+      16,
+      526,
+      494
+    ],
+    "padding": 16,
+    "width": 540,
+    "height": 510,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

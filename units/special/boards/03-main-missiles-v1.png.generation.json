@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/boards/03-main-missiles-v1.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T04:24:39.259000-04:00",
+  "generatedAtBasis": "Tool receipt return time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T08:22:58.417Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-271f1a4a-8f01-42bd-8ddb-c2060d71fffa",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+  "byteLength": 1221770,
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "nativeSize": {
+    "width": 1254,
+    "height": 1254
+  },
+  "requestedSize": {
+    "width": 2048,
+    "height": 2048,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "generated_parts_board_visual_reviewed",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept\nCreate a true transparent top-down projectile asset sheet for four distinct fantasy mechanical missiles from Mindustry. Exactly four groups in a spacious 2 x 2 layout. Requested 2048 x 2048 square canvas, genuine RGBA transparent background. No labels, text, checkerboard, frame, ground or shadows.\nPRIMARY style references: attached mail UI and team UI. Transfer their refined Daoist chibi hand-painted jade-green, ivory ceramic and warm gold material style to compact magical flying shuttle missiles. Not a UI. These are ornate mechanical talisman missiles, with clear streamlined silhouettes, precise fine painted details and rounded volume; never photorealistic ordnance.\nCritical orientation: strict orthographic TOP-DOWN dorsal view; all pointed noses face exactly UP. Bilaterally symmetrical, soft overhead light, no perspective or angled flight pose. Every whole group has ample transparent margin, no crop and no overlap between quadrants. No trails, fire, exhaust, glow aura, particles or movement streaks; engines and effect sockets are physical parts only.\nTOP LEFT: anthicus-missile. Small slender jade-and-ivory dart, blue crystal point at top, compact two swept shoulder fins, a narrow blue crystal stripe along spine, tiny bronze tail nozzle. Agile simple silhouette. Blue accents consistent with tech-blue effect identity.\nTOP RIGHT: quell-missile. A shorter broad purple-cored talisman shuttle, ivory outer shell, jade and warm-gold shoulder frame, two rounded crescent side fins, purple oval crystal on spine, compact rear engine. Clearly different from the blue dart, no weapons mounted.\nBOTTOM LEFT: disrupt-missile group. Larger dark-jade and ivory elongated suppression shuttle with a prominent purple central crystal, a broad armored nose and visible small gold hinge sockets at lower sides. IMPORTANT: its TWO rear side fins are separate parts: central missile BODY has no attached fins; place one matching left fin isolated to its left, one matching right fin isolated to its right, each with a small hinge root and its long axis facing up, separated by a generous clear gap. These three pieces collectively occupy only bottom-left quadrant and never touch each other. Fins are mirror-matched purple-and-gold thin swept wings. Do not repeat a combined missile elsewhere.\nBOTTOM RIGHT: scathe-missile. Heavy long talisman rocket with rounded ivory capsule body, jade armored spine, cinnabar-red crystal nose and red accents, thicker gold structural rings, four compact rear stabilizers and one large rear nozzle. Strong heavy silhouette, distinct from all other three.\nNo branding, no numbers, no UI panels, no human faces, no environment, no cast shadows or detached decorative specks. Preserve sharp complete outlines, consistent high-quality hand-painted finish and readability at small size. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "parameterLimitations": "内置工具无 model、quality、size 专用参数；尺寸只在 prompt 请求。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号和质量；未验证可确认具体版本或质量的来源元数据。",
+  "prompt": "prompts/special/03-main-missiles-v1.txt",
+  "promptSha256": "678785f699e181ae66b80b7ea49fa01ec39d5d66d702bd2b9d3f8e8481398dff",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/workers/special/03-main-missiles-v1.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-271f1a4a-8f01-42bd-8ddb-c2060d71fffa.png",
+    "originalOutputSha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+    "projectBytesMatchOriginal": true
+  },
+  "integrationStatus": "not_runtime_integrated",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks2.png",
+  "sha256": "abc8038eb34b6314ebd9ba89614a44afc1fa338b12b7bcc1969a999a93304a93",
+  "size": [
+    311,
+    332
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/19-large-crystal-props.png",
+      "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+      "generationRecord": "full-game/terrain/source/19-large-crystal-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    394,
+    347,
+    705,
+    679
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

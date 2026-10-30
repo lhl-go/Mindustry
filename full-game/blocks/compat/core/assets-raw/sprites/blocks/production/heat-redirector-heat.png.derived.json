@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-redirector-heat.png",
+  "sourceGitBlob": "0115ebd9c568e2731a6903f291dd2a17175a05e8",
+  "sourceSha256": "6c713077cfaa2f7ccca35aa9467244b66270ffed903293b898d6e1ca63869462",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-redirector-heat",
+  "blockId": "heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-heat.png",
+  "sha256": "54e70bb5b680abc9738f71e1fd1bf3fe8be6c2a320ae410a76990cd67433870b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-heat.png",
+  "engineSha256": "54e70bb5b680abc9738f71e1fd1bf3fe8be6c2a320ae410a76990cd67433870b",
+  "nativeFile": "full-game/blocks/masters/heat-redirector.png",
+  "nativeSha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4",
+  "nativeSize": [
+    333,
+    365
+  ],
+  "sourceAlphaBounds": [
+    49,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-redirector.png",
+      "sha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-redirector-heat.png",
+      "sha256": "6c713077cfaa2f7ccca35aa9467244b66270ffed903293b898d6e1ca63869462"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

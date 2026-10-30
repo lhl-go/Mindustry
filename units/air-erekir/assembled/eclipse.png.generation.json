@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/eclipse.png",
+  "sha256": "e18736874929a8c481cf63317726746509a08a26597ff9784543a3eb5552a4fb",
+  "width": 518,
+  "height": 508,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/eclipse-body.png",
+      "sha256": "80db0edc11629f1d269625a554a345756c24ac8fc173de19cfb819446c6b7f5c",
+      "generationRecord": "units/air-erekir/layers/eclipse-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+      "sha256": "afe2e74d3740bd8605d67c28dc5566ca5f07735499ef943040dea97bcef35489",
+      "generationRecord": "units/air-erekir-parts/assets/large-laser-mount.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/large-artillery.png",
+      "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+      "generationRecord": "units/air-erekir-parts/assets/large-artillery.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/eclipse-body.png",
+        "role": "body",
+        "region": "eclipse",
+        "anchorPixels": [
+          259,
+          254
+        ],
+        "scale": 0.6351351351351351,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          370.0,
+          362.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+        "role": "weapon",
+        "region": "large-laser-mount",
+        "anchorPixels": [
+          193.2,
+          254.0
+        ],
+        "scale": 0.36293436293436293,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          161,
+          300
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+        "role": "weapon",
+        "region": "large-laser-mount",
+        "anchorPixels": [
+          324.8,
+          254.0
+        ],
+        "scale": 0.36293436293436293,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          161,
+          300
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "role": "weapon",
+        "region": "large-artillery",
+        "anchorPixels": [
+          122.7,
+          203.4
+        ],
+        "scale": 0.26478873239436623,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          174,
+          232
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "role": "weapon",
+        "region": "large-artillery",
+        "anchorPixels": [
+          395.3,
+          203.4
+        ],
+        "scale": 0.26478873239436623,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          174,
+          232
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "role": "weapon",
+        "region": "large-artillery",
+        "anchorPixels": [
+          113.3,
+          336.8
+        ],
+        "scale": 0.26478873239436623,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          174,
+          232
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "role": "weapon",
+        "region": "large-artillery",
+        "anchorPixels": [
+          404.7,
+          336.8
+        ],
+        "scale": 0.26478873239436623,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          174,
+          232
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

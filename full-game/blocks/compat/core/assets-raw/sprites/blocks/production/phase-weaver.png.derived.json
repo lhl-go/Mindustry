@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-weaver.png",
+  "sourceGitBlob": "282d9bcd6a165fbff14b3d30283bd830b2999d27",
+  "sourceSha256": "6c1852a2579e606ca25c3016de3570e533c402554488f30926a1dce11739457d",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-weaver",
+  "blockId": "phase-weaver",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver.png",
+  "sha256": "3b69a3befbf9309054a2b7a05da206004d4c1ce822c665c14045b5e793536fe2",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver.png",
+  "engineSha256": "3b69a3befbf9309054a2b7a05da206004d4c1ce822c665c14045b5e793536fe2",
+  "nativeFile": "full-game/blocks/masters/phase-weaver.png",
+  "nativeSha256": "61a16331d3e1a57e2dceab8b53f378ee235ef9d8cbaa399cf8322dd6a317894c",
+  "nativeSize": [
+    355,
+    315
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-weaver.png",
+      "sha256": "61a16331d3e1a57e2dceab8b53f378ee235ef9d8cbaa399cf8322dd6a317894c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-weaver.png",
+      "sha256": "6c1852a2579e606ca25c3016de3570e533c402554488f30926a1dce11739457d"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

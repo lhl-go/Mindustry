@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta.png",
+  "sha256": "811e7dbed4fbea97dc7a81082dc6cc74292551e3f8165d8b7940e98fb2f98ca4",
+  "width": 190,
+  "height": 162,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/tecta-body.png",
+      "sha256": "07d7148e17c1cdc37f3cbf3acc2076f420b1efb19b64aa38e81c9b929ebe3c46",
+      "generationRecord": "units/air-erekir/layers/tecta-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      459,
+      476
+    ],
+    "sourcePivot": [
+      237.5,
+      246.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      21,
+      4
+    ],
+    "sourceDimensions": [
+      475,
+      492
+    ],
+    "targetDimensions": [
+      190,
+      162
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      186,
+      158
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      95.0,
+      81.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/tecta.png",
+    "gitBlobSha1": "828e169320caadda5d8aae178d3ad5e26450b39b",
+    "sha256": "077234cc6dbdb49195a2a12ca8d4528e2daa7619e957198bc4260e27bbcae67b"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

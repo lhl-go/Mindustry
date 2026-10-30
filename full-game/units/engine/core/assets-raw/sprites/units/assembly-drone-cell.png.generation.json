@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone-cell.png",
+  "sha256": "ac8e315b0efc153909edcf1570ed02dd5b372d6be83d295123ad6528240833ff",
+  "width": 52,
+  "height": 55,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone.png",
+      "sha256": "475d527779873e1b5ebfbebdabeed7155b848fd98a90b3c68a48e7e45dace63f",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "assembly-drone",
+    "baseCanvas": [
+      52,
+      55
+    ],
+    "outputCanvas": [
+      52,
+      55
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/assembly-drone-cell.png",
+    "gitBlobSha1": "8312d7a6e77f228729b1dd2f3e8ee12293829e78",
+    "sha256": "0c944d6d5c46831f11a6aa570cfab3ff4e6d69276973fb823c48e08f1261edaa"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

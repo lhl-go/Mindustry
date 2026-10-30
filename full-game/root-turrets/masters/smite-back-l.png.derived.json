@@ -1,0 +1,41 @@
+{
+  "region": "smite-back-l",
+  "file": "full-game/root-turrets/masters/smite-back-l.png",
+  "sha256": "1a57b77ea6b44867a89936919fe009493ce2af43974c0500a5e60a20e76b6962",
+  "size": [
+    298,
+    323
+  ],
+  "derivedAt": "2026-10-26T18:34:44.840539+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 11,
+    "sourceBox": [
+      1188,
+      703,
+      1462,
+      1002
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

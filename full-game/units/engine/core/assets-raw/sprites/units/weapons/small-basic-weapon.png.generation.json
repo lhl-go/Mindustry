@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+  "sha256": "29391ee827575e1d78e0736a5001a2cfa78a3db0fa934ea7f2e4e3a88f8d8ae6",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/small-basic-weapon.png",
+      "sha256": "68e2bc3b8f0fc78e0a513b3a98f7548cc0ebe87b95b711ec4ab28f91122c95db",
+      "generationRecord": "units/root-builders/layers/small-basic-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      221,
+      264
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      21,
+      19
+    ],
+    "sourceDimensions": [
+      253,
+      296
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      21,
+      13,
+      28,
+      34
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+    "gitBlobSha1": "e4833342a43eac3ee53b1105766039569d4458a6",
+    "sha256": "dd6bc759cc0c68bcf0dbc97db7d537a76e80cb01d54a285bd79fec51982fc1f8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

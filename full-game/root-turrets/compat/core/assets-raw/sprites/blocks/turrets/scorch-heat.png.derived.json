@@ -1,0 +1,35 @@
+{
+  "region": "scorch-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scorch-heat.png",
+  "sha256": "a9240ce8c082e531710cdefa7f90e2a1c4df2927f971d58abf922600cffd375d",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.502074+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scorch-heat.png",
+      "sha256": "3c439d23f9a474cd3410711e2ab62389846ff32ac836eca4e0504786606958ba",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scorch.png",
+      "sha256": "5da88db6a264e39419a0e39b06f00d7070e9b6433f435f84efd9d12b390183b0",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scorch.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "scorch"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 422
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

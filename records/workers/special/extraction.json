@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T08:31:16.733751+00:00",
+  "assets": [
+    {
+      "id": "manifold",
+      "file": "units/special/assets/manifold.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/manifold.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        561,
+        597
+      ],
+      "outputSize": [
+        625,
+        661
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "assembly-drone",
+      "file": "units/special/assets/assembly-drone.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/assembly-drone.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        542,
+        515
+      ],
+      "outputSize": [
+        606,
+        579
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "dummy",
+      "file": "units/special/assets/dummy.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/dummy.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        544,
+        569
+      ],
+      "outputSize": [
+        608,
+        633
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scathe-missile-phase",
+      "file": "units/special/assets/scathe-missile-phase.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-phase.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        548,
+        808
+      ],
+      "outputSize": [
+        612,
+        872
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scathe-missile-surge",
+      "file": "units/special/assets/scathe-missile-surge.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-surge.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        439,
+        803
+      ],
+      "outputSize": [
+        503,
+        867
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "file": "units/special/assets/scathe-missile-surge-split.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-surge-split.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        290,
+        528
+      ],
+      "outputSize": [
+        354,
+        592
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "anthicus-missile",
+      "file": "units/special/assets/anthicus-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/anthicus-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        245,
+        438
+      ],
+      "outputSize": [
+        309,
+        502
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "quell-missile",
+      "file": "units/special/assets/quell-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/quell-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        353,
+        440
+      ],
+      "outputSize": [
+        417,
+        504
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "scathe-missile",
+      "file": "units/special/assets/scathe-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        425,
+        604
+      ],
+      "outputSize": [
+        489,
+        668
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "disrupt-missile",
+      "file": "units/special/assets/disrupt-missile.png",
+      "layers": [
+        {
+          "role": "left-fin",
+          "file": "units/special/layers/disrupt-missile-left-fin.png",
+          "pivot": [
+            125,
+            458
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        },
+        {
+          "role": "body",
+          "file": "units/special/layers/disrupt-missile-body.png",
+          "pivot": [
+            225.0,
+            323.0
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        },
+        {
+          "role": "right-fin",
+          "file": "units/special/layers/disrupt-missile-right-fin.png",
+          "pivot": [
+            329,
+            458
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        }
+      ],
+      "outputSize": [
+        450,
+        646
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native body and separate fins translated to common canvas; assembled preview",
+      "effects": "官方紫色抑制效果与尾迹复用；尾翼独立旋转，需按实际RegionPart配置验证。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "renale",
+      "file": "units/special/assets/renale.png",
+      "layers": [
+        {
+          "segmentIndex": 0,
+          "role": "tail",
+          "file": "units/special/layers/renale-segment0.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            190,
+            819,
+            485,
+            1099
+          ],
+          "destination": [
+            73,
+            569
+          ]
+        },
+        {
+          "segmentIndex": 1,
+          "role": "torso",
+          "file": "units/special/layers/renale-segment1.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            148,
+            426,
+            526,
+            773
+          ],
+          "destination": [
+            32,
+            254
+          ]
+        },
+        {
+          "segmentIndex": 2,
+          "role": "head",
+          "file": "units/special/layers/renale-segment2.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            230,
+            117,
+            441,
+            371
+          ],
+          "destination": [
+            115,
+            32
+          ]
+        }
+      ],
+      "segments": 3,
+      "outputSize": [
+        442,
+        881
+      ],
+      "sourceBoards": [
+        "02-neoplasm-segments-v1"
+      ],
+      "operation": "native independent segments assembled; no new generated detail or resize",
+      "effects": "官方蠕动、回血与neoplasm液体效果复用；分段共享中心旋转，摆动幅度需运行验收。",
+      "runtimeVerified": false
+    },
+    {
+      "id": "latum",
+      "file": "units/special/assets/latum.png",
+      "layers": [
+        {
+          "segmentIndex": 0,
+          "role": "tail",
+          "file": "units/special/layers/latum-segment0.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            740,
+            912,
+            1085,
+            1237
+          ],
+          "destination": [
+            117,
+            813
+          ]
+        },
+        {
+          "segmentIndex": 1,
+          "role": "torso",
+          "file": "units/special/layers/latum-segment1.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            687,
+            665,
+            1140,
+            903
+          ],
+          "destination": [
+            63,
+            607
+          ]
+        },
+        {
+          "segmentIndex": 2,
+          "role": "torso",
+          "file": "units/special/layers/latum-segment2.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            656,
+            334,
+            1171,
+            656
+          ],
+          "destination": [
+            32,
+            317
+          ]
+        },
+        {
+          "segmentIndex": 3,
+          "role": "head",
+          "file": "units/special/layers/latum-segment3.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            727,
+            7,
+            1097,
+            324
+          ],
+          "destination": [
+            104,
+            32
+          ]
+        }
+      ],
+      "segments": 4,
+      "outputSize": [
+        579,
+        1170
+      ],
+      "sourceBoards": [
+        "02-neoplasm-segments-v1"
+      ],
+      "operation": "native independent segments assembled; no new generated detail or resize",
+      "effects": "官方蠕动、回血与neoplasm液体效果复用；分段共享中心旋转，摆动幅度需运行验收。",
+      "runtimeVerified": false
+    }
+  ],
+  "derivedPngCount": 22,
+  "processing": "Explicitly authorized local pixel cleanup, connected-component extraction, translation and alpha compositing only."
+}

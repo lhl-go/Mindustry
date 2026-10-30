@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-crucible-vents.png",
+  "sourceGitBlob": "03865805030ca98002d90a680d6081b7622210bd",
+  "sourceSha256": "9aa68192c7b1b1c520aefbf1bb5e3ede0810350b436817e2a4f84a1ecc69e30f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-crucible-vents",
+  "blockId": "surge-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-vents.png",
+  "sha256": "0746dae98beea8c15cd3573ae77bce917b2d2db4fc042d4144cee508a967b78f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-vents.png",
+  "engineSha256": "0746dae98beea8c15cd3573ae77bce917b2d2db4fc042d4144cee508a967b78f",
+  "nativeFile": "full-game/blocks/masters/surge-crucible.png",
+  "nativeSha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44",
+  "nativeSize": [
+    355,
+    358
+  ],
+  "sourceAlphaBounds": [
+    10,
+    10,
+    86,
+    86
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-crucible.png",
+      "sha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-vents.png",
+      "sha256": "9aa68192c7b1b1c520aefbf1bb5e3ede0810350b436817e2a4f84a1ecc69e30f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-vents.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

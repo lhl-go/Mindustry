@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "file": "units/coordinator-recoil-fix/01-recoil-parts-v1.png",
+  "sha256": "529a62f74f4cfd41324d14e2223b3f19012664bd45800d62a018a2266078cc4e",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": {
+    "width": 3072,
+    "height": 2048,
+    "submittedVia": "prompt_only"
+  },
+  "resized": false,
+  "generatedAt": "2026-10-26T07:45:30.862000-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Edit the three provided Daoist mechanical unit designs into a clean production SPRITE PART ATLAS. References 1/2/3 are the exact existing Poly, Elude, Avert identity targets. References 4/5 are the mandatory primary painted style: jade-green and ivory armor, thin warm bronze/gold trim, rounded cloud motifs and refined soft hand-painted shading. No UI or people. Preserve the units' individual identity, colors, material, silhouette and top-facing orientation.\n\nOne landscape atlas, requested native 3072×2048, invisible grid exactly 3 columns × 2 rows. Six separate complete objects with generous clear margins inside each cell. No text, no grid lines, no decorative frames, no labels, no extra spare pieces. True transparent RGBA background, opaque solid objects and clean antialiased edges; no checkerboard, floor, shadow plane, smoke, firing effects, bloom or colored edge matte. Strict orthographic dorsal top-down view, facing NORTH/up. Cannons lie in the picture plane with muzzles toward the top; never a frontal gun view.\n\nTOP LEFT: Poly BODY ONLY from reference 1. Keep the round jade/ivory main hull with central yin-yang badge, four diagonal fixed work arms and four bronze open grabber claws, and the lower fixed engine. REMOVE the top central green plasma projector completely; close its old attachment area with smoothly continuous matching ivory/jade armor. The claws are fixed work gear and remain; there must be no guns/plasma emitters anywhere on the hull. Do not leave a transparent hole, black patch, severed socket or missing piece under the removed device.\n\nTOP CENTER: Elude BODY ONLY from reference 2. Keep the narrow pointed jade/ivory hover hull, center yin-yang badge and all four round cyan-lit hover pods. REMOVE BOTH long cannons and their mounting mechanisms along the upper left/right of the hull, paint complete continuous jade/ivory hull armor in the areas they formerly covered. No gun barrels or muzzle stubs remain. Preserve the pointed nose and four pods.\n\nTOP RIGHT: Avert BODY ONLY from reference 3. Keep its pointed jade/ivory central hull, central yin-yang badge, both swept crescent jade wings with ivory cloud inlays, two amber side engine circles and the lower bronze propulsion nozzle. REMOVE the long central nose cannon completely; replace the former weapon-covered nose with a finished smooth pointed ivory/jade armor cap. No barrel or muzzle remains. Complete uninterrupted lower armor underneath.\n\nBOTTOM LEFT: ONE separate Poly recoiling plasma/repair weapon. Match the removed green-glass bronze projector design of reference 1: long narrow glowing green glass core in a compact bronze and ivory housing, fully detailed closed base, muzzle faces north/up. A single whole weapon, not a pair; it will be reused/mirrored in two source-defined mounts. No arms, body hull, claws or carrier included.\n\nBOTTOM CENTER: ONE separate Elude recoiling cannon matching exactly either of reference 2's two original side cannons. Long slim bronze/gunmetal barrel with jade cuff and cyan muzzle cap, complete bronze mounting base at the bottom. Facing north/up. Only one complete cannon, no hover pod or body hull attached.\n\nBOTTOM RIGHT: ONE separate Avert recoiling nose cannon matching reference 3's removed central weapon. Slim bronze/gunmetal multi-ring barrel, a jade/ivory lower shroud and small complete mounting base at bottom, muzzle north/up. No wing, hull or engine attached.\n\nDo not assemble these six parts together. The top row must contain precisely three fully underpainted weapon-free bodies. The bottom row must contain precisely three standalone weapons, each visually corresponding to the body immediately above it. Keep fine painted detailing without adding writing, changing the unit family, making a scene or substituting photographic/3D/plastic rendering. Preserve useful negative space for exact slicing and future independent recoil animation. Model/quality target is the project's configured GPT Image 2.5 highest quality; actual returned dimensions and metadata will be recorded separately.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\poly.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\elude.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\avert.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "prompts/coordinator-recoil-fix/01-recoil-parts-v1.txt",
+  "promptSha256": "6adaeedd7a77acbf23e8ae39c60bd3b20dee0599c83ba2cfd2d08d3a2dc85c06",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\poly.png",
+      "sha256": "7e230b2b2889d925d8652364535310a42fff55c4d6bedb45ef1d238a3bd345f2",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\elude.png",
+      "sha256": "41148d92060b58fc6fc89561f12a9235ad0e311fa1b2d8023365deeb0d7d57ba",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\individual\\avert.png",
+      "sha256": "43ec076c5f425538e9d7513e3a0b39e1d8faa474b4214e297cb1c610512c1324",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records\\coordinator-recoil-fix\\01-recoil-parts-v1.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a177fd-d4f4-70d3-85c2-d9da06e00ace\\exec-10f157ba-977c-4d24-94c2-29fe47c572e6.png",
+    "nativePngSha256": "529a62f74f4cfd41324d14e2223b3f19012664bd45800d62a018a2266078cc4e",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 1012863,
+  "status": "generated_pending_review"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-intersect",
+  "file": "full-game/ui-system/sectors/sector-intersect.png",
+  "sha256": "b6f28834924a3d880683a4ca4aed7ccdda8cef8d7b4c75e7b238984409962763",
+  "width": 420,
+  "height": 420,
+  "derivedAt": "2026-10-26T15:54:01.613332+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/09-sectors-03.png",
+    "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+    "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 4,
+    "sourceBox": [
+      429,
+      455,
+      825,
+      807
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

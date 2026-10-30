@@ -1,0 +1,35 @@
+{
+  "region": "scathe-mid-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-mid-heat.png",
+  "sha256": "d124b2ffaad20814233cf5a2c8f6aaa618b150c925ba19119831f2422a9a6d8f",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.498379+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scathe/scathe-mid-heat.png",
+      "sha256": "b0ee078b1f8acfe680b4aefd2be8e2b702475a12d923ace5e49f8262395871c5",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-mid.png",
+      "sha256": "c1842b292974c307b71285ed57e06fd21e5e4cf4e1c03ba307e0a54fcb87e057",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "scathe-mid"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1454
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-leg-base.png",
+  "sha256": "d2173aee7c7a59a60a139283b7aa6d574abb40bc336fc555e2a1837e54972b7f",
+  "width": 104,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+      "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      16,
+      16,
+      148,
+      444
+    ],
+    "sourcePivot": [
+      82.0,
+      75.92
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      21,
+      19
+    ],
+    "sourceDimensions": [
+      164,
+      460
+    ],
+    "targetDimensions": [
+      104,
+      64
+    ],
+    "officialAlphaBounds": [
+      21,
+      9,
+      104,
+      55
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      52.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/arkyid-leg-base.png",
+    "gitBlobSha1": "bbc5c171d83760e8e2fa43a219c36cedc9b8b493",
+    "sha256": "33fe7ca2a70d01d8526f1cd9fc5bd97d3c27553a6a07fe85852c20274be8ba13"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

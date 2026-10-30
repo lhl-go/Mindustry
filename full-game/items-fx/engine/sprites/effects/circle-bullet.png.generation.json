@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/circle-bullet.png",
+  "sha256": "e033bec4c4250b3e748414b6b8fd956664947a855f1bdd5e718a71df786c6dfb",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/circle-bullet.png",
+      "sha256": "1da0150eff4ef858c84eae91f20ad98c67af3f3e4ac53662e82190ba1cbcfd87",
+      "generationRecord": "full-game/items-fx/assets/circle-bullet.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      48,
+      48
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

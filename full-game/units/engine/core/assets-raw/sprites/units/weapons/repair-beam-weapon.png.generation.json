@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+  "sha256": "b630133503c90899b93fbb240593ca5e9dcb27db68b403b9e97c6d9b21fb1a55",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+      "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+      "generationRecord": "units/air-erekir-parts/assets/heal-weapon-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      282,
+      288
+    ],
+    "sourcePivot": [
+      160,
+      169
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      3,
+      1
+    ],
+    "sourceDimensions": [
+      314,
+      320
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      19,
+      6,
+      29,
+      30
+    ],
+    "scale": 0.1678832116788321,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+    "gitBlobSha1": "373cf433ba38078faa3bd9ae637f22eda8247d4c",
+    "sha256": "fd5aeb8304ebfb0899812c145fcf77eb51491341fc30c99a2b50a015ed29446e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

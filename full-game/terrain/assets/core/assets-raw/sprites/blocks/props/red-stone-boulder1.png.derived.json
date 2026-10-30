@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/red-stone-boulder1.png",
+  "sha256": "6c366d1dff06622c5c7b82dcbae9dc7cda4abb0db970f0c5e3db38ce88d7338a",
+  "createdAt": "2026-10-26T18:53:55.207008+00:00",
+  "kind": "derived_image",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/17-rock-ground-props.png",
+      "sha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9",
+      "generationRecord": "full-game/terrain/source/17-rock-ground-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      26,
+      370,
+      308,
+      590
+    ],
+    "nativeExtractedSize": [
+      282,
+      220
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.16312056737588654,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      48,
+      48
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

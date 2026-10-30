@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/alpha-cell.png",
+  "sha256": "09de6e6ad55aa2f2357b9e1b6089435ef438a6dfc74313495b66a53e40a53467",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/alpha.png",
+      "sha256": "affccc4c38a9b36f1fe5aa9c72043c1a879562ba43fe5c49b6afc685984e6329",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/alpha.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "alpha",
+    "baseCanvas": [
+      48,
+      48
+    ],
+    "outputCanvas": [
+      48,
+      48
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/alpha-cell.png",
+    "gitBlobSha1": "d791541089ebdff3b6f8da1b39d699e9ea4043e7",
+    "sha256": "b345057c1bb8a2177f704e8568510a8b7e38ef62ee0a16b438a4a86befa299f8"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

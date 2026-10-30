@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/blast-drill-top.png",
+  "sourceGitBlob": "189c04a3728e8759545f270160a02ca575901307",
+  "sourceSha256": "9b151aee485da5904184a67b354fe6a8088ff7bc61d92edb7ce46604ff44358e",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "blast-drill-top",
+  "blockId": "blast-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-top.png",
+  "sha256": "c1b41968ae6103cb3d63595dc346582d8ff776a374c05509d371676ddec1e515",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-top.png",
+  "engineSha256": "c1b41968ae6103cb3d63595dc346582d8ff776a374c05509d371676ddec1e515",
+  "nativeFile": "full-game/units/parts/joint-cap-heavy.png",
+  "nativeSha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5",
+  "nativeSize": [
+    526,
+    506
+  ],
+  "sourceAlphaBounds": [
+    40,
+    40,
+    88,
+    88
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      40,
+      40,
+      88,
+      88
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-heavy.png",
+      "sha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/blast-drill-top.png",
+      "sha256": "9b151aee485da5904184a67b354fe6a8088ff7bc61d92edb7ce46604ff44358e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

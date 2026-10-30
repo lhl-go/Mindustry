@@ -1,0 +1,40 @@
+{
+  "file": "ui/kit/icon-mods.png",
+  "sha256": "2e2892139dfaae8550bdbb0b8897ad82388a5f8ad308db9051fdf8ad17591543",
+  "width": 220,
+  "height": 225,
+  "derivedFrom": {
+    "file": "ui/components/ui-functional-icons-v1.png",
+    "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104",
+    "generationRecord": "ui/components/ui-functional-icons-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "connected_component_group_crop_alpha_cleanup_and_padding",
+    "sourceBox": [
+      800,
+      527,
+      1004,
+      736
+    ],
+    "localAlphaBounds": [
+      0,
+      0,
+      204,
+      209
+    ],
+    "padding": 8,
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "componentGrouping": "by midpoint to six by four atlas cells; full components retained across grid lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true
+  },
+  "nativeSourceSize": [
+    1536,
+    1024
+  ],
+  "resampled": false,
+  "modelEvidence": "Inherited from source; not new model generation",
+  "semanticKey": "mods",
+  "sourceImageRetained": false
+}

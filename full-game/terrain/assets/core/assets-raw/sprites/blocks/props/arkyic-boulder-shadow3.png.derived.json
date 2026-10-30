@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png",
+      "sha256": "b03b853e93ad06e792e667c0bd278cfee6898ce42f444538d438a7170eab3a69",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png",
+      "sha256": "1985d0d1e869a6da698aa442e6ec6a96be843e1f8fe44cffc23d7c25a80bbf67",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 229,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 1,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 229,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/arkyic-boulder-shadow3.png",
+  "sha256": "b44a1234b2c8633b971355384d0b7169858cbcd6af35fe274ff8f15f94693cc2",
+  "createdAt": "2026-10-26T20:35:01.797759+00:00",
+  "width": 70,
+  "height": 70,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

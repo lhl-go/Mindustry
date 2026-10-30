@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/scathe-missile-surge-split-light.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.056313+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 354,
+  "height": 592,
+  "sha256": "87c8b91593dd2dc9f70554eb7717f12b993fa56767b31f61b32015f32d5aebe9",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/scathe-missile-surge-split.png",
+      "sha256": "cc2ed09cf91eb0803684dc26a668f909a9a8a9243ced16b419291ca920cc39c3",
+      "generationRecord": "units/special/assets/scathe-missile-surge-split.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      240,
+      236,
+      224,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

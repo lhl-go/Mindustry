@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "records/coordinator-recoil-fix/elude-rest-and-recoil.jpg",
+  "sha256": "5f1457ea6efc42bb823efe8496ee2502e3e93868b095664129a4cf223023fb4d",
+  "width": 1204,
+  "height": 750,
+  "format": "JPEG",
+  "derivedAt": "2026-10-26T07:58:17.213269-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/elude-body.png",
+      "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+      "record": "units/coordinator-recoil-fix/elude-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/elude-weapon.png",
+      "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+      "record": "units/coordinator-recoil-fix/elude-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "qa_contact_composition",
+    "panels": [
+      "rest on ivory",
+      "weapon-only 16px recoil mock on dark jade"
+    ],
+    "references": [
+      {
+        "file": "units/coordinator-recoil-fix/elude-body.png",
+        "role": "body",
+        "originPixels": [
+          160,
+          160
+        ]
+      },
+      {
+        "file": "units/coordinator-recoil-fix/elude-weapon.png",
+        "role": "weapon",
+        "scale": 0.72,
+        "instances": [
+          {
+            "mirrorX": true,
+            "rotationDegrees": 35,
+            "anchorPixels": [
+              295.47,
+              409.2
+            ]
+          },
+          {
+            "mirrorX": false,
+            "rotationDegrees": -35,
+            "anchorPixels": [
+              461.53,
+              409.2
+            ]
+          }
+        ],
+        "pivotNormalized": [
+          0.5,
+          0.78
+        ],
+        "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+      }
+    ],
+    "thumbnailMaxSize": [
+      1500,
+      750
+    ],
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "purpose": "visual QA evidence, not a new game sprite or model generation",
+  "runtimeIntegrationVerified": false
+}

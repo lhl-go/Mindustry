@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/source/03-motion-defense.png",
+  "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+  "generatedAt": "2026-10-26 11:06:15 UTC",
+  "generatedAtBasis": "tool_return_receipt_time",
+  "startedAt": "2026-10-26 11:05:21 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    2304
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Asset type: production independent rotating and moving game sprite components, Mindustry Daoist reskin. Use the attached approved mail and party images as hand-painted style/material references only: jade green, ivory enamel, warm gold edges, subtle rounded cloud ornament, crisp refined hand-painted modeling. Never draw the UI, letters, people, scene or background. Other attached unit sheets are shape/identity references; extract their component design language, do NOT draw any whole aircraft or chassis. Strict orthographic TOP-DOWN dorsal view; weapons point straight toward the top edge, not frontal/isometric perspective. Every component complete and independently isolated, including its full round or square pivot base; no cut seams or body fragments. Truly transparent RGBA around every object, clean antialiased outer edges, no cast shadows, no glow haze, no backdrop, no checkerboard, no labels, numbers, text or dividers. Preserve subject opacity, no arbitrary semitransparent metal. Invisible regular cells for placement only, keep at least 15% empty margin around each object and generous transparent gutters; objects must never touch or overlap.\nRequested 3072×2304 landscape 4:3. Exactly TWELVE independent mechanical movement/protection parts, 4 columns × 3 rows in precise reading order. References 3/4/5 show walkers, aircraft and tanks. NO weapons, complete vehicles, assembled legs, mirrored pairs, scenery or labels. Each limb segment drawn vertically with complete round mechanical joints at its ends, lengths/widths graded small-medium-heavy. Ornament stays restrained, physical usable shapes.\nROW 1: (1) Merui SHORT UPPER LEG segment: short slim jade-ivory armored link, round socket both ends, proximal socket at top. (2) Merui SHORT LOWER LEG segment: a slightly tapered shin link with top round knee and lower ankle socket, separate single link. (3) Merui SHORT FOOT: compact two-toed bronze/ivory foot pointing north, full ankle pivot. (4) Cleroi/Anthicus MEDIUM UPPER LEG: visibly longer/thicker reinforced upper link, round sockets both ends.\nROW 2: (5) Cleroi/Anthicus MEDIUM LOWER LEG: medium length tapered lower link, top knee and bottom ankle socket. (6) Cleroi/Anthicus MEDIUM FOOT: wider two-toed claw foot with full ankle ring. (7) Tecta/Collaris HEAVY UPPER LEG: large thick armored segment, broad layered ivory/jade plating, heavy round joints. (8) Tecta/Collaris HEAVY LOWER LEG: large long heavy tapered segment with round knee at top and ankle below.\nROW 3: (9) Tecta/Collaris HEAVY FOOT: broad three-toed mechanical foot, powerful gold-rimmed ankle pivot. (10) Disrupt LEFT REAR WING only: one complete swept wing with jade/ivory cloud plate, root circular hinge at upper-right, wing expands and sweeps diagonally toward lower-left; must be usable mirrored for right side. (11) Tecta SHIELD: one thin flat hexagonal jade energy shield seen from directly above, complete warm-gold fine perimeter, genuinely translucent pale jade interior. Only this shield interior is semitransparent; outside fully transparent. (12) TANK TRACK STRIP: one complete vertical continuous closed crawler track band with articulated dark bronze chain links and jade/gold side guides, no hull, no side-by-side pair. Maintain wide clear gutters and all twelve entire silhouettes.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\05-erekir-air.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无型号、质量或尺寸参数，工具回执未披露精确型号和质量。",
+  "prompt": "prompts/air-erekir-parts/03-motion-defense.txt",
+  "promptSha256": "59ad470985800b09d6f5b23527980e395f94fedb0043b83a92943bb79512a525",
+  "references": [
+    {
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "purpose": "approved_primary_style",
+      "inspected": true
+    },
+    {
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "purpose": "approved_primary_style",
+      "inspected": true
+    },
+    {
+      "sha256": "c8f0d20e2e4b83a0480d9ce6713bea527749ca829bc9a4d2423a7bfcdb2b58e7",
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+      "purpose": "unit_component_identity_reference",
+      "inspected": true
+    },
+    {
+      "sha256": "6ff6836bb46a7a2369253e591a6ba21a200f5d8f9d5a177ac0d9eaf3dd93e606",
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\05-erekir-air.png",
+      "purpose": "unit_component_identity_reference",
+      "inspected": true
+    },
+    {
+      "sha256": "4c603a146c51110f4162f6e9eb657161f20a45114b630a14e21ee145a8f8360a",
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png",
+      "purpose": "unit_component_identity_reference",
+      "inspected": true
+    }
+  ],
+  "evidence": {
+    "receipt": "records/workers/air-erekir-parts/03-motion-defense.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-9d3024a8-7939-483b-ace4-fa19aa910b76.png",
+    "originalOutputSha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+    "sourceBytesPreserved": true,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "regions": [
+    "leg-short-upper",
+    "leg-short-lower",
+    "foot-short",
+    "leg-medium-upper",
+    "leg-medium-lower",
+    "foot-medium",
+    "leg-heavy-upper",
+    "leg-heavy-lower",
+    "foot-heavy",
+    "disrupt-tail",
+    "tecta-shield",
+    "track-strip"
+  ],
+  "status": "source_image_removed_after_final_asset_verification",
+  "alphaInspection": {
+    "present": true,
+    "transparentPixels": 985286,
+    "opaquePixels": 833,
+    "partialPixels": 586409
+  },
+  "sourceImageRetained": false,
+  "retentionUpdatedAt": "2026-10-26T11:33:01.504723+00:00",
+  "retainedRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json"
+}

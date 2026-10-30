@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-preview.png",
+  "sha256": "abb697de50bdf8e408be87d4954e187929f43eec4599672f0ce90885e9f604dd",
+  "width": 140,
+  "height": 130,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/assembled/obviate.png",
+      "sha256": "a1b1acc30eaf960e87c1fdb7508e20162206e16ff77020cf25a088ddd3d5168a",
+      "generationRecord": "units/air-erekir/assembled/obviate.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      34,
+      34,
+      476,
+      471
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      15,
+      14
+    ],
+    "sourceDimensions": [
+      510,
+      505
+    ],
+    "targetDimensions": [
+      140,
+      130
+    ],
+    "officialAlphaBounds": [
+      10,
+      14,
+      130,
+      123
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      70.0,
+      65.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/obviate-preview.png",
+    "gitBlobSha1": "4a7553fffde20c4348c72bb858c759061a532a68",
+    "sha256": "da9bb9a84d530e3245c6d89724567123585eeb35f65100a054c09fcd8e3796f3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

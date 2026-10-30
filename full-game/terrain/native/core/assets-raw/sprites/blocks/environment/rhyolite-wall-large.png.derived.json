@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-wall-large.png",
+  "sha256": "6a7946bcc17bafe74aa8c89b5b35efe5ad8741bc015b9ea09871ae92781cf374",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/14-erekir-wall-tops.png",
+      "sha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f",
+      "generationRecord": "full-game/terrain/source/14-erekir-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    889,
+    885,
+    1181
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

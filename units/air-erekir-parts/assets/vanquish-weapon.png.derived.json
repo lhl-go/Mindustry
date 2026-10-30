@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+  "createdAt": "2026-10-26T11:09:35.922331+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 392,
+  "height": 464,
+  "sha256": "ee4aa403fdc6d49fcd98e5d54c822b4142accd28a4ca11d77db93082e3c0db92",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+      "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      1095,
+      12,
+      1423,
+      412
+    ],
+    "sourceComponentArea": 78308,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

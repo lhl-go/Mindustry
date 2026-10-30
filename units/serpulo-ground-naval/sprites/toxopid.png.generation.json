@@ -1,0 +1,737 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/toxopid.png",
+  "sha256": "cfe499465a8971a606fae1855423efcb7f5926964d91d9e55a5f3f7d1149f3d4",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+      "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+      "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+      "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/toxopid.png",
+      "sha256": "ce2663f2821bfbc6bfa50bfbac938db5d43abecf6ebe8017c45d5baef885563a",
+      "generationRecord": "units/serpulo-ground-naval/bodies/toxopid.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+      "sha256": "61606cf01e4429a6c94be7f52bf03b75688e853cbc09b4bdead3377b9e4b92f1",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-purple-artillery.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-shock-cannon.png",
+      "sha256": "b0e41993020464e0050904d2972ee17685bef6554a58fcf0885d77f3592beae1",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-shock-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      305,
+      587,
+      1895,
+      1613
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          599.39,
+          383.74
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": -123.24183592835992,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          204,
+          80
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          290.705,
+          181.42
+        ],
+        "scale": [
+          0.6219512195121951,
+          0.6239130434782608
+        ],
+        "rotationDegreesCCW": -120.4039198769525,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          58,
+          15
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          113.52,
+          77.45
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": -120.4039198769525,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          10,
+          -6
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          599.39,
+          469.913
+        ],
+        "scale": [
+          0.8983957219251337,
+          0.8981670061099797
+        ],
+        "rotationDegreesCCW": -102.3240497753643,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          220,
+          309
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          290.705,
+          402.473
+        ],
+        "scale": [
+          0.5487804878048781,
+          0.55
+        ],
+        "rotationDegreesCCW": -101.06711156359373,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          75,
+          318
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          113.52,
+          367.817
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": -101.06711156359373,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          12,
+          309
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          599.39,
+          556.087
+        ],
+        "scale": [
+          0.8983957219251337,
+          0.8981670061099797
+        ],
+        "rotationDegreesCCW": -77.67595022463571,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          220,
+          458
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          290.705,
+          623.527
+        ],
+        "scale": [
+          0.5487804878048781,
+          0.55
+        ],
+        "rotationDegreesCCW": -78.93288843640627,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          75,
+          571
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          113.52,
+          658.183
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": -78.93288843640627,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          12,
+          613
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          599.39,
+          642.26
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": -56.7581640716401,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          204,
+          519
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          290.705,
+          844.58
+        ],
+        "scale": [
+          0.6219512195121951,
+          0.6239130434782608
+        ],
+        "rotationDegreesCCW": -59.5960801230475,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          58,
+          776
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          113.52,
+          948.55
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": -59.5960801230475,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          10,
+          902
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          990.61,
+          383.74
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 123.24183592835989,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          871,
+          80
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          1299.295,
+          181.42
+        ],
+        "scale": [
+          0.6219512195121951,
+          0.6239130434782608
+        ],
+        "rotationDegreesCCW": 120.4039198769525,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1232,
+          15
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          1476.48,
+          77.45
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": 120.4039198769525,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1438,
+          -6
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          990.61,
+          469.913
+        ],
+        "scale": [
+          0.8983957219251337,
+          0.8981670061099797
+        ],
+        "rotationDegreesCCW": 102.3240497753643,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          902,
+          309
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          1299.295,
+          402.473
+        ],
+        "scale": [
+          0.5487804878048781,
+          0.55
+        ],
+        "rotationDegreesCCW": 101.06711156359373,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1249,
+          318
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          1476.48,
+          367.817
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": 101.06711156359373,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1448,
+          309
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          990.61,
+          556.087
+        ],
+        "scale": [
+          0.8983957219251337,
+          0.8981670061099797
+        ],
+        "rotationDegreesCCW": 77.67595022463571,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          902,
+          458
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          1299.295,
+          623.527
+        ],
+        "scale": [
+          0.5487804878048781,
+          0.55
+        ],
+        "rotationDegreesCCW": 78.93288843640627,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1249,
+          571
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          1476.48,
+          658.183
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": 78.93288843640627,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1448,
+          613
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+        "sourceAnchorPx": [
+          93.5,
+          80.26
+        ],
+        "targetAnchorPx": [
+          990.61,
+          642.26
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 56.75816407164012,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          871,
+          519
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+        "sourceAnchorPx": [
+          82.0,
+          75.92
+        ],
+        "targetAnchorPx": [
+          1299.295,
+          844.58
+        ],
+        "scale": [
+          0.6219512195121951,
+          0.6239130434782608
+        ],
+        "rotationDegreesCCW": 59.5960801230475,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1232,
+          776
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+        "sourceAnchorPx": [
+          108.0,
+          54.22
+        ],
+        "targetAnchorPx": [
+          1476.48,
+          948.55
+        ],
+        "scale": [
+          0.37962962962962965,
+          0.380327868852459
+        ],
+        "rotationDegreesCCW": 59.5960801230475,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          1438,
+          902
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/toxopid.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/toxopid.png.generation.json",
+        "sourceAnchorPx": [
+          315.5,
+          281.0
+        ],
+        "targetAnchorPx": [
+          795,
+          513
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          479,
+          232
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-purple-artillery.png.generation.json",
+        "sourceAnchorPx": [
+          171.5,
+          288.58
+        ],
+        "targetAnchorPx": [
+          624.63,
+          580.44
+        ],
+        "scale": [
+          0.4606413994169096,
+          0.46113989637305697
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          546,
+          447
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-purple-artillery.png.generation.json",
+        "sourceAnchorPx": [
+          171.5,
+          288.58
+        ],
+        "targetAnchorPx": [
+          965.37,
+          580.44
+        ],
+        "scale": [
+          0.4606413994169096,
+          0.46113989637305697
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          886,
+          447
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-shock-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-shock-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          164.0,
+          278.57
+        ],
+        "targetAnchorPx": [
+          795,
+          709.7
+        ],
+        "scale": [
+          0.5762195121951219,
+          0.5764075067024129
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          701,
+          549
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 1590,
+    "height": 1026,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 1086099,
+    "opaquePixelCount": 503523,
+    "partialPixelCount": 41718,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      1566,
+      1002
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "toxopid",
+    "sha256": "cfe499465a8971a606fae1855423efcb7f5926964d91d9e55a5f3f7d1149f3d4",
+    "size": [
+      1590,
+      1026
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

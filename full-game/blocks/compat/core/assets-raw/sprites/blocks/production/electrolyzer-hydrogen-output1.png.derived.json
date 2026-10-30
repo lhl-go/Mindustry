@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electrolyzer-hydrogen-output1.png",
+  "sourceGitBlob": "f5cae9dcf9a97dc60097207fb680b3f1d58d88a7",
+  "sourceSha256": "2e9ce8e6dba4d3bc50e4c4fb4e4e0f678c45f5df8e94da4030ea4614bf7f4a64",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "electrolyzer-hydrogen-output1",
+  "blockId": "electrolyzer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-hydrogen-output1.png",
+  "sha256": "e4e031c88e0f201cbba4b45944086dca3fd24d6c0f61748ba9f609585ed92b96",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-hydrogen-output1.png",
+  "engineSha256": "e4e031c88e0f201cbba4b45944086dca3fd24d6c0f61748ba9f609585ed92b96",
+  "nativeFile": "full-game/blocks/masters/electrolyzer.png",
+  "nativeSha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5",
+  "nativeSize": [
+    373,
+    329
+  ],
+  "sourceAlphaBounds": [
+    70,
+    8,
+    96,
+    88
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "1",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electrolyzer.png",
+      "sha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electrolyzer-hydrogen-output1.png",
+      "sha256": "2e9ce8e6dba4d3bc50e4c4fb4e4e0f678c45f5df8e94da4030ea4614bf7f4a64"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-hydrogen-output1.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

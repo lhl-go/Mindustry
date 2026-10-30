@@ -1,0 +1,41 @@
+{
+  "region": "titan-side-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-heat.png",
+  "sha256": "eaf0bfb9e2d20ad3b621943042e4e0a55f4943deec8ee0f6ea193247f8c55bc7",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.563891+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan-side-heat.png",
+      "sha256": "dcf5ed61a27a8a15f0b69182965d1297213e620e548a0647c9be2a244719f01b",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-r.png",
+      "sha256": "d6de2eb074514011a1764dfc9ec601d8cf15d5244b381a0272da07ae74cb3c71",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-l.png",
+      "sha256": "d6de2eb074514011a1764dfc9ec601d8cf15d5244b381a0272da07ae74cb3c71",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "titan-side-r",
+      "titan-side-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1052
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

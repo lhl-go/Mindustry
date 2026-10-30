@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/campaign/advanced-launch-pad-pod.png",
+  "sourceGitBlob": "93675a3d28d6f2331d801ad26d6bfed11a9014a1",
+  "sourceSha256": "a642a5e6a679a9df16349f9802299d7db49b0986e6c46ab7e2d4997c613c931e",
+  "sourceDimensions": [
+    72,
+    72
+  ],
+  "region": "advanced-launch-pad-pod",
+  "blockId": "advanced-launch-pad",
+  "category": "campaign",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/advanced-launch-pad-pod.png",
+  "sha256": "ae7fd7ae6663753f66c7dec63e9b7f2258d610d0625e4cacc4b610b5ef214f36",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/advanced-launch-pad-pod.png",
+  "engineSha256": "ae7fd7ae6663753f66c7dec63e9b7f2258d610d0625e4cacc4b610b5ef214f36",
+  "nativeFile": "full-game/blocks/masters/advanced-launch-pad-pod-part.png",
+  "nativeSha256": "308da3be5cf35d75076c46b03d3aa2ee032e7fae664095eec7a9a2038d98df73",
+  "nativeSize": [
+    337,
+    354
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    72,
+    72
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "advanced-launch-pad-pod-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/advanced-launch-pad-pod-part.png",
+      "sha256": "308da3be5cf35d75076c46b03d3aa2ee032e7fae664095eec7a9a2038d98df73"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/campaign/advanced-launch-pad-pod.png",
+      "sha256": "a642a5e6a679a9df16349f9802299d7db49b0986e6c46ab7e2d4997c613c931e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/advanced-launch-pad-pod.png.derived.json"
+}

@@ -1,0 +1,51 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor.png",
+  "sourceGitBlob": "10a38a7a833365c2bf1599812353f5fa632f688f",
+  "sourceSha256": "e0c92577ec8e1772529bbb3323f63091349fe577467ef21d4066cda4d84eea54",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "surge-conveyor",
+  "blockId": "surge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor.png",
+  "sha256": "772bcba69aa7dc40e38fe355d674640f7fbb984824c3e559ba4c57b2e765f5f8",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor.png",
+  "engineSha256": "772bcba69aa7dc40e38fe355d674640f7fbb984824c3e559ba4c57b2e765f5f8",
+  "nativeFile": "full-game/blocks/masters/surge-conveyor.png",
+  "nativeSha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f",
+  "nativeSize": [
+    313,
+    301
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false,
+    "nativeMaterialRotationBeforePlacement": -90,
+    "orientationReason": "StackConveyor rotation=0 points east; original concept belt axis points north."
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-conveyor.png",
+      "sha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/surge-conveyor.png",
+      "sha256": "e0c92577ec8e1772529bbb3323f63091349fe577467ef21d4066cda4d84eea54"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor.png.derived.json"
+}

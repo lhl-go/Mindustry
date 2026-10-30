@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/mass-driver.png",
+  "sourceGitBlob": "c798c1370dab48799ea5599c4a78744aa532aee2",
+  "sourceSha256": "111e877c03cc6413176dffdcf56093f18106e4cf0d04e54088cefa7ebe693ceb",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "mass-driver",
+  "blockId": "mass-driver",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver.png",
+  "sha256": "10ed294d57ef2e4c96d9c1e1fc1a1e73d643f47eb94f912eb1ae47f1e72564fe",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver.png",
+  "engineSha256": "10ed294d57ef2e4c96d9c1e1fc1a1e73d643f47eb94f912eb1ae47f1e72564fe",
+  "nativeFile": "full-game/blocks/masters/mass-driver-head-part.png",
+  "nativeSha256": "157be2d8bf9baf7ef50b2d8d96826292d1eeb8209d8a4503887e163501452741",
+  "nativeSize": [
+    201,
+    290
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    92,
+    92
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "mass-driver-head-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mass-driver-head-part.png",
+      "sha256": "157be2d8bf9baf7ef50b2d8d96826292d1eeb8209d8a4503887e163501452741"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/mass-driver.png",
+      "sha256": "111e877c03cc6413176dffdcf56093f18106e4cf0d04e54088cefa7ebe693ceb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver.png.derived.json"
+}

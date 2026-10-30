@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/resize.png",
+  "sourceGitBlob": "ee53c8470f640dcd280f402bbd94e85fd3bb96a0",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/resize.png",
+  "sha256": "7632bfcf0b7972dee1fc9e21ce798d9d771e561e697539537643d10f83eba5cd",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/resize.png",
+      "sha256": "67c103c9c7c7a2d24e43cb63867c90c93da97990b504ebe5cee814c3325df281",
+      "record": "full-game/ui-system/icons/resize.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "resize",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

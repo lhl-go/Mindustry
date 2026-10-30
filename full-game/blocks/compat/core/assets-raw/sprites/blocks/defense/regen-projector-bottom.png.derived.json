@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/regen-projector-bottom.png",
+  "sourceGitBlob": "71e64780bf1d2287a16fae43c6e3a180973d4f98",
+  "sourceSha256": "32d16474fc2233ae312dca68f743c32f02bb6eac83cbfec336f743b57c541107",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "regen-projector-bottom",
+  "blockId": "regen-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-bottom.png",
+  "sha256": "b49dd49a588e16bf3cd89d9aee0211baa6c6f769f40de2b63f88139a1e13d1bc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-bottom.png",
+  "engineSha256": "b49dd49a588e16bf3cd89d9aee0211baa6c6f769f40de2b63f88139a1e13d1bc",
+  "nativeFile": "full-game/blocks/masters/regen-projector.png",
+  "nativeSha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf",
+  "nativeSize": [
+    355,
+    336
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "fixed reservoir floor under DrawLiquidTile",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": true
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/regen-projector.png",
+      "sha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/regen-projector-bottom.png",
+      "sha256": "32d16474fc2233ae312dca68f743c32f02bb6eac83cbfec336f743b57c541107"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-bottom.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-bottom.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/regen-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

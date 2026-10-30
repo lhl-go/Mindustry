@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+  "createdAt": "2026-10-26T11:09:35.767801+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 476,
+  "height": 403,
+  "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+      "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      825,
+      877,
+      1237,
+      1216
+    ],
+    "sourceComponentArea": 107092,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

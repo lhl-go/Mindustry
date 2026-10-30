@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone-wall-large.png",
+  "sha256": "97bf3cadd25d6cb5b4b90aa2fe1d81c18c3fa5e7c561dbbcbadc1f458e80b499",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/14-erekir-wall-tops.png",
+      "sha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f",
+      "generationRecord": "full-game/terrain/source/14-erekir-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    593,
+    885,
+    885
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/sand-boulder1.png",
+  "sha256": "56c2039a730c1ff61e394189c11932cf82d9d3657344b565c47409fd8c284399",
+  "size": [
+    233,
+    224
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/16-boulder-props.png",
+      "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+      "generationRecord": "full-game/terrain/source/16-boulder-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    521,
+    748,
+    754,
+    972
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

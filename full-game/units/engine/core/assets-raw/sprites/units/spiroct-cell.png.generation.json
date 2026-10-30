@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-cell.png",
+  "sha256": "177bc2641be73668a640e82a06334d88fa1e639c3fd2b62d6da79eeebb0e2630",
+  "width": 94,
+  "height": 75,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct.png",
+      "sha256": "afe294fcad9147f08a17a9ae75b8f05485a0c7e9be4c712229c87fb9b35e61cf",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/spiroct.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "spiroct",
+    "baseCanvas": [
+      94,
+      75
+    ],
+    "outputCanvas": [
+      94,
+      75
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/spiroct-cell.png",
+    "gitBlobSha1": "180d3e986b29d9a3b870aa29d96fb85931b99b61",
+    "sha256": "c3d044784e7ebeae6bfe72afcc5be0ed9eeb7fb7e3284e65ec5e5077f1acdafb"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

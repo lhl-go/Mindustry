@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/surge-tower.png",
+  "sourceGitBlob": "9aaeae318642837d7ccf253eede7e9e730d59109",
+  "sourceSha256": "47c33db2222d0da696dfc07d1c325368a9aa82fc50871566a5c9a63afb06eb48",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "surge-tower",
+  "blockId": "surge-tower",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/surge-tower.png",
+  "sha256": "ea28fb0159e4469f5d17df306cfa2bc30eb02b96323acecf22a8672c27b34aba",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/surge-tower.png",
+  "engineSha256": "ea28fb0159e4469f5d17df306cfa2bc30eb02b96323acecf22a8672c27b34aba",
+  "nativeFile": "full-game/blocks/masters/surge-tower.png",
+  "nativeSha256": "934a8992f05207690b6defcf598b6cc36115a0084402a861b9c042a5fe3733a0",
+  "nativeSize": [
+    271,
+    317
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-tower.png",
+      "sha256": "934a8992f05207690b6defcf598b6cc36115a0084402a861b9c042a5fe3733a0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/surge-tower.png",
+      "sha256": "47c33db2222d0da696dfc07d1c325368a9aa82fc50871566a5c9a63afb06eb48"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/surge-tower.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

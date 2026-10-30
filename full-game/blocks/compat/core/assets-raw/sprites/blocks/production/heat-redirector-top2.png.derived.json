@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-redirector-top2.png",
+  "sourceGitBlob": "1cafe50705b5cdb75e5dea55c04d4526b78558ec",
+  "sourceSha256": "741b214f3f63eefbd58f945ec60b3b953889dd20bb14b67d86a93a573189545d",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-redirector-top2",
+  "blockId": "heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-top2.png",
+  "sha256": "8ff70d62b5d500944e250c92cbd177c4d44a1e1680da6df8f463ec50394c2f40",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-top2.png",
+  "engineSha256": "8ff70d62b5d500944e250c92cbd177c4d44a1e1680da6df8f463ec50394c2f40",
+  "nativeFile": "full-game/blocks/masters/heat-redirector.png",
+  "nativeSha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4",
+  "nativeSize": [
+    333,
+    365
+  ],
+  "sourceAlphaBounds": [
+    60,
+    1,
+    96,
+    95
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-redirector.png",
+      "sha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-redirector-top2.png",
+      "sha256": "741b214f3f63eefbd58f945ec60b3b953889dd20bb14b67d86a93a573189545d"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

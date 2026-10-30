@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/mine-bullet-back.png",
+  "sha256": "5aa4c579db54bad09b590afe81b0b02fa6e72fbefe842489b4f263a9285d0480",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/mine-bullet-back.png",
+      "sha256": "93474a782c37a365360ac7923a4c26f80b9f68c8c9b134cd98e52bd76f62c1fa",
+      "generationRecord": "full-game/items-fx/assets/mine-bullet-back.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      64,
+      64
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

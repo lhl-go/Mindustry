@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+  "sha256": "6bd1e0e7ab5f6f74b4171caafb3e67fdea9beec94bb353151eb52dfed948d5b5",
+  "width": 80,
+  "height": 130,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+      "sha256": "ca26ef73f64884ff0e2b21f32b47d883eb5937cf74dd64946ff7490150708c3d",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-emp-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      344,
+      324
+    ],
+    "sourcePivot": [
+      180.0,
+      247.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      10
+    ],
+    "sourceDimensions": [
+      360,
+      340
+    ],
+    "targetDimensions": [
+      80,
+      130
+    ],
+    "officialAlphaBounds": [
+      9,
+      14,
+      71,
+      116
+    ],
+    "scale": 0.23780487804878048,
+    "engineAnchorPx": [
+      40.0,
+      65.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+    "gitBlobSha1": "1fcaf470b1e4d6f613c241bfc14b9b516d0e107d",
+    "sha256": "ed9bae1322ae41974881eb1959b8a597cd3e80905d7e74ae5f8f18e533cf2899"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

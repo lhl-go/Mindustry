@@ -1,0 +1,428 @@
+[
+  {
+    "name": "flare",
+    "line": 1047,
+    "properties": [
+      "flying = true;",
+      "hitSize = 9;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      ""
+    ]
+  },
+  {
+    "name": "horizon",
+    "line": 1091,
+    "properties": [
+      "flying = true;",
+      "hitSize = 11f;",
+      "armor = 3f;"
+    ],
+    "weapons": [
+      ""
+    ]
+  },
+  {
+    "name": "zenith",
+    "line": 1140,
+    "properties": [
+      "flying = true;",
+      "hitSize = 20f;",
+      "armor = 5f;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"zenith-missiles\""
+    ]
+  },
+  {
+    "name": "antumbra",
+    "line": 1187,
+    "properties": [
+      "flying = true;",
+      "armor = 17f;",
+      "hitSize = 46f;",
+      "rotate = true;",
+      "rotate = true;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"missiles-mount\"",
+      "\"missiles-mount\"",
+      "\"large-bullet-mount\""
+    ]
+  },
+  {
+    "name": "eclipse",
+    "line": 1263,
+    "properties": [
+      "flying = true;",
+      "hitSize = 58f;",
+      "armor = 22f;",
+      "rotate = true;",
+      "rotate = true;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"large-laser-mount\"",
+      "\"large-artillery\"",
+      "\"large-artillery\""
+    ]
+  },
+  {
+    "name": "mono",
+    "line": 1345,
+    "properties": [
+      "flying = true;",
+      "mineTier = 1;"
+    ],
+    "weapons": []
+  },
+  {
+    "name": "poly",
+    "line": 1364,
+    "properties": [
+      "flying = true;",
+      "buildSpeed = 0.4f;",
+      "hitSize = 9f;",
+      "mineTier = 2;"
+    ],
+    "weapons": [
+      "\"poly-weapon\""
+    ]
+  },
+  {
+    "name": "mega",
+    "line": 1422,
+    "properties": [
+      "mineTier = 3;",
+      "armor = 3f;",
+      "flying = true;",
+      "hitSize = 16.05f;",
+      "payloadCapacity = (2 * 2) * tilePayload;",
+      "buildSpeed = 2.6f;",
+      "rotate = true;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"heal-weapon-mount\"",
+      "\"heal-weapon-mount\""
+    ]
+  },
+  {
+    "name": "quad",
+    "line": 1473,
+    "properties": [
+      "armor = 10f;",
+      "flying = true;",
+      "hitSize = 36f;",
+      "payloadCapacity = (3 * 3) * tilePayload;",
+      "buildSpeed = 2.5f;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      ""
+    ]
+  },
+  {
+    "name": "oct",
+    "line": 1547,
+    "properties": [
+      "armor = 20f;",
+      "flying = true;",
+      "hitSize = 66f;",
+      "payloadCapacity = (5.5f * 5.5f) * tilePayload;",
+      "buildSpeed = 4f;"
+    ],
+    "weapons": []
+  },
+  {
+    "name": "stell",
+    "line": 2654,
+    "properties": [
+      "hitSize = 12f;",
+      "armor = 6f;",
+      "rotate = true;",
+      "mirror = false;",
+      "hitSize = 4f;"
+    ],
+    "weapons": [
+      "\"stell-weapon\""
+    ]
+  },
+  {
+    "name": "locus",
+    "line": 2700,
+    "properties": [
+      "hitSize = 18f;",
+      "armor = 8f;",
+      "rotate = true;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"locus-weapon\""
+    ]
+  },
+  {
+    "name": "precept",
+    "line": 2783,
+    "properties": [
+      "hitSize = 24f;",
+      "armor = 11f;",
+      "rotate = true;",
+      "mirror = false;",
+      "hitSize = 6f;",
+      "hitSize = 4f;"
+    ],
+    "weapons": [
+      "\"precept-weapon\""
+    ]
+  },
+  {
+    "name": "vanquish",
+    "line": 2857,
+    "properties": [
+      "hitSize = 28f;",
+      "armor = 20f;",
+      "rotate = true;",
+      "mirror = false;",
+      "hitSize = 6f;",
+      "hitSize = 4f;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"vanquish-weapon\"",
+      "\"vanquish-point-weapon\""
+    ]
+  },
+  {
+    "name": "conquer",
+    "line": 2969,
+    "properties": [
+      "hitSize = 46f;",
+      "armor = 26f;",
+      "rotate = true;",
+      "mirror = false;",
+      "mirror = false;",
+      "mirror = true;",
+      "mirror = true;",
+      "mirror = true;",
+      "mirror = true;",
+      "hitSize = 6f;",
+      "hitSize = 5f;"
+    ],
+    "weapons": [
+      "\"conquer-weapon\""
+    ]
+  },
+  {
+    "name": "merui",
+    "line": 3153,
+    "properties": [
+      "hitSize = 9f;",
+      "armor = 4f;",
+      "legCount = 6;",
+      "hovering = true;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"merui-weapon\""
+    ]
+  },
+  {
+    "name": "cleroi",
+    "line": 3239,
+    "properties": [
+      "hitSize = 14f;",
+      "armor = 5f;",
+      "legCount = 4;",
+      "hovering = true;",
+      "mirror = true;"
+    ],
+    "weapons": [
+      "\"cleroi-weapon\"",
+      "\"cleroi-point-defense\""
+    ]
+  },
+  {
+    "name": "anthicus",
+    "line": 3349,
+    "properties": [
+      "hitSize = 21f;",
+      "armor = 7f;",
+      "legCount = 6;",
+      "hovering = true;",
+      "mirror = true;",
+      "rotate = true;",
+      "mirror = true;",
+      "mirror = true;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"anthicus-weapon\"",
+      ""
+    ]
+  },
+  {
+    "name": "tecta",
+    "line": 3507,
+    "properties": [
+      "hitSize = 30f;",
+      "armor = 5f;",
+      "legCount = 6;",
+      "hovering = true;",
+      "mirror = true;"
+    ],
+    "weapons": [
+      "\"tecta-weapon\""
+    ]
+  },
+  {
+    "name": "collaris",
+    "line": 3615,
+    "properties": [
+      "hitSize = 44f;",
+      "armor = 9f;",
+      "legCount = 8;",
+      "hovering = true;",
+      "mirror = true;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "\"collaris-weapon\""
+    ]
+  },
+  {
+    "name": "elude",
+    "line": 3789,
+    "properties": [
+      "hovering = true;",
+      "armor = 1f;",
+      "hitSize = 11f;",
+      "mirror = true;",
+      "mirror = true;"
+    ],
+    "weapons": [
+      "\"elude-weapon\""
+    ]
+  },
+  {
+    "name": "avert",
+    "line": 3858,
+    "properties": [
+      "flying = true;",
+      "armor = 3f;",
+      "hitSize = 12f;",
+      "rotate = false;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"avert-weapon\""
+    ]
+  },
+  {
+    "name": "obviate",
+    "line": 3923,
+    "properties": [
+      "flying = true;",
+      "armor = 6f;",
+      "hitSize = 25f;",
+      "mirror = true;",
+      "mirror = true;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      ""
+    ]
+  },
+  {
+    "name": "quell",
+    "line": 4044,
+    "properties": [
+      "flying = true;",
+      "armor = 4f;",
+      "hitSize = 36f;",
+      "payloadCapacity = Mathf.sqr(4f) * tilePayload;",
+      "rotate = true;",
+      "hitSize = 7f;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"quell-weapon\"",
+      ""
+    ]
+  },
+  {
+    "name": "disrupt",
+    "line": 4149,
+    "properties": [
+      "flying = true;",
+      "armor = 9f;",
+      "hitSize = 46f;",
+      "payloadCapacity = Mathf.sqr(6f) * tilePayload;",
+      "mirror = true;",
+      "rotate = true;",
+      "mirror = true;",
+      "mirror = true;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      "\"disrupt-weapon\"",
+      ""
+    ]
+  },
+  {
+    "name": "evoke",
+    "line": 4354,
+    "properties": [
+      "flying = true;",
+      "mineTier = 3;",
+      "buildSpeed = 1.2f;",
+      "armor = 1f;",
+      "hitSize = 9f;",
+      "payloadCapacity = 2f * 2f * tilesize * tilesize;",
+      "rotate = false;",
+      "mirror = false;"
+    ],
+    "weapons": [
+      ""
+    ]
+  },
+  {
+    "name": "incite",
+    "line": 4420,
+    "properties": [
+      "flying = true;",
+      "mineTier = 3;",
+      "buildSpeed = 1.4f;",
+      "armor = 2f;",
+      "hitSize = 11f;",
+      "payloadCapacity = 2f * 2f * tilesize * tilesize;",
+      "rotate = false;",
+      "mirror = false;",
+      "rotate = true;"
+    ],
+    "weapons": [
+      "",
+      "\"build-weapon\""
+    ]
+  },
+  {
+    "name": "emanate",
+    "line": 4499,
+    "properties": [
+      "flying = true;",
+      "mineTier = 3;",
+      "buildSpeed = 1.5f;",
+      "armor = 3f;",
+      "hitSize = 12f;",
+      "payloadCapacity = 2f * 2f * tilesize * tilesize;",
+      "rotate = false;",
+      "mirror = true;"
+    ],
+    "weapons": [
+      ""
+    ]
+  }
+]

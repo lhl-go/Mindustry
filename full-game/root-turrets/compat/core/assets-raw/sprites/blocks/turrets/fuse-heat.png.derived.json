@@ -1,0 +1,35 @@
+{
+  "region": "fuse-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/fuse-heat.png",
+  "sha256": "f264e4bd3c0f974a9b6e1a66e038372820369a19116f4f1ff7526e03d60f1f77",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.444177+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/fuse-heat.png",
+      "sha256": "4325b242d4af6b1b7592a745df7e4179a1ca2f791c497cbdb79ed214268b989d",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/fuse.png",
+      "sha256": "5b052d99b0d81d89e7d90ef07e9844971cfafc22ac38478c6edd49c73b550bd4",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/fuse.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "fuse"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1026
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

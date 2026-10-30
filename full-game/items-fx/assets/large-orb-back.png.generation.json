@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/large-orb.png",
+      "sha256": "4814e7e0af04c525789391b05b482d6278aff4d02cfe3eeca0b0131de41fe55c",
+      "generationRecord": "full-game/items-fx/assets/large-orb.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/large-orb-back.png",
+  "sha256": "f2185d0ee4bfa05f84413bb21f798218bb19285e83e733be1607aba70c256cdb",
+  "width": 337,
+  "height": 328,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.419887+00:00"
+}

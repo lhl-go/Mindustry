@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/05-gases-teams.png",
+      "sha256": "3d582e88f6ddd9b5148615345dfcba0f3101d02de9e45a1d265bd43556348110",
+      "generationRecord": "full-game/items-fx/source/05-gases-teams.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      70,
+      13,
+      410,
+      440
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-cyanogen.png",
+  "sha256": "9f5172dc64fd90d5054578d1ae4c59c72bc5fc7a63bcc6dcba2f8bda6009fb83",
+  "width": 372,
+  "height": 459,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.268889+00:00"
+}

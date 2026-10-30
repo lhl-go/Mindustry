@@ -1,0 +1,2269 @@
+{
+  "auditAt": "2026-10-26T11:32:50.985002+00:00",
+  "readOnly": true,
+  "scope": "New 53 worker units only; prior 15 semantic checks reused, no UI rendering repeated.",
+  "workers": [
+    {
+      "worker": "serpulo-ground-naval",
+      "status": "art_complete_engine_not_verified",
+      "sha256": "da80edfef3e6fb85ef78d9b535ecedd883ba352d4fa52f7d3ddaec0de63800fd",
+      "assetCount": 25
+    },
+    {
+      "worker": "air-erekir",
+      "status": "assembled_pending_final_visual_check",
+      "sha256": "8c05bd53d8f52edd21558b0392c8261d4790d9287c056db7b5c65366f4b196b9",
+      "assetCount": 28
+    }
+  ],
+  "newIndependentUnitIds": 53,
+  "newUniqueIds": 53,
+  "reusedUnitCount": 15,
+  "allUniqueIds": 68,
+  "missingRequiredUnitIds": [],
+  "extraIds": [],
+  "duplicateIds": [],
+  "newImageFilesChecked": 159,
+  "provenanceRecordsChecked": 180,
+  "fileAndRecordIssues": [],
+  "semanticIssues": [
+    {
+      "id": "poly",
+      "finding": {
+        "type": "moving_weapon_baked_in_body",
+        "region": "poly-weapon",
+        "sourceLine": 1389,
+        "rotate": false,
+        "recoil": 2.0,
+        "mappedFiles": [
+          "units/air-erekir/individual/poly.png"
+        ],
+        "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+      }
+    },
+    {
+      "id": "elude",
+      "finding": {
+        "type": "moving_weapon_baked_in_body",
+        "region": "elude-weapon",
+        "sourceLine": 3829,
+        "rotate": false,
+        "recoil": 1.5,
+        "mappedFiles": [
+          "units/air-erekir/individual/elude.png"
+        ],
+        "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+      }
+    },
+    {
+      "id": "avert",
+      "finding": {
+        "type": "moving_weapon_baked_in_body",
+        "region": "avert-weapon",
+        "sourceLine": 3877,
+        "rotate": false,
+        "recoil": 1.0,
+        "mappedFiles": [
+          "units/air-erekir/individual/avert.png"
+        ],
+        "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+      }
+    }
+  ],
+  "pendingReviewStates": [
+    {
+      "worker": "air-erekir",
+      "status": "assembled_pending_final_visual_check"
+    }
+  ],
+  "historicalSourceReferences": [
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "record": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "record": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "record": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "record": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4",
+      "record": "records/workers/serpulo-ground-naval/07-assault-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "record": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "record": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "record": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "record": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "record": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "record": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "record": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "record": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "record": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "record": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "record": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "record": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "record": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "record": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "record": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "record": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "record": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "record": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "record": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "record": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "record": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "record": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "record": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json"
+    }
+  ],
+  "units": [
+    {
+      "id": "dagger",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/dagger.png",
+        "units/serpulo-ground-naval/parts/mech-autocannon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "large-weapon",
+          "sourceLine": 107,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-autocannon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "mace",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/mace.png",
+        "units/serpulo-ground-naval/parts/mech-flame-pair.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "flamethrower",
+          "sourceLine": 128,
+          "rotate": false,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-flame-pair.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "fortress",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/fortress.png",
+        "units/serpulo-ground-naval/parts/mech-mortar.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "artillery",
+          "sourceLine": 165,
+          "rotate": false,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-mortar.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "scepter",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "units/serpulo-ground-naval/bodies/scepter.png",
+        "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+        "units/serpulo-ground-naval/parts/mech-autocannon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "scepter-weapon",
+          "sourceLine": 225,
+          "rotate": false,
+          "recoil": 5.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-heavy-burst.png"
+          ]
+        },
+        {
+          "region": "scepter-mount",
+          "sourceLine": 268,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-autocannon.png"
+          ]
+        },
+        {
+          "region": "scepter-mount",
+          "sourceLine": 278,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-autocannon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "reign",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "units/serpulo-ground-naval/bodies/reign.png",
+        "units/serpulo-ground-naval/parts/mech-siege-shotgun.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "reign-weapon",
+          "sourceLine": 307,
+          "rotate": false,
+          "recoil": 5.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-siege-shotgun.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "nova",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/nova.png",
+        "units/serpulo-ground-naval/parts/mech-repair-bolt.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "heal-weapon",
+          "sourceLine": 374,
+          "rotate": false,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-repair-bolt.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "pulsar",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/pulsar.png",
+        "units/serpulo-ground-naval/parts/mech-electric-coil.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "heal-shotgun-weapon",
+          "sourceLine": 412,
+          "rotate": false,
+          "recoil": 2.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-electric-coil.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "quasar",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-light.png",
+        "units/serpulo-ground-naval/bodies/quasar.png",
+        "units/serpulo-ground-naval/parts/mech-beam-laser.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "beam-weapon",
+          "sourceLine": 475,
+          "rotate": false,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-beam-laser.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "vela",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "units/serpulo-ground-naval/bodies/vela.png",
+        "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+        "units/serpulo-ground-naval/parts/naval-repair-lens.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "vela-weapon",
+          "sourceLine": 527,
+          "rotate": false,
+          "recoil": 0.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-continuous-laser.png"
+          ]
+        },
+        {
+          "region": "repair-beam-weapon-center-large",
+          "sourceLine": 572,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-repair-lens.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "corvus",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "multi_leg",
+      "roles": [
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-upper.png",
+        "units/serpulo-ground-naval/parts/leg-lower.png",
+        "units/serpulo-ground-naval/parts/leg-foot.png",
+        "units/serpulo-ground-naval/bodies/corvus.png",
+        "units/serpulo-ground-naval/parts/mech-continuous-laser.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "corvus-weapon",
+          "sourceLine": 610,
+          "rotate": false,
+          "recoil": 0.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-continuous-laser.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "crawler",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "biped_mech",
+      "roles": [
+        "locomotion_leg",
+        "locomotion_leg",
+        "body"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-crawler.png",
+        "units/serpulo-ground-naval/bodies/crawler.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "atrax",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "multi_leg",
+      "roles": [
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-upper.png",
+        "units/serpulo-ground-naval/parts/leg-lower.png",
+        "units/serpulo-ground-naval/parts/leg-foot.png",
+        "units/serpulo-ground-naval/bodies/atrax.png",
+        "units/serpulo-ground-naval/parts/mech-flame-pair.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "atrax-weapon",
+          "sourceLine": 724,
+          "rotate": false,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-flame-pair.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "spiroct",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "multi_leg",
+      "roles": [
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-upper.png",
+        "units/serpulo-ground-naval/parts/leg-lower.png",
+        "units/serpulo-ground-naval/parts/leg-foot.png",
+        "units/serpulo-ground-naval/bodies/spiroct.png",
+        "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "spiroct-weapon",
+          "sourceLine": 765,
+          "rotate": true,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+          ]
+        },
+        {
+          "region": "mount-purple-weapon",
+          "sourceLine": 789,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "arkyid",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "multi_leg",
+      "roles": [
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-upper.png",
+        "units/serpulo-ground-naval/parts/leg-lower.png",
+        "units/serpulo-ground-naval/parts/leg-foot.png",
+        "units/serpulo-ground-naval/bodies/arkyid.png",
+        "units/serpulo-ground-naval/parts/mech-sap-emitter.png",
+        "units/serpulo-ground-naval/parts/mech-purple-artillery.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "spiroct-weapon",
+          "sourceLine": 854,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+          ]
+        },
+        {
+          "region": "spiroct-weapon",
+          "sourceLine": 862,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+          ]
+        },
+        {
+          "region": "spiroct-weapon",
+          "sourceLine": 870,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-sap-emitter.png"
+          ]
+        },
+        {
+          "region": "large-purple-mount",
+          "sourceLine": 878,
+          "rotate": true,
+          "recoil": 3.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-purple-artillery.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "toxopid",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "multi_leg",
+      "roles": [
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "leg_upper",
+        "leg_lower",
+        "foot",
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/parts/leg-upper.png",
+        "units/serpulo-ground-naval/parts/leg-lower.png",
+        "units/serpulo-ground-naval/parts/leg-foot.png",
+        "units/serpulo-ground-naval/bodies/toxopid.png",
+        "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+        "units/serpulo-ground-naval/parts/mech-shock-cannon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "large-purple-mount",
+          "sourceLine": 945,
+          "rotate": true,
+          "recoil": 3.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-purple-artillery.png"
+          ]
+        },
+        {
+          "region": "toxopid-cannon",
+          "sourceLine": 976,
+          "rotate": true,
+          "recoil": 10.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/mech-shock-cannon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "risso",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/bodies/risso.png",
+        "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "units/serpulo-ground-naval/parts/naval-missile-pair.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "mount-weapon",
+          "sourceLine": 1594,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+          ]
+        },
+        {
+          "region": "missiles-mount",
+          "sourceLine": 1609,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-missile-pair.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "minke",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/bodies/minke.png",
+        "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "units/serpulo-ground-naval/parts/naval-deck-mortar.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "mount-weapon",
+          "sourceLine": 1657,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+          ]
+        },
+        {
+          "region": "artillery-mount",
+          "sourceLine": 1678,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-deck-mortar.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "bryde",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/bodies/bryde.png",
+        "units/serpulo-ground-naval/parts/naval-long-artillery.png",
+        "units/serpulo-ground-naval/parts/naval-missile-pair.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "large-artillery",
+          "sourceLine": 1721,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-long-artillery.png"
+          ]
+        },
+        {
+          "region": "missiles-mount",
+          "sourceLine": 1760,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-missile-pair.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "sei",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/bodies/sei.png",
+        "units/serpulo-ground-naval/parts/naval-missile-six.png",
+        "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "sei-launcher",
+          "sourceLine": 1818,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-missile-six.png"
+          ]
+        },
+        {
+          "region": "large-bullet-mount",
+          "sourceLine": 1865,
+          "rotate": true,
+          "recoil": 3.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "omura",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-ground-naval/bodies/omura.png",
+        "units/serpulo-ground-naval/parts/naval-railgun.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "omura-cannon",
+          "sourceLine": 1911,
+          "rotate": true,
+          "recoil": 10.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-railgun.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "retusa",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-root-parts/layers/retusa-body.png",
+        "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "repair-beam-weapon-center",
+          "sourceLine": 1963,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-repair-lens.png"
+          ]
+        },
+        {
+          "region": "retusa-weapon",
+          "sourceLine": 1976,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-deck-cannon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "oxynoe",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-root-parts/layers/oxynoe-body.png",
+        "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+        "units/serpulo-ground-naval/parts/naval-point-defense.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "plasma-mount-weapon",
+          "sourceLine": 2075,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-plasma-flame.png"
+          ]
+        },
+        {
+          "region": "point-defense-mount",
+          "sourceLine": 2114,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-point-defense.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "cyerce",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-root-parts/layers/cyerce-body.png",
+        "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "units/serpulo-ground-naval/parts/naval-plasma-missile.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "repair-beam-weapon-center",
+          "sourceLine": 2154,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-repair-lens.png"
+          ]
+        },
+        {
+          "region": "plasma-missile-mount",
+          "sourceLine": 2166,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-plasma-missile.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "aegires",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-root-parts/layers/aegires-body.png",
+        "units/serpulo-ground-naval/parts/naval-point-defense.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "point-defense-mount",
+          "sourceLine": 2308,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-point-defense.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "navanax",
+      "worker": "serpulo-ground-naval",
+      "assetStatus": "art_complete_engine_not_verified",
+      "mobility": "naval",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/serpulo-root-parts/layers/navanax-body.png",
+        "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+        "units/serpulo-ground-naval/parts/naval-plasma-laser.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "emp-cannon-mount",
+          "sourceLine": 2347,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-emp-cannon.png"
+          ]
+        },
+        {
+          "region": "plasma-laser-mount",
+          "sourceLine": 2432,
+          "rotate": true,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/serpulo-ground-naval/parts/naval-plasma-laser.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "flare",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/flare.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "horizon",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/horizon.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "zenith",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/zenith-body.png",
+        "units/air-erekir-parts/assets/zenith-missiles.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "zenith-missiles",
+          "sourceLine": 1156,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/zenith-missiles.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "antumbra",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/antumbra-body.png",
+        "units/air-erekir-parts/assets/large-bullet-mount.png",
+        "units/air-erekir-parts/assets/missiles-mount.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "missiles-mount",
+          "sourceLine": 1220,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/missiles-mount.png"
+          ]
+        },
+        {
+          "region": "missiles-mount",
+          "sourceLine": 1231,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/missiles-mount.png"
+          ]
+        },
+        {
+          "region": "large-bullet-mount",
+          "sourceLine": 1242,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/large-bullet-mount.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "eclipse",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/eclipse-body.png",
+        "units/air-erekir-parts/assets/large-artillery.png",
+        "units/air-erekir-parts/assets/large-laser-mount.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "large-laser-mount",
+          "sourceLine": 1292,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/large-laser-mount.png"
+          ]
+        },
+        {
+          "region": "large-artillery",
+          "sourceLine": 1315,
+          "rotate": true,
+          "recoil": 0.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/large-artillery.png"
+          ]
+        },
+        {
+          "region": "large-artillery",
+          "sourceLine": 1327,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/large-artillery.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "mono",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/mono.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "poly",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/poly.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "poly-weapon",
+          "sourceLine": 1389,
+          "rotate": false,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/air-erekir/individual/poly.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": [
+        {
+          "type": "moving_weapon_baked_in_body",
+          "region": "poly-weapon",
+          "sourceLine": 1389,
+          "rotate": false,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/air-erekir/individual/poly.png"
+          ],
+          "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+        }
+      ]
+    },
+    {
+      "id": "mega",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/mega-body.png",
+        "units/air-erekir-parts/assets/heal-weapon-mount.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "heal-weapon-mount",
+          "sourceLine": 1443,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/heal-weapon-mount.png"
+          ]
+        },
+        {
+          "region": "heal-weapon-mount",
+          "sourceLine": 1457,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/heal-weapon-mount.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "quad",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/quad.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "oct",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/oct.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "stell",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "tracked_tank",
+      "roles": [
+        "body",
+        "weapon",
+        "tread_animation_source"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/stell-body.png",
+        "units/air-erekir-parts/assets/stell-weapon.png",
+        "units/air-erekir-parts/assets/track-strip.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "stell-weapon",
+          "sourceLine": 2669,
+          "rotate": true,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/stell-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "locus",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "tracked_tank",
+      "roles": [
+        "body",
+        "weapon",
+        "tread_animation_source"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/locus-body.png",
+        "units/air-erekir-parts/assets/locus-weapon.png",
+        "units/air-erekir-parts/assets/track-strip.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "locus-weapon",
+          "sourceLine": 2716,
+          "rotate": true,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/locus-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "precept",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "tracked_tank",
+      "roles": [
+        "body",
+        "weapon",
+        "tread_animation_source"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/precept-body.png",
+        "units/air-erekir-parts/assets/precept-weapon.png",
+        "units/air-erekir-parts/assets/track-strip.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "precept-weapon",
+          "sourceLine": 2798,
+          "rotate": true,
+          "recoil": 3.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/precept-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "vanquish",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "tracked_tank",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "tread_animation_source"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/vanquish-body.png",
+        "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "units/air-erekir-parts/assets/vanquish-weapon.png",
+        "units/air-erekir-parts/assets/track-strip.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "vanquish-weapon",
+          "sourceLine": 2874,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/vanquish-weapon.png"
+          ]
+        },
+        {
+          "region": "vanquish-point-weapon",
+          "sourceLine": 2939,
+          "rotate": true,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/vanquish-point-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "conquer",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "tracked_tank",
+      "roles": [
+        "body",
+        "weapon",
+        "tread_animation_source",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/conquer-body.png",
+        "units/air-erekir-parts/assets/conquer-weapon.png",
+        "units/air-erekir-parts/assets/track-strip.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "conquer-weapon",
+          "sourceLine": 2987,
+          "rotate": true,
+          "recoil": 5.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/conquer-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-glow",
+          "mappedRegions": [
+            "conquer-glow",
+            "conquer-weapon-glow"
+          ]
+        },
+        {
+          "suffix": "-sides",
+          "mappedRegions": [
+            "conquer-weapon-sides"
+          ]
+        },
+        {
+          "suffix": "-sinks",
+          "mappedRegions": [
+            "conquer-weapon-sinks"
+          ]
+        },
+        {
+          "suffix": "-sinks-heat",
+          "mappedRegions": [
+            "conquer-weapon-sinks-heat"
+          ]
+        },
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "conquer-weapon-blade"
+          ]
+        },
+        {
+          "suffix": "-glow",
+          "mappedRegions": [
+            "conquer-glow",
+            "conquer-weapon-glow"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "merui",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "multi_leg",
+      "roles": [
+        "body",
+        "weapon",
+        "articulated_leg",
+        "articulated_leg-base",
+        "articulated_foot"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/merui-body-v2.png",
+        "units/air-erekir-parts/assets/merui-weapon.png",
+        "units/air-erekir-parts/assets/leg-short-upper.png",
+        "units/air-erekir-parts/assets/leg-short-lower.png",
+        "units/air-erekir-parts/assets/foot-short.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "merui-weapon",
+          "sourceLine": 3188,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/merui-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "cleroi",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "multi_leg",
+      "roles": [
+        "body",
+        "weapon",
+        "weapon",
+        "articulated_leg",
+        "articulated_leg-base",
+        "articulated_foot",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/cleroi-body.png",
+        "units/air-erekir-parts/assets/cleroi-point-defense.png",
+        "units/air-erekir-parts/assets/cleroi-weapon.png",
+        "units/air-erekir-parts/assets/leg-short-upper.png",
+        "units/air-erekir-parts/assets/leg-short-lower.png",
+        "units/air-erekir-parts/assets/foot-short.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "cleroi-weapon",
+          "sourceLine": 3280,
+          "rotate": false,
+          "recoil": 2.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/cleroi-weapon.png"
+          ]
+        },
+        {
+          "region": "cleroi-point-defense",
+          "sourceLine": 3330,
+          "rotate": false,
+          "recoil": 0.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/cleroi-point-defense.png"
+          ]
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-spine",
+          "mappedRegions": [
+            "cleroi-spine"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "anthicus",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "multi_leg",
+      "roles": [
+        "body",
+        "weapon",
+        "articulated_leg",
+        "articulated_leg-base",
+        "articulated_foot",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/anthicus-body.png",
+        "units/air-erekir-parts/assets/anthicus-weapon.png",
+        "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "units/air-erekir-parts/assets/foot-medium.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "anthicus-weapon",
+          "sourceLine": 3397,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/anthicus-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "anthicus-blade",
+            "anthicus-weapon-blade"
+          ]
+        },
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "anthicus-blade",
+            "anthicus-weapon-blade"
+          ]
+        },
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "anthicus-blade",
+            "anthicus-weapon-blade"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "tecta",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "multi_leg",
+      "roles": [
+        "body",
+        "weapon",
+        "articulated_leg",
+        "articulated_leg-base",
+        "articulated_foot",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/tecta-body.png",
+        "units/air-erekir-parts/assets/tecta-weapon.png",
+        "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "units/air-erekir-parts/assets/foot-heavy.png",
+        "units/air-erekir-parts/assets/tecta-shield.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "tecta-weapon",
+          "sourceLine": 3558,
+          "rotate": false,
+          "recoil": 3.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/tecta-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "collaris",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "multi_leg",
+      "roles": [
+        "body",
+        "weapon",
+        "articulated_leg",
+        "articulated_leg-base",
+        "articulated_foot",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/collaris-body-v2.png",
+        "units/air-erekir-parts/assets/collaris-weapon.png",
+        "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "units/air-erekir-parts/assets/foot-heavy.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "collaris-weapon",
+          "sourceLine": 3654,
+          "rotate": true,
+          "recoil": 4.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/collaris-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "collaris-weapon-blade"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "elude",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "hover_ground_over_liquids",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/elude.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "elude-weapon",
+          "sourceLine": 3829,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir/individual/elude.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": [
+        {
+          "type": "moving_weapon_baked_in_body",
+          "region": "elude-weapon",
+          "sourceLine": 3829,
+          "rotate": false,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir/individual/elude.png"
+          ],
+          "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+        }
+      ]
+    },
+    {
+      "id": "avert",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/avert.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "avert-weapon",
+          "sourceLine": 3877,
+          "rotate": false,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir/individual/avert.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": [
+        {
+          "type": "moving_weapon_baked_in_body",
+          "region": "avert-weapon",
+          "sourceLine": 3877,
+          "rotate": false,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir/individual/avert.png"
+          ],
+          "contractReason": "Source has independently moving weapon; body-only mapping suppresses its art motion."
+        }
+      ]
+    },
+    {
+      "id": "obviate",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/obviate.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "obviate-blade"
+          ]
+        },
+        {
+          "suffix": "-side",
+          "mappedRegions": [
+            "obviate-side"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "quell",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/quell-body.png",
+        "units/air-erekir-parts/assets/quell-weapon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "quell-weapon",
+          "sourceLine": 4074,
+          "rotate": true,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/quell-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "disrupt",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon",
+        "motion_or_effect_part"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/disrupt-body.png",
+        "units/air-erekir-parts/assets/disrupt-weapon.png",
+        "units/air-erekir-parts/assets/disrupt-tail.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "disrupt-weapon",
+          "sourceLine": 4194,
+          "rotate": true,
+          "recoil": 1.0,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/disrupt-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "mappedRegions": [
+            "disrupt-weapon-blade"
+          ]
+        }
+      ],
+      "findings": []
+    },
+    {
+      "id": "evoke",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/evoke.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "incite",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body",
+        "weapon"
+      ],
+      "layerFiles": [
+        "units/air-erekir/layers/incite-body.png",
+        "units/air-erekir-parts/assets/build-weapon.png"
+      ],
+      "namedWeapons": [
+        {
+          "region": "build-weapon",
+          "sourceLine": 4489,
+          "rotate": true,
+          "recoil": 1.5,
+          "mappedFiles": [
+            "units/air-erekir-parts/assets/build-weapon.png"
+          ]
+        }
+      ],
+      "regionParts": [],
+      "findings": []
+    },
+    {
+      "id": "emanate",
+      "worker": "air-erekir",
+      "assetStatus": "art_exported_pending_final_visual_check",
+      "mobility": "flying",
+      "roles": [
+        "body_with_fixed_equipment"
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/emanate.png"
+      ],
+      "namedWeapons": [],
+      "regionParts": [],
+      "findings": []
+    }
+  ],
+  "reusedPriorReview": "records/coordinator-audit/unit-semantics-audit.json",
+  "conclusion": "needs_art_semantic_fix"
+}

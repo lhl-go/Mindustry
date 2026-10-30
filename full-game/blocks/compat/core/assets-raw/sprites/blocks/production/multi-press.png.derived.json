@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/multi-press.png",
+  "sourceGitBlob": "fac4209d6bd503cdcb77068736193225c3f0a4ba",
+  "sourceSha256": "b36137623659b61b83c7c04c2acf1e7b06cb57685b07656d3857622e01a630e4",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "multi-press",
+  "blockId": "multi-press",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/multi-press.png",
+  "sha256": "0e9a56034461a4883df0a6b2359f0f76ee39dffbe9ccd83c199cba53fa669374",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/multi-press.png",
+  "engineSha256": "0e9a56034461a4883df0a6b2359f0f76ee39dffbe9ccd83c199cba53fa669374",
+  "nativeFile": "full-game/blocks/masters/multi-press.png",
+  "nativeSha256": "4839cbcb7fa4527d5eb5edeb06b2d24a9029bed991acad2e889cff2e71cf7f45",
+  "nativeSize": [
+    340,
+    336
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/multi-press.png",
+      "sha256": "4839cbcb7fa4527d5eb5edeb06b2d24a9029bed991acad2e889cff2e71cf7f45"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/multi-press.png",
+      "sha256": "b36137623659b61b83c7c04c2acf1e7b06cb57685b07656d3857622e01a630e4"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/multi-press.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

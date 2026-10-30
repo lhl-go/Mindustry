@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/scrap-wall-large1.png",
+  "sourceGitBlob": "289f3ad4108d64e9b65ade6469772bf1cc46dc89",
+  "sourceSha256": "3def95c7ae4e679fe8d95db04a4faee87e5d09cd693ea3b86ed998702476972d",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "scrap-wall-large1",
+  "blockId": "scrap-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/scrap-wall-large1.png",
+  "sha256": "c15ebba04f42eb790244ad40c67bb0a222bce304d46ff88f5d0b2c0cde1f8840",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/scrap-wall-large1.png",
+  "engineSha256": "c15ebba04f42eb790244ad40c67bb0a222bce304d46ff88f5d0b2c0cde1f8840",
+  "nativeFile": "full-game/blocks/masters/scrap-wall.png",
+  "nativeSha256": "f9f639480ab479ce11806ea9091ab3f0423ddd52cd7569bf139d4911d875fe70",
+  "nativeSize": [
+    317,
+    317
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/scrap-wall.png",
+      "sha256": "f9f639480ab479ce11806ea9091ab3f0423ddd52cd7569bf139d4911d875fe70"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/scrap-wall-large1.png",
+      "sha256": "3def95c7ae4e679fe8d95db04a4faee87e5d09cd693ea3b86ed998702476972d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/scrap-wall-large1.png.derived.json"
+}

@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/11-projectiles.png",
+      "sha256": "3506f1e1ef6ab3e63ad005cc7e5afdd45871b846dee81eb8b31d25cd0a15c8d8",
+      "generationRecord": "full-game/items-fx/source/11-projectiles.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      418,
+      0,
+      836,
+      418
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      101,
+      117,
+      316,
+      332
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/circle-bullet.png",
+  "sha256": "1da0150eff4ef858c84eae91f20ad98c67af3f3e4ac53662e82190ba1cbcfd87",
+  "width": 247,
+  "height": 247,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:10.248807+00:00"
+}

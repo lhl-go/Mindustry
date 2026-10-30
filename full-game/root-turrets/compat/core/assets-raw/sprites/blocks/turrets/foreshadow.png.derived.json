@@ -1,0 +1,42 @@
+{
+  "region": "foreshadow",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/foreshadow.png",
+  "sha256": "18ff5277dc0ed1cfea482d8e95062ae02dc832ece906b5c0b0784f86761dc5f6",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.087186+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/foreshadow.png",
+      "sha256": "ade991adeb0c06b9f2a91b5a4ba2940f125e3894b91726fab6da30645fe530bb",
+      "record": "full-game/root-turrets/masters/foreshadow.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/foreshadow.png",
+      "sha256": "2a1dca2d0dc7f3d229cc388ed356a3a478c7ded6303ef852af41ea37cbd43a52",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      5,
+      5,
+      123,
+      124
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      336,
+      345
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

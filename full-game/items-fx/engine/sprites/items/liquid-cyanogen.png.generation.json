@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-cyanogen.png",
+  "sha256": "ae44da6215ba647787069a1bdd024062bf1591da98e50427a471fc919903fcd9",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-cyanogen.png",
+      "sha256": "9f5172dc64fd90d5054578d1ae4c59c72bc5fc7a63bcc6dcba2f8bda6009fb83",
+      "generationRecord": "full-game/items-fx/assets/liquid-cyanogen.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

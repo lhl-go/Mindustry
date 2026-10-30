@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/silicon-smelter-top.png",
+  "sourceGitBlob": "54b786e63a4e42cd08aa9b733fa0e81ec5e78e49",
+  "sourceSha256": "d01924755c8727ee36e696657e578266ce47165a4edaec1f46a2728d62ca5059",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "silicon-smelter-top",
+  "blockId": "silicon-smelter",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-smelter-top.png",
+  "sha256": "bc2647578522d6934a53a190291834c2fc287eacccbe21032990c1e52954c155",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-smelter-top.png",
+  "engineSha256": "bc2647578522d6934a53a190291834c2fc287eacccbe21032990c1e52954c155",
+  "nativeFile": "full-game/blocks/masters/silicon-smelter.png",
+  "nativeSha256": "641a8c3378709a444cf802633387325ec8de5d08b1f21864c7fadc59f6d85f5e",
+  "nativeSize": [
+    324,
+    318
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    40,
+    40
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/silicon-smelter.png",
+      "sha256": "641a8c3378709a444cf802633387325ec8de5d08b1f21864c7fadc59f6d85f5e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/silicon-smelter-top.png",
+      "sha256": "d01924755c8727ee36e696657e578266ce47165a4edaec1f46a2728d62ca5059"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-smelter-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

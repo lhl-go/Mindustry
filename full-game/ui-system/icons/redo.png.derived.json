@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "redo",
+  "file": "full-game/ui-system/icons/redo.png",
+  "sha256": "8a6eca3379967eee0a43fa7a82bb5cbf818c560f68cb3a2167dbf165c3a00c2a",
+  "width": 198,
+  "height": 198,
+  "nativeCropPixels": [
+    174,
+    169
+  ],
+  "derivedAt": "2026-10-26T15:24:55.056601+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/03-actions-modes.png",
+    "sha256": "1061bca76b587d24776bb7f5ee5feff25d07c0d58bd4d7feee8f6f9a117748df",
+    "generationRecord": "full-game/ui-system/source/03-actions-modes.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 13,
+    "sourceBox": [
+      303,
+      555,
+      477,
+      724
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      12,
+      14
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

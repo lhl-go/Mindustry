@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-boss.png",
+  "sha256": "f71df162def3ba243398ba79cdde64ca924e19023656fda405d563a90687b0f8",
+  "width": 38,
+  "height": 38,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-boss.png",
+      "sha256": "7049331a687103081ecff9b1fd1a45a635d6996a7724110c1c215fa9f732747e",
+      "generationRecord": "full-game/items-fx/assets/status-boss.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      38,
+      38
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

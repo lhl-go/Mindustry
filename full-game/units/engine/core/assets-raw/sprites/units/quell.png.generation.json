@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quell.png",
+  "sha256": "0889c21460a86ecac1fe05fae04037f9b1bd6a0fb34a6c7540c686f41b5e3a41",
+  "width": 162,
+  "height": 162,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/quell-body.png",
+      "sha256": "ad523984559e9b2577f79a0b5998092cc397a63f37fa801a9819f912f7fd6295",
+      "generationRecord": "units/air-erekir/layers/quell-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      723,
+      731
+    ],
+    "sourcePivot": [
+      369.5,
+      373.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      5,
+      4
+    ],
+    "sourceDimensions": [
+      739,
+      747
+    ],
+    "targetDimensions": [
+      162,
+      162
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      158,
+      158
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      81.0,
+      81.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quell.png",
+    "gitBlobSha1": "8f337b129e58f3ab8d24125fc8828c97ea82ffa9",
+    "sha256": "c91eda71f6fada50fc3f27ec9cf20f8f31abc3fd8af217a2c057565118f383a3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

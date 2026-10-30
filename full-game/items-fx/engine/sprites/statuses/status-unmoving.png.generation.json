@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-unmoving.png",
+  "sha256": "2f5292c0905b22551508daefa7b723de60519f8d1badc5d5adacfb10ce36a51b",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-unmoving.png",
+      "sha256": "20722ad299928259d47c06b0a61dba76a79a36f6184a6208083d31336b73a4c6",
+      "generationRecord": "full-game/items-fx/assets/status-unmoving.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

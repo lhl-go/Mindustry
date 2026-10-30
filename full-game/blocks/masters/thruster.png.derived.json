@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/thruster.png",
+  "sha256": "c5a384e57b040f4552838092630a7e1fff519caf80986845d43cc13b903a223e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1116,
+      759,
+      1426,
+      1003
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      310,
+      244
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    342,
+    276
+  ],
+  "anchorPixels": [
+    171.0,
+    138.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

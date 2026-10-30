@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/blast-drill-rotator-part.png",
+  "sha256": "39fd974be32d92ad8e6a302699bcab44244f0f451727f46ec02a2aac2a374876",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1133,
+      24,
+      1396,
+      278
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      263,
+      254
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    295,
+    286
+  ],
+  "anchorPixels": [
+    147.5,
+    143.0
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

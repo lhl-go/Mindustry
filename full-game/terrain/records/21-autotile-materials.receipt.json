@@ -1,0 +1,48 @@
+{
+  "args": {
+    "prompt": "Use case: hand-painted game material swatch atlas. Create18 NEW metal MATERIAL textures to skin existing Mindustry automatic floor connection geometries. Attached2 references guide refined bright Daoist Q jade/ivory/warm-gold material style ONLY. NO UI, text, people, emblems, frames, borders, mechanical geometry or panel outlines. These are PURE MATERIAL SURFACES, later official logical connection patterns are applied separately. Requested1536×3072 portrait, exactly3 EQUAL columns×6 EQUAL rows of square fullbleed opaque swatches. Uniform diffuse overhead light without gradient/vignette, all cells independently painted micro-scratches and grain with low contrast, quiet tileable edges. Do not repeat a texture/recolor; each different native brushwork.\nRow1 col1 satin jade-gray alloy with faint warm gold microflecks; col2 cool ivory porcelain-metal with soft brushed grain; col3 desaturated sage green aged metal with delicate tiny scratches.\nRow2 col1 dark charcoal-teal tempered alloy, fine subtle hammered grain; col2 warm muted bronze-gold alloy with restrained oxidation spots; col3 muted cinnabar-red copper with tiny warm gold scratches for glowing enemy tile family.\nRow3 col1 medium gray-green brushed mesh-metal material WITHOUT a mesh pattern; col2 pale warm ivory-gray alloy with fine horizontal brushing; col3 cool dark blue-jade slate metal with faint irregular wear.\nRow4 col1 pale mint-gray smooth enamel metal with fine hairline wear; col2 jade-gray weathered alloy variantA with sparse scattered gold flecks; col3 same jade-gray family variantB with distinct small tiny scratches and faint fine mottling.\nRow5 col1 jade-gray weathered alloy variantC different native texture; col2 cinnabar copper-red metal family variantA with tiny subdued golden hot specks; col3 same cinnabar family variantB different wear and grain.\nRow6 col1 same cinnabar copper-red family variantC different texture; col2 same cinnabar family variantD different texture; col3 dark desaturated warm gray metal with warm antique-gold tiny mineral specks and restrained fine wear.\n18 opaque material swatches only, no objects or repeating large marks.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 19:49:21 UTC",
+  "returnedAt": "2026-10-26 19:50:25 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-f16eafdf-9ebc-4afa-b249-d24a5e74a736.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "metal-tiles-1-autotile",
+    "metal-tiles-2-autotile",
+    "metal-tiles-3-autotile",
+    "metal-tiles-4-autotile",
+    "metal-tiles-5-autotile",
+    "metal-tiles-6-autotile",
+    "metal-tiles-7-autotile",
+    "metal-tiles-8-autotile",
+    "metal-tiles-9-autotile",
+    "metal-tiles-10-autotile",
+    "metal-tiles-11-autotile1",
+    "metal-tiles-11-autotile2",
+    "metal-tiles-11-autotile3",
+    "metal-tiles-12-autotile1",
+    "metal-tiles-12-autotile2",
+    "metal-tiles-12-autotile3",
+    "metal-tiles-12-autotile4",
+    "metal-tiles-13-autotile"
+  ],
+  "exportMode": "ai_material_with_exact_official_autotile_geometry"
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "projected_skybox_face",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/native/stars-equirectangular.png",
+      "sha256": "d8934353600761dde8e69b1c29ebdbbf5b8546c89ad4f8412c69e3cfa5dd8a21",
+      "record": "full-game/terrain/native/stars-equirectangular.png.derived.json"
+    }
+  ],
+  "nativeOperation": {
+    "type": "equirectangular_to_OpenGL_cubemap_bilinear_sampling",
+    "panoramaSize": [
+      1774,
+      887
+    ],
+    "faceSize": [
+      256,
+      256
+    ],
+    "equatorialSourceSamplesPer90Degrees": 443.5,
+    "side": "top",
+    "pixelGridIncludesBoundaryDirections": true
+  },
+  "operation": {
+    "type": "project256_face_then_explicit_compatibility_resample1024",
+    "filter": "Bilinear preserves shared boundary rows",
+    "newPaintedDetail": false,
+    "upscaled": true
+  },
+  "orientationEvidence": {
+    "url": "https://raw.githubusercontent.com/Anuken/Arc/7445105cd2/arc-core/src/arc/graphics/Cubemap.java",
+    "axisMap": {
+      "right": "+X",
+      "left": "-X",
+      "top": "+Y",
+      "bottom": "-Y",
+      "front": "+Z",
+      "back": "-Z"
+    },
+    "dependencyEvidence": "Mindustry fixed commit gradle.properties archash=7445105cd2"
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets/cubemaps/stars/top.png",
+  "sha256": "fde656812aa6e39076f119abe317da8cb58bb1382fe410677771c1e5ef21c124",
+  "createdAt": "2026-10-26T20:35:03.914674+00:00",
+  "width": 1024,
+  "height": 1024,
+  "mode": "RGB",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

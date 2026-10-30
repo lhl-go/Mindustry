@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice3.png",
+  "sha256": "8524b0df7b340b7047068c9fd88d096dbb11e1ecd97fc57cc69588a7d6acf0f2",
+  "size": [
+    292,
+    291
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/02-cold-living-floors.png",
+      "sha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5",
+      "generationRecord": "full-game/terrain/source/02-cold-living-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    298,
+    885,
+    589
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/blocks/fire/fire19.png",
+  "sha256": "bf48ce870135fbdbd7b328d19a67878f0b13a87f00d6b3a138eb9a9edcd35a71",
+  "width": 100,
+  "height": 100,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/fire19.png",
+      "sha256": "fb4e8ab10c5b3fa99a10c7a1ef7368b3ba183cecd9ccece6239dd7b0b07f67e4",
+      "generationRecord": "full-game/items-fx/assets/fire19.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      100,
+      100
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

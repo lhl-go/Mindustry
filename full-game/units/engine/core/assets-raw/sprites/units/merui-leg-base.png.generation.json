@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/merui-leg-base.png",
+  "sha256": "2f493f409ab74a82ceade0d076b9ab8a3272f0c7e88c343c745974fee0fd24eb",
+  "width": 31,
+  "height": 23,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-short-lower.png",
+      "sha256": "db84a2a497d1fbe9e208436bb8f8950916b2eafeb09daa6c65a774019d0f6efa",
+      "generationRecord": "units/air-erekir-parts/assets/leg-short-lower.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      32,
+      32,
+      134,
+      315
+    ],
+    "sourcePivot": [
+      84,
+      61
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      166,
+      347
+    ],
+    "targetDimensions": [
+      31,
+      23
+    ],
+    "officialAlphaBounds": [
+      4,
+      3,
+      27,
+      20
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      15.5,
+      11.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/merui-leg-base.png",
+    "gitBlobSha1": "efcda8729118bd5d68301834a4c4f6e776fc160c",
+    "sha256": "afad46cd2c4f0279cfdfeb844a69f1e05c7252792972571aca2d88b8af39e224"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

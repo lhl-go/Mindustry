@@ -1,0 +1,27 @@
+const {chromium}=require('playwright'),fs=require('fs'),path=require('path'),crypto=require('crypto');
+const root=path.resolve(__dirname,'..');
+const sha=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ const page=await browser.newPage({viewport:{width:1440,height:1080}}),errors=[];
+ page.on('pageerror',e=>errors.push(String(e)));
+ await page.goto('file:///'+path.join(root,'exports/index.html').replaceAll('\\','/'));
+ await page.evaluate(async()=>{document.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));await document.fonts.ready;});
+ const brokenImages=await page.evaluate(()=>[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.getAttribute('src')));
+ await page.screenshot({path:path.join(root,'records/preview-qa/delivery-overview.png')});
+ await page.locator('nav [data-tab=units]').click();
+ await page.screenshot({path:path.join(root,'records/preview-qa/delivery-units.png')});
+ const unitCards=await page.locator('.unitcard').count(),uiGroups=await page.locator('#uiScreens a').count(),kitItems=await page.locator('.kititem').count();
+ await page.locator('#unitSearch').fill('manifold');const searchCount=await page.locator('.unitcard').count();
+ await page.locator('#unitSearch').fill('');await page.locator('#backgroundToggle').click();
+ const dark=await page.locator('#unitGrid').evaluate(e=>e.classList.contains('dark'));
+ await page.locator('nav [data-tab=ui]').click();const frame=page.frameLocator('#uiPreview');
+ await frame.locator('#stateSelect').selectOption('1');await frame.locator('#deviceSelect').selectOption('mobile');
+ const preview=await frame.locator('#assetInfo').innerText();
+ const frameReady=await page.frames().find(f=>f.url().includes('/ui/preview/')).evaluate(()=>({ready:window.__artReady,broken:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src)}));
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'exports/manifest.json'),'utf8'));
+ const passed=unitCards===68&&uiGroups===64&&kitItems===47&&searchCount===1&&dark&&!!frameReady.ready&&frameReady.broken.length===0&&errors.length===0&&brokenImages.length===0;
+ const result={checkedAt:new Date().toISOString(),mode:'offline file URL',passed,errors,brokenImages,unitCards,uiGroups,kitItems,searchCount,darkToggle:dark,embeddedPreview:preview,frameReady,manifestStatus:manifest.status,sources:['exports/index.html','exports/gallery.js','exports/gallery.css','exports/delivery-data.js','exports/manifest.json'].map(file=>({file,sha256:sha(path.join(root,file))})),runtimeIntegrationVerified:false};
+ fs.writeFileSync(path.join(root,'records/delivery-browser-qa.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+ await browser.close();if(!passed)process.exitCode=1;
+})();

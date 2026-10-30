@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/shockwave-tower.png",
+  "sha256": "d37c6f03ad701942f3d74ce76c6356ebabc2545c6d6e79b4064c0a8e1f30c07c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      406,
+      727,
+      708,
+      1022
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      302,
+      295
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    334,
+    327
+  ],
+  "anchorPixels": [
+    167.0,
+    163.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

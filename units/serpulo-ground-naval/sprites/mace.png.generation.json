@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/mace.png",
+  "sha256": "723f0838b05a1f06f7893c02b4c4b9cc88126796a625e4b6aeb8974d596cf131",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/mace.png",
+      "sha256": "71c1c093141aa93aaab272289528825d200b1675228aa27af3899d61feffd98e",
+      "generationRecord": "units/serpulo-ground-naval/bodies/mace.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+      "sha256": "db70e6c7922b9465a85abd25240e00df53c328dec0f691146821b8b0fcfb4758",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-flame-pair.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      814,
+      890,
+      1386,
+      1355
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          153.18,
+          230.2
+        ],
+        "scale": [
+          0.5485436893203883,
+          0.5508130081300813
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          28,
+          170
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          418.82,
+          230.2
+        ],
+        "scale": [
+          0.5485436893203883,
+          0.5508130081300813
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          351,
+          170
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/mace.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/mace.png.generation.json",
+        "sourceAnchorPx": [
+          229.0,
+          202.0
+        ],
+        "targetAnchorPx": [
+          286,
+          210
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          57,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-flame-pair.png.generation.json",
+        "sourceAnchorPx": [
+          140.5,
+          231.6
+        ],
+        "targetAnchorPx": [
+          89.06,
+          201.92
+        ],
+        "scale": [
+          0.505338078291815,
+          0.5064102564102564
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          18,
+          85
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-flame-pair.png.generation.json",
+        "sourceAnchorPx": [
+          140.5,
+          231.6
+        ],
+        "targetAnchorPx": [
+          482.94,
+          201.92
+        ],
+        "scale": [
+          0.505338078291815,
+          0.5064102564102564
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          412,
+          85
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 572,
+    "height": 465,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 125210,
+    "opaquePixelCount": 132850,
+    "partialPixelCount": 7920,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      548,
+      441
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "mace",
+    "sha256": "723f0838b05a1f06f7893c02b4c4b9cc88126796a625e4b6aeb8974d596cf131",
+    "size": [
+      572,
+      465
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

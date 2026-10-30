@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/mechanical-drill.png",
+  "sha256": "2c6a8ffad2856d246f106a027173a43e65e77fd7b6553744b7f36bab548ad5ba",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      57,
+      69,
+      311,
+      322
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      254,
+      253
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    286,
+    285
+  ],
+  "anchorPixels": [
+    143.0,
+    142.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

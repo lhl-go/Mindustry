@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ore-scrap2.png",
+  "sha256": "86706672e548f4afa8afe003e58637eeccb89612c29815b370840e73848eca5e",
+  "createdAt": "2026-10-26T17:30:56.030374+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      307,
+      1343,
+      520,
+      1550
+    ],
+    "nativeExtractedSize": [
+      213,
+      207
+    ],
+    "nativeComponents": 5,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.14084507042253522,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      32,
+      32
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

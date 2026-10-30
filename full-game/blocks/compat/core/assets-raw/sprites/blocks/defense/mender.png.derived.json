@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/mender.png",
+  "sourceGitBlob": "4661e338b0d914f6eda4f80d780aea8eb7098084",
+  "sourceSha256": "f3c7fe1123153a0060750e3ca47201d6d46d09caa093b11d39f059b8029b3702",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "mender",
+  "blockId": "mender",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender.png",
+  "sha256": "f50f2461bef5d262084c07fa7765a8ba58a6b0bb6fb08551cdce863fa627cc0f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender.png",
+  "engineSha256": "f50f2461bef5d262084c07fa7765a8ba58a6b0bb6fb08551cdce863fa627cc0f",
+  "nativeFile": "full-game/blocks/masters/mender.png",
+  "nativeSha256": "3f9941e25d98170600b04d7b4513b65f720b226a8c5d291302dca3595702f877",
+  "nativeSize": [
+    221,
+    217
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mender.png",
+      "sha256": "3f9941e25d98170600b04d7b4513b65f720b226a8c5d291302dca3595702f877"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/mender.png",
+      "sha256": "f3c7fe1123153a0060750e3ca47201d6d46d09caa093b11d39f059b8029b3702"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mender.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

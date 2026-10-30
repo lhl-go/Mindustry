@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-2.png",
+  "sourceGitBlob": "9fd3100e447d04fac5e44756b870f10790e0a086",
+  "sourceSha256": "1f5434d8787dc43dd2a603ee92521237de0b30472927af785f255a9b9f21b53f",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "pulse-conduit-top-2",
+  "blockId": "pulse-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-2.png",
+  "sha256": "36d26849ee9710ab2b75554f8ada0d7e9e9bfab404b0c2ef63904380f485075e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-2.png",
+  "engineSha256": "36d26849ee9710ab2b75554f8ada0d7e9e9bfab404b0c2ef63904380f485075e",
+  "nativeFile": "full-game/blocks/masters/pulse-conduit-shape-2.png",
+  "nativeSha256": "42943e0197abcbb0062dc1b5fb828d48b9ee17b9cd7c3b4841fe4ccc8d4975fe",
+  "nativeSize": [
+    344,
+    246
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 2,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pulse-conduit-shape-2.png",
+      "sha256": "42943e0197abcbb0062dc1b5fb828d48b9ee17b9cd7c3b4841fe4ccc8d4975fe"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/conduits/pulse-conduit-top-2.png",
+      "sha256": "1f5434d8787dc43dd2a603ee92521237de0b30472927af785f255a9b9f21b53f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/pulse-conduit-top-2.png.derived.json"
+}

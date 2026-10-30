@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/zenith.png",
+  "sha256": "c03ed3ab73c23ea459ab12a32bea564927ed4352871c2aa9a4178e693848cd77",
+  "width": 112,
+  "height": 112,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/zenith-body.png",
+      "sha256": "4323f4c7fef832b690280ddea9d9f89f34004dfe164578149a132b8b487e7aee",
+      "generationRecord": "units/air-erekir/layers/zenith-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      655,
+      619
+    ],
+    "sourcePivot": [
+      335.5,
+      317.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      7
+    ],
+    "sourceDimensions": [
+      671,
+      635
+    ],
+    "targetDimensions": [
+      112,
+      112
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      108,
+      108
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      56.0,
+      56.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/zenith.png",
+    "gitBlobSha1": "a41ac04898d3054ed80bfed05de278420dbdde6f",
+    "sha256": "4114a777546686cf056055cb42b5e38a2b86711e181406932c0af563e7d53d96"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

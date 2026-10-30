@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+  "sha256": "609b8d9100360d0a382c7697bf8e2667aebff8713ad5b02256f4b4a7bff0f294",
+  "width": 46,
+  "height": 50,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+      "sha256": "06415c55537275b01f51de7b183990fd4a6bc698e995209bed55191eabc4407e",
+      "generationRecord": "units/air-erekir-parts/assets/anthicus-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      265,
+      300
+    ],
+    "sourcePivot": [
+      151,
+      232
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      9,
+      1
+    ],
+    "sourceDimensions": [
+      297,
+      332
+    ],
+    "targetDimensions": [
+      46,
+      50
+    ],
+    "officialAlphaBounds": [
+      11,
+      28,
+      35,
+      46
+    ],
+    "scale": 0.12,
+    "engineAnchorPx": [
+      23.0,
+      25.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+    "gitBlobSha1": "cf327299c6428ba2c43ff8cb7e3128f649d0cf86",
+    "sha256": "af64922fde14bd4cc917e45f3e996cea3a32495b3ba639de976a1b3cb11edd14"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

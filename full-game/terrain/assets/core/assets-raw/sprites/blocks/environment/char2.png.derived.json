@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/char2.png",
+  "sha256": "a10eb70a388786a98d34f1e02703de00bbe9b61d24718ebf89d7ead8abc95be8",
+  "createdAt": "2026-10-26T16:42:00.202073+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/04-volcanic-floors.png",
+      "sha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc",
+      "generationRecord": "full-game/terrain/source/04-volcanic-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      298,
+      889,
+      589,
+      1181
+    ],
+    "nativeExtractedSize": [
+      291,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.5510038092980016
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

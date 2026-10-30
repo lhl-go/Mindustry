@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/poly-weapon.png",
+  "sha256": "d004807c7ceb8ba9eadbfe0ad00dd5fae92bef24f45f7b1e486514299687ad5b",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/poly-weapon.png",
+      "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+      "generationRecord": "units/coordinator-recoil-fix/poly-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      203,
+      366
+    ],
+    "sourcePivot": [
+      117.5,
+      310.44
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      17,
+      1
+    ],
+    "sourceDimensions": [
+      235,
+      398
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      20,
+      12,
+      28,
+      33
+    ],
+    "scale": 0.08260307427093809,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/poly-weapon.png",
+    "gitBlobSha1": "2ff4d59c4af1b4e63efe67015ccea5b53f8ea1bd",
+    "sha256": "12a83f4c514a654b293d2e88da8de6c1a9e61710cc25035d3ded7dcd7cb61b45"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

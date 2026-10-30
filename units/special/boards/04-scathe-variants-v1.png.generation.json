@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/boards/04-scathe-variants-v1.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T04:26:59.118000-04:00",
+  "generatedAtBasis": "Tool receipt return time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T08:26:00.238Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-e45f9c24-2ebc-4358-bf70-2bf775df8ebb",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248",
+  "byteLength": 1313972,
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "nativeSize": {
+    "width": 1774,
+    "height": 887
+  },
+  "requestedSize": {
+    "width": 2048,
+    "height": 1024,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "generated_parts_board_visual_reviewed",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept\nGenerate one true-transparent game sprite sheet of THREE distinct heavy talisman missile variants in one horizontal row. Requested canvas 2048 x 1024. Genuine RGBA transparent background, no checkerboard or matte.\nPrimary art references 1 and 2 are the approved Daoist chibi mail/team UI artworks: transfer their refined hand-painted jade green, ivory ceramic, warm gold, cloud etching, soft rounded volume. Reference 3 is the existing projectile sheet: use ONLY its bottom-right red heavy missile as the shared Scathe FAMILY DESIGN. Create three new variants of that same mechanical family, not duplicates of the other blue/purple missiles.\nAll missiles strictly orthographic TOP-DOWN dorsal view, nose up. One unit in each of three equal columns, wide transparent gutters, full silhouettes inside canvas. Soft overhead lighting, no side view, no perspective tilt. No labels or text, no ground shadow, smoke, flames, long trails, glow aura or external particles.\nLEFT: scathe-missile-phase, a heavy ivory-and-jade cylindrical talisman shell with pale amber crystal nose, refined golden hexagonal ring inlaid on its central spine, two broader short protective side wings, warm gold bands. The hexagonal motif indicates its shield/phase role but draw no surrounding force-field bubble. Single rear nozzle at bottom. Its proportions clearly descend from reference 3's heavy red missile.\nCENTER: scathe-missile-surge, a strong heavy ivory-and-jade rocket with bright lemon-yellow crystal nose, split golden lightning-shaped spine inlays, a visibly segmented central payload casing and five small interlocking shell latches suggesting a splitting payload. Rear twin compact fins and central nozzle. Same Scathe family, distinguishable from phase even without its color.\nRIGHT: scathe-missile-surge-split, the smaller child dart spawned by the central surge missile. Slimmer and shorter, clear lemon-yellow crystal point, one jade/ivory body with a simple gold lightning inlay, two tiny swept fins and small rear nozzle. Keep it at about 65 percent the visual body length and width of the center missile; center it vertically in its column. Do not create multiple children; exactly one child dart.\nUse distinct family-consistent physical silhouettes and colored crystal accents without changing the approved overall art direction. Crisp complete outlines, no plastic shine, no photorealistic weapon textures, no human faces, no UI frame, no floating accessories, no text. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\mindustry-image\\units\\special\\boards\\03-main-missiles-v1.png"
+    ],
+    "transparent_background": true
+  },
+  "parameterLimitations": "内置工具无 model、quality、size 专用参数；尺寸只在 prompt 请求。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号和质量；未验证可确认具体版本或质量的来源元数据。",
+  "prompt": "prompts/special/04-scathe-variants-v1.txt",
+  "promptSha256": "f234e13f59e993462169b36549a868335ba6d902a04eb96b0608db896ef31c4c",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../mindustry-image/units/special/boards/03-main-missiles-v1.png",
+      "absolutePath": "D:\\work\\image\\mindustry-image\\units\\special\\boards\\03-main-missiles-v1.png",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+      "purpose": "scathe_family_shape_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/workers/special/04-scathe-variants-v1.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-e45f9c24-2ebc-4358-bf70-2bf775df8ebb.png",
+    "originalOutputSha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248",
+    "projectBytesMatchOriginal": true
+  },
+  "integrationStatus": "not_runtime_integrated",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

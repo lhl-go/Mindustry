@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ore-crystal-thorium1.png",
+  "sha256": "45b5c7bbf0dc05e29ca1362882ab34583c4f27acafa3e81dddcf0b27fdd3c8af",
+  "createdAt": "2026-10-26T17:38:58.806264+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/11-advanced-ore-overlays.png",
+      "sha256": "99493f4fdd10bf12344e1a253854ed50c9f39af5f28f4c70a9d04d54c3cc46af",
+      "generationRecord": "full-game/terrain/source/11-advanced-ore-overlays.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      25,
+      336,
+      287,
+      579
+    ],
+    "nativeExtractedSize": [
+      262,
+      243
+    ],
+    "nativeComponents": 4,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.11450381679389313,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      32,
+      32
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

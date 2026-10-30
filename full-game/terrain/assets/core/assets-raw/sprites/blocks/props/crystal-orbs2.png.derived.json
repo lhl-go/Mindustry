@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-orbs2.png",
+  "sha256": "8c8567b6ff5ace8da95f574f11e020c77e7014fc15f9970cd8fc7ed3c2691d80",
+  "createdAt": "2026-10-26T19:25:01.709817+00:00",
+  "kind": "derived_image",
+  "width": 121,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/19-large-crystal-props.png",
+      "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+      "generationRecord": "full-game/terrain/source/19-large-crystal-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      396,
+      693,
+      703,
+      1003
+    ],
+    "nativeExtractedSize": [
+      307,
+      310
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.3811074918566775,
+    "exportPadding": 2,
+    "registeredCanvas": [
+      121,
+      128
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

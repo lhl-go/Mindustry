@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/overdrive-dome.png",
+  "sha256": "c142aa26f1856d4f4d19aa01f8ae158faba53067fe7fdf04f6daf25291390f56",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1059,
+      44,
+      1420,
+      357
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      361,
+      313
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    393,
+    345
+  ],
+  "anchorPixels": [
+    196.5,
+    172.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

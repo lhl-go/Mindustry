@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/logic/memory-cell.png",
+  "sourceGitBlob": "1ef2998c514768986a53df885a737bac487faf5a",
+  "sourceSha256": "76a581f1c50f0a8b5b343f221ab71dad88c04cb71a98a4112ef70f2bb5f4b57c",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "memory-cell",
+  "blockId": "memory-cell",
+  "category": "logic",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/logic/memory-cell.png",
+  "sha256": "bd6bb08ed4186be467a6b157208f458594d1b277f7f647694e57b1ee167c1e2a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/logic/memory-cell.png",
+  "engineSha256": "bd6bb08ed4186be467a6b157208f458594d1b277f7f647694e57b1ee167c1e2a",
+  "nativeFile": "full-game/blocks/masters/memory-cell.png",
+  "nativeSha256": "ad3941a7642179dcb8addba957a8fca39f7d10fa816b68ea7135181dcc1cd7a5",
+  "nativeSize": [
+    229,
+    280
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/memory-cell.png",
+      "sha256": "ad3941a7642179dcb8addba957a8fca39f7d10fa816b68ea7135181dcc1cd7a5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/logic/memory-cell.png",
+      "sha256": "76a581f1c50f0a8b5b343f221ab71dad88c04cb71a98a4112ef70f2bb5f4b57c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/logic/memory-cell.png.derived.json"
+}

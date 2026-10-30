@@ -1,0 +1,106 @@
+[
+  {
+    "stem": "01-air-weapons",
+    "requestedSize": [
+      3072,
+      3072
+    ],
+    "grid": [
+      3,
+      3
+    ],
+    "regions": [
+      "zenith-missiles",
+      "missiles-mount",
+      "large-bullet-mount",
+      "large-laser-mount",
+      "large-artillery",
+      "heal-weapon-mount",
+      "build-weapon",
+      "quell-weapon",
+      "disrupt-weapon"
+    ],
+    "args": {
+      "prompt": "Use case: stylized-concept. Asset type: production independent rotating and moving game sprite components, Mindustry Daoist reskin. Use the attached approved mail and party images as hand-painted style/material references only: jade green, ivory enamel, warm gold edges, subtle rounded cloud ornament, crisp refined hand-painted modeling. Never draw the UI, letters, people, scene or background. Other attached unit sheets are shape/identity references; extract their component design language, do NOT draw any whole aircraft or chassis. Strict orthographic TOP-DOWN dorsal view; weapons point straight toward the top edge, not frontal/isometric perspective. Every component complete and independently isolated, including its full round or square pivot base; no cut seams or body fragments. Truly transparent RGBA around every object, clean antialiased outer edges, no cast shadows, no glow haze, no backdrop, no checkerboard, no labels, numbers, text or dividers. Preserve subject opacity, no arbitrary semitransparent metal. Invisible regular cells for placement only, keep at least 15% empty margin around each object and generous transparent gutters; objects must never touch or overlap.\nRequested 3072×3072 square. Exactly NINE isolated individual weapons, 3 columns × 3 rows in this reading order. The unit sheets attached after the two style images are assault aircraft, support aircraft, Erekir aircraft. Use the support craft tool-emitter language for the Incite engineering mount.\nROW 1: (1) Zenith: slim triple missile launcher with three distinct ivory rockets, gold tips, jade side cradle and round bronze pivot underneath. (2) Antumbra: broader round rotating triple missile turret, three forward rockets and thick armored jade/gold circular base; visually different from Zenith slim rack. (3) Antumbra: compact rotary multi-barrel machine cannon, dark metallic barrels toward north, jade armored cylindrical turret housing with ornate circular pivot base.\nROW 2: (4) Eclipse: a single long laser cannon, ivory jade longitudinal casing with amber emitter strip and complete rotating circular rear base, no wing. (5) Eclipse: compact short twin-barrel artillery turret, two northward short barrels and round ivory/jade pivot casing. (6) Mega: small jade-green repair emitter head, single luminous green lens toward north, short white casing and complete gold ring pivot base, no arm or body.\nROW 3: (7) Incite: compact engineering tool emitter, green crystal tip to north, short jade-white mechanical housing and complete circular mounting base; not a whole builder. (8) Quell: FOUR distinct missiles in one square launch basket, ivory rockets, gold frame, jade hinged side braces and complete pivot base. (9) Disrupt: FIVE distinct missiles in one wider heavy launch basket, stronger gold armor frame, jade side panels and full rotating base. All missile baskets face north. Draw no extra loose rockets or accessories.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\01-serpulo-air-assault.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\02-serpulo-air-support.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\05-erekir-air.png"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "stem": "02-ground-weapons",
+    "requestedSize": [
+      3072,
+      2304
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "regions": [
+      "stell-weapon",
+      "locus-weapon",
+      "precept-weapon",
+      "vanquish-weapon",
+      "vanquish-point-weapon",
+      "conquer-weapon",
+      "merui-weapon",
+      "cleroi-weapon",
+      "cleroi-point-defense",
+      "anthicus-weapon",
+      "tecta-weapon",
+      "collaris-weapon"
+    ],
+    "args": {
+      "prompt": "Use case: stylized-concept. Asset type: production independent rotating and moving game sprite components, Mindustry Daoist reskin. Use the attached approved mail and party images as hand-painted style/material references only: jade green, ivory enamel, warm gold edges, subtle rounded cloud ornament, crisp refined hand-painted modeling. Never draw the UI, letters, people, scene or background. Other attached unit sheets are shape/identity references; extract their component design language, do NOT draw any whole aircraft or chassis. Strict orthographic TOP-DOWN dorsal view; weapons point straight toward the top edge, not frontal/isometric perspective. Every component complete and independently isolated, including its full round or square pivot base; no cut seams or body fragments. Truly transparent RGBA around every object, clean antialiased outer edges, no cast shadows, no glow haze, no backdrop, no checkerboard, no labels, numbers, text or dividers. Preserve subject opacity, no arbitrary semitransparent metal. Invisible regular cells for placement only, keep at least 15% empty margin around each object and generous transparent gutters; objects must never touch or overlap.\nRequested 3072×2304 landscape 4:3. Exactly TWELVE separate turret weapons, 4 columns × 3 rows, this reading order. Reference images 3/4 show tanks/walkers; preserve the respective designs but draw ONLY their independent weapons.\nROW 1: (1) Stell small single cannon with compact jade-white round base. (2) Locus twin parallel cannons with rounded ivory turret base. (3) Precept medium single long cannon with broader armored jade base. (4) Vanquish large single heavy cannon with strong gold collar and broad layered white/jade pivot base.\nROW 2: (5) Vanquish tiny point-defense single gun turret with small green emitter at front. (6) Conquer enormous thick single cannon with double armored jade collars and substantial gold-white rotating base, clearly heaviest tank gun. (7) Merui short upward-pointing mortar weapon, stubby barrel, round compact bronze/jade base. (8) Cleroi single medium cannon (one only; engine later mirrors it), ornate short jade/ivory rounded turret base.\nROW 3: (9) Cleroi small round green point-defense emitter with gold pivot rim. (10) Anthicus vertical array of THREE ivory missiles in one jade/gold launcher basket pointing north, full pivot base. (11) Tecta single short heavy cannon (one only; engine later duplicates it), broad ivory armored housing and green/gold base. (12) Collaris long slender mortar cannon (one only; engine later duplicates it), elongated gold/ivory barrel, jade pivot base. All twelve must be visibly separate and complete. Maintain relative strength differences, not twelve identical guns. No full tanks or walkers, no legs, no loose ammo.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "stem": "03-motion-defense",
+    "requestedSize": [
+      3072,
+      2304
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "regions": [
+      "leg-short-upper",
+      "leg-short-lower",
+      "foot-short",
+      "leg-medium-upper",
+      "leg-medium-lower",
+      "foot-medium",
+      "leg-heavy-upper",
+      "leg-heavy-lower",
+      "foot-heavy",
+      "disrupt-tail",
+      "tecta-shield",
+      "track-strip"
+    ],
+    "args": {
+      "prompt": "Use case: stylized-concept. Asset type: production independent rotating and moving game sprite components, Mindustry Daoist reskin. Use the attached approved mail and party images as hand-painted style/material references only: jade green, ivory enamel, warm gold edges, subtle rounded cloud ornament, crisp refined hand-painted modeling. Never draw the UI, letters, people, scene or background. Other attached unit sheets are shape/identity references; extract their component design language, do NOT draw any whole aircraft or chassis. Strict orthographic TOP-DOWN dorsal view; weapons point straight toward the top edge, not frontal/isometric perspective. Every component complete and independently isolated, including its full round or square pivot base; no cut seams or body fragments. Truly transparent RGBA around every object, clean antialiased outer edges, no cast shadows, no glow haze, no backdrop, no checkerboard, no labels, numbers, text or dividers. Preserve subject opacity, no arbitrary semitransparent metal. Invisible regular cells for placement only, keep at least 15% empty margin around each object and generous transparent gutters; objects must never touch or overlap.\nRequested 3072×2304 landscape 4:3. Exactly TWELVE independent mechanical movement/protection parts, 4 columns × 3 rows in precise reading order. References 3/4/5 show walkers, aircraft and tanks. NO weapons, complete vehicles, assembled legs, mirrored pairs, scenery or labels. Each limb segment drawn vertically with complete round mechanical joints at its ends, lengths/widths graded small-medium-heavy. Ornament stays restrained, physical usable shapes.\nROW 1: (1) Merui SHORT UPPER LEG segment: short slim jade-ivory armored link, round socket both ends, proximal socket at top. (2) Merui SHORT LOWER LEG segment: a slightly tapered shin link with top round knee and lower ankle socket, separate single link. (3) Merui SHORT FOOT: compact two-toed bronze/ivory foot pointing north, full ankle pivot. (4) Cleroi/Anthicus MEDIUM UPPER LEG: visibly longer/thicker reinforced upper link, round sockets both ends.\nROW 2: (5) Cleroi/Anthicus MEDIUM LOWER LEG: medium length tapered lower link, top knee and bottom ankle socket. (6) Cleroi/Anthicus MEDIUM FOOT: wider two-toed claw foot with full ankle ring. (7) Tecta/Collaris HEAVY UPPER LEG: large thick armored segment, broad layered ivory/jade plating, heavy round joints. (8) Tecta/Collaris HEAVY LOWER LEG: large long heavy tapered segment with round knee at top and ankle below.\nROW 3: (9) Tecta/Collaris HEAVY FOOT: broad three-toed mechanical foot, powerful gold-rimmed ankle pivot. (10) Disrupt LEFT REAR WING only: one complete swept wing with jade/ivory cloud plate, root circular hinge at upper-right, wing expands and sweeps diagonally toward lower-left; must be usable mirrored for right side. (11) Tecta SHIELD: one thin flat hexagonal jade energy shield seen from directly above, complete warm-gold fine perimeter, genuinely translucent pale jade interior. Only this shield interior is semitransparent; outside fully transparent. (12) TANK TRACK STRIP: one complete vertical continuous closed crawler track band with articulated dark bronze chain links and jade/gold side guides, no hull, no side-by-side pair. Maintain wide clear gutters and all twelve entire silhouettes.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\05-erekir-air.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png"
+      ],
+      "transparent_background": true
+    }
+  }
+]

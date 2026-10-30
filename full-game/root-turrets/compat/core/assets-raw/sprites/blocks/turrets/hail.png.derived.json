@@ -1,0 +1,42 @@
+{
+  "region": "hail",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/hail.png",
+  "sha256": "508d648bcc579b9035107459fc5294b3d114b170ec5d2ee0885a37558e1ea4a8",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.097888+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/hail.png",
+      "sha256": "0fb633465a635c418e13dbdb9181cc0c39bcf55284c91c43e0910324dada0fbf",
+      "record": "full-game/root-turrets/masters/hail.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/hail.png",
+      "sha256": "f34276280d19683716f535e02961c0897593dda0fa1e388e43481fc5035bdd95",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      4,
+      28,
+      28
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      330,
+      328
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

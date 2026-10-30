@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/08-statuses-power.png",
+      "sha256": "bda3badfec43648fe7bec7fd2e3b3aae4760344bd4e14592a0110dff1751cb4c",
+      "generationRecord": "full-game/items-fx/source/08-statuses-power.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      627,
+      0,
+      1254,
+      627
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      19,
+      49,
+      607,
+      600
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-overclock.png",
+  "sha256": "64adcf03208e17dc11bb0b4a58a18ccd9323a7b06464a8abc7bc0d1dfa974053",
+  "width": 620,
+  "height": 583,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.803328+00:00"
+}

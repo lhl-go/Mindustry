@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/avert-cell.png",
+  "sha256": "b31f6e300bb0d136fbd07c1f0486307849a975efeed85fdb841453cf32da5f89",
+  "width": 90,
+  "height": 94,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/avert.png",
+      "sha256": "f8d27ac8e0c778b74427be7310471cf80e2c23aca8b5855a41a409bdbf0729e0",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/avert.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "avert",
+    "baseCanvas": [
+      96,
+      96
+    ],
+    "outputCanvas": [
+      90,
+      94
+    ],
+    "centerRegistrationOffset": [
+      -3,
+      -1
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/avert-cell.png",
+    "gitBlobSha1": "2eecb72f3ffdfebfa26274790181427a4374116c",
+    "sha256": "da044b0d11f00f14c8168b74b6c3bcb741cc15ee3545088fe601810b31830c5e"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

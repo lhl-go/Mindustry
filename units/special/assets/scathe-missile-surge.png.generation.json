@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/assets/scathe-missile-surge.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.240542+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 503,
+  "height": 867,
+  "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248",
+      "generationRecord": "units/special/boards/04-scathe-variants-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "sourceBBox": [
+      724,
+      31,
+      1163,
+      834
+    ],
+    "mask": "alpha >= 16; isolated components below area 20 excluded",
+    "padding": 32,
+    "pixelResampling": false,
+    "hiddenRGB": "zeroed outside retained alpha mask"
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

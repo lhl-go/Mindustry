@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/source-bottom-part.png",
+  "sha256": "0a34e4bcbb2d08cd7efb8eee479fbd310e9c1be0813558374fda81e2965ccbbc",
+  "derivedAt": "2026-10-27T02:26:37.416592+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/root-detached-parts-03.png",
+      "sha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "generationRecord": "full-game/blocks/records/root-detached-parts-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1128,
+      751,
+      1406,
+      1022
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      278,
+      271
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    310,
+    303
+  ],
+  "anchorPixels": [
+    155.0,
+    151.5
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": null,
+  "engineNotVerified": true
+}

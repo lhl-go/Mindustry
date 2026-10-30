@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+  "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef",
+      "generationRecord": "records/workers/serpulo-ground-naval/10-locomotion-parts.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      1150,
+      651,
+      1334,
+      924
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 216,
+    "height": 305,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 33589,
+    "opaquePixelCount": 30398,
+    "partialPixelCount": 1893,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      200,
+      289
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    108.0,
+    54.22
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "segment proximal joint at top; distal at bottom",
+  "role": "part"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/elude-weapon.png",
+  "sha256": "344095f4283e3d956d3d905638ccdd4c84fa51e79c2f42bbefc3bab6bc847f4d",
+  "width": 21,
+  "height": 31,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/elude-weapon.png",
+      "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+      "generationRecord": "units/coordinator-recoil-fix/elude-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      144,
+      400
+    ],
+    "sourcePivot": [
+      88.0,
+      336.96000000000004
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      1
+    ],
+    "sourceDimensions": [
+      176,
+      432
+    ],
+    "targetDimensions": [
+      21,
+      31
+    ],
+    "officialAlphaBounds": [
+      6,
+      4,
+      15,
+      26
+    ],
+    "scale": 0.04754721930745015,
+    "engineAnchorPx": [
+      10.5,
+      15.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/elude-weapon.png",
+    "gitBlobSha1": "b3c65bcfed391168fdf6c7f24af6e13b5dde2559",
+    "sha256": "742bbc60cdd7f8f22cfff71238c74bed9cd7da3db567d107708cf3e8e6dc710f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

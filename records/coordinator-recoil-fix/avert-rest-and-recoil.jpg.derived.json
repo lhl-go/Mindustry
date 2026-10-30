@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "file": "records/coordinator-recoil-fix/avert-rest-and-recoil.jpg",
+  "sha256": "80a9b805ca4c1ef4661afac61f9319ba3e543ab1ddfc32aa38ab876a42b45e69",
+  "width": 1500,
+  "height": 713,
+  "format": "JPEG",
+  "derivedAt": "2026-10-26T07:58:17.213269-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/avert-body.png",
+      "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+      "record": "units/coordinator-recoil-fix/avert-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/avert-weapon.png",
+      "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+      "record": "units/coordinator-recoil-fix/avert-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "qa_contact_composition",
+    "panels": [
+      "rest on ivory",
+      "weapon-only 16px recoil mock on dark jade"
+    ],
+    "references": [
+      {
+        "file": "units/coordinator-recoil-fix/avert-body.png",
+        "role": "body",
+        "originPixels": [
+          160,
+          160
+        ]
+      },
+      {
+        "file": "units/coordinator-recoil-fix/avert-weapon.png",
+        "role": "weapon",
+        "scale": 0.48,
+        "instances": [
+          {
+            "mirrorX": false,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              473.5,
+              357.2
+            ]
+          }
+        ],
+        "pivotNormalized": [
+          0.5,
+          0.78
+        ],
+        "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+      }
+    ],
+    "thumbnailMaxSize": [
+      1500,
+      750
+    ],
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "purpose": "visual QA evidence, not a new game sprite or model generation",
+  "runtimeIntegrationVerified": false
+}

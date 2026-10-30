@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/04-liquids.png",
+      "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+      "generationRecord": "full-game/items-fx/source/04-liquids.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      15,
+      13,
+      434,
+      418
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-arkycite.png",
+  "sha256": "a8286c94f23b1275f58edff44f1040fc3802f1af321f968a94d982da6a9b8317",
+  "width": 451,
+  "height": 437,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.160621+00:00"
+}

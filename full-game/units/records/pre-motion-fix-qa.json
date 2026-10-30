@@ -1,0 +1,4766 @@
+{
+  "status": "reopened_tank_motion_occlusion",
+  "sourceCount": 290,
+  "checkedCount": 290,
+  "uniqueSourcePaths": 290,
+  "issues": [
+    "tank body layers obscure tread animation; correction in progress"
+  ],
+  "checks": [
+    {
+      "id": "aegires-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/aegires-cell.png",
+      "sha256": "5b3ea36bc87466db7ed0b3950cfa2a8ba1b5b3ba02da70222320eafec2dd0546",
+      "size": [
+        240,
+        240
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "aegires",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/aegires.png",
+      "sha256": "03a79206b8b2629a051a3b9e20e3e793a7f3c8e9869ead3d5effcabeda8f098f",
+      "size": [
+        218,
+        241
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "alpha-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/alpha-cell.png",
+      "sha256": "09de6e6ad55aa2f2357b9e1b6089435ef438a6dfc74313495b66a53e40a53467",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "alpha",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/alpha.png",
+      "sha256": "affccc4c38a9b36f1fe5aa9c72043c1a879562ba43fe5c49b6afc685984e6329",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-blade-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-blade-heat.png",
+      "sha256": "d3b2e6ed69d9ebbd6c60f4a7a59675cc2a29fbc6e55976981a03016fa15ab2f8",
+      "size": [
+        51,
+        25
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "anthicus-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-blade.png",
+      "sha256": "5bd4b2272670f9a7eecfde21efcc74c47e87d8c07b2e1f43b9cf3d05af0b168f",
+      "size": [
+        45,
+        19
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-cell.png",
+      "sha256": "1a5fc5eca236e638da8706d9035850ef379e1a470936bb7316d5c3d6d1a8af68",
+      "size": [
+        126,
+        127
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "anthicus-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-leg-base.png",
+      "sha256": "68fe3c3ff47ebb713a2b0b0ad6dea2a88e6f5c24e440a845ddfd5e372ddd9fb4",
+      "size": [
+        64,
+        45
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-leg.png",
+      "sha256": "8581e1f5f45756dabae4f4aa6a9a291031cf96bbb3ca4623b040f166a830a2b5",
+      "size": [
+        51,
+        45
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus.png",
+      "sha256": "a1075e30fe2f12a30454d87f4068783e7fbc016ace8d941d9aa58fe5f77bb4e1",
+      "size": [
+        126,
+        127
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "antumbra-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/antumbra-cell.png",
+      "sha256": "00ce7cbaf75a43f36bc1d612ffd5d8fd09c059f0ffe6557646fff01c103d8713",
+      "size": [
+        216,
+        240
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "antumbra",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/antumbra.png",
+      "sha256": "7086038c3ab4933dba5bf66f29abdc9b04481c1615ac1684b986943540d128d4",
+      "size": [
+        216,
+        240
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "arkyid-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-cell.png",
+      "sha256": "ac2dba51f7e6212877e367b13f63fb63930424d152188469deec4c7a411f8548",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "arkyid-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-foot.png",
+      "sha256": "a6b90500e5317381e52c4a62879776b516ad74df6c58659eb45df43c4db748e3",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "arkyid-joint-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-joint-base.png",
+      "sha256": "88e8506f7a5542a6bb3912c6fdc6019f1c2d4498866a394c955ce424e611587b",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "arkyid-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-leg-base.png",
+      "sha256": "d2173aee7c7a59a60a139283b7aa6d574abb40bc336fc555e2a1837e54972b7f",
+      "size": [
+        104,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "arkyid-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-leg.png",
+      "sha256": "66d68952f449e3e7906fd3bd9814954166ace6e707077a089dbabd661a1e99f9",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "arkyid",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid.png",
+      "sha256": "600b2b30f72d023536e9bda79cb1e91ade262032fbbd258bc191e6ee17c21b32",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "assembly-drone-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone-cell.png",
+      "sha256": "ac8e315b0efc153909edcf1570ed02dd5b372d6be83d295123ad6528240833ff",
+      "size": [
+        52,
+        55
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "assembly-drone",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone.png",
+      "sha256": "475d527779873e1b5ebfbebdabeed7155b848fd98a90b3c68a48e7e45dace63f",
+      "size": [
+        52,
+        55
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-base.png",
+      "sha256": "460ad0e72aa858a0fff32a646c359c18f468e8fb0bf104dc53fee8d1bdbbbc1c",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-cell.png",
+      "sha256": "ca373252c6c489e6427b17df29d7c07238833328bb852ca563b28dfc7516e53a",
+      "size": [
+        88,
+        64
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "atrax-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-foot.png",
+      "sha256": "fbac56fd1dbc54e6662286d767afa44f52c83ffe5afc57a3ccdfdb7760ebb74b",
+      "size": [
+        40,
+        40
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-joint",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-joint.png",
+      "sha256": "c0ad08ed3f86dc2c43e7c9b19f80f4331d5c1031ab9a1b865785b0b1dbdc09e7",
+      "size": [
+        26,
+        26
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-leg-base.png",
+      "sha256": "56e793b645c0b447be7f66abf4a5b7e14f9fc2e8732c042a38bd5f2c4a33348b",
+      "size": [
+        36,
+        26
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-leg.png",
+      "sha256": "4cf8d2a16b9ca795d10bb5fa34c4f5439340dceb72d214a4cfcfe79272a2ddaf",
+      "size": [
+        36,
+        26
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax.png",
+      "sha256": "0cc5bcd70eded0563faa888fb6d9a6aebc7815d25ec7bd0baa8e3655d01068b7",
+      "size": [
+        88,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "avert-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/avert-cell.png",
+      "sha256": "b31f6e300bb0d136fbd07c1f0486307849a975efeed85fdb841453cf32da5f89",
+      "size": [
+        90,
+        94
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "avert",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/avert.png",
+      "sha256": "f8d27ac8e0c778b74427be7310471cf80e2c23aca8b5855a41a409bdbf0729e0",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "beta-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/beta-cell.png",
+      "sha256": "6b3850f74fb598c75b7bebf9f898f906cd44c22b1619fd50f561fd65b8a37744",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "beta",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/beta.png",
+      "sha256": "de0debcb567b4e627df22568f5a5899cc49fe38013d9a2da51ef66baf48ff151",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "bryde-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/bryde-cell.png",
+      "sha256": "aa3af7cce46079241263a9901f346ef9b8cd143fa8c5d93fb137843bf9eb9882",
+      "size": [
+        140,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "bryde",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/bryde.png",
+      "sha256": "a9f790301a2f2575284b019cc3bc49bf48d09f19c8d4b1500e9b271537d23b37",
+      "size": [
+        140,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-cell.png",
+      "sha256": "a1da48ce86b46822da9805c8d343509cbbbbef9da44544bd9bdf0f1d13e5275f",
+      "size": [
+        76,
+        76
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "cleroi-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-leg-base.png",
+      "sha256": "a5f9fc2ff1e67ff28837cc2eaa695c1a6cbe2058ed4f23b67c0a013727a29b15",
+      "size": [
+        49,
+        36
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-leg.png",
+      "sha256": "f6af02951efbc05afae50b464e6edcd2e62d63518193f4a9b2939bad07678458",
+      "size": [
+        40,
+        36
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi-spine",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-spine.png",
+      "sha256": "641ecef8723476b86ada7f0386d169652a5995b5aca0718ab774ddaee8e7bbea",
+      "size": [
+        40,
+        17
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi.png",
+      "sha256": "9f0cb3ae895271934580287c6fb1e81fed3277d9217f41b6cc62f6bf3571e86d",
+      "size": [
+        84,
+        85
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-cell.png",
+      "sha256": "1c4420d21ddb22d9d1c01aa19a6ea164f89a91863f3c4a2f9c12663c02bcbce0",
+      "size": [
+        221,
+        223
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "collaris-joint-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-joint-base.png",
+      "sha256": "692788545bc55e191838b76c6b98effbfdeb82d6ba755672b2bf72165905f50d",
+      "size": [
+        60,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-leg-base.png",
+      "sha256": "f910cdf52456abdab37b1449d7c279bf2cf48398470fa639f0e12696c8160509",
+      "size": [
+        118,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-leg.png",
+      "sha256": "11c5ef3db5de5ec393ee5cbf0f1c715b2cb85a4ed4668093f57abe23632bf323",
+      "size": [
+        86,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris.png",
+      "sha256": "1373fe12cae3d2f246b8500d7ccdffd8de4aa0b50f92fa271ba6e25b48a9b231",
+      "size": [
+        195,
+        212
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-cell.png",
+      "sha256": "9ed34c964c3943d83cfe66744b41768cd38a2b96f6d8f81ca3f7c18ec7f62a64",
+      "size": [
+        231,
+        231
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-glow",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-glow.png",
+      "sha256": "b9d00fdd741a33329467c669e8d6050926e1a65d84dc241fc86d9d228be23523",
+      "size": [
+        231,
+        231
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-treads",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-treads.png",
+      "sha256": "c93c17aaee1735be67fd1a885fc2a23dbc72db8bbf3620a0451620fe618f2ebc",
+      "size": [
+        213,
+        232
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+      "sha256": "d089ab99b452f8f34a67c98543c0617bdf07646dc8a747791fdde46189e93851",
+      "size": [
+        213,
+        276
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-base.png",
+      "sha256": "df58f2312eac34c349b5556ca4fcbc6e82509878c62521645ea0d65a396df819",
+      "size": [
+        152,
+        124
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-cell.png",
+      "sha256": "5fc4f87ae92263d500875df0c915d050cb97792ac2f4bd4c7873065305c8342d",
+      "size": [
+        214,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "corvus-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-foot.png",
+      "sha256": "f55c2d055a0a0730bb0b20acbe34ee0173cf935ac0b77a414bddfacdaea0cb6f",
+      "size": [
+        90,
+        90
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-joint-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-joint-base.png",
+      "sha256": "768a68630f6df628dc364f3ec17051ec91d5f9a0d38fa2556abbd3a882777c6b",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-joint",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-joint.png",
+      "sha256": "5ac823b868ecde4ef04f723f0c7ba00f93c086715593b098f7b8b6fcc6f3d20b",
+      "size": [
+        60,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-leg-base.png",
+      "sha256": "7df5779f0137ac7d74eb9609a318f52c2e8d2f54da34b58e57510a5777748fa4",
+      "size": [
+        30,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-leg.png",
+      "sha256": "de91a4dd1d9ad98b264be33fab1e06d897b842233668ffc40a07219ad80efc88",
+      "size": [
+        30,
+        68
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus.png",
+      "sha256": "0716c5d0576cc2e1bab24472817159bcea6a49aaf61fe9a8b3ee6a23139f7f9f",
+      "size": [
+        214,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "crawler-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-base.png",
+      "sha256": "7e00f453b2792c69eedcb22ac50374611fce8378448ed26dd9bab2ff099ef1c0",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "crawler-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-cell.png",
+      "sha256": "5bdfab13f4b442d65c51e01b3036102c36899f749b4dd13365c8cbf16d5449aa",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "crawler-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-leg.png",
+      "sha256": "63a1baa7de3db00c15c5e8759f0653f0c42c37d9a00ea5bf92b47b19fe7b7b6a",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "crawler",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler.png",
+      "sha256": "db9287d1903febaff79e86f7bb7c5bd44499c8d6693e690df8f460b6a82e99fa",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cyerce-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cyerce-cell.png",
+      "sha256": "c5729cf2310a6f937964a04479ab471d6865400ecf0406044a2ae3dc384053b5",
+      "size": [
+        140,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "cyerce",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cyerce.png",
+      "sha256": "01d583a3d027d4909f6227c15d6a550a3bc2b5ebd6a08f5ab902a7eb6ae4699e",
+      "size": [
+        140,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "dagger-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger-base.png",
+      "sha256": "6d6a4f9aa1c15a57e46c0a43736fc78b6ca26172039f23f92f65e19e87c51673",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "dagger-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger-leg.png",
+      "sha256": "75291cc2c725e79f1edbd232ea079217dec676a66b173aafbd2a6da35388c523",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "dagger",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger.png",
+      "sha256": "6c2de1042b783bb8ddd71e7200f4de3060962ed01763038558f4d10e6a2a0c21",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "disrupt-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/disrupt-cell.png",
+      "sha256": "945a02d01afce18fd69285ff5772b64a38ae01f5458e94a2e27741276646335d",
+      "size": [
+        243,
+        243
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "disrupt",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/disrupt.png",
+      "sha256": "36a7aa1638d2bca1086234e10fd555179dd466cfb7b75139d4c2ae0b706ccdd7",
+      "size": [
+        243,
+        243
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "dummy-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/dummy-cell.png",
+      "sha256": "f83ed8b35439ba27585a77f2a49869e8067cb80f06a649eaae3d0c77787213d9",
+      "size": [
+        52,
+        52
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "dummy",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/dummy.png",
+      "sha256": "0b0fdfd555d967c6afb0af044af08047a3ebe4978c80b921375305a8132fc7ad",
+      "size": [
+        52,
+        52
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "eclipse-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/eclipse-cell.png",
+      "sha256": "eb525ba080adf343805fd01048a62fd0b120833da0f478bba0bc5d3052a14b0e",
+      "size": [
+        320,
+        320
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "eclipse",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/eclipse.png",
+      "sha256": "1a72db7f021406e1c1c44c29d309424bc6ab983e9be6cff1fed48f5c8c76f84a",
+      "size": [
+        320,
+        321
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "elude-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/elude-cell.png",
+      "sha256": "73884da6a2c3a46f062b0274423a28408da93ff1f0649a1e1e2c2e533b6fd44b",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "elude",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/elude.png",
+      "sha256": "1bffdac45b562584a26384c4208e4fb030ffe4a94b9bb0f0cb15e0fa746e483a",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "emanate-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/emanate-cell.png",
+      "sha256": "f8680bb4ca7a47ce51ff58d2eb9d2663b89b0dd37ff7f5b5eea1f62a5a8705a4",
+      "size": [
+        82,
+        84
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "emanate",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/emanate.png",
+      "sha256": "8c624b1e27b78a700894a5ca95f920db7a2e7b55d851b7346f32a314df30f5d7",
+      "size": [
+        82,
+        84
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "evoke-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/evoke-cell.png",
+      "sha256": "93f28ea95c995c1bcb4b2d6989fafb88de993c13e9ce6a468cfbcdc564c2e139",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "evoke",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/evoke.png",
+      "sha256": "c8cfecb81f7c711670609f43820a1dc2fad906c93c93564c11a443fcb76c4a36",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "flare",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/flare.png",
+      "sha256": "614ed0e06c7d20a86f36f49d3624adce3b1c5396a062846a8f2413075b24acec",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "fortress-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-base.png",
+      "sha256": "7154f3d38eac3f017e3b7a835d59ee7630865cc30dccf59acba70ee405921901",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "fortress-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-cell.png",
+      "sha256": "a87a5f6fe4576fd6d07388e4685df0284818763732c3931768ea5ba6881866d8",
+      "size": [
+        100,
+        80
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "fortress-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-leg.png",
+      "sha256": "08446be9cc18b9f9fa0d34712769dab286c58a66c8572ee4093b3f27ecfa6ca1",
+      "size": [
+        80,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "fortress",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress.png",
+      "sha256": "43f504e0748a4cd69fe1a47ff345e4f7cac8beea6d2a66eaddcb4f664b5ae427",
+      "size": [
+        100,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "gamma-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/gamma-cell.png",
+      "sha256": "52dbe8474803529b701f77fe44eac9843e325d51bf77c9cb4c0d6e42a0774ff5",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "gamma",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/gamma.png",
+      "sha256": "ae07f25aa2f8fe5496caca24e5eb7d7fc7b3346218a5b0caf3dd1fe2f994cf9a",
+      "size": [
+        68,
+        68
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "horizon-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/horizon-cell.png",
+      "sha256": "249680f7f04cb2f8271940acec32c88066413b26c5a7ecd5954e41fa175031f2",
+      "size": [
+        72,
+        72
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "horizon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/horizon.png",
+      "sha256": "2264203e43c2591051184484de900dc2219383eb6caeaefcae4e2dba98d32a6b",
+      "size": [
+        72,
+        72
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "incite-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/incite-cell.png",
+      "sha256": "48150892c63da49efb781927332c4132f8cbc9241c3e29838dcd020225e82672",
+      "size": [
+        66,
+        72
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "incite",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/incite.png",
+      "sha256": "bf8ee6b688c6e080201705b86ad8eb6e82f5c54579b9bd2ce272a45d30474d3e",
+      "size": [
+        66,
+        72
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "locus-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus-cell.png",
+      "sha256": "dbde9d04511b47aceae5f097b29046333dd36f3ea5ddd972265fa390c6681ef4",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "locus-treads",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus-treads.png",
+      "sha256": "7086fbbbe9699be3bc1cc76c94f7323b93c35b128b51fb11d495d4affca2b894",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "locus",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus.png",
+      "sha256": "2799b669f07605d55246f752171c16c3573d21632e0a4fa8f4970cccdd098267",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mace-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-base.png",
+      "sha256": "60bff69215aaff8d7227d9aa286ce67343ce0c131c3b98d010a0035459047fdb",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mace-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-cell.png",
+      "sha256": "47f1c13815054bdd3f55607bef97991a68d21b646041a3b94e4f6c15d0382493",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "mace-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-leg.png",
+      "sha256": "ed0e82f64f5bab450c0319cbf51b12fe31090627a163e100bcf36cb3e3d66360",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mace",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mace.png",
+      "sha256": "17e0952c94b3530628859ef494a49307f8e19b23763d5ea5289d3c822ee90beb",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "manifold-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/manifold-cell.png",
+      "sha256": "1a2e49498acb4a8dea4f6608b0ce399527599e84ad49d925b842b381f4d9bc89",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "manifold",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/manifold.png",
+      "sha256": "032686c1ac9c4ba9d6e06e18a9f3c625c26dc0dbfb1f169fef65970084dd7539",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mega-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mega-cell.png",
+      "sha256": "32ac95cf04615e5ca616560cf51771ede90df06e92971e8070c82efda54b8921",
+      "size": [
+        100,
+        100
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "mega",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mega.png",
+      "sha256": "b657b7510f5c8b948d1b7b7575c57ad09cda4dd44604d9c0da1bc7cc82067e66",
+      "size": [
+        100,
+        100
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "merui-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/merui-cell.png",
+      "sha256": "3de476c230b7a1d723462c5d2ab88e7c4ec1d5f2656f18002d6d05f9b89b29e1",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "merui-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/merui-leg-base.png",
+      "sha256": "2f493f409ab74a82ceade0d076b9ab8a3272f0c7e88c343c745974fee0fd24eb",
+      "size": [
+        31,
+        23
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "merui-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/merui-leg.png",
+      "sha256": "0ec62f84deb2fb5a97d20521e9d42913e79443ac640a804b51bae5063253781a",
+      "size": [
+        25,
+        25
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "merui",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/merui.png",
+      "sha256": "993cffbca91035efe6974a1eb407cd31b51f74b42795f7ebfe34ce2bf95aeed2",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "minke-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/minke-cell.png",
+      "sha256": "66ba8c195cd6a55cab31462d402903752c1249211d5252109487eeecf43186b0",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "minke",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/minke.png",
+      "sha256": "fbc68b3b66bd91144b956a534ff447d649fe4fef6aa4d60bbfffa7a7c4610c1b",
+      "size": [
+        88,
+        101
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mono-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mono-cell.png",
+      "sha256": "d694536b5855dedcc38233d4a6a8f569432b1c000428f1d24a68f8eb3723f9b6",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "mono",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mono.png",
+      "sha256": "3c8ddbb7fcb53f17c146645b9208062e3b5b179c2cb2b5423b306eb76273ca07",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "navanax-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/navanax-cell.png",
+      "sha256": "5834352f080f933c9a2a6e2e2c9e9a9ce20d5a03f6ec057d0242af5ddbf0a0dd",
+      "size": [
+        280,
+        400
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "navanax",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/navanax.png",
+      "sha256": "32a5f45789d612e83d8c2c0fb88da2f9cf7ad043bd58cb5648655bc482279083",
+      "size": [
+        258,
+        366
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "latum-segment0",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/latum-segment0.png",
+      "sha256": "beb74154a3910edaceacd6ea33523310931d8767e78900bfa0b815eb59c4eb91",
+      "size": [
+        292,
+        278
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "latum-segment1",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+      "sha256": "c712ced9ae2c6279bbb6f81714a56f2f25737fe819229213c64800ac0c419295",
+      "size": [
+        292,
+        278
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "latum-segment2",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/latum-segment2.png",
+      "sha256": "a04b32826612ab7b8657496052608e596cdb72b0b1b5090196f073fd749defd2",
+      "size": [
+        292,
+        278
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "latum-segment3",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/latum-segment3.png",
+      "sha256": "d32631b8c2912bc70bc5d83315de0f7f4962c2699ffe77e98575d9db6698a2e1",
+      "size": [
+        292,
+        278
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "renale-segment0",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+      "sha256": "ea55407e1ef842cc28ac621295164d8f81dda9df51407ef01324a0992d551823",
+      "size": [
+        68,
+        62
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "renale-segment1",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/renale-segment1.png",
+      "sha256": "12ca895040f58484933e2b0122f271b7225c51ee98635e8acf579d4ed049b52f",
+      "size": [
+        68,
+        62
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "renale-segment2",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/renale-segment2.png",
+      "sha256": "30f6bb3a2a49210f2ac3885b25b8b06b489db65117e5f20e0e430c2f987f170e",
+      "size": [
+        68,
+        62
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "nova-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-base.png",
+      "sha256": "7843fe5c0bcf499aa018e50e7904290b73408d0fe8349bcc7bf87d6dd02def6c",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "nova-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-cell.png",
+      "sha256": "409e9f6d322477ca4752781718d634fb1fe613601e6edda3b8648874be26108d",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "nova-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-leg.png",
+      "sha256": "7b9c64195659e9206b3b3cc924effd9f56cde7132ff94115e21e9c483c869749",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "nova",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/nova.png",
+      "sha256": "099bb7fde7813afc71ff145bbe1bda27a9fc24dbbc93b40af32ffdcea1607b75",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "obviate-blade-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade-heat.png",
+      "sha256": "db2d12968425f4f2596b1aab43e34d6c2287c230310118cbd47172456bf5eed4",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "obviate-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade.png",
+      "sha256": "89e876957df15321bdd79eca427747ec7bba775c71e6fa5eeb771d90ecfad22d",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "obviate-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-cell.png",
+      "sha256": "40ac3b0128a508ba53c76eee51c5bf040a3c4c01d52abaa3f54057c9a7659f51",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "obviate-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-heat.png",
+      "sha256": "75cca23be2dc1fe822bf46254af45ac51cdc585cc3bf63376e3babcb2dcbb43b",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "obviate-preview",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-preview.png",
+      "sha256": "abb697de50bdf8e408be87d4954e187929f43eec4599672f0ce90885e9f604dd",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "obviate-side",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-side.png",
+      "sha256": "e17102d492f5ebced690e42df2ec6522588da88b5baf3286c50b9608c0d3922c",
+      "size": [
+        110,
+        100
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "obviate",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate.png",
+      "sha256": "b15ed845771388769da637ca85d4949f47fc3bb3bee70459a0ba8c1536c0dd1d",
+      "size": [
+        140,
+        130
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "oct-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oct-cell.png",
+      "sha256": "fe35c78ffcce19897fff766b47b80303e0e2eb251f0bfa9972c838569577bbc8",
+      "size": [
+        400,
+        400
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "oct",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oct.png",
+      "sha256": "5044693ba287dd06882d39521f87fe64518e55d87ba3fd54ae3575e4f9342299",
+      "size": [
+        400,
+        400
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "omura-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/omura-cell.png",
+      "sha256": "0186b79563ca889eb6f5fba974774db615ed6b9a0efb53e2db4ec5f2fd2b8fbe",
+      "size": [
+        280,
+        400
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "omura",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/omura.png",
+      "sha256": "06179405777b5d2d284b6a7499ec6ff67584b08b67b5404db154de1b7be1ee3e",
+      "size": [
+        264,
+        351
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "oxynoe-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe-cell.png",
+      "sha256": "3d97be904548dceab6b286ebec7d5cf75815de754e7b85b28cd71e13f8083f59",
+      "size": [
+        88,
+        101
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "oxynoe",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe.png",
+      "sha256": "21a2c8ab31b61aa44ae4c46a6acc202f2733ea8713fa1570246bef123a8fe06d",
+      "size": [
+        88,
+        101
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "poly-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/poly-cell.png",
+      "sha256": "7d6c9faae9478ed761fb7774f76d294e7747bd29d6da49f2850c4aeebf9bb0a0",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "poly",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/poly.png",
+      "sha256": "f7ccf6c1085f5c667aa6969ccba82a8e5bd2a93c09c7c92c812d8c065d7c9767",
+      "size": [
+        56,
+        57
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "power-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/power-cell.png",
+      "sha256": "d47de869514492db9757fce92c029c9379359dc99ff33dfc6e3c9c2eed60bbff",
+      "size": [
+        56,
+        56
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "precept-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept-cell.png",
+      "sha256": "0478a1219a19868ef14a84c658800da9e665ed9a8d086d12d62a80a0a8ff0225",
+      "size": [
+        120,
+        120
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "precept-treads",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept-treads.png",
+      "sha256": "9b1e82914654510990f445d47e56a8cb10cd97ed74491d0ec41cac477b5d74c9",
+      "size": [
+        120,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "precept",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept.png",
+      "sha256": "54118ec73d5adede8e15b601ed0bdfe33cd9e556debaa02838884c33a277e7da",
+      "size": [
+        120,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "pulsar-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar-base.png",
+      "sha256": "7aacbe684ab038d3b735ea8f35793be3ebe3be448b52c0eaf1c3c9925ccdc159",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "pulsar-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar-cell.png",
+      "sha256": "eba2a83655a68c5739dd6102a7cf88c68b0f0431f925818c413d63bc53914143",
+      "size": [
+        58,
+        48
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "pulsar-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar-leg.png",
+      "sha256": "b4e10447c1a72a2888f979051af04c65f1022ec8ddc4ab66bc346673ce83756e",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "pulsar",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar.png",
+      "sha256": "e2edfb9b962e7ce84c04250b5ff0186647dc32f763074579ced6238b5f56b887",
+      "size": [
+        68,
+        58
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quad-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quad-cell.png",
+      "sha256": "218241291dab56f6a3ee5d5e14a61ed40cdc8a619d64c3a46afbbbd76f0da42f",
+      "size": [
+        220,
+        220
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "quad",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quad.png",
+      "sha256": "b9ff06e0fd4536db13430ad797a4b544a27ce701bdaebcc87210866743eda40b",
+      "size": [
+        220,
+        220
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quasar-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-base.png",
+      "sha256": "1dc8e2fce690c8537b555efaf70eb8e6fde45e0f00ef861515ce52b456cc652b",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quasar-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-cell.png",
+      "sha256": "f892e83c73a89d56c2ab1e50baac030b328092f3ec41f38a523ab7fa81e138b5",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "quasar-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-leg.png",
+      "sha256": "dd66170bd48f2b3c77d8d58e988c8d63c73138e401bf298afcbbb103a28370e7",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quasar",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar.png",
+      "sha256": "43bae9f5e093729808ac45b67f6bc2a42067cbe7b6c335f84b0f10728d9aec57",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quell-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quell-cell.png",
+      "sha256": "0617193da7b63820f4abaaf7490996d811835c85b64a8165e4ab64ae7dde540d",
+      "size": [
+        162,
+        162
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "quell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quell.png",
+      "sha256": "0889c21460a86ecac1fe05fae04037f9b1bd6a0fb34a6c7540c686f41b5e3a41",
+      "size": [
+        162,
+        162
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "reign-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-base.png",
+      "sha256": "3cc351158c8de304771b56b1514263e1d17bfc2c12ff349c8c8be080e85db378",
+      "size": [
+        152,
+        124
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "reign-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-cell.png",
+      "sha256": "61dabbae0939e8bc010a983fe95a38bb9814390e0ee4b551d300585fd12d80c6",
+      "size": [
+        214,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "reign-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-leg.png",
+      "sha256": "a0870d58a0fc6d18e1517f71fe5d40fa32f130e2132c25f2f6060129232e6c73",
+      "size": [
+        152,
+        124
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "reign",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/reign.png",
+      "sha256": "1abd461cd4acda0b47f67d132759f5c967a44873500381cd8e1362c3071867dc",
+      "size": [
+        214,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "retusa-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/retusa-cell.png",
+      "sha256": "440736cf191325a62535b31249930b1350255ccefc016a2470f728af6473eb8b",
+      "size": [
+        70,
+        78
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "retusa",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/retusa.png",
+      "sha256": "46cdd89b605a3cd449c1ea67fd7d54fb86880fbe04a4ff30f8305d6f649228a6",
+      "size": [
+        70,
+        78
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "risso-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/risso-cell.png",
+      "sha256": "cafceb73b499b43a7260c356d585cd5eb2187dd3e4333b9c0dfeeb153cded4b7",
+      "size": [
+        96,
+        96
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "risso",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/risso.png",
+      "sha256": "89f64313e109272f96709759ff4f62178725ccd2f60da9b19131783090064cbd",
+      "size": [
+        70,
+        78
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scepter-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter-base.png",
+      "sha256": "c6a99082df9856ec194a6416bb4b48996421c3550ca612e52fa585c3b4f1929e",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scepter-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter-cell.png",
+      "sha256": "a894856b37c854f303c32db1891bb72de9a13ab2171c96811f89e1d46c2d8d36",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "scepter-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter-leg.png",
+      "sha256": "6bd400e4b89d16e16eae335cb483e0830772dd5937762502eaf0a991899634d8",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scepter",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter.png",
+      "sha256": "37132a7dc2733d1860902d55c14f6d306ce31a0434c795c36f1fde7dc8226810",
+      "size": [
+        170,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "sei-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/sei-cell.png",
+      "sha256": "d01b2f232ae7705a4388bc283771b278db247137073f553343accccdabc9b5ad",
+      "size": [
+        240,
+        240
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "sei",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/sei.png",
+      "sha256": "74e34474c030694d614bc201e4296e5858693d1a52ed46a0470ab4204034c151",
+      "size": [
+        198,
+        228
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-cell.png",
+      "sha256": "177bc2641be73668a640e82a06334d88fa1e639c3fd2b62d6da79eeebb0e2630",
+      "size": [
+        94,
+        75
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "spiroct-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-foot.png",
+      "sha256": "919cb8c88bf850371104c343bfedc8a2bd72f36334709cf249e278774144caae",
+      "size": [
+        46,
+        46
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct-joint",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-joint.png",
+      "sha256": "beda53a636b1625f175068f461d884281a1793b9e59046d60ed804293bae397f",
+      "size": [
+        32,
+        32
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-leg-base.png",
+      "sha256": "aaa26df82ac620f748f1f8bdc9d93ba1cf4ef875f7816b90bb86dab7eeacbe1e",
+      "size": [
+        48,
+        34
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-leg.png",
+      "sha256": "dfb65489d9bc03335ce54a8d432d31edae33bf19ec7bc1fb0dc759a805b08c83",
+      "size": [
+        48,
+        34
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct.png",
+      "sha256": "afe294fcad9147f08a17a9ae75b8f05485a0c7e9be4c712229c87fb9b35e61cf",
+      "size": [
+        94,
+        75
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "stell-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/stell-cell.png",
+      "sha256": "5e244834713b6716560e23de04d4b1486f4e97f851a2917c749e3853ad2f4b05",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "stell-treads",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/stell-treads.png",
+      "sha256": "9965b42b943ace85c04ccb85c9cfeb4ec889d8ca1aec1d3680c92e3d33cd44db",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "stell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/stell.png",
+      "sha256": "7b773e5404bf2a4a8e503ef4b67df527a8c62a35fc65e18aa7148c752993384d",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-cell.png",
+      "sha256": "1506ab1065dd5f988850ba0d7267da1c0f2dfe8a9c16890962cb19f3f30741c1",
+      "size": [
+        162,
+        162
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "tecta-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-foot.png",
+      "sha256": "b7b937162e592a564e093ddb64359f71b551cc8ca687b439109ef19d346e2ae5",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-leg-base.png",
+      "sha256": "c3f05fde4959ff494ebfecc36e09a822a8b7b96baa75ef6163483ad5e03486e4",
+      "size": [
+        57,
+        54
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-leg.png",
+      "sha256": "e8ec09d67abe680d470d627201383f8a30da28edb5c1bc592e9e9fdcc9ee1e55",
+      "size": [
+        43,
+        50
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta-shield",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-shield.png",
+      "sha256": "c316ea48f9baf57648fdc6faac9ba6ff16120e8b73cc20dfe6810704a7286190",
+      "size": [
+        124,
+        161
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta.png",
+      "sha256": "811e7dbed4fbea97dc7a81082dc6cc74292551e3f8165d8b7940e98fb2f98ca4",
+      "size": [
+        190,
+        162
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-cell.png",
+      "sha256": "2df957ecc39a7220536abe4ffd294baa61a50ef9a25053aba8c9a314a4887240",
+      "size": [
+        152,
+        124
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "toxopid-foot",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-foot.png",
+      "sha256": "a34569e57f91b8df93f0d9ff77d61ad7cdb87b9d057e8b6b40259d51f0be2a76",
+      "size": [
+        90,
+        90
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid-joint-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-joint-base.png",
+      "sha256": "768a68630f6df628dc364f3ec17051ec91d5f9a0d38fa2556abbd3a882777c6b",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid-leg-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-leg-base.png",
+      "sha256": "a7db78dc0ce2de2440ab11941ca838971fc6dba002df58cf5b01d5ba62493b5e",
+      "size": [
+        270,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-leg.png",
+      "sha256": "251a503c509458ff8f96cb4f5cac1c5f4ac5fd4ea4228dd1ec83aa4cd335bca0",
+      "size": [
+        150,
+        72
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid.png",
+      "sha256": "96d349f3d3563009f9e885ec860d701541ef9f5071fc864bec5629888bfaf925",
+      "size": [
+        160,
+        190
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vanquish-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-cell.png",
+      "sha256": "e918908cf4b00376e1649a520cb7cc08ea82f7c2cef74a0d2f945593bb427ee8",
+      "size": [
+        154,
+        154
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "vanquish-treads",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-treads.png",
+      "sha256": "7a85d6be6900ad1bf01a0d3f8639d6e48dd44a5308b159269c7364b88fe3e9d2",
+      "size": [
+        154,
+        154
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vanquish",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png",
+      "sha256": "5dfa35bf710eb5e1150a246cb064a2745200ce3c7cec4f30133745230bfdcb47",
+      "size": [
+        154,
+        154
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vela-base",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-base.png",
+      "sha256": "c6a99082df9856ec194a6416bb4b48996421c3550ca612e52fa585c3b4f1929e",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vela-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-cell.png",
+      "sha256": "fd37d904498a24e578bd809d7696b241295ad6a6fa8e43304f5b6bd44e5d8cc7",
+      "size": [
+        170,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "vela-leg",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-leg.png",
+      "sha256": "6bd400e4b89d16e16eae335cb483e0830772dd5937762502eaf0a991899634d8",
+      "size": [
+        128,
+        128
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vela",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vela.png",
+      "sha256": "e366f53fcfd5514df5acf197e162e3fbdab10b87c085f3e14c87eeea8615e8f6",
+      "size": [
+        170,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-missile-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+      "sha256": "b8c9226950de66068507186eba6d7874e91a06f897e2890208d38a8e3b7dc416",
+      "size": [
+        28,
+        28
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "anthicus-missile",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+      "sha256": "5a24732368e9e735b865f10a57abf20c641b9f2c667398d0cb032e6ca9d57488",
+      "size": [
+        28,
+        28
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-weapon-blade-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade-heat.png",
+      "sha256": "fb8d469f0690c3895678f1cd6cf6958320bbc0368bc193cf90a742a27eb86b87",
+      "size": [
+        46,
+        50
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "anthicus-weapon-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+      "sha256": "48d1d64453c9b93160f4f78be7eb6161bbca8c4a66a98fd18f104f3fb0b57234",
+      "size": [
+        46,
+        50
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "anthicus-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon-heat.png",
+      "sha256": "661daa88bf4a59917b8c120d300bc38bf552375929fc0ca95e2d8b8fda52bd3b",
+      "size": [
+        46,
+        50
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "anthicus-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+      "sha256": "609b8d9100360d0a382c7697bf8e2667aebff8713ad5b02256f4b4a7bff0f294",
+      "size": [
+        46,
+        50
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "artillery-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/artillery-mount.png",
+      "sha256": "476fc49bc704d51edbc87bddf611a0dbb479f40e3e75257cd454d4c519b45f09",
+      "size": [
+        70,
+        70
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "artillery",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/artillery.png",
+      "sha256": "8c64e0a25401e9554293bc7940c3d1b7641ba7501e37bb026a11e9614fbcfd6b",
+      "size": [
+        48,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "atrax-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+      "sha256": "b54399c4ca39b268aae4112eb2971cb50e38fb0e6ad1c8513e2261fabae46254",
+      "size": [
+        48,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "avert-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/avert-weapon.png",
+      "sha256": "952d764b14bb2a7b66075303d1ca5eb40a76ec3e4211a996223ede1b7c04ba99",
+      "size": [
+        44,
+        51
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "beam-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/beam-weapon.png",
+      "sha256": "ff2fc8dcaa60db52c2036ae9ab46254d0e4dfa4463b6eb7c35edc3a056af3e01",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "build-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/build-weapon.png",
+      "sha256": "1a4556481b0653f28e7e971862fa37c96f7aa742a43ae4a7d424a5f8abd74fcd",
+      "size": [
+        25,
+        44
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi-point-defense",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+      "sha256": "7efa5d812176636d41d97bd217fa61b6b9065514a2adaf670b9fa74a80f8427d",
+      "size": [
+        25,
+        34
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "cleroi-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/cleroi-weapon-heat.png",
+      "sha256": "09dd01dc16c4e5c2b2d6ef5124cc5fcd31eab5a182845d29f001ec6d82b97ea6",
+      "size": [
+        23,
+        26
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "cleroi-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+      "sha256": "090d43d63f34f971498a332e4000bb62d4660f9de9c0b3076ef93fe3fce6cd5e",
+      "size": [
+        23,
+        26
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris-weapon-blade-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon-blade-heat.png",
+      "sha256": "5c38e06a5bcd7751add6c01b6443ee3f63c5802d52d069de434607c59ee3c2b9",
+      "size": [
+        21,
+        67
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "collaris-weapon-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+      "sha256": "b9e489855b3276da0d9acbcd9ece1530aa985f8220e0baf5df15091266da3858",
+      "size": [
+        21,
+        67
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "collaris-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon-heat.png",
+      "sha256": "a3fe8136413b8a1663399608795e470c6a75f48859f4f3c7b69b0aa771e73e4b",
+      "size": [
+        84,
+        146
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "collaris-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+      "sha256": "ad0771d7d3f9d0ba9a8ae4af989308225842df546627677abc030a0cda1d7cc8",
+      "size": [
+        84,
+        146
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-blade-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+      "sha256": "61eb6043c44f15d6acf4c8c3baa1c2b6ea614227d57e111751d2f4300be0388e",
+      "size": [
+        39,
+        193
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+      "sha256": "b56c799f3f6f777b9bfa3800211a86ba9f06cc909e072a57032a2d837fcd6f98",
+      "size": [
+        29,
+        183
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-glow",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-glow.png",
+      "sha256": "2973a10585ca409289d657469357abea21a0cdd603428e642d56e9a09e049d98",
+      "size": [
+        143,
+        293
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-heat.png",
+      "sha256": "2973a10585ca409289d657469357abea21a0cdd603428e642d56e9a09e049d98",
+      "size": [
+        143,
+        293
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-sides",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+      "sha256": "f988964bd02910c59a51661139bcd6efe2d1e131ab5ee0b12318ed1bb113d6eb",
+      "size": [
+        58,
+        62
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-sinks-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks-heat.png",
+      "sha256": "8cba8877bce0f956f8a6211adb14a20c0930de094875d8c544287dd546c333d9",
+      "size": [
+        64,
+        66
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon-sinks",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+      "sha256": "c6f5f2985fffc276c6ac34b5a53f8ed7ad7b0b2b4571b88b50aff99f1c810c2e",
+      "size": [
+        48,
+        50
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "conquer-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon.png",
+      "sha256": "8aab8608f90b0bd73f7dc4e6f8a8e4c44d17374d89f94b15c0d332d7e43a79b6",
+      "size": [
+        143,
+        293
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "corvus-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+      "sha256": "84ddb228e8914c882280d15609ca03074f1c20eafc2e5badeac72d58da648919",
+      "size": [
+        214,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "disrupt-missile-fin",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-missile-fin.png",
+      "sha256": "16c4899e9fea42ca35815c400d748b30501320ec7401518eb8875d22048d7989",
+      "size": [
+        37,
+        55
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "disrupt-missile",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+      "sha256": "daded76cc716e55c4ab619c7b9dea77884f228073522d399ea95cf3dbc923fb6",
+      "size": [
+        39,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "disrupt-weapon-blade",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+      "sha256": "eacfdb6ebca62383afe8407d35d15096e636f6c685ad2f1b442d13f5638a800d",
+      "size": [
+        63,
+        113
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "disrupt-weapon-preview",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+      "sha256": "e02bbaa2de0e0d758aa7a84a83b86946704821a8e6716dd2bb4513faa8d78cc1",
+      "size": [
+        82,
+        113
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "disrupt-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-weapon.png",
+      "sha256": "022e3c7084da16a01e7759b9661e72b5b8a6b85a3ff659fbe92a654f05cb4f42",
+      "size": [
+        82,
+        113
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "elude-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/elude-weapon.png",
+      "sha256": "344095f4283e3d956d3d905638ccdd4c84fa51e79c2f42bbefc3bab6bc847f4d",
+      "size": [
+        21,
+        31
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "emp-cannon-mount-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/emp-cannon-mount-heat.png",
+      "sha256": "25a51154741b82445ee9701dfc28673699c2c1454a494656ce40c28f08f4b0ba",
+      "size": [
+        80,
+        130
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "emp-cannon-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+      "sha256": "6bd1e0e7ab5f6f74b4171caafb3e67fdea9beec94bb353151eb52dfed948d5b5",
+      "size": [
+        80,
+        130
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "flamethrower",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/flamethrower.png",
+      "sha256": "b54399c4ca39b268aae4112eb2971cb50e38fb0e6ad1c8513e2261fabae46254",
+      "size": [
+        48,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "heal-shotgun-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+      "sha256": "a37f55a20d148b9cf18da93caabe20f828f8e19a0230d8123693f9df39db1249",
+      "size": [
+        50,
+        50
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "heal-weapon-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+      "sha256": "b630133503c90899b93fbb240593ca5e9dcb27db68b403b9e97c6d9b21fb1a55",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "heal-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-weapon.png",
+      "sha256": "1d6d3cb4eb5504075b62bd7314e7b40d8d35507656d11eece9a10e7a2b317b01",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "incite-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/incite-weapon.png",
+      "sha256": "7f01f5208cf165c49b03a3efe9c69ee8a62e4e818a52615817e8fbe490b09350",
+      "size": [
+        28,
+        57
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "large-artillery",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-artillery.png",
+      "sha256": "db39ba9ceffc8e3a39630e8f325d677a699e6586f71a02ac43ce0f5c4c0e5fb6",
+      "size": [
+        48,
+        66
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "large-bullet-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+      "sha256": "99968ee184cd58742bd371c3ebcaecd250acd239f56a73374df9a8368302db8f",
+      "size": [
+        70,
+        97
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "large-laser-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+      "sha256": "56d5a7228a55e06c08f3fa874ff7eb2f6acc083a8f0d752895f4c72e7daa4b6b",
+      "size": [
+        96,
+        140
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "large-purple-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+      "sha256": "a94213138e03a822f196bdde36599b757ab3cd0433f50bb4bf710c66e02c867b",
+      "size": [
+        70,
+        97
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "large-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-weapon.png",
+      "sha256": "81afea8e5d5cd2b40d5d16189b703b8bc6f8e8faaca68ed8ea3192c0f06d9a32",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "locus-weapon-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+      "sha256": "ea648ce20ec77d4c1b0118fa92caf1bf232e78a06a3da850d3c81b7c5b7469d3",
+      "size": [
+        96,
+        102
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "locus-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon.png",
+      "sha256": "53b6a00993ed653ae3ea08a47f25fb53902a9436fa30297f115d2ebaa013bddb",
+      "size": [
+        96,
+        102
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "merui-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/merui-weapon-heat.png",
+      "sha256": "e6858379fd43e118d29dd471f24f2c774e213206b088cef017f7ede8db0f8021",
+      "size": [
+        56,
+        54
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "merui-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/merui-weapon.png",
+      "sha256": "2ed728b7a103e0e8c7e67fc9ade6d393551a685e151b96355efd23c3c98f02cf",
+      "size": [
+        2,
+        3
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "missiles-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/missiles-mount.png",
+      "sha256": "b2dfd9eed4ea14a824c58ae719228e9579dc7ed3d4bf87db5f3af705bde0ef2c",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mount-purple-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/mount-purple-weapon.png",
+      "sha256": "7bc2888bc239dc7adf1f6f49285e9918361b83201528e6a471b0b1fd54b10b9d",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "mount-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/mount-weapon.png",
+      "sha256": "2a4e8775f279510bab7cc06dca9173df685786791bd4de906aa0b36fd95aac12",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "omura-cannon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+      "sha256": "ff5b04071c1d36163c3bfc616248c359a3630097180a81b53b1f045622d72378",
+      "size": [
+        192,
+        277
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "omura-cannon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/omura-cannon.png",
+      "sha256": "8e738d8e3a25a0d8fc01bcc27aaf9b8b7864e66e2fc28af6a292df4987f109ad",
+      "size": [
+        192,
+        277
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "plasma-laser-mount-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-laser-mount-heat.png",
+      "sha256": "a428adbd913bd8eac1f0b55cec7e2f3cb5cd8e4e4bcdae3d7a410fec07b4d6e0",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "plasma-laser-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+      "sha256": "5acfe58555d876cbd92f664bf58fcbbd060b47be987bc3cd89db1299478d2324",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "plasma-missile-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-missile-mount.png",
+      "sha256": "186a594e45c9a2e07f39b4b361716edb0908a200e4115b8e5259bda4dc2ab5ce",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "plasma-mount-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+      "sha256": "7ed777d6c17e27e53e5d556e4f05cd9a921e4f5d05720918dc0973f3f9c3c595",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "point-defense-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+      "sha256": "cab8ef685893ae717e2d1e843fd0ce1f9cfdeab4a20d148492b2b9e183b49c3d",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "poly-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/poly-weapon.png",
+      "sha256": "d004807c7ceb8ba9eadbfe0ad00dd5fae92bef24f45f7b1e486514299687ad5b",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "precept-weapon-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+      "sha256": "5e1a20329e8ae217b366f48423b175b97d43a7fafa456b855a0492432c1430bc",
+      "size": [
+        92,
+        150
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "precept-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon-heat.png",
+      "sha256": "61c7e5436d3af72423eaad4cbded818e0c7e7e09532f522aa3d59fea6579657b",
+      "size": [
+        92,
+        150
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "precept-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon.png",
+      "sha256": "bfaa7d847fd927642bd7ab9d8f99f6d1cf2fabd9fd058c9234f8bc837096a99e",
+      "size": [
+        92,
+        150
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quell-missile",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/quell-missile.png",
+      "sha256": "c9199375b808eae7008fc05ae3b21832c240284ba619e7bd6299123aaee56e39",
+      "size": [
+        49,
+        47
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "quell-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/quell-weapon.png",
+      "sha256": "5bf4005b82465e0dadbb1a48f8d2db1a764bc8a82b6d60db82fc3f07f30e995d",
+      "size": [
+        53,
+        60
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "reign-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/reign-weapon.png",
+      "sha256": "36dc7bbc40713213df835d69938af0fc329a2eeb46eacafce3fb7b5097a39e0b",
+      "size": [
+        83,
+        138
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "repair-beam-weapon-center-large",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+      "sha256": "45557175482f10957c71b49c27f81d31f4b54615deca5c03e0585238e7773c3e",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "repair-beam-weapon-center",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center.png",
+      "sha256": "45557175482f10957c71b49c27f81d31f4b54615deca5c03e0585238e7773c3e",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "repair-beam-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+      "sha256": "b630133503c90899b93fbb240593ca5e9dcb27db68b403b9e97c6d9b21fb1a55",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "retusa-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+      "sha256": "2a4e8775f279510bab7cc06dca9173df685786791bd4de906aa0b36fd95aac12",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+      "sha256": "8954ebb1b4a1df1813040dc64132f6cda49c7c22713236925e9ac8f87edae272",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-phase-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-phase-cell.png",
+      "sha256": "55e270ea5d728ca07bcf556a3c06869bfea077690d56d3a10fd7e68f9b856c5a",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-phase",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-phase.png",
+      "sha256": "019fe1a7658443cdeccc2d26988241c27f09a6e66edbb1ee1496a67a5c131bfe",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-surge-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+      "sha256": "0bc810fe733aba53e8a6206a3275558228603ddbafc51670f2e65addd9e2cca1",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-surge-split-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split-cell.png",
+      "sha256": "5c48b6649ba5c71cc23ab8d8aba4b6a40f802ab064c5857c93fc87d3d9106f14",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split.png",
+      "sha256": "97b7a829759e3374841144b822c31fc401d3a05d296de3b8e48ef3f5d450a10d",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile-surge",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+      "sha256": "14058ccb7ae95ec05f1df8f676f48069aa900dd9f72ee9afa866fb92ec24753e",
+      "size": [
+        62,
+        95
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scathe-missile",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile.png",
+      "sha256": "dbb387ad2396e6d02677be328adfe302d11a3270386135894fc06893cb2986ad",
+      "size": [
+        58,
+        95
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scepter-mount",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scepter-mount.png",
+      "sha256": "81afea8e5d5cd2b40d5d16189b703b8bc6f8e8faaca68ed8ea3192c0f06d9a32",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "scepter-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+      "sha256": "8225ca041e1bfa7a90b35cd196b6c2a0251072984a24c6e020528895f78805e0",
+      "size": [
+        56,
+        102
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "sei-launcher",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/sei-launcher.png",
+      "sha256": "f710d0fd54c637143ec376ba17d90e03279f683fa823d0717bbc70f9b2298425",
+      "size": [
+        80,
+        80
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "small-basic-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+      "sha256": "29391ee827575e1d78e0736a5001a2cfa78a3db0fa934ea7f2e4e3a88f8d8ae6",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "small-mount-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+      "sha256": "da0b7edd6eacf02d167063f0d0fa21a70d192360dcfba202a8e3426c562efd79",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "small-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/small-weapon.png",
+      "sha256": "d4bc378cd9fa915a4b8f2b7169317669834b10248df81ae37ba3eaac2c2742fd",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "spiroct-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+      "sha256": "917965ba02c4687d343cd10bd2ee98b0fa134f0dbbcf33f4486fe2dfcbafafaf",
+      "size": [
+        48,
+        56
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "stell-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/stell-weapon.png",
+      "sha256": "4288f7f991a579d7f430f71bb890e395b294834c6f74bd18f8c646aeb0e7b777",
+      "size": [
+        64,
+        64
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "tecta-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/tecta-weapon-heat.png",
+      "sha256": "e606cf0ffb462a8aaf5f00bcabcd6c155163f676716300bd0ee535547d1a58e4",
+      "size": [
+        55,
+        121
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "tecta-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+      "sha256": "0c6a2e3adef2335e81e8399d6e3b96f4870042adedb7e11484ee066f5798e4cf",
+      "size": [
+        55,
+        121
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "toxopid-cannon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+      "sha256": "e46a150b16611821dab7cf519050421606a066c5ccd6b2378871971171dc18ad",
+      "size": [
+        206,
+        220
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vanquish-point-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+      "sha256": "41d615f3ffc8958ff5991bb69da53c05d372079b0b71c096e14b91fea6dfe968",
+      "size": [
+        28,
+        57
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vanquish-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/vanquish-weapon-heat.png",
+      "sha256": "b5f37d66029759f09801c6b5044fb14591a367050aaf1f7f33fd5197f625d1b1",
+      "size": [
+        74,
+        154
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "vanquish-weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/vanquish-weapon.png",
+      "sha256": "b24d07859bce4d6ce990cac47dd1a69fa8ec810fcacea4b3eb42d1e1cefec5ed",
+      "size": [
+        74,
+        154
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "vela-weapon-heat",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/vela-weapon-heat.png",
+      "sha256": "efb003b34e71143fcad136d4d88cf669f7880af9f36fd6f9ec786e61ae2c6341",
+      "size": [
+        170,
+        140
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "weapon",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/weapon.png",
+      "sha256": "81afea8e5d5cd2b40d5d16189b703b8bc6f8e8faaca68ed8ea3192c0f06d9a32",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "zenith-missiles",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+      "sha256": "9f535ebc1b83871200f7fb5d6fc3f3801864cb5baaa529c5e2744fa49be92cf8",
+      "size": [
+        48,
+        48
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    },
+    {
+      "id": "zenith-cell",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/zenith-cell.png",
+      "sha256": "dbe9690e66a16ce2c5556621ed930e7123d0df0477f7adb70b9539bd69339510",
+      "size": [
+        112,
+        112
+      ],
+      "maskLeakPixels": 0,
+      "issues": []
+    },
+    {
+      "id": "zenith",
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/zenith.png",
+      "sha256": "c03ed3ab73c23ea459ab12a32bea564927ed4352871c2aa9a4178e693848cd77",
+      "size": [
+        112,
+        112
+      ],
+      "maskLeakPixels": null,
+      "issues": []
+    }
+  ],
+  "contacts": [
+    "full-game/units/qa/atlas-01-dark.png",
+    "full-game/units/qa/atlas-01-light.png",
+    "full-game/units/qa/atlas-02-dark.png",
+    "full-game/units/qa/atlas-02-light.png",
+    "full-game/units/qa/atlas-03-dark.png",
+    "full-game/units/qa/atlas-03-light.png",
+    "full-game/units/qa/atlas-04-dark.png",
+    "full-game/units/qa/atlas-04-light.png",
+    "full-game/units/qa/atlas-05-dark.png",
+    "full-game/units/qa/atlas-05-light.png",
+    "full-game/units/qa/masks-01-dark.png",
+    "full-game/units/qa/masks-01-light.png",
+    "full-game/units/qa/masks-02-dark.png",
+    "full-game/units/qa/masks-02-light.png"
+  ],
+  "maskCount": 87,
+  "allMaskPixelsInsideNewShape": true,
+  "extraAtlasRegions": [
+    {
+      "id": "corvus-weapon",
+      "file": "full-game/units/engine/additional-atlas/corvus-weapon.png",
+      "sha256": "97708f7887ec842c49dd838cc9364e0abff3cd13cada831884e7502565dc84f5",
+      "generationRecord": "full-game/units/engine/additional-atlas/corvus-weapon.png.generation.json",
+      "size": [
+        214,
+        140
+      ],
+      "engineAnchorPx": [
+        107.0,
+        70.0
+      ],
+      "nativeFile": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+      "nativeGenerationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json",
+      "role": "weapon",
+      "sourceMapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+        "role": "weapon",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "selectionReason": "Named source weapon has a heat image but no standalone source-tree base PNG. The redesigned body-only art requires the already-authored independent laser module."
+      },
+      "registration": {
+        "type": "engine_atlas_export",
+        "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+        "sourceTrim": [
+          16,
+          16,
+          298,
+          360
+        ],
+        "sourcePivot": [
+          157.0,
+          280.88
+        ],
+        "rotationDegreesCCW": 0,
+        "destinationTopLeft": [
+          70,
+          1
+        ],
+        "sourceDimensions": [
+          314,
+          376
+        ],
+        "targetDimensions": [
+          214,
+          140
+        ],
+        "officialAlphaBounds": [
+          0,
+          0,
+          214,
+          140
+        ],
+        "scale": 0.26049531863485353,
+        "engineAnchorPx": [
+          107.0,
+          70.0
+        ]
+      },
+      "targetAtlasRegion": "corvus-weapon",
+      "integrationTarget": "core/assets-raw/sprites/units/weapons/corvus-weapon.png",
+      "sourceTreePath": "core/assets-raw/sprites/units/weapons/corvus-weapon.png",
+      "copyIntoSourceTree": true,
+      "disposition": "additional_complete_weapon_base_for_redesigned_body",
+      "reason": "Named source weapon has a heat image but no standalone source-tree base PNG. The redesigned body-only art requires the already-authored independent laser module.",
+      "sourcePNGPresent": false,
+      "sizeEvidence": "matching official corvus-weapon-heat canvas",
+      "engineNotVerified": true
+    },
+    {
+      "id": "vela-weapon",
+      "file": "full-game/units/engine/additional-atlas/vela-weapon.png",
+      "sha256": "579dafda0878300fb9ab0cd02e4db1395e81502796bcbdc321ed2937d2e86b14",
+      "generationRecord": "full-game/units/engine/additional-atlas/vela-weapon.png.generation.json",
+      "size": [
+        170,
+        140
+      ],
+      "engineAnchorPx": [
+        85.0,
+        70.0
+      ],
+      "nativeFile": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+      "nativeGenerationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json",
+      "role": "weapon",
+      "sourceMapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+        "role": "weapon",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "selectionReason": "Named source weapon has a heat image but no standalone source-tree base PNG. The redesigned body-only art requires the already-authored independent laser module."
+      },
+      "registration": {
+        "type": "engine_atlas_export",
+        "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+        "sourceTrim": [
+          16,
+          16,
+          298,
+          360
+        ],
+        "sourcePivot": [
+          157.0,
+          280.88
+        ],
+        "rotationDegreesCCW": 0,
+        "destinationTopLeft": [
+          48,
+          1
+        ],
+        "sourceDimensions": [
+          314,
+          376
+        ],
+        "targetDimensions": [
+          170,
+          140
+        ],
+        "officialAlphaBounds": [
+          0,
+          0,
+          170,
+          140
+        ],
+        "scale": 0.26049531863485353,
+        "engineAnchorPx": [
+          85.0,
+          70.0
+        ]
+      },
+      "targetAtlasRegion": "vela-weapon",
+      "integrationTarget": "core/assets-raw/sprites/units/weapons/vela-weapon.png",
+      "sourceTreePath": "core/assets-raw/sprites/units/weapons/vela-weapon.png",
+      "copyIntoSourceTree": true,
+      "disposition": "additional_complete_weapon_base_for_redesigned_body",
+      "reason": "Named source weapon has a heat image but no standalone source-tree base PNG. The redesigned body-only art requires the already-authored independent laser module.",
+      "sourcePNGPresent": false,
+      "sizeEvidence": "matching official vela-weapon-heat canvas",
+      "engineNotVerified": true
+    }
+  ],
+  "engineNotVerified": true,
+  "checkedAt": "2026-10-26T20:01:27.026718+00:00",
+  "visualReview": {
+    "status": "passed",
+    "reviewer": "units_air_erekir",
+    "method": "Actually viewed all 14 atlas/mask dark-light contacts plus 2 extra-component contacts and the 144-frame tread sheet.",
+    "criteria": [
+      "complete silhouettes and transparent edges",
+      "independent components have complete joint/pivot bases",
+      "neutral masks remain inside new shapes",
+      "official canvas and center preserved",
+      "all 144 runtime strips nonempty and in frame order"
+    ],
+    "contacts": [
+      {
+        "file": "full-game/units/qa/atlas-01-dark.png",
+        "sha256": "96262321c6fff4057b95e454bfee945e5daa2659f2fa3494a281504788a40a6e"
+      },
+      {
+        "file": "full-game/units/qa/atlas-01-light.png",
+        "sha256": "7e5697a4bf8469de328c796db6dc135de7b2be634247b32f64de97eb3e0c7dac"
+      },
+      {
+        "file": "full-game/units/qa/atlas-02-dark.png",
+        "sha256": "cef61bb31f0fd62b32f8203400b6e8f22723bfdfa9c1bfaa9e8f952e508eea2c"
+      },
+      {
+        "file": "full-game/units/qa/atlas-02-light.png",
+        "sha256": "fc8db2be2a696b954556d7eb09acadeeadd316e508e86e83e2cd5cc4cc65949d"
+      },
+      {
+        "file": "full-game/units/qa/atlas-03-dark.png",
+        "sha256": "989a2fab2bd6f244829c610e957123a126c68caf3807701fe1d11d7a5c396c99"
+      },
+      {
+        "file": "full-game/units/qa/atlas-03-light.png",
+        "sha256": "c172fe9b97df39768f653ba6ba1e889c72f87f4ad1270bc9ecaafe4c631a2dc6"
+      },
+      {
+        "file": "full-game/units/qa/atlas-04-dark.png",
+        "sha256": "1fa8d1bc61d4f46e768fec8cf407ec1d7754514055850259c0c78746bde2a9e3"
+      },
+      {
+        "file": "full-game/units/qa/atlas-04-light.png",
+        "sha256": "63f7558d0e64f996a82855886a4c1c2912b7facfb30f52849f4f65979cd1fcba"
+      },
+      {
+        "file": "full-game/units/qa/atlas-05-dark.png",
+        "sha256": "83f94acf925f92d619639d6b61035b34624ab338a43e710fa8dceb67bdc2a641"
+      },
+      {
+        "file": "full-game/units/qa/atlas-05-light.png",
+        "sha256": "ee844b8a075a11fda0a0ade965a82f7103bfef1ac8e98962d60dc1a1a18dc433"
+      },
+      {
+        "file": "full-game/units/qa/masks-01-dark.png",
+        "sha256": "7d6d6afd70ddaa3a815f2ae5b85e1ed168c0011f7d2eb357e9302ad8cbaf9e7d"
+      },
+      {
+        "file": "full-game/units/qa/masks-01-light.png",
+        "sha256": "acb4825f79fd96a2b03f72a3fc4b4957beeb7ea0bfef6547d3a1810dce3bf8bb"
+      },
+      {
+        "file": "full-game/units/qa/masks-02-dark.png",
+        "sha256": "b7bdf9aed965af33d309735bd85457444b57474cca82a575b345be5aefb74e40"
+      },
+      {
+        "file": "full-game/units/qa/masks-02-light.png",
+        "sha256": "b47b7a0d0d65d26680f62692c8906aefc12c2b772edbb2df422e368cb245343f"
+      },
+      {
+        "file": "full-game/units/qa/additional-dark.png",
+        "sha256": "ac39040cc09d49b6c51f81dab7c5cc27171581a4e036f57b466e83a3d250e902"
+      },
+      {
+        "file": "full-game/units/qa/additional-light.png",
+        "sha256": "3237117221c30c62c6217ddd579e145967b809fc219f9d63761246b537031381"
+      },
+      {
+        "file": "full-game/units/qa/treads-frames.png",
+        "sha256": "74926ffb04fa9ebb6ce079d6e4040386a3bc4d7d353366a707c6760d00a3431d"
+      }
+    ],
+    "caveat": "Contacts magnify small original-resolution atlas texels for inspection; they do not imply native HD resolution or in-engine verification."
+  },
+  "neutralMaskRgbVerified": true,
+  "extraAtlasCount": 2,
+  "generatedTreadCount": 144,
+  "uniqueGeneratedTreadHashes": 144,
+  "extraAndGeneratedChecks": [
+    {
+      "id": "corvus-weapon",
+      "file": "full-game/units/engine/additional-atlas/corvus-weapon.png",
+      "sha256": "97708f7887ec842c49dd838cc9364e0abff3cd13cada831884e7502565dc84f5",
+      "size": [
+        214,
+        140
+      ]
+    },
+    {
+      "id": "vela-weapon",
+      "file": "full-game/units/engine/additional-atlas/vela-weapon.png",
+      "sha256": "579dafda0878300fb9ab0cd02e4db1395e81502796bcbdc321ed2937d2e86b14",
+      "size": [
+        170,
+        140
+      ]
+    },
+    {
+      "id": "conquer-treads0-0",
+      "file": "full-game/units/generated-atlas/conquer-treads0-0.png",
+      "sha256": "8929da30069c86f4c5e2d83e0393239f18c5821f4139a9d88028ca195cdb9ec0",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-1",
+      "file": "full-game/units/generated-atlas/conquer-treads0-1.png",
+      "sha256": "b7c4742d0202aed64d05d06b510e28f9c6a16db06be32f7acde55345798615a6",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-2",
+      "file": "full-game/units/generated-atlas/conquer-treads0-2.png",
+      "sha256": "d9947c326e7adcb496697709f12a86c7544d80e4fdc9682f982560d482822deb",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-3",
+      "file": "full-game/units/generated-atlas/conquer-treads0-3.png",
+      "sha256": "ae9cbdaafabcdd04df3ac855d9ec99ad098bbad9fdd1ad69e70e94ef9bb789cf",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-4",
+      "file": "full-game/units/generated-atlas/conquer-treads0-4.png",
+      "sha256": "ba1a38652895b68f83d68416c7f3154fa0862fc56394575513015b83a7c3eed3",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-5",
+      "file": "full-game/units/generated-atlas/conquer-treads0-5.png",
+      "sha256": "79627e551cc014d3d2f0253d96fda4a89f4e471623e7ccdb817679cca1e0a44a",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-6",
+      "file": "full-game/units/generated-atlas/conquer-treads0-6.png",
+      "sha256": "0179fc8efa570c8116558ddc2c964e83ad6fde7be296a82070239fe76d457d42",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-7",
+      "file": "full-game/units/generated-atlas/conquer-treads0-7.png",
+      "sha256": "31f65ff02b4d12376080e5bba4153988a7a785b42dc3f82be139925a390e6892",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-8",
+      "file": "full-game/units/generated-atlas/conquer-treads0-8.png",
+      "sha256": "b525d30226106d9b4268e6ffa151ea08a567857145ed7837200f2b16457811ce",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-9",
+      "file": "full-game/units/generated-atlas/conquer-treads0-9.png",
+      "sha256": "280617fb06ac001ec8b9adb5ecacf9d748b88ed8eef115a3db384c0ff5818ed8",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-10",
+      "file": "full-game/units/generated-atlas/conquer-treads0-10.png",
+      "sha256": "d9d4bdda95ecb45df06094868f2b8839e2eef7b91f3a1598c03099443ca3ff32",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-11",
+      "file": "full-game/units/generated-atlas/conquer-treads0-11.png",
+      "sha256": "bed4e918b2b90788b3d046a9d360de2f33fe4917b47187f9143ca997f4ce5f88",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-12",
+      "file": "full-game/units/generated-atlas/conquer-treads0-12.png",
+      "sha256": "94abc640b11ccc58c7d76f1f01ae1197722531372935cda38f94c2488393bec2",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-13",
+      "file": "full-game/units/generated-atlas/conquer-treads0-13.png",
+      "sha256": "1e0e03c0ce1c7d38f573542b3ae91eb965fbe3b54a45c7dcbffe00bda3dd79a9",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-14",
+      "file": "full-game/units/generated-atlas/conquer-treads0-14.png",
+      "sha256": "9c7c1394e065356a4c530da812ef78a21d48d7a8ed4d9afd91581aef8ddb3f75",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-15",
+      "file": "full-game/units/generated-atlas/conquer-treads0-15.png",
+      "sha256": "d9a747d5e185a366c286a7dcfdeefddf81b33faf730280a856fa3c5422e8646a",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-16",
+      "file": "full-game/units/generated-atlas/conquer-treads0-16.png",
+      "sha256": "96d7620258c73f2d1c2bc57c5e32defe18fbfabafda5bfd2dfd0e39daebcd3d5",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads0-17",
+      "file": "full-game/units/generated-atlas/conquer-treads0-17.png",
+      "sha256": "5aba01fbb135d18ce0528afae12a9a178bdf6f0bb2648da7fe92e559b1473527",
+      "size": [
+        1,
+        73
+      ]
+    },
+    {
+      "id": "conquer-treads1-0",
+      "file": "full-game/units/generated-atlas/conquer-treads1-0.png",
+      "sha256": "bff3dece1b0564e2137c22442741645124e1c821071a645a4778b300146e668b",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-1",
+      "file": "full-game/units/generated-atlas/conquer-treads1-1.png",
+      "sha256": "b7a914582783e79d762603031a3970bd8605d356738a3eebd4708fc18b32e6bf",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-2",
+      "file": "full-game/units/generated-atlas/conquer-treads1-2.png",
+      "sha256": "cf151ee209c14959b0be19c2c49617448f6df32c9c3417a51ea5395eb1a6d23c",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-3",
+      "file": "full-game/units/generated-atlas/conquer-treads1-3.png",
+      "sha256": "f14eae5754df0b7ea0effa6ea346742a9776a7e02956e079ff36aa26249b26a0",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-4",
+      "file": "full-game/units/generated-atlas/conquer-treads1-4.png",
+      "sha256": "aa871cbe987faceea84b2b3f9581690712f6d85aae96f0db1bc2898b34731df8",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-5",
+      "file": "full-game/units/generated-atlas/conquer-treads1-5.png",
+      "sha256": "b38111234857847866ede1ba8d6a07d3ef57817da1b5148b102d7f57db26764d",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-6",
+      "file": "full-game/units/generated-atlas/conquer-treads1-6.png",
+      "sha256": "8bf2d35938ba5d77f2b9556b30fbcb9ed1ee5ca0c0dd86df61adad50d2516574",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-7",
+      "file": "full-game/units/generated-atlas/conquer-treads1-7.png",
+      "sha256": "cfe8519c93d3af54a985a05e5e66ed6ecc18043fd1dd041795263daf14d31b45",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-8",
+      "file": "full-game/units/generated-atlas/conquer-treads1-8.png",
+      "sha256": "0377151a4161c5b38d1b668823989d1e0736c9f3990f37ba7c1ae5d77524e554",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-9",
+      "file": "full-game/units/generated-atlas/conquer-treads1-9.png",
+      "sha256": "b00f70831eb5faff4e65bc5b7adedefbc402bebdd696911718d3af6e88ba759c",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-10",
+      "file": "full-game/units/generated-atlas/conquer-treads1-10.png",
+      "sha256": "16ffb755ab05a35eb71d31118fd161ad0e2481b14640f41cedd91757b4d01b14",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-11",
+      "file": "full-game/units/generated-atlas/conquer-treads1-11.png",
+      "sha256": "b37fe63dcb6162c3ca7e20a61ba002c8fa51f02abfd6c25257b95f84c6359344",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-12",
+      "file": "full-game/units/generated-atlas/conquer-treads1-12.png",
+      "sha256": "23ea4c3274c3d8095907df4d826f4e366669954f85c71737d31beba5cc5ae57d",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-13",
+      "file": "full-game/units/generated-atlas/conquer-treads1-13.png",
+      "sha256": "be67a800687fcb8ac40f945232afc9da9a7c0f864bc007f0296f38369b3e3af8",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-14",
+      "file": "full-game/units/generated-atlas/conquer-treads1-14.png",
+      "sha256": "0c50066e76660702e30e143bcdbc97d4c6546a540d0d3a6c902279f1a9a4833d",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-15",
+      "file": "full-game/units/generated-atlas/conquer-treads1-15.png",
+      "sha256": "c8164ec0016caed77f8709abe391cf21e843b6fc570b334cf623dadb4c6f00d7",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-16",
+      "file": "full-game/units/generated-atlas/conquer-treads1-16.png",
+      "sha256": "5d76bd81ccdf90d516941eaa3cca2f98398bc790b29cfaa31d6e1d681142708e",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads1-17",
+      "file": "full-game/units/generated-atlas/conquer-treads1-17.png",
+      "sha256": "ff0a444bbb9e6ea11e92e27d7961f51872d282948c7cf0a60f96fca0eca6ce73",
+      "size": [
+        1,
+        17
+      ]
+    },
+    {
+      "id": "conquer-treads2-0",
+      "file": "full-game/units/generated-atlas/conquer-treads2-0.png",
+      "sha256": "aedbaa687055a39c3b68e87c0716b1cdd229dfbdf758f83343a89386337e5a00",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-1",
+      "file": "full-game/units/generated-atlas/conquer-treads2-1.png",
+      "sha256": "b30eeca86a0dd8df9a9afa043f7952e7fa538b33214d5b77329b57d3bfc1e7cd",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-2",
+      "file": "full-game/units/generated-atlas/conquer-treads2-2.png",
+      "sha256": "685851f468187b72c140776e3df17ee4db08c8f48a15303c86924206ecd86406",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-3",
+      "file": "full-game/units/generated-atlas/conquer-treads2-3.png",
+      "sha256": "98023d773fab073f8530b901da7f4b0fc081e241c547c26b49516ecfcfc6259c",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-4",
+      "file": "full-game/units/generated-atlas/conquer-treads2-4.png",
+      "sha256": "462c13c807a97c8ef96764821d0023b09679b58a899ca01f70c705d2cfb01d5e",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-5",
+      "file": "full-game/units/generated-atlas/conquer-treads2-5.png",
+      "sha256": "991437d700024f707e226914294a94c9d1bf36f37041b27000b36bf7111d2adb",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-6",
+      "file": "full-game/units/generated-atlas/conquer-treads2-6.png",
+      "sha256": "c0c2201e3362deee6d660fcd15c7993086eedb0bd30ee6edcd1a41f9a213002c",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-7",
+      "file": "full-game/units/generated-atlas/conquer-treads2-7.png",
+      "sha256": "4f1fc1b4ecb5d230ca21a51d16f1d77d80b63b545abd89b5a4d505018d72e64f",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-8",
+      "file": "full-game/units/generated-atlas/conquer-treads2-8.png",
+      "sha256": "6865dcd124b0c9e237ec6eb43138e12b196d903b02e37ab69aa0466901108ee4",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-9",
+      "file": "full-game/units/generated-atlas/conquer-treads2-9.png",
+      "sha256": "56d28582b2ae129cf77917639caacd6ffa8419513b88682da9c341754321b39f",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-10",
+      "file": "full-game/units/generated-atlas/conquer-treads2-10.png",
+      "sha256": "4371b5250b21b27ed48cc8f2c8723698f4c9d4244706b25681fedef98e429b0c",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-11",
+      "file": "full-game/units/generated-atlas/conquer-treads2-11.png",
+      "sha256": "a61f86b783299b71cf01ea9a8adeaa259a833ab3799bb20183188bde17dcf103",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-12",
+      "file": "full-game/units/generated-atlas/conquer-treads2-12.png",
+      "sha256": "d4916c1ed60a4a867b7ce7bc5b1fcb713045185e5b9f964350b297b2d2043c80",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-13",
+      "file": "full-game/units/generated-atlas/conquer-treads2-13.png",
+      "sha256": "eb8c4816864e0d148ea6b6a9476eb8bbb935b87cbd19687a67146dba012acd80",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-14",
+      "file": "full-game/units/generated-atlas/conquer-treads2-14.png",
+      "sha256": "812b7d107b67efe1b397dab50daa82225df1ea69db5a5f5e8881347c4966cd2e",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-15",
+      "file": "full-game/units/generated-atlas/conquer-treads2-15.png",
+      "sha256": "6fd9c6e327c8253b546b781f4c044fa1556ce7995e8047f918e0f9a3272393f0",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-16",
+      "file": "full-game/units/generated-atlas/conquer-treads2-16.png",
+      "sha256": "25cbcd575628a3e61aff6ab0e3944d7d1deb9296e304762a18b09fc3b09de90c",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "conquer-treads2-17",
+      "file": "full-game/units/generated-atlas/conquer-treads2-17.png",
+      "sha256": "d4df4484f65dd38cbe0cef313b4f971909abd39d0bff95719e13b75f0b63f280",
+      "size": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "locus-treads0-0",
+      "file": "full-game/units/generated-atlas/locus-treads0-0.png",
+      "sha256": "6919c173d99eb6e7ed183a723bff3fcb1bcffb1017589256653e0eaa1340c948",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-1",
+      "file": "full-game/units/generated-atlas/locus-treads0-1.png",
+      "sha256": "ab18e4779cf61aabdddcc259546388a6149c52b42d12b2fea7fc89e93941bfb9",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-2",
+      "file": "full-game/units/generated-atlas/locus-treads0-2.png",
+      "sha256": "8931897ac45d0ffb748346ae828a1111dbbe64711bd63e0edf6eae204cfbb74b",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-3",
+      "file": "full-game/units/generated-atlas/locus-treads0-3.png",
+      "sha256": "ac445ea42e17035dd01d9e8d0553d7eca0fefb15d60df0a189df38dfb3cdc026",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-4",
+      "file": "full-game/units/generated-atlas/locus-treads0-4.png",
+      "sha256": "d43bac665e25c4f673c67ab3b9efc3e4642b5c598859381dfd614cfc3a94d24a",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-5",
+      "file": "full-game/units/generated-atlas/locus-treads0-5.png",
+      "sha256": "64ab381194a36ec6d4e83aa454fb7039f085ed50ee76d2dc5a7c75af5c1bb2dd",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-6",
+      "file": "full-game/units/generated-atlas/locus-treads0-6.png",
+      "sha256": "ddf7ca02fc57e5d6db10738e68ba9f325a766b09c063eb520612e972c7fc81dc",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-7",
+      "file": "full-game/units/generated-atlas/locus-treads0-7.png",
+      "sha256": "381718f63a7823ccde9ad058428ef9868f8c72d090878853d900b8fe94616a4d",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-8",
+      "file": "full-game/units/generated-atlas/locus-treads0-8.png",
+      "sha256": "db613e0827f368278ad653d61dcaeac38df5eae337e9c4e934d7e56b6fd3535f",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-9",
+      "file": "full-game/units/generated-atlas/locus-treads0-9.png",
+      "sha256": "b777c54b1726fba7d6eb5933fbf0a219045afded907fb5b5e73322780ca33ce3",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-10",
+      "file": "full-game/units/generated-atlas/locus-treads0-10.png",
+      "sha256": "773a03936d418d5301769f4b566b9e4e9d687cf0145f540ed7e6c8a0d0b37a2e",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-11",
+      "file": "full-game/units/generated-atlas/locus-treads0-11.png",
+      "sha256": "34fcb26ec93b61038c7af81dbb96a3831629ddc220d0447d068733db16ccdaa5",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-12",
+      "file": "full-game/units/generated-atlas/locus-treads0-12.png",
+      "sha256": "a32ece2e127f03f3db72f258d2c038d6347736632fe95a649c51310bedbd94ad",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-13",
+      "file": "full-game/units/generated-atlas/locus-treads0-13.png",
+      "sha256": "cded3276e5e3d30083c10418c9b61be222c9ffe496609132f5863d4db60f06c7",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-14",
+      "file": "full-game/units/generated-atlas/locus-treads0-14.png",
+      "sha256": "ad06af81028d69f2b9fc05a7f778a3f39bdd081123c57ddb6233dd3d8799c607",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-15",
+      "file": "full-game/units/generated-atlas/locus-treads0-15.png",
+      "sha256": "3fac7d390d76cb8fae28263a7b20c9088e77016d5f1c96771a0a0c6f3c426370",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-16",
+      "file": "full-game/units/generated-atlas/locus-treads0-16.png",
+      "sha256": "4466c2cf02dc4067836141571fd7310d114831544a0b72171c32e71b92a299e6",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "locus-treads0-17",
+      "file": "full-game/units/generated-atlas/locus-treads0-17.png",
+      "sha256": "ea87477dc075642620d2995799ab5026e400428d840c656fd09a518923958c59",
+      "size": [
+        1,
+        76
+      ]
+    },
+    {
+      "id": "precept-treads0-0",
+      "file": "full-game/units/generated-atlas/precept-treads0-0.png",
+      "sha256": "7d80124f78a203797c5c1d8a219626ae9aaf6ec701d657d8ba8bda45b9b08131",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-1",
+      "file": "full-game/units/generated-atlas/precept-treads0-1.png",
+      "sha256": "4430015127aa22c8074a0772133ba936db391be78543e6d7025ff7a1f9d4f56a",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-2",
+      "file": "full-game/units/generated-atlas/precept-treads0-2.png",
+      "sha256": "b4af560e824a4247327da104957c111347899c3ef832bd54181280429705b943",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-3",
+      "file": "full-game/units/generated-atlas/precept-treads0-3.png",
+      "sha256": "d8ae022b6572798557c25d55bce5a189643fda593fb1488f9bd3c938dcc34fd9",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-4",
+      "file": "full-game/units/generated-atlas/precept-treads0-4.png",
+      "sha256": "00f995d4f88d6348c296389c006bf4629c52fe2ed490c27aebd14343c6e7cd00",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-5",
+      "file": "full-game/units/generated-atlas/precept-treads0-5.png",
+      "sha256": "b35e04bf0262a58f8120f6c53b4c3532d71c97792e3766f197990d3c047d33f0",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-6",
+      "file": "full-game/units/generated-atlas/precept-treads0-6.png",
+      "sha256": "41075a55ca496d936f281a3b3cefd0c0dc366e3dfeb0fbb687462fd1d1d0781b",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-7",
+      "file": "full-game/units/generated-atlas/precept-treads0-7.png",
+      "sha256": "9f6ce3ead12836a79cc6dc16afad61b786980ab348aebe563a093d247329555b",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-8",
+      "file": "full-game/units/generated-atlas/precept-treads0-8.png",
+      "sha256": "c7d092b0b19a2f042a8fadf1f054f9f166b036bf0a4f4c6262386afffd3ff1ff",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-9",
+      "file": "full-game/units/generated-atlas/precept-treads0-9.png",
+      "sha256": "037728ad232829bde40d27e62aef67430625a86a056c0c015d46117ead168797",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-10",
+      "file": "full-game/units/generated-atlas/precept-treads0-10.png",
+      "sha256": "6e5532f67ce82ee2c96ac0d7de700ac4be600dbff04e8e74b7e5b0cb37a79cb6",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-11",
+      "file": "full-game/units/generated-atlas/precept-treads0-11.png",
+      "sha256": "40100d50efd93fd091bfb7349907ce41b60e4690a05012512fc75746e5558a54",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-12",
+      "file": "full-game/units/generated-atlas/precept-treads0-12.png",
+      "sha256": "802a76aa21f80f721c8360ed54cacc100497011d1e2b155a2c6170e01d8ebedb",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-13",
+      "file": "full-game/units/generated-atlas/precept-treads0-13.png",
+      "sha256": "267cc0debd4f80775328a242104d3667ddb04c954fa956540abbe0bb9b3ffb27",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-14",
+      "file": "full-game/units/generated-atlas/precept-treads0-14.png",
+      "sha256": "1a9cd53ae6f52a548fadbb9c59a34369b5be8f144bbf92b4ea3e8b24e0e2641f",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-15",
+      "file": "full-game/units/generated-atlas/precept-treads0-15.png",
+      "sha256": "bb968378845e7997dad4cf51373f02ea631067552fd5fc92235dc4dcf52d6af1",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-16",
+      "file": "full-game/units/generated-atlas/precept-treads0-16.png",
+      "sha256": "750450fe0a2d1f095ea7b93d9addf36dc5f8480389c37944a04ac7a639abba51",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads0-17",
+      "file": "full-game/units/generated-atlas/precept-treads0-17.png",
+      "sha256": "f3a508d89c9e91dab24aa82db506732ff2843418d6d80b0a42dde692ae443f0f",
+      "size": [
+        1,
+        75
+      ]
+    },
+    {
+      "id": "precept-treads1-0",
+      "file": "full-game/units/generated-atlas/precept-treads1-0.png",
+      "sha256": "b0d3936a8ee321652886733bd3ca14eb4e1f6a28f7e9635d54fcd7564a46f68a",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-1",
+      "file": "full-game/units/generated-atlas/precept-treads1-1.png",
+      "sha256": "cfc02e6e3c0996ab8cf2f9fba864f3a06101e6a8597cb7c93ba2bf4b15bac0ba",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-2",
+      "file": "full-game/units/generated-atlas/precept-treads1-2.png",
+      "sha256": "b6e8d8cf50b1b31d131b606af6a1e9b48fafda8cffff5c8258d841658296e35e",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-3",
+      "file": "full-game/units/generated-atlas/precept-treads1-3.png",
+      "sha256": "f3c73d2103c4cb80989863c93711830667d864ff107217639a45bb30c1409fde",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-4",
+      "file": "full-game/units/generated-atlas/precept-treads1-4.png",
+      "sha256": "d32552aae909a6ece29685a5231e1df52becd0718a90b59872a3b3f8065282cd",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-5",
+      "file": "full-game/units/generated-atlas/precept-treads1-5.png",
+      "sha256": "1d12d2299527d4d44bf01197441b572d1ab4dd5c0bbf92373d060d7925ca9b5d",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-6",
+      "file": "full-game/units/generated-atlas/precept-treads1-6.png",
+      "sha256": "9f56dc4e78f1f986c48833aaea419cb7a460f4e622a5367b6b7d6f6781222ada",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-7",
+      "file": "full-game/units/generated-atlas/precept-treads1-7.png",
+      "sha256": "cfeba401b130984a2f54ed99cc34e31edc51ea94e4326650efdf8a8e113a10d8",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-8",
+      "file": "full-game/units/generated-atlas/precept-treads1-8.png",
+      "sha256": "099969c213c2b1894639824c4c6ee19dab2fd01474bfd10167e8f0921f0ef955",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-9",
+      "file": "full-game/units/generated-atlas/precept-treads1-9.png",
+      "sha256": "55e7e7f7743d01d295bc1ab718f9143bd8759faf8ef71793e7a1eb7e22e8063c",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-10",
+      "file": "full-game/units/generated-atlas/precept-treads1-10.png",
+      "sha256": "0565d068dcb3dab836cff909bf18de6c9b2c4cd86e1774bde5ca63e7191e77fc",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-11",
+      "file": "full-game/units/generated-atlas/precept-treads1-11.png",
+      "sha256": "78c1d9445bc8fe3c7d196f50857cf29201e8d4ea680dbb8aefba1b04b8a4bd93",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-12",
+      "file": "full-game/units/generated-atlas/precept-treads1-12.png",
+      "sha256": "22c9eb5258ba53901b196c1ad37703c384309f563f2cc3ae3be25fed7dc4ced4",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-13",
+      "file": "full-game/units/generated-atlas/precept-treads1-13.png",
+      "sha256": "93f6f4388048079dcbee9775bd72a02f2913e891c9094f7d6ebbb65053a7d410",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-14",
+      "file": "full-game/units/generated-atlas/precept-treads1-14.png",
+      "sha256": "f98af4a683d83977f34afb7ddcd59519fbb0b4b25f6cb55a34d9f0c9069f6db4",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-15",
+      "file": "full-game/units/generated-atlas/precept-treads1-15.png",
+      "sha256": "2d4478b31a7938f66bce53297a8d9224d7d47686e4b1ec636b2918f0a37d63c3",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-16",
+      "file": "full-game/units/generated-atlas/precept-treads1-16.png",
+      "sha256": "a8b866ad470e0447571a218ea1c774b5fa0c38953947a4e9afe8275b6b0c39bc",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "precept-treads1-17",
+      "file": "full-game/units/generated-atlas/precept-treads1-17.png",
+      "sha256": "0f7388cd97ddc3679c1f8b1213897b563127a2662ed2369c726aef39483dbcc2",
+      "size": [
+        1,
+        60
+      ]
+    },
+    {
+      "id": "stell-treads0-0",
+      "file": "full-game/units/generated-atlas/stell-treads0-0.png",
+      "sha256": "8754ee6f94723f179ddae1dc46ad694cdc17627995bfbb772d654851f7afb4c1",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-1",
+      "file": "full-game/units/generated-atlas/stell-treads0-1.png",
+      "sha256": "d1ee2e44776f185277cb01d9a1d2946f753f8ffff1e63d5e2c84c87481aaf5e1",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-2",
+      "file": "full-game/units/generated-atlas/stell-treads0-2.png",
+      "sha256": "7dccf652482b77b433ac10af883f0658c93a3c2825a4bb5b1bcc676df04acf0b",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-3",
+      "file": "full-game/units/generated-atlas/stell-treads0-3.png",
+      "sha256": "f4ad0315b8cc5099530d7a30341602bde391b33fa1ae00ac6e6bb6ea3607fd9b",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-4",
+      "file": "full-game/units/generated-atlas/stell-treads0-4.png",
+      "sha256": "5fcd3fc5aa133914e283c543e1cb64a98dbb22c9d21319cce1686937562634a4",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-5",
+      "file": "full-game/units/generated-atlas/stell-treads0-5.png",
+      "sha256": "65dd335600fe451e96eaea7cf81c25aeeb80a7267c5acb8f64f56450cc5ccf71",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-6",
+      "file": "full-game/units/generated-atlas/stell-treads0-6.png",
+      "sha256": "e33392e8b8024d536fa2a3e8360d9e9f2ec634891500d20d2a205d1497c7647f",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-7",
+      "file": "full-game/units/generated-atlas/stell-treads0-7.png",
+      "sha256": "e611558a1f1a3bc54386f00de22c1250fbee3b91159f39dcbbeb97271f452dfb",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-8",
+      "file": "full-game/units/generated-atlas/stell-treads0-8.png",
+      "sha256": "73c1cc2cc77739a14e87becafec9359ad301cd514165cd0efc162e8093757b89",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-9",
+      "file": "full-game/units/generated-atlas/stell-treads0-9.png",
+      "sha256": "324a11f392a934f9d69b6fb60b26df20d09af72d41658a40646da5d7e5a69275",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-10",
+      "file": "full-game/units/generated-atlas/stell-treads0-10.png",
+      "sha256": "7b788f4e32380d864b73acbd0543db1ee5c4ef40eaf7ffafd74c8c03bfe905c5",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-11",
+      "file": "full-game/units/generated-atlas/stell-treads0-11.png",
+      "sha256": "95c0a46e7f847a5fea1ba13f8475711ad050e1cb65e28fd324e648b05625e07e",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-12",
+      "file": "full-game/units/generated-atlas/stell-treads0-12.png",
+      "sha256": "fba8172094e32637293b22d79ca6de20b7a6f60ae8aa827fdaf7e07dc3ed30df",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-13",
+      "file": "full-game/units/generated-atlas/stell-treads0-13.png",
+      "sha256": "cb0bda7e28f66a19fb1ae52be8177c6f522a0d8cb04f112694822c357b4a6a29",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-14",
+      "file": "full-game/units/generated-atlas/stell-treads0-14.png",
+      "sha256": "05a76650c31150ce059c36d8273ebc7ade7fcefc8434ba06770bdb153d74013d",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-15",
+      "file": "full-game/units/generated-atlas/stell-treads0-15.png",
+      "sha256": "2267510d0c408c382e3b43ca1fc06a42099f37fa9a8bdb74fc4705bfdc93bdbf",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-16",
+      "file": "full-game/units/generated-atlas/stell-treads0-16.png",
+      "sha256": "945dad526ebbf29ff5f6632feb498ce96dc591a21262ab7f696f6dd578ad3912",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "stell-treads0-17",
+      "file": "full-game/units/generated-atlas/stell-treads0-17.png",
+      "sha256": "4792532eb65e8d63118d22acb4b5362cdc602ad0e536c95da9c0bae2b37e4982",
+      "size": [
+        1,
+        51
+      ]
+    },
+    {
+      "id": "vanquish-treads0-0",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-0.png",
+      "sha256": "cc511e89d043b6eb772719a3d40f57edba1860cd4e91a96e1b4a95a2890248ae",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-1",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-1.png",
+      "sha256": "a4a6620ad528893037e3da4ff6e7fa6f9585ba02a4bb28cd0fca532714e10d60",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-2",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-2.png",
+      "sha256": "f82745f34dc605941aa22d95bac270612f6c8cc2798e772579ef813e35d39514",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-3",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-3.png",
+      "sha256": "6a1889eb2b1bd7faf770ba4e3fb9c5c7a1b33284ecf8781ed70a5b0a64d8186e",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-4",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-4.png",
+      "sha256": "8081742bb8f1643570da4118b019cfc02fafc1d98eb0cc19642d0f6f5f3e284b",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-5",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-5.png",
+      "sha256": "60a48e48f4b0ce3a7dfd66fc36fabc7ad24905430a0a6789c7aead551db6e415",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-6",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-6.png",
+      "sha256": "b2ec64a47faa2e423c1fd0cc1a453053cca5f997abe23bfc50c00f6b675061c2",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-7",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-7.png",
+      "sha256": "04785a2975afb988f72da0beecdb2ffc1ff88ea88754950a5d13fd302789c54d",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-8",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-8.png",
+      "sha256": "96033241b513e0693475399ccb4bb69061cccd232e4bf9b23c09284a405b506c",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-9",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-9.png",
+      "sha256": "ab4db76d37f85ab38192d3f70c8cfed8f865a75611141577ddba01785db39d57",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-10",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-10.png",
+      "sha256": "2be6e5005f5530c1bd8bda5edde1c77b1c0054e38c508b4031cd6ed6dbee8cea",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-11",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-11.png",
+      "sha256": "d91c2bf11bd9fb82893ca33dfdb6c71b496e275127037b9418dbb1df09de6ca1",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-12",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-12.png",
+      "sha256": "82fdcd248a127004ea9d36fc137b7e725bcce087d2a07e6d614fd5dff0bf7878",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-13",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-13.png",
+      "sha256": "071dcc29f53c24e78f826049f104adfd8fccc24cd842597acf55ed6423d792bf",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-14",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-14.png",
+      "sha256": "55dbe3634f003136c4e2170777d842e93b10a37207f0866951ea4d403091c218",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-15",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-15.png",
+      "sha256": "fea8b69df134709a6ad7373ecb70ad7e11e0e07b14c15ed2454bcca07ad18590",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-16",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-16.png",
+      "sha256": "7df6dd404a9ea0fcb50ddbf0d4808a72e46bc6621411a83d8c9ac5f6ecafb1c5",
+      "size": [
+        1,
+        130
+      ]
+    },
+    {
+      "id": "vanquish-treads0-17",
+      "file": "full-game/units/generated-atlas/vanquish-treads0-17.png",
+      "sha256": "a73b13bd01d8e1484125edd941fd248326a910cf65ed7941b9ec7d00b4dabe89",
+      "size": [
+        1,
+        130
+      ]
+    }
+  ]
+}

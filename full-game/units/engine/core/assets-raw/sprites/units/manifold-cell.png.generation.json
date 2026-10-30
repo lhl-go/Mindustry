@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/manifold-cell.png",
+  "sha256": "1a2e49498acb4a8dea4f6608b0ce399527599e84ad49d925b842b381f4d9bc89",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/manifold.png",
+      "sha256": "032686c1ac9c4ba9d6e06e18a9f3c625c26dc0dbfb1f169fef65970084dd7539",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/manifold.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "manifold",
+    "baseCanvas": [
+      96,
+      96
+    ],
+    "outputCanvas": [
+      96,
+      96
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/manifold-cell.png",
+    "gitBlobSha1": "d921e81cb14cce210d486747e2be525b7ae3a766",
+    "sha256": "61c53af8b5bc1a1dc35da396895f6af6ec67fea97f9bc489b3cd15a7e9a4c473"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

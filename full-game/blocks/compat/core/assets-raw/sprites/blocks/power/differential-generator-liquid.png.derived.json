@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/differential-generator-liquid.png",
+  "sourceGitBlob": "0595a9ad1cb7fdbfcab65664d3aa8f7481f232f7",
+  "sourceSha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "differential-generator-liquid",
+  "blockId": "differential-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator-liquid.png",
+  "sha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator-liquid.png",
+  "engineSha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/power/differential-generator-liquid.png",
+  "nativeSha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979",
+  "nativeSize": [
+    96,
+    96
+  ],
+  "sourceAlphaBounds": [
+    42,
+    42,
+    54,
+    54
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/differential-generator-liquid.png",
+      "sha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/differential-generator-liquid.png",
+      "sha256": "6886cb71ec5ed6ba9529cb3f54cfb887da52f11a3f67c7c96f8e81b05ee74979"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

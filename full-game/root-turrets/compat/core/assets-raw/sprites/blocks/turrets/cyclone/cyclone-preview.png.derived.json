@@ -1,0 +1,43 @@
+{
+  "region": "cyclone-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-preview.png",
+  "sha256": "a75f0e4d838b26329abc274a8c9b464c772a588c463ebaf18b9db7cb04a16dfe",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.571659+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone.png",
+      "sha256": "8ac09d29ad23c2f941b8e946342702a4ab1c69843a965da1b9e334659b50b7cc",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-1.png",
+      "sha256": "f08d6e6486d9259d95805dbbb4d168c9921ad9c1cc15ea7b56bdfc8f6f50a9ad",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-1.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-2.png",
+      "sha256": "ed683e43da9ff044681c39039f403149f658ff150bef8d66dd4a1780023c1898",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-2.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-3.png",
+      "sha256": "86e94ce7fff0dce91aa583e7a6c470ba712e09e3d835bd7ed0a49087fa49be8c",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-3.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

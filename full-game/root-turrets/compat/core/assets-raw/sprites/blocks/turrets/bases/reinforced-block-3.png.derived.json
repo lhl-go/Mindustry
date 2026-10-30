@@ -1,0 +1,42 @@
+{
+  "region": "reinforced-block-3",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/bases/reinforced-block-3.png",
+  "sha256": "4cb4c5081c506c601a4261ec0dab2b75fc8db377a70f934d814616bbda2b9fe9",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.018008+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/reinforced-block-3.png",
+      "sha256": "bb0e99c36234235f0e5d4aca86dea02a2e577150190056cc77effa8887ecaa17",
+      "record": "full-game/root-turrets/masters/reinforced-block-3.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/bases/reinforced-block-3.png",
+      "sha256": "8878afabc62b2ca73388f837af684261fe9a6bdd48d08370cb0484b8394bc3cf",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      0,
+      0,
+      96,
+      96
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      310,
+      311
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

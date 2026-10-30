@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-stone-boulder3.png",
+  "sha256": "499e2cfcd7d70142ada70b6f3e344651b290e7aa3e703cb8632daa19814d7266",
+  "size": [
+    273,
+    234
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/17-rock-ground-props.png",
+      "sha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9",
+      "generationRecord": "full-game/terrain/source/17-rock-ground-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    654,
+    365,
+    927,
+    599
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

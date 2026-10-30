@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-synthesizer-weave-glow.png",
+  "sourceGitBlob": "6766157c7201d0d580527ba4eaa1b0796ea91946",
+  "sourceSha256": "4fef5ac3b5bcfdeb74e4b5ba164c86a5179b4406670484b627be0ed1c24daa75",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "phase-synthesizer-weave-glow",
+  "blockId": "phase-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave-glow.png",
+  "sha256": "916e9d4d7478a1c8416e1ab69be2373e31d42e26928bc58c7902ab9e1e7d6d16",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave-glow.png",
+  "engineSha256": "916e9d4d7478a1c8416e1ab69be2373e31d42e26928bc58c7902ab9e1e7d6d16",
+  "nativeFile": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+  "nativeSha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c",
+  "nativeSize": [
+    190,
+    374
+  ],
+  "sourceAlphaBounds": [
+    26,
+    17,
+    70,
+    79
+  ],
+  "operation": {
+    "kind": "new_weave_aligned_neutral_glow",
+    "runtimeMotion": "two counter-rotating layers",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+      "sha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-synthesizer-weave-glow.png",
+      "sha256": "4fef5ac3b5bcfdeb74e4b5ba164c86a5179b4406670484b627be0ed1c24daa75"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,42 @@
+{
+  "region": "sublimate-nozzle-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png",
+  "sha256": "2a146ee2cdac58282a111c328bf4d8f821f25b857e11807833bbe32448c0145e",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.237085+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/sublimate-nozzle-l.png",
+      "sha256": "afec106277feb3a48e89c864973790f411aa937848741ba2cac899c3557bdf11",
+      "record": "full-game/root-turrets/masters/sublimate-nozzle-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png",
+      "sha256": "e4a0ffefbbada79efd4034adfbd5b5ec28797f774a05e74f297e16d9c54b7f0c",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      48,
+      8,
+      73,
+      51
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      188,
+      322
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

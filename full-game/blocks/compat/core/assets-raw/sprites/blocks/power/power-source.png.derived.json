@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/power-source.png",
+  "sourceGitBlob": "1cc73a2ce0990d449c824b61183837641f281aa7",
+  "sourceSha256": "bc78aa9e25c42e20099808cdd06a2b987f0e24e3dbbf2fed3c04020dc68c5aa5",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "power-source",
+  "blockId": "power-source",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-source.png",
+  "sha256": "c197bb44296e1ad4a68b73d57c12b56f5e50c77d67d917378672d1bdc735b130",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-source.png",
+  "engineSha256": "c197bb44296e1ad4a68b73d57c12b56f5e50c77d67d917378672d1bdc735b130",
+  "nativeFile": "full-game/blocks/masters/power-source.png",
+  "nativeSha256": "c1331a6518a002eeb4d4fb680413c9e513708b6bfd7be55bf7ab79ed799d9d9f",
+  "nativeSize": [
+    330,
+    320
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/power-source.png",
+      "sha256": "c1331a6518a002eeb4d4fb680413c9e513708b6bfd7be55bf7ab79ed799d9d9f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/power-source.png",
+      "sha256": "bc78aa9e25c42e20099808cdd06a2b987f0e24e3dbbf2fed3c04020dc68c5aa5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-source.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

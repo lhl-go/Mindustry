@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/navanax.png",
+  "sha256": "32a5f45789d612e83d8c2c0fb88da2f9cf7ad043bd58cb5648655bc482279083",
+  "width": 258,
+  "height": 366,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/navanax-body.png",
+      "sha256": "8f7359cd2d97cf72d63a80b8095d02a692d6c05ba97581edf0dc9912583a984d",
+      "generationRecord": "units/serpulo-root-parts/layers/navanax-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      485,
+      509
+    ],
+    "sourcePivot": [
+      258.5,
+      270.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      52
+    ],
+    "sourceDimensions": [
+      517,
+      541
+    ],
+    "targetDimensions": [
+      258,
+      366
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      254,
+      362
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      129.0,
+      183.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/navanax.png",
+    "gitBlobSha1": "17cf6bb068d0013d3bd42b750f61e2f3fa0489b7",
+    "sha256": "6a4b524e9dfe720765e8a43a447779394b16006f0d39d9574041144f9ab3587b"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

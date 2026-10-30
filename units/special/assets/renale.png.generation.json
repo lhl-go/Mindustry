@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/assets/renale.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.570018+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 442,
+  "height": 881,
+  "sha256": "ab832cbfcc66bb308f47533de7a22b4d7d542c518abad7737e56d84fafb85382",
+  "derivedFrom": [
+    {
+      "file": "units/special/layers/renale-segment2.png",
+      "sha256": "712595a9a3bbef593b18f2c35f589853ff8fc2ca4cce8a2579fbc815a916f3c1",
+      "generationRecord": "units/special/layers/renale-segment2.png.generation.json"
+    },
+    {
+      "file": "units/special/layers/renale-segment1.png",
+      "sha256": "dd2d35aef282ef433d16956e78480826deb75ba6241c88e545b95d8358dd52f4",
+      "generationRecord": "units/special/layers/renale-segment1.png.generation.json"
+    },
+    {
+      "file": "units/special/layers/renale-segment0.png",
+      "sha256": "d4e67d9fa535b383fab7bb4f732cb2a997d7d89ec84fd97097e766ea1ee03c3e",
+      "generationRecord": "units/special/layers/renale-segment0.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_native_segment_layers",
+    "drawOrder": "segment0..N (tail to head)",
+    "pixelResampling": false,
+    "overlapPx": 32
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

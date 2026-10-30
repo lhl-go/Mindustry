@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/additive-reconstructor-top.png",
+  "sourceGitBlob": "ad9a908f2635e58620cbf429df1e41054419293b",
+  "sourceSha256": "7752d19303cd1565a145f18b95ed282f74d91721d16b1439df20696241fdfabf",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "additive-reconstructor-top",
+  "blockId": "additive-reconstructor",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/additive-reconstructor-top.png",
+  "sha256": "73f8e49c2b69f34cbf37470ecd8cb5a55a164cadc65c1b862edd1d082def887e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/additive-reconstructor-top.png",
+  "engineSha256": "73f8e49c2b69f34cbf37470ecd8cb5a55a164cadc65c1b862edd1d082def887e",
+  "nativeFile": "full-game/blocks/masters/additive-reconstructor.png",
+  "nativeSha256": "0582135d0b1265213df546c7f12db471ea959918b72d55a115f5e90358ed61a8",
+  "nativeSize": [
+    331,
+    314
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/additive-reconstructor.png",
+      "sha256": "0582135d0b1265213df546c7f12db471ea959918b72d55a115f5e90358ed61a8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/additive-reconstructor-top.png",
+      "sha256": "7752d19303cd1565a145f18b95ed282f74d91721d16b1439df20696241fdfabf"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/additive-reconstructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/additive-reconstructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/additive-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

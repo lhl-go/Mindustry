@@ -1,0 +1,42 @@
+{
+  "region": "fuse",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/fuse.png",
+  "sha256": "5b052d99b0d81d89e7d90ef07e9844971cfafc22ac38478c6edd49c73b550bd4",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.092772+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/fuse.png",
+      "sha256": "edb387032b9351894423fd7e8e0f19acdacc893cceeb0bc3e2bb8530ef030e22",
+      "record": "full-game/root-turrets/masters/fuse.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/fuse.png",
+      "sha256": "8d494777edcef787aff498545d2c04538059326b00e100529873f87daf03ea9e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      3,
+      4,
+      93,
+      92
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      357,
+      350
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,97 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-treads.png",
+  "sha256": "c93c17aaee1735be67fd1a885fc2a23dbc72db8bbf3620a0451620fe618f2ebc",
+  "width": 213,
+  "height": 232,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "paired_tread_canvas_from_native_track_component",
+    "placements": [
+      {
+        "left": [
+          18,
+          152,
+          56,
+          73
+        ],
+        "right": [
+          139,
+          152,
+          56,
+          73
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      },
+      {
+        "left": [
+          15,
+          42,
+          29,
+          17
+        ],
+        "right": [
+          169,
+          42,
+          29,
+          17
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      },
+      {
+        "left": [
+          50,
+          9,
+          39,
+          19
+        ],
+        "right": [
+          124,
+          9,
+          39,
+          19
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      }
+    ],
+    "officialTreadRects": [
+      [
+        -88.5,
+        36.5,
+        56,
+        73
+      ],
+      [
+        -91.5,
+        -73.5,
+        29,
+        17
+      ],
+      [
+        -56.5,
+        -106.5,
+        39,
+        19
+      ]
+    ],
+    "cropAndDownsampleOnly": true,
+    "sourceFrames": 18,
+    "sourceTreadPullOffset": 1
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/conquer-treads.png",
+    "sha256": "07fbfd0cd240d5d07e734ab7b8a852f2ea10549f19ef8f2fe4affa3e5cc318b3",
+    "gitBlobSha1": "3bc6677188e4d0be5f3771b8f67bd589623cf521"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Local assembly from traced native tread strip.",
+  "engineNotVerified": true
+}

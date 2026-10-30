@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/22-autotile-variants-materials.png",
+  "sha256": "7025e1a6d49f4fac0ea2f0117c83fd1813948e138712e16b4c2b85e4cdbd4a4c",
+  "generatedAt": "2026-10-26 20:03:02 UTC",
+  "startedAt": "2026-10-26 20:01:39 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 821,
+  "height": 1915,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3584
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game material texture atlas. Paint21 independent native metal material swatches for Mindustry Daoist Q reskin, clean refined hand-painted material craftsmanship guided ONLY by attached2 references. No UI, characters, text, symbols, frame, panel layout or object geometry: PURE FLAT MATERIAL texture only. Requested1536×3584 portrait, exactly3equal columns×7equal rows, fullbleed square opaque cells with no margins/dividers. Uniform overhead light, no vignette/gradient, quiet tileable edges. Fine subtle grain and tiny irregular wear, low contrast. Even same material variants must have independently drawn native scratches and fleck layouts, never copied or simply recolored.\nRow1 col1 metal WALL1 sage-jade worn alloy with tiny antique-gold grain; col2 WALL2 muted cinnabar-copper metal with tiny warm gold microflecks; col3 WALL3 ivory-gray porcelain-alloy fine satin texture.\nRows2 and3 ALL6 cells: same family medium desaturated gray-green brushed metal with fine warm-gold specks, six independently painted microtextures, variants2 through7 of the metal7 family. No lattice patterns because connection geometry is applied separately.\nRow4 col1/2: same medium gray-green alloy variants8/9, two new texture distributions. Col3 pale warm ivory-gray alloy with fine horizontal microbrushing for metal8.\nRow5 ALL3: dark warm desaturated gray alloy with tiny antique gold grains and restrained scratches, three distinct native textures for metal13 variants2/3/4.\nRow6 col1/2 same dark warm gray antique-gold alloy, two new texture distributions for metal13 variants5/6. Col3 sage-jade worn wall alloy matching row1col1, different subtle grain.\nRow7 col1 muted cinnabar-copper wall alloy matching row1col2, different native texture; col2 dark charcoal-jade metal with faint diagonal brushing for dark-panel5; col3 dark charcoal-jade subtly hammered metal for dark-panel6, distinct grain.\nAll21 usable texture samples, beautifully painted, no labels or large repeated motifs.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/22-autotile-variants-materials.txt",
+  "promptSha256": "9ef65e078dbe725e999668f257313898d289e48452d6bf9e739b44f17f94bbbc",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/22-autotile-variants-materials.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-b0cbce67-523a-4949-a922-6d9f597e5925.png",
+    "originalOutputSha256": "7025e1a6d49f4fac0ea2f0117c83fd1813948e138712e16b4c2b85e4cdbd4a4c"
+  },
+  "regions": [
+    "metal-wall-1-autotile",
+    "metal-wall-2-autotile",
+    "metal-wall-3-autotile",
+    "metal-tiles-7-mid-2",
+    "metal-tiles-7-mid-3",
+    "metal-tiles-7-mid-4",
+    "metal-tiles-7-mid-5",
+    "metal-tiles-7-mid-6",
+    "metal-tiles-7-mid-7",
+    "metal-tiles-7-mid-8",
+    "metal-tiles-7-mid-9",
+    "metal-tiles-8-mid-2",
+    "metal-tiles-13-mid-2",
+    "metal-tiles-13-mid-3",
+    "metal-tiles-13-mid-4",
+    "metal-tiles-13-mid-5",
+    "metal-tiles-13-mid-6",
+    "metal-wall-1-mid-2",
+    "metal-wall-2-mid-2",
+    "dark-panel-5",
+    "dark-panel-6"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-1-autotile.png",
+      "sha256": "d1cbd3d7dc870ba1c054810821820a29df94072c9e664099c5921c198c679088"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-2-autotile.png",
+      "sha256": "81a445588c0cd47d8f46a630603b93cdf4c1e5e793e492915942ee3f44052916"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-3-autotile.png",
+      "sha256": "ce98233cf861eb2fa2ab5aa4de4067c08d203dd0952ff0951087ee07a678614d"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-2.png",
+      "sha256": "8f5ca69215b1a7738fd6a11ebae99149142d5c26a3d650cc02958fab25d14960"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-3.png",
+      "sha256": "abb67400ab35c3bda8091eec6ca4ed071e72b6b752d94ead4cc8a27afbfade5b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-4.png",
+      "sha256": "d6b47ed60df2f6661d73c9232708a5db38666b0a4866d7faa7d4c84a7bf21280"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-5.png",
+      "sha256": "9200b5e4cdbde3107f4e6ad9c297f4317a8e753b5e32f950782a2e728b5deb41"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-6.png",
+      "sha256": "3676cf2f48bfc1c1adc74dd8fcf938786765f8193af88e51c5da1e934dbc0811"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-7.png",
+      "sha256": "9745eab4847a80c1a1151dc96786e8384125ca5f8ee116266efc323d27ee96a0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-8.png",
+      "sha256": "ea32e13253f14aec7ea25fb112ea2e0d5d4a8e46a81bba50be5116a6d57787db"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-7-mid-9.png",
+      "sha256": "1d8a02bea251c4ebbac02ce175cb74dcb3263e82c846d508ec9215c51c9e8358"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-8-mid-2.png",
+      "sha256": "7334fa34a86b20414638f789c84772afa727924cb273f3c58201bc37e09cd3e4"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-mid-2.png",
+      "sha256": "7be763a79bb82b06358a17706d1be4acd039699c05de36f1196b7e09c408dfe5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-mid-3.png",
+      "sha256": "682c9fa91e73f12e048f95696c17c24ffe6defadc5374ac71caf041a768835ab"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-mid-4.png",
+      "sha256": "a58c1e745567f7a9b49e6d577b0db9cc6f13a30f229d766de4a66d1e371c5037"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-mid-5.png",
+      "sha256": "4e89b283eb358733661e17a3ad1bc50b26416d1ea93d062be973d26f46440232"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-mid-6.png",
+      "sha256": "f1a108a11b16679be13f24dcaf6dc5fe7c46732da189237e911159c16de54631"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-1-mid-2.png",
+      "sha256": "a7ecc2830d4476a310c151b16ec478d27d06e8084dfb14dd5509450c82a35b2f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-2-mid-2.png",
+      "sha256": "d3b10d0e7c3b2074ac4d80e09644e5d9d54c1d95e90c9994febd75e88660ba33"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dark-panel-5.png",
+      "sha256": "9b37906ec7d39d8bcf68416dc3c74d1a76d0c17d57606b9dda551dd0d39e512b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dark-panel-6.png",
+      "sha256": "0612896c52db8c729adb6a485802289da730e56747c13b3c7c27b59dae77ab83"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-1-autotile.png",
+      "sha256": "d1cbd3d7dc870ba1c054810821820a29df94072c9e664099c5921c198c679088"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-2-autotile.png",
+      "sha256": "81a445588c0cd47d8f46a630603b93cdf4c1e5e793e492915942ee3f44052916"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-3-autotile.png",
+      "sha256": "ce98233cf861eb2fa2ab5aa4de4067c08d203dd0952ff0951087ee07a678614d"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

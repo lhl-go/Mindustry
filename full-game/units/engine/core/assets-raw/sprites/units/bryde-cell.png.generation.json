@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/bryde-cell.png",
+  "sha256": "aa3af7cce46079241263a9901f346ef9b8cd143fa8c5d93fb137843bf9eb9882",
+  "width": 140,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/bryde.png",
+      "sha256": "a9f790301a2f2575284b019cc3bc49bf48d09f19c8d4b1500e9b271537d23b37",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/bryde.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "bryde",
+    "baseCanvas": [
+      140,
+      140
+    ],
+    "outputCanvas": [
+      140,
+      140
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/bryde-cell.png",
+    "gitBlobSha1": "830aa8ba1e1b14f1bf3268b630f8c9972ebe6861",
+    "sha256": "6b702fbe36eb87f3de095d61ab61683923962adb999755469f2b888873820c83"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

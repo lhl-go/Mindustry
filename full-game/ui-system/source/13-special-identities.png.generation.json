@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/13-special-identities.png",
+  "sha256": "a4ac7ed706ded892b61ce6ab3c67e0c96acba4a37c37b677887b0442ddbb11cd",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    1536,
+    1536
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:57:26-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/reference/mascot-guide.png"
+    ],
+    "prompt": "Create a high-detail finished transparent PNG sprite sheet, requested 1536x1536, 2 columns by 2 rows, FOUR isolated game UI artworks. First two refs define approved Daoist Q cute hand-painted jade/ivory/gold style and fine finished shading. Third reference shows two EXISTING cameo identities; preserve their visual identity and expressions, do not replace with another species/character. Upper-left: alphaaaa, cute small chibi head ONLY, yellow-orange tousled short hair, little slate-grey side clips/mechanical ornaments, pale round face and two dark violet oval eyes with tiny highlights, tiny neutral mouth, no body. Match left original reference silhouette and hairstyle with rounded high-definition painting. Upper-right: ranai, playful chibi face close-up, dusty reddish-brown large sweeping bangs, cream face, closed red simplified eyes at both sides and silly w-shaped catlike mouth; preserve original right reference identity and iconic expression, NO frog and NO animal. Lower-left: empty/unavailable map placeholder, an elegant rolled ivory map parchment with jade corners, soft abstract faded mountains and a single clear gold question mark, no other writing. Lower-right: small top-down natural slate stone crater marker, concentric rounded grey-blue rock rim and shallow dusty inner hollow, warm daylight, no metal ornaments, no whole terrain tile. All equal square cells, generous 15% padding, complete isolated artwork, true transparent empty background, no board, no labels, no cell borders, no shadows outside the object silhouette. No characters outside the two specified heads."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/13-special-identities.txt",
+  "promptSha256": "5f2542169d9b9b41e47daab505224844243de6e936f1a1ca896faecb16c37472",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\reference\\mascot-guide.png",
+      "sha256": "c224cb2ca67d931932f4a8a9d7a1069c1e6226218b225ab6d5eb58a093143c26",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\13-special-identities-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-1e5a5a6d-2946-4afd-8eb7-e503505412bb.png",
+    "nativePngSha256": "a4ac7ed706ded892b61ce6ab3c67e0c96acba4a37c37b677887b0442ddbb11cd",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaTransparentPixels": 693830,
+  "status": "generated_pending_review"
+}

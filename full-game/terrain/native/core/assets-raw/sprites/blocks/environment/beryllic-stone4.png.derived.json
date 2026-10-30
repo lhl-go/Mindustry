@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone4.png",
+  "sha256": "5aed4dba7ee7ffc523b6df1183d0ab0e63f2a375244aa8adeb30366dcf196f56",
+  "size": [
+    252,
+    246
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+      "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+      "generationRecord": "full-game/terrain/source/05-erekir-mineral-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    770,
+    2,
+    1022,
+    248
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

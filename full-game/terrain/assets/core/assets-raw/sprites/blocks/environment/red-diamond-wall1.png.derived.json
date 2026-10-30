@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/red-diamond-wall1.png",
+  "sha256": "303ac9408c4df641c3f3adcdf757e4678830697b4eb5ad3abdb6ac1c759be55c",
+  "createdAt": "2026-10-26T18:25:54.624799+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 64,
+  "height": 64,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/15-special-wall-tops.png",
+      "sha256": "27479126c7f26b250744e93aa7ab6cdbd09daf55abbef82e3ddf05b9c691e759",
+      "generationRecord": "full-game/terrain/source/15-special-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      1282,
+      254,
+      1534
+    ],
+    "nativeExtractedSize": [
+      252,
+      252
+    ],
+    "targetSize": [
+      64,
+      64
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 9.023956931481557
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+  "sha256": "7efa5d812176636d41d97bd217fa61b6b9065514a2adaf670b9fa74a80f8427d",
+  "width": 25,
+  "height": 34,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/cleroi-point-defense.png",
+      "sha256": "402eac6f9696b214815232ee7a51e2d520b99528b170f509f019d631a5003c47",
+      "generationRecord": "units/air-erekir-parts/assets/cleroi-point-defense.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      205,
+      198
+    ],
+    "sourcePivot": [
+      117,
+      111
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      7
+    ],
+    "sourceDimensions": [
+      237,
+      230
+    ],
+    "targetDimensions": [
+      25,
+      34
+    ],
+    "officialAlphaBounds": [
+      5,
+      5,
+      21,
+      30
+    ],
+    "scale": 0.13068181818181818,
+    "engineAnchorPx": [
+      12.5,
+      17.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+    "gitBlobSha1": "96a02463d4d03dbb9a284121d7f01c74e6dad007",
+    "sha256": "c11be2b39682b42d0345ec540fc9ac2b99d696f4ebb08c02727940ce09c12104"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

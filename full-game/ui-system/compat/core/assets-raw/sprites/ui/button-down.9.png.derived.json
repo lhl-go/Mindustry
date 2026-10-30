@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/button-down.9.png",
+  "sourceGitBlob": "f566ef953450bbb410ef673aab4f5d784b898c4e",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/button-down.9.png",
+  "sha256": "05e1b1fbe96eac247a3a7e9e6ac319006ff1ff95bf1408b93a91b17ef40664a9",
+  "sourceSize": [
+    38,
+    29
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "record": "ui/kit/button_primary.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-down.9.png",
+      "sha256": "ec0f08af7cc34a0b683aba735a9f9014be2a0a1fb914e216ce298ddb7588a228",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      66.0,
+      30.0,
+      66.0,
+      30.0
+    ],
+    "sourceCanvas": [
+      38,
+      29
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "down",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,42 @@
+{
+  "region": "segment",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/defense/segment.png",
+  "sha256": "4b6dfcd8560cc2d6448ccea46bd1d0e6c83bf2b21d6565bcbb21fe3e16d05931",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:45.968854+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/segment.png",
+      "sha256": "02c97e262bb98c4f8a0c172e7f75913a21894e75321ae8fb728831c4c4631496",
+      "record": "full-game/root-turrets/masters/segment.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/segment.png",
+      "sha256": "0e4554ab18d878901ab1cb8a2e67fe279fc3e03ae83fbb9998850d2182032c35",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      10,
+      9,
+      54,
+      55
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      312,
+      330
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

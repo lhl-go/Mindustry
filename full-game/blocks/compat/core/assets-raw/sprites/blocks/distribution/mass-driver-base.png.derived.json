@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/mass-driver-base.png",
+  "sourceGitBlob": "4e52e7641d1255bbba4438e18558e5bc5bad3348",
+  "sourceSha256": "cb9d9e44893937a33b1e012be8c44925c2dd5bbd6452c533f4a212ef2f95a04c",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "mass-driver-base",
+  "blockId": "mass-driver",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver-base.png",
+  "sha256": "ce41d343182e93b63b154c803e915e6509d28d45d5aee2881e47d14387d1ed85",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver-base.png",
+  "engineSha256": "ce41d343182e93b63b154c803e915e6509d28d45d5aee2881e47d14387d1ed85",
+  "nativeFile": "full-game/units/parts/mech-base-heavy.png",
+  "nativeSha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+  "nativeSize": [
+    620,
+    447
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "mass-driver-base",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/mass-driver-base.png",
+      "sha256": "cb9d9e44893937a33b1e012be8c44925c2dd5bbd6452c533f4a212ef2f95a04c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/mass-driver-base.png.derived.json"
+}

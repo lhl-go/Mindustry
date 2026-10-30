@@ -1,0 +1,40 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/12-guidance.png",
+      "sha256": "877e08d2045708b63416279ab70ab060575dca1448b65057e8cabf70630f1f89",
+      "generationRecord": "full-game/items-fx/source/12-guidance.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      550,
+      560,
+      1024
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      68,
+      120,
+      526,
+      310
+    ],
+    "padding": 16,
+    "orientationCorrection": "lossless 90deg CCW to match official launch-arrow/transfer-arrow shared north orientation"
+  },
+  "file": "full-game/items-fx/assets/transfer-arrow.png",
+  "sha256": "777bec98751427667decbbe41d75282173f6ebbee2ba1d73109747f540eb5aff",
+  "width": 222,
+  "height": 490,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:10.420228+00:00"
+}

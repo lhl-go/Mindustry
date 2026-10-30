@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit.png",
+  "sourceGitBlob": "88b34c2f6e9f39e545aaac72a408b50962606cf5",
+  "sourceSha256": "a1bba89f720d74ec761d4853563c4eba69da08b1e9262c632269c4f7342faaab",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "reinforced-bridge-conduit",
+  "blockId": "reinforced-bridge-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit.png",
+  "sha256": "747946ba7968383e930cd09d79c5098e0493ab7e1d8a363e3598b71e227243e8",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit.png",
+  "engineSha256": "747946ba7968383e930cd09d79c5098e0493ab7e1d8a363e3598b71e227243e8",
+  "nativeFile": "full-game/blocks/masters/reinforced-bridge-conduit.png",
+  "nativeSha256": "5dfe259b9416f03e3c7570f3a59d4a959d08af81213e8b5073233e3168e8a394",
+  "nativeSize": [
+    331,
+    247
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_on_original_liquid_window_frame",
+    "originalLiquidWindowsAndExteriorOcclusionPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_liquid_window_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-bridge-conduit.png",
+      "sha256": "5dfe259b9416f03e3c7570f3a59d4a959d08af81213e8b5073233e3168e8a394"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/reinforced-bridge-conduit.png",
+      "sha256": "a1bba89f720d74ec761d4853563c4eba69da08b1e9262c632269c4f7342faaab"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit.png.derived.json"
+}

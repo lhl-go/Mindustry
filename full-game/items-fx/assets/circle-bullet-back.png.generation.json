@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/circle-bullet.png",
+      "sha256": "1da0150eff4ef858c84eae91f20ad98c67af3f3e4ac53662e82190ba1cbcfd87",
+      "generationRecord": "full-game/items-fx/assets/circle-bullet.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/circle-bullet-back.png",
+  "sha256": "34288632f14b0b1e9ee156d7f7e9bbd2beee7453e2c740c0d469b85d9ba35b39",
+  "width": 247,
+  "height": 247,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.383147+00:00"
+}

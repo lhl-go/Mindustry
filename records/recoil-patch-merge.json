@@ -1,0 +1,1219 @@
+{
+  "mergedAt": "2026-10-26T12:12:34.012475+00:00",
+  "sourcePatch": "records/coordinator-recoil-fix/patch-manifest.json",
+  "patchSha256": "69a99de2cd76f71b20fe3c2573e0f0c11ca797a421996056ce26d6e94ec65ecb",
+  "replacedIds": [
+    "avert",
+    "elude",
+    "poly"
+  ],
+  "oldEntries": [
+    {
+      "id": "poly",
+      "file": "units/air-erekir/individual/poly.png",
+      "generationRecord": "units/air-erekir/individual/poly.png.generation.json",
+      "sha256": "7e230b2b2889d925d8652364535310a42fff55c4d6bedb45ef1d238a3bd345f2",
+      "size": [
+        427,
+        416
+      ],
+      "compositePreview": "units/air-erekir/individual/poly.png",
+      "layers": [
+        {
+          "id": "poly",
+          "file": "units/air-erekir/individual/poly.png",
+          "role": "body_with_fixed_equipment",
+          "generationRecord": "units/air-erekir/individual/poly.png.generation.json",
+          "sha256": "7e230b2b2889d925d8652364535310a42fff55c4d6bedb45ef1d238a3bd345f2",
+          "size": [
+            427,
+            416
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true
+        }
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/poly.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "poly",
+          "file": "units/air-erekir/individual/poly.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "poly-weapon",
+          "file": "units/air-erekir/individual/poly.png",
+          "reuse": "fixed equipment integrated in body",
+          "adapterAction": "suppress duplicate region draw; keep muzzle and gameplay behavior",
+          "canonicalSource": {
+            "region": "poly-weapon",
+            "type": "Weapon",
+            "sourceExpressions": {
+              "x": "3.75f",
+              "y": "-2.5f",
+              "mirror": null,
+              "rotate": null,
+              "baseRotation": null,
+              "rotationLimit": null,
+              "layerOffset": null,
+              "shootY": null
+            },
+            "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+          }
+        }
+      ],
+      "assembly": [],
+      "bodyAnchorPixels": [
+        213.5,
+        208.0
+      ],
+      "facing": "north",
+      "originalName": "poly",
+      "canonicalSource": {
+        "name": "poly",
+        "line": 1364,
+        "properties": [
+          "flying = true;",
+          "buildSpeed = 0.4f;",
+          "hitSize = 9f;",
+          "mineTier = 2;"
+        ],
+        "weapons": [
+          "\"poly-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "poly-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "3.75f",
+            "y": "-2.5f",
+            "mirror": null,
+            "rotate": null,
+            "baseRotation": null,
+            "rotationLimit": null,
+            "layerOffset": null,
+            "shootY": null
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "pending_coordinator_patch",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "support",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ],
+      "pixelsFrozen": true
+    },
+    {
+      "id": "elude",
+      "file": "units/air-erekir/individual/elude.png",
+      "generationRecord": "units/air-erekir/individual/elude.png.generation.json",
+      "sha256": "41148d92060b58fc6fc89561f12a9235ad0e311fa1b2d8023365deeb0d7d57ba",
+      "size": [
+        289,
+        445
+      ],
+      "compositePreview": "units/air-erekir/individual/elude.png",
+      "layers": [
+        {
+          "id": "elude",
+          "file": "units/air-erekir/individual/elude.png",
+          "role": "body_with_fixed_equipment",
+          "generationRecord": "units/air-erekir/individual/elude.png.generation.json",
+          "sha256": "41148d92060b58fc6fc89561f12a9235ad0e311fa1b2d8023365deeb0d7d57ba",
+          "size": [
+            289,
+            445
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true
+        }
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/elude.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "elude",
+          "file": "units/air-erekir/individual/elude.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "elude-weapon",
+          "file": "units/air-erekir/individual/elude.png",
+          "reuse": "fixed equipment integrated in body",
+          "adapterAction": "suppress duplicate region draw; keep muzzle and gameplay behavior",
+          "canonicalSource": {
+            "region": "elude-weapon",
+            "type": "Weapon",
+            "sourceExpressions": {
+              "x": "4f",
+              "y": "-2f",
+              "mirror": "true",
+              "rotate": null,
+              "baseRotation": "-35f",
+              "rotationLimit": null,
+              "layerOffset": null,
+              "shootY": null
+            },
+            "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+          }
+        }
+      ],
+      "assembly": [],
+      "bodyAnchorPixels": [
+        144.5,
+        222.5
+      ],
+      "facing": "north",
+      "originalName": "elude",
+      "canonicalSource": {
+        "name": "elude",
+        "line": 3789,
+        "properties": [
+          "hovering = true;",
+          "armor = 1f;",
+          "hitSize = 11f;",
+          "mirror = true;",
+          "mirror = true;"
+        ],
+        "weapons": [
+          "\"elude-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "elude-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "4f",
+            "y": "-2f",
+            "mirror": "true",
+            "rotate": null,
+            "baseRotation": "-35f",
+            "rotationLimit": null,
+            "layerOffset": null,
+            "shootY": null
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "pending_coordinator_patch",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "ground",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ],
+      "pixelsFrozen": true
+    },
+    {
+      "id": "avert",
+      "file": "units/air-erekir/individual/avert.png",
+      "generationRecord": "units/air-erekir/individual/avert.png.generation.json",
+      "sha256": "43ec076c5f425538e9d7513e3a0b39e1d8faa474b4214e297cb1c610512c1324",
+      "size": [
+        433,
+        446
+      ],
+      "compositePreview": "units/air-erekir/individual/avert.png",
+      "layers": [
+        {
+          "id": "avert",
+          "file": "units/air-erekir/individual/avert.png",
+          "role": "body_with_fixed_equipment",
+          "generationRecord": "units/air-erekir/individual/avert.png.generation.json",
+          "sha256": "43ec076c5f425538e9d7513e3a0b39e1d8faa474b4214e297cb1c610512c1324",
+          "size": [
+            433,
+            446
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true
+        }
+      ],
+      "layerFiles": [
+        "units/air-erekir/individual/avert.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "avert",
+          "file": "units/air-erekir/individual/avert.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "avert-weapon",
+          "file": "units/air-erekir/individual/avert.png",
+          "reuse": "fixed equipment integrated in body",
+          "adapterAction": "suppress duplicate region draw; keep muzzle and gameplay behavior",
+          "canonicalSource": {
+            "region": "avert-weapon",
+            "type": "Weapon",
+            "sourceExpressions": {
+              "x": "0f",
+              "y": "6.5f",
+              "mirror": "false",
+              "rotate": "false",
+              "baseRotation": null,
+              "rotationLimit": null,
+              "layerOffset": "-0.01f",
+              "shootY": "5f"
+            },
+            "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+          }
+        }
+      ],
+      "assembly": [],
+      "bodyAnchorPixels": [
+        216.5,
+        223.0
+      ],
+      "facing": "north",
+      "originalName": "avert",
+      "canonicalSource": {
+        "name": "avert",
+        "line": 3858,
+        "properties": [
+          "flying = true;",
+          "armor = 3f;",
+          "hitSize = 12f;",
+          "rotate = false;",
+          "mirror = false;"
+        ],
+        "weapons": [
+          "\"avert-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "avert-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "0f",
+            "y": "6.5f",
+            "mirror": "false",
+            "rotate": "false",
+            "baseRotation": null,
+            "rotationLimit": null,
+            "layerOffset": "-0.01f",
+            "shootY": "5f"
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "pending_coordinator_patch",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "air",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ],
+      "pixelsFrozen": true
+    }
+  ],
+  "newEntries": [
+    {
+      "id": "poly",
+      "file": "units/coordinator-recoil-fix/poly-assembled.png",
+      "generationRecord": "units/coordinator-recoil-fix/poly-assembled.png.derived.json",
+      "sha256": "73bb63102e8173588624820914cc0d29061f1a43533056db2d7e14cfd477e2fc",
+      "size": [
+        918,
+        904
+      ],
+      "compositePreview": "units/coordinator-recoil-fix/poly-assembled.png",
+      "layers": [
+        {
+          "id": "poly",
+          "file": "units/coordinator-recoil-fix/poly-body.png",
+          "role": "body",
+          "generationRecord": "units/coordinator-recoil-fix/poly-body.png.derived.json",
+          "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+          "size": [
+            598,
+            584
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        },
+        {
+          "id": "poly-weapon",
+          "file": "units/coordinator-recoil-fix/poly-weapon.png",
+          "role": "weapon",
+          "generationRecord": "units/coordinator-recoil-fix/poly-weapon.png.derived.json",
+          "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+          "size": [
+            235,
+            398
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.78
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        }
+      ],
+      "layerFiles": [
+        "units/coordinator-recoil-fix/poly-body.png",
+        "units/coordinator-recoil-fix/poly-weapon.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "poly",
+          "file": "units/coordinator-recoil-fix/poly-body.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "poly-weapon",
+          "file": "units/coordinator-recoil-fix/poly-weapon.png",
+          "role": "weapon",
+          "reuse": "one painted region reused for source-defined mirror instances",
+          "canonicalSource": {
+            "id": "poly",
+            "bodyRegion": "poly",
+            "weaponRegion": "poly-weapon",
+            "definitionLine": 1389,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1389",
+            "explicit": {
+              "top": {
+                "value": false,
+                "line": 1390
+              },
+              "y": {
+                "value": -2.5,
+                "line": 1391
+              },
+              "x": {
+                "value": 3.75,
+                "line": 1392
+              },
+              "recoil": {
+                "value": 2,
+                "line": 1395
+              },
+              "alternate": {
+                "value": true,
+                "line": 1399
+              }
+            },
+            "effective": {
+              "x": 3.75,
+              "y": -2.5,
+              "top": false,
+              "mirror": true,
+              "rotate": false,
+              "baseRotation": 0,
+              "recoil": 2,
+              "layerOffset": 0
+            },
+            "weaponInstanceCount": 2,
+            "instances": [
+              {
+                "x": 3.75,
+                "y": -2.5,
+                "baseRotation": 0,
+                "flipSprite": false,
+                "region": "poly-weapon"
+              },
+              {
+                "x": -3.75,
+                "y": -2.5,
+                "baseRotation": 0,
+                "flipSprite": true,
+                "region": "poly-weapon"
+              }
+            ],
+            "requiredPaintedRegions": [
+              "poly body without moving weapons",
+              "poly-weapon independent complete weapon"
+            ],
+            "whySplit": "recoil=2 causes independent weapon motion even though rotate defaults to false."
+          },
+          "adapterAction": "draw this independent weapon region with the original Weapon.draw recoil and source-defined mirror/offsets; do not suppress weapon draw"
+        }
+      ],
+      "assembly": [
+        {
+          "file": "units/coordinator-recoil-fix/poly-body.png",
+          "role": "body",
+          "originPixels": [
+            160,
+            160
+          ]
+        },
+        {
+          "file": "units/coordinator-recoil-fix/poly-weapon.png",
+          "role": "weapon",
+          "scale": 0.42,
+          "instances": [
+            {
+              "mirrorX": true,
+              "rotationDegrees": 0,
+              "anchorPixels": [
+                285.58,
+                510.4
+              ]
+            },
+            {
+              "mirrorX": false,
+              "rotationDegrees": 0,
+              "anchorPixels": [
+                632.42,
+                510.4
+              ]
+            }
+          ],
+          "pivotNormalized": [
+            0.5,
+            0.78
+          ],
+          "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+        }
+      ],
+      "bodyAnchorPixels": [
+        459.0,
+        452.0
+      ],
+      "facing": "north",
+      "originalName": "poly",
+      "canonicalSource": {
+        "name": "poly",
+        "line": 1364,
+        "properties": [
+          "flying = true;",
+          "buildSpeed = 0.4f;",
+          "hitSize = 9f;",
+          "mineTier = 2;"
+        ],
+        "weapons": [
+          "\"poly-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "poly-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "3.75f",
+            "y": "-2.5f",
+            "mirror": null,
+            "rotate": null,
+            "baseRotation": null,
+            "rotationLimit": null,
+            "layerOffset": null,
+            "shootY": null
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "art_complete_engine_not_verified",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "support",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [],
+      "pixelsFrozen": true,
+      "recoilArtRepaired": true,
+      "recoilSourceEvidence": "records/coordinator-recoil-fix/source-evidence.json",
+      "officialWeaponProperties": {
+        "x": 3.75,
+        "y": -2.5,
+        "top": false,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 2,
+        "layerOffset": 0
+      },
+      "visualReview": {
+        "status": "passed_art_review",
+        "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+        "weaponIndependent": true,
+        "sourceDefinedWeaponInstances": 2,
+        "engineRuntimeVerified": false,
+        "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+        "observations": [
+          "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+          "Independent complete weapon part has its own transparent canvas",
+          "Rest and recoil mock preserve underpaint and show no double weapon",
+          "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+        ]
+      },
+      "validation": {
+        "fileChecks": "records/coordinator-recoil-fix/verification.json",
+        "passed": true,
+        "runtimeIntegrationVerified": false
+      },
+      "resolvedByRootMerge": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ]
+    },
+    {
+      "id": "elude",
+      "file": "units/coordinator-recoil-fix/elude-assembled.png",
+      "generationRecord": "units/coordinator-recoil-fix/elude-assembled.png.derived.json",
+      "sha256": "c2aa17b3e11e536e260f65265e39846cc08825a2227e46e3a5bc2ef24f001d0e",
+      "size": [
+        757,
+        943
+      ],
+      "compositePreview": "units/coordinator-recoil-fix/elude-assembled.png",
+      "layers": [
+        {
+          "id": "elude",
+          "file": "units/coordinator-recoil-fix/elude-body.png",
+          "role": "body",
+          "generationRecord": "units/coordinator-recoil-fix/elude-body.png.derived.json",
+          "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+          "size": [
+            437,
+            623
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        },
+        {
+          "id": "elude-weapon",
+          "file": "units/coordinator-recoil-fix/elude-weapon.png",
+          "role": "weapon",
+          "generationRecord": "units/coordinator-recoil-fix/elude-weapon.png.derived.json",
+          "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+          "size": [
+            176,
+            432
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.78
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        }
+      ],
+      "layerFiles": [
+        "units/coordinator-recoil-fix/elude-body.png",
+        "units/coordinator-recoil-fix/elude-weapon.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "elude",
+          "file": "units/coordinator-recoil-fix/elude-body.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "elude-weapon",
+          "file": "units/coordinator-recoil-fix/elude-weapon.png",
+          "role": "weapon",
+          "reuse": "one painted region reused for source-defined mirror instances",
+          "canonicalSource": {
+            "id": "elude",
+            "bodyRegion": "elude",
+            "weaponRegion": "elude-weapon",
+            "definitionLine": 3829,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3829",
+            "explicit": {
+              "y": {
+                "value": -2,
+                "line": 3831
+              },
+              "x": {
+                "value": 4,
+                "line": 3832
+              },
+              "top": {
+                "value": true,
+                "line": 3833
+              },
+              "mirror": {
+                "value": true,
+                "line": 3834
+              },
+              "baseRotation": {
+                "value": -35,
+                "line": 3836
+              }
+            },
+            "effective": {
+              "x": 4,
+              "y": -2,
+              "top": true,
+              "mirror": true,
+              "rotate": false,
+              "baseRotation": -35,
+              "recoil": 1.5,
+              "layerOffset": 0
+            },
+            "weaponInstanceCount": 2,
+            "instances": [
+              {
+                "x": 4,
+                "y": -2,
+                "baseRotation": -35,
+                "flipSprite": false,
+                "region": "elude-weapon"
+              },
+              {
+                "x": -4,
+                "y": -2,
+                "baseRotation": 35,
+                "flipSprite": true,
+                "region": "elude-weapon"
+              }
+            ],
+            "requiredPaintedRegions": [
+              "elude body without moving weapons",
+              "elude-weapon independent complete weapon"
+            ],
+            "whySplit": "The default recoil=1.5 still applies; each mirrored mount has its own recoil translation."
+          },
+          "adapterAction": "draw this independent weapon region with the original Weapon.draw recoil and source-defined mirror/offsets; do not suppress weapon draw"
+        }
+      ],
+      "assembly": [
+        {
+          "file": "units/coordinator-recoil-fix/elude-body.png",
+          "role": "body",
+          "originPixels": [
+            160,
+            160
+          ]
+        },
+        {
+          "file": "units/coordinator-recoil-fix/elude-weapon.png",
+          "role": "weapon",
+          "scale": 0.72,
+          "instances": [
+            {
+              "mirrorX": true,
+              "rotationDegrees": 35,
+              "anchorPixels": [
+                295.47,
+                409.2
+              ]
+            },
+            {
+              "mirrorX": false,
+              "rotationDegrees": -35,
+              "anchorPixels": [
+                461.53,
+                409.2
+              ]
+            }
+          ],
+          "pivotNormalized": [
+            0.5,
+            0.78
+          ],
+          "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+        }
+      ],
+      "bodyAnchorPixels": [
+        378.5,
+        471.5
+      ],
+      "facing": "north",
+      "originalName": "elude",
+      "canonicalSource": {
+        "name": "elude",
+        "line": 3789,
+        "properties": [
+          "hovering = true;",
+          "armor = 1f;",
+          "hitSize = 11f;",
+          "mirror = true;",
+          "mirror = true;"
+        ],
+        "weapons": [
+          "\"elude-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "elude-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "4f",
+            "y": "-2f",
+            "mirror": "true",
+            "rotate": null,
+            "baseRotation": "-35f",
+            "rotationLimit": null,
+            "layerOffset": null,
+            "shootY": null
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "art_complete_engine_not_verified",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "ground",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [],
+      "pixelsFrozen": true,
+      "recoilArtRepaired": true,
+      "recoilSourceEvidence": "records/coordinator-recoil-fix/source-evidence.json",
+      "officialWeaponProperties": {
+        "x": 4,
+        "y": -2,
+        "top": true,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": -35,
+        "recoil": 1.5,
+        "layerOffset": 0
+      },
+      "visualReview": {
+        "status": "passed_art_review",
+        "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+        "weaponIndependent": true,
+        "sourceDefinedWeaponInstances": 2,
+        "engineRuntimeVerified": false,
+        "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+        "observations": [
+          "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+          "Independent complete weapon part has its own transparent canvas",
+          "Rest and recoil mock preserve underpaint and show no double weapon",
+          "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+        ]
+      },
+      "validation": {
+        "fileChecks": "records/coordinator-recoil-fix/verification.json",
+        "passed": true,
+        "runtimeIntegrationVerified": false
+      },
+      "resolvedByRootMerge": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ]
+    },
+    {
+      "id": "avert",
+      "file": "units/coordinator-recoil-fix/avert-assembled.png",
+      "generationRecord": "units/coordinator-recoil-fix/avert-assembled.png.derived.json",
+      "sha256": "4efe1a7ca9a9c52087613a8ac4b17f87eb13a9ee4ee9b8c1b48be0536d8981de",
+      "size": [
+        947,
+        900
+      ],
+      "compositePreview": "units/coordinator-recoil-fix/avert-assembled.png",
+      "layers": [
+        {
+          "id": "avert",
+          "file": "units/coordinator-recoil-fix/avert-body.png",
+          "role": "body",
+          "generationRecord": "units/coordinator-recoil-fix/avert-body.png.derived.json",
+          "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+          "size": [
+            627,
+            580
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.5
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        },
+        {
+          "id": "avert-weapon",
+          "file": "units/coordinator-recoil-fix/avert-weapon.png",
+          "role": "weapon",
+          "generationRecord": "units/coordinator-recoil-fix/avert-weapon.png.derived.json",
+          "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+          "size": [
+            197,
+            426
+          ],
+          "anchorNormalized": [
+            0.5,
+            0.78
+          ],
+          "facing": "north",
+          "completeUnderpaint": true,
+          "pixelAnchorEvidence": "estimated_art_alignment; runtime not verified"
+        }
+      ],
+      "layerFiles": [
+        "units/coordinator-recoil-fix/avert-body.png",
+        "units/coordinator-recoil-fix/avert-weapon.png"
+      ],
+      "layerMapping": [
+        {
+          "engineRegion": "avert",
+          "file": "units/coordinator-recoil-fix/avert-body.png",
+          "role": "body",
+          "reuse": false
+        },
+        {
+          "engineRegion": "avert-weapon",
+          "file": "units/coordinator-recoil-fix/avert-weapon.png",
+          "role": "weapon",
+          "reuse": false,
+          "canonicalSource": {
+            "id": "avert",
+            "bodyRegion": "avert",
+            "weaponRegion": "avert-weapon",
+            "definitionLine": 3877,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3877",
+            "explicit": {
+              "x": {
+                "value": 0,
+                "line": 3880
+              },
+              "y": {
+                "value": 6.5,
+                "line": 3881
+              },
+              "shootY": {
+                "value": 5,
+                "line": 3882
+              },
+              "recoil": {
+                "value": 1,
+                "line": 3883
+              },
+              "top": {
+                "value": false,
+                "line": 3884
+              },
+              "layerOffset": {
+                "value": -0.01,
+                "line": 3885
+              },
+              "rotate": {
+                "value": false,
+                "line": 3886
+              },
+              "mirror": {
+                "value": false,
+                "line": 3887
+              }
+            },
+            "effective": {
+              "x": 0,
+              "y": 6.5,
+              "shootY": 5,
+              "top": false,
+              "mirror": false,
+              "rotate": false,
+              "baseRotation": 0,
+              "recoil": 1,
+              "layerOffset": -0.01
+            },
+            "weaponInstanceCount": 1,
+            "instances": [
+              {
+                "x": 0,
+                "y": 6.5,
+                "baseRotation": 0,
+                "flipSprite": false,
+                "region": "avert-weapon"
+              }
+            ],
+            "requiredPaintedRegions": [
+              "avert body without moving weapon",
+              "avert-weapon independent complete weapon"
+            ],
+            "whySplit": "recoil=1 causes independent weapon motion; layerOffset=-0.01 must remain preserved in the adapter."
+          },
+          "adapterAction": "draw this independent weapon region with the original Weapon.draw recoil and source-defined mirror/offsets; do not suppress weapon draw"
+        }
+      ],
+      "assembly": [
+        {
+          "file": "units/coordinator-recoil-fix/avert-body.png",
+          "role": "body",
+          "originPixels": [
+            160,
+            160
+          ]
+        },
+        {
+          "file": "units/coordinator-recoil-fix/avert-weapon.png",
+          "role": "weapon",
+          "scale": 0.48,
+          "instances": [
+            {
+              "mirrorX": false,
+              "rotationDegrees": 0,
+              "anchorPixels": [
+                473.5,
+                357.2
+              ]
+            }
+          ],
+          "pivotNormalized": [
+            0.5,
+            0.78
+          ],
+          "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+        }
+      ],
+      "bodyAnchorPixels": [
+        473.5,
+        450.0
+      ],
+      "facing": "north",
+      "originalName": "avert",
+      "canonicalSource": {
+        "name": "avert",
+        "line": 3858,
+        "properties": [
+          "flying = true;",
+          "armor = 3f;",
+          "hitSize = 12f;",
+          "rotate = false;",
+          "mirror = false;"
+        ],
+        "weapons": [
+          "\"avert-weapon\""
+        ]
+      },
+      "officialWeaponOffsets": [
+        {
+          "region": "avert-weapon",
+          "type": "Weapon",
+          "sourceExpressions": {
+            "x": "0f",
+            "y": "6.5f",
+            "mirror": "false",
+            "rotate": "false",
+            "baseRotation": null,
+            "rotationLimit": null,
+            "layerOffset": "-0.01f",
+            "shootY": "5f"
+          },
+          "worldSpace": "Mindustry world units, x-right/y-forward; raw source expressions, not art pixels"
+        }
+      ],
+      "legCount": 0,
+      "status": "art_complete_engine_not_verified",
+      "engineNotVerified": true,
+      "coordinateNote": "assembly anchorPixels are estimated art pixels; officialWeaponOffsets are original game-world expressions and must not be substituted for pixels.",
+      "gameplayGroup": "air",
+      "movementFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "visualQA": {
+        "status": "passed",
+        "evidence": "units/air-erekir/final-contact.png",
+        "backgrounds": [
+          "ivory",
+          "dark_green",
+          "gray"
+        ],
+        "facing": "north",
+        "weaponVisibility": "visible",
+        "legCountVerified": 0
+      },
+      "openIssues": [],
+      "pixelsFrozen": true,
+      "recoilArtRepaired": true,
+      "recoilSourceEvidence": "records/coordinator-recoil-fix/source-evidence.json",
+      "officialWeaponProperties": {
+        "x": 0,
+        "y": 6.5,
+        "shootY": 5,
+        "top": false,
+        "mirror": false,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 1,
+        "layerOffset": -0.01
+      },
+      "visualReview": {
+        "status": "passed_art_review",
+        "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+        "weaponIndependent": true,
+        "sourceDefinedWeaponInstances": 1,
+        "engineRuntimeVerified": false,
+        "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+        "observations": [
+          "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+          "Independent complete weapon part has its own transparent canvas",
+          "Rest and recoil mock preserve underpaint and show no double weapon",
+          "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+        ]
+      },
+      "validation": {
+        "fileChecks": "records/coordinator-recoil-fix/verification.json",
+        "passed": true,
+        "runtimeIntegrationVerified": false
+      },
+      "resolvedByRootMerge": [
+        "fixed_named_weapon_recoil_layer_replaced_by_coordinator_patch_pending_root_merge"
+      ]
+    }
+  ],
+  "rootVisualReview": "Passed three rest/recoil contact images: intact body underpaint, independently visible matching weapons, clean light/dark alpha; official weapon instances and recoil retained.",
+  "runtimeIntegrationVerified": false
+}

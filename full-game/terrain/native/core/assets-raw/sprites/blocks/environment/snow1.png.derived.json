@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/snow1.png",
+  "sha256": "b0b85a44f81c2981a620b8bdd2471a51e7852148067287a80300d5fd61ed7b99",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/02-cold-living-floors.png",
+      "sha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5",
+      "generationRecord": "full-game/terrain/source/02-cold-living-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    2,
+    2,
+    294,
+    294
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

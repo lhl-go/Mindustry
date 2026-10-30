@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/mech-fabricator-top.png",
+  "sourceGitBlob": "18525479c8cc0d784fcc38e3e75922874e56863c",
+  "sourceSha256": "9f04c2cea91ad55104c1d703d2019c9186ecd9b712122e1a8c590ef3e60be439",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "mech-fabricator-top",
+  "blockId": "mech-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator-top.png",
+  "sha256": "774781318e8993944286f1d9864379ebfc052904bfe4a18f3cd0ba2d23d03fda",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator-top.png",
+  "engineSha256": "774781318e8993944286f1d9864379ebfc052904bfe4a18f3cd0ba2d23d03fda",
+  "nativeFile": "full-game/blocks/masters/mech-fabricator.png",
+  "nativeSha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7",
+  "nativeSize": [
+    348,
+    330
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mech-fabricator.png",
+      "sha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/mech-fabricator-top.png",
+      "sha256": "9f04c2cea91ad55104c1d703d2019c9186ecd9b712122e1a8c590ef3e60be439"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mech-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

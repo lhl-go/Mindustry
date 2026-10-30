@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/slag-centrifuge.png",
+  "sha256": "48a8adeb117a16c59a544abb858d47cd153b041c1b1d9b2be6691cc3b03120b2",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1170,
+      686,
+      1518,
+      986
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      348,
+      300
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    380,
+    332
+  ],
+  "anchorPixels": [
+    190.0,
+    166.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

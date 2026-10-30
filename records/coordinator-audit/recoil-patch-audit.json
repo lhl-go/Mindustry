@@ -1,0 +1,205 @@
+{
+  "auditAt": "2026-10-26T11:54:46.755311+00:00",
+  "scope": "Three-unit patch only. Prior 159-file/180-record audit reused; no full UI render.",
+  "patchSha256": "36940ed66d2bb066e582a073c0e9d06853262c01b457a631f301748a4d17706c",
+  "patchStatusObserved": "pending_final_visual_review",
+  "patchUnitIds": [
+    "poly",
+    "elude",
+    "avert"
+  ],
+  "uniqueImageFilesChecked": 9,
+  "provenanceRecordsChecked": 10,
+  "files": {
+    "units/coordinator-recoil-fix/poly-assembled.png": {
+      "sha256": "73bb63102e8173588624820914cc0d29061f1a43533056db2d7e14cfd477e2fc",
+      "size": [
+        918,
+        904
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/poly-body.png": {
+      "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+      "size": [
+        598,
+        584
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/poly-weapon.png": {
+      "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+      "size": [
+        235,
+        398
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/elude-assembled.png": {
+      "sha256": "c2aa17b3e11e536e260f65265e39846cc08825a2227e46e3a5bc2ef24f001d0e",
+      "size": [
+        757,
+        943
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/elude-body.png": {
+      "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+      "size": [
+        437,
+        623
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/elude-weapon.png": {
+      "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+      "size": [
+        176,
+        432
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/avert-assembled.png": {
+      "sha256": "4efe1a7ca9a9c52087613a8ac4b17f87eb13a9ee4ee9b8c1b48be0536d8981de",
+      "size": [
+        947,
+        900
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/avert-body.png": {
+      "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+      "size": [
+        627,
+        580
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    },
+    "units/coordinator-recoil-fix/avert-weapon.png": {
+      "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+      "size": [
+        197,
+        426
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "nonzeroAlphaOnCanvasEdge": false
+    }
+  },
+  "units": [
+    {
+      "id": "poly",
+      "bodyFile": "units/coordinator-recoil-fix/poly-body.png",
+      "weaponFile": "units/coordinator-recoil-fix/poly-weapon.png",
+      "compositeFile": "units/coordinator-recoil-fix/poly-assembled.png",
+      "officialWeaponProperties": {
+        "x": 3.75,
+        "y": -2.5,
+        "top": false,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 2,
+        "layerOffset": 0
+      },
+      "instanceCount": 2,
+      "originalDefectClosed": true,
+      "visualReview": "passed: inspected body, independent weapon, and ivory/dark rest-and-recoil diagnostic; full underpaint and complete weapon silhouette visible.",
+      "registration": "Pixel anchors are explicitly estimated art alignment; official source fields retained independently, no runtime registration claimed."
+    },
+    {
+      "id": "elude",
+      "bodyFile": "units/coordinator-recoil-fix/elude-body.png",
+      "weaponFile": "units/coordinator-recoil-fix/elude-weapon.png",
+      "compositeFile": "units/coordinator-recoil-fix/elude-assembled.png",
+      "officialWeaponProperties": {
+        "x": 4,
+        "y": -2,
+        "top": true,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": -35,
+        "recoil": 1.5,
+        "layerOffset": 0
+      },
+      "instanceCount": 2,
+      "originalDefectClosed": true,
+      "visualReview": "passed: inspected body, independent weapon, and ivory/dark rest-and-recoil diagnostic; full underpaint and complete weapon silhouette visible.",
+      "registration": "Pixel anchors are explicitly estimated art alignment; official source fields retained independently, no runtime registration claimed."
+    },
+    {
+      "id": "avert",
+      "bodyFile": "units/coordinator-recoil-fix/avert-body.png",
+      "weaponFile": "units/coordinator-recoil-fix/avert-weapon.png",
+      "compositeFile": "units/coordinator-recoil-fix/avert-assembled.png",
+      "officialWeaponProperties": {
+        "x": 0,
+        "y": 6.5,
+        "shootY": 5,
+        "top": false,
+        "mirror": false,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 1,
+        "layerOffset": -0.01
+      },
+      "instanceCount": 1,
+      "originalDefectClosed": true,
+      "visualReview": "passed: inspected body, independent weapon, and ivory/dark rest-and-recoil diagnostic; full underpaint and complete weapon silhouette visible.",
+      "registration": "Pixel anchors are explicitly estimated art alignment; official source fields retained independently, no runtime registration claimed."
+    }
+  ],
+  "issues": [],
+  "historicalSources": [],
+  "diagnosticsInspected": [
+    "records/coordinator-recoil-fix/poly-rest-and-recoil.jpg",
+    "records/coordinator-recoil-fix/elude-rest-and-recoil.jpg",
+    "records/coordinator-recoil-fix/avert-rest-and-recoil.jpg"
+  ],
+  "conclusion": "passed_art_patch_ready_for_merge",
+  "runtimeIntegrationVerified": false,
+  "remainingAdministrativeStep": "Production owner must replace these three existing unit entries, remove the superseded baked-weapon mappings, regenerate final manifest/package and close stale openIssues; do not append duplicate IDs."
+}

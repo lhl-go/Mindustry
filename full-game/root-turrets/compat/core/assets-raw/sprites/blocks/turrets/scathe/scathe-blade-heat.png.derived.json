@@ -1,0 +1,41 @@
+{
+  "region": "scathe-blade-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-heat.png",
+  "sha256": "ce7a6dae6f9210b9562c38ad42c998f12674d44be401b6b8d9824e81695c0589",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.494698+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scathe/scathe-blade-heat.png",
+      "sha256": "70b2c51f28562baf37b6a73dad617c2fd0ada9e314ef98aaae2d281a13ab5949",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-r.png",
+      "sha256": "efe7718a14ef91ef32511d6fca3b3f3a9e845409ec6c24422be8de73e3814e37",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-l.png",
+      "sha256": "efe7718a14ef91ef32511d6fca3b3f3a9e845409ec6c24422be8de73e3814e37",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "scathe-blade-r",
+      "scathe-blade-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1285
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

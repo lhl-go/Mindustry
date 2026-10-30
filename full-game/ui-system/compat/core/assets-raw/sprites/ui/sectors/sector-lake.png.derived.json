@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-lake.png",
+  "sourceGitBlob": "cfd5dfdbb0cf88aa0a2f41e756f313121efb36f8",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/sectors/sector-lake.png",
+  "sha256": "26c21c244eef7678eff03cd6ebb2fce2fa489a22204963e04900299ca29cc7b0",
+  "sourceSize": [
+    64,
+    64
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/sectors/sector-lake.png",
+      "sha256": "8aee171706ea27d4f730d2b436981677d021b07c783b8380f518c45459e412b6",
+      "record": "full-game/ui-system/sectors/sector-lake.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "sector-lake"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

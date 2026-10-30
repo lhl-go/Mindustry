@@ -1,0 +1,41 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Paint a Mindustry ground LIQUID texture atlas. References attached are ONLY for refined bright Daoist Q hand-painted finish and clean brushwork; DO NOT draw their UI, text, people, objects or symbols. Requested 2304×3072 portrait, precisely THREE columns × FOUR rows of 12 square material swatches. Each square fills entire cell, no border, gutter, label or frame. Strict flat top-down orthographic liquid surface; tiny quiet ripples and subtle brushwork, not a scene or pool shoreline. Low contrast readable texture with matching tileable edges on all four sides and no large reflections crossing borders. No global lighting gradient. Keep the 12 functional materials distinguishable by color and texture, all opaque.\nRow1 left to right: DEEP WATER dark sapphire-blue water with faint broad soft ripples; SHALLOW WATER clean light turquoise water with small pale caustics over faint stony bed; TAINTED WATER dusky lavender-purple water with tiny subtle irregular contamination wisps.\nRow2: DEEP TAINTED WATER dark muted plum-purple water; SAND WATER pale transparent turquoise shallow water over warm beige sand ripple bed; DARKSAND WATER desaturated blue teal water over dark gray fine sand.\nRow3: DARKSAND TAINTED WATER smoky violet water over dark gray sand; TAR almost-black warm charcoal viscous petroleum with restrained oily sheen; POOLED CRYOFLUID luminous cool powder-blue milky liquid with faint soft mistlike swirls, not ice cracks.\nRow4: MOLTEN SLAG hot orange-red molten liquid with golden glowing thin eddies and small dark crust specks, no solid cliffs; ARKYCITE FLOOR deep olive-lime green viscous alien organic liquid with tiny green surface bubbles; SALT dry pale ivory-white granular salt flat with small irregular polygon cracks and fine crystalline grains, completely dry not water.\nEach cell completely filled, no text, no labels, no borders, no raised geometry. Materials should resemble beautifully painted game floor textures, no photoreal noise.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:36:36 UTC",
+  "returnedAt": "2026-10-26 16:38:18 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5d0c3497-e11b-4f8b-8337-29531cc07132.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    2304,
+    3072
+  ],
+  "grid": [
+    3,
+    4
+  ],
+  "regions": [
+    "deep-water",
+    "shallow-water",
+    "tainted-water",
+    "deep-tainted-water",
+    "sand-water",
+    "darksand-water",
+    "darksand-tainted-water",
+    "tar",
+    "pooled-cryofluid",
+    "molten-slag",
+    "arkycite-floor",
+    "salt"
+  ]
+}

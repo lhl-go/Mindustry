@@ -1,0 +1,44 @@
+{
+  "region": "scathe-side-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-side-r.png",
+  "sha256": "4393e32055a17ebad00825fda7f9238e650c06c39d7a0fe69326e46c9d2e051c",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.360602+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/scathe-side-l.png",
+      "sha256": "722bb529434a8a56298ced2c84e6d33817b540c17fc844c4a2897a9f62cee019",
+      "record": "full-game/root-turrets/masters/scathe-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scathe/scathe-side-r.png",
+      "sha256": "c615a6fc6163e7d94a7d258b856590c2e463f8043fd064d69025fd58797bcb95",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scathe/scathe-side-l.png",
+      "sha256": "05df94d106ee45424848fb7a4be1092cb3a5ff0e8d625ff7034d9e601ffa5a14",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      100,
+      31,
+      124,
+      74
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

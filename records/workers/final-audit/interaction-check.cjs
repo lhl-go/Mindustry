@@ -1,0 +1,23 @@
+const fs=require('fs');
+const {chromium}=require('C:/Users/luyua/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ const page=await browser.newPage({viewport:{width:844,height:390}}),errors=[],checks=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8765/ui/preview/?id=UI-019&state=3&capture=1');
+ const state=async(id,i)=>page.evaluate(({id,i})=>{currentId=id;stateIndex=i;device='mobile';render();},{id,i});
+ await state('UI-019',3);const old=await page.locator('[data-sa-seed]').inputValue();await page.locator('[data-sa-action="random-seed"]').click();
+ checks.push({name:'random seed changes local field',passed:(await page.locator('[data-sa-seed]').inputValue())!==old});
+ await state('UI-019',0);await page.locator('[data-sa-action="empty-filters"]').click();
+ checks.push({name:'empty filter state replaces list',passed:(await page.locator('#gameViewport').innerText()).includes('尚未添加滤镜')});
+ await state('UI-022',4);await page.locator('[data-sa-action="clear-objectives"]').click();
+ checks.push({name:'clear objectives displays local confirmation',passed:(await page.locator('[data-sa-action="clear-objectives"]').innerText()).includes('确认操作')});
+ await state('UI-012',2);await page.locator('[data-sa-action="state:0"]').click();
+ checks.push({name:'state navigation returns to catalog',passed:await page.evaluate(()=>currentId==='UI-012'&&stateIndex===0)});
+ await state('UI-028',1);
+ checks.push({name:'mobile chat input visible above footer without scroll',passed:await page.evaluate(()=>{const input=document.querySelector('form[data-chat]'),body=document.querySelector('.screenBody'),footer=document.querySelector('.actions');const r=input.getBoundingClientRect(),b=body.getBoundingClientRect(),f=footer.getBoundingClientRect();return r.top>=b.top&&r.bottom<=b.bottom+1&&r.bottom<=f.top;})});
+ checks.push({name:'mobile chat history independently scrollable',passed:await page.evaluate(()=>{const el=document.querySelector('.sa-chat');el.scrollTop=el.scrollHeight;return el.scrollTop>0;})});
+ await state('UI-021',3);checks.push({name:'mobile long parameters scroll with footer retained',passed:await page.evaluate(()=>{const el=document.querySelector('.screenBody');el.scrollTop=el.scrollHeight;const f=document.querySelector('.actions').getBoundingClientRect(),v=document.querySelector('#gameViewport').getBoundingClientRect();return el.scrollTop>0&&f.bottom<=v.bottom;})});
+ const report={checkedAt:new Date().toISOString(),browser:browser.version(),checks,errors,passed:checks.every(c=>c.passed)&&!errors.length,realNetworkFileGameActionsExecuted:false};
+ fs.writeFileSync('D:/work/image/mindustry-image/records/workers/final-audit/interaction-check.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exitCode=1});

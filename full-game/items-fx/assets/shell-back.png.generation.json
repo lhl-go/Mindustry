@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/shell.png",
+      "sha256": "881dc6dc9be50439d437efe2b67101e975d8dd06ffc41c68090ab8d978e5b6e3",
+      "generationRecord": "full-game/items-fx/assets/shell.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/shell-back.png",
+  "sha256": "2a2f3fda3ac7cb33d5bd40ce5792216b3d1bbd75ac38110ca6ac89248b1c0689",
+  "width": 156,
+  "height": 405,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.473242+00:00"
+}

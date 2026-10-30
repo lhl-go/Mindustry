@@ -1,0 +1,66 @@
+{
+  "file": "units/root-builders/assets/alpha.png",
+  "sha256": "1de9eb841cb8e725f2ab438eab6e06b8d0614c269573b47033c1021e6df60f17",
+  "width": 432,
+  "height": 419,
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/alpha-body.png",
+      "sha256": "10fc79bcec7af371f979e265eb3f04b9cea38f6412c66c34f794f169069bcebb",
+      "generationRecord": "units/root-builders/layers/alpha-body.png.derived.json"
+    },
+    {
+      "file": "units/root-builders/layers/small-basic-weapon.png",
+      "sha256": "68e2bc3b8f0fc78e0a513b3a98f7548cc0ebe87b95b711ec4ab28f91122c95db",
+      "generationRecord": "units/root-builders/layers/small-basic-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "static_layer_composite_preview",
+    "order": [
+      "mirrored_weapon_pair",
+      "body"
+    ],
+    "weaponResampled": true,
+    "bodyResampled": false,
+    "weaponPlacements": [
+      {
+        "mirrorSide": -1,
+        "topLeftPixels": [
+          111,
+          147
+        ],
+        "size": [
+          56,
+          69
+        ],
+        "officialOffset": [
+          -2.75,
+          1
+        ]
+      },
+      {
+        "mirrorSide": 1,
+        "topLeftPixels": [
+          265,
+          147
+        ],
+        "size": [
+          56,
+          69
+        ],
+        "officialOffset": [
+          2.75,
+          1
+        ]
+      }
+    ],
+    "pixelsPerWorldUnitEstimate": 27.87878787878788
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "imageRetained": false,
+  "supersededBy": "units/root-builders/assets/alpha-v2.png"
+}

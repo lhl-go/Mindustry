@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/reinforced-surge-wall-large.png",
+  "sourceGitBlob": "9fe2c736cacd1800bb875471fbf4acecd71d07af",
+  "sourceSha256": "178f99a9b597d723dea8937cb6884720fdad37d18e061e7ac298d64e2c2e69cc",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "reinforced-surge-wall-large",
+  "blockId": "reinforced-surge-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/reinforced-surge-wall-large.png",
+  "sha256": "6d12bd50025c3b8a623ea6f99db08134acbc71cc908ed3cb56ed558404ea711f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/reinforced-surge-wall-large.png",
+  "engineSha256": "6d12bd50025c3b8a623ea6f99db08134acbc71cc908ed3cb56ed558404ea711f",
+  "nativeFile": "full-game/blocks/masters/reinforced-surge-wall.png",
+  "nativeSha256": "062bd03ef4ffbfdca4716f28b14de0e3664b85c207cfbdf0a1abb7a87506553a",
+  "nativeSize": [
+    329,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-surge-wall.png",
+      "sha256": "062bd03ef4ffbfdca4716f28b14de0e3664b85c207cfbdf0a1abb7a87506553a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/reinforced-surge-wall-large.png",
+      "sha256": "178f99a9b597d723dea8937cb6884720fdad37d18e061e7ac298d64e2c2e69cc"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/reinforced-surge-wall-large.png.derived.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/emanate.png",
+  "sha256": "8c624b1e27b78a700894a5ca95f920db7a2e7b55d851b7346f32a314df30f5d7",
+  "width": 82,
+  "height": 84,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/emanate.png",
+      "sha256": "00b729089c8caf9fd9b71123fa3513e5cf9d396c17036f29589132a544229ac7",
+      "generationRecord": "units/air-erekir/individual/emanate.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      815,
+      704
+    ],
+    "sourcePivot": [
+      415.5,
+      360.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      10
+    ],
+    "sourceDimensions": [
+      831,
+      720
+    ],
+    "targetDimensions": [
+      82,
+      84
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      78,
+      80
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      41.0,
+      42.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/emanate.png",
+    "gitBlobSha1": "a6bfa45261339dd67b7ef07e4de3ca1eb446bbe9",
+    "sha256": "1ce82dbabfdf94566e29b0cbc9da18eba39ba961dfe5d32976cd23ee62658f70"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

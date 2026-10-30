@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/scathe-missile-dark.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.124201+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 489,
+  "height": 668,
+  "sha256": "8171f53a80d0ab8d6a74a17513e7865f1b2b04a50ff1bd81256bc386c96b49a2",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/scathe-missile.png",
+      "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+      "generationRecord": "units/special/assets/scathe-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      28,
+      36,
+      39,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

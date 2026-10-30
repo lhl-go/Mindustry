@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+  "sha256": "ad0771d7d3f9d0ba9a8ae4af989308225842df546627677abc030a0cda1d7cc8",
+  "width": 84,
+  "height": 146,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+      "sha256": "4ce7eb613dba05cd9c3914268995301985e426ded8d9a8375a88e1dc271aa474",
+      "generationRecord": "units/air-erekir-parts/assets/collaris-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      244,
+      346
+    ],
+    "sourcePivot": [
+      137,
+      248
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      7,
+      1
+    ],
+    "sourceDimensions": [
+      276,
+      378
+    ],
+    "targetDimensions": [
+      84,
+      146
+    ],
+    "officialAlphaBounds": [
+      17,
+      5,
+      70,
+      108
+    ],
+    "scale": 0.3333333333333333,
+    "engineAnchorPx": [
+      42.0,
+      73.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+    "gitBlobSha1": "56d66f2431aa85b31480739235126122a5babaf5",
+    "sha256": "c2e9eb5edeb373d6533f449c75a17039fe526d868b1c4ce93fbe6c37b530ccfb"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

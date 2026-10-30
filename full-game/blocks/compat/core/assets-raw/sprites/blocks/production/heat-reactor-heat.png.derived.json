@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-reactor-heat.png",
+  "sourceGitBlob": "63eda92a37c2761b8144380773ca0ffd4684a7a5",
+  "sourceSha256": "fb957024a854756186a2b9dc2c18cdb9f6288279f28c7f92998e9378179bf5a0",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-reactor-heat",
+  "blockId": "heat-reactor",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-heat.png",
+  "sha256": "e440bae2bfd85df15e459a815cf6311eec1a3bf67278e9d30935a0701b094da6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-heat.png",
+  "engineSha256": "e440bae2bfd85df15e459a815cf6311eec1a3bf67278e9d30935a0701b094da6",
+  "nativeFile": "full-game/blocks/masters/heat-reactor.png",
+  "nativeSha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96",
+  "nativeSize": [
+    353,
+    380
+  ],
+  "sourceAlphaBounds": [
+    63,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-reactor.png",
+      "sha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-reactor-heat.png",
+      "sha256": "fb957024a854756186a2b9dc2c18cdb9f6288279f28c7f92998e9378179bf5a0"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

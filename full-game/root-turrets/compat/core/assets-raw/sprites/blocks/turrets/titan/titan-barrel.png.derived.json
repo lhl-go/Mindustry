@@ -1,0 +1,42 @@
+{
+  "region": "titan-barrel",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel.png",
+  "sha256": "164051bf1e08c475db843cecc4e639e07b7f2b418f2d95809e05e03e5617cb8f",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.255829+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/titan-barrel.png",
+      "sha256": "8a53e76fc03bf804df1c838468ec00c7a50b21e3e7e8dc17efe3c84b7dc26af3",
+      "record": "full-game/root-turrets/masters/titan-barrel.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan-barrel.png",
+      "sha256": "50932e9df1f78c254ce252b93e47395e3cec8c88dd3f5e2e1ae12367388dca72",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      40,
+      5,
+      88,
+      123
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      199,
+      461
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

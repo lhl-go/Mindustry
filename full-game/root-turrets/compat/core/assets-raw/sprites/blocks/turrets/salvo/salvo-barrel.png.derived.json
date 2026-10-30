@@ -1,0 +1,42 @@
+{
+  "region": "salvo-barrel",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel.png",
+  "sha256": "2d9e68d3f5a34283754263e9fa687cd6ce672d9a576670f3af90c923282674bb",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.167857+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/salvo-barrel.png",
+      "sha256": "03b4fd94d05ea8e4485b01271061e9c7812567c591e440ad6e55616aa47152db",
+      "record": "full-game/root-turrets/masters/salvo-barrel.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/salvo/salvo-barrel.png",
+      "sha256": "9faadcb16c60eace6e83dab10e87e2776cdeb68f0548cf86bc19abbe5fb7509d",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      18,
+      4,
+      46,
+      58
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      199,
+      346
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

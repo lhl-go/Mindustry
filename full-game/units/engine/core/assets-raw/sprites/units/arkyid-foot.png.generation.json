@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-foot.png",
+  "sha256": "a6b90500e5317381e52c4a62879776b516ad74df6c58659eb45df43c4db748e3",
+  "width": 70,
+  "height": 70,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+      "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      200,
+      289
+    ],
+    "sourcePivot": [
+      108.0,
+      54.22
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      14,
+      1
+    ],
+    "sourceDimensions": [
+      216,
+      305
+    ],
+    "targetDimensions": [
+      70,
+      70
+    ],
+    "officialAlphaBounds": [
+      13,
+      1,
+      60,
+      69
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      35.0,
+      35.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/arkyid-foot.png",
+    "gitBlobSha1": "0919d7ae30bd02eb82d102f2e3d9fb9dc228797f",
+    "sha256": "287a968c7b5b4f62b87ad6c2fc4e33f4330b1ed20d3c9890276be37a8034df1d"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

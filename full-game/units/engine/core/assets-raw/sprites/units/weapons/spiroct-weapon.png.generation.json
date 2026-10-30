@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+  "sha256": "917965ba02c4687d343cd10bd2ee98b0fa134f0dbbcf33f4486fe2dfcbafafaf",
+  "width": 48,
+  "height": 56,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-sap-emitter.png",
+      "sha256": "6fc31a6bbb2daabf01f58065cf40ea84babb5309cb566355df9142a1f7eb2743",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-sap-emitter.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      247,
+      307
+    ],
+    "sourcePivot": [
+      131.5,
+      240.07
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      10,
+      1
+    ],
+    "sourceDimensions": [
+      263,
+      323
+    ],
+    "targetDimensions": [
+      48,
+      56
+    ],
+    "officialAlphaBounds": [
+      17,
+      3,
+      35,
+      42
+    ],
+    "scale": 0.12049805864238854,
+    "engineAnchorPx": [
+      24.0,
+      28.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+    "gitBlobSha1": "91ff27033e72d03102542119c7b2ff92969577d3",
+    "sha256": "12077d417736fe6286dcd590cd02087d84c2ce9c4470808c4d4caa149624ab4f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

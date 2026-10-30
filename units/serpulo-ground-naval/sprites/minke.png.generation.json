@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/minke.png",
+  "sha256": "91f58cdfc1c0e6ffe9ffbf04e196431154ac9ecebf764a5bd5b49bd58bdf1097",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/minke.png",
+      "sha256": "465dd1c6e23952dc4c04268929a65db02814007f511150972ae7be9f21cfd3fa",
+      "generationRecord": "units/serpulo-ground-naval/bodies/minke.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+      "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-mortar.png",
+      "sha256": "f9dd0c25e2e08873be7ef758a50e2110169ce72f496c58be2bc8a58c952ecacd",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-mortar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      958,
+      844,
+      1243,
+      1356
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/bodies/minke.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/minke.png.generation.json",
+        "sourceAnchorPx": [
+          134.5,
+          248.0
+        ],
+        "targetAnchorPx": [
+          142,
+          256
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          8,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          77.44,
+          196.48
+        ],
+        "scale": [
+          0.28879310344827586,
+          0.2888086642599278
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          44,
+          139
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          206.56,
+          196.48
+        ],
+        "scale": [
+          0.28879310344827586,
+          0.2888086642599278
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          173,
+          139
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-mortar.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-mortar.png.generation.json",
+        "sourceAnchorPx": [
+          139.5,
+          219.25
+        ],
+        "targetAnchorPx": [
+          82.82,
+          370.08
+        ],
+        "scale": [
+          0.2616487455197133,
+          0.2607260726072607
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          46,
+          313
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-mortar.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-mortar.png.generation.json",
+        "sourceAnchorPx": [
+          139.5,
+          219.25
+        ],
+        "targetAnchorPx": [
+          201.18,
+          370.08
+        ],
+        "scale": [
+          0.2616487455197133,
+          0.2607260726072607
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          165,
+          313
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 285,
+    "height": 512,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 67707,
+    "opaquePixelCount": 75506,
+    "partialPixelCount": 2707,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      261,
+      488
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "minke",
+    "sha256": "91f58cdfc1c0e6ffe9ffbf04e196431154ac9ecebf764a5bd5b49bd58bdf1097",
+    "size": [
+      285,
+      512
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/mega.png",
+  "sha256": "a52844983ef868b36a110b5436694614c2ae83f7ff3bf45ea5e17be7f78d7218",
+  "width": 508,
+  "height": 448,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/mega-body.png",
+      "sha256": "113f04b8beb019d134c31600aadfdf04c6d8a6e5240ea2245a35b41c0c034680",
+      "generationRecord": "units/air-erekir/layers/mega-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+      "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+      "generationRecord": "units/air-erekir-parts/assets/heal-weapon-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/mega-body.png",
+        "role": "body",
+        "region": "mega",
+        "anchorPixels": [
+          254,
+          224
+        ],
+        "scale": 0.8785046728971962,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          267.5,
+          233.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+        "role": "weapon",
+        "region": "heal-weapon-mount",
+        "anchorPixels": [
+          117.7,
+          265.0
+        ],
+        "scale": 0.282,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          160,
+          169
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+        "role": "weapon",
+        "region": "heal-weapon-mount",
+        "anchorPixels": [
+          390.3,
+          265.0
+        ],
+        "scale": 0.282,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          160,
+          169
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+        "role": "weapon",
+        "region": "heal-weapon-mount",
+        "anchorPixels": [
+          183.5,
+          146.1
+        ],
+        "scale": 0.2444,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          160,
+          169
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+        "role": "weapon",
+        "region": "heal-weapon-mount",
+        "anchorPixels": [
+          324.5,
+          146.1
+        ],
+        "scale": 0.2444,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          160,
+          169
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

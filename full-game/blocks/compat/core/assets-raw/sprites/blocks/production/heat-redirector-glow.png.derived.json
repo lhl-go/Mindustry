@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-redirector-glow.png",
+  "sourceGitBlob": "87109515fc2090adaead5b363e600dbe6763d8da",
+  "sourceSha256": "12beaf6803224313236bc87d14ecf9772eca3f1c79ed355c92f198206418d74f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-redirector-glow",
+  "blockId": "heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-glow.png",
+  "sha256": "f744e9e3961c572c4fcb12fcf14d598c3199713f6b2ac32303bc26eaa9601c24",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-glow.png",
+  "engineSha256": "f744e9e3961c572c4fcb12fcf14d598c3199713f6b2ac32303bc26eaa9601c24",
+  "nativeFile": "full-game/blocks/masters/heat-redirector.png",
+  "nativeSha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4",
+  "nativeSize": [
+    333,
+    365
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    84,
+    84
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-redirector.png",
+      "sha256": "0fa029c8fca20346a83fef7b59e26ae01dd1224f6a7308c1529991f229f92ab4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-redirector-glow.png",
+      "sha256": "12beaf6803224313236bc87d14ecf9772eca3f1c79ed355c92f198206418d74f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-redirector-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

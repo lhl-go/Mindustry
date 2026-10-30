@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/spore-press-top.png",
+  "sourceGitBlob": "86cc8ce5e659d97d960aa6fe1f676072b7e73a71",
+  "sourceSha256": "6001163a8e1ae2759a4b47859f5fa88cfeb04c1e3c0dcee14759d8e189e8e5a3",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "spore-press-top",
+  "blockId": "spore-press",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-top.png",
+  "sha256": "9fc2536ed71dc1b1cd23699decff80da785f15113106f6d47a7b8f9c0b809500",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-top.png",
+  "engineSha256": "9fc2536ed71dc1b1cd23699decff80da785f15113106f6d47a7b8f9c0b809500",
+  "nativeFile": "full-game/blocks/masters/spore-press.png",
+  "nativeSha256": "ce1e7b8356906454015ae88addf8fdef9033c95ca25f641f6cf8884e63cd1076",
+  "nativeSize": [
+    392,
+    364
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    40,
+    40
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/spore-press.png",
+      "sha256": "ce1e7b8356906454015ae88addf8fdef9033c95ca25f641f6cf8884e63cd1076"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/spore-press-top.png",
+      "sha256": "6001163a8e1ae2759a4b47859f5fa88cfeb04c1e3c0dcee14759d8e189e8e5a3"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

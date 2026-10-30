@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/rune-overlay/rune-overlay-crux19.png",
+  "sha256": "88e64da58621f3e1df0a0b6f63cefee1ab434b570fb92ca8eac4251de50cd509",
+  "createdAt": "2026-10-26T17:24:43.754711+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets-raw/sprites/blocks/environment/rune-overlay/rune-overlay-crux19.png",
+  "officialGitBlobSha1": "2a062b6276d3a5acca197bb933c868d3d037b542",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets-raw/sprites/blocks/environment/rune-overlay/rune-overlay-crux19.png",
+  "sourceSha256": "88e64da58621f3e1df0a0b6f63cefee1ab434b570fb92ca8eac4251de50cd509",
+  "byteIdenticalToOfficial": true,
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "reason": "Semantic 109-rune encoded alphabet per faction plus icons; overlayData maps exact glyph indices to Unicode offset0x142B. Official geometry retained, no AI art claimed.",
+  "technicalEvidence": [
+    "core/src/mindustry/world/blocks/environment/RuneOverlay.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

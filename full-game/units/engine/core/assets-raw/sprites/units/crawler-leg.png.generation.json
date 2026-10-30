@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-leg.png",
+  "sha256": "63a1baa7de3db00c15c5e8759f0653f0c42c37d9a00ea5bf92b47b19fe7b7b6a",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-crawler.png",
+      "sha256": "3db3a9bb0b820ddc781384ff23ade36d7d41d82fdcca41cf87e013460b8603eb",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-crawler.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      170,
+      469
+    ],
+    "sourcePivot": [
+      93.0,
+      79.42
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      11
+    ],
+    "sourceDimensions": [
+      186,
+      485
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      8,
+      11,
+      40,
+      35
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/crawler-leg.png",
+    "gitBlobSha1": "3183e7832137aef467205e27b4a9319db638520d",
+    "sha256": "9ed23a3ab9e957bf07b725dc245e8e83dbc653cc06e0552f683677c89b3c060c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

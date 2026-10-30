@@ -1,0 +1,35 @@
+{
+  "region": "breach-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/breach-heat.png",
+  "sha256": "c2cc459f38edbb16f10ae404e46b52c9b1eeed279e1e30c342940a0286fea61a",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.424943+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/breach-heat.png",
+      "sha256": "40068f7a2cc95dfe8e36b2caae88406a5cd875ee8e6b53e7913085bcf529cbf6",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/breach.png",
+      "sha256": "bf0509592858e46afeaf7c789ad03b5e926a403ac0a9a5e16b81bc51096e6b48",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/breach.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "breach"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1034
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

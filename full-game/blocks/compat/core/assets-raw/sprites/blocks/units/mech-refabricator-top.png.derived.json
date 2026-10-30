@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/mech-refabricator-top.png",
+  "sourceGitBlob": "28e1927ffaf9d3b94aea6bf79ab330ff896291dd",
+  "sourceSha256": "e92b8abf442ec25f00d2b3640b0c5bbcab154dc572e27b70536e19395476f3a3",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "mech-refabricator-top",
+  "blockId": "mech-refabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-refabricator-top.png",
+  "sha256": "7264b7573531dd5940e2105190447e76cebcff85a84a78fb1cc18d42f5dc9597",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-refabricator-top.png",
+  "engineSha256": "7264b7573531dd5940e2105190447e76cebcff85a84a78fb1cc18d42f5dc9597",
+  "nativeFile": "full-game/blocks/masters/mech-refabricator.png",
+  "nativeSha256": "6b7392233daf01e3a6daa9b793e87f9abe44ed86a8eb419189a72e788b008e5c",
+  "nativeSize": [
+    322,
+    331
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mech-refabricator.png",
+      "sha256": "6b7392233daf01e3a6daa9b793e87f9abe44ed86a8eb419189a72e788b008e5c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/mech-refabricator-top.png",
+      "sha256": "e92b8abf442ec25f00d2b3640b0c5bbcab154dc572e27b70536e19395476f3a3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-refabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-refabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mech-refabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

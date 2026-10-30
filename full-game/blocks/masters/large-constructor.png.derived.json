@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/large-constructor.png",
+  "sha256": "1bd4b19364a3e39ba738c351b5d4d77652151568e929efaa8a74d17410ee5850",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      35,
+      529,
+      378,
+      814
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      343,
+      285
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    375,
+    317
+  ],
+  "anchorPixels": [
+    187.5,
+    158.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

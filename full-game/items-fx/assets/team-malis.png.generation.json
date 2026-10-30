@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/05-gases-teams.png",
+      "sha256": "3d582e88f6ddd9b5148615345dfcba0f3101d02de9e45a1d265bd43556348110",
+      "generationRecord": "full-game/items-fx/source/05-gases-teams.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      13,
+      25,
+      435,
+      401
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/team-malis.png",
+  "sha256": "7a516eef13e224814104e9c53c69092d7248a188ad6899290d1d1d1b23404ac1",
+  "width": 454,
+  "height": 408,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.318076+00:00"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ore-copper2.png",
+  "sha256": "5542408c7d9418a31776011ee3aeead90991230c5876c02084c5d304098d2e1d",
+  "createdAt": "2026-10-26T17:30:55.502922+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      296,
+      61,
+      520,
+      246
+    ],
+    "nativeExtractedSize": [
+      224,
+      185
+    ],
+    "nativeComponents": 7,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.13392857142857142,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      32,
+      32
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

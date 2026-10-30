@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/phase-conduit-bridge.png",
+  "sourceGitBlob": "e681a09e989ad49fc34e66c1349abe9404d273e7",
+  "sourceSha256": "434951a3dac65b57a7efd9c75f2cff26ee3f7e8e4161d17698198dc0af4549af",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "phase-conduit-bridge",
+  "blockId": "phase-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-bridge.png",
+  "sha256": "4b31c883a4044bf2fa5cbc946d8b9b24b1d74074d39bcb393849b2f25b41f732",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-bridge.png",
+  "engineSha256": "4b31c883a4044bf2fa5cbc946d8b9b24b1d74074d39bcb393849b2f25b41f732",
+  "nativeFile": "full-game/blocks/masters/pulse-conduit-shape-0.png",
+  "nativeSha256": "72adc0ed0072883b9d5307888c52653f9f4e3b927dbee34da3f82fd980fd1b56",
+  "nativeSize": [
+    354,
+    167
+  ],
+  "sourceAlphaBounds": [
+    0,
+    4,
+    32,
+    28
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pulse-conduit-shape-0.png",
+      "sha256": "72adc0ed0072883b9d5307888c52653f9f4e3b927dbee34da3f82fd980fd1b56"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/phase-conduit-bridge.png",
+      "sha256": "434951a3dac65b57a7efd9c75f2cff26ee3f7e8e4161d17698198dc0af4549af"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-bridge.png.derived.json"
+}

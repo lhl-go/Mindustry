@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-heater-top2.png",
+  "sourceGitBlob": "293114bdc719d49cb1e4ba4854caef9d84c77e94",
+  "sourceSha256": "fb874148f7cf52ea2febfd8c2e7c2bd48a014e238c0cce6eae6ec0fa1d0e23e1",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-heater-top2",
+  "blockId": "phase-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-top2.png",
+  "sha256": "66c9f7a33e47f4d44e4b69a29a2239b9ebb38c88dc6c04694365d9f66aa0c3aa",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-top2.png",
+  "engineSha256": "66c9f7a33e47f4d44e4b69a29a2239b9ebb38c88dc6c04694365d9f66aa0c3aa",
+  "nativeFile": "full-game/blocks/masters/phase-heater.png",
+  "nativeSha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4",
+  "nativeSize": [
+    350,
+    305
+  ],
+  "sourceAlphaBounds": [
+    38,
+    7,
+    64,
+    57
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-heater.png",
+      "sha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-heater-top2.png",
+      "sha256": "fb874148f7cf52ea2febfd8c2e7c2bd48a014e238c0cce6eae6ec0fa1d0e23e1"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

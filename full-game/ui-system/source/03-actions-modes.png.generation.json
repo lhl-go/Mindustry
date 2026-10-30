@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/03-actions-modes.png",
+  "sha256": "1061bca76b587d24776bb7f5ee5feff25d07c0d58bd4d7feee8f6f9a117748df",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:19:11-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Game UI symbol atlas, polished Daoist Q high-definition hand-painted jade/ivory/warm-gold style matching attached approved UI images. TRUE transparent PNG, 1536x1024, exactly SIX columns FOUR rows, 24 individual distinct icons. Each icon fully isolated within a 256x256 cell with generous transparent margins; maximum170px silhouette, no cell boxes, no text labels. Consistent crisp outlines and subtle painted gold/jade textures, readable at32px. ROW1: 1 menu, three jade horizontal bars with gold ends; 2 missing, ivory question mark inside jade circular rim; 3 mode-attack, jade fortress struck by a small gold arrow; 4 mode-pvp, two opposing jade and vermilion crossed swords; 5 mode-survival, jade shield surrounded by three small incoming gold arrows; 6 none, gold ring crossed by diagonal slash. ROW2: 7 paste, gold clipboard with blank ivory page; 8 pencil, diagonal jade lacquered pencil with gold tip; 9 pick, jade-handled eyedropper with a small jade droplet; 10 play-2, two gold right-pointing triangles; 11 players, two simplified rounded ivory head-and-shoulder silhouettes with small jade Taoist cap accents; 12 production, small gold gear and jade alchemy vessel. ROW3: 13 quit, open ivory door with gold outward arrow; 14 redo, gold curved rightward arrow; 15 rename, ivory tag with jade brush and small gold dot; 16 resize, jade square outline with gold outward diagonal corner arrows; 17 rotate-arrow, gold clockwise circular arrow around a jade pivot dot; 18 rotate-left, clear gold counterclockwise arrow around a small ivory square. ROW4: 19 rotate-right, clear gold clockwise arrow around a small ivory square; 20 rotate, gold quarter-turn arrow over jade angular corner; 21 save-image, ivory landscape picture with small jade save box in lower corner; 22 spray, jade spray bottle releasing three tiny gold droplets; 23 terrain, stacked irregular jade and ivory stone strata; 24 tools, crossed jade-handled gold wrench and brush. No characters or scenery; preserve exact function and row order. Draw beautiful individual icons at native resolution with fully transparent gutters.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/03-actions-modes.txt",
+  "promptSha256": "9c5224d3b4a54e89fe5c666119a5ecc2c33b4fc283567b4483b874e69b8a08d2",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\03-actions-modes.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-96bb084a-a2c7-493d-ad14-5ac59086748e.png",
+    "nativePngSha256": "1061bca76b587d24776bb7f5ee5feff25d07c0d58bd4d7feee8f6f9a117748df",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 801060,
+  "status": "generated_pending_review"
+}

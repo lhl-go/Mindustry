@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/renale-dark.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.215731+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 442,
+  "height": 881,
+  "sha256": "e5588e06e8b775f88c2faf806ba3f5e8f78c37b8a206f0fada1820a06b724340",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/renale.png",
+      "sha256": "ab832cbfcc66bb308f47533de7a22b4d7d542c518abad7737e56d84fafb85382",
+      "generationRecord": "units/special/assets/renale.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      28,
+      36,
+      39,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

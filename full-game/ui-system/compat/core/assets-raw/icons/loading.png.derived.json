@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/loading.png",
+  "sourceGitBlob": "0fd2d5265dc611c182fecbd9306cbc5bfb997808",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/loading.png",
+  "sha256": "83bdef1ed21a088c71ec9e969e2f5b3e8f7bf2465c0739f202b5345c68c66431",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/loading.png",
+      "sha256": "f87f54fe85ef3d8220ef025d58e1e919f9277f7f6be3a2975d66e3ba8cc8582c",
+      "record": "full-game/ui-system/icons/loading.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "loading",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

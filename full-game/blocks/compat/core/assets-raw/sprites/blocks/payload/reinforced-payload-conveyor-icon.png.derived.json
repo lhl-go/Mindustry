@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-icon.png",
+  "sourceGitBlob": "c2ba97a8ecf1f1d9eb771a7f6e24c7aa3c95fb1a",
+  "sourceSha256": "191bc838f50f24752a777b57b0ab2adbec4cdcde25f521d8ad411f24e4767ffe",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "reinforced-payload-conveyor-icon",
+  "blockId": "reinforced-payload-conveyor",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-icon.png",
+  "sha256": "ba776da6695b9a16b18987ebe90b219ea17268cd91fd4992ddd5237e4c70086d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-icon.png",
+  "engineSha256": "ba776da6695b9a16b18987ebe90b219ea17268cd91fd4992ddd5237e4c70086d",
+  "nativeFile": "full-game/blocks/masters/reinforced-payload-conveyor.png",
+  "nativeSha256": "123df7da78971fc8fa40d00a75a64272eb4f2c5997a4fdfd1514faab32de89e9",
+  "nativeSize": [
+    225,
+    302
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "complete icon or placement preview",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-payload-conveyor.png",
+      "sha256": "123df7da78971fc8fa40d00a75a64272eb4f2c5997a4fdfd1514faab32de89e9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/reinforced-payload-conveyor-icon.png",
+      "sha256": "191bc838f50f24752a777b57b0ab2adbec4cdcde25f521d8ad411f24e4767ffe"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-icon.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-icon.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/reinforced-payload-conveyor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

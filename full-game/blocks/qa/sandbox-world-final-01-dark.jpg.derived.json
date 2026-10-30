@@ -1,0 +1,55 @@
+{
+  "file": "full-game/blocks/qa/sandbox-world-final-01-dark.jpg",
+  "sha256": "b2ec8c958a1c03b633002035650e95c0eba2536d8eac320f98b0062f41f15fe5",
+  "operation": "QA downscale and actual alpha compositing only",
+  "sourceInputs": [
+    {
+      "file": "full-game/blocks/masters/world-processor.png",
+      "sha256": "f6aa952f965fa7b54d6e20193219c47edf4ab4352fa83e499f25182f738187d2"
+    },
+    {
+      "file": "full-game/blocks/masters/world-cell.png",
+      "sha256": "d15403a5b24f6489420dfed9248429dd86c5831a2c8308626f94798ad43c7950"
+    },
+    {
+      "file": "full-game/blocks/masters/world-message.png",
+      "sha256": "455d500cc2e7ac5f2edb24d173916c0f69bf2fa0ca9115364fa179a4b18ba546"
+    },
+    {
+      "file": "full-game/blocks/masters/world-switch.png",
+      "sha256": "27dda51f60ad04ed0205c761ae492a703afdf155f459af8bd954595dfff8aca1"
+    },
+    {
+      "file": "full-game/blocks/masters/item-source.png",
+      "sha256": "bcb10033620ce58120f2792c51ec4d755b9f7bf17b3ac3b5730cac6e4ceb3751"
+    },
+    {
+      "file": "full-game/blocks/masters/item-void.png",
+      "sha256": "7a06939c0fa21ff81ac63b8e77cb113d7eca320070582a76242fcb8ecda175e4"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-void.png",
+      "sha256": "29448029e5565bcf98f3815ccbba558b424f7766d44411e7de38b40c97c6ffb6"
+    },
+    {
+      "file": "full-game/blocks/masters/target-dummy.png",
+      "sha256": "85b899a1ade7c7deb360f85b3d5f88027d0f745e25e7b5936abf85b81676ae3c"
+    },
+    {
+      "file": "full-game/blocks/masters/illuminator.png",
+      "sha256": "0a69a5341bf45f991a533c725f20fca04aa9049fbae78cfe66ee97eb56b627e0"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-overflow-gate.png",
+      "sha256": "03f8a5aba799e6ac5ef31e64bee0fecc16dea79a01e0e24a2ec3975a1bbff127"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-payload-router-v2.png",
+      "sha256": "3fe847eeefee998396dd3700dfcb814785b8e6465e1ebd8d95b936ecae7fa860"
+    }
+  ]
+}

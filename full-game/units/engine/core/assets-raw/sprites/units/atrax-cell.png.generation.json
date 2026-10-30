@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-cell.png",
+  "sha256": "ca373252c6c489e6427b17df29d7c07238833328bb852ca563b28dfc7516e53a",
+  "width": 88,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax.png",
+      "sha256": "0cc5bcd70eded0563faa888fb6d9a6aebc7815d25ec7bd0baa8e3655d01068b7",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/atrax.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "atrax",
+    "baseCanvas": [
+      88,
+      64
+    ],
+    "outputCanvas": [
+      88,
+      64
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/atrax-cell.png",
+    "gitBlobSha1": "9b8baf165daa12942c944561ec9049f4f92d48d5",
+    "sha256": "7403ab92f967c9cb65b77f281e04e9d48d43a68a12282d591204a2ad881022da"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

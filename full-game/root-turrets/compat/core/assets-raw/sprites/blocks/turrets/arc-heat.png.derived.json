@@ -1,0 +1,35 @@
+{
+  "region": "arc-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/arc-heat.png",
+  "sha256": "1029ccf6a10249f2d179bf423b4d0cfab5f1b1f5c197c6873b2bff665e9f12c3",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.421925+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/arc-heat.png",
+      "sha256": "b583b7c198aaa7dbd7011c7e836dfc3953e584f3d756cced8e5af55d34bdad50",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/arc.png",
+      "sha256": "5669e92a6b83e0e5a280ebd6aa530bdbe7b68be59e3c1a6b5c83772924440c25",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/arc.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "arc"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 162
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

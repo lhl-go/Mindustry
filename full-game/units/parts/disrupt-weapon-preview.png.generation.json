@@ -1,0 +1,25 @@
+{
+  "file": "full-game/units/parts/disrupt-weapon-preview.png",
+  "sha256": "855f0cf81ccc4b5dd91722140b9ebec54e94760016378c2667855b8ccb0ba8fb",
+  "width": 800,
+  "height": 650,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+      "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-weapon.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": "static neutral-pose composite: independent weapon and two mirrored native blades; local downsampling, no generated art added",
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Composition of traced images."
+}

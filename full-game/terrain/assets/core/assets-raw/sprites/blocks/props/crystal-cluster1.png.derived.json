@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-cluster1.png",
+  "sha256": "5e4bd39dc4b78dd9b1d0e506cf8a780f33c84988811ba7a3b141ae3fc5152c2f",
+  "createdAt": "2026-10-26T19:25:01.443679+00:00",
+  "kind": "derived_image",
+  "width": 208,
+  "height": 208,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/19-large-crystal-props.png",
+      "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+      "generationRecord": "full-game/terrain/source/19-large-crystal-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      18,
+      11,
+      377,
+      342
+    ],
+    "nativeExtractedSize": [
+      359,
+      331
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.5571030640668524,
+    "exportPadding": 4,
+    "registeredCanvas": [
+      208,
+      208
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

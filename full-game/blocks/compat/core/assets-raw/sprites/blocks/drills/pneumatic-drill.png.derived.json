@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/pneumatic-drill.png",
+  "sourceGitBlob": "e755a63e79158e20cdb5d6e69a54b0c8751b9069",
+  "sourceSha256": "1b80e956c5390bb7b5d81bfbfa858da687165aaebf9a1b4523dcf133011252a6",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "pneumatic-drill",
+  "blockId": "pneumatic-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill.png",
+  "sha256": "195ea4647916cd3b1b0882494fecc554e920ffa7bb15f87e98a23ceaefcff063",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill.png",
+  "engineSha256": "195ea4647916cd3b1b0882494fecc554e920ffa7bb15f87e98a23ceaefcff063",
+  "nativeFile": "full-game/blocks/masters/pneumatic-drill.png",
+  "nativeSha256": "6a9de89eda777b5d583b1378ff7b9b41cf9b95f68009d03f4e32ed88040b0de9",
+  "nativeSize": [
+    328,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pneumatic-drill.png",
+      "sha256": "6a9de89eda777b5d583b1378ff7b9b41cf9b95f68009d03f4e32ed88040b0de9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/pneumatic-drill.png",
+      "sha256": "1b80e956c5390bb7b5d81bfbfa858da687165aaebf9a1b4523dcf133011252a6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

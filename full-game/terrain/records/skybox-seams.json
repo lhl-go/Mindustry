@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-26T20:35:04.296418+00:00",
+  "projection": "OpenGL cube axes; fixed Arc dependency side names",
+  "nativePanorama": {
+    "schemaVersion": 1,
+    "file": "full-game/terrain/native/stars-equirectangular.png",
+    "sha256": "d8934353600761dde8e69b1c29ebdbbf5b8546c89ad4f8412c69e3cfa5dd8a21",
+    "size": [
+      1774,
+      887
+    ],
+    "resized": false,
+    "operation": "native panorama opposite longitude edges paired over24px; polar24px tapered to uniform cap; no new painted detail",
+    "derivedFrom": [
+      {
+        "file": "full-game/terrain/source/24-star-panorama.png",
+        "sha256": "ebf464710b9ed37ae55892d8b4b722837c79dc0de8203c52a9ce92315a96387c",
+        "generationRecord": "full-game/terrain/source/24-star-panorama.png.generation.json"
+      }
+    ]
+  },
+  "nativeFaces": 256,
+  "compatibilityFaces": 1024,
+  "pairChecks": [
+    {
+      "edgeA": "rightL",
+      "edgeB": "frontR",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "rightR",
+      "edgeB": "backL",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "rightT",
+      "edgeB": "topR",
+      "reversed": true,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "rightB",
+      "edgeB": "bottomR",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "leftL",
+      "edgeB": "backR",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "leftR",
+      "edgeB": "frontL",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "leftT",
+      "edgeB": "topL",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "leftB",
+      "edgeB": "bottomL",
+      "reversed": true,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "topT",
+      "edgeB": "backT",
+      "reversed": true,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "topB",
+      "edgeB": "frontT",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "bottomT",
+      "edgeB": "frontB",
+      "reversed": false,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    },
+    {
+      "edgeA": "bottomB",
+      "edgeB": "backB",
+      "reversed": true,
+      "nativeMaxAbsDifference": 0,
+      "compatibilityMaxAbsDifference": 0
+    }
+  ],
+  "panoramaLongitudeByteEqual": true,
+  "topCapUniform": true,
+  "bottomCapUniform": true,
+  "runtimeOrientationVerified": false,
+  "limitation": "Mathematical edge continuity passed; engine cube orientation/filtering still requires client verification."
+}

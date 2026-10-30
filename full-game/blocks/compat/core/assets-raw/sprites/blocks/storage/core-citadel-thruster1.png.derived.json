@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-citadel-thruster1.png",
+  "sourceGitBlob": "a637342ac9c08321c35b5aa7cc4c287b3e68e1ca",
+  "sourceSha256": "dc96b36f0fc98c4b1aeecba4f2567445bc10128d0b37cb5a1ff6814a7d20d025",
+  "sourceDimensions": [
+    240,
+    164
+  ],
+  "region": "core-citadel-thruster1",
+  "blockId": "core-citadel",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-thruster1.png",
+  "sha256": "f492984ca64c7db279ff2523f71a0650288276b401fef4fa6841eae1e7117cb3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-thruster1.png",
+  "engineSha256": "f492984ca64c7db279ff2523f71a0650288276b401fef4fa6841eae1e7117cb3",
+  "nativeFile": "full-game/blocks/masters/core-thruster-medium-part.png",
+  "nativeSha256": "fabf4a3c4b64156fc7f0fecf11d3d0f6fbcbc880adede27ded1133fc16bd2bc5",
+  "nativeSize": [
+    154,
+    396
+  ],
+  "sourceAlphaBounds": [
+    193,
+    17,
+    236,
+    147
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "1",
+    "localHorizontalMirror": false,
+    "localVerticalMirror": false,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-medium-part.png",
+      "sha256": "fabf4a3c4b64156fc7f0fecf11d3d0f6fbcbc880adede27ded1133fc16bd2bc5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-citadel-thruster1.png",
+      "sha256": "dc96b36f0fc98c4b1aeecba4f2567445bc10128d0b37cb5a1ff6814a7d20d025"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-thruster1.png.derived.json"
+}

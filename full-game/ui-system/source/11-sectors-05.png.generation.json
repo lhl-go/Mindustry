@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/11-sectors-05.png",
+  "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    1536,
+    1536
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:50:35-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/reference/sector-guide-05.png"
+    ],
+    "prompt": "Create finished native high-detail transparent PNG sprite board, requested 1536x1536, exactly 3 columns x 3 rows of nine MINDUSTRY campaign abstract map emblems. First two images authoritative Daoist Q-version hand-painted art direction, smooth soft material shading, ivory jade and fine warm-gold edges. Third image is exact individual silhouette and functional color reference. Preserve nine different abstract terrain-region silhouettes, biome palettes and negative-space holes in corresponding cells. No text, no interface frames or characters. Reinterpret as smoothly carved miniature relief map emblems, elegant subtle natural texture with thin gold borders, not pixel art, not rectangular scenic thumbnails. Row1 ravine (ochre left hook, dark mauve center, dusty red large right curved ridge); ruinousShores (navy and blue top coastline, grey inner ridge, ivory-sand lower shore); saltFlats (large bright white salt flat containing two ivory sand patches). Row2 siege (ochre lower angular land, sage-green right land, lavender inner bridge and hole); split (bright orange upper-left, brown lower-left and large red-brown right hook around a dark reddish center island); stainedMountains (three parallel purple/lilac triangular mountain ridges, tallest on right). Row3 stronghold (lavender top arch over grey and mauve lower rounded terrain with central empty hole); sunkenPier (sand ivory two enclosing sides, blue slanted channel and grey central island with a small sandy bite); taintedWoods (several long branching pale lilac and violet tree-like forks above purple and grey soil). Preserve essential layouts and color masses readable at 64px. All complete and isolated, equal visual size, centered in equal square cells, 74% cell object size with 13% padding on every side, no overlaps. True alpha background, no checker pattern, no backdrop or border labels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/11-sectors-05.txt",
+  "promptSha256": "128b60d6b519787bc33d218f704ca771fa7e6323ffe4795028af4de1817cf25f",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\reference\\sector-guide-05.png",
+      "sha256": "65b768d328a0d0fae58e4a39c1facec05957d323a362dd46c099c462450c9998",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\11-sectors-05-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-03aa174d-5cf4-4fcc-bdd0-6829efa624c6.png",
+    "nativePngSha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaTransparentPixels": 630056,
+  "status": "generated_pending_review"
+}

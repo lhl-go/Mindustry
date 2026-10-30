@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/water-extractor-rotator-part.png",
+  "sha256": "f7f4540ab6eee8ea1fa55e47f3fc13027e3cfbb92bcc2ec28b5f6cd0dfe91b7d",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      76,
+      298,
+      318,
+      529
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      242,
+      231
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    274,
+    263
+  ],
+  "anchorPixels": [
+    137.0,
+    131.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

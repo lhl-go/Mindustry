@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-28T08:06:42.312633+00:00",
+  "status": "passed",
+  "sourcePaths": 759,
+  "nativeMasters": 301,
+  "requiredGeometryInputs": 459,
+  "noDuplicateOrMissingSourcePaths": true,
+  "decodedHashesAndOriginalCanvasesVerified": true,
+  "manifestSha256": "c980390854693134b3f10d81eda0d79a27f02ff02651a552fbfdbb30d4ecef59",
+  "batches": [
+    {
+      "file": "full-game/blocks/batches/root.json",
+      "sha256": "ece1bbd96eb1b696aa5b5122aee90299d46915d8b5f138972f9df1ddd81c433a",
+      "sourceCount": 367,
+      "review": "full-game/blocks/qa/root-final-review.json"
+    },
+    {
+      "file": "full-game/blocks/batches/hud_review.json",
+      "sha256": "4d8892b73d93492d0f2fbe4be5154812e9ac9fd4f8b1cd5c3f12dfeedb8221e2",
+      "sourceCount": 251,
+      "review": {
+        "file": "full-game/blocks/qa/industry-final-review.json",
+        "sha256": "e503d802b8244891a92233cba6304b832084ea3979107669577e024fdd9650f2"
+      }
+    },
+    {
+      "file": "full-game/blocks/batches/units_air_erekir.json",
+      "sha256": "b65e2561a340b1c353792975399261f9f1e3b01489c230bfcd011091ed1924e6",
+      "sourceCount": 141,
+      "review": "full-game/blocks/qa/factory-review.json"
+    }
+  ],
+  "runtimeIntegrationVerified": false
+}

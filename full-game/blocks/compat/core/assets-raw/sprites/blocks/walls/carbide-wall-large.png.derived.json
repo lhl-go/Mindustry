@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/carbide-wall-large.png",
+  "sourceGitBlob": "35c0d1fd414d938350dfbb1b54450e62315cab34",
+  "sourceSha256": "173f4e08d505f05fdbb300bca63f0b4eb8a225b3c3e4d6cec75f68535f57e773",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "carbide-wall-large",
+  "blockId": "carbide-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/carbide-wall-large.png",
+  "sha256": "0dc8a119e559c464f3237bff579f8ad8b0c5d9f7bfe406eff37115357db677e3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/carbide-wall-large.png",
+  "engineSha256": "0dc8a119e559c464f3237bff579f8ad8b0c5d9f7bfe406eff37115357db677e3",
+  "nativeFile": "full-game/blocks/masters/carbide-wall.png",
+  "nativeSha256": "82045b2c1faf7629ef309fabab49bc5c852e78581fdc9cb365dfc5925d11298c",
+  "nativeSize": [
+    333,
+    337
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/carbide-wall.png",
+      "sha256": "82045b2c1faf7629ef309fabab49bc5c852e78581fdc9cb365dfc5925d11298c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/carbide-wall-large.png",
+      "sha256": "173f4e08d505f05fdbb300bca63f0b4eb8a225b3c3e4d6cec75f68535f57e773"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/carbide-wall-large.png.derived.json"
+}

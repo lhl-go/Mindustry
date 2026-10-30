@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/omura.png",
+  "sha256": "6b774b6cd6c10c5e7b833524bc2f5ca2baf54c7320d0cdb7e4d3aecbc5aa49df",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/omura.png",
+      "sha256": "e52710d47a0355dd57f22aa2c40fe0a68b9ba62f7f259a04514a4794f4b34911",
+      "generationRecord": "units/serpulo-ground-naval/bodies/omura.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-railgun.png",
+      "sha256": "b8050a509440adc50913d9e4ad82ef2079432e9e7496291a7aeeb8ffeb1eded6",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-railgun.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      918,
+      812,
+      1283,
+      1389
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/bodies/omura.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/omura.png.generation.json",
+        "sourceAnchorPx": [
+          174.5,
+          280.5
+        ],
+        "targetAnchorPx": [
+          182,
+          288
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          8,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-railgun.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-railgun.png.generation.json",
+        "sourceAnchorPx": [
+          138.5,
+          278.5
+        ],
+        "targetAnchorPx": [
+          182,
+          254.34
+        ],
+        "scale": [
+          0.49097472924187724,
+          0.49214659685863876
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          114,
+          117
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 365,
+    "height": 577,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 98250,
+    "opaquePixelCount": 109115,
+    "partialPixelCount": 3240,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      341,
+      553
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "omura",
+    "sha256": "6b774b6cd6c10c5e7b833524bc2f5ca2baf54c7320d0cdb7e4d3aecbc5aa49df",
+    "size": [
+      365,
+      577
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

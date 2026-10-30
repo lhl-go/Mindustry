@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-cell.png",
+  "sha256": "6d8b39f3420444930474e258814196a558ea8b22113b21b3e977546914551c8b",
+  "width": 231,
+  "height": 231,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+      "sha256": "a826ce6b02fd557fb310b3a9a1412d5462e53a3028c1b6d59f63a7cd1e1f8932",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "conquer",
+    "baseCanvas": [
+      213,
+      276
+    ],
+    "outputCanvas": [
+      231,
+      231
+    ],
+    "centerRegistrationOffset": [
+      9,
+      -22
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/conquer-cell.png",
+    "gitBlobSha1": "07d08e545fe8349e70a63d64a4e3c3f1713362bc",
+    "sha256": "b2e4c1bd75decaf49ce4bf2a7f4727c537e50dc200193ccb162ce1ad658857c1"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/terrain.png",
+  "sourceGitBlob": "a9bd73972e6e3b26cdc7f7c58825152d9db56f58",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/terrain.png",
+  "sha256": "84ed9ee0a351329a524ca017526912ee42b49f4af70eef3ee04532e7207936a8",
+  "sourceSize": [
+    12,
+    12
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/terrain.png",
+      "sha256": "1c8ec9f9fce414d373eb078c9fad1c821b073080ca9b9412dac3d3671b5bac4c",
+      "record": "full-game/ui-system/icons/terrain.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "terrain",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

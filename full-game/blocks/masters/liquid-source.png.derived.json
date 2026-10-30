@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/liquid-source.png",
+  "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/sandbox-world-final-01.png",
+      "sha256": "dc3465a9192509fb4a5e783c338f9e1b5e5193a550ae56498942866d2976d729",
+      "generationRecord": "full-game/blocks/records/sandbox-world-final-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      758,
+      411,
+      1086,
+      718
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      328,
+      307
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    360,
+    339
+  ],
+  "anchorPixels": [
+    180.0,
+    169.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+  "createdAt": "2026-10-26T11:09:35.612538+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 375,
+  "height": 428,
+  "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+      "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      877,
+      62,
+      1188,
+      426
+    ],
+    "sourceComponentArea": 73563,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

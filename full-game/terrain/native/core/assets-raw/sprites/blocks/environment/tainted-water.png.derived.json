@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tainted-water.png",
+  "sha256": "354f0569105ee63794d051f098a71ad32ab2d59ac2eefde687168eb6f508b413",
+  "size": [
+    358,
+    358
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/03-liquids-salt.png",
+      "sha256": "0412041f336228c00390514d12c867df14335dd4f7c4fa86102f3dc53d6f9259",
+      "generationRecord": "full-game/terrain/source/03-liquids-salt.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    726,
+    2,
+    1084,
+    360
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

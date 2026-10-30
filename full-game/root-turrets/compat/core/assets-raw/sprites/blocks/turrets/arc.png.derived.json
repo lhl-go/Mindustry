@@ -1,0 +1,42 @@
+{
+  "region": "arc",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/arc.png",
+  "sha256": "5669e92a6b83e0e5a280ebd6aa530bdbe7b68be59e3c1a6b5c83772924440c25",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:45.983947+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/arc.png",
+      "sha256": "76c4bcdc1be3867fcc7033dd0b33d17346dce46b366224d2e64913d09f64b033",
+      "record": "full-game/root-turrets/masters/arc.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/arc.png",
+      "sha256": "0fabb8bec196cf7ec9653b907e7090d96bc14b6d4833ddda32eae4b50f589816",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      4,
+      28,
+      28
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      317,
+      340
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

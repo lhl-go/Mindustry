@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/liquid-container.png",
+  "sourceGitBlob": "9b02d641ffa0318cb66863a58fd6dd6991435fa3",
+  "sourceSha256": "879c311874faf807211d92b15d1f2b708197f90fe6f75cbda7914ad9d68bd501",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "liquid-container",
+  "blockId": "liquid-container",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-container.png",
+  "sha256": "cc2d940c85357e8403b5529cadbe36d8039742875446b0d44e5009e185fabb4c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-container.png",
+  "engineSha256": "cc2d940c85357e8403b5529cadbe36d8039742875446b0d44e5009e185fabb4c",
+  "nativeFile": "full-game/blocks/masters/liquid-container.png",
+  "nativeSha256": "c0e6bb2a9824c0120622ac27bc2082a93bf5f90a1e211253463196047fb41e31",
+  "nativeSize": [
+    288,
+    280
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "painted_material_on_original_liquid_window_frame",
+    "originalLiquidWindowsAndExteriorOcclusionPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_liquid_window_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/liquid-container.png",
+      "sha256": "c0e6bb2a9824c0120622ac27bc2082a93bf5f90a1e211253463196047fb41e31"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/liquid-container.png",
+      "sha256": "879c311874faf807211d92b15d1f2b708197f90fe6f75cbda7914ad9d68bd501"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-container.png.derived.json"
+}

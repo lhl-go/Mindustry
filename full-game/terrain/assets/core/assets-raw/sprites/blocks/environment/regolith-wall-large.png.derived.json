@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/regolith-wall-large.png",
+  "sha256": "aa3b3147da517086a569dca34e798271ccd6ae6c9f63cbdf81c5c719fdb59260",
+  "createdAt": "2026-10-26T18:15:31.289807+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 64,
+  "height": 64,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/14-erekir-wall-tops.png",
+      "sha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f",
+      "generationRecord": "full-game/terrain/source/14-erekir-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      593,
+      1185,
+      885,
+      1476
+    ],
+    "nativeExtractedSize": [
+      292,
+      291
+    ],
+    "targetSize": [
+      64,
+      64
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 17.859254127839133
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

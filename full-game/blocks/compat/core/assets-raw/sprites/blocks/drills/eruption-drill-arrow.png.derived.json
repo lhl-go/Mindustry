@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/eruption-drill-arrow.png",
+  "sourceGitBlob": "88b8b3e65ed03dab979319d6af7868d2f9982ff3",
+  "sourceSha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "eruption-drill-arrow",
+  "blockId": "eruption-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-arrow.png",
+  "sha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-arrow.png",
+  "engineSha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-arrow.png",
+  "nativeSha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a",
+  "nativeSize": [
+    128,
+    128
+  ],
+  "sourceAlphaBounds": [
+    75,
+    38,
+    90,
+    53
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-arrow.png",
+      "sha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-arrow.png",
+      "sha256": "542ed144822573fc461a5fffced47ef560fa8e99ab5684b8c62d3fcef403138a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-arrow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

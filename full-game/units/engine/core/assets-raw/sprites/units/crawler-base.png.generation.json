@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-base.png",
+  "sha256": "7e00f453b2792c69eedcb22ac50374611fce8378448ed26dd9bab2ff099ef1c0",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/crawler-base-plate.png",
+      "sha256": "55d92a39b1af4b7efabaf8fdce4c9ec86054c090f7bb8dbea2edb3c50f1b7689",
+      "generationRecord": "full-game/units/parts/crawler-base-plate.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      417,
+      444
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      13,
+      12
+    ],
+    "sourceDimensions": [
+      433,
+      460
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      12,
+      12,
+      36,
+      36
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/crawler-base.png",
+    "gitBlobSha1": "bb890e32b6dfb42f65992b6a9f7e0826419c74cd",
+    "sha256": "c84728b61c87b75d409a283c6dc2cdc33dd1b21b7cad7d3091cbf4f93871dfdf"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

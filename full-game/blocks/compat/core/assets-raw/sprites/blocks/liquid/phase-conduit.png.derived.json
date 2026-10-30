@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/phase-conduit.png",
+  "sourceGitBlob": "402c082bc3d805afd9056f5a71c185ecbacc8872",
+  "sourceSha256": "baccca109fba983905276232cf3c639a33e4ad2892cd4ac70720a44c40e5d4d6",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "phase-conduit",
+  "blockId": "phase-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit.png",
+  "sha256": "68cc2113989f0f438f2d46b783200d97ede9eabafa5b3e174fcd710ecf0e34b1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit.png",
+  "engineSha256": "68cc2113989f0f438f2d46b783200d97ede9eabafa5b3e174fcd710ecf0e34b1",
+  "nativeFile": "full-game/blocks/masters/phase-conduit.png",
+  "nativeSha256": "dff8230eb78058e5448bc1320161f7cf331c5b9f516d388bd97014e387890e0a",
+  "nativeSize": [
+    321,
+    303
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-conduit.png",
+      "sha256": "dff8230eb78058e5448bc1320161f7cf331c5b9f516d388bd97014e387890e0a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/phase-conduit.png",
+      "sha256": "baccca109fba983905276232cf3c639a33e4ad2892cd4ac70720a44c40e5d4d6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit.png.derived.json"
+}

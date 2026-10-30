@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/launch-arrow.png",
+  "sha256": "5eecc9cf07dd1b01158f129037a663dc6455636ea0bbf5824dcf25024f691309",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/launch-arrow.png",
+      "sha256": "303f07c5a674e9f0a97511806eeedc0d509cac4703302916fc2e5aa47176dfd8",
+      "generationRecord": "full-game/items-fx/assets/launch-arrow.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

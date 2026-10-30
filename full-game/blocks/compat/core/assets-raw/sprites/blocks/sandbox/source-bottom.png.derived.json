@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/sandbox/source-bottom.png",
+  "sourceGitBlob": "a2dd7b5e0cfcac960eaafb2f8ecec1335a10aa05",
+  "sourceSha256": "c4969531e49ce5a2aa501d97382427c73131a731cee46e40db13828f748695f2",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "source-bottom",
+  "blockId": null,
+  "category": "sandbox",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/sandbox/source-bottom.png",
+  "sha256": "8995dcc3bb8d7915219397798cf74e23506c8fa86816520cd728db2e397e686a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/sandbox/source-bottom.png",
+  "engineSha256": "8995dcc3bb8d7915219397798cf74e23506c8fa86816520cd728db2e397e686a",
+  "nativeFile": "full-game/blocks/masters/source-bottom-part.png",
+  "nativeSha256": "0a34e4bcbb2d08cd7efb8eee479fbd310e9c1be0813558374fda81e2965ccbbc",
+  "nativeSize": [
+    310,
+    303
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "source-bottom-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/source-bottom-part.png",
+      "sha256": "0a34e4bcbb2d08cd7efb8eee479fbd310e9c1be0813558374fda81e2965ccbbc"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/sandbox/source-bottom.png",
+      "sha256": "c4969531e49ce5a2aa501d97382427c73131a731cee46e40db13828f748695f2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/sandbox/source-bottom.png.derived.json"
+}

@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/atmospheric-concentrator-bottom.png",
+  "sourceGitBlob": "4f4b6a2b8fa10ba52de5f54471a2bd0c9083c362",
+  "sourceSha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "atmospheric-concentrator-bottom",
+  "blockId": "atmospheric-concentrator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/atmospheric-concentrator-bottom.png",
+  "sha256": "cbd836457c3278051c3eb1eb66868beafb26965186e63bb4b9fcd969332f5a70",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/atmospheric-concentrator-bottom.png",
+  "engineSha256": "cbd836457c3278051c3eb1eb66868beafb26965186e63bb4b9fcd969332f5a70",
+  "nativeFile": "full-game/blocks/masters/atmospheric-concentrator.png",
+  "nativeSha256": "5b161cfd49997c863ba67c846b0e8e042cfd8abcce9c55c8189eb51648985784",
+  "nativeSize": [
+    365,
+    352
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/atmospheric-concentrator.png",
+      "sha256": "5b161cfd49997c863ba67c846b0e8e042cfd8abcce9c55c8189eb51648985784"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/atmospheric-concentrator-bottom.png",
+      "sha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/atmospheric-concentrator-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

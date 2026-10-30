@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/cliff-crusher-top.png",
+  "sourceGitBlob": "11b6823dcd4d866ae3db5a97302749cecc9eed22",
+  "sourceSha256": "b397b37f0e085b54ac5760b30a2243e75c891572314e14434668e29e83959cff",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cliff-crusher-top",
+  "blockId": "cliff-crusher",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-top.png",
+  "sha256": "e64921781450499d4c52438538c3b6f5e7b08f5d43dd086a8cc73be96a0eb8ab",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-top.png",
+  "engineSha256": "e64921781450499d4c52438538c3b6f5e7b08f5d43dd086a8cc73be96a0eb8ab",
+  "nativeFile": "full-game/blocks/masters/cliff-crusher.png",
+  "nativeSha256": "834f91462404af57b284c2b5baf9f58e56479276b1f78811065fb2349ff6ea78",
+  "nativeSize": [
+    284,
+    317
+  ],
+  "sourceAlphaBounds": [
+    20,
+    14,
+    60,
+    50
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cliff-crusher.png",
+      "sha256": "834f91462404af57b284c2b5baf9f58e56479276b1f78811065fb2349ff6ea78"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/cliff-crusher-top.png",
+      "sha256": "b397b37f0e085b54ac5760b30a2243e75c891572314e14434668e29e83959cff"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

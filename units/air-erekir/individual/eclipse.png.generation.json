@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "eclipse",
+  "file": "units/air-erekir/individual/eclipse.png",
+  "sha256": "4023787f44bca22b006571e7c653273743f18759578d885fab9c56dc127b4eef",
+  "width": 570,
+  "height": 559,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/01-serpulo-air-assault.png",
+      "sha256": "ef4d65196b1c9f6ebe0a8af36a7ef5d02532f197ba363a879c6c0c22cf6e6c27",
+      "generationRecord": "units/air-erekir/source/01-serpulo-air-assault.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      603,
+      445,
+      1170,
+      1024
+    ],
+    "trimBoundsInRegion": [
+      0,
+      14,
+      538,
+      541
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 570,
+    "height": 559
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

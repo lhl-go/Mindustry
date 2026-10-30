@@ -1,0 +1,35 @@
+{
+  "file": "units/root-builders/layers/gamma-body.png",
+  "sha256": "6655a914a9dc0b0480be659a618edb9c8238d89231309cfb62f39416e7d5619a",
+  "width": 538,
+  "height": 603,
+  "mode": "RGBA",
+  "derivedFrom": {
+    "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+    "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f",
+    "generationRecord": "units/root-builders/boards/01-core-builders-parts-v1.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "alphaCutoff": 16,
+    "alphaRemap": "clip(round((a-8)*255/237),0,255)",
+    "retainedRgb": "unchanged",
+    "sourceCropBox": [
+      1022,
+      56,
+      1496,
+      595
+    ],
+    "padding": 32,
+    "rotationDegrees": 0,
+    "resampled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceImageRetained": false,
+  "authorization": "2026-10-26 user explicitly allowed local cleanup and slicing",
+  "runtimeIntegrationVerified": false
+}

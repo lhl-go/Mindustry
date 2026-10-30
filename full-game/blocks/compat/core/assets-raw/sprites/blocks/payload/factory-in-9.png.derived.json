@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-in-9.png",
+  "sourceGitBlob": "acf736c8dd9f0fc40be2e19f2b24e97e0bddc172",
+  "sourceSha256": "d57bf792a6c7a8caa0871bb06ee453614d8c58546c53bd14216e18feb070b13a",
+  "sourceDimensions": [
+    288,
+    288
+  ],
+  "region": "factory-in-9",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-9.png",
+  "sha256": "c0023382d726e8642dd7b330c90f0798cef42c07ab64e5e21aaa100f8d868748",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-9.png",
+  "engineSha256": "c0023382d726e8642dd7b330c90f0798cef42c07ab64e5e21aaa100f8d868748",
+  "nativeFile": "full-game/blocks/masters/tetrative-reconstructor.png",
+  "nativeSha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4",
+  "nativeSize": [
+    389,
+    374
+  ],
+  "sourceAlphaBounds": [
+    0,
+    13,
+    107,
+    275
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-in-9",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tetrative-reconstructor.png",
+      "sha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-in-9.png",
+      "sha256": "d57bf792a6c7a8caa0871bb06ee453614d8c58546c53bd14216e18feb070b13a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-9.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-9.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tetrative-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

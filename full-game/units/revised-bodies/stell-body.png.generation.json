@@ -1,0 +1,69 @@
+{
+  "file": "full-game/units/revised-bodies/stell-body.png",
+  "sha256": "cd3e1b63c380b04c89a43cb4273e7ede1a4ea6cc51df10bbea09e5be5b7b8c75",
+  "width": 403,
+  "height": 361,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/stell-body.png",
+      "sha256": "1d9a2b7aa4c71986478fc008bafc6d5a4448b3e4026c9a330ab8f61b56aafa3b",
+      "generationRecord": "units/air-erekir/layers/stell-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_motion_layer_separation",
+    "description": "Clear only inner source-defined moving tread bands from the overlying body; retain outer rails, end armor and all other original painted pixels. Complete tread canvas fills the cleared areas below.",
+    "engineWindows": [
+      [
+        14,
+        10,
+        24,
+        55
+      ],
+      [
+        40,
+        10,
+        50,
+        55
+      ]
+    ],
+    "nativeWindows": [
+      [
+        82,
+        35,
+        149,
+        332
+      ],
+      [
+        254,
+        35,
+        321,
+        332
+      ]
+    ],
+    "sourceToEngineScale": [
+      0.1509433962264151,
+      0.1519756838905775
+    ],
+    "sourceTrim": [
+      16,
+      16,
+      387,
+      345
+    ],
+    "destinationTopLeft": [
+      4,
+      7
+    ],
+    "staticRailFractionPerSide": 0.12,
+    "staticEndFractionPerSide": 0.05,
+    "noNewPaintedPixels": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Authorized local layer separation from current final native art; no new model call.",
+  "engineNotVerified": true
+}

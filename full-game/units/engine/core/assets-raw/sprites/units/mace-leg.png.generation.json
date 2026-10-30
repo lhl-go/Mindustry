@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-leg.png",
+  "sha256": "ed0e82f64f5bab450c0319cbf51b12fe31090627a163e100bcf36cb3e3d66360",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      190,
+      476
+    ],
+    "sourcePivot": [
+      103.0,
+      80.4
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      44,
+      17
+    ],
+    "sourceDimensions": [
+      206,
+      492
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      42,
+      17,
+      58,
+      52
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mace-leg.png",
+    "gitBlobSha1": "bb1b501dfa7025fe9c6f850140807107f3e60ee9",
+    "sha256": "ecb6d8d37cf07536f60a15e19157331017808781ff1178ccd07b3b1fe99854f2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

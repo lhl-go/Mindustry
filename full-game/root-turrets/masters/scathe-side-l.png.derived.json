@@ -1,0 +1,41 @@
+{
+  "region": "scathe-side-l",
+  "file": "full-game/root-turrets/masters/scathe-side-l.png",
+  "sha256": "722bb529434a8a56298ced2c84e6d33817b540c17fc844c4a2897a9f62cee019",
+  "size": [
+    217,
+    340
+  ],
+  "derivedAt": "2026-10-26T18:34:44.582663+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 6,
+    "sourceBox": [
+      869,
+      353,
+      1062,
+      669
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

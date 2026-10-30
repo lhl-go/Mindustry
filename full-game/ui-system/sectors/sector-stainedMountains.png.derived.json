@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-stainedMountains",
+  "file": "full-game/ui-system/sectors/sector-stainedMountains.png",
+  "sha256": "85e91b353c431c44c5a273f9fded728ae7c33278483b6f5cac066f992819de4d",
+  "width": 409,
+  "height": 409,
+  "derivedAt": "2026-10-26T15:54:02.821264+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/11-sectors-05.png",
+    "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 5,
+    "sourceBox": [
+      852,
+      427,
+      1237,
+      781
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

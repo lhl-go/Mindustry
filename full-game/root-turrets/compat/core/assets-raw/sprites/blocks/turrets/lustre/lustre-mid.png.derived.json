@@ -1,0 +1,42 @@
+{
+  "region": "lustre-mid",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-mid.png",
+  "sha256": "e749cfca78f7906fa425cff69674022ac708f63286ae9878baaf1141e49ee784",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.114748+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/lustre-mid.png",
+      "sha256": "8aa63399c85a98780aba63400578744563ada6a20dc71376a02b1b555674489c",
+      "record": "full-game/root-turrets/masters/lustre-mid.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-mid.png",
+      "sha256": "10d039764e0974d254826bb3bd590f95862fba4f37effc7bfe9dc612a478776a",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      38,
+      38,
+      90,
+      98
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      277,
+      319
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

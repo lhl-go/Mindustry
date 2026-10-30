@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/mech-assembler-side1.png",
+  "sourceGitBlob": "bfa591c50ad8d512dae6f560afab6943c45b5eff",
+  "sourceSha256": "2d36d2ac808665623b597b6cfe33066a758eddf3dd6a0064ca09fb4c965ce7b5",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "mech-assembler-side1",
+  "blockId": "mech-assembler",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-side1.png",
+  "sha256": "6b0f7802bb242818ce6e6ae0d3aaf0b315cf3e07d802a7d0db615c5f3363ec03",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-side1.png",
+  "engineSha256": "6b0f7802bb242818ce6e6ae0d3aaf0b315cf3e07d802a7d0db615c5f3363ec03",
+  "nativeFile": "full-game/blocks/masters/mech-assembler.png",
+  "nativeSha256": "a46c04329a1bf08e3119f44d2d39105d504e93f585674260d25c92be5671cc58",
+  "nativeSize": [
+    339,
+    346
+  ],
+  "sourceAlphaBounds": [
+    128,
+    34,
+    160,
+    126
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "rotation-selected assembler side; runtime controls side1/side2 and orientation",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mech-assembler.png",
+      "sha256": "a46c04329a1bf08e3119f44d2d39105d504e93f585674260d25c92be5671cc58"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/mech-assembler-side1.png",
+      "sha256": "2d36d2ac808665623b597b6cfe33066a758eddf3dd6a0064ca09fb4c965ce7b5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-side1.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-side1.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mech-assembler.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

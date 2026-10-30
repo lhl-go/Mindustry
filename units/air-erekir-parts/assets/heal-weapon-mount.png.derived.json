@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+  "createdAt": "2026-10-26T11:09:35.687071+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 314,
+  "height": 320,
+  "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+      "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      917,
+      568,
+      1167,
+      824
+    ],
+    "sourceComponentArea": 45403,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

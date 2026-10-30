@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/07-statuses-combat.png",
+      "sha256": "ac6ca1afc32eae50c2bcb7a58aef7aaa7ddd639ab6a6403d5023426f88151988",
+      "generationRecord": "full-game/items-fx/source/07-statuses-combat.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      28,
+      42,
+      401,
+      419
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-blasted.png",
+  "sha256": "d83b23bb8467003b4beb31e790cc1b9133806382502c4a36f047dd9f62c080f5",
+  "width": 405,
+  "height": 409,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.642016+00:00"
+}

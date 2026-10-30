@@ -1,0 +1,31 @@
+{
+  "args": {
+    "prompt": "Use case: game space texture. Paint one full-bleed seamless square deep celestial space material, requested 2048x2048, opaque. Attached two reference images guide only refined clean Daoist Q hand-painted finish and jade/ivory/warm-gold taste. Absolutely no UI, borders, panels, lettering, buildings, people, planets or large individual objects. Dense very small naturally scattered warm ivory and muted jade star pinpoints across a deep nearly-black blue-green sky, with extremely subtle hand-painted dark jade gaseous wisps, faint muted warm-gold dust. Low contrast, even brightness across the square, no vignette, no central focal object, no bright enormous flare. Visually distinct from a panorama: this square is a quiet repeating space material sampled by a game shader, all four edges should tile seamlessly. Tiny stars retain varied independent spacing without grid patterns. Beautifully refined illustrative game texture, pure unobstructed space.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 20:24:32 UTC",
+  "returnedAt": "2026-10-26 20:25:30 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-fa56fa91-3d6c-43f8-b109-e21739040b8c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    2048,
+    2048
+  ],
+  "grid": [
+    1,
+    1
+  ],
+  "regions": [
+    "space-shader"
+  ],
+  "exportMode": "native_repeat_texture_and_compat_resample"
+}

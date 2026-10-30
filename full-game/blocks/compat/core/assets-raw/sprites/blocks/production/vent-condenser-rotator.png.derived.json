@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/vent-condenser-rotator.png",
+  "sourceGitBlob": "09acceb3e5dcc7d8f6fd92856c53c733d6e52eaa",
+  "sourceSha256": "a2acb4bf71a05bf4faf28a9e8420fe70e32bd12c8c4276a2c1490ddd382d26e8",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "vent-condenser-rotator",
+  "blockId": "vent-condenser",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-rotator.png",
+  "sha256": "429e853a2b86611abde94329b9cd19d72067165a9418ed66265c4dc035cd46ba",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-rotator.png",
+  "engineSha256": "429e853a2b86611abde94329b9cd19d72067165a9418ed66265c4dc035cd46ba",
+  "nativeFile": "full-game/blocks/masters/vent-condenser-rotator-part.png",
+  "nativeSha256": "5d5fb16cb692a103f3a793eade825a56506862c6c1d6f9dae5e0a1244e6c16c7",
+  "nativeSize": [
+    272,
+    259
+  ],
+  "sourceAlphaBounds": [
+    16,
+    16,
+    80,
+    80
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/vent-condenser-rotator-part.png",
+      "sha256": "5d5fb16cb692a103f3a793eade825a56506862c6c1d6f9dae5e0a1244e6c16c7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/vent-condenser-rotator.png",
+      "sha256": "a2acb4bf71a05bf4faf28a9e8420fe70e32bd12c8c4276a2c1490ddd382d26e8"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

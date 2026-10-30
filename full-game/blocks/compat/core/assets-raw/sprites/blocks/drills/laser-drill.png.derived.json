@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/laser-drill.png",
+  "sourceGitBlob": "d85cd065f71205fb410f2afb93b6ad587775c0ea",
+  "sourceSha256": "95a2517a9be269c948b33b8da45346404d1402c77a3a1b181c3e423e013ad9c3",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "laser-drill",
+  "blockId": "laser-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill.png",
+  "sha256": "a464e969f4d0ae062abff4e49d31cbbf730095e406fb40cdc02cc9948277a5b0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill.png",
+  "engineSha256": "a464e969f4d0ae062abff4e49d31cbbf730095e406fb40cdc02cc9948277a5b0",
+  "nativeFile": "full-game/blocks/masters/laser-drill.png",
+  "nativeSha256": "d66017ed920d29a4a1b8a7572b5dec0dbe0bf8d113d6e44a5038dd63c4b9ac60",
+  "nativeSize": [
+    343,
+    302
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/laser-drill.png",
+      "sha256": "d66017ed920d29a4a1b8a7572b5dec0dbe0bf8d113d6e44a5038dd63c4b9ac60"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/laser-drill.png",
+      "sha256": "95a2517a9be269c948b33b8da45346404d1402c77a3a1b181c3e423e013ad9c3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

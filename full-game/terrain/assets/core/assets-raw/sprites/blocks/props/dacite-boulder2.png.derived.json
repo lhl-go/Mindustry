@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/dacite-boulder2.png",
+  "sha256": "4093a7cda22a231ee924a1be69b9f39f5d6d8dfa9611dc430b8968abc27e6f7c",
+  "createdAt": "2026-10-26T18:36:04.382100+00:00",
+  "kind": "derived_image",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/16-boulder-props.png",
+      "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+      "generationRecord": "full-game/terrain/source/16-boulder-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      771,
+      503,
+      995,
+      728
+    ],
+    "nativeExtractedSize": [
+      224,
+      225
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.20444444444444446,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      48,
+      48
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

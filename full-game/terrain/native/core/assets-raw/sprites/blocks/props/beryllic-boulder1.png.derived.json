@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/beryllic-boulder1.png",
+  "sha256": "3f30173016c115c7336da1f3ef31b951834ffff069e998fd4a1662b6670dd144",
+  "size": [
+    226,
+    214
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/16-boulder-props.png",
+      "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+      "generationRecord": "full-game/terrain/source/16-boulder-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    31,
+    270,
+    257,
+    484
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

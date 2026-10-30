@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/incite-cell.png",
+  "sha256": "48150892c63da49efb781927332c4132f8cbc9241c3e29838dcd020225e82672",
+  "width": 66,
+  "height": 72,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/incite.png",
+      "sha256": "bf8ee6b688c6e080201705b86ad8eb6e82f5c54579b9bd2ce272a45d30474d3e",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/incite.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "incite",
+    "baseCanvas": [
+      66,
+      72
+    ],
+    "outputCanvas": [
+      66,
+      72
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/incite-cell.png",
+    "gitBlobSha1": "5fecb45a292e864de711a3e411645e466e66691f",
+    "sha256": "cd5de80274288ea22facc2d7d4cabc731c9408563306f87bbe43515452f0f3b5"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

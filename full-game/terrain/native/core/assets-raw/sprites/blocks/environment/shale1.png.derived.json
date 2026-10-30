@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shale1.png",
+  "sha256": "9a3735110672bd91f7de497fe3830d50152cdd037097375453e2b9bce68ce11c",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/01-basic-floors.png",
+      "sha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e",
+      "generationRecord": "full-game/terrain/source/01-basic-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    2,
+    593,
+    294,
+    885
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

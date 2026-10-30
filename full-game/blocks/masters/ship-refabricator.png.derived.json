@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/ship-refabricator.png",
+  "sha256": "6cc788e78fc5c0bc8e4317ba89d7fa6e960c0d577ced170f6ba5cbc6748ef8fd",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      403,
+      53,
+      707,
+      345
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      304,
+      292
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    336,
+    324
+  ],
+  "anchorPixels": [
+    168.0,
+    162.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

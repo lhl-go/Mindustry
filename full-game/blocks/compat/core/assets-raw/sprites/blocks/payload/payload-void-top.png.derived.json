@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-void-top.png",
+  "sourceGitBlob": "f334d2303233ab2dc9043f8fc0c7342c522d9b47",
+  "sourceSha256": "157c4ea87ea82914f94db19c1187911af62a49d8ac37d38eee138e0196a24550",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "payload-void-top",
+  "blockId": "payload-void",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void-top.png",
+  "sha256": "a98d084985ffc5e85a97a9e5a6900def177367353771f466ec83f2601d6e04af",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void-top.png",
+  "engineSha256": "a98d084985ffc5e85a97a9e5a6900def177367353771f466ec83f2601d6e04af",
+  "nativeFile": "full-game/blocks/masters/payload-void.png",
+  "nativeSha256": "de7d99f6d6e380f8f1d290151d53452adeaad5a4520b1db20f5c70b6c3c9a118",
+  "nativeSize": [
+    284,
+    257
+  ],
+  "sourceAlphaBounds": [
+    18,
+    18,
+    142,
+    142
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-void.png",
+      "sha256": "de7d99f6d6e380f8f1d290151d53452adeaad5a4520b1db20f5c70b6c3c9a118"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-void-top.png",
+      "sha256": "157c4ea87ea82914f94db19c1187911af62a49d8ac37d38eee138e0196a24550"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-void.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

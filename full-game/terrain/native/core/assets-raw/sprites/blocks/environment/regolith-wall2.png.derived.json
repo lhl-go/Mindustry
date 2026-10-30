@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith-wall2.png",
+  "sha256": "8ffa80fbf49c842a9a8a570f7b8734ecb47741320fe36331f8f7c25efa1f37f3",
+  "size": [
+    291,
+    291
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/14-erekir-wall-tops.png",
+      "sha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f",
+      "generationRecord": "full-game/terrain/source/14-erekir-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    1185,
+    589,
+    1476
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-foundation-thruster1.png",
+  "sourceGitBlob": "f40a7eb905e8a2a5116776c8fcf0c0e1b37c9ed7",
+  "sourceSha256": "5703e43a3e84922372e36508f65b2345d1b9af6c9ffd12d3eea1b91747bb61e3",
+  "sourceDimensions": [
+    200,
+    106
+  ],
+  "region": "core-foundation-thruster1",
+  "blockId": "core-foundation",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation-thruster1.png",
+  "sha256": "1f9072ce912d3a6841b802cee9b89c93efd9abaafdf25d137a9ca18bc6dc1f04",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation-thruster1.png",
+  "engineSha256": "1f9072ce912d3a6841b802cee9b89c93efd9abaafdf25d137a9ca18bc6dc1f04",
+  "nativeFile": "full-game/blocks/masters/core-thruster-medium-part.png",
+  "nativeSha256": "fabf4a3c4b64156fc7f0fecf11d3d0f6fbcbc880adede27ded1133fc16bd2bc5",
+  "nativeSize": [
+    154,
+    396
+  ],
+  "sourceAlphaBounds": [
+    158,
+    9,
+    193,
+    97
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "1",
+    "localHorizontalMirror": false,
+    "localVerticalMirror": false,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-medium-part.png",
+      "sha256": "fabf4a3c4b64156fc7f0fecf11d3d0f6fbcbc880adede27ded1133fc16bd2bc5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-foundation-thruster1.png",
+      "sha256": "5703e43a3e84922372e36508f65b2345d1b9af6c9ffd12d3eea1b91747bb61e3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-foundation-thruster1.png.derived.json"
+}

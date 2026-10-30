@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/duct-shape-4.png",
+  "sha256": "5d0a69e871ec56489e3aa77253acbcac07f8e437a8ebbd7c72fe3f7ec02bb6e9",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/ducts-conduit-connections-02.png",
+      "sha256": "8c6c6123608c6ba508ac65735a6ee38bab02a71f53c03e9ae57e10df1e1f642f",
+      "generationRecord": "full-game/blocks/records/ducts-conduit-connections-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1364,
+      47,
+      1599,
+      306
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      235,
+      259
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    267,
+    291
+  ],
+  "anchorPixels": [
+    133.5,
+    145.5
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

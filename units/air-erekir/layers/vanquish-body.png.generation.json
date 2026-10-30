@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "vanquish-body",
+  "file": "units/air-erekir/layers/vanquish-body.png",
+  "sha256": "36396e17181d291b5e6c0c749b7e56bbe53636473085caa6ffd86ae222a183c0",
+  "width": 494,
+  "height": 452,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/08-tank-body.png",
+      "sha256": "7b1dfcab2cbbe148a21c659195dbdb92ebc39140d7fe93792d05d7d034973154",
+      "generationRecord": "units/air-erekir/source/08-tank-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      5,
+      500,
+      505,
+      965
+    ],
+    "trimBoundsInRegion": [
+      19,
+      21,
+      481,
+      441
+    ],
+    "padding": 16,
+    "width": 494,
+    "height": 452,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

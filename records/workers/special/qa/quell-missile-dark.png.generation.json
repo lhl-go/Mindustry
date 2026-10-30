@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/quell-missile-dark.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.088122+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 417,
+  "height": 504,
+  "sha256": "08d1781d441dca86368c6ae39b4a02a61fb400d0b0c7c107dcca90244e0880b5",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/quell-missile.png",
+      "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+      "generationRecord": "units/special/assets/quell-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      28,
+      36,
+      39,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

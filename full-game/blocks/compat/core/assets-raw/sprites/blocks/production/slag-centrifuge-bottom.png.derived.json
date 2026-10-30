@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-centrifuge-bottom.png",
+  "sourceGitBlob": "4f4b6a2b8fa10ba52de5f54471a2bd0c9083c362",
+  "sourceSha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "slag-centrifuge-bottom",
+  "blockId": "slag-centrifuge",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-bottom.png",
+  "sha256": "40db55e3030d97f3875e9438d776de0e231c64b246bfc855efe2ee312c3f1146",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-bottom.png",
+  "engineSha256": "40db55e3030d97f3875e9438d776de0e231c64b246bfc855efe2ee312c3f1146",
+  "nativeFile": "full-game/blocks/masters/slag-centrifuge.png",
+  "nativeSha256": "48a8adeb117a16c59a544abb858d47cd153b041c1b1d9b2be6691cc3b03120b2",
+  "nativeSize": [
+    380,
+    332
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-centrifuge.png",
+      "sha256": "48a8adeb117a16c59a544abb858d47cd153b041c1b1d9b2be6691cc3b03120b2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-centrifuge-bottom.png",
+      "sha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-leg.png",
+  "sha256": "de91a4dd1d9ad98b264be33fab1e06d897b842233668ffc40a07219ad80efc88",
+  "width": 30,
+  "height": 68,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+      "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      16,
+      16,
+      171,
+      475
+    ],
+    "sourcePivot": [
+      93.5,
+      80.26
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      0,
+      29
+    ],
+    "sourceDimensions": [
+      187,
+      491
+    ],
+    "targetDimensions": [
+      30,
+      68
+    ],
+    "officialAlphaBounds": [
+      0,
+      2,
+      30,
+      66
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      15.0,
+      34.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/corvus-leg.png",
+    "gitBlobSha1": "581dc520323db0d87073f0382aee34d14601bce2",
+    "sha256": "9b43cbc60ad6a6b7d51231695d43b40481ff5885c39e43a8acb111b65561f222"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

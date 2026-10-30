@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-beryllium1.png",
+  "sha256": "5773c38b521577d613a2baab97dd48fbe15cc36b123cdcf5db72ff0ad1949813",
+  "size": [
+    201,
+    239
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    48,
+    1617,
+    249,
+    1856
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

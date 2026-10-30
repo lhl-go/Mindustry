@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/artillery.png",
+  "sha256": "8c64e0a25401e9554293bc7940c3d1b7641ba7501e37bb026a11e9614fbcfd6b",
+  "width": 48,
+  "height": 56,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-mortar.png",
+      "sha256": "a9b940b0c9bc39999f04fd26b929a27458ad45e574ab863da9ff3dbf3d79702c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-mortar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      256,
+      347
+    ],
+    "sourcePivot": [
+      136.0,
+      270.87
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      1
+    ],
+    "sourceDimensions": [
+      272,
+      363
+    ],
+    "targetDimensions": [
+      48,
+      56
+    ],
+    "officialAlphaBounds": [
+      8,
+      4,
+      32,
+      52
+    ],
+    "scale": 0.10593635971279476,
+    "engineAnchorPx": [
+      24.0,
+      28.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/artillery.png",
+    "gitBlobSha1": "fe8369d27a0c34c27ad02435a58b6163cf221e01",
+    "sha256": "0ea15b9e2510d04681789ec46f3f137706ee3309884096e482bb0991e9ed1db5"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

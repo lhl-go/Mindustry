@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/scrap-wall.png",
+  "sha256": "f9f639480ab479ce11806ea9091ab3f0423ddd52cd7569bf139d4911d875fe70",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      759,
+      400,
+      1044,
+      685
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      285,
+      285
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    317,
+    317
+  ],
+  "anchorPixels": [
+    158.5,
+    158.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

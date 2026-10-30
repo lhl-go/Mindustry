@@ -1,0 +1,48 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/phase-conduit-arrow.png",
+  "sourceGitBlob": "62bcb0c0b217c7464ec254fe2fa2ffe303ade67b",
+  "sourceSha256": "7c8bc4060e9aca5b488a370bee78298b6c4036a51f3f0f2173880212b0371fcd",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "phase-conduit-arrow",
+  "blockId": "phase-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-arrow.png",
+  "sha256": "70fbc1dc4b927baea94e7e9b8e6fb78d439cd2f61be26da48815154cc544607d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-arrow.png",
+  "engineSha256": "70fbc1dc4b927baea94e7e9b8e6fb78d439cd2f61be26da48815154cc544607d",
+  "nativeFile": "full-game/blocks/masters/bridge-arrow-part.png",
+  "nativeSha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427",
+  "nativeSize": [
+    183,
+    178
+  ],
+  "sourceAlphaBounds": [
+    12,
+    8,
+    20,
+    24
+  ],
+  "operation": {
+    "kind": "native_right_facing_arrow_original_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/bridge-arrow-part.png",
+      "sha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/phase-conduit-arrow.png",
+      "sha256": "7c8bc4060e9aca5b488a370bee78298b6c4036a51f3f0f2173880212b0371fcd"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/phase-conduit-arrow.png.derived.json"
+}

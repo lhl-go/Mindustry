@@ -1,0 +1,2350 @@
+{
+  "status": "completed_by_root_after_final_verification",
+  "sourceImageRetained": false,
+  "excludeFromDeliveryArchive": true,
+  "previousRejectionRecord": "full-game/items-fx/retention-cleanup.json",
+  "reason": "All accepted unit exports, source text records, dimensions and hashes were verified and retained. Root completed scoped removal of these 292 files under the explicit project retention policy. This did not retry the distinct rejected item/initial AIR deletions.",
+  "localFilesDeleted": true,
+  "paths": [
+    "full-game/units/reference/core/assets-raw/sprites/units/aegires-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/aegires.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/alpha-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/alpha.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus-blade-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/anthicus.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/antumbra-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/antumbra.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid-joint-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/arkyid.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/assembly-drone-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/assembly-drone.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-joint.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/atrax.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/avert-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/avert.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/beta-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/beta.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/bryde-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/bryde.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cleroi-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cleroi-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cleroi-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cleroi-spine.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cleroi.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/collaris-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/collaris-joint-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/collaris-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/collaris-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/collaris.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/conquer-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/conquer-glow.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/conquer-treads.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/conquer.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-joint-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-joint.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/corvus.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/crawler-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/crawler-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/crawler-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/crawler.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cyerce-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/cyerce.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/dagger-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/dagger-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/dagger.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/disrupt-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/disrupt.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/dummy-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/dummy.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/eclipse-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/eclipse.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/elude-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/elude.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/emanate-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/emanate.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/evoke-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/evoke.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/flare.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/fortress-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/fortress-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/fortress-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/fortress.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/gamma-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/gamma.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/horizon-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/horizon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/incite-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/incite.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/locus-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/locus-treads.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/locus.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mace-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mace-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mace-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mace.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/manifold-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/manifold.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mega-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mega.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/merui-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/merui-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/merui-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/merui.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/minke-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/minke.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mono-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/mono.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/navanax-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/navanax.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment0.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment2.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment3.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment1.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment2.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/nova-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/nova-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/nova-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/nova.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-blade-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-preview.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate-side.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/obviate.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/oct-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/oct.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/omura-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/omura.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/oxynoe-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/oxynoe.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/poly-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/poly.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/power-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/precept-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/precept-treads.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/precept.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/pulsar-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/pulsar-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/pulsar-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/pulsar.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quad-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quad.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quasar-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quasar-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quasar-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quasar.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quell-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/quell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/reign-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/reign-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/reign-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/reign.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/retusa-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/retusa.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/risso-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/risso.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/scepter-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/scepter-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/scepter-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/scepter.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/sei-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/sei.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct-joint.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/spiroct.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/stell-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/stell-treads.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/stell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta-shield.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/tecta.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid-foot.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid-joint-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid-leg-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/toxopid.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vanquish-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vanquish-treads.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vanquish.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vela-base.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vela-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vela-leg.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/vela.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/artillery-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/artillery.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/avert-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/beam-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/build-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-blade-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-glow.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-missile-fin.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/elude-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/emp-cannon-mount-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/flamethrower.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/incite-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-artillery.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/locus-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/merui-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/merui-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/missiles-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/mount-purple-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/mount-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/omura-cannon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-laser-mount-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-missile-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/poly-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/quell-missile.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/quell-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/reign-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-phase-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-phase.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scepter-mount.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/sei-launcher.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/stell-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/tecta-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/vela-weapon-heat.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/weapon.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/zenith-cell.png",
+    "full-game/units/reference/core/assets-raw/sprites/units/zenith.png",
+    "full-game/units/source-part-inspection.png",
+    "full-game/units/source/unit-bases-joints.png"
+  ],
+  "assets": [
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/aegires-cell.png",
+      "sha256": "da8584bf23cf4742eaead8772dd37971ccc971e8e516e20abed6c7872b0eb9e9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/aegires.png",
+      "sha256": "c3a833c085b49c217afee513356e53aae037683ac52b3bb45ab9bbb842f1e967",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/alpha-cell.png",
+      "sha256": "b345057c1bb8a2177f704e8568510a8b7e38ef62ee0a16b438a4a86befa299f8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/alpha.png",
+      "sha256": "813dc0fe4f371d2da0e0e95737b6a8c5c19327a80d156325e466793c4c419048",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus-blade-heat.png",
+      "sha256": "7f57c8f00916081aca196d4e14efa124b076ebb83a050c53b2967b04328f68c2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus-blade.png",
+      "sha256": "597e845f891e1ac0b908d41b0f426750539e7e9fa79364ea6eeaca3c2f19e7e0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus-cell.png",
+      "sha256": "479e5a66ec7c839e08763fce3afa6f9bf3797aca5c6fbe67f7110b2e956dbace",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus-leg-base.png",
+      "sha256": "4b135f35a8a8ba2518e5a8878823ce4e09023366342199a32b39e72296eabbc0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus-leg.png",
+      "sha256": "0e8437b39899ab095b7f8b173d3f312a8ef7d3e442681da9cf40cb85f247ed56",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/anthicus.png",
+      "sha256": "88b514c2a2abf8303e1f41fe4d537db2fb245d4b90f102b04ba0080d64b292b9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/antumbra-cell.png",
+      "sha256": "da44259bf58382f648d37477f25fccaefb1b2928564fafd443168eb3d1871685",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/antumbra.png",
+      "sha256": "d040c0c929b7b98eeb88d17e258db06893492a653d1f750f9561bcb4d6bf1da9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid-cell.png",
+      "sha256": "6b29b36b61c46676e4133586ab96661dcaba8b10afa321daa20aa48b7590b100",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid-foot.png",
+      "sha256": "287a968c7b5b4f62b87ad6c2fc4e33f4330b1ed20d3c9890276be37a8034df1d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid-joint-base.png",
+      "sha256": "fd04a8ff6466fa0ff3580126efce1bb6607545e616e278c58c3fdc451f84d7b9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid-leg-base.png",
+      "sha256": "33fe7ca2a70d01d8526f1cd9fc5bd97d3c27553a6a07fe85852c20274be8ba13",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid-leg.png",
+      "sha256": "ea02dc8cc58dd797db033684985442da50609be8cbb9708b02a8568861c7fa9f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/arkyid.png",
+      "sha256": "50a4be1f81974598797be24e20412284da248b0810a5c16fe9455ae3e5aaf136",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/assembly-drone-cell.png",
+      "sha256": "0c944d6d5c46831f11a6aa570cfab3ff4e6d69276973fb823c48e08f1261edaa",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/assembly-drone.png",
+      "sha256": "5053b6c12de57dd1a0d6e293e14c5e11f6033a25eefaafac803cc54bc2f0d12e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-base.png",
+      "sha256": "6857c18fe857499ae953941036f618445adb21d88cbe1bfe94e1a9b9b3219823",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-cell.png",
+      "sha256": "7403ab92f967c9cb65b77f281e04e9d48d43a68a12282d591204a2ad881022da",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-foot.png",
+      "sha256": "26e60b0fb8f52e9f4e8770fb59f93192ce6dfcc6679b3cb2521ee3c82b031054",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-joint.png",
+      "sha256": "78052f414fe9ef66e8e7fe5d62e2ad3d5d3c10f7e1a7c4936f2777cef3a8ff20",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-leg-base.png",
+      "sha256": "72fc29c152791ce7eb2dc3efa0ad8fa4e750b42eba0e76903a0eca5c885e54c3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax-leg.png",
+      "sha256": "74065467a1bdaa5e614a9956730500d8a086a566d924caa268ba6d8629544b5c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/atrax.png",
+      "sha256": "152a62a97660a94dd89d4692ecadbfde504d7b57fb48973fb5efa946bc6de6a2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/avert-cell.png",
+      "sha256": "da044b0d11f00f14c8168b74b6c3bcb741cc15ee3545088fe601810b31830c5e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/avert.png",
+      "sha256": "c3236fde1ff57d671e70272899f674e430440c45d73b7f876207f204e26bdfd2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/beta-cell.png",
+      "sha256": "ae5ff75085f275662869ff39962fe73316d542e9e82b74e68039dec593c0f5ad",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/beta.png",
+      "sha256": "f3259a7538dbc3fa57f9ddbf33a63d8209f553cc4a480cf6d3ab157bfc7f7da2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/bryde-cell.png",
+      "sha256": "6b702fbe36eb87f3de095d61ab61683923962adb999755469f2b888873820c83",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/bryde.png",
+      "sha256": "11342a88ec9348686ed24302249827e563be292d3d332a953f69e5cd85c96ab8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cleroi-cell.png",
+      "sha256": "7f414296358c628c5bf1d3183bfb47cbf3695eb0f96149430f482ef83d596f5f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cleroi-leg-base.png",
+      "sha256": "7721633037b3f6b1bc4027cd7c1873ed7c0cbd011b0d573cf793bfa1f032e4c5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cleroi-leg.png",
+      "sha256": "62359793c39a867116d7c6dd30e861c98ca5ad44e44bd806b83414f48fa67db2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cleroi-spine.png",
+      "sha256": "cc85141dca6f0d28eb81dc78d52be951062a0041dee13b8070cf22753ab1a66b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cleroi.png",
+      "sha256": "0464c6283f62ace7adbac39fc0e0c818544ac7fde36bf56a222191d0ea9fb4d3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/collaris-cell.png",
+      "sha256": "5d18d581f0144aebb6d87ea6a3d4caf73d89cff841521faca1e7bbb626f8dadf",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/collaris-joint-base.png",
+      "sha256": "08d8396964568a03e415c2362f84303aa8bf05e9302dc895862e946653a4ad89",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/collaris-leg-base.png",
+      "sha256": "55c80aaf00a7368766ebd4f4ad0d25c6d536b0925d2dd22ae0d823ad2aeda8eb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/collaris-leg.png",
+      "sha256": "0393936484bcf87189e7b863e4a0a47ac98fd5194e7c2da5ab2fd4e64a97aac9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/collaris.png",
+      "sha256": "2d6e2ced89577d2118c51212860bffd6951c44ba00517793b4e6cda195580d76",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/conquer-cell.png",
+      "sha256": "b2e4c1bd75decaf49ce4bf2a7f4727c537e50dc200193ccb162ce1ad658857c1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/conquer-glow.png",
+      "sha256": "ac0bf0196d1ba09eede7db86d2cd7ce9afdaab877704f905a9166b993dd8559f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/conquer-treads.png",
+      "sha256": "07fbfd0cd240d5d07e734ab7b8a852f2ea10549f19ef8f2fe4affa3e5cc318b3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/conquer.png",
+      "sha256": "c8ffb0134161de2f989c55e5fb7666678f981f723938a5efc46420e0bdd35063",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-base.png",
+      "sha256": "e63947361af5425159f4105fbf2a01366aafceb983adba583575823b8e4f340b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-cell.png",
+      "sha256": "3acb6fda79550ff1e187d9ad683d5b9a9bcff1e0e2bb9bdfa5b8b584c1d6444b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-foot.png",
+      "sha256": "cb9e55dc2ac480d03c80b75085854fdc5d15771fdcd0cdae91a52cce0c992868",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-joint-base.png",
+      "sha256": "499a35a7b7493d3e25f74311a3ed98d24d37f82ebcc2037cbe710fe9679aac6d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-joint.png",
+      "sha256": "c1e2a494e5534465a8124bd0307afe8b20fc4a19aaa8a7e61fd565f3e210994e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-leg-base.png",
+      "sha256": "0e92287bbef7ce52bcfa4b0790f44df56483a92bc039f566ed783bc8d314bf19",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus-leg.png",
+      "sha256": "9b43cbc60ad6a6b7d51231695d43b40481ff5885c39e43a8acb111b65561f222",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/corvus.png",
+      "sha256": "3ff8c4120d41ba973166229d4491b5e9b72487eb75d9dac849edd0e3064a1555",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/crawler-base.png",
+      "sha256": "c84728b61c87b75d409a283c6dc2cdc33dd1b21b7cad7d3091cbf4f93871dfdf",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/crawler-cell.png",
+      "sha256": "31308d7a7eba220227d147f5aa9886b814084a2b3893484b84ac0172bf3cc00b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/crawler-leg.png",
+      "sha256": "9ed23a3ab9e957bf07b725dc245e8e83dbc653cc06e0552f683677c89b3c060c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/crawler.png",
+      "sha256": "f743a7b64affb079bbdcf1bedb29f22a5a73e0ac96195ba61e55c6d1e118dd46",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cyerce-cell.png",
+      "sha256": "c49c568d9ceff8ff773d8c95fc833bd11ffe2e9a7633864c4a991ce3a49fd601",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/cyerce.png",
+      "sha256": "2dda279da19c1a5d1945ed55cdbf22c01696a8e2d9163b3195746340026e0be5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/dagger-base.png",
+      "sha256": "08ca1afefa9bc3a2e7ea4e73bdecbd3743c336d48c6b8c7110608e5f576e1205",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/dagger-leg.png",
+      "sha256": "6d4065a6bcb8280b27dab1919022301e6f8d2a9ca9898be8bda38c05783555b9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/dagger.png",
+      "sha256": "048eff6288242a7d6a94e141a1d60b345c0f203a34af84eb0aeb1f10b10364c6",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/disrupt-cell.png",
+      "sha256": "d492d090331f62a1a7097294b1169e621099bda6828f8001d65bf7b05fbed912",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/disrupt.png",
+      "sha256": "a521e3b9d26829c435f02ce0c2524cbb6103527038be273ff2ffa9fab2fb06af",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/dummy-cell.png",
+      "sha256": "b72af02e8df63a203e9a2fa91e47b1740c2941859569e2bc7b9232ded87b43a9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/dummy.png",
+      "sha256": "336993422e4a7c3b61ab561b892885595691f67ffffb1337b924d18efeddc548",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/eclipse-cell.png",
+      "sha256": "2f377ae92128e418b103b21ba0d3b2cb59eab83cc2881fd0357073f9f6555ace",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/eclipse.png",
+      "sha256": "83230f2772f09b6681e5c8e2699e071a17e1cc18ba2302fb04e8b0d99cce0d65",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/elude-cell.png",
+      "sha256": "a244bdddc13d74174efecf6c01e2533cf4a7a684bd054f24c8598132d855755a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/elude.png",
+      "sha256": "7be9c8d2f2bd119fc6aeb0bfa1eaafdc25e0142fb863cbf688ede33ad61dc218",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/emanate-cell.png",
+      "sha256": "e571a761789bebc55ea746b188598716b39500b0836fa08c3ea5155cf1898198",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/emanate.png",
+      "sha256": "1ce82dbabfdf94566e29b0cbc9da18eba39ba961dfe5d32976cd23ee62658f70",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/evoke-cell.png",
+      "sha256": "d78c4050fe4c246b7d11c850fcf9081b9cb53952d5944ef38aa748235a053cec",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/evoke.png",
+      "sha256": "671bc3758cef88dd267b47ea594f22dd081bb6368237a359904a9a0f1849e5c0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/flare.png",
+      "sha256": "667f12602fe7b9b82316de24f30b84cbb23b98bec57fffc92c130dfb33fbdea1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/fortress-base.png",
+      "sha256": "4efe75397b45d244af910e9288a8825b675b18c90a6cb7e80b616abbd20fe404",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/fortress-cell.png",
+      "sha256": "71f3e321039e578933bb8f6572f101130a3cc530e689a11af08244786e2c5113",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/fortress-leg.png",
+      "sha256": "8f0db0f20632a2f49f442b55a79a0fad31cdff63c55866a43d00561089c6a4e3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/fortress.png",
+      "sha256": "8aa606338480d7b4f8bea20acbd330677709498a99a197891ebe51a5b12aa2cb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/gamma-cell.png",
+      "sha256": "0f8ab50535829bb1f5eb81985fda174c72bdb90f66c22ab1de3b9c19810bf30b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/gamma.png",
+      "sha256": "2d76e754e9dbd468bfab191ce89d089ea9d0a9a658803859066681f95032a71f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/horizon-cell.png",
+      "sha256": "3b6b0c1f05e96309e27b6282bea31994d23318caca00f32af0a78e1fbd502abf",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/horizon.png",
+      "sha256": "2800c00117efc0cee0a875d24b4ee9165c4a5aa55114f6d688deac9568e61f5c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/incite-cell.png",
+      "sha256": "cd5de80274288ea22facc2d7d4cabc731c9408563306f87bbe43515452f0f3b5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/incite.png",
+      "sha256": "d427adbbe4457f645fdb682bc2078ed20ece6b28d6e474f90abaf49ee9608536",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/locus-cell.png",
+      "sha256": "8eee925c47b16ffc66f1acd6afee63bfdb4b037d1a41fe8a30df2fa1f31ea7d5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/locus-treads.png",
+      "sha256": "f230d36e1cf64bd854478f12884ca5201c30f9e810a8b1c7241542cb33c541f3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/locus.png",
+      "sha256": "f211461e30551b17194a2688b407dae75fb10fa5411930d91b7f3b3dc708056d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mace-base.png",
+      "sha256": "25733694f4744b4ffae7c33f1fb8fa7132430aafb6030bef0da271d9fb8d6366",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mace-cell.png",
+      "sha256": "3701cb877dfe0865416d3f51ddee8051ef8c412151f5810d1a026f86b70f2eea",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mace-leg.png",
+      "sha256": "ecb6d8d37cf07536f60a15e19157331017808781ff1178ccd07b3b1fe99854f2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mace.png",
+      "sha256": "cce216f6ee549489110972f33857685ca0d789124578314ea254e6d28317021e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/manifold-cell.png",
+      "sha256": "61c53af8b5bc1a1dc35da396895f6af6ec67fea97f9bc489b3cd15a7e9a4c473",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/manifold.png",
+      "sha256": "5aa0a412723f90c17465779bc5c745d23565db4995a096dba6f3db113bfa4b6b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mega-cell.png",
+      "sha256": "abcaa794e4542b3a33699a2623675e49531a484cfe6a23f037301ff7755eec3a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mega.png",
+      "sha256": "880169d78956b698546a9ef7eb2a740b3f37894d53f0395d1f6572174da008d2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/merui-cell.png",
+      "sha256": "d3d3bf2930ded740636ba644ca2db46800525104e2a228b0b98e9f73cca699f4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/merui-leg-base.png",
+      "sha256": "afad46cd2c4f0279cfdfeb844a69f1e05c7252792972571aca2d88b8af39e224",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/merui-leg.png",
+      "sha256": "087e55f8992f407637a6e746bf54f1ca7cda614030b103c7d124e6590ddbd04b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/merui.png",
+      "sha256": "9a754d34dab8ef60c69d243789091baff608d907b448cbf03b9f5080ac48342c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/minke-cell.png",
+      "sha256": "f824439ef617eaa30abedd8404dd575cf65fe625e9faa6cdf52cf7107b6f1e0b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/minke.png",
+      "sha256": "9ba50fa0e7140ba723251ab3fd6d129683838435ba7bb6acbd0b815aadf92c62",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mono-cell.png",
+      "sha256": "0fd1aaca88287cac7e0826cdab9ae53e4af6df5767a35ffd24ca5a395e2ee87d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/mono.png",
+      "sha256": "c1cee9667fc832746e7b9aec8fb1b63429d335e9e6c1705eb45b95c4785d0136",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/navanax-cell.png",
+      "sha256": "5f261fdde34086bf0dc4270981abf5080e557849063827abfe0b659d4638e964",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/navanax.png",
+      "sha256": "6a4b524e9dfe720765e8a43a447779394b16006f0d39d9574041144f9ab3587b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment0.png",
+      "sha256": "e120f5eeb66ca2e3c98ab1c1c9cc280ad1db8bd868decddf9e700ced641c488f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+      "sha256": "9f4da664eb990d896e6d93d007d2fec23b2ac2bd326f5b7c096b9e59325a1ec3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment2.png",
+      "sha256": "448f13c8db870614bd5d1d716ea6f26b668b302bdb7a56b69653f13220c26ebb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/latum-segment3.png",
+      "sha256": "a803cfa4ea8f9f163d36f73eaa5964b814a09b87914f084140ae102b6286815d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+      "sha256": "f2251d1050439d3c91663ebde2f30419f94a47acbc23a8c2bf92fe20109dbceb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment1.png",
+      "sha256": "83f90c5b715cac0c80cefe0f6597a1239e30fa547b9974729dd44971a16d34ae",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/neoplasm/renale-segment2.png",
+      "sha256": "ffb3b334799410ca4ba8b6957b068fae708be9965a3ad82b5b59a6be8ec2c562",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/nova-base.png",
+      "sha256": "03ce7f2cbfc6645138584b3d8889ccbbbbb7504fe7096833018426675f93f507",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/nova-cell.png",
+      "sha256": "0e0e1a004a5f390bfb70b15889c64241940138e442ddc865a1888bd8c7f9c10f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/nova-leg.png",
+      "sha256": "4a4cbe2fd111689fce4e52603593b507b1851ad8c286abc557255b4f3a842cab",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/nova.png",
+      "sha256": "ecf2070f41d7b8beb46d814103ef8b5778ea07793aa3a166da643b16d171f983",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-blade-heat.png",
+      "sha256": "b4044ace279c98f663832ebd41dfb971d829bcfc68c77445e56088cc9691e583",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-blade.png",
+      "sha256": "ba218e9c0145f0162c79c4f383fd4e0ebed01d22652c55aad74cfdf82e17a76d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-cell.png",
+      "sha256": "a158cc4dc1e145d234b89413cc5676c4699da5fb5ad140f060176645ba930fc8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-heat.png",
+      "sha256": "74e6109bc5b52a074aec5671750c5238f1c82296d99248b7cc9480b5cb2ff1cd",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-preview.png",
+      "sha256": "da9bb9a84d530e3245c6d89724567123585eeb35f65100a054c09fcd8e3796f3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate-side.png",
+      "sha256": "d69547c77bfde2b22df1081be2c816b662b7e57255d808cdea0582feb56d5e5c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/obviate.png",
+      "sha256": "cc89cb6b9d4c95a2db4824ab3e4ad0ee4cfeb9ca8822496934fde30b5bba5861",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/oct-cell.png",
+      "sha256": "e940ea357417660dbe40e8a736093e8e5f622aa504a0ee654bddd7f3bc6adf98",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/oct.png",
+      "sha256": "f494f3ad2b555bcb442b822589a2cb0705b107967a4e321edd1c6cc2be7a179a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/omura-cell.png",
+      "sha256": "b07a60ca213a20fda58b5df7c0298eed4c89b8ab6216b99b10e77d4a9ae25c8a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/omura.png",
+      "sha256": "31b6902641f3ff55f028d7ed6fd9b39ac722abb80c2ce60be0148e63417b86f2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/oxynoe-cell.png",
+      "sha256": "66483986a540b77f71197e0914fd4ddb3a1aafb0f5094112cba628c6569e52fb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/oxynoe.png",
+      "sha256": "4ab65f02c1bc10b79928efb74c2f8c91771b9ef65dc9062edaca0bda35c8f4d3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/poly-cell.png",
+      "sha256": "238532f8e5d994dc2b8b74cfd22dc3d22f0888a823a60ff0f560287fdee5f586",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/poly.png",
+      "sha256": "4432f70addd402a6eaee13b94fd02b2d13011011895a80979986c036b374f0ad",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/power-cell.png",
+      "sha256": "ec81e675a06fb480f35725165fc07dbf6f8b13e5bdc622f15dafadcc39ae84ba",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/precept-cell.png",
+      "sha256": "4ef85cec885584801e327757b738cdd3164ed41633abd9ecaf0dc69b4dfdd3ce",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/precept-treads.png",
+      "sha256": "4731391fe0d1b05c505132d016536cc5e13eb1b6f03e993959cfa009f986bf0c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/precept.png",
+      "sha256": "203e17288cc2f2dea1b485ea6f41b61feb4b8c8d5901a52d41608d9db3cf0af7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/pulsar-base.png",
+      "sha256": "22dce1a9f10c718be24c1bb56e98b62ad3a3f3838896e17483ccf3e826e558e7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/pulsar-cell.png",
+      "sha256": "ec37e5189d650db9a40d7c0f5e2867f14717ccc287d8e16c6e0ac97610195b33",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/pulsar-leg.png",
+      "sha256": "d808977d6eb1914e3394172ecee4cdfd37dc35f7d444e386f5ab981acc4cf80c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/pulsar.png",
+      "sha256": "7ab3c5f7a144b693baaf2241e167629cb10648491295ed52df7ae4dbd23761c0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quad-cell.png",
+      "sha256": "71981a970453ae3a1e496d17b7ea52494330727b3c00e4452f48556870f981fd",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quad.png",
+      "sha256": "b352c717bdad6e9f5f5578821f2e0589bbdedd2d0bd43ba91275e919bd63d866",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quasar-base.png",
+      "sha256": "46fff8183679b2c3affdec0012ffe996102b9d4ab7804215907a2cbc40f17403",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quasar-cell.png",
+      "sha256": "7cd9de75a46bdb5d52ec09a8a00e5f7852cd09ee3f0467444a67a41e7941ed34",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quasar-leg.png",
+      "sha256": "3a79ca38633fbe9a35df6f8bb3fe105b8d163fed837e5c2de2c2f0003afb54ca",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quasar.png",
+      "sha256": "63d3de379a90971e246b876c787473a60f4ffbab9ad1fb65da40e44d5e7483c3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quell-cell.png",
+      "sha256": "71c1a0a2ba8c657241ec890ed276ba9b170f20ea6f472da5215f95512c4b79ca",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/quell.png",
+      "sha256": "c91eda71f6fada50fc3f27ec9cf20f8f31abc3fd8af217a2c057565118f383a3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/reign-base.png",
+      "sha256": "ba51330fc7876dfa818525ceaff49568aaeecae2891ed2963d799044f1df13b8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/reign-cell.png",
+      "sha256": "64ef9f67a5a985c29867312c5040044dfe68d9472d2feb420f7692c1a87aa31d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/reign-leg.png",
+      "sha256": "598a7993fbd817c8d82b2de3460f9fa076a43f85ad965f99070ccdf04ea944ca",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/reign.png",
+      "sha256": "fadb8678e0de7863d86f619510b7dad5a68d65297e72def5f99b71d0f2f0f0c7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/retusa-cell.png",
+      "sha256": "516bc94f875dc6a82e4ed8cd1e828edd255ec710b93d47aa13c5744ff5a7b173",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/retusa.png",
+      "sha256": "fff586e1a65901350948bb7aa5c8b5248dbcc303da18aadce65df58b2ccac39c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/risso-cell.png",
+      "sha256": "c13fd4dca74b760cc7f337f24f706ac32d1247017f3344877587675eb8cce821",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/risso.png",
+      "sha256": "5b393c40f9d62a310ffe32c4946cc49d8f16d65cccab19308ca3260bce53afa9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/scepter-base.png",
+      "sha256": "7e9df8c4cdad8aa7f27223535fda163a58756351131a5ca748d566a31f11d594",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/scepter-cell.png",
+      "sha256": "0aae2dcf0564ebd5e8a17997d473a4c5ce4c423e781cb0de83409ffe09072829",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/scepter-leg.png",
+      "sha256": "f49b4d1b8344d22f9e1db93b499f882e262bada1c5107b17e4f97426a2735022",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/scepter.png",
+      "sha256": "74a5fb7702639f05ea99a6b21c480683614ecfa84802770beb0f09a1c9f23e8d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/sei-cell.png",
+      "sha256": "b67d31ec8c1b549bbc9e0de7d8373636986b2da112ec501ee33a21e03db9f443",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/sei.png",
+      "sha256": "dada2bbe14604c668daa0ac11bc31df30041b994be115cc5dadf6b5867dcc6a5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct-cell.png",
+      "sha256": "c3d044784e7ebeae6bfe72afcc5be0ed9eeb7fb7e3284e65ec5e5077f1acdafb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct-foot.png",
+      "sha256": "d73d99b08187cea2790f7077e99336e9004dc0667154a2c55e467c1c10a7e396",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct-joint.png",
+      "sha256": "cad9917cd088ad3333e2eef5799e9b1c5bac0d98e26ed6e205927d790190119e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct-leg-base.png",
+      "sha256": "1615f11fcc3d97e5755e860d6761f774a452092897c15d4a0cae884cf3a2317e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct-leg.png",
+      "sha256": "de7e953ad5fda42ac6aa67e552c5d38f0f0e359a567bcc0edc5837c9e1aefe60",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/spiroct.png",
+      "sha256": "759c41e6e3726e981c52ad67ba77b0ac5ff1d6f0213f92d0e817f1eb9bb2fa3f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/stell-cell.png",
+      "sha256": "8c2aebe8b5d43fc70bf296afaafdac7d6e32250a6fa9e932d7c472a8264e10b9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/stell-treads.png",
+      "sha256": "4b17e0eaba4b86dbd08e76dcd96d60005f531c729eb60a412af84fce2a63ff2b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/stell.png",
+      "sha256": "5d7d69cd8a866b09c01cb2342ecda2642d953dadfad2c0f9adea184359683537",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta-cell.png",
+      "sha256": "222763e3bd4d4f08e6141d87d92c8ea94dd274fe188d99758c866269ccb261d7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta-foot.png",
+      "sha256": "66f98032c04cb9c0b0130aff90cfabb5734d5f06a74db3b20d56e7c274e964f8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta-leg-base.png",
+      "sha256": "650c7236085c41e79f7c16c8c8a1bbde7b092a59f2a0596cbb73fae5e0767bc8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta-leg.png",
+      "sha256": "2348161cab7b042e23a7b0a1bb076ee24424f0b7830f2ec7a3a7bd323441e946",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta-shield.png",
+      "sha256": "47c4fbfa823bfa8672ccb1a75df0c7b6d6f2978d4295734635f556c7eca4b7c6",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/tecta.png",
+      "sha256": "077234cc6dbdb49195a2a12ca8d4528e2daa7619e957198bc4260e27bbcae67b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid-cell.png",
+      "sha256": "895073a9d61e55616f6afeadf04ff0009949895ab1c6851ef67610c97aee7aef",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid-foot.png",
+      "sha256": "95ebc72c6d95be2679c77f5df6ccfef38098a3c516dbad1670610995dbc45396",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid-joint-base.png",
+      "sha256": "499a35a7b7493d3e25f74311a3ed98d24d37f82ebcc2037cbe710fe9679aac6d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid-leg-base.png",
+      "sha256": "dbeb81d8fe97ef33f25a7bdf0dafa2e770e48be87eea82907224dcc92ab0142e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid-leg.png",
+      "sha256": "1c4cd4e6995ea021493ecd5dc4d162196794e9298bf3914e997e856e31fdb1ca",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/toxopid.png",
+      "sha256": "e27eeac16eb3f6dcd2e3046840003f591c2befe1fe2b61ff698fbad972b0436a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vanquish-cell.png",
+      "sha256": "73060737c4fdd719ccb5369dc92369c604e0ee8c44b77f64727ee6f23951d869",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vanquish-treads.png",
+      "sha256": "ce2c2ac30d93a15bd1d4ea36e41c5c20a7ea270c76b88c526174912abfcde8c8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vanquish.png",
+      "sha256": "b6276cbf9e3ed001490d548f021d6687c2606f2820a1efb20b4b45f1374c8b0c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vela-base.png",
+      "sha256": "7e9df8c4cdad8aa7f27223535fda163a58756351131a5ca748d566a31f11d594",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vela-cell.png",
+      "sha256": "5ec898140203d42e170356de46a5df5609e9c774a18bc1507bca5efee2ed6ce1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vela-leg.png",
+      "sha256": "f49b4d1b8344d22f9e1db93b499f882e262bada1c5107b17e4f97426a2735022",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/vela.png",
+      "sha256": "5f2a7377e6e7583d1e82043ac06596f15bc583b8d6b3e731ca1323770a1ba875",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+      "sha256": "b254ebda524f576cbc6b5089383a10babf832d8f904c5ebb97d2f44ffb97614a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+      "sha256": "d02d0bb053b912c1bb867927ff88016f24d250a4cba402e2870b1ceaac16c90a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade-heat.png",
+      "sha256": "74cdd22101d62c8d406b21b790be6a39314efa7540f3a43e4d7a25c69f07f4d0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+      "sha256": "4ebd54cdeecde30109c7f1fff9cef3bb380cd4ab3fc78de49b8158212ff5403a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon-heat.png",
+      "sha256": "f66f3149074447f4a2d05f41bab6dcace4adf3c0233e3ea02e824a8917bc3431",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+      "sha256": "af64922fde14bd4cc917e45f3e996cea3a32495b3ba639de976a1b3cb11edd14",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/artillery-mount.png",
+      "sha256": "50e15b9f64acafedaaaaa68d3b2b667ce04bd6727705508ade61ef51e9f65809",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/artillery.png",
+      "sha256": "0ea15b9e2510d04681789ec46f3f137706ee3309884096e482bb0991e9ed1db5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+      "sha256": "3177c74607764000e56fd2d5df911e9084a6537c9ae8ccefbceb90292e5a6a7a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/avert-weapon.png",
+      "sha256": "b5296e24763bcb1f59efaa078579165e1bdba2d9fdf8fb54bf3326fcffa0be47",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/beam-weapon.png",
+      "sha256": "59605f600cc55851f66766136fbaf81949764e2db4ee99f87bce6908d69603e9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/build-weapon.png",
+      "sha256": "f7f14b0fc666de9efc4f7114b42739c7e224e054a83734ded2a86d83bfc40f34",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+      "sha256": "c11be2b39682b42d0345ec540fc9ac2b99d696f4ebb08c02727940ce09c12104",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-weapon-heat.png",
+      "sha256": "54570f8eccab094f649c014b0979aac66c25feed6c1275d4a4673051a2bc649a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+      "sha256": "43e7540fa6866c5b03e1babbb6ddf4ea8764e8c88a809b6117c38fbb32e210e8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-blade-heat.png",
+      "sha256": "10b37c8654a420072897394496bff86eff4282b76fde25d5e4760205d6e7ea66",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+      "sha256": "87adaa452a8b55c6074d077ec544b0fbdfdcefeb7d47a705529e65dbdff9b5f4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon-heat.png",
+      "sha256": "52f2723bfe2100040a5fecbb77ad1c3c141089d54f5d81fa9c33c233bf1b59bd",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+      "sha256": "c2e9eb5edeb373d6533f449c75a17039fe526d868b1c4ce93fbe6c37b530ccfb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+      "sha256": "d992196bd231cc0e048537d15ea6fea2a51bee0daae0626d7d257353cfe01949",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+      "sha256": "3d96c663c639eb2b170e6c964dcaeab2341ddd10e5782e50abb3de633882a67e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-glow.png",
+      "sha256": "926dfdb74106cb50a99c23811328860e481231fb798d789263c6acfbd494c9fc",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-heat.png",
+      "sha256": "e2da31e53fd643408c6e8ec7d477587f010147603a96d1b30ee9d72be6e711d7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+      "sha256": "7600266db3c41d79c28c3bf8cd2a7a0759b5fcda876c6bfd38d83d2e90dd6400",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks-heat.png",
+      "sha256": "7facfcdbf0d655d0f95629ea1f3aebcfb7243f8056711cec959fa48925965cc4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+      "sha256": "3e835dd5c3b24153a0a5611d7082d351592d7fce8543e99026f4d90668e77db1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/conquer-weapon.png",
+      "sha256": "c9b025dfad274738a85e4cc27fa1a783e9b25640c51c2a7503e2d0b58950d96c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+      "sha256": "ae9f8b0cef3f9f1f3721dddbc1a8b90f194946b62e286e759ca2d59f301fd99b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-missile-fin.png",
+      "sha256": "2b90a981c2d3c49f35c2fdafd6c32f2737d0b1d5746e8e7aec791a939d27d5c2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+      "sha256": "48fd1f448c4faad6e15443e782c04c9d11573669eba7d3a79d2fe221d7fc950f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+      "sha256": "268255a57e8392fa162c0bad490cb94f50ba19688d39d7a8682451753398c555",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+      "sha256": "adade585eb1f868b0908e728aebf629381a4975ba2c20df890e22b27303579cb",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/disrupt-weapon.png",
+      "sha256": "0a848f8e77de68d97a254e204a039398fe7e77e444a2e3ace445bdb2f8b7e13f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/elude-weapon.png",
+      "sha256": "742bbc60cdd7f8f22cfff71238c74bed9cd7da3db567d107708cf3e8e6dc710f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/emp-cannon-mount-heat.png",
+      "sha256": "a960dce4271f0fcb0495a09dc41980becbcf9d0391f7045aa97740bcf1433cf5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+      "sha256": "ed9bae1322ae41974881eb1959b8a597cd3e80905d7e74ae5f8f18e533cf2899",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/flamethrower.png",
+      "sha256": "c3573bb960b2e08c75c8d966aea9a05a6aaa98b449c941ab2b805888e75e050a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+      "sha256": "860a85167536e986b3a008f5c29206f4ce851652a7a238cbbef209887eaac396",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+      "sha256": "12a83f4c514a654b293d2e88da8de6c1a9e61710cc25035d3ded7dcd7cb61b45",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/heal-weapon.png",
+      "sha256": "60dc1005de9126558564b18c3f86b27d13032707e15bca897840d6d6254fcc38",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/incite-weapon.png",
+      "sha256": "19178c46f108a43366da4de682679d1c541f3dff95f30aa4329c13d2d40acbd0",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-artillery.png",
+      "sha256": "06d24c2bd8b12535ac2348f0dd5c5d11c7d3a7b26cdc3976b08d3178d3b4ff35",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+      "sha256": "0d57bdcec9c6e43e912c282b516be77af74f19636528260bd167c2811e44955f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+      "sha256": "ff47cc30306c60780cc14ea5a6b78448fdb498d9452fa95d4bb3f9c49342b702",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+      "sha256": "475cc4cfcb55391378d3380ee232659a784f6c0fc875f1156b0f321ed3903e2b",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/large-weapon.png",
+      "sha256": "c42a1b445db5549fc25d9fbf4a2558653355771a7c3bb709846b7efb159c1048",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+      "sha256": "4226b3b26fe48055225768233e76528e1f9d440a91b31e6dacc6072a28b51ba9",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/locus-weapon.png",
+      "sha256": "2a55c7bce1e56e8bc17d249912910f1bf9114fcb547ecd29957db06541418835",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/merui-weapon-heat.png",
+      "sha256": "a225446fe22f5ed51011a4f45b35c83582268bb96c73e3e4d52abd8eac34a6fa",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/merui-weapon.png",
+      "sha256": "4ae182fc42ed5c7c8ffbab6df426feac70bf23a9e732bfaf23510e79cf223df7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/missiles-mount.png",
+      "sha256": "b117f24da8ed2b76e7ebea79151dd96d9afc84ea5b95f8d0cf95a6805faf3be5",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/mount-purple-weapon.png",
+      "sha256": "ea19d5f8d99aecff08b5f53959f6ba65b8cea9da4f6d49243ef41bb5109f06b4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/mount-weapon.png",
+      "sha256": "4219ee246c53b73a5305865e7a60707fe85eaac8c6b07e49f34a8fd578bf38ce",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+      "sha256": "4860fceb2c7366e468ecec091b3407bf7ed43483425d7c3bec20e3aad06daa3c",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/omura-cannon.png",
+      "sha256": "7e709f7bb4b664f34310e3fa3a61cb53b198a6cdef9e622d0fa50d206ace270d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-laser-mount-heat.png",
+      "sha256": "c70394c9cc457250ba74a7ffb5cb4017eecefdc91bca6c488248d7a5a0605b4f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+      "sha256": "e9dbe457b4598db107e9f1b4beba236e1b683389291ba348e4c89991bd7dd0ef",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-missile-mount.png",
+      "sha256": "9c60ca17acf56b0bf72727e7d36e300019e1f368d808bc5edf383904e41a49ba",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+      "sha256": "256ea25f20470407ffc2a8367a1e60c5a33812bb3afe28d4ca889e23e851ef07",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+      "sha256": "f1aded72ad3b74b443f03fcccead5ac8a13d17fe3cd7658be626eb0694ba497a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/poly-weapon.png",
+      "sha256": "12a83f4c514a654b293d2e88da8de6c1a9e61710cc25035d3ded7dcd7cb61b45",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+      "sha256": "439264b88e2015cb03818e6b0db4a563aaa7bbb9d6f6625a7019b420cdba7c26",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon-heat.png",
+      "sha256": "03835fa5a710b4fb42fa030cfc17cb9521703a90e3ca25a4d926cbff29f3b066",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/precept-weapon.png",
+      "sha256": "ad97a896505291e550a120947d0cc05f128c8e126e05d95abbf421c48510eaa6",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/quell-missile.png",
+      "sha256": "87d72a024cb6caa678c849fabaa1d00cd4742289cb43307158b5293d1ab42d45",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/quell-weapon.png",
+      "sha256": "6942e2f257592cda082d3e64a304cc6fc60c695e650e2c77885d8bc83a8abab7",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/reign-weapon.png",
+      "sha256": "c99af156224ff857089a469c8319db2133281ef4c166e37765b8bd8bb26bfb48",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+      "sha256": "9c6e26dc1bc8e747a952c20759719754e3df9ebc259fe01e250c6dd129a08309",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center.png",
+      "sha256": "75fc4c91e3ef9c77f97e671abe630f9dee77ee9bed7b474080592bfe7488181d",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+      "sha256": "fd5aeb8304ebfb0899812c145fcf77eb51491341fc30c99a2b50a015ed29446e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+      "sha256": "2c5b4d0948cee9e034c6d58cafe0721b25d12dec7896792960ad5f2d81a911f2",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+      "sha256": "2f834a5b6f69229928783702d41e0b2fa64f33f268cd78c23f1fed4fe7e65031",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-phase-cell.png",
+      "sha256": "e25a87f06b4eb038992f2a4cc1a6c6409bc464e495cb2bd8e7cab5cf559d4fe6",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-phase.png",
+      "sha256": "7f8c12632536526dc5ef7756d60d34f09d60362a5beafc987c7fa2d75779aef4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+      "sha256": "2f834a5b6f69229928783702d41e0b2fa64f33f268cd78c23f1fed4fe7e65031",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split-cell.png",
+      "sha256": "2f834a5b6f69229928783702d41e0b2fa64f33f268cd78c23f1fed4fe7e65031",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge-split.png",
+      "sha256": "d630e6169118c0e72029e839c721027f9c277455b58f19339845126d6256df4e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+      "sha256": "bf2afbdc13ad8753ecd5dc921f3ddbbf989eb45713fac6169783367b9b77b315",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scathe-missile.png",
+      "sha256": "18524bd1f1c475d0dcf816208d6b0020bd6c967dbe6058bd415b4cc0343e6d38",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scepter-mount.png",
+      "sha256": "f97260f2cd6b4f1475f72154e271be285c7f86caaf49e7a720ba723280392ee1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+      "sha256": "66096cc7081acf323fe210252811513682350117660852e750f9bbaf62f57eb4",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/sei-launcher.png",
+      "sha256": "9c1dc7f0fcade8d9f2c500a3adedee2be604d530b21debd0d0670d76a68e618e",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+      "sha256": "dd6bc759cc0c68bcf0dbc97db7d537a76e80cb01d54a285bd79fec51982fc1f8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+      "sha256": "b0512f346bb61c576d25b2bc7c58cad2eb5b63788b6325841adf151fa2879099",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/small-weapon.png",
+      "sha256": "a2ec498c5ce3a21c04ec6bf9714e11a9fee65fb4b62b914c8418c35cbff215e8",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+      "sha256": "12077d417736fe6286dcd590cd02087d84c2ce9c4470808c4d4caa149624ab4f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/stell-weapon.png",
+      "sha256": "99da3718c17353ee294a60a29d09da54fec6c8e3c7a7be402b0097038c1fe78a",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/tecta-weapon-heat.png",
+      "sha256": "7b4c6f61aebbd44b43ff6a8a955c07866264bcfd3e8aea94126c1ddfa70e0d50",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+      "sha256": "cce258da00000947f874e14c5e2aba4ff53192d3d40a74c9b3b9d07efbdecaab",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+      "sha256": "80ca2f0316b8f04a8afabf00da880f5f817ae5e3c7847a6bfdbf971942e247d3",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+      "sha256": "fb5ce41519b1a31b7f93449c818fcbc15ac365636afa8265fdf3f8237b135c4f",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-weapon-heat.png",
+      "sha256": "829d1ede84c54ccd3d3a932a30ec1e6e885c18872db6ec9c981bf938a3eb9269",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/vanquish-weapon.png",
+      "sha256": "43f91cc297fa1e6febe4d3a6a0e76e9b9535624f755e86591b7f094e3355e0c1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/vela-weapon-heat.png",
+      "sha256": "bd6848c43248b0af094110ff39c606bb143259c5281d3a429316c107080e8d43",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/weapon.png",
+      "sha256": "9e9e831777ce59711106122caee57aabc705903549d6990d552e25fd20396a31",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+      "sha256": "d3eaa3b74a69e6cf778b5b61a87b0f130c9b378e9bb90c60e26a3be052aaf1c1",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/zenith-cell.png",
+      "sha256": "e13967c1b509b75e78c57069d2592e0da52868881a71f14c3f48305b72462c61",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/reference/core/assets-raw/sprites/units/zenith.png",
+      "sha256": "4114a777546686cf056055cb42b5e38a2b86711e181406932c0af563e7d53d96",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/source-part-inspection.png",
+      "sha256": "46129abe4378dde3f5ac14f76022551f3024b86a3bb9e933e1e20a053b6a8b91",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    },
+    {
+      "file": "full-game/units/source/unit-bases-joints.png",
+      "sha256": "b98abe39616f5c44f16d077cc28c1c13765e0618235468b1bcd1a9837c0b4f08",
+      "sourceImageRetained": true,
+      "excludeFromDeliveryArchive": true,
+      "reason": "Consumed generation/reference/inspection image; current final exports and textual provenance are complete."
+    }
+  ],
+  "createdAt": "2026-10-26T20:01:27.026718+00:00",
+  "completionRecord": "full-game/root-unit-source-cleanup.json"
+}

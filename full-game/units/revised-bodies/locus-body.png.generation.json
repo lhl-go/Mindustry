@@ -1,0 +1,69 @@
+{
+  "file": "full-game/units/revised-bodies/locus-body.png",
+  "sha256": "ceb1f69cd073b4a96aa2e758188b3043f1493cd2bab34eef7cbce8f6a9257251",
+  "width": 455,
+  "height": 423,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/locus-body.png",
+      "sha256": "ec3f42bc6094d9903b42bff452140aa9bb21979488fb8143e7c981787748fd5d",
+      "generationRecord": "units/air-erekir/layers/locus-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_motion_layer_separation",
+    "description": "Clear only inner source-defined moving tread bands from the overlying body; retain outer rails, end armor and all other original painted pixels. Complete tread canvas fills the cleared areas below.",
+    "engineWindows": [
+      [
+        19,
+        14,
+        34,
+        82
+      ],
+      [
+        62,
+        14,
+        77,
+        82
+      ]
+    ],
+    "nativeWindows": [
+      [
+        88,
+        44,
+        161,
+        374
+      ],
+      [
+        294,
+        44,
+        367,
+        374
+      ]
+    ],
+    "sourceToEngineScale": [
+      0.20803782505910165,
+      0.2071611253196931
+    ],
+    "sourceTrim": [
+      16,
+      16,
+      439,
+      407
+    ],
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "staticRailFractionPerSide": 0.12,
+    "staticEndFractionPerSide": 0.05,
+    "noNewPaintedPixels": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Authorized local layer separation from current final native art; no new model call.",
+  "engineNotVerified": true
+}

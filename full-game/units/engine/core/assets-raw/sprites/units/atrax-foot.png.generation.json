@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-foot.png",
+  "sha256": "fbac56fd1dbc54e6662286d767afa44f52c83ffe5afc57a3ccdfdb7760ebb74b",
+  "width": 40,
+  "height": 40,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+      "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      200,
+      289
+    ],
+    "sourcePivot": [
+      108.0,
+      54.22
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      4
+    ],
+    "sourceDimensions": [
+      216,
+      305
+    ],
+    "targetDimensions": [
+      40,
+      40
+    ],
+    "officialAlphaBounds": [
+      8,
+      4,
+      36,
+      36
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      20.0,
+      20.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/atrax-foot.png",
+    "gitBlobSha1": "cb2348f903a601308ab34e8f1b92983c9561a87c",
+    "sha256": "26e60b0fb8f52e9f4e8770fb59f93192ce6dfcc6679b3cb2521ee3c82b031054"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

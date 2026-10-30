@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-melting.png",
+  "sha256": "e47d8c4d5992b154fb698c821a104a87472fac0cbc164c3bf987f917830af4f9",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-melting.png",
+      "sha256": "f427a615d783a294cb457afff7acc220133264bf0a421c4ca7e247dcd2ae905f",
+      "generationRecord": "full-game/items-fx/assets/status-melting.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/battery-large.png",
+  "sourceGitBlob": "7ad7d26d685d8434a187c06b2555d93854f83bcf",
+  "sourceSha256": "74cc85b39a0eaf0f19638042d822906f98455ad9470652d63eafda736dda55fb",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "battery-large",
+  "blockId": "battery-large",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-large.png",
+  "sha256": "8bb40e5a71c8e4f8b51c7ac0b6a84c4d67d4ba884aa9c5c37fffc3810224aadb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-large.png",
+  "engineSha256": "8bb40e5a71c8e4f8b51c7ac0b6a84c4d67d4ba884aa9c5c37fffc3810224aadb",
+  "nativeFile": "full-game/blocks/masters/battery-large.png",
+  "nativeSha256": "f9ab8ff282f04dd4c9bfbde47a3fe307812b5f777da43a2865592a40af0e43c1",
+  "nativeSize": [
+    313,
+    294
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/battery-large.png",
+      "sha256": "f9ab8ff282f04dd4c9bfbde47a3fe307812b5f777da43a2865592a40af0e43c1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/battery-large.png",
+      "sha256": "74cc85b39a0eaf0f19638042d822906f98455ad9470652d63eafda736dda55fb"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-large.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

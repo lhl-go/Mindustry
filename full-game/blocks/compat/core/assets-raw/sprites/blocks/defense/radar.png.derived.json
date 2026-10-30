@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/radar.png",
+  "sourceGitBlob": "b4880bf7b1856886ff2f1b757a8a9564b9dcbab1",
+  "sourceSha256": "1e7d5e628d1670f1cd7ab1192e8c666ffab26c8a3481a7cb848b1214a217bc3a",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "radar",
+  "blockId": "radar",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar.png",
+  "sha256": "7ac8d06125a524a113242ebd5e1a70f845df6675cc306d286508bd35a3ec0afc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar.png",
+  "engineSha256": "7ac8d06125a524a113242ebd5e1a70f845df6675cc306d286508bd35a3ec0afc",
+  "nativeFile": "full-game/blocks/masters/radar-head-part.png",
+  "nativeSha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee",
+  "nativeSize": [
+    288,
+    237
+  ],
+  "sourceAlphaBounds": [
+    4,
+    10,
+    28,
+    22
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "radar-head-part",
+    "role": "independent scan dish",
+    "localRotationDegrees": 0,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/radar-head-part.png",
+      "sha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/radar.png",
+      "sha256": "1e7d5e628d1670f1cd7ab1192e8c666ffab26c8a3481a7cb848b1214a217bc3a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/radar-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

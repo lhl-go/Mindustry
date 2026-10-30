@@ -1,0 +1,41 @@
+{
+  "region": "lustre-inner-l",
+  "file": "full-game/root-turrets/masters/lustre-inner-l.png",
+  "sha256": "32f2b6900b65067eaad271b04fbe28a2caa9d2c6223c682defead630df2e748b",
+  "size": [
+    170,
+    347
+  ],
+  "derivedAt": "2026-10-26T18:34:43.691143+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/03-regions.png",
+      "sha256": "1aa7ef54c2cb6c9430de900630308c8ff04c44732f0b33bdef3e68736edd1342",
+      "record": "full-game/root-turrets/source/03-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 2,
+    "sourceBox": [
+      887,
+      17,
+      1033,
+      340
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

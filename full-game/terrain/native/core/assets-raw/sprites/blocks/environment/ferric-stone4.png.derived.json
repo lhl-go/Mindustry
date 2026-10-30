@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone4.png",
+  "sha256": "dd49eabf16391fec129d94f8631bf1a3fc219043ef8223cb7ff5028ce7e8c746",
+  "size": [
+    252,
+    234
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+      "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+      "generationRecord": "full-game/terrain/source/05-erekir-mineral-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    770,
+    748,
+    1022,
+    982
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

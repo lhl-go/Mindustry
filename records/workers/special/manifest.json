@@ -1,0 +1,1972 @@
+{
+  "schemaVersion": 1,
+  "worker": "special",
+  "updatedAt": "2026-10-26T08:48:08.598208+00:00",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "status": "twelve_special_unit_art_exports_complete_runtime_pending",
+  "assetCount": 12,
+  "generatedBoardCount": 4,
+  "independentUnitPngCount": 12,
+  "additionalLayerPngCount": 10,
+  "sourceInventory": "records/inventory-units.json",
+  "sourceInventorySha256": "7c5338dac3d84870bf5d532950093b3dba0a83b9805a41bb5621f2d3cf1f0cda",
+  "sourceReadForAttributes": [
+    "records/reference-unit-sources/UnitTypes.java",
+    "records/reference-unit-sources/Blocks.java",
+    "records/reference-unit-sources/UnitType.java",
+    "records/reference-unit-sources/MissileUnitType.java",
+    "records/reference-unit-sources/NeoplasmUnitType.java"
+  ],
+  "modelTarget": "GPT Image 2.5 / config gpt-image-2.5-sunburst",
+  "qualityTarget": "max",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidenceLimit": "内置工具未披露实际型号和质量，也不提供显式型号／质量参数；目标配置不是实际返回的证明。",
+  "nativeResolutionNote": "两张板实际 1774×887，两张板 1254×1254；提示中的 2048 目标未达到。全部独立图仅裁切、平移、加透明边与已有层合成，无放大或新绘制细节。",
+  "processing": "用户已明确授权本地清理切片。采用 alpha>=16 连通部保留，清除全透明像素隐藏 RGB；按真实轮廓裁切并加 32px 透明边，未机械按格切图。",
+  "boards": [
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "generationRecord": "units/special/boards/01-drones-target-v1.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "prompt": "prompts/special/01-drones-target-v1.txt",
+      "promptSha256": "63998a539a5047fca6adf8a5da4053a53040020c19d266ccd41da34a1b262e93",
+      "toolReceipt": "records/workers/special/01-drones-target-v1.tool-receipt.json",
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024,
+        "submission": "prompt_only"
+      },
+      "requestedSizeAchieved": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "imageRetained": false
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "generationRecord": "units/special/boards/02-neoplasm-segments-v1.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "prompt": "prompts/special/02-neoplasm-segments-v1.txt",
+      "promptSha256": "26310c406a14d961f25d145c44bcac7781af36acdbff9eeb6a46a2f393a3fbfe",
+      "toolReceipt": "records/workers/special/02-neoplasm-segments-v1.tool-receipt.json",
+      "requestedSize": {
+        "width": 2048,
+        "height": 2048,
+        "submission": "prompt_only"
+      },
+      "requestedSizeAchieved": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "imageRetained": false
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "generationRecord": "units/special/boards/03-main-missiles-v1.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "prompt": "prompts/special/03-main-missiles-v1.txt",
+      "promptSha256": "678785f699e181ae66b80b7ea49fa01ec39d5d66d702bd2b9d3f8e8481398dff",
+      "toolReceipt": "records/workers/special/03-main-missiles-v1.tool-receipt.json",
+      "requestedSize": {
+        "width": 2048,
+        "height": 2048,
+        "submission": "prompt_only"
+      },
+      "requestedSizeAchieved": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "imageRetained": false
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "generationRecord": "units/special/boards/04-scathe-variants-v1.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "prompt": "prompts/special/04-scathe-variants-v1.txt",
+      "promptSha256": "f234e13f59e993462169b36549a868335ba6d902a04eb96b0608db896ef31c4c",
+      "toolReceipt": "records/workers/special/04-scathe-variants-v1.tool-receipt.json",
+      "requestedSize": {
+        "width": 2048,
+        "height": 1024,
+        "submission": "prompt_only"
+      },
+      "requestedSizeAchieved": false,
+      "actualModel": null,
+      "actualQuality": null,
+      "imageRetained": false
+    }
+  ],
+  "assets": [
+    {
+      "id": "manifold",
+      "file": "units/special/assets/manifold.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/manifold.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        561,
+        597
+      ],
+      "outputSize": [
+        625,
+        661
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/manifold.png.generation.json",
+      "sha256": "24ba028e845145ce8ea54f3c017799a43fbb62e6c1caabf66bebcef5114c47fc",
+      "size": [
+        625,
+        661
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        593,
+        629
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": "货运无人机",
+      "family": "building-drones",
+      "availability": "building_tethered_automatic",
+      "artScope": "gameplay_unit_asset",
+      "parentWeaponOrEntity": null,
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4582,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4582",
+        "endLine": 4607
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/manifold.png",
+          "generationRecord": "units/special/assets/manifold.png.generation.json",
+          "sha256": "24ba028e845145ce8ea54f3c017799a43fbb62e6c1caabf66bebcef5114c47fc",
+          "size": [
+            625,
+            661
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            593,
+            629
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "货舱矿料、葫芦轮廓和双后引擎完整，深浅底没有明显杂色残边。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/manifold-dark.png",
+            "generationRecord": "records/workers/special/qa/manifold-dark.png.generation.json",
+            "sha256": "0bb86b50fd22d0d314582a3c90aaf45299520ecb303a23b9f8503a3a03ecbf1c",
+            "size": [
+              625,
+              661
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/manifold-light.png",
+            "generationRecord": "records/workers/special/qa/manifold-light.png.generation.json",
+            "sha256": "d1d5a80d0aba9ae056d47d56c089157a8d4d04f7f49a684b44f4b3b79c11b1e1",
+            "size": [
+              625,
+              661
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "assembly-drone",
+      "file": "units/special/assets/assembly-drone.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/assembly-drone.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        542,
+        515
+      ],
+      "outputSize": [
+        606,
+        579
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/assembly-drone.png.generation.json",
+      "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+      "size": [
+        606,
+        579
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        574,
+        547
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": "装配无人机",
+      "family": "building-drones",
+      "availability": "building_tethered_automatic",
+      "artScope": "gameplay_unit_asset",
+      "parentWeaponOrEntity": null,
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4609,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4609",
+        "endLine": 4633
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/assembly-drone.png",
+          "generationRecord": "units/special/assets/assembly-drone.png.generation.json",
+          "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+          "size": [
+            606,
+            579
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            574,
+            547
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "钳、钻、扳手轮廓分明，机环内的透明孔保留，四周器具未被裁切。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/assembly-drone-dark.png",
+            "generationRecord": "records/workers/special/qa/assembly-drone-dark.png.generation.json",
+            "sha256": "19a5384f7f1e62784eea08e24421a9edb39e3ef8ce13d3117a7d62409d9dd34e",
+            "size": [
+              606,
+              579
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/assembly-drone-light.png",
+            "generationRecord": "records/workers/special/qa/assembly-drone-light.png.generation.json",
+            "sha256": "9f2b869686f2a14c22c01e259a8c6d1c92c4bf57f42690ae60c7eb45e38d9f36",
+            "size": [
+              606,
+              579
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "dummy",
+      "file": "units/special/assets/dummy.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/dummy.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        544,
+        569
+      ],
+      "outputSize": [
+        608,
+        633
+      ],
+      "sourceBoards": [
+        "01-drones-target-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/dummy.png.generation.json",
+      "sha256": "efe2b30f1efa5bc82a6e3df8b2d3b264a5c017f1b8e1232f3030e486a476a804",
+      "size": [
+        608,
+        633
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        576,
+        601
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "internal-special",
+      "availability": "sandbox_target_entity",
+      "artScope": "sandbox_target_asset",
+      "parentWeaponOrEntity": null,
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4635,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4635",
+        "endLine": 4669
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/dummy.png",
+          "generationRecord": "units/special/assets/dummy.png.generation.json",
+          "sha256": "efe2b30f1efa5bc82a6e3df8b2d3b264a5c017f1b8e1232f3030e486a476a804",
+          "size": [
+            608,
+            633
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            576,
+            601
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "同心标靶与三个发动机清楚，沙盒实体身份与普通战斗单位区分明确。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/dummy-dark.png",
+            "generationRecord": "records/workers/special/qa/dummy-dark.png.generation.json",
+            "sha256": "bbc5a20f98ae7227b291558b47824d1c52e2d9087aabe71607a333337d4753d8",
+            "size": [
+              608,
+              633
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/dummy-light.png",
+            "generationRecord": "records/workers/special/qa/dummy-light.png.generation.json",
+            "sha256": "c89ac7ad948dc4874ce6da0ea5de4aa8a30441526bdffb812f1149ccff86f487",
+            "size": [
+              608,
+              633
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "scathe-missile-phase",
+      "file": "units/special/assets/scathe-missile-phase.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-phase.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        548,
+        808
+      ],
+      "outputSize": [
+        612,
+        872
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/scathe-missile-phase.png.generation.json",
+      "sha256": "896c1249f81baee16b99ffb52aff9b13b712bc5e7c64cbcb5a78ecb845862ef6",
+      "size": [
+        612,
+        872
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        580,
+        840
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "scathe",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5345,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5345",
+        "endLine": 5439
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/scathe-missile-phase.png",
+          "generationRecord": "units/special/assets/scathe-missile-phase.png.generation.json",
+          "sha256": "896c1249f81baee16b99ffb52aff9b13b712bc5e7c64cbcb5a78ecb845862ef6",
+          "size": [
+            612,
+            872
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            580,
+            840
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "琥珀晶尖、六边形环与宽翼清楚，未烘焙护盾光圈。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/scathe-missile-phase-dark.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-phase-dark.png.generation.json",
+            "sha256": "b6ded76039efb546e2e35066043f2c2f40997af537cc552d009db3850b392e9b",
+            "size": [
+              612,
+              872
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/scathe-missile-phase-light.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-phase-light.png.generation.json",
+            "sha256": "0a1701e0b2a55bf666e3bd54fb5897321243cc98b701d174b459cda8c2f3bbdc",
+            "size": [
+              612,
+              872
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "scathe-missile-surge",
+      "file": "units/special/assets/scathe-missile-surge.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-surge.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        439,
+        803
+      ],
+      "outputSize": [
+        503,
+        867
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/scathe-missile-surge.png.generation.json",
+      "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+      "size": [
+        503,
+        867
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        471,
+        835
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "scathe",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5450,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5450",
+        "endLine": 5571
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/scathe-missile-surge.png",
+          "generationRecord": "units/special/assets/scathe-missile-surge.png.generation.json",
+          "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+          "size": [
+            503,
+            867
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            471,
+            835
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "黄晶、闪电纹与多段壳体清楚，保留 Scathe 家族外形。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/scathe-missile-surge-dark.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-surge-dark.png.generation.json",
+            "sha256": "e5fd23764b1ad1051ab07377f65263058de11d213965a7f6196678ad03c3614b",
+            "size": [
+              503,
+              867
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/scathe-missile-surge-light.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-surge-light.png.generation.json",
+            "sha256": "4c45f5dd230b9be449498aabfc9dce83c98511c3469229e5cf901786ec8cedb0",
+            "size": [
+              503,
+              867
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "file": "units/special/assets/scathe-missile-surge-split.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile-surge-split.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        290,
+        528
+      ],
+      "outputSize": [
+        354,
+        592
+      ],
+      "sourceBoards": [
+        "04-scathe-variants-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/scathe-missile-surge-split.png.generation.json",
+      "sha256": "cc2ed09cf91eb0803684dc26a668f909a9a8a9243ced16b419291ca920cc39c3",
+      "size": [
+        354,
+        592
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        322,
+        560
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "scathe-missile-surge",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5506,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5506",
+        "endLine": 5559
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/scathe-missile-surge-split.png",
+          "generationRecord": "units/special/assets/scathe-missile-surge-split.png.generation.json",
+          "sha256": "cc2ed09cf91eb0803684dc26a668f909a9a8a9243ced16b419291ca920cc39c3",
+          "size": [
+            354,
+            592
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            322,
+            560
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "子弹体更细短，黄晶与双小翼完整；本图只包含一个子弹体。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/scathe-missile-surge-split-dark.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-surge-split-dark.png.generation.json",
+            "sha256": "656f0b17c47e0c115b53a559e9fa561c7c1f2193e17d53115fa1baa9ba36cf38",
+            "size": [
+              354,
+              592
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/scathe-missile-surge-split-light.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-surge-split-light.png.generation.json",
+            "sha256": "87c8b91593dd2dc9f70554eb7717f12b993fa56767b31f61b32015f32d5aebe9",
+            "size": [
+              354,
+              592
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "anthicus-missile",
+      "file": "units/special/assets/anthicus-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/anthicus-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        245,
+        438
+      ],
+      "outputSize": [
+        309,
+        502
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/anthicus-missile.png.generation.json",
+      "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+      "size": [
+        309,
+        502
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        277,
+        470
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "anthicus",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3465,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3465",
+        "endLine": 3502
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/anthicus-missile.png",
+          "generationRecord": "units/special/assets/anthicus-missile.png.generation.json",
+          "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+          "size": [
+            309,
+            502
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            277,
+            470
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "狭长蓝晶尖、双翼与尾喷口完整，方向朝上。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/anthicus-missile-dark.png",
+            "generationRecord": "records/workers/special/qa/anthicus-missile-dark.png.generation.json",
+            "sha256": "f72ef60ca271f022e9c7284a867b4de90244c282639d88e3d0f7bac01ed070b0",
+            "size": [
+              309,
+              502
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/anthicus-missile-light.png",
+            "generationRecord": "records/workers/special/qa/anthicus-missile-light.png.generation.json",
+            "sha256": "2439fb9d0ecacdd81e6cddc4af56fd2e6b4bf12be5b4f88c3a6808f15f0fc055",
+            "size": [
+              309,
+              502
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "quell-missile",
+      "file": "units/special/assets/quell-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/quell-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        353,
+        440
+      ],
+      "outputSize": [
+        417,
+        504
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/quell-missile.png.generation.json",
+      "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+      "size": [
+        417,
+        504
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        385,
+        472
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "quell",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4115,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4115",
+        "endLine": 4138
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/quell-missile.png",
+          "generationRecord": "units/special/assets/quell-missile.png.generation.json",
+          "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+          "size": [
+            417,
+            504
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            385,
+            472
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "短宽紫晶弹体和弧形翼完整，与 Anthicus 轮廓不同。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/quell-missile-dark.png",
+            "generationRecord": "records/workers/special/qa/quell-missile-dark.png.generation.json",
+            "sha256": "08d1781d441dca86368c6ae39b4a02a61fb400d0b0c7c107dcca90244e0880b5",
+            "size": [
+              417,
+              504
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/quell-missile-light.png",
+            "generationRecord": "records/workers/special/qa/quell-missile-light.png.generation.json",
+            "sha256": "cd0ec8ad418dc64946ec7b9ea643a091c7eadf3a68e82469da95a10e8297a524",
+            "size": [
+              417,
+              504
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "scathe-missile",
+      "file": "units/special/assets/scathe-missile.png",
+      "layers": [
+        {
+          "role": "body",
+          "file": "units/special/assets/scathe-missile.png",
+          "pivot": "canvas_center",
+          "forward": "up"
+        }
+      ],
+      "nativeExtractedSize": [
+        425,
+        604
+      ],
+      "outputSize": [
+        489,
+        668
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native component extraction, 32px transparent padding; no resize",
+      "effects": "使用官方程序引擎／尾迹／爆炸效果，不烘焙在主体PNG。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/scathe-missile.png.generation.json",
+      "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+      "size": [
+        489,
+        668
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        457,
+        636
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "scathe",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5257,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5257",
+        "endLine": 5335
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/assets/scathe-missile.png",
+          "generationRecord": "units/special/assets/scathe-missile.png.generation.json",
+          "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+          "size": [
+            489,
+            668
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            32,
+            457,
+            636
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "红晶重型弹体、短翼与单大喷口完整。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/scathe-missile-dark.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-dark.png.generation.json",
+            "sha256": "8171f53a80d0ab8d6a74a17513e7865f1b2b04a50ff1bd81256bc386c96b49a2",
+            "size": [
+              489,
+              668
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/scathe-missile-light.png",
+            "generationRecord": "records/workers/special/qa/scathe-missile-light.png.generation.json",
+            "sha256": "de9e99b877d3de282c7742550a41308dcfdc17fd5c641617b9bb379570a47907",
+            "size": [
+              489,
+              668
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "disrupt-missile",
+      "file": "units/special/assets/disrupt-missile.png",
+      "layers": [
+        {
+          "role": "left-fin",
+          "file": "units/special/layers/disrupt-missile-left-fin.png",
+          "pivot": [
+            125,
+            458
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        },
+        {
+          "role": "body",
+          "file": "units/special/layers/disrupt-missile-body.png",
+          "pivot": [
+            225.0,
+            323.0
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        },
+        {
+          "role": "right-fin",
+          "file": "units/special/layers/disrupt-missile-right-fin.png",
+          "pivot": [
+            329,
+            458
+          ],
+          "pivotStatus": "estimated_art_alignment"
+        }
+      ],
+      "outputSize": [
+        450,
+        646
+      ],
+      "sourceBoards": [
+        "03-main-missiles-v1"
+      ],
+      "operation": "native body and separate fins translated to common canvas; assembled preview",
+      "effects": "官方紫色抑制效果与尾迹复用；尾翼独立旋转，需按实际RegionPart配置验证。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/disrupt-missile.png.generation.json",
+      "sha256": "6081ed6d0e9b3dd3ac72a88a1845f4c995258ffe2664f27f0e3c0402a26b53ce",
+      "size": [
+        450,
+        646
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        418,
+        614
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": null,
+      "family": "missile-entities",
+      "availability": "spawned_missile_entity",
+      "artScope": "projectile_and_effect_asset",
+      "parentWeaponOrEntity": "disrupt",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4236,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4236",
+        "endLine": 4296
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/layers/disrupt-missile-left-fin.png",
+          "generationRecord": "units/special/layers/disrupt-missile-left-fin.png.generation.json",
+          "sha256": "448bddee6b6f1081e2cbd4b3e66a1c58798ff612da4dde9ce56fe9721bd1de3a",
+          "size": [
+            450,
+            646
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            166,
+            159,
+            522
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/disrupt-missile-body.png",
+          "generationRecord": "units/special/layers/disrupt-missile-body.png.generation.json",
+          "sha256": "598d07b11c7345c5e9d919fb114c2de69eb0bee80d51a6715aa15703efc93772",
+          "size": [
+            450,
+            646
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            116,
+            32,
+            335,
+            614
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/disrupt-missile-right-fin.png",
+          "generationRecord": "units/special/layers/disrupt-missile-right-fin.png.generation.json",
+          "sha256": "ff03e19536a1f66b4097e734a6fd501f098987e86bed5dea6cf696e6de8a0028",
+          "size": [
+            450,
+            646
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            292,
+            166,
+            418,
+            522
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "主体与独立双翼拼合连续，紫晶与尾喷口完整；翼铰点为美术估计。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/disrupt-missile-dark.png",
+            "generationRecord": "records/workers/special/qa/disrupt-missile-dark.png.generation.json",
+            "sha256": "bcc1deff55be53fedaddca83ef379026d06c9ed463cfe8865ef66104fcc02dba",
+            "size": [
+              450,
+              646
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/disrupt-missile-light.png",
+            "generationRecord": "records/workers/special/qa/disrupt-missile-light.png.generation.json",
+            "sha256": "602ce27b1b2308ca44d26560d9e9bbe6eaa6f1779248e45cb27e68b603c5c72c",
+            "size": [
+              450,
+              646
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "renale",
+      "file": "units/special/assets/renale.png",
+      "layers": [
+        {
+          "segmentIndex": 0,
+          "role": "tail",
+          "file": "units/special/layers/renale-segment0.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            190,
+            819,
+            485,
+            1099
+          ],
+          "destination": [
+            73,
+            569
+          ]
+        },
+        {
+          "segmentIndex": 1,
+          "role": "torso",
+          "file": "units/special/layers/renale-segment1.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            148,
+            426,
+            526,
+            773
+          ],
+          "destination": [
+            32,
+            254
+          ]
+        },
+        {
+          "segmentIndex": 2,
+          "role": "head",
+          "file": "units/special/layers/renale-segment2.png",
+          "pivot": [
+            221.0,
+            440.5
+          ],
+          "sourceBBox": [
+            230,
+            117,
+            441,
+            371
+          ],
+          "destination": [
+            115,
+            32
+          ]
+        }
+      ],
+      "segments": 3,
+      "outputSize": [
+        442,
+        881
+      ],
+      "sourceBoards": [
+        "02-neoplasm-segments-v1"
+      ],
+      "operation": "native independent segments assembled; no new generated detail or resize",
+      "effects": "官方蠕动、回血与neoplasm液体效果复用；分段共享中心旋转，摆动幅度需运行验收。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/renale.png.generation.json",
+      "sha256": "ab832cbfcc66bb308f47533de7a22b4d7d542c518abad7737e56d84fafb85382",
+      "size": [
+        442,
+        881
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        410,
+        849
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": "Renale",
+      "family": "neoplasm-hidden",
+      "availability": "hidden_no_regular_production",
+      "artScope": "hidden_content_separate_scope",
+      "parentWeaponOrEntity": null,
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4309,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4309",
+        "endLine": 4327
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/layers/renale-segment0.png",
+          "generationRecord": "units/special/layers/renale-segment0.png.generation.json",
+          "sha256": "d4e67d9fa535b383fab7bb4f732cb2a997d7d89ec84fd97097e766ea1ee03c3e",
+          "size": [
+            442,
+            881
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            73,
+            569,
+            368,
+            849
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/renale-segment1.png",
+          "generationRecord": "units/special/layers/renale-segment1.png.generation.json",
+          "sha256": "dd2d35aef282ef433d16956e78480826deb75ba6241c88e545b95d8358dd52f4",
+          "size": [
+            442,
+            881
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            254,
+            410,
+            601
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/renale-segment2.png",
+          "generationRecord": "units/special/layers/renale-segment2.png.generation.json",
+          "sha256": "712595a9a3bbef593b18f2c35f589853ff8fc2ca4cce8a2579fbc815a916f3c1",
+          "size": [
+            442,
+            881
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            115,
+            32,
+            326,
+            286
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "3 段静态接合连续，六足主躯干、头部触角与尾尖完整。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/renale-dark.png",
+            "generationRecord": "records/workers/special/qa/renale-dark.png.generation.json",
+            "sha256": "e5588e06e8b775f88c2faf806ba3f5e8f78c37b8a206f0fada1820a06b724340",
+            "size": [
+              442,
+              881
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/renale-light.png",
+            "generationRecord": "records/workers/special/qa/renale-light.png.generation.json",
+            "sha256": "a082daac33771b09d69e04c9cc952d12ccb0d06d6a7011eb08ee897d2c58c169",
+            "size": [
+              442,
+              881
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    },
+    {
+      "id": "latum",
+      "file": "units/special/assets/latum.png",
+      "layers": [
+        {
+          "segmentIndex": 0,
+          "role": "tail",
+          "file": "units/special/layers/latum-segment0.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            740,
+            912,
+            1085,
+            1237
+          ],
+          "destination": [
+            117,
+            813
+          ]
+        },
+        {
+          "segmentIndex": 1,
+          "role": "torso",
+          "file": "units/special/layers/latum-segment1.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            687,
+            665,
+            1140,
+            903
+          ],
+          "destination": [
+            63,
+            607
+          ]
+        },
+        {
+          "segmentIndex": 2,
+          "role": "torso",
+          "file": "units/special/layers/latum-segment2.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            656,
+            334,
+            1171,
+            656
+          ],
+          "destination": [
+            32,
+            317
+          ]
+        },
+        {
+          "segmentIndex": 3,
+          "role": "head",
+          "file": "units/special/layers/latum-segment3.png",
+          "pivot": [
+            289.5,
+            585.0
+          ],
+          "sourceBBox": [
+            727,
+            7,
+            1097,
+            324
+          ],
+          "destination": [
+            104,
+            32
+          ]
+        }
+      ],
+      "segments": 4,
+      "outputSize": [
+        579,
+        1170
+      ],
+      "sourceBoards": [
+        "02-neoplasm-segments-v1"
+      ],
+      "operation": "native independent segments assembled; no new generated detail or resize",
+      "effects": "官方蠕动、回血与neoplasm液体效果复用；分段共享中心旋转，摆动幅度需运行验收。",
+      "runtimeVerified": false,
+      "generationRecord": "units/special/assets/latum.png.generation.json",
+      "sha256": "7a78fb426c0ea755516d11aec16c35915c69563b365ee146bb6d61df5969b56e",
+      "size": [
+        579,
+        1170
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBBox": [
+        32,
+        32,
+        547,
+        1138
+      ],
+      "minimumTransparentPadding": 32,
+      "nonzeroRgbInFullyTransparentPixels": 0,
+      "resampled": false,
+      "officialNameZhCN": "Latum",
+      "family": "neoplasm-hidden",
+      "availability": "hidden_no_regular_production",
+      "artScope": "hidden_content_separate_scope",
+      "parentWeaponOrEntity": null,
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4329,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4329",
+        "endLine": 4347
+      },
+      "layerFiles": [
+        {
+          "file": "units/special/layers/latum-segment0.png",
+          "generationRecord": "units/special/layers/latum-segment0.png.generation.json",
+          "sha256": "c6548375768809406596a7e915ad64ebdd9824d22d8485e5a5a522cd2311b652",
+          "size": [
+            579,
+            1170
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            117,
+            813,
+            462,
+            1138
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/latum-segment1.png",
+          "generationRecord": "units/special/layers/latum-segment1.png.generation.json",
+          "sha256": "4b9840aa1b83e01ec98f20e498883e15400df08247f80e6b183dc28b49d3ed4a",
+          "size": [
+            579,
+            1170
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            63,
+            607,
+            516,
+            845
+          ],
+          "minimumTransparentPadding": 63,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/latum-segment2.png",
+          "generationRecord": "units/special/layers/latum-segment2.png.generation.json",
+          "sha256": "5969b22270cca8b236ff8b46e146ee711ac16586c7c2afc502295525d3a3326e",
+          "size": [
+            579,
+            1170
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            32,
+            317,
+            547,
+            639
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        },
+        {
+          "file": "units/special/layers/latum-segment3.png",
+          "generationRecord": "units/special/layers/latum-segment3.png.generation.json",
+          "sha256": "374633ee95917406a1371ae5a53cfdc23a118e7a8b1f63482e3751c8aef2470b",
+          "size": [
+            579,
+            1170
+          ],
+          "mode": "RGBA",
+          "alphaExtrema": [
+            0,
+            255
+          ],
+          "visibleBBox": [
+            104,
+            32,
+            474,
+            349
+          ],
+          "minimumTransparentPadding": 32,
+          "nonzeroRgbInFullyTransparentPixels": 0,
+          "resampled": false
+        }
+      ],
+      "visualReview": {
+        "status": "passed_static_art_review",
+        "reviewer": "hud_review",
+        "method": "Pillow true alpha_composite on dark and light backgrounds, personally viewed with view_image",
+        "reviewedAt": "2026-10-26T08:48:08.598208+00:00",
+        "observations": [
+          "4 段静态接合连续，头角、紫红甲片与多足轮廓完整；与 Renale 有体型和配色差异。"
+        ],
+        "visibleBlockingIssues": [],
+        "previews": [
+          {
+            "file": "records/workers/special/qa/latum-dark.png",
+            "generationRecord": "records/workers/special/qa/latum-dark.png.generation.json",
+            "sha256": "74554934f7cdc4c0ba5a163fe3c6c8a34f2a3644615f2304d33220b0e7202a7b",
+            "size": [
+              579,
+              1170
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "file": "records/workers/special/qa/latum-light.png",
+            "generationRecord": "records/workers/special/qa/latum-light.png.generation.json",
+            "sha256": "697730662ff5ba1dfd8e15ef4f85dc16dbfe41ec80f19eb55cebbfac847fe0be",
+            "size": [
+              579,
+              1170
+            ],
+            "mode": "RGBA",
+            "alphaExtrema": [
+              255,
+              255
+            ]
+          }
+        ],
+        "individualQaImagesRetained": false,
+        "retainedContactSheet": "records/workers/special/final-alpha-contact.jpg"
+      },
+      "status": "art_exported_runtime_pending",
+      "sourceImagesRetained": false
+    }
+  ],
+  "excluded": [
+    {
+      "id": "block",
+      "reason": "官方内部方块映射代理，不设计独立角色或独立PNG。"
+    }
+  ],
+  "layerGuide": "units/special/README.md",
+  "limitations": [
+    "未启动 Mindustry 客户端，未验证 atlas 名称、像素到世界尺度、旋转中心、装载、动画或战斗运行。",
+    "Renale/Latum 分段数量与尾到头顺序依 v160.7 源码；当前共有画布和重叠仅验证静态接合，摆动时接缝仍需运行验收。",
+    "Disrupt 双翼枢轴是美术估计；正式 RegionPart 位移、缩放、镜像与旋转需对照客户端验证。",
+    "Manifold 货物、装配工具随主体绘制；官方货物与建造状态动态覆盖、队伍着色、阴影及光效仍需客户端配置。",
+    "引擎、尾迹、护盾、爆炸与分裂等效果计划复用官方程序效果，未制作为本批静态位图或验证特效表现。"
+  ],
+  "validation": {
+    "exactAssigned12Ids": true,
+    "uniqueUnitAndLayerPngs": 22,
+    "allPngHeadersAndHashesMatch": true,
+    "allGenerationAndDerivationRecordsPresent": true,
+    "allReferenceAndPromptHashesMatch": true,
+    "allAssetAlphaMeaningful": true,
+    "allAssetTransparentPaddingAtLeast32Px": true,
+    "allFullyTransparentRgbZero": true,
+    "all12ViewedOnDarkAndLightBackgrounds": true,
+    "runtimeIntegrationAccepted": false
+  },
+  "retention": {
+    "sourceImagesRetained": false,
+    "finalContactSheet": "records/workers/special/final-alpha-contact.jpg",
+    "reason": "Source image and intermediate cleanup after final PNG verification; provenance text and hashes retained."
+  }
+}

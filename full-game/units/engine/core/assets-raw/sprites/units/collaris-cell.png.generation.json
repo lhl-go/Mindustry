@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-cell.png",
+  "sha256": "1c4420d21ddb22d9d1c01aa19a6ea164f89a91863f3c4a2f9c12663c02bcbce0",
+  "width": 221,
+  "height": 223,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris.png",
+      "sha256": "1373fe12cae3d2f246b8500d7ccdffd8de4aa0b50f92fa271ba6e25b48a9b231",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/collaris.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "collaris",
+    "baseCanvas": [
+      195,
+      212
+    ],
+    "outputCanvas": [
+      221,
+      223
+    ],
+    "centerRegistrationOffset": [
+      13,
+      6
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/collaris-cell.png",
+    "gitBlobSha1": "2e87344fb53193620ca2fff83269cd21d396faa9",
+    "sha256": "5d18d581f0144aebb6d87ea6a3d4caf73d89cff841521faca1e7bbb626f8dadf"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/pulverizer-rotator-part.png",
+  "sha256": "f4881ea9c34207dc8d9159e7c9c5c9f19617eefdb8ae9c0f3d662ab2dc134a22",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      795,
+      565,
+      1019,
+      787
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      224,
+      222
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    256,
+    254
+  ],
+  "anchorPixels": [
+    128.0,
+    127.0
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

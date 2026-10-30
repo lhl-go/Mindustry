@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-cell.png",
+  "sha256": "61b1c4b11f61f7df19c03dd3683e07518a25d0290d8cf2416a64b3f512e2880d",
+  "width": 154,
+  "height": 154,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png",
+      "sha256": "a02641b8200b79c38d794d2ff9d3e34ad487be11ff7afad1625e0d84f2588733",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "vanquish",
+    "baseCanvas": [
+      154,
+      154
+    ],
+    "outputCanvas": [
+      154,
+      154
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vanquish-cell.png",
+    "gitBlobSha1": "46c91ead155b09e17f18028dfd510f4fd06c5c39",
+    "sha256": "73060737c4fdd719ccb5369dc92369c604e0ee8c44b77f64727ee6f23951d869"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/memory-bank.png",
+  "sha256": "5a7ac0cd5f040e5819ce018298b674088c898e5ec80d0bf71e223c42b1b9793f",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logic-01.png",
+      "sha256": "fe7bd7b043e380f030e835646efd7c4ecf8ff12f0a799e95d2d769432cf0bae4",
+      "generationRecord": "full-game/blocks/records/logic-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      721,
+      367,
+      1073,
+      704
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      352,
+      337
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    384,
+    369
+  ],
+  "anchorPixels": [
+    192.0,
+    184.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

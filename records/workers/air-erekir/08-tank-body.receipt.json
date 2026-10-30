@@ -1,0 +1,31 @@
+{
+  "stem": "08-tank-body",
+  "startedAt": "2026-10-26T10:45:13.231Z",
+  "returnedAt": "2026-10-26T10:45:59.757Z",
+  "tool": "image_gen.imagegen",
+  "args": {
+    "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 is the 5-tank atlas. Preserve its five chassis in the exact same tier order: Stell,Locus,Precept,Vanquish,Conquer. REMOVE every cannon barrel, entire rotating turret and secondary weapon. Reveal complete matching flat upper chassis armor beneath, with simple small round bronze pivot sockets. Keep all treads, lower hulls, lamps, side armor. Each hull fully complete and separate. No guns of any kind. Reference2/3 are style only.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-d03c9197-0aaf-4615-94c7-4eca9e6c33a7.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedWidth": 3072,
+  "requestedHeight": 2048,
+  "units": [
+    "stell-body",
+    "locus-body",
+    "precept-body",
+    "vanquish-body",
+    "conquer-body"
+  ]
+}

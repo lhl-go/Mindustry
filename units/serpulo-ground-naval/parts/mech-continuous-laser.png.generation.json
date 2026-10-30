@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+  "sha256": "81c8f5cb58027011d0e1c7884d15a2b9d35579c0214bbb60a2e85caf3ea7ba3c",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54",
+      "generationRecord": "records/workers/serpulo-ground-naval/09-mech-weapons.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      44,
+      659,
+      326,
+      1003
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 314,
+    "height": 376,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 56134,
+    "opaquePixelCount": 58878,
+    "partialPixelCount": 3052,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      298,
+      360
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    157.0,
+    280.88
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "part"
+}

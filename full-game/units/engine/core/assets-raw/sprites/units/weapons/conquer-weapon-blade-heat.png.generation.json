@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+  "sha256": "61eb6043c44f15d6acf4c8c3baa1c2b6ea614227d57e111751d2f4300be0388e",
+  "width": 39,
+  "height": 193,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+      "sha256": "b56c799f3f6f777b9bfa3800211a86ba9f06cc909e072a57032a2d837fcd6f98",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_heat_mask",
+    "baseRegion": "conquer-weapon-blade",
+    "baseCanvas": [
+      29,
+      183
+    ],
+    "outputCanvas": [
+      39,
+      193
+    ],
+    "centerRegistrationOffset": [
+      5,
+      5
+    ],
+    "colorSelection": "existing warm-gold illuminated surface pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+    "gitBlobSha1": "d3847c82db99b26fecf850d634a7aac68aa4be5d",
+    "sha256": "d992196bd231cc0e048537d15ea6fea2a51bee0daae0626d7d257353cfe01949"
+  },
+  "runtime": {
+    "function": "Weapon/RegionPart heat draw",
+    "tint": "source-defined heatColor * recoil/warmup",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-base.png",
+  "sha256": "c6a99082df9856ec194a6416bb4b48996421c3550ca612e52fa585c3b4f1929e",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+      "generationRecord": "full-game/units/parts/mech-base-heavy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      604,
+      431
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      26,
+      47
+    ],
+    "sourceDimensions": [
+      620,
+      447
+    ],
+    "targetDimensions": [
+      128,
+      128
+    ],
+    "officialAlphaBounds": [
+      16,
+      47,
+      112,
+      100
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      64.0,
+      64.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vela-base.png",
+    "gitBlobSha1": "1ec4aac2300bbc640db5d9cc2179a9d3232127f6",
+    "sha256": "7e9df8c4cdad8aa7f27223535fda163a58756351131a5ca748d566a31f11d594"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

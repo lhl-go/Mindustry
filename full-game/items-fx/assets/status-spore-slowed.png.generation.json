@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/06-statuses-elements.png",
+      "sha256": "a57d9a2950185382c5765ad615de70b0b9dd30a56ded85087462a6d7ee616c14",
+      "generationRecord": "full-game/items-fx/source/06-statuses-elements.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      13,
+      23,
+      411,
+      413
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-spore-slowed.png",
+  "sha256": "71f959c0afd5d6daafbf0339f4cb22facf13d0a9760d422a9083634966d10c08",
+  "width": 430,
+  "height": 422,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.547620+00:00"
+}

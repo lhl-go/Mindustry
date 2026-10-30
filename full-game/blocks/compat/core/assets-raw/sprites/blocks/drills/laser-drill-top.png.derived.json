@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/laser-drill-top.png",
+  "sourceGitBlob": "3859f59e0f20a864e11882b7682b1f49f87bdf6e",
+  "sourceSha256": "5d4d68d11487bb18f6f57a38b4ad18409743a31904a52a604d514a40b77561d7",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "laser-drill-top",
+  "blockId": "laser-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-top.png",
+  "sha256": "6f38dcc7b35b2198f46b4c9df162564e88917a0f0e714d6b3297a8182bfcf0f6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-top.png",
+  "engineSha256": "6f38dcc7b35b2198f46b4c9df162564e88917a0f0e714d6b3297a8182bfcf0f6",
+  "nativeFile": "full-game/units/parts/joint-cap-heavy.png",
+  "nativeSha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5",
+  "nativeSize": [
+    526,
+    506
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    72,
+    72
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      24,
+      24,
+      72,
+      72
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-heavy.png",
+      "sha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/laser-drill-top.png",
+      "sha256": "5d4d68d11487bb18f6f57a38b4ad18409743a31904a52a604d514a40b77561d7"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

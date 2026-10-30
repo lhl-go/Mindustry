@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "units/coordinator-recoil-fix/avert-assembled.png",
+  "sha256": "4efe1a7ca9a9c52087613a8ac4b17f87eb13a9ee4ee9b8c1b48be0536d8981de",
+  "width": 947,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T07:53:57.182232-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/avert-body.png",
+      "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+      "record": "units/coordinator-recoil-fix/avert-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/avert-weapon.png",
+      "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+      "record": "units/coordinator-recoil-fix/avert-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "documented_static_layer_composition",
+    "bodyOriginPixels": [
+      160,
+      160
+    ],
+    "weaponScale": 0.48,
+    "weaponInstances": [
+      {
+        "mirrorX": false,
+        "rotationDegrees": 0,
+        "anchorPixels": [
+          473.5,
+          357.2
+        ]
+      }
+    ],
+    "weaponPivotNormalized": [
+      0.5,
+      0.78
+    ],
+    "pixelAlignment": "estimated_art_alignment; not runtime verified",
+    "canonicalSourceCoordinates": "preserved separately in patch asset officialWeaponOffsets; never replaced by pixels",
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Derived parts inherit generation evidence",
+  "runtimeIntegrationVerified": false
+}

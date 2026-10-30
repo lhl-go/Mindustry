@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/button-side-right-over.9.png",
+  "sourceGitBlob": "dad0de712ecfa0cd42bbe17b0a43e81363bc93c0",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/button-side-right-over.9.png",
+  "sha256": "db484e54f6f2857c8fe4f40e201b15ad65b45870d71183770c9a419ff847b830",
+  "sourceSize": [
+    38,
+    28
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "record": "ui/kit/button_primary.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-side-right-over.9.png",
+      "sha256": "318a504fc3876e42dc28af551f763f72e4d0f2982c90ae2686d9b39cc244b201",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      66.0,
+      30.0,
+      66.0,
+      30.0
+    ],
+    "sourceCanvas": [
+      38,
+      28
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "over",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

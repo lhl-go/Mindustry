@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/button-edge-2.9.png",
+  "sourceGitBlob": "1b8702a15ae242a3b9c8f1c0dddaf3774cc8d61c",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/button-edge-2.9.png",
+  "sha256": "0be4fd3eaebdf3c3eacc293b35873a93416eff8a41526df2a0f4442124600c48",
+  "sourceSize": [
+    38,
+    29
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "record": "ui/kit/button_primary.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/button-edge-2.9.png",
+      "sha256": "2c3fbab8f29a3e84b6ebec6c794d7546ce6200bff8677457495b63f2d45945fa",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      66.0,
+      30.0,
+      66.0,
+      30.0
+    ],
+    "sourceCanvas": [
+      38,
+      29
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "normal",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

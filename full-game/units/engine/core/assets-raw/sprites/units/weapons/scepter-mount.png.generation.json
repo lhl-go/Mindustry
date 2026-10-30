@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scepter-mount.png",
+  "sha256": "81afea8e5d5cd2b40d5d16189b703b8bc6f8e8faaca68ed8ea3192c0f06d9a32",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+      "sha256": "8e704421082ad44f152f08dc576a2f1d2514e3df9bd461fd2d32e6bcb8dc9999",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      226,
+      313
+    ],
+    "sourcePivot": [
+      121.0,
+      244.69
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      13,
+      1
+    ],
+    "sourceDimensions": [
+      242,
+      329
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      16,
+      7,
+      28,
+      35
+    ],
+    "scale": 0.10057282784555512,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scepter-mount.png",
+    "gitBlobSha1": "df2b7c82982f48910078078633f50ddf94815221",
+    "sha256": "f97260f2cd6b4f1475f72154e271be285c7f86caaf49e7a720ba723280392ee1"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

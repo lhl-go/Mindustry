@@ -1,0 +1,26 @@
+{
+  "region": "wave-liquid",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/wave-liquid.png",
+  "sha256": "8fb8cf13a779e38513bc9ece08cfddfd15cbd1f49786bef7f41cdf548275ff7d",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.410057+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/wave-liquid.png",
+      "sha256": "310a129b66857d7cf0f4f7ce9f050646cac3919ae20ebddee4225d68568fd638",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "pixel_exact_technical_liquid_alpha",
+    "reason": "DrawTurret.drawTurret uses Drawf.liquid with actual fluid color and fill amount; neutral exact reservoir alpha is required. Geometry remains fixed original canvas.",
+    "encoding": "Pixel values retained; PNG container bytes may differ."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

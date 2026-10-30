@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/turbine-condenser.png",
+  "sourceGitBlob": "7322043c40a21b69a830e718a1d6f422786adc01",
+  "sourceSha256": "a9be3cfff26dc657ee9c0353aa826d7e738b9a7af1f5d358ed64b75cfc6fd4ea",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "turbine-condenser",
+  "blockId": "turbine-condenser",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser.png",
+  "sha256": "88d5493be9ce570ed352cf7049ebbf99f89e997ce377a10b85b5b20980f6a1d0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser.png",
+  "engineSha256": "88d5493be9ce570ed352cf7049ebbf99f89e997ce377a10b85b5b20980f6a1d0",
+  "nativeFile": "full-game/blocks/masters/turbine-condenser.png",
+  "nativeSha256": "b9e7f402a0cef11aeaf3f668f987e6ffce49fe65d7321b5f0e976c7e630a3eb6",
+  "nativeSize": [
+    347,
+    354
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/turbine-condenser.png",
+      "sha256": "b9e7f402a0cef11aeaf3f668f987e6ffce49fe65d7321b5f0e976c7e630a3eb6"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/turbine-condenser.png",
+      "sha256": "a9be3cfff26dc657ee9c0353aa826d7e738b9a7af1f5d358ed64b75cfc6fd4ea"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

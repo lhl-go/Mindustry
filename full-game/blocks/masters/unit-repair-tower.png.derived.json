@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/unit-repair-tower.png",
+  "sha256": "9f801493278ed0a44dcce9bbcc4479a22535a16e58f557df3df5b02a731fa019",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      56,
+      733,
+      338,
+      1040
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      282,
+      307
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    314,
+    339
+  ],
+  "anchorPixels": [
+    157.0,
+    169.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

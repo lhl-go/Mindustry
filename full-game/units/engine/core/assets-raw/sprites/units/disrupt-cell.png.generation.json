@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/disrupt-cell.png",
+  "sha256": "945a02d01afce18fd69285ff5772b64a38ae01f5458e94a2e27741276646335d",
+  "width": 243,
+  "height": 243,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/disrupt.png",
+      "sha256": "36a7aa1638d2bca1086234e10fd555179dd466cfb7b75139d4c2ae0b706ccdd7",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/disrupt.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "disrupt",
+    "baseCanvas": [
+      243,
+      243
+    ],
+    "outputCanvas": [
+      243,
+      243
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/disrupt-cell.png",
+    "gitBlobSha1": "4c6beb6e2ddf898dce0887ee1ee0f45936208bf5",
+    "sha256": "d492d090331f62a1a7097294b1169e621099bda6828f8001d65bf7b05fbed912"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

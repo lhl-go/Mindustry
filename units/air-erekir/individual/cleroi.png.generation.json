@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "cleroi",
+  "file": "units/air-erekir/individual/cleroi.png",
+  "sha256": "9a13dda08bc561a4a9ed1e2bf5a1c7853531d7a7efe36d61866f844867560147",
+  "width": 464,
+  "height": 443,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/04-erekir-walkers.png",
+      "sha256": "c8f0d20e2e4b83a0480d9ce6713bea527749ca829bc9a4d2423a7bfcdb2b58e7",
+      "generationRecord": "units/air-erekir/source/04-erekir-walkers.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      530,
+      20,
+      1005,
+      470
+    ],
+    "trimBoundsInRegion": [
+      23,
+      21,
+      455,
+      432
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 464,
+    "height": 443
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

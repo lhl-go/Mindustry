@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/core-nucleus.png",
+  "sha256": "1cacd62b5e79877290eb09b144a12632a5ae61913ad3f60275446217d14128e5",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      731,
+      25,
+      1089,
+      363
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      358,
+      338
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    390,
+    370
+  ],
+  "anchorPixels": [
+    195.0,
+    185.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+  "sha256": "48d1d64453c9b93160f4f78be7eb6161bbca8c4a66a98fd18f104f3fb0b57234",
+  "width": 46,
+  "height": 50,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      23,
+      16
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      46,
+      50
+    ],
+    "officialAlphaBounds": [
+      23,
+      5,
+      39,
+      40
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      23.0,
+      25.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+    "gitBlobSha1": "047772b92a15f39b217ec98c8be2f7a410d32f38",
+    "sha256": "4ebd54cdeecde30109c7f1fff9cef3bb380cd4ab3fc78de49b8158212ff5403a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

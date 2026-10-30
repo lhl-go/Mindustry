@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/foot-heavy.png",
+  "createdAt": "2026-10-26T11:09:36.310629+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 373,
+  "height": 403,
+  "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+      "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      30,
+      722,
+      339,
+      1061
+    ],
+    "sourceComponentArea": 59851,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": [
+      {
+        "type": "rotate_180",
+        "reason": "Generated toes pointed south; lossless orientation normalization to north.",
+        "resampling": false
+      }
+    ]
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

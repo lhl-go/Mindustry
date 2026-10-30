@@ -1,0 +1,76 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston-icon.png",
+  "sourceGitBlob": "72343d52949581ce94f7de8cae5762a769807772",
+  "sourceSha256": "50c0ef25f1d9e4c7f7370b7174c08c1e29daf5cf49010f4e78531d48ecc41d47",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "chemical-combustion-chamber-piston-icon",
+  "blockId": "chemical-combustion-chamber",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston-icon.png",
+  "sha256": "603c81b64aa4926d85d1a41907c53e4bb611eeb6dfacbe4a3808bd82053f9b07",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston-icon.png",
+  "engineSha256": "603c81b64aa4926d85d1a41907c53e4bb611eeb6dfacbe4a3808bd82053f9b07",
+  "nativeFile": "full-game/blocks/masters/chemical-combustion-chamber-piston-part.png",
+  "nativeSha256": "1741dc9770e0e83d9a0b0cbaa3daf102ceecc9b91f78d3a3788460dd8b132711",
+  "nativeSize": [
+    205,
+    281
+  ],
+  "sourceAlphaBounds": [
+    9,
+    9,
+    87,
+    87
+  ],
+  "operation": {
+    "kind": "plan_icon_composed_from_independent_native_pistons",
+    "originalComponentBoxes": [
+      [
+        48,
+        39,
+        87,
+        57
+      ],
+      [
+        39,
+        48,
+        57,
+        87
+      ],
+      [
+        9,
+        39,
+        48,
+        57
+      ],
+      [
+        39,
+        9,
+        57,
+        48
+      ]
+    ],
+    "runtimeAnimation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/chemical-combustion-chamber-piston-part.png",
+      "sha256": "1741dc9770e0e83d9a0b0cbaa3daf102ceecc9b91f78d3a3788460dd8b132711"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/chemical-combustion-chamber-piston-icon.png",
+      "sha256": "50c0ef25f1d9e4c7f7370b7174c08c1e29daf5cf49010f4e78531d48ecc41d47"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston-icon.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-cell.png",
+  "sha256": "47f1c13815054bdd3f55607bef97991a68d21b646041a3b94e4f6c15d0382493",
+  "width": 64,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mace.png",
+      "sha256": "17e0952c94b3530628859ef494a49307f8e19b23763d5ea5289d3c822ee90beb",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/mace.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "mace",
+    "baseCanvas": [
+      64,
+      64
+    ],
+    "outputCanvas": [
+      64,
+      64
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mace-cell.png",
+    "gitBlobSha1": "865ff568fd5783143777558644bde47c6f5be482",
+    "sha256": "3701cb877dfe0865416d3f51ddee8051ef8c412151f5810d1a026f86b70f2eea"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

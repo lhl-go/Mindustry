@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png",
+  "sha256": "1985d0d1e869a6da698aa442e6ec6a96be843e1f8fe44cffc23d7c25a80bbf67",
+  "size": [
+    241,
+    247
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/17-rock-ground-props.png",
+      "sha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9",
+      "generationRecord": "full-game/terrain/source/17-rock-ground-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    672,
+    46,
+    913,
+    293
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/rtg-generator.png",
+  "sourceGitBlob": "1dd27d69c941941d5902762f8eae7716e322ebd3",
+  "sourceSha256": "554e0b5215104819d395e1caca326edece1feeaa0448e1072d78b2ecc436de96",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "rtg-generator",
+  "blockId": "rtg-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator.png",
+  "sha256": "664b312df7e1702bc2fc9d767a301270cd739409527c84825d85a2845c44a9f7",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator.png",
+  "engineSha256": "664b312df7e1702bc2fc9d767a301270cd739409527c84825d85a2845c44a9f7",
+  "nativeFile": "full-game/blocks/masters/rtg-generator.png",
+  "nativeSha256": "add2f6536eeab1c5870bd18482981771666907b61eb80f792f53502998b7208c",
+  "nativeSize": [
+    290,
+    277
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/rtg-generator.png",
+      "sha256": "add2f6536eeab1c5870bd18482981771666907b61eb80f792f53502998b7208c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/rtg-generator.png",
+      "sha256": "554e0b5215104819d395e1caca326edece1feeaa0448e1072d78b2ecc436de96"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,48 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/campaign/launch-pad-light.png",
+  "sourceGitBlob": "bf9ab108631c21b7c03ff2349bf8b3e835e84aab",
+  "sourceSha256": "967d120dc7dd49ac9d549d0c06d28cd746cc5811ab8c437d06101e570ffed1e7",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "launch-pad-light",
+  "blockId": "launch-pad",
+  "category": "campaign",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launch-pad-light.png",
+  "sha256": "2002d4b1e9e00fcb54f814ee4bc80d9b5aae99f0c78c08fb16d89228fd46701f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launch-pad-light.png",
+  "engineSha256": "2002d4b1e9e00fcb54f814ee4bc80d9b5aae99f0c78c08fb16d89228fd46701f",
+  "nativeFile": "full-game/blocks/masters/launch-pad.png",
+  "nativeSha256": "23883e08d15b0bded3bd15d5b668af43a7bdeceffdf5d63391d37b0d21780bff",
+  "nativeSize": [
+    369,
+    341
+  ],
+  "sourceAlphaBounds": [
+    68,
+    20,
+    76,
+    28
+  ],
+  "operation": {
+    "kind": "neutral_original_effect_alpha_clipped_to_new_body",
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/launch-pad.png",
+      "sha256": "23883e08d15b0bded3bd15d5b668af43a7bdeceffdf5d63391d37b0d21780bff"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/campaign/launch-pad-light.png",
+      "sha256": "967d120dc7dd49ac9d549d0c06d28cd746cc5811ab8c437d06101e570ffed1e7"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launch-pad-light.png.derived.json"
+}

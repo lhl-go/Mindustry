@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/liquid-router.png",
+  "sha256": "7963980c77ee92890e3b72b8553f9fa14c5cd50a5d092d1475ad44c41fe1a854",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1341,
+      41,
+      1587,
+      298
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      246,
+      257
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    278,
+    289
+  ],
+  "anchorPixels": [
+    139.0,
+    144.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

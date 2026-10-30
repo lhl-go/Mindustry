@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/oct.png",
+  "sha256": "5044693ba287dd06882d39521f87fe64518e55d87ba3fd54ae3575e4f9342299",
+  "width": 400,
+  "height": 400,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/oct.png",
+      "sha256": "229a6c50faae27b37ba94fd657e40ad8f623107d4c981194ac627de2c6d074ae",
+      "generationRecord": "units/air-erekir/individual/oct.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      609,
+      546
+    ],
+    "sourcePivot": [
+      312.5,
+      281.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      25
+    ],
+    "sourceDimensions": [
+      625,
+      562
+    ],
+    "targetDimensions": [
+      400,
+      400
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      396,
+      396
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      200.0,
+      200.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/oct.png",
+    "gitBlobSha1": "d61cf5c2f52b3ef82ffcae1d9d4fecf9feb7dcab",
+    "sha256": "f494f3ad2b555bcb442b822589a2cb0705b107967a4e321edd1c6cc2be7a179a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

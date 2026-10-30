@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png",
+  "sha256": "a25cd5bdaeb3380764aee6762b3b726bbebb54e47750d589b78926d6dc4e56a7",
+  "size": [
+    343,
+    406
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/19-large-crystal-props.png",
+      "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+      "generationRecord": "full-game/terrain/source/19-large-crystal-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    381,
+    1005,
+    724,
+    1411
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

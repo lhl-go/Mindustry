@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/flux-reactor-lights.png",
+  "sourceGitBlob": "871351735baf9677423ff890d6452b6b46817457",
+  "sourceSha256": "afe99bd24204125995ac679d538e449decaf1ff9c2bd4432dcf0992d5e182b6d",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "flux-reactor-lights",
+  "blockId": "flux-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-lights.png",
+  "sha256": "54b1bd0736e313da1809dd14e39cbf354fcd2795bb6b56ba55adbf68627b74d4",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-lights.png",
+  "engineSha256": "54b1bd0736e313da1809dd14e39cbf354fcd2795bb6b56ba55adbf68627b74d4",
+  "nativeFile": "full-game/blocks/masters/flux-reactor.png",
+  "nativeSha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1",
+  "nativeSize": [
+    374,
+    322
+  ],
+  "sourceAlphaBounds": [
+    18,
+    18,
+    142,
+    142
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/flux-reactor.png",
+      "sha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/flux-reactor-lights.png",
+      "sha256": "afe99bd24204125995ac679d538e449decaf1ff9c2bd4432dcf0992d5e182b6d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-lights.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

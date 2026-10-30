@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-26",
+  "scope": "Official weapon attributes for the Poly, Elude and Avert recoil-layer repair only",
+  "upstream": {
+    "repository": "https://github.com/Anuken/Mindustry",
+    "tag": "v160.7",
+    "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53"
+  },
+  "sources": [
+    {
+      "path": "records/reference-unit-sources/UnitTypes.java",
+      "officialPath": "core/src/mindustry/content/UnitTypes.java",
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java",
+      "sha256": "0deee2e5ba342cd6e195a00586fa270e9ec368181c3bd38cec0bfa2d69016ae4"
+    },
+    {
+      "path": "records/coordinator-audit/Weapon-v160.7.java",
+      "officialPath": "core/src/mindustry/type/Weapon.java",
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/Weapon.java",
+      "sha256": "1637799350c3da97d79870eb7a900d5328232da7639b02953b3077f7cc6a9d53"
+    },
+    {
+      "path": "records/reference-unit-sources/UnitType.java",
+      "officialPath": "core/src/mindustry/type/UnitType.java",
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/UnitType.java",
+      "sha256": "b9f75e66aab62bffbb1084012481ba9260f9f5acc78b7ec59a3ec3d3c89b57b0"
+    }
+  ],
+  "weaponDefaults": {
+    "mirror": {
+      "value": true,
+      "source": "Weapon.java",
+      "line": 39
+    },
+    "rotate": {
+      "value": false,
+      "source": "Weapon.java",
+      "line": 45
+    },
+    "baseRotation": {
+      "value": 0,
+      "source": "Weapon.java",
+      "line": 49
+    },
+    "top": {
+      "value": true,
+      "source": "Weapon.java",
+      "line": 51
+    },
+    "recoil": {
+      "value": 1.5,
+      "source": "Weapon.java",
+      "line": 81
+    },
+    "layerOffset": {
+      "value": 0,
+      "source": "Weapon.java",
+      "line": 133
+    }
+  },
+  "sharedBehavior": {
+    "mirrorInitialization": {
+      "source": "UnitType.java",
+      "lines": [
+        1037,
+        1061
+      ],
+      "behavior": "The original weapon is retained. If mirror=true, an additional copy is made, flipped, and appended. The two mounts share the same named weapon region."
+    },
+    "flip": {
+      "source": "Weapon.java",
+      "lines": [
+        551,
+        557
+      ],
+      "behavior": "flip() negates x, shootX and baseRotation, and toggles flipSprite. The mirrored copy needs no second separately painted weapon PNG."
+    },
+    "recoilDraw": {
+      "source": "Weapon.java",
+      "lines": [
+        218,
+        229
+      ],
+      "behavior": "Weapon.draw computes realRecoil=pow(mount.recoil,recoilPow)*recoil and offsets wx/wy along the weapon's backward direction before drawing the weapon region. A fixed rotate=false weapon still has independent visual recoil."
+    },
+    "regionDraw": {
+      "source": "Weapon.java",
+      "line": 259
+    },
+    "topMeaning": "Weapon.top is documented as whether to draw the weapon outline on top; it must not alone be interpreted as a complete draw-order contract for the whole texture.",
+    "coordinateWarning": "x/y/recoil/shootY values below are original Mindustry world units; they are NOT image pixels, texture pivots, or runtime-verified art alignment. All pixel anchors in the repair manifest must be separately labeled as estimated."
+  },
+  "units": [
+    {
+      "id": "poly",
+      "bodyRegion": "poly",
+      "weaponRegion": "poly-weapon",
+      "definitionLine": 1389,
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1389",
+      "explicit": {
+        "top": {
+          "value": false,
+          "line": 1390
+        },
+        "y": {
+          "value": -2.5,
+          "line": 1391
+        },
+        "x": {
+          "value": 3.75,
+          "line": 1392
+        },
+        "recoil": {
+          "value": 2,
+          "line": 1395
+        },
+        "alternate": {
+          "value": true,
+          "line": 1399
+        }
+      },
+      "effective": {
+        "x": 3.75,
+        "y": -2.5,
+        "top": false,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 2,
+        "layerOffset": 0
+      },
+      "weaponInstanceCount": 2,
+      "instances": [
+        {
+          "x": 3.75,
+          "y": -2.5,
+          "baseRotation": 0,
+          "flipSprite": false,
+          "region": "poly-weapon"
+        },
+        {
+          "x": -3.75,
+          "y": -2.5,
+          "baseRotation": 0,
+          "flipSprite": true,
+          "region": "poly-weapon"
+        }
+      ],
+      "requiredPaintedRegions": [
+        "poly body without moving weapons",
+        "poly-weapon independent complete weapon"
+      ],
+      "whySplit": "recoil=2 causes independent weapon motion even though rotate defaults to false."
+    },
+    {
+      "id": "elude",
+      "bodyRegion": "elude",
+      "weaponRegion": "elude-weapon",
+      "definitionLine": 3829,
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3829",
+      "explicit": {
+        "y": {
+          "value": -2,
+          "line": 3831
+        },
+        "x": {
+          "value": 4,
+          "line": 3832
+        },
+        "top": {
+          "value": true,
+          "line": 3833
+        },
+        "mirror": {
+          "value": true,
+          "line": 3834
+        },
+        "baseRotation": {
+          "value": -35,
+          "line": 3836
+        }
+      },
+      "effective": {
+        "x": 4,
+        "y": -2,
+        "top": true,
+        "mirror": true,
+        "rotate": false,
+        "baseRotation": -35,
+        "recoil": 1.5,
+        "layerOffset": 0
+      },
+      "weaponInstanceCount": 2,
+      "instances": [
+        {
+          "x": 4,
+          "y": -2,
+          "baseRotation": -35,
+          "flipSprite": false,
+          "region": "elude-weapon"
+        },
+        {
+          "x": -4,
+          "y": -2,
+          "baseRotation": 35,
+          "flipSprite": true,
+          "region": "elude-weapon"
+        }
+      ],
+      "requiredPaintedRegions": [
+        "elude body without moving weapons",
+        "elude-weapon independent complete weapon"
+      ],
+      "whySplit": "The default recoil=1.5 still applies; each mirrored mount has its own recoil translation."
+    },
+    {
+      "id": "avert",
+      "bodyRegion": "avert",
+      "weaponRegion": "avert-weapon",
+      "definitionLine": 3877,
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3877",
+      "explicit": {
+        "x": {
+          "value": 0,
+          "line": 3880
+        },
+        "y": {
+          "value": 6.5,
+          "line": 3881
+        },
+        "shootY": {
+          "value": 5,
+          "line": 3882
+        },
+        "recoil": {
+          "value": 1,
+          "line": 3883
+        },
+        "top": {
+          "value": false,
+          "line": 3884
+        },
+        "layerOffset": {
+          "value": -0.01,
+          "line": 3885
+        },
+        "rotate": {
+          "value": false,
+          "line": 3886
+        },
+        "mirror": {
+          "value": false,
+          "line": 3887
+        }
+      },
+      "effective": {
+        "x": 0,
+        "y": 6.5,
+        "shootY": 5,
+        "top": false,
+        "mirror": false,
+        "rotate": false,
+        "baseRotation": 0,
+        "recoil": 1,
+        "layerOffset": -0.01
+      },
+      "weaponInstanceCount": 1,
+      "instances": [
+        {
+          "x": 0,
+          "y": 6.5,
+          "baseRotation": 0,
+          "flipSprite": false,
+          "region": "avert-weapon"
+        }
+      ],
+      "requiredPaintedRegions": [
+        "avert body without moving weapon",
+        "avert-weapon independent complete weapon"
+      ],
+      "whySplit": "recoil=1 causes independent weapon motion; layerOffset=-0.01 must remain preserved in the adapter."
+    }
+  ],
+  "runtimeVerified": false
+}

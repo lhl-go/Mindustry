@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/campaign/launchpod.png",
+  "sourceGitBlob": "05d80fc87827c6092e75f53dcb67531bb01a24f1",
+  "sourceSha256": "3c7df06e80cd2aef0298356ad6e80986666845704411b701ec98a21dbcf206d5",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "launchpod",
+  "blockId": null,
+  "category": "campaign",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launchpod.png",
+  "sha256": "831420839a9cf4fa5a8bb5e2a168a1e5b83fdd04fc2b146976ad7cc5bda4cad6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launchpod.png",
+  "engineSha256": "831420839a9cf4fa5a8bb5e2a168a1e5b83fdd04fc2b146976ad7cc5bda4cad6",
+  "nativeFile": "full-game/blocks/masters/launchpod-part.png",
+  "nativeSha256": "89840cd7f9c094480bdc6bed19a5b0ef69c60c59acec5ac0785f69658b909cf8",
+  "nativeSize": [
+    310,
+    296
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "launchpod-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/launchpod-part.png",
+      "sha256": "89840cd7f9c094480bdc6bed19a5b0ef69c60c59acec5ac0785f69658b909cf8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/campaign/launchpod.png",
+      "sha256": "3c7df06e80cd2aef0298356ad6e80986666845704411b701ec98a21dbcf206d5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/campaign/launchpod.png.derived.json"
+}

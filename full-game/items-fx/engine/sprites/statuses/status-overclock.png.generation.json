@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-overclock.png",
+  "sha256": "d89238fe52af948e8477ebcc54d7ddea061f02258252a66d1fe33870cdd7cc54",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-overclock.png",
+      "sha256": "64adcf03208e17dc11bb0b4a58a18ccd9323a7b06464a8abc7bc0d1dfa974053",
+      "generationRecord": "full-game/items-fx/assets/status-overclock.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

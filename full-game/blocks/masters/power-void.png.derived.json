@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/power-void.png",
+  "sha256": "c97357ddf7c91e105e475c37072ab8ab802fb14a18be1ecde5ed5439be613646",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      40,
+      948,
+      288,
+      1198
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      248,
+      250
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    280,
+    282
+  ],
+  "anchorPixels": [
+    140.0,
+    141.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

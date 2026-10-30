@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate-top.png",
+  "sourceGitBlob": "13d062d7671c06b10ceb80befc871dd65895a69a",
+  "sourceSha256": "d22be686f41a4b31f6b36410dca0280758fd4455935d2dce87b5f6b6490f53c8",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "liquid-overflow-gate-top",
+  "blockId": null,
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate-top.png",
+  "sha256": "2b89f2ab7033a44ba01dee7d85050c6969477550344d9d5d534254bdc3de2164",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate-top.png",
+  "engineSha256": "2b89f2ab7033a44ba01dee7d85050c6969477550344d9d5d534254bdc3de2164",
+  "nativeFile": "full-game/blocks/masters-derived/liquid-overflow-gate.png",
+  "nativeSha256": "f0a41706e925ffb617c65ac9f1f61e6a56ff757389282dfc1fad834fbaddd3b4",
+  "nativeSize": [
+    347,
+    249
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_original_indicator_fitted_inside_new_body_bounds",
+    "bodyBounds": [
+      0,
+      5,
+      32,
+      27
+    ],
+    "canvasAndPivotUnchanged": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_body_aligned_direction_indicator",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/liquid-overflow-gate.png",
+      "sha256": "f0a41706e925ffb617c65ac9f1f61e6a56ff757389282dfc1fad834fbaddd3b4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/liquid-overflow-gate-top.png",
+      "sha256": "d22be686f41a4b31f6b36410dca0280758fd4455935d2dce87b5f6b6490f53c8"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate-top.png.derived.json"
+}

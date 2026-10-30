@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone2.png",
+  "sha256": "cc23fcf332dc1c86ce2589054e84a6a74a7321e32e15246929d7b84280ee6659",
+  "size": [
+    291,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/06-rock-crater-floors.png",
+      "sha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8",
+      "generationRecord": "full-game/terrain/source/06-rock-crater-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    889,
+    589,
+    1181
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

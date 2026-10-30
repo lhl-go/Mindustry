@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/manifold.png",
+  "sha256": "032686c1ac9c4ba9d6e06e18a9f3c625c26dc0dbfb1f169fef65970084dd7539",
+  "width": 96,
+  "height": 96,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/manifold.png",
+      "sha256": "24ba028e845145ce8ea54f3c017799a43fbb62e6c1caabf66bebcef5114c47fc",
+      "generationRecord": "units/special/assets/manifold.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      593,
+      629
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      4
+    ],
+    "sourceDimensions": [
+      625,
+      661
+    ],
+    "targetDimensions": [
+      96,
+      96
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      92,
+      92
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      48.0,
+      48.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/manifold.png",
+    "gitBlobSha1": "d9276a4c9f13ed7ea68558608ab3bf80fdabd13b",
+    "sha256": "5aa0a412723f90c17465779bc5c745d23565db4995a096dba6f3db113bfa4b6b"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

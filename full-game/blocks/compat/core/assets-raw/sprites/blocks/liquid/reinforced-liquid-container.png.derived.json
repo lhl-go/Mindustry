@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container.png",
+  "sourceGitBlob": "8cb802bc37c0794e9c856f6653901d110e23ac40",
+  "sourceSha256": "18e2f9df55c5f961e7be326b25b8260aac7f35dba61e931c746c9cebb454a68b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "reinforced-liquid-container",
+  "blockId": "reinforced-liquid-container",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container.png",
+  "sha256": "41b38b1a99af19e215117dc354e4c902a971a72be53ed5a3f505d5b22948b679",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container.png",
+  "engineSha256": "41b38b1a99af19e215117dc354e4c902a971a72be53ed5a3f505d5b22948b679",
+  "nativeFile": "full-game/blocks/masters/reinforced-liquid-container.png",
+  "nativeSha256": "f02caa8b92d0e7331db1ff33eb2f9144f34e7ababf1815a2e66b940a08f48c45",
+  "nativeSize": [
+    324,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "painted_material_on_original_liquid_window_frame",
+    "originalLiquidWindowsAndExteriorOcclusionPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_liquid_window_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-container.png",
+      "sha256": "f02caa8b92d0e7331db1ff33eb2f9144f34e7ababf1815a2e66b940a08f48c45"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/reinforced-liquid-container.png",
+      "sha256": "18e2f9df55c5f961e7be326b25b8260aac7f35dba61e931c746c9cebb454a68b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-container.png.derived.json"
+}

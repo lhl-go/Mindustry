@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "zenith-body",
+  "file": "units/air-erekir/layers/zenith-body.png",
+  "sha256": "4323f4c7fef832b690280ddea9d9f89f34004dfe164578149a132b8b487e7aee",
+  "width": 671,
+  "height": 635,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/11-assault-body-corrected.png",
+      "sha256": "ba9e3b22f29854d344f437899587a6613292687dcc95cead981132dead14f50a",
+      "generationRecord": "units/air-erekir/source/11-assault-body-corrected.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      20,
+      50,
+      685,
+      700
+    ],
+    "trimBoundsInRegion": [
+      20,
+      24,
+      659,
+      627
+    ],
+    "padding": 16,
+    "width": 671,
+    "height": 635,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

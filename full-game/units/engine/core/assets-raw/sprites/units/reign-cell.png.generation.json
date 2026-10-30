@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-cell.png",
+  "sha256": "61dabbae0939e8bc010a983fe95a38bb9814390e0ee4b551d300585fd12d80c6",
+  "width": 214,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/reign.png",
+      "sha256": "1abd461cd4acda0b47f67d132759f5c967a44873500381cd8e1362c3071867dc",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/reign.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "reign",
+    "baseCanvas": [
+      214,
+      140
+    ],
+    "outputCanvas": [
+      214,
+      140
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/reign-cell.png",
+    "gitBlobSha1": "c6983917f512815532b00d70b7abbfcbeb078992",
+    "sha256": "64ef9f67a5a985c29867312c5040044dfe68d9472d2feb420f7692c1a87aa31d"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

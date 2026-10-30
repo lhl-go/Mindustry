@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/spore-cluster2.png",
+  "sha256": "ef7c0c895421b919c0ff0137897d97be7cfa04693c54601e02f29f7676769860",
+  "createdAt": "2026-10-26T19:14:30.045567+00:00",
+  "kind": "derived_image",
+  "width": 40,
+  "height": 40,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/18-vegetation-props.png",
+      "sha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430",
+      "generationRecord": "full-game/terrain/source/18-vegetation-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      28,
+      344,
+      292,
+      606
+    ],
+    "nativeExtractedSize": [
+      264,
+      262
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.14393939393939395,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      40,
+      40
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

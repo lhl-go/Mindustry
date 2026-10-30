@@ -1,0 +1,35 @@
+{
+  "region": "lancer-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lancer-heat.png",
+  "sha256": "e6a2fb207b97f3109873e6646610df6aeb4defeaafb0b0d396086f48fcf5c179",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.447710+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lancer-heat.png",
+      "sha256": "8ef012fe9cf0a095e1d60f18c1a768f008bf95ddcee4b167a7642aa6055e0c35",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lancer.png",
+      "sha256": "a46502ca60386be8a01c6ffd80e5d490e9e7c460b819389f07bfec28c2231bac",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lancer.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "lancer"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 265
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-ozone.png",
+  "sha256": "da88151805de6f1168a92c4a5cc4e2ab692ba240fb2563a918d0fffbd0005984",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-ozone.png",
+      "sha256": "b2e8216d6a6132d92b890fcf1e3e5510e636e04e80ac6ec9324a0bbffdc68f4c",
+      "generationRecord": "full-game/items-fx/assets/liquid-ozone.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

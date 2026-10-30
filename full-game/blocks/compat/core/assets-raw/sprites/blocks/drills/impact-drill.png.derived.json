@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/impact-drill.png",
+  "sourceGitBlob": "b982da64a0e7de340b771bc76329dd138c1ea5f7",
+  "sourceSha256": "0da97bb1cc93b2652fdd336d982c28ef27e6e98ea8759d0a5a2e84938caddc47",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-drill",
+  "blockId": "impact-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill.png",
+  "sha256": "4d5ca9a3553311e74e5afd31b0b3b2155be10fa936688546b73ce0faddf43805",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill.png",
+  "engineSha256": "4d5ca9a3553311e74e5afd31b0b3b2155be10fa936688546b73ce0faddf43805",
+  "nativeFile": "full-game/blocks/masters/impact-drill.png",
+  "nativeSha256": "115aa571dae2afc7debfd2c88c608e335b4e1007fd3d3f79d267ef26200898ec",
+  "nativeSize": [
+    333,
+    329
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/impact-drill.png",
+      "sha256": "115aa571dae2afc7debfd2c88c608e335b4e1007fd3d3f79d267ef26200898ec"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill.png",
+      "sha256": "0da97bb1cc93b2652fdd336d982c28ef27e6e98ea8759d0a5a2e84938caddc47"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

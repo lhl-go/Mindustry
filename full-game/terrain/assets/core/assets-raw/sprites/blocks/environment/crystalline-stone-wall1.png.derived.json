@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/crystalline-stone-wall1.png",
+  "sha256": "4e78fde7d9c896c1670e78cb9654875a80664406e5d17a4df8aa3034045f2ae3",
+  "createdAt": "2026-10-26T18:25:54.573370+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/15-special-wall-tops.png",
+      "sha256": "27479126c7f26b250744e93aa7ab6cdbd09daf55abbef82e3ddf05b9c691e759",
+      "generationRecord": "full-game/terrain/source/15-special-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      770,
+      254,
+      1022
+    ],
+    "nativeExtractedSize": [
+      252,
+      252
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 13.633257046445383
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

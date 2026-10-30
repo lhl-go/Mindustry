@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/armored-duct-top-0.png",
+  "sourceGitBlob": "667ce4dffccc6df4794e4d40dc706571b81c05ee",
+  "sourceSha256": "d64a95b25aff97980c6b511842a14c2a7edcc4d6e3f4ef174843f91552fe25e3",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "armored-duct-top-0",
+  "blockId": "armored-duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/armored-duct-top-0.png",
+  "sha256": "2ea2d898ebcdb7f6e91c1eca91c94fde7184b45de0cb7afc9d0fd428d3ec6809",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/armored-duct-top-0.png",
+  "engineSha256": "2ea2d898ebcdb7f6e91c1eca91c94fde7184b45de0cb7afc9d0fd428d3ec6809",
+  "nativeFile": "full-game/blocks/masters/armored-duct-shape-0.png",
+  "nativeSha256": "6fd57f24bfb854eec6decec1f158a9ca059b773c6aeadb911f997d189385c6b4",
+  "nativeSize": [
+    326,
+    199
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 0,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/armored-duct-shape-0.png",
+      "sha256": "6fd57f24bfb854eec6decec1f158a9ca059b773c6aeadb911f997d189385c6b4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/armored-duct-top-0.png",
+      "sha256": "d64a95b25aff97980c6b511842a14c2a7edcc4d6e3f4ef174843f91552fe25e3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/armored-duct-top-0.png.derived.json"
+}

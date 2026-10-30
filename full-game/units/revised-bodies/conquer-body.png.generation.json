@@ -1,0 +1,117 @@
+{
+  "file": "full-game/units/revised-bodies/conquer-body.png",
+  "sha256": "5fa98b92b108964e6cfa329babf518206d7042019f46a890cf11563c1453e59d",
+  "width": 540,
+  "height": 510,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/conquer-body.png",
+      "sha256": "d763d22fc2cef137013f04c464954180ee66473a01fbe476164561b74cb21c6b",
+      "generationRecord": "units/air-erekir/layers/conquer-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_motion_layer_separation",
+    "description": "Clear only inner source-defined moving tread bands from the overlying body; retain outer rails, end armor and all other original painted pixels. Complete tread canvas fills the cleared areas below.",
+    "engineWindows": [
+      [
+        25,
+        178,
+        67,
+        243
+      ],
+      [
+        146,
+        178,
+        188,
+        243
+      ],
+      [
+        18,
+        65,
+        41,
+        80
+      ],
+      [
+        172,
+        65,
+        195,
+        80
+      ],
+      [
+        55,
+        32,
+        84,
+        49
+      ],
+      [
+        129,
+        32,
+        158,
+        49
+      ]
+    ],
+    "nativeWindows": [
+      [
+        68,
+        352,
+        173,
+        510
+      ],
+      [
+        367,
+        352,
+        472,
+        510
+      ],
+      [
+        50,
+        72,
+        108,
+        111
+      ],
+      [
+        432,
+        72,
+        490,
+        111
+      ],
+      [
+        142,
+        0,
+        215,
+        34
+      ],
+      [
+        325,
+        0,
+        398,
+        34
+      ]
+    ],
+    "sourceToEngineScale": [
+      0.4035433070866142,
+      0.40376569037656906
+    ],
+    "sourceTrim": [
+      16,
+      16,
+      524,
+      494
+    ],
+    "destinationTopLeft": [
+      4,
+      42
+    ],
+    "staticRailFractionPerSide": 0.12,
+    "staticEndFractionPerSide": 0.05,
+    "noNewPaintedPixels": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Authorized local layer separation from current final native art; no new model call.",
+  "engineNotVerified": true
+}

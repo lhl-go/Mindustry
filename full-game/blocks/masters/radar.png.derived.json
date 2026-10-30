@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/radar.png",
+  "sha256": "bf69c8aa8f94c26da5a964f2c5e888b8e7f9cde99161c7244960bb2c0577abd1",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      778,
+      433,
+      1010,
+      659
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      232,
+      226
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    264,
+    258
+  ],
+  "anchorPixels": [
+    132.0,
+    129.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

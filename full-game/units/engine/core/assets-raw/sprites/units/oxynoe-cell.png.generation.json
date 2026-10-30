@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe-cell.png",
+  "sha256": "3d97be904548dceab6b286ebec7d5cf75815de754e7b85b28cd71e13f8083f59",
+  "width": 88,
+  "height": 101,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe.png",
+      "sha256": "21a2c8ab31b61aa44ae4c46a6acc202f2733ea8713fa1570246bef123a8fe06d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "oxynoe",
+    "baseCanvas": [
+      88,
+      101
+    ],
+    "outputCanvas": [
+      88,
+      101
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/oxynoe-cell.png",
+    "gitBlobSha1": "92120a6bd412b764136cdb4645fd4aed7806c744",
+    "sha256": "66483986a540b77f71197e0914fd4ddb3a1aafb0f5094112cba628c6569e52fb"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/01-minerals.png",
+      "sha256": "d25839eaf33a78a4b80feeb49e36b734c112086ceb6cd2d51e99069dfe527dc5",
+      "generationRecord": "full-game/items-fx/source/01-minerals.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      39,
+      39,
+      421,
+      382
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-coal.png",
+  "sha256": "f605d7f23e955ed32fa5f74c3aae64ec4b53f38b15b4dbf71fef337291d26889",
+  "width": 414,
+  "height": 375,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.650214+00:00"
+}

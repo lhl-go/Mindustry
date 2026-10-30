@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-split",
+  "file": "full-game/ui-system/sectors/sector-split.png",
+  "sha256": "334b3d5aae156fbdfaa885d3a077932fcb4abff3ddbaf3c9bbc80bf11013f8ca",
+  "width": 413,
+  "height": 413,
+  "derivedAt": "2026-10-26T15:54:02.807305+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/11-sectors-05.png",
+    "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 4,
+    "sourceBox": [
+      436,
+      416,
+      825,
+      785
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/sei-cell.png",
+  "sha256": "d01b2f232ae7705a4388bc283771b278db247137073f553343accccdabc9b5ad",
+  "width": 240,
+  "height": 240,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/sei.png",
+      "sha256": "74e34474c030694d614bc201e4296e5858693d1a52ed46a0470ab4204034c151",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/sei.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "sei",
+    "baseCanvas": [
+      198,
+      228
+    ],
+    "outputCanvas": [
+      240,
+      240
+    ],
+    "centerRegistrationOffset": [
+      21,
+      6
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/sei-cell.png",
+    "gitBlobSha1": "c440ce3ee6be7a6392bb499397385ba62c87093d",
+    "sha256": "b67d31ec8c1b549bbc9e0de7d8373636986b2da112ec501ee33a21e03db9f443"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/collaris.png",
+  "sha256": "1ac77c18b65ffb210a60064955990896f21ab049569ba2810efbe58bc7048595",
+  "width": 788,
+  "height": 522,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+      "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-upper.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-heavy.png",
+      "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+      "generationRecord": "units/air-erekir-parts/assets/foot-heavy.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir/layers/collaris-body-v2.png",
+      "sha256": "72b57c8c69045c1fcdc6838021c058fa757c1ae4dd8cdb43539921d5fa6572ea",
+      "generationRecord": "units/air-erekir/layers/collaris-body-v2.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+      "sha256": "4ce7eb613dba05cd9c3914268995301985e426ded8d9a8375a88e1dc271aa474",
+      "generationRecord": "units/air-erekir-parts/assets/collaris-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          269.8,
+          143.5
+        ],
+        "scale": 0.4726257922620694,
+        "rotationClockwise": -229.99967051362168,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          174.58,
+          63.6
+        ],
+        "scale": 0.3530543417434852,
+        "rotationClockwise": 55.96163898722787,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          91.78,
+          119.53
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          269.8,
+          221.833
+        ],
+        "scale": 0.4726257922620694,
+        "rotationClockwise": -229.99967051362168,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          174.58,
+          141.933
+        ],
+        "scale": 0.35305434174348543,
+        "rotationClockwise": 55.96163898722784,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          91.78,
+          197.863
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          269.8,
+          300.167
+        ],
+        "scale": 0.4726257922620694,
+        "rotationClockwise": 49.99967051362168,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          174.58,
+          380.067
+        ],
+        "scale": 0.3530543417434852,
+        "rotationClockwise": -235.96163898722787,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          91.78,
+          324.137
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          269.8,
+          378.5
+        ],
+        "scale": 0.47262579226206963,
+        "rotationClockwise": 49.99967051362162,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          174.58,
+          458.4
+        ],
+        "scale": 0.35305434174348543,
+        "rotationClockwise": -235.96163898722784,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          91.78,
+          402.47
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          518.2,
+          143.5
+        ],
+        "scale": 0.4726257922620695,
+        "rotationClockwise": -130.00032948637832,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          613.42,
+          63.6
+        ],
+        "scale": 0.35305434174348505,
+        "rotationClockwise": -55.96163898722785,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          696.22,
+          119.53
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          518.2,
+          221.833
+        ],
+        "scale": 0.4726257922620695,
+        "rotationClockwise": -130.00032948637832,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          613.42,
+          141.933
+        ],
+        "scale": 0.35305434174348527,
+        "rotationClockwise": -55.9616389872278,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          696.22,
+          197.863
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          518.2,
+          300.167
+        ],
+        "scale": 0.4726257922620695,
+        "rotationClockwise": -49.99967051362169,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          613.42,
+          380.067
+        ],
+        "scale": 0.35305434174348505,
+        "rotationClockwise": -124.03836101277216,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          696.22,
+          324.137
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          518.2,
+          378.5
+        ],
+        "scale": 0.4726257922620698,
+        "rotationClockwise": -49.99967051362165,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          613.42,
+          458.4
+        ],
+        "scale": 0.35305434174348527,
+        "rotationClockwise": -124.0383610127722,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          696.22,
+          402.47
+        ],
+        "scale": 0.1875728155339806,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir/layers/collaris-body-v2.png",
+        "role": "body",
+        "region": "collaris",
+        "anchorPixels": [
+          394,
+          261
+        ],
+        "scale": 0.534698521046644,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          387.0,
+          439.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+        "role": "weapon",
+        "region": "collaris-weapon",
+        "anchorPixels": [
+          302.92,
+          275.1
+        ],
+        "scale": 0.5272641509433962,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          137,
+          248
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+        "role": "weapon",
+        "region": "collaris-weapon",
+        "anchorPixels": [
+          485.08,
+          275.1
+        ],
+        "scale": 0.5272641509433962,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          137,
+          248
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

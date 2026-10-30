@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/stars-equirectangular.png",
+  "sha256": "d8934353600761dde8e69b1c29ebdbbf5b8546c89ad4f8412c69e3cfa5dd8a21",
+  "size": [
+    1774,
+    887
+  ],
+  "resized": false,
+  "operation": "native panorama opposite longitude edges paired over24px; polar24px tapered to uniform cap; no new painted detail",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/24-star-panorama.png",
+      "sha256": "ebf464710b9ed37ae55892d8b4b722837c79dc0de8203c52a9ce92315a96387c",
+      "generationRecord": "full-game/terrain/source/24-star-panorama.png.generation.json"
+    }
+  ]
+}

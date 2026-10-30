@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder-shadow2.png",
+  "sha256": "337bf57fb424805e20ea3c8da1890aabee2c0180c9fbe3ab2372a60f53f3d1aa",
+  "size": [
+    288,
+    222
+  ],
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/arkyic-boulder2.png",
+      "sha256": "2c7afed03ac7a1bb03ea53311a1ed55203e63fb484fc9b48f40a5b149d6952c3",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/arkyic-boulder2.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder2.png",
+      "sha256": "5b81b3453afad1b3fadbb81bb51c69fe1e205565e1a1e835ca673b1bbf6c66eb",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder2.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 229,
+    "bodyNotUpscaled": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "derived at native body resolution; generated silhouette, local shadow operation"
+}

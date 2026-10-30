@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/large-payload-mass-driver-cap.png",
+  "sourceGitBlob": "5b50a925a330ce58aafa85c6449f36f0c2669791",
+  "sourceSha256": "861eb1527c0ce92edb19efaf514deef17f3d715d8f9113bb759ca1128a24f439",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "large-payload-mass-driver-cap",
+  "blockId": "large-payload-mass-driver",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/large-payload-mass-driver-cap.png",
+  "sha256": "f05441a90a3cb152d5afb0d061df19fa63f656d1da2903533fa7a69fff1e8b17",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/large-payload-mass-driver-cap.png",
+  "engineSha256": "f05441a90a3cb152d5afb0d061df19fa63f656d1da2903533fa7a69fff1e8b17",
+  "nativeFile": "full-game/blocks/masters/large-payload-mass-driver-cap-part.png",
+  "nativeSha256": "f554aae26b9beb74a97bc36a3adef10a0b568c988fd644d29a149f980de3129d",
+  "nativeSize": [
+    331,
+    166
+  ],
+  "sourceAlphaBounds": [
+    26,
+    81,
+    134,
+    155
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "large-payload-mass-driver-cap-part",
+    "role": "independent rotating cap, original offset retained",
+    "localRotationDegrees": 0,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-payload-mass-driver-cap-part.png",
+      "sha256": "f554aae26b9beb74a97bc36a3adef10a0b568c988fd644d29a149f980de3129d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/large-payload-mass-driver-cap.png",
+      "sha256": "861eb1527c0ce92edb19efaf514deef17f3d715d8f9113bb759ca1128a24f439"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/large-payload-mass-driver-cap.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/large-payload-mass-driver-cap.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/large-payload-mass-driver-cap-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

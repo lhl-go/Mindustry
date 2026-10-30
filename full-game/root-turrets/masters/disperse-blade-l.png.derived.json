@@ -1,0 +1,41 @@
+{
+  "region": "disperse-blade-l",
+  "file": "full-game/root-turrets/masters/disperse-blade-l.png",
+  "sha256": "503b3b6be09956ad95869237e2d1837ddc8dba6e694ef04cc5b00af4ab8e4e51",
+  "size": [
+    149,
+    347
+  ],
+  "derivedAt": "2026-10-26T18:34:43.131120+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/02-regions.png",
+      "sha256": "3c3105bf17a7cdeb45aa9560ec1c61d370bb62bdcfb2c6961f8a27281d3ffb46",
+      "record": "full-game/root-turrets/source/02-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 4,
+    "sourceBox": [
+      155,
+      349,
+      280,
+      672
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

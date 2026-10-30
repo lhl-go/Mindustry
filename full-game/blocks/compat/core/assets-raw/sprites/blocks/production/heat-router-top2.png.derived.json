@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-router-top2.png",
+  "sourceGitBlob": "0d59002b171138c7a4a92164894922ab0eb996f6",
+  "sourceSha256": "7214f17236137e0f4f980ab455292c4093057a6f6e9a03b879f6d0691fdd6c7b",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-router-top2",
+  "blockId": "heat-router",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-top2.png",
+  "sha256": "10ddd04084122e53b2eb9a0ef680edec97ee4ebf3f53730c3f598bd0be1e24cc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-top2.png",
+  "engineSha256": "10ddd04084122e53b2eb9a0ef680edec97ee4ebf3f53730c3f598bd0be1e24cc",
+  "nativeFile": "full-game/blocks/masters/heat-router.png",
+  "nativeSha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779",
+  "nativeSize": [
+    375,
+    333
+  ],
+  "sourceAlphaBounds": [
+    71,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-router.png",
+      "sha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-router-top2.png",
+      "sha256": "7214f17236137e0f4f980ab455292c4093057a6f6e9a03b879f6d0691fdd6c7b"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

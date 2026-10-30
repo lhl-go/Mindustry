@@ -1,0 +1,43 @@
+{
+  "kind": "derived_repeat_texture",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/25-space-material.png",
+      "sha256": "a7d66fbf919506def13c0cc41af81f2ec96bfedd068d88e422cdccb026fe9b2a",
+      "generationRecord": "full-game/terrain/source/25-space-material.png.generation.json"
+    }
+  ],
+  "nativeOperation": {
+    "type": "native periodic-plus-smooth seam cleanup",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "resized": false
+  },
+  "operation": {
+    "type": "periodic_native_cleanup_then_explicit_compatibility_resample",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "compatibilitySize": [
+      2048,
+      2048
+    ],
+    "filter": "Lanczos",
+    "upscaled": true,
+    "newPaintedDetail": false
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets/sprites/space.png",
+  "sha256": "1c2131e5a37727eb481409e0777fcbc9641ab6d10a7acd5af0a4e8704587e21e",
+  "createdAt": "2026-10-26T20:35:03.278775+00:00",
+  "width": 2048,
+  "height": 2048,
+  "mode": "RGB",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

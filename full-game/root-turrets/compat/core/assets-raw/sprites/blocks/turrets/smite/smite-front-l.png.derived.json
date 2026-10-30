@@ -1,0 +1,42 @@
+{
+  "region": "smite-front-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-front-l.png",
+  "sha256": "ab5d44877d2e76e493bc92c711ab5bc72797bda65f8686ec601d161f38af6f15",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.213675+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/smite-front-l.png",
+      "sha256": "59df60d2871b32d8c19d880eff9f9863ae2a7317c2872fd3cadb9e4a2c04b130",
+      "record": "full-game/root-turrets/masters/smite-front-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-front-l.png",
+      "sha256": "6d6498b199822cd1f16edb49ab2ca94515fc6b30e1b0df2fc57de9cbfdf6fcfd",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      104,
+      33,
+      153,
+      97
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      242,
+      285
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

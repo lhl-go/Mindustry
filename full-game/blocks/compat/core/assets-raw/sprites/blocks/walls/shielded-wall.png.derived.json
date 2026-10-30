@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/shielded-wall.png",
+  "sourceGitBlob": "293839126ba542d493889b589dbb65deb37f06f6",
+  "sourceSha256": "572cc34f987242d705186acbc70d46c77f2fab908151d74ec630732c1f5dcc36",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "shielded-wall",
+  "blockId": "shielded-wall",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall.png",
+  "sha256": "df01f6986555a0117b29a220ea860afa6e3f1316f76e0fe7605fff6a12c7f44d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall.png",
+  "engineSha256": "df01f6986555a0117b29a220ea860afa6e3f1316f76e0fe7605fff6a12c7f44d",
+  "nativeFile": "full-game/blocks/masters/shielded-wall.png",
+  "nativeSha256": "f8555868d8f268dbb234cab020a50d2958311f5983df13129ff7161ecbed2ef8",
+  "nativeSize": [
+    335,
+    337
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shielded-wall.png",
+      "sha256": "f8555868d8f268dbb234cab020a50d2958311f5983df13129ff7161ecbed2ef8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/shielded-wall.png",
+      "sha256": "572cc34f987242d705186acbc70d46c77f2fab908151d74ec630732c1f5dcc36"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall.png.derived.json"
+}

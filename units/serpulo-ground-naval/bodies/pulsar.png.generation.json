@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/bodies/pulsar.png",
+  "sha256": "53ebaee34282c17315d1f4f4a0d69dc22ef7f2851a0d7fa3db8e2d2400452f20",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436",
+      "generationRecord": "records/workers/serpulo-ground-naval/08-support-bodies.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      559,
+      50,
+      976,
+      423
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 449,
+    "height": 405,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 75548,
+    "opaquePixelCount": 103490,
+    "partialPixelCount": 2807,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      433,
+      389
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    224.5,
+    202.5
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "body"
+}

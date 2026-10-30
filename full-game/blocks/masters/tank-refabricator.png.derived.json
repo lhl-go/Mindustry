@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/tank-refabricator.png",
+  "sha256": "b5a577a8d6c06f36e808a0e0a963a631b8c71de7f90e12f8743901dd47d5d96f",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      37,
+      40,
+      378,
+      356
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      341,
+      316
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    373,
+    348
+  ],
+  "anchorPixels": [
+    186.5,
+    174.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

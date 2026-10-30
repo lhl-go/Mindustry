@@ -1,0 +1,57 @@
+{
+  "file": "full-game/blocks/boards/moving-heads-pistons-02.png",
+  "sha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+  "generatedAt": "2026-10-26T20:22:48.027206+00:00",
+  "timestampEvidence": "Host output file modification time; exact service generation timestamp not disclosed.",
+  "width": 1448,
+  "height": 1086,
+  "format": "RGBA PNG",
+  "tool": "image_gen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "configTargetEvidence": "Same production-batch target recorded in moving-rotors-01.generation.json; not proof of actual tool model selection.",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in route exposes neither model/quality selectors nor actual returned model/quality metadata.",
+  "evidence": {
+    "receipt": "full-game/blocks/records/moving-heads-pistons-02.receipt.json",
+    "receiptSha256": "a10d2f5926731614d48d728dcd3cfea08c61bded703d89f9d8cd824a5bcecab0",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-5021222f-9757-4557-a1ae-996900c968c5.png"
+  },
+  "prompt": "full-game/blocks/prompts/moving-heads-pistons-02.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "user-confirmed style",
+      "actuallyAttached": true,
+      "attachmentEvidence": "original production prompt and parent task receipt"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "user-confirmed style",
+      "actuallyAttached": true,
+      "attachmentEvidence": "original production prompt and parent task receipt"
+    }
+  ],
+  "sourceImageRetained": true
+}

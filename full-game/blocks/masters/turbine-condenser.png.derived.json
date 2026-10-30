@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/turbine-condenser.png",
+  "sha256": "b9e7f402a0cef11aeaf3f668f987e6ffce49fe65d7321b5f0e976c7e630a3eb6",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-reactors-02.png",
+      "sha256": "701a6e542270c724234dcd3bd16d40551c23b25e4c5c383b5722ad483b8de7b7",
+      "generationRecord": "full-game/blocks/records/power-reactors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      37,
+      389,
+      352,
+      711
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      315,
+      322
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    347,
+    354
+  ],
+  "anchorPixels": [
+    173.5,
+    177.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/tar.png",
+  "sha256": "6d561b1916afbf7fd22063f8ef7bbb7dcb07cc54e561406156fb63149154ea47",
+  "createdAt": "2026-10-26T16:42:00.077600+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/03-liquids-salt.png",
+      "sha256": "0412041f336228c00390514d12c867df14335dd4f7c4fa86102f3dc53d6f9259",
+      "generationRecord": "full-game/terrain/source/03-liquids-salt.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      364,
+      726,
+      722,
+      1084
+    ],
+    "nativeExtractedSize": [
+      358,
+      358
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.7074797015136514
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

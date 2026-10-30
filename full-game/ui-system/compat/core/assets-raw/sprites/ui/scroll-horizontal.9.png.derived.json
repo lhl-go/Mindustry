@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+  "sourceGitBlob": "72c4cda25f3e42bd5f7546dc50924e82f2f5dba2",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+  "sha256": "8bdc84233dd2e3d7b3e37c290be511f56b31976a23d74e847274b7f6b66d364b",
+  "sourceSize": [
+    37,
+    26
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/stat_field.png",
+      "sha256": "c175e6e627776393cb7371df797ebe88bdfa0916769829269089ee22ac9b8c46",
+      "record": "ui/kit/stat_field.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll-horizontal.9.png",
+      "sha256": "698c420fc09d14814817321bc1607731b9db0a362b039534d3a7aac9611d5e8c",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+    ],
+    "sourceCanvas": [
+      37,
+      26
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "normal",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

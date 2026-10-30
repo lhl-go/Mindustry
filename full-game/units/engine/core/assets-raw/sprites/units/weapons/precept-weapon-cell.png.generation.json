@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+  "sha256": "5e1a20329e8ae217b366f48423b175b97d43a7fafa456b855a0492432c1430bc",
+  "width": 92,
+  "height": 150,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon.png",
+      "sha256": "bfaa7d847fd927642bd7ab9d8f99f6d1cf2fabd9fd058c9234f8bc837096a99e",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "precept-weapon",
+    "baseCanvas": [
+      92,
+      150
+    ],
+    "outputCanvas": [
+      92,
+      150
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+    "gitBlobSha1": "e3cad4156d31be1a5781ecd3e9066def3f73a8ed",
+    "sha256": "439264b88e2015cb03818e6b0db4a563aaa7bbb9d6f6625a7019b420cdba7c26"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

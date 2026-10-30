@@ -1,0 +1,41 @@
+{
+  "region": "block-4",
+  "file": "full-game/root-turrets/masters/block-4.png",
+  "sha256": "0fa2f283b7842e25239e847fac0f80d2a3e74f4457cb01457db4f9127019c4d9",
+  "size": [
+    308,
+    293
+  ],
+  "derivedAt": "2026-10-26T18:34:42.399166+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/01-regions.png",
+      "sha256": "25a136d5fc334af1479371fa2d4519733073a27ff08a566da687985be665b62a",
+      "record": "full-game/root-turrets/source/01-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 3,
+    "sourceBox": [
+      1187,
+      30,
+      1471,
+      299
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "eclipse-body",
+  "file": "units/air-erekir/layers/eclipse-body.png",
+  "sha256": "80db0edc11629f1d269625a554a345756c24ac8fc173de19cfb819446c6b7f5c",
+  "width": 740,
+  "height": 724,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/11-assault-body-corrected.png",
+      "sha256": "ba9e3b22f29854d344f437899587a6613292687dcc95cead981132dead14f50a",
+      "generationRecord": "units/air-erekir/source/11-assault-body-corrected.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      1420,
+      0,
+      2165,
+      724
+    ],
+    "trimBoundsInRegion": [
+      15,
+      17,
+      723,
+      709
+    ],
+    "padding": 16,
+    "width": 740,
+    "height": 724,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

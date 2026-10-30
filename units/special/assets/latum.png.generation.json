@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/assets/latum.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.732727+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 579,
+  "height": 1170,
+  "sha256": "7a78fb426c0ea755516d11aec16c35915c69563b365ee146bb6d61df5969b56e",
+  "derivedFrom": [
+    {
+      "file": "units/special/layers/latum-segment3.png",
+      "sha256": "374633ee95917406a1371ae5a53cfdc23a118e7a8b1f63482e3751c8aef2470b",
+      "generationRecord": "units/special/layers/latum-segment3.png.generation.json"
+    },
+    {
+      "file": "units/special/layers/latum-segment2.png",
+      "sha256": "5969b22270cca8b236ff8b46e146ee711ac16586c7c2afc502295525d3a3326e",
+      "generationRecord": "units/special/layers/latum-segment2.png.generation.json"
+    },
+    {
+      "file": "units/special/layers/latum-segment1.png",
+      "sha256": "4b9840aa1b83e01ec98f20e498883e15400df08247f80e6b183dc28b49d3ed4a",
+      "generationRecord": "units/special/layers/latum-segment1.png.generation.json"
+    },
+    {
+      "file": "units/special/layers/latum-segment0.png",
+      "sha256": "c6548375768809406596a7e915ad64ebdd9824d22d8485e5a5a522cd2311b652",
+      "generationRecord": "units/special/layers/latum-segment0.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_native_segment_layers",
+    "drawOrder": "segment0..N (tail to head)",
+    "pixelResampling": false,
+    "overlapPx": 32
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/risso-cell.png",
+  "sha256": "cafceb73b499b43a7260c356d585cd5eb2187dd3e4333b9c0dfeeb153cded4b7",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/risso.png",
+      "sha256": "89f64313e109272f96709759ff4f62178725ccd2f60da9b19131783090064cbd",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/risso.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "risso",
+    "baseCanvas": [
+      70,
+      78
+    ],
+    "outputCanvas": [
+      96,
+      96
+    ],
+    "centerRegistrationOffset": [
+      13,
+      9
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/risso-cell.png",
+    "gitBlobSha1": "f01db0e5b1cc7f574d87772cddd0e42a5ca1a626",
+    "sha256": "c13fd4dca74b760cc7f337f24f706ac32d1247017f3344877587675eb8cce821"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

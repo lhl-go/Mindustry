@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+  "sha256": "b8c9226950de66068507186eba6d7874e91a06f897e2890208d38a8e3b7dc416",
+  "width": 28,
+  "height": 28,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+      "sha256": "5a24732368e9e735b865f10a57abf20c641b9f2c667398d0cb032e6ca9d57488",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "anthicus-missile",
+    "baseCanvas": [
+      28,
+      28
+    ],
+    "outputCanvas": [
+      28,
+      28
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+    "gitBlobSha1": "4299db9770a20b4de5fdc74dbd822d4f28b0a0d5",
+    "sha256": "b254ebda524f576cbc6b5089383a10babf832d8f904c5ebb97d2f44ffb97614a"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

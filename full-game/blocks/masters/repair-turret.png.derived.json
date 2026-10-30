@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/repair-turret.png",
+  "sha256": "989090971d7ec1ef63b4ece02d3ac7edcbfa0b5bacacaecd9478cc8af7b14f6a",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      26,
+      753,
+      330,
+      1060
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      304,
+      307
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    336,
+    339
+  ],
+  "anchorPixels": [
+    168.0,
+    169.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

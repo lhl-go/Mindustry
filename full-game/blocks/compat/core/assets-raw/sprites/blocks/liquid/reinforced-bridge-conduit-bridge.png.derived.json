@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-bridge.png",
+  "sourceGitBlob": "b078e3e17b03bc86041d725e8da24f43275eb9e3",
+  "sourceSha256": "613e4197923b783d72e1542c053199a1682d2ec109aa66c4a92beb431538d384",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "reinforced-bridge-conduit-bridge",
+  "blockId": "reinforced-bridge-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-bridge.png",
+  "sha256": "d44643082627e4f31007d20e8e15d2933593786d09d5ec42aa17265351a3bd32",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-bridge.png",
+  "engineSha256": "d44643082627e4f31007d20e8e15d2933593786d09d5ec42aa17265351a3bd32",
+  "nativeFile": "full-game/blocks/masters/reinforced-conduit-shape-0.png",
+  "nativeSha256": "1ae58bdc58e0258a45b3a57055d6cc2089441639123ae88237819cf62a25ba4b",
+  "nativeSize": [
+    368,
+    158
+  ],
+  "sourceAlphaBounds": [
+    0,
+    4,
+    32,
+    28
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-conduit-shape-0.png",
+      "sha256": "1ae58bdc58e0258a45b3a57055d6cc2089441639123ae88237819cf62a25ba4b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/reinforced-bridge-conduit-bridge.png",
+      "sha256": "613e4197923b783d72e1542c053199a1682d2ec109aa66c4a92beb431538d384"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-bridge.png.derived.json"
+}

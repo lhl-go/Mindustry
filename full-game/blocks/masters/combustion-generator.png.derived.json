@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/combustion-generator.png",
+  "sha256": "ce2ab7eed2b6efe1194edc4f083f253196c9293bc7f282983c0922d691ed9804",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      339,
+      970,
+      608,
+      1188
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      269,
+      218
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    301,
+    250
+  ],
+  "anchorPixels": [
+    150.5,
+    125.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electrolyzer-glow.png",
+  "sourceGitBlob": "7d88560571964fa9eceb80e8ec9f124760d64270",
+  "sourceSha256": "b47a8e8977cc8bd8fd53c21b1c943e09986844e83febffa0398c6b8902ebc48e",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "electrolyzer-glow",
+  "blockId": "electrolyzer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-glow.png",
+  "sha256": "ca2456cc12ade0b2eb4733811a7b2d9f9a123aba680e596e46a1653b62717dda",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-glow.png",
+  "engineSha256": "ca2456cc12ade0b2eb4733811a7b2d9f9a123aba680e596e46a1653b62717dda",
+  "nativeFile": "full-game/blocks/masters/electrolyzer.png",
+  "nativeSha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5",
+  "nativeSize": [
+    373,
+    329
+  ],
+  "sourceAlphaBounds": [
+    17,
+    17,
+    79,
+    79
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electrolyzer.png",
+      "sha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electrolyzer-glow.png",
+      "sha256": "b47a8e8977cc8bd8fd53c21b1c943e09986844e83febffa0398c6b8902ebc48e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

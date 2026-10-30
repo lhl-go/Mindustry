@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-crossroads",
+  "file": "full-game/ui-system/sectors/sector-crossroads.png",
+  "sha256": "8acdab30965b249b0f5024f31aca9db8451ad4ef16c883dee69811d65e30ae96",
+  "width": 377,
+  "height": 377,
+  "derivedAt": "2026-10-26T15:54:01.002280+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/08-sectors-02.png",
+    "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+    "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 0,
+    "sourceBox": [
+      61,
+      47,
+      381,
+      400
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

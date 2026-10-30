@@ -1,0 +1,42 @@
+{
+  "region": "duo",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo.png",
+  "sha256": "5f68575a6d159b954ab3194b341ce497723f94bc19fdad9ee03adfbd4f9edf4b",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.080631+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/duo.png",
+      "sha256": "644e2c8422ffbb4286e7751ecbe219aed3f92b4aec44f0ade49c5aea3552d4da",
+      "record": "full-game/root-turrets/masters/duo.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/duo/duo.png",
+      "sha256": "c7acf917dc9d22c0cab404c3d5b2a366f8ad940ec9aafc1a94ebdbe460f74e61",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      11,
+      28,
+      29
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      326,
+      256
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

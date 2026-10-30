@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/solar-panel-large.png",
+  "sha256": "ce389418aeb836ce0bec4bf374c77d26cfb48c3ca5d0f604804d84da3ff8e4a9",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      620,
+      646,
+      914,
+      905
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      294,
+      259
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    326,
+    291
+  ],
+  "anchorPixels": [
+    163.0,
+    145.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shrubs2.png",
+  "sha256": "c1060f5ac360c662b9c2f6ca1d8cf21acdd5b533a2e63e88fddceaf7317c143f",
+  "size": [
+    257,
+    310
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/13-cold-living-wall-tops.png",
+      "sha256": "bb9036da8b60ff1bbb18699159fa7c6256f5cf6507301bfe3dc1dc3ccea1aec8",
+      "generationRecord": "full-game/terrain/source/13-cold-living-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    270,
+    1076,
+    527,
+    1386
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

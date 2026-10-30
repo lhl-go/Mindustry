@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/diode-arrow.png",
+  "sourceGitBlob": "227b8bb1d7af3b2791a3ac0b678835a17c72a358",
+  "sourceSha256": "9f32ecb04d6fcfe3a5de0671e64479f226f0d9df2db6a3cbee9b510b0c1b4eda",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "diode-arrow",
+  "blockId": "diode",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode-arrow.png",
+  "sha256": "5f6e852e9597fb4441cdcb1c4876855527b555dee302ec12bcc903eec77279af",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode-arrow.png",
+  "engineSha256": "5f6e852e9597fb4441cdcb1c4876855527b555dee302ec12bcc903eec77279af",
+  "nativeFile": "full-game/blocks/masters/bridge-arrow-part.png",
+  "nativeSha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427",
+  "nativeSize": [
+    183,
+    178
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    24,
+    24
+  ],
+  "operation": {
+    "kind": "independent_right_facing_native_direction_arrow",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/bridge-arrow-part.png",
+      "sha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/diode-arrow.png",
+      "sha256": "9f32ecb04d6fcfe3a5de0671e64479f226f0d9df2db6a3cbee9b510b0c1b4eda"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode-arrow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

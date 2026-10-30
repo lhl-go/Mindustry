@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/refresh.png",
+  "sourceGitBlob": "cd1050f017944cf091242a91c983a6ba5631d6ea",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/refresh.png",
+  "sha256": "7b0d7c616563818b21e0b31fd54005c8262fbb0c241445987a3c94e205b1cef7",
+  "sourceSize": [
+    14,
+    14
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-refresh.png",
+      "sha256": "1004ea2e69c59bccdef9746deb91bf734f9c078238de45b3e40a573404fb9083",
+      "record": "ui/kit/icon-refresh.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "refresh",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

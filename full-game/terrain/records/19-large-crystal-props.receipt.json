@@ -1,0 +1,41 @@
+{
+  "args": {
+    "prompt": "Use case: top-down game-sprite atlas. Paint12 independent large crystal props for Mindustry in refined bright Daoist Q hand-painted finish. Attached approved refs guide polished material quality only, no UI/text/people/frames. Requested2304×3072 portrait, exact3equal columns×4equal rows, every cell one complete isolated cluster with15percent transparent clear margin, no overlap/cutoff. Fully transparent background, no ground disc or cast shadow. STRICT VERTICAL TOP-DOWN ORTHOGRAPHIC; crystal tips point radially outward from center in the horizontal map plane, upper facets visible, not side-view upright geodes. Each row3 different native silhouettes and facet arrangements, same family palette, not copies. Large crisp broad facets suitable200pixel game prop size, fine restrained painted highlights.\nRow1 CRYSTAL CLUSTER: desaturated lilac-purple starburst quartz crystals with pale dusty-rose edges, 7-11 chunky irregular pointed shards radiating outward, dense central hub.\nRow2 CRYSTAL BLOCKS: warm golden ochre mineral growth made of5-9 interlocking chunky square crystal facets seen from directly above, softly rounded corners, golden bevel highlights, irregular patch outline, no black outlines.\nRow3 CRYSTAL ORBS: mossy jade-green rounded bulbous mineral nodules seen from above,4-7 large green spheres with small satellites, luminous pale-lime crown facets, organic irregular grouping.\nRow4 VIBRANT CRYSTAL CLUSTER: brighter rosy violet-magenta mineral starburst with9-13 narrower angular points radiating outward, pale pink tips, crisp elegant facets, no glow haze outside silhouette.\nAll12 sprites complete isolated shapes, clean alpha between protrusions, no detached speckles or text. Beautiful coherent hand-painted broad readable mineral shapes.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 19:23:51 UTC",
+  "returnedAt": "2026-10-26 19:25:00 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-6d7d7b0c-48d4-4002-8e68-ce5839b67506.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    2304,
+    3072
+  ],
+  "grid": [
+    3,
+    4
+  ],
+  "regions": [
+    "crystal-cluster1",
+    "crystal-cluster2",
+    "crystal-cluster3",
+    "crystal-blocks1",
+    "crystal-blocks2",
+    "crystal-blocks3",
+    "crystal-orbs1",
+    "crystal-orbs2",
+    "crystal-orbs3",
+    "vibrant-crystal-cluster1",
+    "vibrant-crystal-cluster2",
+    "vibrant-crystal-cluster3"
+  ]
+}

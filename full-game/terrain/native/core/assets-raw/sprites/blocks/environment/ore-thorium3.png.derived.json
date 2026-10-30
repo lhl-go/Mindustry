@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium3.png",
+  "sha256": "c392f2aa960cf94334ac12358342cc04f932cb2155a13a28f3d6da8163a6604e",
+  "size": [
+    222,
+    216
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    565,
+    1079,
+    787,
+    1295
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

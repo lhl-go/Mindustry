@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "file": "units/coordinator-recoil-fix/elude-assembled.png",
+  "sha256": "c2aa17b3e11e536e260f65265e39846cc08825a2227e46e3a5bc2ef24f001d0e",
+  "width": 757,
+  "height": 943,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T07:53:57.126054-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/elude-body.png",
+      "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+      "record": "units/coordinator-recoil-fix/elude-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/elude-weapon.png",
+      "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+      "record": "units/coordinator-recoil-fix/elude-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "documented_static_layer_composition",
+    "bodyOriginPixels": [
+      160,
+      160
+    ],
+    "weaponScale": 0.72,
+    "weaponInstances": [
+      {
+        "mirrorX": true,
+        "rotationDegrees": 35,
+        "anchorPixels": [
+          295.47,
+          409.2
+        ]
+      },
+      {
+        "mirrorX": false,
+        "rotationDegrees": -35,
+        "anchorPixels": [
+          461.53,
+          409.2
+        ]
+      }
+    ],
+    "weaponPivotNormalized": [
+      0.5,
+      0.78
+    ],
+    "pixelAlignment": "estimated_art_alignment; not runtime verified",
+    "canonicalSourceCoordinates": "preserved separately in patch asset officialWeaponOffsets; never replaced by pixels",
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Derived parts inherit generation evidence",
+  "runtimeIntegrationVerified": false
+}

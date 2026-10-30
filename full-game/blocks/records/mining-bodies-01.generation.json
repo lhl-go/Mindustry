@@ -1,0 +1,51 @@
+{
+  "file": "full-game/blocks/boards/mining-bodies-01.png",
+  "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+  "generatedAt": "2026-10-26T17:26:05.118202+00:00",
+  "width": 1448,
+  "height": 1086,
+  "format": "RGBA PNG",
+  "tool": "image_gen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed image_gen exposes no model/quality selector and returns no verifiable model/quality metadata.",
+  "evidence": {
+    "receipt": "full-game/blocks/records/mining-bodies-01.receipt.json"
+  },
+  "prompt": "full-game/blocks/prompts/mining-bodies-01.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary user-confirmed art direction",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary user-confirmed art direction",
+      "actuallyAttached": true
+    }
+  ],
+  "sourceImageRetained": true
+}

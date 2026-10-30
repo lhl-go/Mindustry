@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/liquid-overflow-gate.png",
+  "sha256": "03f8a5aba799e6ac5ef31e64bee0fecc16dea79a01e0e24a2ec3975a1bbff127",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/sandbox-world-final-01.png",
+      "sha256": "dc3465a9192509fb4a5e783c338f9e1b5e5193a550ae56498942866d2976d729",
+      "generationRecord": "full-game/blocks/records/sandbox-world-final-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      697,
+      813,
+      1012,
+      1030
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      315,
+      217
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    347,
+    249
+  ],
+  "anchorPixels": [
+    173.5,
+    124.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

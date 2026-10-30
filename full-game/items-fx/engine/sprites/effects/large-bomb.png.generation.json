@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/large-bomb.png",
+  "sha256": "0525334a3ff984406586f6ca541b0f8f465c9be0e2392e109cefd0a2f0addd6b",
+  "width": 100,
+  "height": 100,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/large-bomb.png",
+      "sha256": "75ef291f37ac1c498e4b29ecdf397ec7d4fe7467a67355530e9530583cd0d312",
+      "generationRecord": "full-game/items-fx/assets/large-bomb.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      100,
+      100
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

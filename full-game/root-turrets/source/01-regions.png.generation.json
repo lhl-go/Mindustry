@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/root-turrets/source/01-regions.png",
+  "sha256": "25a136d5fc334af1479371fa2d4519733073a27ff08a566da687985be665b62a",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T12:29:45-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/root-turrets/reference/guide-01.png"
+    ],
+    "prompt": "Create a finished HD transparent game sprite sheet, requested 1536x1024, exactly FOUR columns THREE rows, 12 separate mechanical building parts. First two images define Daoist Q hand-painted refined jade, slate stone, warm-gold and ivory style; third image specifies functional geometry of 12 source regions in exact corresponding order. Repaint every source silhouette into high-detail soft rounded hand-painted material without changing its footprint, holes, relative proportions, orientation or role. STRICT orthographic top-down, camera straight above, all guns face UP. NOT perspective/isometric, no labels, no terrain, no UI, no living characters. Row1: block-1 simple square stone mounting pad with one central circular recess; block-2 square pad ring and four tiny corner bolts; block-3 square pad with ornate four-lobed radial groove; block-4 square pad octagonal inner ring and corner insets. Row2: reinforced-block-2 scalloped reinforced square pad with central C-shaped socket; reinforced-block-3 reinforced square pad with curved brackets; reinforced-block-4 larger pad with four quadrantal cutouts; reinforced-block-5 reinforced pad with diagonal mechanical cross and small corner bolts. These eight are FLAT build foundations without guns, naturally grey-blue stone + restrained jade metal details and gold fasteners, preserve source notches. Row3: afflict narrow split dark-bronze central turret body with orange-gold inlays and open V lower ends, no side blades; afflict-blade-l a SINGLE isolated crooked LEFT side blade/mechanical arm, source silhouette exactly, dark slate + copper accents, no whole turret; arc an upright white-ivory split electrical emitter with lilac/blue terminals, no pad; breach upright U-slot rail-cannon body dark slate and jade diamond-shaped capacitors, no pad. Each part separately centered in equal cell, complete silhouette, 13% empty margin per side. Give precise clean outline, true alpha gaps and background, no drop shadow, no glows extending beyond parts, no invented weapons on the eight bases. Preserve all distinct source region designs."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/root-turrets/prompts/01-regions.txt",
+  "promptSha256": "87e3486c0df1f179780f0a4c0ded4429a1f31092fdc679045f7f38d451d1dccc",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\root-turrets\\reference\\guide-01.png",
+      "sha256": "42cc59874ed8883ba2fa39d0f89fdd812197d2639efadc021d6cb7ffb79442ac",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\root-turrets\\records\\01-regions-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-1049a56b-764f-4501-875e-8294990522fb.png",
+    "nativePngSha256": "25a136d5fc334af1479371fa2d4519733073a27ff08a566da687985be665b62a",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 722065,
+  "status": "generated_pending_review"
+}

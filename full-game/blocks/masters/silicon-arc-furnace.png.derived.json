@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/silicon-arc-furnace.png",
+  "sha256": "827db102f2ea702a4c97a3fa89da901837f101d43b584878fdec36cc3ab8bd31",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      785,
+      365,
+      1136,
+      672
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      351,
+      307
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    383,
+    339
+  ],
+  "anchorPixels": [
+    191.5,
+    169.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

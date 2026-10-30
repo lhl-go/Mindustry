@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/missile.png",
+      "sha256": "3d27abc46dab778228efe856bb16d9a31a7074c685d8ee08bef1a5a7323ea4f0",
+      "generationRecord": "full-game/items-fx/assets/missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/missile-back.png",
+  "sha256": "7826b654799cfaad9c3a5a461dbf989806ffc6be26d4461d590c0711936d623e",
+  "width": 202,
+  "height": 335,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.445335+00:00"
+}

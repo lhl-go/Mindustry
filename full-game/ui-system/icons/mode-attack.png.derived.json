@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "mode-attack",
+  "file": "full-game/ui-system/icons/mode-attack.png",
+  "sha256": "9df23d7a0c82d3470c3976baadd49e79edb547834030681a61cf93afdcf7f7e2",
+  "width": 266,
+  "height": 266,
+  "nativeCropPixels": [
+    242,
+    222
+  ],
+  "derivedAt": "2026-10-26T15:24:54.376989+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/03-actions-modes.png",
+    "sha256": "1061bca76b587d24776bb7f5ee5feff25d07c0d58bd4d7feee8f6f9a117748df",
+    "generationRecord": "full-game/ui-system/source/03-actions-modes.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 2,
+    "sourceBox": [
+      526,
+      21,
+      768,
+      243
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      12,
+      22
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

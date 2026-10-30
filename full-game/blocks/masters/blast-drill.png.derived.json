@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/blast-drill.png",
+  "sha256": "c672ca4eeb7356d71c3492293b681ef38b0401077f9543532f01cc52253dd56e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1097,
+      33,
+      1413,
+      342
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      316,
+      309
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    348,
+    341
+  ],
+  "anchorPixels": [
+    174.0,
+    170.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

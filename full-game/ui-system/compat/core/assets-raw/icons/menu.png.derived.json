@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/menu.png",
+  "sourceGitBlob": "0469f997211e19df410e1b59475b5030172e560b",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/menu.png",
+  "sha256": "9bd04752e5ae68d82eb4868afed880c3b8f415e93399e5dbf40c05d44f186ad3",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/menu.png",
+      "sha256": "10586ff8459210d87777531bf1797db6483ab4c26cfb258b68ca32ca9ce61d80",
+      "record": "full-game/ui-system/icons/menu.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "menu",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

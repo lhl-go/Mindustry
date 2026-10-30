@@ -1,0 +1,44 @@
+{
+  "region": "smite-blade-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-r.png",
+  "sha256": "4a3cd94be7e7162174fcf995d7608ac8e0ea8bafb4530bd12d66ed17ce54b75a",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.376374+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/smite-blade-l.png",
+      "sha256": "a29e12ae3e7a83e9a099ea92d5afe835a1e9cf312653e67680bda72856e14309",
+      "record": "full-game/root-turrets/masters/smite-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-blade-r.png",
+      "sha256": "6076afa4dc750865ecec4602a62a6ff6ec49dbf0f76dcfeda3dcd2e021fee335",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-blade-l.png",
+      "sha256": "74ba72382af7b601b0e36ace8b14d8482ea303be39d6aa4862b5b8ec3d11c549",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      80,
+      7,
+      117,
+      130
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

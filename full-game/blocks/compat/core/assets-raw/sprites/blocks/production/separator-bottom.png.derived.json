@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/separator-bottom.png",
+  "sourceGitBlob": "a100086fe3e930f46cacddbd2bf436d548664bbb",
+  "sourceSha256": "61ad7c90f46f9b00e1fd0c948259b88a267e2bcb44262528ad122dd3d6b01ad4",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "separator-bottom",
+  "blockId": "separator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-bottom.png",
+  "sha256": "7a9d30c89b5ac5c748ccfb6bf22fef3ae8bb763b64e6cce942b0ced7ddc975a9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-bottom.png",
+  "engineSha256": "7a9d30c89b5ac5c748ccfb6bf22fef3ae8bb763b64e6cce942b0ced7ddc975a9",
+  "nativeFile": "full-game/blocks/masters/separator.png",
+  "nativeSha256": "11eeaa89e5d4782a1e7b5e2f1b22d6ca58f6316417bf1624278c5ccfc6ea058f",
+  "nativeSize": [
+    359,
+    320
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/separator.png",
+      "sha256": "11eeaa89e5d4782a1e7b5e2f1b22d6ca58f6316417bf1624278c5ccfc6ea058f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/separator-bottom.png",
+      "sha256": "61ad7c90f46f9b00e1fd0c948259b88a267e2bcb44262528ad122dd3d6b01ad4"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

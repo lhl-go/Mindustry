@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/14-erekir-wall-tops.png",
+  "sha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f",
+  "generatedAt": "2026-10-26 18:15:30 UTC",
+  "startedAt": "2026-10-26 18:14:30 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: terrain atlas. Paint18 new natural WALL TOP textures for Mindustry, bright clean refined Daoist Q hand-painted geology guided by attached references' craftsmanship ONLY. Strict directly overhead orthographic, NO UI/text/symbols/people/perspective. Requested1536×3072 portrait. EXACTLY3 EQUAL columns ×6 EQUAL rows, each square fullbleed cell fills edge to edge with opaque natural rock cap, no gutters/borders/labels. Do not make last row or column larger. Every row has2 different small wall variants at left/middle and1 independent larger wall design at right with more crown/fracture details, not copied. Pronounced rounded broad rocky crowns, soft internal shadow cracks, material fills square continuously with quiet tileable edges. Even overhead lighting, no vignette/gradient.\nRow1 BERYLLIC STONE WALL: pale sage-jade gray stone crowns with small green mineral flecks.\nRow2 CARBON WALL: dark blue charcoal carbon-rich rock crowns, rounded large smooth plates and deep soft cracks, no lava.\nRow3 FERRIC STONE WALL: muted warm iron-brown ocher rock crowns with small rusty orange flecks.\nRow4 RHYOLITE WALL: muted lavender-gray volcanic rock crowns, subtle fine layered streaks, few small pebbles between crowns.\nRow5 REGOLITH WALL: pale mauve-tan compact moonrock crowns with tiny soft pits and powdery texture.\nRow6 YELLOW STONE WALL: warm golden ochre stone crowns with gentle pale beige veins and broad round erosion surfaces.\nRefined painterly coherent material shapes distinct in all18tiles, no architectural brick patterns or isolated object backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/14-erekir-wall-tops.txt",
+  "promptSha256": "4e50fff1ecfdbd6f914c576a3da0941d093ce2fffd0ed54c9ef5c3aedb627403",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/14-erekir-wall-tops.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-7ca57de4-134a-420d-bd13-9937fac9bc46.png",
+    "originalOutputSha256": "fe6b167b71d5f48ff69877b0eaf470ee07feb995d860f1dd7b5daae62840115f"
+  },
+  "regions": [
+    "beryllic-stone-wall1",
+    "beryllic-stone-wall2",
+    "beryllic-stone-wall-large",
+    "carbon-wall1",
+    "carbon-wall2",
+    "carbon-wall-large",
+    "ferric-stone-wall1",
+    "ferric-stone-wall2",
+    "ferric-stone-wall-large",
+    "rhyolite-wall1",
+    "rhyolite-wall2",
+    "rhyolite-wall-large",
+    "regolith-wall1",
+    "regolith-wall2",
+    "regolith-wall-large",
+    "yellow-stone-wall1",
+    "yellow-stone-wall2",
+    "yellow-stone-wall-large"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone-wall1.png",
+      "sha256": "1e33f87d0dba51d91569e3ae56e9b13eea1d4f3b5908b1c2f2eec8de9fd1aa18"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone-wall2.png",
+      "sha256": "f28b681fa23822c93cdb51e50e14c9db029a981bab330f7e953a27381e0d81b7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone-wall-large.png",
+      "sha256": "257b56ceacef157af236b68aef7d0043c5c34c56b7366ffe0de5ad827d9bd397"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-wall1.png",
+      "sha256": "853ffa34ac118bedf392ff430601a18b0643ecbbbc242bfc529e5ce7c2a5ae08"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-wall2.png",
+      "sha256": "5423be9ee24d7c0e7d22d85fe9c0fa302695d25db43d7727035e78af0b404b35"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-wall-large.png",
+      "sha256": "67697085d2b6dde7f713895130f56790c11bfd5da9a43f228057de4988f6b40b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone-wall1.png",
+      "sha256": "9384ddea6038111144e8f66266c5244e7c8d6e1cefb511ebcfe510eba2f85425"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone-wall2.png",
+      "sha256": "d5b8c02a85365fdc1e3d065861ece8eeefc86f86bd890d8ab47fc56ed7a4ac88"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone-wall-large.png",
+      "sha256": "97bf3cadd25d6cb5b4b90aa2fe1d81c18c3fa5e7c561dbbcbadc1f458e80b499"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-wall1.png",
+      "sha256": "e171dbd2327222266eac488fb4cc2686cf5a4b2f5aba1851a6be3bf71bcb827b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-wall2.png",
+      "sha256": "6526564ec6bd211a374e221ac9a0a5089f647158c1af674636543af2a650eecf"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-wall-large.png",
+      "sha256": "6a7946bcc17bafe74aa8c89b5b35efe5ad8741bc015b9ea09871ae92781cf374"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith-wall1.png",
+      "sha256": "acdcc211914d3ed1b74664d594316f3bbbba550782bfdc2c2cf62d162b94e5c0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith-wall2.png",
+      "sha256": "8ffa80fbf49c842a9a8a570f7b8734ecb47741320fe36331f8f7c25efa1f37f3"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith-wall-large.png",
+      "sha256": "257fb5618fbceb58bc0d1be10278653ad22177e9c0eca3a91c66372fffe05f41"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-wall1.png",
+      "sha256": "dba2d3dde167c0fffad4f409b4ebe9947fe8f27d95f42e0019e1f5b0b0bc4f48"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-wall2.png",
+      "sha256": "1d6d594a4ca874a43ffc7e08411a887e1d6cef84db19d6d8a82467ef17547e94"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-wall-large.png",
+      "sha256": "7867447a68069310ad32aaa2ca4522f7ab540f060b6e1c29762770a44883f5a1"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

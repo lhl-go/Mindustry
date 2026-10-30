@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/06-statuses-elements.png",
+      "sha256": "a57d9a2950185382c5765ad615de70b0b9dd30a56ded85087462a6d7ee616c14",
+      "generationRecord": "full-game/items-fx/source/06-statuses-elements.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      0,
+      444,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      45,
+      13,
+      418,
+      438
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-burning.png",
+  "sha256": "5d4e80c3f2edbaa704c0eb9839747354091937e5c9d716cadde37b8dab6291b6",
+  "width": 405,
+  "height": 457,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.424027+00:00"
+}

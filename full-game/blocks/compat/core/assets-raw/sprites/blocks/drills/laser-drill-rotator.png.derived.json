@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/laser-drill-rotator.png",
+  "sourceGitBlob": "f9301d4e7360f9426f340298f931a5ee690cded6",
+  "sourceSha256": "6d62e524140c914dfdc4b2145ba596ab231fedbfde41cd1b90f559a578408286",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "laser-drill-rotator",
+  "blockId": "laser-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-rotator.png",
+  "sha256": "29252e992d95f9bdec33515d78c8781ac8dd16fd7534745826be1b7983927b9e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-rotator.png",
+  "engineSha256": "29252e992d95f9bdec33515d78c8781ac8dd16fd7534745826be1b7983927b9e",
+  "nativeFile": "full-game/blocks/masters/laser-drill-rotator-part.png",
+  "nativeSha256": "ce89e1d9ed0b879ba978ae29c9941f3d37a8823d22ae594c673ef24683132b82",
+  "nativeSize": [
+    290,
+    284
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    84,
+    84
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/laser-drill-rotator-part.png",
+      "sha256": "ce89e1d9ed0b879ba978ae29c9941f3d37a8823d22ae594c673ef24683132b82"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/laser-drill-rotator.png",
+      "sha256": "6d62e524140c914dfdc4b2145ba596ab231fedbfde41cd1b90f559a578408286"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/laser-drill-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

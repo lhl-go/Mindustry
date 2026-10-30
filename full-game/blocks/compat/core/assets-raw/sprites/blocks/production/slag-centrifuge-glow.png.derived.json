@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-centrifuge-glow.png",
+  "sourceGitBlob": "f85f42d1a7a0df08e253926308b0ceaeb02091fd",
+  "sourceSha256": "85d77926c186b02f9a329e8ef023745046c25329b67abc81a82ddcc11be8a878",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "slag-centrifuge-glow",
+  "blockId": "slag-centrifuge",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-glow.png",
+  "sha256": "cafd4baa3f2e3cabbbc9a0f68fae7b0d9f8b932a151b86aa17add0788bdc4dba",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-glow.png",
+  "engineSha256": "cafd4baa3f2e3cabbbc9a0f68fae7b0d9f8b932a151b86aa17add0788bdc4dba",
+  "nativeFile": "full-game/blocks/masters/slag-centrifuge.png",
+  "nativeSha256": "48a8adeb117a16c59a544abb858d47cd153b041c1b1d9b2be6691cc3b03120b2",
+  "nativeSize": [
+    380,
+    332
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-centrifuge.png",
+      "sha256": "48a8adeb117a16c59a544abb858d47cd153b041c1b1d9b2be6691cc3b03120b2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-centrifuge-glow.png",
+      "sha256": "85d77926c186b02f9a329e8ef023745046c25329b67abc81a82ddcc11be8a878"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

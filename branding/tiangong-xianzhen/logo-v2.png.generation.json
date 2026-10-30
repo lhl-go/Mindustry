@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "branding/tiangong-xianzhen/logo-v2.png",
+  "sha256": "de5ccbfcb53ddf10e096554cb9b842c7aa953a8b132e1f8cf55c6fd266ff0369",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-29T02:53:35Z",
+  "generatedAtBasis": "Approximate tool completion from start timestamp plus tool elapsed time, not provider metadata",
+  "generationStartedAt": "2026-10-29T02:51:38Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/mindustry-image/branding/tiangong-xianzhen/logo-v1.png",
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "prompt": "Use case: precise-object-edit / background-extraction. Image 1 is the existing 天工仙阵 game logo to refine. Images 2 and 3 are its mandatory established style references, only for preserving the same jade, ivory, warm gold, refined hand-painted Q Daoist aesthetic.\nPreserve the exact four simplified Chinese characters \"天工仙阵\", their ordering, their current bold legible calligraphy, the Taiji gear emblem, the cloud forms, small red tassel, and the current palette and illustrated lighting. Do not redesign the logo or add anything.\nMake only these production cleanup corrections: remove every stray red, yellow, green or dark pixel fringe and all isolated noise outside the actual artwork contour; make a pristine tightly anti-aliased true RGBA alpha silhouette with zero matte contamination; keep solid letter faces, solid clouds, jade and metal completely opaque (alpha 255), using partial alpha only for smooth true outer edges. No outer glow and no simulated checkerboard or background. Restore any tips so all artwork is intact. Reframe the same logo with generous fully transparent padding around all four sides: approximately 8–10 percent of the complete canvas on EACH side. No visible artwork may touch or be cut by the image boundary, especially the tassel and cloud at the left. Keep its wide horizontal aspect, ideally a 2048x1024 native canvas if supported, with the entire existing design fitting comfortably inside it.\nOne finished isolated game logo, transparent background, same beautiful polished hand-painted original design and clean Chinese lettering. No extra text, slogan, new panels, scenery, mockup, shadow behind the whole logo, or additional variants."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool exposes no model, quality or size selector; result contains image_url and output_hint only; PNG contains no model/quality metadata.",
+  "prompt": "branding/tiangong-xianzhen/logo-v2.prompt.txt",
+  "promptSha256": "058964bff394d8ddc5194637b3e71b74585b83ec22ec6c3c9c90fe83526e04f0",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\branding\\tiangong-xianzhen\\logo-v1.png",
+      "sha256": "00a97fcc0d446806e298b02a7b688c3ac64d60e81b3eb7a6b118b33fd997f24a",
+      "purpose": "edit_target",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "toolOutputPath": "C:/Users/luyua/.codex/generated_images/01a17720-2a4e-70c0-a0de-f389672e250d/exec-565ea178-95c8-420b-a8f9-8ae3b0d9bb6b.png",
+    "returnedResultId": "exec-565ea178-95c8-420b-a8f9-8ae3b0d9bb6b",
+    "pngMetadataKeys": [],
+    "copiedWithoutPixelChanges": true
+  },
+  "officialCapabilityCheck": {
+    "checkedOn": "2026-10-28",
+    "timezone": "America/New_York",
+    "modelTargetUnchanged": true,
+    "qualityTargetUnchanged": true,
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "additionalModelCatalog": "https://developers.openai.com/api/docs/models/all",
+    "note": "Official catalog still identifies Sunburst as the most capable image model and supports max; this is a configuration target, not evidence of the actual built-in result model."
+  },
+  "styleInstructionEvidence": {
+    "rootInstructions": "../AGENTS.md",
+    "uiSpecOriginalMissing": true,
+    "uiSpecExistingHandoffSummaryRead": "../handoffs/roster-run-20261026/source/qdao_ui_redesign_v5/UI_SPEC.md",
+    "noDeletedDocumentRestored": true
+  },
+  "status": "not_selected_alpha_fringe_persists",
+  "sourceImageRetained": true,
+  "retentionRecord": "branding/tiangong-xianzhen/retention-cleanup.json"
+}

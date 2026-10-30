@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/radar-base.png",
+  "sourceGitBlob": "e26ef488f0289a8f879b3b46f2823307b3242e9c",
+  "sourceSha256": "79a5cf8336d3afff4978634b6c0e709cf0187d3f7aa23eb1c5283cbd3a74d203",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "radar-base",
+  "blockId": "radar",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-base.png",
+  "sha256": "fa927bdf005fc2c25b8af1b456771e0c55438049826a0a52cba8e51b43f6df3f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-base.png",
+  "engineSha256": "fa927bdf005fc2c25b8af1b456771e0c55438049826a0a52cba8e51b43f6df3f",
+  "nativeFile": "full-game/units/parts/mech-base-heavy.png",
+  "nativeSha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+  "nativeSize": [
+    620,
+    447
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "type": "stationary_native_pedestal",
+    "containsRotatingHead": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/radar-base.png",
+      "sha256": "79a5cf8336d3afff4978634b6c0e709cf0187d3f7aa23eb1c5283cbd3a74d203"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-base.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-base.png.derived.json",
+  "nativeGenerationRecord": "full-game/units/parts/mech-base-heavy.png.generation.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "recordedAt": "2026-10-26T21:05:37.731012+00:00",
+  "operation": "Remove redundant inline image payload from tool JSON receipts, preserving source hashes and all disclosed result metadata. Source PNGs were not deleted by this script.",
+  "files": [
+    {
+      "file": "full-game/blocks/records/conduits-advanced-03.receipt.json",
+      "beforeSha256": "063f259664e8ea445bfa75ef8a5e406b01548bf4f3c986ca8ba17886b935a160",
+      "afterSha256": "7a48e3da23bda02765bd990dc0aed62de018e0a0b27e9fd42cc69627fd67c9c2",
+      "sourceImageSha256": "9184e3661dffaa8a585db47b833c9d651a60d55f90437f363da1f89f61284bc8",
+      "sourceImageBytes": 1833970,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/conveyors-connections-01.receipt.json",
+      "beforeSha256": "549e2fefa0f456935d70776c6bae1133fa39ab3e0a3313042ecd2350e5bd4b63",
+      "afterSha256": "a783ba8909e8b5011cc2daf51364abadda51122ed32dbd2756033fc52998724d",
+      "sourceImageSha256": "89ed7e538b640e55aa8522b57e784df78a68a0beba511d32e8747cdd244e53ef",
+      "sourceImageBytes": 1862086,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/defense-walls-01.receipt.json",
+      "beforeSha256": "95ddec512f6979165f473741654444175d1f7245a641cd6101773c0ce861bfe0",
+      "afterSha256": "ba055d8cbb9ea14ca8db6e75bf8b670394c20f35741ee232348db707c55ce6b6",
+      "sourceImageSha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "sourceImageBytes": 2641400,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/ducts-conduit-connections-02.receipt.json",
+      "beforeSha256": "64dc6c2b0849c4d7ab314a57a72f7d648fe9c3859d14764f19f14e69212707d5",
+      "afterSha256": "2bf8c3c22af8f04a3d54a7ebc4cc832c58592b4c3fccf17d5f6b6e3e4314134a",
+      "sourceImageSha256": "8c6c6123608c6ba508ac65735a6ee38bab02a71f53c03e9ae57e10df1e1f642f",
+      "sourceImageBytes": 1623226,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/liquid-machinery-04.receipt.json",
+      "beforeSha256": "508b144fc61ec7fd7e02d8bc01a344aba86a578ee942f4a34e08732e4a1b305e",
+      "afterSha256": "bbdca10ccfa2994ecc1101cb4b721f88f6d2693c737944ebb876744c6bdd8387",
+      "sourceImageSha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "sourceImageBytes": 2050273,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/logic-01.receipt.json",
+      "beforeSha256": "14b9efc478471af5f1b837cb61270c11a7483fdf53316727bfa75aa1f25b93c6",
+      "afterSha256": "d3ee08e83e3d52f492ac11b187a56e82467d649f62719279f144024821e331de",
+      "sourceImageSha256": "fe7bd7b043e380f030e835646efd7c4ecf8ff12f0a799e95d2d769432cf0bae4",
+      "sourceImageBytes": 2128022,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/logistics-nodes-01.receipt.json",
+      "beforeSha256": "a465ecbdc3417bf0b993f97eef7d58fc544cb65d1114c3f50a43491f39f9939d",
+      "afterSha256": "0f6bf9e7c7598db73d0122f5886d2f87f7ac91787bdea730c24c117d9d9aa862",
+      "sourceImageSha256": "ac03dacfd94bdb6c13808d49d7491f071076f5c482dc092fb0480546c6102f84",
+      "sourceImageBytes": 2392411,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/logistics-special-04.receipt.json",
+      "beforeSha256": "10d7134669e22bafe353a443d9b42196191cb86ccb9e6ce117611a15788c47fc",
+      "afterSha256": "d31f556a5c641e99daf7e00cfce22e5726e8736451a55c5e64ce63d414afb4cb",
+      "sourceImageSha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "sourceImageBytes": 2078632,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/mining-bodies-01.receipt.json",
+      "beforeSha256": "cc2b2159d04c0d44e6d165333be6ee25d781a8fc1684bfbf3dc54ac6e0c29bae",
+      "afterSha256": "4c7ea230dec94079213c970cc99e4a234851f6b0ecad9ebe5ee1c2a811f2583c",
+      "sourceImageSha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "sourceImageBytes": 2435400,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/moving-heads-pistons-02.receipt.json",
+      "beforeSha256": "70e6ab5ae3fa6873ffabef8b482fbc04b3162e9c3103d36ae945b6a2a6926dcd",
+      "afterSha256": "a10d2f5926731614d48d728dcd3cfea08c61bded703d89f9d8cd824a5bcecab0",
+      "sourceImageSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "sourceImageBytes": 1553177,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/moving-rotors-01.receipt.json",
+      "beforeSha256": "1ca69195508c9ff17d86d76cca521e5ecc146a259cef11948824d7a5d2fb23ee",
+      "afterSha256": "f2f80058daf798144f86658ccbdeeb79bc29df2e40bf7795e01171391e087c5f",
+      "sourceImageSha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "sourceImageBytes": 1885541,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/payload-and-doors-01.receipt.json",
+      "beforeSha256": "92637028ebcf2b260fc224c7bdc21d94fb3158f82f1fc8d26e1d4ba103442d9b",
+      "afterSha256": "279c33f11698e81facb12626aaa4f1454bc74a314f11ce6b6fc16ba24ffd6099",
+      "sourceImageSha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "sourceImageBytes": 2278488,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/power-reactors-02.receipt.json",
+      "beforeSha256": "9461519eae68bf43d11b380332b42794a5d95b600d5a365efd5aec5a89865a0d",
+      "afterSha256": "72ce819a3a4deef68044a64e762314baa1143d86b7ea99f7c1f81655969abc6e",
+      "sourceImageSha256": "701a6e542270c724234dcd3bd16d40551c23b25e4c5c383b5722ad483b8de7b7",
+      "sourceImageBytes": 2780446,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/power-static-01.receipt.json",
+      "beforeSha256": "98e5655d2d7f578364e4a749150da76bc7e5b48c9006f35f35094842c0202709",
+      "afterSha256": "b84aec2cd78c5094ef8f916ded037a7cc9afce73dee6e03f834035696698e6f6",
+      "sourceImageSha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "sourceImageBytes": 2089753,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/production-heat-03.receipt.json",
+      "beforeSha256": "a9758a9435c415b74ec2c9b337725d824204f7438665f0d006211f703568ca71",
+      "afterSha256": "d2cac3b8b851cfec93dfbcd9f842d9d475bfbdff0bb8c8b62bb31c412892319a",
+      "sourceImageSha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "sourceImageBytes": 2508214,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/production-processors-02.receipt.json",
+      "beforeSha256": "e35348f4cbece1dd4f5cc4983b20fdec4db9097ed3457174b5f99f467ea4cabe",
+      "afterSha256": "7021dad0825f0c389a09d98e673a5bb8563fbbcfa5ff8139968e64d1838e6dd4",
+      "sourceImageSha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "sourceImageBytes": 3070491,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/production-serpulo-01.receipt.json",
+      "beforeSha256": "f207785f543bef427aa86e5ee5dce82a7f932ea4c82c595f7ecd38a956980c5d",
+      "afterSha256": "7ecbb0e3bfb8ba0350d5c21ef7809cb3aa6c4c3a8641bba214e2959b2c72a179",
+      "sourceImageSha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "sourceImageBytes": 2915346,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/sandbox-world-final-01.receipt.json",
+      "beforeSha256": "61db236f4a1b2d5989054796dbb1f029c5c9cf1424a89b979f0bbef329731955",
+      "afterSha256": "48f12bf60a0320e50f8f4e7cd398ac1bf4ffb19fbbf453e924b4f8fb09351cde",
+      "sourceImageSha256": "dc3465a9192509fb4a5e783c338f9e1b5e5193a550ae56498942866d2976d729",
+      "sourceImageBytes": 2348911,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/storage-cores-01.receipt.json",
+      "beforeSha256": "9240243f1bf7845974e12c2c7f215fc91618a240ed9a2c746269a1f93bd3a72d",
+      "afterSha256": "3694b34525d2502a4fd722c59b675214f43592be5f308517b985c1c61428fa10",
+      "sourceImageSha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "sourceImageBytes": 2578533,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/support-defense-01.receipt.json",
+      "beforeSha256": "ae9dd918f0bf8a161713e14b606bcf8096c326a9b152abafdd93a144188625d1",
+      "afterSha256": "3412ec51f946c7848f193187e267e8ca754d85484d59dd8c5ad48b6e5eabf5e5",
+      "sourceImageSha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "sourceImageBytes": 2155422,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/unit-factories-01.receipt.json",
+      "beforeSha256": "139979070dc9e239f5652558ba3ff09eae99eb3aed0da78346d382d2476d72e4",
+      "afterSha256": "6307ec190cc7fce42e7cf142f10c8b1453084cf7165b933a0463593db4954712",
+      "sourceImageSha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "sourceImageBytes": 2570870,
+      "sourcePngDeleted": false
+    },
+    {
+      "file": "full-game/blocks/records/unit-factories-02.receipt.json",
+      "beforeSha256": "34d01efc4396a7789a4e6e29a21c36da03c7789261f4dc38dc8eb4f8d53bc80e",
+      "afterSha256": "2b1aba25388eaab9e88d5100f901aa48cdf5662cddc3c4c6161e83486a495bc8",
+      "sourceImageSha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "sourceImageBytes": 2652539,
+      "sourcePngDeleted": false
+    }
+  ]
+}

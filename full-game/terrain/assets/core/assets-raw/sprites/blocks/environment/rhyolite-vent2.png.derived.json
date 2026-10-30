@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/rhyolite-vent2.png",
+  "sha256": "1dd7b992c67ffb4f0b593c4872255a448ce487740e22ee976e3b4422eb2aff0a",
+  "createdAt": "2026-10-26T17:07:05.113999+00:00",
+  "kind": "derived_image",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/08-geothermal-vents.png",
+      "sha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290",
+      "generationRecord": "full-game/terrain/source/08-geothermal-vents.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      344,
+      342,
+      609,
+      600
+    ],
+    "nativeExtractedSize": [
+      265,
+      258
+    ],
+    "nativeComponents": 6,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.3471698113207547,
+    "exportPadding": 2,
+    "registeredCanvas": [
+      96,
+      96
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

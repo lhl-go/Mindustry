@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/precept-weapon.png",
+  "sha256": "bfaa7d847fd927642bd7ab9d8f99f6d1cf2fabd9fd058c9234f8bc837096a99e",
+  "width": 92,
+  "height": 150,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/precept-weapon.png",
+      "sha256": "4f5b7455ff5f2dbfb6c4aa2e9b63b7dee99df528162586a9d656b571279fb47c",
+      "generationRecord": "units/air-erekir-parts/assets/precept-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      309,
+      391
+    ],
+    "sourcePivot": [
+      170,
+      272
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      3,
+      1
+    ],
+    "sourceDimensions": [
+      341,
+      423
+    ],
+    "targetDimensions": [
+      92,
+      150
+    ],
+    "officialAlphaBounds": [
+      15,
+      5,
+      77,
+      111
+    ],
+    "scale": 0.30833333333333335,
+    "engineAnchorPx": [
+      46.0,
+      75.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/precept-weapon.png",
+    "gitBlobSha1": "a90cf9ad7385b931aa5266dc22cd3ae2a966447e",
+    "sha256": "ad97a896505291e550a120947d0cc05f128c8e126e05d95abbf421c48510eaa6"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

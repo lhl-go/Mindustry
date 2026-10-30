@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/boulder2.png",
+  "sha256": "c7731fb66042b711153052f4397aff2e9f5a6eb4b43187af4d08dc1c5aeeefe9",
+  "size": [
+    234,
+    206
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/16-boulder-props.png",
+      "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+      "generationRecord": "full-game/terrain/source/16-boulder-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    271,
+    36,
+    505,
+    242
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

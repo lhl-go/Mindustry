@@ -1,0 +1,42 @@
+{
+  "region": "lancer",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lancer.png",
+  "sha256": "a46502ca60386be8a01c6ffd80e5d490e9e7c460b819389f07bfec28c2231bac",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.102261+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/lancer.png",
+      "sha256": "d930ebc246767d20ed22968d8b9583b302b3e35f3d350aa6ba0c7fd4ddd4a8f3",
+      "record": "full-game/root-turrets/masters/lancer.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lancer.png",
+      "sha256": "5d9046bb88be367d3872bc940feef212bd57a2e3b25944a570266e2210e8d480",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      7,
+      5,
+      57,
+      60
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      367,
+      350
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

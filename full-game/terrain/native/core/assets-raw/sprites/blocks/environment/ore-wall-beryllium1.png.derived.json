@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-wall-beryllium1.png",
+  "sha256": "dc4252b3cd25f763ebf602acdb2b4b8e494744c10db31c13992a9a73aaaecaee",
+  "size": [
+    263,
+    228
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/11-advanced-ore-overlays.png",
+      "sha256": "99493f4fdd10bf12344e1a253854ed50c9f39af5f28f4c70a9d04d54c3cc46af",
+      "generationRecord": "full-game/terrain/source/11-advanced-ore-overlays.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    28,
+    632,
+    291,
+    860
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

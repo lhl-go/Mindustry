@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-cell.png",
+  "sha256": "409e9f6d322477ca4752781718d634fb1fe613601e6edda3b8648874be26108d",
+  "width": 56,
+  "height": 56,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/nova.png",
+      "sha256": "099bb7fde7813afc71ff145bbe1bda27a9fc24dbbc93b40af32ffdcea1607b75",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/nova.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "nova",
+    "baseCanvas": [
+      56,
+      56
+    ],
+    "outputCanvas": [
+      56,
+      56
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/nova-cell.png",
+    "gitBlobSha1": "f690a34497d24a1d6277f554a69ceddafe794aad",
+    "sha256": "0e0e1a004a5f390bfb70b15889c64241940138e442ddc865a1888bd8c7f9c10f"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

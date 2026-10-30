@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/flux-reactor-bottom.png",
+  "sourceGitBlob": "45a8dc833165d2becc9402bdcd2ff7b274a7f358",
+  "sourceSha256": "db779287e0c53b0e583e1f20245f1678fdd9e8be3efefe060bea9477838084be",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "flux-reactor-bottom",
+  "blockId": "flux-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-bottom.png",
+  "sha256": "083c2ab07ab6fd1cb55e6e716c89c497c2a92fed280c982c7961d24b7c9d2944",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-bottom.png",
+  "engineSha256": "083c2ab07ab6fd1cb55e6e716c89c497c2a92fed280c982c7961d24b7c9d2944",
+  "nativeFile": "full-game/blocks/masters/flux-reactor.png",
+  "nativeSha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1",
+  "nativeSize": [
+    374,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/flux-reactor.png",
+      "sha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/flux-reactor-bottom.png",
+      "sha256": "db779287e0c53b0e583e1f20245f1678fdd9e8be3efefe060bea9477838084be"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

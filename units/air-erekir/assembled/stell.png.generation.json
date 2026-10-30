@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/stell.png",
+  "sha256": "72bf45b611850daa5077307965ff237b1dca068e2c2fb91fe5d03c3aa1041759",
+  "width": 435,
+  "height": 439,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/stell-body.png",
+      "sha256": "1d9a2b7aa4c71986478fc008bafc6d5a4448b3e4026c9a330ab8f61b56aafa3b",
+      "generationRecord": "units/air-erekir/layers/stell-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/stell-weapon.png",
+      "sha256": "a7a88552ae0f56ee085c31330eeb189d7996962d2cf5e0a174ac55ec84ec6b3d",
+      "generationRecord": "units/air-erekir-parts/assets/stell-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/stell-body.png",
+        "role": "body",
+        "region": "stell",
+        "anchorPixels": [
+          218,
+          242
+        ],
+        "scale": 1,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          201.5,
+          180.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/stell-weapon.png",
+        "role": "weapon",
+        "region": "stell-weapon",
+        "anchorPixels": [
+          218.0,
+          223.95
+        ],
+        "scale": 0.9926108374384236,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          134,
+          224
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

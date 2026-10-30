@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/duct-bridge.png",
+  "sha256": "fd8665990617bf785c8843b01476d33ca8beadb6ddf240b4f396921baf02c2e2",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1363,
+      382,
+      1586,
+      599
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      223,
+      217
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    255,
+    249
+  ],
+  "anchorPixels": [
+    127.5,
+    124.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

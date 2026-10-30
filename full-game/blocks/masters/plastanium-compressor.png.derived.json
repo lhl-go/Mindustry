@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/plastanium-compressor.png",
+  "sha256": "6cc1997b0c00bb622d0c38c4ed3336cfdaf6119e52956ffa94e19ece1fd23605",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-serpulo-01.png",
+      "sha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "generationRecord": "full-game/blocks/records/production-serpulo-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      427,
+      367,
+      737,
+      669
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      310,
+      302
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    342,
+    334
+  ],
+  "anchorPixels": [
+    171.0,
+    167.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

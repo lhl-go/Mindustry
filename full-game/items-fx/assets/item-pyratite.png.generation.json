@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/02-refined-materials.png",
+      "sha256": "9080234a953266c55b672946700d872f2a4fd7d2dfac354b85d9795ab0cf9958",
+      "generationRecord": "full-game/items-fx/source/02-refined-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      17,
+      40,
+      423,
+      403
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-pyratite.png",
+  "sha256": "0500df01eb067d4192b3ba9ee4e6d9bc3f8915de4113a136ab01e2195d082a20",
+  "width": 438,
+  "height": 395,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.854872+00:00"
+}

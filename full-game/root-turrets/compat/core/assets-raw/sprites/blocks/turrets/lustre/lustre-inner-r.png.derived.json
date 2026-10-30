@@ -1,0 +1,44 @@
+{
+  "region": "lustre-inner-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-r.png",
+  "sha256": "b0c54f2e1391b1aab27365fdf8bd099683b4a50a9905681914c66d9ccd8dd76f",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.328355+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/lustre-inner-l.png",
+      "sha256": "32f2b6900b65067eaad271b04fbe28a2caa9d2c6223c682defead630df2e748b",
+      "record": "full-game/root-turrets/masters/lustre-inner-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-inner-r.png",
+      "sha256": "a2e586bbbf60aaacf223b096b241b72930f0e641c1f60fdd834784804cb7a6ec",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-inner-l.png",
+      "sha256": "0f2d14b0bfcce9595616667c8878ebdf67f053273978ebbee8729508d9123c91",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      64,
+      15,
+      90,
+      66
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

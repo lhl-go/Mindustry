@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-fissile-matter.png",
+  "sha256": "fc144e64af9b1b4c077320eadc6c26c0d0875c9711e0629eb9c60581cd464bb8",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-fissile-matter.png",
+      "sha256": "c065ef05d6d199a00dfb368962314b6158d211e3c808bc9316e25f6a62c06b12",
+      "generationRecord": "full-game/items-fx/assets/item-fissile-matter.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

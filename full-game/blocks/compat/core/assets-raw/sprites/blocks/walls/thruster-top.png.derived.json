@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/thruster-top.png",
+  "sourceGitBlob": "0a6bf7f6166f0d3e266fcaaa99162fbce9495cfb",
+  "sourceSha256": "1889f76445ceffb53b290d89e351c76ea14e083588646fe0da6c669358117700",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "thruster-top",
+  "blockId": "thruster",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thruster-top.png",
+  "sha256": "52db8e78dc084a00299b4ea7295f5e8bc16cfd870ccfd34732f0b3300b9f3e94",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thruster-top.png",
+  "engineSha256": "52db8e78dc084a00299b4ea7295f5e8bc16cfd870ccfd34732f0b3300b9f3e94",
+  "nativeFile": "full-game/blocks/masters-derived/thruster-top.png",
+  "nativeSha256": "3e7e8e4db475e69918de342c80cec040359e22661f4959464e032392b3fda01d",
+  "nativeSize": [
+    276,
+    342
+  ],
+  "sourceAlphaBounds": [
+    32,
+    20,
+    128,
+    108
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "thruster-top",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/thruster-top.png",
+      "sha256": "3e7e8e4db475e69918de342c80cec040359e22661f4959464e032392b3fda01d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/thruster-top.png",
+      "sha256": "1889f76445ceffb53b290d89e351c76ea14e083588646fe0da6c669358117700"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thruster-top.png.derived.json"
+}

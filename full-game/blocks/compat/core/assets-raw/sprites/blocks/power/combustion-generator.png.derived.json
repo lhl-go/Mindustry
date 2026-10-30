@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/combustion-generator.png",
+  "sourceGitBlob": "d2c563d838c72354f8937ae0227774736582c07c",
+  "sourceSha256": "497afe2a6d294c3084dff3d51d165df334c77fe767369ea38ae5f49ce6c5d119",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "combustion-generator",
+  "blockId": "combustion-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator.png",
+  "sha256": "2f11317dc109ddc7be3d723424bdb23005cc6d6c505afe6e01fa878ae4447b8d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator.png",
+  "engineSha256": "2f11317dc109ddc7be3d723424bdb23005cc6d6c505afe6e01fa878ae4447b8d",
+  "nativeFile": "full-game/blocks/masters/combustion-generator.png",
+  "nativeSha256": "ce2ab7eed2b6efe1194edc4f083f253196c9293bc7f282983c0922d691ed9804",
+  "nativeSize": [
+    301,
+    250
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/combustion-generator.png",
+      "sha256": "ce2ab7eed2b6efe1194edc4f083f253196c9293bc7f282983c0922d691ed9804"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/combustion-generator.png",
+      "sha256": "497afe2a6d294c3084dff3d51d165df334c77fe767369ea38ae5f49ce6c5d119"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

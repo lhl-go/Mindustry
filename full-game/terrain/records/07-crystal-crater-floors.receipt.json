@@ -1,0 +1,47 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Paint a NEW Mindustry flat ground texture atlas, refined bright Daoist Q hand-painted game materials. Attached references guide the quality/brushwork ONLY: no UI, text, characters, frames or symbols. Requested1536×3072 portrait, exact3 equal columns ×6 equal rows of square fullbleed cells, without borders or gutters. Uniform top-down orthographic diffuse lighting with no gradient or vignette; all18 cells opaque, quiet tileable edges. Distinct native patterns for each variant; preserve same average hue/lightness for same material.\nRead cells row by row left to right:\nRow1 all3: CRYSTALLINE STONE variants1/2/3, pale desaturated violet-gray stone with little lavender crystals embedded flush into ground, fine luminous lavender streaks, mostly matte walkable rock.\nRow2 first2: CRYSTALLINE STONE variants4/5 matching row1 but different grain/crystal placement. Row2 third: CRYSTAL FLOOR variant1, pale mint-cyan translucent faceted mineral surface, flat tightly packed angular crystal mosaic with delicate white highlights, NOT tall crystals.\nRow3 all3: CRYSTAL FLOOR variants2/3/4 matching row2 third, each independently painted flat mint-cyan crystal mosaic.\nRow4 all3: CRATER STONE variants1/2/3, pale natural cool gray limestone ground with small subtle shallow round impact depressions, soft dust rims.\nRow5 all3: CRATER STONE variants4/5/6, same gray material with different sparse small impact pits; no dominant huge craters, gameplay-readable.\nRow6 all3: FERRIC CRATERS variants1/2/3, rusty ocher brown iron-rich rock ground with sparse tiny soft shallow pits, scattered orange mineral grains.\nNo cell labels, no black seams, no vertical cliffs, no objects. Small irregular details and harmonious gentle contrast.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:58:17 UTC",
+  "returnedAt": "2026-10-26 16:59:25 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-4d887205-cb7d-4bd4-903b-4adc523ebf23.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "crystalline-stone1",
+    "crystalline-stone2",
+    "crystalline-stone3",
+    "crystalline-stone4",
+    "crystalline-stone5",
+    "crystal-floor1",
+    "crystal-floor2",
+    "crystal-floor3",
+    "crystal-floor4",
+    "crater-stone1",
+    "crater-stone2",
+    "crater-stone3",
+    "crater-stone4",
+    "crater-stone5",
+    "crater-stone6",
+    "ferric-craters1",
+    "ferric-craters2",
+    "ferric-craters3"
+  ]
+}

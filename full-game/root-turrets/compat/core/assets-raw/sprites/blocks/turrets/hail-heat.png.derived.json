@@ -1,0 +1,35 @@
+{
+  "region": "hail-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/hail-heat.png",
+  "sha256": "68766075661279a6104b17224c88f779909933b6d1f7a4779f79af7e74561eb8",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.445710+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/hail-heat.png",
+      "sha256": "2d986a577c79e608fbcfb97d23d2b0f1d04f6a921b7c596608b3f01046ba543d",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/hail.png",
+      "sha256": "508d648bcc579b9035107459fc5294b3d114b170ec5d2ee0885a37558e1ea4a8",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/hail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "hail"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 72
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

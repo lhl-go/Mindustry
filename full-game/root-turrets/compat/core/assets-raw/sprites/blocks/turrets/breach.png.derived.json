@@ -1,0 +1,42 @@
+{
+  "region": "breach",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/breach.png",
+  "sha256": "bf0509592858e46afeaf7c789ad03b5e926a403ac0a9a5e16b81bc51096e6b48",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.040218+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/breach.png",
+      "sha256": "103c6292a50bf411c918b6cfc9081028b781fb1d8a03f97d1848034f62f26300",
+      "record": "full-game/root-turrets/masters/breach.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/breach.png",
+      "sha256": "6c39689632d207df06a59afa1bef6a6202ddb02a468575085a2e152079995fdd",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      6,
+      6,
+      90,
+      92
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      317,
+      344
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

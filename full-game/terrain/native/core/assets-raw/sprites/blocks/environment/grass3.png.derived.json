@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/grass3.png",
+  "sha256": "ec31f4951e04ffae5ab1b12e7a3fecdf18043b2a485ea9b8006683b8dbd88a5c",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/02-cold-living-floors.png",
+      "sha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5",
+      "generationRecord": "full-game/terrain/source/02-cold-living-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    889,
+    885,
+    1181
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

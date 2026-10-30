@@ -1,0 +1,38 @@
+{
+  "region": "salvo-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-preview.png",
+  "sha256": "f9290e789997e1a35039a037bfe326201aea4957905d6e56e83230ba89136ff9",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.602085+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-l.png",
+      "sha256": "596874bbfac54f130bfb50f819d2a86e4db7e17050e06d61ab097d7d4341896e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-r.png",
+      "sha256": "596874bbfac54f130bfb50f819d2a86e4db7e17050e06d61ab097d7d4341896e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel.png",
+      "sha256": "2d9e68d3f5a34283754263e9fa687cd6ce672d9a576670f3af90c923282674bb",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

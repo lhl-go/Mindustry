@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-liquid-container.png",
+  "sha256": "f02caa8b92d0e7331db1ff33eb2f9144f34e7ababf1815a2e66b940a08f48c45",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      973,
+      651,
+      1265,
+      941
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      292,
+      290
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    324,
+    322
+  ],
+  "anchorPixels": [
+    162.0,
+    161.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

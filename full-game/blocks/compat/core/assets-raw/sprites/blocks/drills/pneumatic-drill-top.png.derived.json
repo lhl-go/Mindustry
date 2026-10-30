@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/pneumatic-drill-top.png",
+  "sourceGitBlob": "bf18f2d072cceda99356435ef947144d10e25acd",
+  "sourceSha256": "3da7650a63ef9cf4bf5c20b0d76d6e018b7d2870ca1e430c1b9b28212a35e215",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "pneumatic-drill-top",
+  "blockId": "pneumatic-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-top.png",
+  "sha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-top.png",
+  "engineSha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "nativeFile": "full-game/units/parts/joint-cap-small.png",
+  "nativeSha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+  "nativeSize": [
+    372,
+    283
+  ],
+  "sourceAlphaBounds": [
+    16,
+    16,
+    48,
+    48
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      16,
+      16,
+      48,
+      48
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-small.png",
+      "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/pneumatic-drill-top.png",
+      "sha256": "3da7650a63ef9cf4bf5c20b0d76d6e018b7d2870ca1e430c1b9b28212a35e215"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/01-minerals.png",
+      "sha256": "d25839eaf33a78a4b80feeb49e36b734c112086ceb6cd2d51e99069dfe527dc5",
+      "generationRecord": "full-game/items-fx/source/01-minerals.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      31,
+      112,
+      435,
+      366
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-sand.png",
+  "sha256": "90411686b945c04ceefc3adaf5117dd4bf34fd8a4a7d2cc525e702fffde74ee5",
+  "width": 436,
+  "height": 286,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.633417+00:00"
+}

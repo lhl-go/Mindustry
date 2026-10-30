@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/tank-assembler-side1.png",
+  "sourceGitBlob": "6ea08597e92c1a35f8160a8699ccea7226cdeb31",
+  "sourceSha256": "4ba1cd0d4e0a417eb653350fd8d347da476bb6d166a48cd77d98b9e964b0570b",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "tank-assembler-side1",
+  "blockId": "tank-assembler",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-assembler-side1.png",
+  "sha256": "794428e25d5f19851ebca33829bd2450aa77b2a79f930f8fb32ed6dba52216f9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-assembler-side1.png",
+  "engineSha256": "794428e25d5f19851ebca33829bd2450aa77b2a79f930f8fb32ed6dba52216f9",
+  "nativeFile": "full-game/blocks/masters/tank-assembler.png",
+  "nativeSha256": "3b5adef49014b65b4a7433a10ac033c0b6e41360270a0281cd98a111e8f65ddd",
+  "nativeSize": [
+    357,
+    351
+  ],
+  "sourceAlphaBounds": [
+    128,
+    34,
+    160,
+    126
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "rotation-selected assembler side; runtime controls side1/side2 and orientation",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tank-assembler.png",
+      "sha256": "3b5adef49014b65b4a7433a10ac033c0b6e41360270a0281cd98a111e8f65ddd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/tank-assembler-side1.png",
+      "sha256": "4ba1cd0d4e0a417eb653350fd8d347da476bb6d166a48cd77d98b9e964b0570b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-assembler-side1.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-assembler-side1.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tank-assembler.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

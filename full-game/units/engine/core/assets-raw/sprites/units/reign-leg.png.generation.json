@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-leg.png",
+  "sha256": "a0870d58a0fc6d18e1517f71fe5d40fa32f130e2132c25f2f6060129232e6c73",
+  "width": 152,
+  "height": 124,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+      "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      296,
+      498
+    ],
+    "sourcePivot": [
+      156.0,
+      83.48
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      104,
+      18
+    ],
+    "sourceDimensions": [
+      312,
+      514
+    ],
+    "targetDimensions": [
+      152,
+      124
+    ],
+    "officialAlphaBounds": [
+      104,
+      11,
+      150,
+      104
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      76.0,
+      62.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/reign-leg.png",
+    "gitBlobSha1": "1bf212125e2908e1c17c4170564cd0aba2eeafbe",
+    "sha256": "598a7993fbd817c8d82b2de3460f9fa076a43f85ad965f99070ccdf04ea944ca"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/05-gases-teams.png",
+      "sha256": "3d582e88f6ddd9b5148615345dfcba0f3101d02de9e45a1d265bd43556348110",
+      "generationRecord": "full-game/items-fx/source/05-gases-teams.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      14,
+      3,
+      434,
+      406
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/team-crux.png",
+  "sha256": "39f1dfa3f3e7bfc549a8bb3521bcd54b14d1bcb5243f358a6169b1808cac1fe0",
+  "width": 452,
+  "height": 435,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.300950+00:00"
+}

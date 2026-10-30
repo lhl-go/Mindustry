@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/atmospheric-concentrator.png",
+  "sha256": "5b161cfd49997c863ba67c846b0e8e042cfd8abcce9c55c8189eb51648985784",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      35,
+      675,
+      368,
+      995
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      333,
+      320
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    365,
+    352
+  ],
+  "anchorPixels": [
+    182.5,
+    176.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

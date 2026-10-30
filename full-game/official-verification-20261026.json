@@ -1,0 +1,14 @@
+{
+  "checkedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "sources": [
+    {"url":"https://openai.com/index/introducing-chatgpt-images-2-5/","finding":"Images 2.5 product release remains available."},
+    {"url":"https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst","finding":"Sunburst listed as most capable image model and quality max supported."},
+    {"url":"https://developers.openai.com/api/docs/models/all","finding":"Model catalog lists Sunburst and Flare with no newer image family found during this check."}
+  ],
+  "configTarget": {"model":"gpt-image-2.5-sunburst","quality":"max"},
+  "actualHostModel": null,
+  "actualHostQuality": null,
+  "reason": "Built-in image_gen does not expose explicit model or quality selection or confirmed returned metadata. Targets are not execution proof.",
+  "guidanceAvailability": {"qdao_ui_redesign_v5/UI_SPEC.md":"missing; not restored from Git", "designs/mail-ui-v1/01-mail-event.png":"exists and viewed", "designs/team-ui-v2/team-ui-v2.png":"exists and viewed", "fallback":"Current AGENTS.md plus current confirmed designs/mail-ui-v1/UI_SPEC.md and actual reference images."}
+}

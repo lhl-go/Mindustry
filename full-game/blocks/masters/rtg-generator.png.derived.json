@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/rtg-generator.png",
+  "sha256": "add2f6536eeab1c5870bd18482981771666907b61eb80f792f53502998b7208c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      963,
+      953,
+      1221,
+      1198
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      258,
+      245
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    290,
+    277
+  ],
+  "anchorPixels": [
+    145.0,
+    138.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

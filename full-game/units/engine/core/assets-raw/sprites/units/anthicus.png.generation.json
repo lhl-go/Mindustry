@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus.png",
+  "sha256": "a1075e30fe2f12a30454d87f4068783e7fbc016ace8d941d9aa58fe5f77bb4e1",
+  "width": 126,
+  "height": 127,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/anthicus-body.png",
+      "sha256": "32fb89c371b6357b308367def1e16419bb7ad223fb5255d972d44aa133d2f6a0",
+      "generationRecord": "units/air-erekir/layers/anthicus-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      282,
+      499
+    ],
+    "sourcePivot": [
+      149.0,
+      257.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      30,
+      4
+    ],
+    "sourceDimensions": [
+      298,
+      515
+    ],
+    "targetDimensions": [
+      126,
+      127
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      122,
+      123
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      63.0,
+      63.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/anthicus.png",
+    "gitBlobSha1": "a764180aab2f0560ac99569a9202477e42e08cd2",
+    "sha256": "88b514c2a2abf8303e1f41fe4d537db2fb245d4b90f102b04ba0080d64b292b9"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

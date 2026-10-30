@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-heater-heat.png",
+  "sourceGitBlob": "e6b68412dfda38d1feb48afd4f06b3c2e542d0ff",
+  "sourceSha256": "bf81132fb5c581b97595599887e738b4c7832e18bf70870307e8c4b08eff5dae",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "slag-heater-heat",
+  "blockId": "slag-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-heat.png",
+  "sha256": "17e371fc33ed30f3eca5de006988f22e901fd544386260d82d3c2929a0cea7b4",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-heat.png",
+  "engineSha256": "17e371fc33ed30f3eca5de006988f22e901fd544386260d82d3c2929a0cea7b4",
+  "nativeFile": "full-game/blocks/masters/slag-heater.png",
+  "nativeSha256": "12c07aaf261813ef08fae1dcbbee0e6f6b77ea2e6ee676f5b0e8eff571b2c29a",
+  "nativeSize": [
+    331,
+    395
+  ],
+  "sourceAlphaBounds": [
+    49,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-heater.png",
+      "sha256": "12c07aaf261813ef08fae1dcbbee0e6f6b77ea2e6ee676f5b0e8eff571b2c29a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-heater-heat.png",
+      "sha256": "bf81132fb5c581b97595599887e738b4c7832e18bf70870307e8c4b08eff5dae"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-heater-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

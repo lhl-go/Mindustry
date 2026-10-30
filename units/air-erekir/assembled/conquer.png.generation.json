@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/conquer.png",
+  "sha256": "d402dd07f5760865f76e58e5f5ae66594ce6c4daf82cc832f778a52971da19f0",
+  "width": 510,
+  "height": 484,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/conquer-body.png",
+      "sha256": "d763d22fc2cef137013f04c464954180ee66473a01fbe476164561b74cb21c6b",
+      "generationRecord": "units/air-erekir/layers/conquer-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+      "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+      "generationRecord": "units/air-erekir-parts/assets/conquer-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/conquer-body.png",
+        "role": "body",
+        "region": "conquer",
+        "anchorPixels": [
+          255,
+          242
+        ],
+        "scale": 0.8703703703703703,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          270.0,
+          255.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+        "role": "weapon",
+        "region": "conquer-weapon",
+        "anchorPixels": [
+          255.0,
+          233.12
+        ],
+        "scale": 0.7898071625344353,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          215,
+          265
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

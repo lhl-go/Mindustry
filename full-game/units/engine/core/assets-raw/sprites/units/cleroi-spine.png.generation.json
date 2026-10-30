@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-spine.png",
+  "sha256": "641ecef8723476b86ada7f0386d169652a5995b5aca0718ab774ddaee8e7bbea",
+  "width": 40,
+  "height": 17,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      21,
+      5
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      40,
+      17
+    ],
+    "officialAlphaBounds": [
+      15,
+      5,
+      36,
+      12
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      20.0,
+      8.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cleroi-spine.png",
+    "gitBlobSha1": "6a42960bf91bb95629c52bdc730a8c35b5448a27",
+    "sha256": "cc85141dca6f0d28eb81dc78d52be951062a0041dee13b8070cf22753ab1a66b"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/separator.png",
+  "sha256": "11eeaa89e5d4782a1e7b5e2f1b22d6ca58f6316417bf1624278c5ccfc6ea058f",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      33,
+      47,
+      360,
+      335
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      327,
+      288
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    359,
+    320
+  ],
+  "anchorPixels": [
+    179.5,
+    160.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

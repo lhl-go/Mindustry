@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/conveyors/armored-conveyor-2-1.png",
+  "sourceGitBlob": "c1c73953acb39bf76a142d9575e07731f62d2062",
+  "sourceSha256": "181c514d2a93c493dda5a3df8d69b45cb4a2d68b881ba898e49480e5e60c8ff9",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "armored-conveyor-2-1",
+  "blockId": "armored-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/armored-conveyor-2-1.png",
+  "sha256": "44fbc563ad51963f75af447d194f032afd087fb7da9723465661458989a29c33",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/armored-conveyor-2-1.png",
+  "engineSha256": "44fbc563ad51963f75af447d194f032afd087fb7da9723465661458989a29c33",
+  "nativeFile": "full-game/blocks/masters/armored-conveyor-shape-2.png",
+  "nativeSha256": "6aa251941bb9eac1408f52bc99a89b8c76a8a4b72a2bbe8c6fe465126b36056f",
+  "nativeSize": [
+    321,
+    256
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 2,
+    "animationFrame": 1,
+    "topLayerUsesOriginalTransparentChannels": false,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/armored-conveyor-shape-2.png",
+      "sha256": "6aa251941bb9eac1408f52bc99a89b8c76a8a4b72a2bbe8c6fe465126b36056f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/conveyors/armored-conveyor-2-1.png",
+      "sha256": "181c514d2a93c493dda5a3df8d69b45cb4a2d68b881ba898e49480e5e60c8ff9"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/armored-conveyor-2-1.png.derived.json"
+}

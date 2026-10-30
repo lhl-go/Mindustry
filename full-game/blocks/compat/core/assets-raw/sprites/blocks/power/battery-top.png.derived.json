@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/battery-top.png",
+  "sourceGitBlob": "b1338da34f5cefa50b5c67d6eb6f7cd640c4b7c6",
+  "sourceSha256": "d6822715430a871457f4a1634302b904d0662cfa893eaf092171bdb77f68057a",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "battery-top",
+  "blockId": "battery",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-top.png",
+  "sha256": "e66bc42ca01def591c847da328f5d67003ec0585e1f1ed2d0769b5965c05d6ba",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-top.png",
+  "engineSha256": "e66bc42ca01def591c847da328f5d67003ec0585e1f1ed2d0769b5965c05d6ba",
+  "nativeFile": "full-game/blocks/masters/battery.png",
+  "nativeSha256": "d300cc5d92189f8442ec361bf2b208a99bf9341bed17a2a95a8b031f1cdc974b",
+  "nativeSize": [
+    218,
+    223
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/battery.png",
+      "sha256": "d300cc5d92189f8442ec361bf2b208a99bf9341bed17a2a95a8b031f1cdc974b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/battery-top.png",
+      "sha256": "d6822715430a871457f4a1634302b904d0662cfa893eaf092171bdb77f68057a"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/battery-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

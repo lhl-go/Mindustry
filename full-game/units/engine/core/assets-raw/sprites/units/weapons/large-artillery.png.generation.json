@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-artillery.png",
+  "sha256": "db39ba9ceffc8e3a39630e8f325d677a699e6586f71a02ac43ce0f5c4c0e5fb6",
+  "width": 48,
+  "height": 66,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/large-artillery.png",
+      "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+      "generationRecord": "units/air-erekir-parts/assets/large-artillery.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      316,
+      357
+    ],
+    "sourcePivot": [
+      174,
+      232
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      1
+    ],
+    "sourceDimensions": [
+      348,
+      389
+    ],
+    "targetDimensions": [
+      48,
+      66
+    ],
+    "officialAlphaBounds": [
+      5,
+      4,
+      43,
+      52
+    ],
+    "scale": 0.16,
+    "engineAnchorPx": [
+      24.0,
+      33.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/large-artillery.png",
+    "gitBlobSha1": "b5f6577bed257e15b487828454ede98a8ec38a01",
+    "sha256": "06d24c2bd8b12535ac2348f0dd5c5d11c7d3a7b26cdc3976b08d3178d3b4ff35"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,6018 @@
+{
+  "createdAt": "2026-10-26T10:08:07.992Z",
+  "selected": "component",
+  "filters": [],
+  "renderer": "Chromium 156.0.8078.47",
+  "operation": "Native HTML text and controls rendered over source raster artwork; not AI generation or native-image upscaling.",
+  "runtimeIntegrationVerified": false,
+  "sources": [
+    {
+      "file": "ui/preview/index.html",
+      "sha256": "5fbbe8c44b74b2dc069f36ab1784eaa3878a575321072c8188f4a1ff4e99b3fd"
+    },
+    {
+      "file": "ui/preview/data.js",
+      "sha256": "c86e86bca4d8943c923c431fefbef595fd362af236c63663879599a69b33eee3"
+    },
+    {
+      "file": "ui/preview/preview.js",
+      "sha256": "afcebaf57950fc0647091d3f3e4ff095b5c3bfbeaf7cd1ed5a028f6584209b45"
+    },
+    {
+      "file": "ui/preview/preview.css",
+      "sha256": "38a5dd9f5f79e641fe6cabc2e173efef7574407486c6d5ac134747536c785791"
+    },
+    {
+      "file": "ui/preview/screen-variants.js",
+      "sha256": "9dc43e7c5df1023663ccc03475af1783c190d15f8c998845886fa82f618be1ba"
+    },
+    {
+      "file": "ui/preview/screen-variants.css",
+      "sha256": "e2614bb1548320bc5088b4b1b71895dd26380569e1f988b47d926c66b9efa0e6"
+    },
+    {
+      "file": "ui/preview/dialog-component-variants.js",
+      "sha256": "62c3f52967e02f94220be650721d15463f3e6456d6de19306774b0df2b31a0f9"
+    },
+    {
+      "file": "ui/preview/dialog-component-variants.css",
+      "sha256": "ef8b12f06cd8d2965a292cfc4961027357a3939e4393c7e8030f19246173fadf"
+    }
+  ],
+  "records": [
+    {
+      "group": "C-01",
+      "stateIndex": 0,
+      "state": "普通窗",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-01&state=0&device=desktop",
+      "file": "ui/states/C-01--s00--desktop.png",
+      "sha256": "9444b7d661f9ec331469f074ec9172a7b3c1726ba7734b64f6c6ae6f46312cdd",
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 0,
+          "state": "普通窗",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 1,
+      "state": "全屏窗",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-01&state=1&device=desktop",
+      "file": "ui/states/C-01--s01--desktop.png",
+      "sha256": "9444b7d661f9ec331469f074ec9172a7b3c1726ba7734b64f6c6ae6f46312cdd",
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 1,
+          "state": "全屏窗",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 2,
+      "state": "标题／分隔线",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-01&state=2&device=desktop",
+      "file": "ui/states/C-01--s02--desktop.png",
+      "sha256": "9444b7d661f9ec331469f074ec9172a7b3c1726ba7734b64f6c6ae6f46312cdd",
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 2,
+          "state": "标题／分隔线",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 3,
+      "state": "关闭",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-01&state=3&device=desktop",
+      "file": "ui/states/C-01--s03--desktop.png",
+      "sha256": "9444b7d661f9ec331469f074ec9172a7b3c1726ba7734b64f6c6ae6f46312cdd",
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 3,
+          "state": "关闭",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 0,
+      "state": "普通窗",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-01&state=0&device=mobile",
+      "file": "ui/states/C-01--s00--mobile.png",
+      "sha256": "2e1929351237b04d569c2821b0aa4dd4b93d0d6493f09cbecf2210877f728a41",
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 0,
+          "state": "普通窗",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 1,
+      "state": "全屏窗",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-01&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 1,
+          "state": "全屏窗",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 2,
+      "state": "标题／分隔线",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-01&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 2,
+          "state": "标题／分隔线",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-01",
+      "stateIndex": 3,
+      "state": "关闭",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-01&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-01",
+          "stateIndex": 3,
+          "state": "关闭",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 66,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 0,
+      "state": "up",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-02&state=0&device=desktop",
+      "file": "ui/states/C-02--s00--desktop.png",
+      "sha256": "08b6ba653302b94be0a75560e5d063adce6d15df08846643460e87a06537186b",
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 0,
+          "state": "up",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 1,
+      "state": "over",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-02&state=1&device=desktop",
+      "file": "ui/states/C-02--s01--desktop.png",
+      "sha256": "08b6ba653302b94be0a75560e5d063adce6d15df08846643460e87a06537186b",
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 1,
+          "state": "over",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 2,
+      "state": "down",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-02&state=2&device=desktop",
+      "file": "ui/states/C-02--s02--desktop.png",
+      "sha256": "08b6ba653302b94be0a75560e5d063adce6d15df08846643460e87a06537186b",
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 2,
+          "state": "down",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 3,
+      "state": "disabled",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-02&state=3&device=desktop",
+      "file": "ui/states/C-02--s03--desktop.png",
+      "sha256": "08b6ba653302b94be0a75560e5d063adce6d15df08846643460e87a06537186b",
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 3,
+          "state": "disabled",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 0,
+      "state": "up",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-02&state=0&device=mobile",
+      "file": "ui/states/C-02--s00--mobile.png",
+      "sha256": "83aa674d09d9184b794fc8c557eac259446420b3b365fd336850eddc1bf02fad",
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 0,
+          "state": "up",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 1,
+      "state": "over",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-02&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 1,
+          "state": "over",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 2,
+      "state": "down",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-02&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 2,
+          "state": "down",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-02",
+      "stateIndex": 3,
+      "state": "disabled",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-02&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-02",
+          "stateIndex": 3,
+          "state": "disabled",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 42,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-03&state=0&device=desktop",
+      "file": "ui/states/C-03--s00--desktop.png",
+      "sha256": "fab15ed55652f670c881db62473272e3cbace6a489e1582072f7084050408127",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 1,
+      "state": "悬停",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-03&state=1&device=desktop",
+      "file": "ui/states/C-03--s01--desktop.png",
+      "sha256": "fab15ed55652f670c881db62473272e3cbace6a489e1582072f7084050408127",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 1,
+          "state": "悬停",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 2,
+      "state": "按下",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-03&state=2&device=desktop",
+      "file": "ui/states/C-03--s02--desktop.png",
+      "sha256": "fab15ed55652f670c881db62473272e3cbace6a489e1582072f7084050408127",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 2,
+          "state": "按下",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 3,
+      "state": "checked",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-03&state=3&device=desktop",
+      "file": "ui/states/C-03--s03--desktop.png",
+      "sha256": "fab15ed55652f670c881db62473272e3cbace6a489e1582072f7084050408127",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 3,
+          "state": "checked",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 4,
+      "state": "disabled",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-03&state=4&device=desktop",
+      "file": "ui/states/C-03--s04--desktop.png",
+      "sha256": "fab15ed55652f670c881db62473272e3cbace6a489e1582072f7084050408127",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 4,
+          "state": "disabled",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-03&state=0&device=mobile",
+      "file": "ui/states/C-03--s00--mobile.png",
+      "sha256": "7526f69980bdd8af82419f6dedefce6c7dc155dd18ab45bb4d68517d2f184342",
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 1,
+      "state": "悬停",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-03&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 1,
+          "state": "悬停",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 2,
+      "state": "按下",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-03&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 2,
+          "state": "按下",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 3,
+      "state": "checked",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-03&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 3,
+          "state": "checked",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-03",
+      "stateIndex": 4,
+      "state": "disabled",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-03&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-03",
+          "stateIndex": 4,
+          "state": "disabled",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 54,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-04&state=0&device=desktop",
+      "file": "ui/states/C-04--s00--desktop.png",
+      "sha256": "052c740c12beb5c8e9323a00567e043a3a18336dce48e8b3de1342d722829d98",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 1,
+      "state": "悬停",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-04&state=1&device=desktop",
+      "file": "ui/states/C-04--s01--desktop.png",
+      "sha256": "052c740c12beb5c8e9323a00567e043a3a18336dce48e8b3de1342d722829d98",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 1,
+          "state": "悬停",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 2,
+      "state": "按下",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-04&state=2&device=desktop",
+      "file": "ui/states/C-04--s02--desktop.png",
+      "sha256": "052c740c12beb5c8e9323a00567e043a3a18336dce48e8b3de1342d722829d98",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 2,
+          "state": "按下",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 3,
+      "state": "选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-04&state=3&device=desktop",
+      "file": "ui/states/C-04--s03--desktop.png",
+      "sha256": "052c740c12beb5c8e9323a00567e043a3a18336dce48e8b3de1342d722829d98",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 3,
+          "state": "选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 4,
+      "state": "禁用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-04&state=4&device=desktop",
+      "file": "ui/states/C-04--s04--desktop.png",
+      "sha256": "052c740c12beb5c8e9323a00567e043a3a18336dce48e8b3de1342d722829d98",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 4,
+          "state": "禁用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-04&state=0&device=mobile",
+      "file": "ui/states/C-04--s00--mobile.png",
+      "sha256": "834571954ebe1d60ea162cea3078541fc431720eb892352b6e5a5c2c55198b7a",
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 1,
+      "state": "悬停",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-04&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 1,
+          "state": "悬停",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 2,
+      "state": "按下",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-04&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 2,
+          "state": "按下",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 3,
+      "state": "选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-04&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 3,
+          "state": "选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-04",
+      "stateIndex": 4,
+      "state": "禁用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-04&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-04",
+          "stateIndex": 4,
+          "state": "禁用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 32,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 0,
+      "state": "正文",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-05&state=0&device=desktop",
+      "file": "ui/states/C-05--s00--desktop.png",
+      "sha256": "baba8d4c637c31dfec6dc0f153995173b3ad2b4f9107ce3051b4f8b3ee48d8e6",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 0,
+          "state": "正文",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 1,
+      "state": "标题",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-05&state=1&device=desktop",
+      "file": "ui/states/C-05--s01--desktop.png",
+      "sha256": "baba8d4c637c31dfec6dc0f153995173b3ad2b4f9107ce3051b4f8b3ee48d8e6",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 1,
+          "state": "标题",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 2,
+      "state": "说明",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-05&state=2&device=desktop",
+      "file": "ui/states/C-05--s02--desktop.png",
+      "sha256": "baba8d4c637c31dfec6dc0f153995173b3ad2b4f9107ce3051b4f8b3ee48d8e6",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 2,
+          "state": "说明",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 3,
+      "state": "错误",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-05&state=3&device=desktop",
+      "file": "ui/states/C-05--s03--desktop.png",
+      "sha256": "baba8d4c637c31dfec6dc0f153995173b3ad2b4f9107ce3051b4f8b3ee48d8e6",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 3,
+          "state": "错误",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 4,
+      "state": "mono",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-05&state=4&device=desktop",
+      "file": "ui/states/C-05--s04--desktop.png",
+      "sha256": "baba8d4c637c31dfec6dc0f153995173b3ad2b4f9107ce3051b4f8b3ee48d8e6",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 4,
+          "state": "mono",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 0,
+      "state": "正文",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-05&state=0&device=mobile",
+      "file": "ui/states/C-05--s00--mobile.png",
+      "sha256": "20572c760a63ede63bab7471775b74cae6ea298afdc1df79d788e55435d19dd7",
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 0,
+          "state": "正文",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 269,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 1,
+      "state": "标题",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-05&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 1,
+          "state": "标题",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 269,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 2,
+      "state": "说明",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-05&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 2,
+          "state": "说明",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 269,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 3,
+      "state": "错误",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-05&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 3,
+          "state": "错误",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 269,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-05",
+      "stateIndex": 4,
+      "state": "mono",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-05&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-05",
+          "stateIndex": 4,
+          "state": "mono",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 115,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 269,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 0,
+      "state": "默认",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=0&device=desktop",
+      "file": "ui/states/C-06--s00--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 0,
+          "state": "默认",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 1,
+      "state": "焦点",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=1&device=desktop",
+      "file": "ui/states/C-06--s01--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 1,
+          "state": "焦点",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 2,
+      "state": "选择",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=2&device=desktop",
+      "file": "ui/states/C-06--s02--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 2,
+          "state": "选择",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 3,
+      "state": "光标",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=3&device=desktop",
+      "file": "ui/states/C-06--s03--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 3,
+          "state": "光标",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 4,
+      "state": "禁用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=4&device=desktop",
+      "file": "ui/states/C-06--s04--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 4,
+          "state": "禁用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 5,
+      "state": "无效",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-06&state=5&device=desktop",
+      "file": "ui/states/C-06--s05--desktop.png",
+      "sha256": "63299a57fd27b1cc2d792107f5ed83815be2e852c52727a2d4d379b51bbff3b4",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 5,
+          "state": "无效",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 0,
+      "state": "默认",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=0&device=mobile",
+      "file": "ui/states/C-06--s00--mobile.png",
+      "sha256": "eb219121e3e288601face49b312815cf34bd541def7c4a89c1165c8b82ca7daf",
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 0,
+          "state": "默认",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 1,
+      "state": "焦点",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 1,
+          "state": "焦点",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 2,
+      "state": "选择",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 2,
+          "state": "选择",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 3,
+      "state": "光标",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 3,
+          "state": "光标",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 4,
+      "state": "禁用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 4,
+          "state": "禁用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-06",
+      "stateIndex": 5,
+      "state": "无效",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-06&state=5&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-06",
+          "stateIndex": 5,
+          "state": "无效",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 50,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 308,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 0,
+      "state": "未选",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-07&state=0&device=desktop",
+      "file": "ui/states/C-07--s00--desktop.png",
+      "sha256": "deb11e9bd56b6bb582ec74880384caadd9c2cb7688c106dd7d67938cb5989ed8",
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 0,
+          "state": "未选",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 1,
+      "state": "选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-07&state=1&device=desktop",
+      "file": "ui/states/C-07--s01--desktop.png",
+      "sha256": "deb11e9bd56b6bb582ec74880384caadd9c2cb7688c106dd7d67938cb5989ed8",
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 1,
+          "state": "选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 2,
+      "state": "禁用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-07&state=2&device=desktop",
+      "file": "ui/states/C-07--s02--desktop.png",
+      "sha256": "deb11e9bd56b6bb582ec74880384caadd9c2cb7688c106dd7d67938cb5989ed8",
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 2,
+          "state": "禁用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 0,
+      "state": "未选",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-07&state=0&device=mobile",
+      "file": "ui/states/C-07--s00--mobile.png",
+      "sha256": "07b456d64fa96be4fd5f8ef7482cdd9239378cefd3d4ec1ade16e6fe95b1290a",
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 0,
+          "state": "未选",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 1,
+      "state": "选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-07&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 1,
+          "state": "选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-07",
+      "stateIndex": 2,
+      "state": "禁用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-07&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-07",
+          "stateIndex": 2,
+          "state": "禁用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 35,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 0,
+      "state": "轨道",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-08&state=0&device=desktop",
+      "file": "ui/states/C-08--s00--desktop.png",
+      "sha256": "45656cfa94203cbc1b38d53c547c893eb86be07f17d0ea6afb9305ace104e436",
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 0,
+          "state": "轨道",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 1,
+      "state": "普通柄",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-08&state=1&device=desktop",
+      "file": "ui/states/C-08--s01--desktop.png",
+      "sha256": "45656cfa94203cbc1b38d53c547c893eb86be07f17d0ea6afb9305ace104e436",
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 1,
+          "state": "普通柄",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 2,
+      "state": "悬停柄",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-08&state=2&device=desktop",
+      "file": "ui/states/C-08--s02--desktop.png",
+      "sha256": "45656cfa94203cbc1b38d53c547c893eb86be07f17d0ea6afb9305ace104e436",
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 2,
+          "state": "悬停柄",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 3,
+      "state": "数值变化",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-08&state=3&device=desktop",
+      "file": "ui/states/C-08--s03--desktop.png",
+      "sha256": "45656cfa94203cbc1b38d53c547c893eb86be07f17d0ea6afb9305ace104e436",
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 3,
+          "state": "数值变化",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 0,
+      "state": "轨道",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-08&state=0&device=mobile",
+      "file": "ui/states/C-08--s00--mobile.png",
+      "sha256": "b191bb4a098988f82a4a75dda03ac3c25e5b7d671f0d763acf057bb1a446275c",
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 0,
+          "state": "轨道",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 1,
+      "state": "普通柄",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-08&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 1,
+          "state": "普通柄",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 2,
+      "state": "悬停柄",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-08&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 2,
+          "state": "悬停柄",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-08",
+      "stateIndex": 3,
+      "state": "数值变化",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-08&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-08",
+          "stateIndex": 3,
+          "state": "数值变化",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 47,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 0,
+      "state": "纵向",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-09&state=0&device=desktop",
+      "file": "ui/states/C-09--s00--desktop.png",
+      "sha256": "52db441aa42416b6c2c4a965cbfede38d97e673d5e6050747cba1ae2d48cf934",
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 0,
+          "state": "纵向",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 1,
+      "state": "横向",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-09&state=1&device=desktop",
+      "file": "ui/states/C-09--s01--desktop.png",
+      "sha256": "52db441aa42416b6c2c4a965cbfede38d97e673d5e6050747cba1ae2d48cf934",
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 1,
+          "state": "横向",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 2,
+      "state": "细条",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-09&state=2&device=desktop",
+      "file": "ui/states/C-09--s02--desktop.png",
+      "sha256": "52db441aa42416b6c2c4a965cbfede38d97e673d5e6050747cba1ae2d48cf934",
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 2,
+          "state": "细条",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 3,
+      "state": "无条",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-09&state=3&device=desktop",
+      "file": "ui/states/C-09--s03--desktop.png",
+      "sha256": "52db441aa42416b6c2c4a965cbfede38d97e673d5e6050747cba1ae2d48cf934",
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 3,
+          "state": "无条",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 0,
+      "state": "纵向",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-09&state=0&device=mobile",
+      "file": "ui/states/C-09--s00--mobile.png",
+      "sha256": "882c515d7d6adff5138d67531d8085f6f65ad220a295d1bb4474e4bebe115fb8",
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 0,
+          "state": "纵向",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 348,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 1,
+      "state": "横向",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-09&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 1,
+          "state": "横向",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 348,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 2,
+      "state": "细条",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-09&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 2,
+          "state": "细条",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 348,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-09",
+      "stateIndex": 3,
+      "state": "无条",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-09&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-09",
+          "stateIndex": 3,
+          "state": "无条",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 539,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 348,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-10&state=0&device=desktop",
+      "file": "ui/states/C-10--s00--desktop.png",
+      "sha256": "f55d7257af2f4ba2e9d78163eb14436469718c676a90df4707b6150246b4f38f",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 1,
+      "state": "选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-10&state=1&device=desktop",
+      "file": "ui/states/C-10--s01--desktop.png",
+      "sha256": "f55d7257af2f4ba2e9d78163eb14436469718c676a90df4707b6150246b4f38f",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 1,
+          "state": "选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 2,
+      "state": "禁用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-10&state=2&device=desktop",
+      "file": "ui/states/C-10--s02--desktop.png",
+      "sha256": "f55d7257af2f4ba2e9d78163eb14436469718c676a90df4707b6150246b4f38f",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 2,
+          "state": "禁用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 3,
+      "state": "空态",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-10&state=3&device=desktop",
+      "file": "ui/states/C-10--s03--desktop.png",
+      "sha256": "f55d7257af2f4ba2e9d78163eb14436469718c676a90df4707b6150246b4f38f",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 3,
+          "state": "空态",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 4,
+      "state": "有错误",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-10&state=4&device=desktop",
+      "file": "ui/states/C-10--s04--desktop.png",
+      "sha256": "f55d7257af2f4ba2e9d78163eb14436469718c676a90df4707b6150246b4f38f",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 4,
+          "state": "有错误",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 0,
+      "state": "普通",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-10&state=0&device=mobile",
+      "file": "ui/states/C-10--s00--mobile.png",
+      "sha256": "e8dca788369d1b4b24c5bdccc12c5b8eea37bae4581eca09eccc491d5eea5314",
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 0,
+          "state": "普通",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 309,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 1,
+      "state": "选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-10&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 1,
+          "state": "选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 309,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 2,
+      "state": "禁用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-10&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 2,
+          "state": "禁用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 309,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 3,
+      "state": "空态",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-10&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 3,
+          "state": "空态",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 309,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-10",
+      "stateIndex": 4,
+      "state": "有错误",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-10&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-10",
+          "stateIndex": 4,
+          "state": "有错误",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 114,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 309,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 0,
+      "state": "锁定",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-11&state=0&device=desktop",
+      "file": "ui/states/C-11--s00--desktop.png",
+      "sha256": "34a7c4dd02ac6ec29878bd99ac432403719820bb463a16f5b12c4fb539f160f8",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 0,
+          "state": "锁定",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 1,
+      "state": "可用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-11&state=1&device=desktop",
+      "file": "ui/states/C-11--s01--desktop.png",
+      "sha256": "34a7c4dd02ac6ec29878bd99ac432403719820bb463a16f5b12c4fb539f160f8",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 1,
+          "state": "可用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 2,
+      "state": "选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-11&state=2&device=desktop",
+      "file": "ui/states/C-11--s02--desktop.png",
+      "sha256": "34a7c4dd02ac6ec29878bd99ac432403719820bb463a16f5b12c4fb539f160f8",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 2,
+          "state": "选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 3,
+      "state": "已完成",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-11&state=3&device=desktop",
+      "file": "ui/states/C-11--s03--desktop.png",
+      "sha256": "34a7c4dd02ac6ec29878bd99ac432403719820bb463a16f5b12c4fb539f160f8",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 3,
+          "state": "已完成",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 4,
+      "state": "连线",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-11&state=4&device=desktop",
+      "file": "ui/states/C-11--s04--desktop.png",
+      "sha256": "34a7c4dd02ac6ec29878bd99ac432403719820bb463a16f5b12c4fb539f160f8",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 4,
+          "state": "连线",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 0,
+      "state": "锁定",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-11&state=0&device=mobile",
+      "file": "ui/states/C-11--s00--mobile.png",
+      "sha256": "0be3e8f6658561980be62ebc25c951021da539b4e87ebf2a53bcd85ab14dc9de",
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 0,
+          "state": "锁定",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 1,
+      "state": "可用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-11&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 1,
+          "state": "可用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 2,
+      "state": "选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-11&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 2,
+          "state": "选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 3,
+      "state": "已完成",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-11&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 3,
+          "state": "已完成",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-11",
+      "stateIndex": 4,
+      "state": "连线",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-11&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-11",
+          "stateIndex": 4,
+          "state": "连线",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 61,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 332,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 0,
+      "state": "满／部分／空",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-12&state=0&device=desktop",
+      "file": "ui/states/C-12--s00--desktop.png",
+      "sha256": "dc7ee53ec34af2753b635fc15dcd648d9b3c47e55d3e8b85038679d44924aefc",
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 0,
+          "state": "满／部分／空",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 1,
+      "state": "增加／减少",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-12&state=1&device=desktop",
+      "file": "ui/states/C-12--s01--desktop.png",
+      "sha256": "dc7ee53ec34af2753b635fc15dcd648d9b3c47e55d3e8b85038679d44924aefc",
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 1,
+          "state": "增加／减少",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 2,
+      "state": "警告",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-12&state=2&device=desktop",
+      "file": "ui/states/C-12--s02--desktop.png",
+      "sha256": "dc7ee53ec34af2753b635fc15dcd648d9b3c47e55d3e8b85038679d44924aefc",
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 2,
+          "state": "警告",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 0,
+      "state": "满／部分／空",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-12&state=0&device=mobile",
+      "file": "ui/states/C-12--s00--mobile.png",
+      "sha256": "08b2a242165eec299cfa307a0f146003944c03fe0869a1878dc94746886171e9",
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 0,
+          "state": "满／部分／空",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 1,
+      "state": "增加／减少",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-12&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 1,
+          "state": "增加／减少",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-12",
+      "stateIndex": 2,
+      "state": "警告",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-12&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-12",
+          "stateIndex": 2,
+          "state": "警告",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 116,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 0,
+      "state": "满足",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-13&state=0&device=desktop",
+      "file": "ui/states/C-13--s00--desktop.png",
+      "sha256": "ec4d382b0fb7d85b0a504e34e6de5ec876201646b38e20c70a9e748fbf21d3b7",
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 0,
+          "state": "满足",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 1,
+      "state": "不足",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-13&state=1&device=desktop",
+      "file": "ui/states/C-13--s01--desktop.png",
+      "sha256": "ec4d382b0fb7d85b0a504e34e6de5ec876201646b38e20c70a9e748fbf21d3b7",
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 1,
+          "state": "不足",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 2,
+      "state": "多选需求",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-13&state=2&device=desktop",
+      "file": "ui/states/C-13--s02--desktop.png",
+      "sha256": "ec4d382b0fb7d85b0a504e34e6de5ec876201646b38e20c70a9e748fbf21d3b7",
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 2,
+          "state": "多选需求",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 3,
+      "state": "数量",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-13&state=3&device=desktop",
+      "file": "ui/states/C-13--s03--desktop.png",
+      "sha256": "ec4d382b0fb7d85b0a504e34e6de5ec876201646b38e20c70a9e748fbf21d3b7",
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 3,
+          "state": "数量",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 0,
+      "state": "满足",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-13&state=0&device=mobile",
+      "file": "ui/states/C-13--s00--mobile.png",
+      "sha256": "aa3b96db1b43e6872f45b9ecd0c1358054732b3fcc32ee4d82ab420e975c4498",
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 0,
+          "state": "满足",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 336,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 1,
+      "state": "不足",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-13&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 1,
+          "state": "不足",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 336,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 2,
+      "state": "多选需求",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-13&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 2,
+          "state": "多选需求",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 336,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-13",
+      "stateIndex": 3,
+      "state": "数量",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-13&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-13",
+          "stateIndex": 3,
+          "state": "数量",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 86,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 336,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 0,
+      "state": "tooltip",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-14&state=0&device=desktop",
+      "file": "ui/states/C-14--s00--desktop.png",
+      "sha256": "80100662d255a63159dbcfc9f4750109ea401e16671f0c04d1b1bceac589129b",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 0,
+          "state": "tooltip",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 1,
+      "state": "toast",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-14&state=1&device=desktop",
+      "file": "ui/states/C-14--s01--desktop.png",
+      "sha256": "80100662d255a63159dbcfc9f4750109ea401e16671f0c04d1b1bceac589129b",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 1,
+          "state": "toast",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 2,
+      "state": "淡出消息",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-14&state=2&device=desktop",
+      "file": "ui/states/C-14--s02--desktop.png",
+      "sha256": "80100662d255a63159dbcfc9f4750109ea401e16671f0c04d1b1bceac589129b",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 2,
+          "state": "淡出消息",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 3,
+      "state": "教程提示",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-14&state=3&device=desktop",
+      "file": "ui/states/C-14--s03--desktop.png",
+      "sha256": "80100662d255a63159dbcfc9f4750109ea401e16671f0c04d1b1bceac589129b",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 3,
+          "state": "教程提示",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 4,
+      "state": "告警",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-14&state=4&device=desktop",
+      "file": "ui/states/C-14--s04--desktop.png",
+      "sha256": "80100662d255a63159dbcfc9f4750109ea401e16671f0c04d1b1bceac589129b",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 4,
+          "state": "告警",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 0,
+      "state": "tooltip",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-14&state=0&device=mobile",
+      "file": "ui/states/C-14--s00--mobile.png",
+      "sha256": "84be2abbb26551bc5f4bc6cefba983d4011a71a043db4b625712b0529fcbcf17",
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 0,
+          "state": "tooltip",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 314,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 1,
+      "state": "toast",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-14&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 1,
+          "state": "toast",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 314,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 2,
+      "state": "淡出消息",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-14&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 2,
+          "state": "淡出消息",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 314,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 3,
+      "state": "教程提示",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-14&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 3,
+          "state": "教程提示",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 314,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-14",
+      "stateIndex": 4,
+      "state": "告警",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-14&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-14",
+          "stateIndex": 4,
+          "state": "告警",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 104,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 314,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 0,
+      "state": "嵌入",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-15&state=0&device=desktop",
+      "file": "ui/states/C-15--s00--desktop.png",
+      "sha256": "4c0230f227260c5e9bfef22091b20ac9534c5c1755571a7b258311964130fb71",
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 0,
+          "state": "嵌入",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 1,
+      "state": "展开",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-15&state=1&device=desktop",
+      "file": "ui/states/C-15--s01--desktop.png",
+      "sha256": "4c0230f227260c5e9bfef22091b20ac9534c5c1755571a7b258311964130fb71",
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 1,
+          "state": "展开",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 2,
+      "state": "敌我／核心／视域标记",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-15&state=2&device=desktop",
+      "file": "ui/states/C-15--s02--desktop.png",
+      "sha256": "4c0230f227260c5e9bfef22091b20ac9534c5c1755571a7b258311964130fb71",
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 2,
+          "state": "敌我／核心／视域标记",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 0,
+      "state": "嵌入",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-15&state=0&device=mobile",
+      "file": "ui/states/C-15--s00--mobile.png",
+      "sha256": "a8bcb7855de5665b0728b6491abab1bb49314eeb0d14beaf4b37c8a9ca67280b",
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 0,
+          "state": "嵌入",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 1,
+      "state": "展开",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-15&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 1,
+          "state": "展开",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-15",
+      "stateIndex": 2,
+      "state": "敌我／核心／视域标记",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-15&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-15",
+          "stateIndex": 2,
+          "state": "敌我／核心／视域标记",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 53,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 0,
+      "state": "加载中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-16&state=0&device=desktop",
+      "file": "ui/states/C-16--s00--desktop.png",
+      "sha256": "a263969417afec5ee0a9d4f99d12274647bf10ecebf8fa9ef408293d7f12aeb4",
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 0,
+          "state": "加载中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 1,
+      "state": "取消",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-16&state=1&device=desktop",
+      "file": "ui/states/C-16--s01--desktop.png",
+      "sha256": "a263969417afec5ee0a9d4f99d12274647bf10ecebf8fa9ef408293d7f12aeb4",
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 1,
+          "state": "取消",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 2,
+      "state": "完成淡出",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-16&state=2&device=desktop",
+      "file": "ui/states/C-16--s02--desktop.png",
+      "sha256": "a263969417afec5ee0a9d4f99d12274647bf10ecebf8fa9ef408293d7f12aeb4",
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 2,
+          "state": "完成淡出",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 0,
+      "state": "加载中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-16&state=0&device=mobile",
+      "file": "ui/states/C-16--s00--mobile.png",
+      "sha256": "585bab6dcf9df9c691ede8f445399869c0035369c7fe4d96cdc1419c3ad04c63",
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 0,
+          "state": "加载中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 1,
+      "state": "取消",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-16&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 1,
+          "state": "取消",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-16",
+      "stateIndex": 2,
+      "state": "完成淡出",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-16&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-16",
+          "stateIndex": 2,
+          "state": "完成淡出",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 51,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 0,
+      "state": "采矿",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-17&state=0&device=desktop",
+      "file": "ui/states/C-17--s00--desktop.png",
+      "sha256": "587ab17425c62057b15834bf95b28718d7c48223d16f5817220899e5d30977e9",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 0,
+          "state": "采矿",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 1,
+      "state": "卸载",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-17&state=1&device=desktop",
+      "file": "ui/states/C-17--s01--desktop.png",
+      "sha256": "587ab17425c62057b15834bf95b28718d7c48223d16f5817220899e5d30977e9",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 1,
+          "state": "卸载",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 2,
+      "state": "目标",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-17&state=2&device=desktop",
+      "file": "ui/states/C-17--s02--desktop.png",
+      "sha256": "587ab17425c62057b15834bf95b28718d7c48223d16f5817220899e5d30977e9",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 2,
+          "state": "目标",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 3,
+      "state": "修理",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-17&state=3&device=desktop",
+      "file": "ui/states/C-17--s03--desktop.png",
+      "sha256": "587ab17425c62057b15834bf95b28718d7c48223d16f5817220899e5d30977e9",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 3,
+          "state": "修理",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 4,
+      "state": "单位选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-17&state=4&device=desktop",
+      "file": "ui/states/C-17--s04--desktop.png",
+      "sha256": "587ab17425c62057b15834bf95b28718d7c48223d16f5817220899e5d30977e9",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 4,
+          "state": "单位选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 0,
+      "state": "采矿",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-17&state=0&device=mobile",
+      "file": "ui/states/C-17--s00--mobile.png",
+      "sha256": "d3eedc25a4f48707b72b23bea81fa141c3b5b4c918a74bea70c6947341b5ceac",
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 0,
+          "state": "采矿",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 318,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 1,
+      "state": "卸载",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-17&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 1,
+          "state": "卸载",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 318,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 2,
+      "state": "目标",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-17&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 2,
+          "state": "目标",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 318,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 3,
+      "state": "修理",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-17&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 3,
+          "state": "修理",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 318,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-17",
+      "stateIndex": 4,
+      "state": "单位选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-17&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-17",
+          "stateIndex": 4,
+          "state": "单位选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 41,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 318,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 0,
+      "state": "未按",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-18&state=0&device=desktop",
+      "file": "ui/states/C-18--s00--desktop.png",
+      "sha256": "71d1b41c9853cb66f5b4fcdcee849fe3813d8ec9f1409db4c52b27429497c8b0",
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 0,
+          "state": "未按",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 1,
+      "state": "按下",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-18&state=1&device=desktop",
+      "file": "ui/states/C-18--s01--desktop.png",
+      "sha256": "71d1b41c9853cb66f5b4fcdcee849fe3813d8ec9f1409db4c52b27429497c8b0",
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 1,
+          "state": "按下",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 2,
+      "state": "选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-18&state=2&device=desktop",
+      "file": "ui/states/C-18--s02--desktop.png",
+      "sha256": "71d1b41c9853cb66f5b4fcdcee849fe3813d8ec9f1409db4c52b27429497c8b0",
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 2,
+          "state": "选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 3,
+      "state": "可用／不可用",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-18&state=3&device=desktop",
+      "file": "ui/states/C-18--s03--desktop.png",
+      "sha256": "71d1b41c9853cb66f5b4fcdcee849fe3813d8ec9f1409db4c52b27429497c8b0",
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 3,
+          "state": "可用／不可用",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 0,
+      "state": "未按",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-18&state=0&device=mobile",
+      "file": "ui/states/C-18--s00--mobile.png",
+      "sha256": "34fe04d9eb997b4f0e8d91675843d8d03f94dc296bb37f0fa3fdb579b3ddeda7",
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 0,
+          "state": "未按",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 1,
+      "state": "按下",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-18&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 1,
+          "state": "按下",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 2,
+      "state": "选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-18&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 2,
+          "state": "选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-18",
+      "stateIndex": 3,
+      "state": "可用／不可用",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-18&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-18",
+          "stateIndex": 3,
+          "state": "可用／不可用",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 26,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 266,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 0,
+      "state": "输入／历史",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-19&state=0&device=desktop",
+      "file": "ui/states/C-19--s00--desktop.png",
+      "sha256": "c734ae862e0276fb29155de86d347dd8e772f940d0adb6586c7e4d2665d080ca",
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 0,
+          "state": "输入／历史",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 1,
+      "state": "错误输出",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-19&state=1&device=desktop",
+      "file": "ui/states/C-19--s01--desktop.png",
+      "sha256": "c734ae862e0276fb29155de86d347dd8e772f940d0adb6586c7e4d2665d080ca",
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 1,
+          "state": "错误输出",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 2,
+      "state": "性能数据显示",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-19&state=2&device=desktop",
+      "file": "ui/states/C-19--s02--desktop.png",
+      "sha256": "c734ae862e0276fb29155de86d347dd8e772f940d0adb6586c7e4d2665d080ca",
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 2,
+          "state": "性能数据显示",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 0,
+      "state": "输入／历史",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-19&state=0&device=mobile",
+      "file": "ui/states/C-19--s00--mobile.png",
+      "sha256": "4d91b29272f9dd787df02a22fa178adda148af40e2dd5c2a0c7f29989f17ed0b",
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 0,
+          "state": "输入／历史",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 1,
+      "state": "错误输出",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-19&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 1,
+          "state": "错误输出",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-19",
+      "stateIndex": 2,
+      "state": "性能数据显示",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-19&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-19",
+          "stateIndex": 2,
+          "state": "性能数据显示",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 150,
+        "contentScroll": [],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 0,
+      "state": "格线开关",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-20&state=0&device=desktop",
+      "file": "ui/states/C-20--s00--desktop.png",
+      "sha256": "7e12bbb2f391518a358ccf11621e7ee3acb0bae98f8b683ed68efda0ffa842be",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 0,
+          "state": "格线开关",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 542,
+            "scroll": 554,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 1,
+      "state": "画布缩放平移",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-20&state=1&device=desktop",
+      "file": "ui/states/C-20--s01--desktop.png",
+      "sha256": "7e12bbb2f391518a358ccf11621e7ee3acb0bae98f8b683ed68efda0ffa842be",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 1,
+          "state": "画布缩放平移",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 542,
+            "scroll": 554,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 2,
+      "state": "选择",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-20&state=2&device=desktop",
+      "file": "ui/states/C-20--s02--desktop.png",
+      "sha256": "7e12bbb2f391518a358ccf11621e7ee3acb0bae98f8b683ed68efda0ffa842be",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 2,
+          "state": "选择",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 542,
+            "scroll": 554,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 3,
+      "state": "工具选中",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-20&state=3&device=desktop",
+      "file": "ui/states/C-20--s03--desktop.png",
+      "sha256": "7e12bbb2f391518a358ccf11621e7ee3acb0bae98f8b683ed68efda0ffa842be",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 3,
+          "state": "工具选中",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 542,
+            "scroll": 554,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 4,
+      "state": "参数编辑",
+      "device": "desktop",
+      "width": 1366,
+      "height": 768,
+      "query": "?capture=1&id=C-20&state=4&device=desktop",
+      "file": "ui/states/C-20--s04--desktop.png",
+      "sha256": "7e12bbb2f391518a358ccf11621e7ee3acb0bae98f8b683ed68efda0ffa842be",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 4,
+          "state": "参数编辑",
+          "device": "desktop",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          1366,
+          768
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 542,
+            "scroll": 554,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 0,
+      "state": "格线开关",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-20&state=0&device=mobile",
+      "file": "ui/states/C-20--s00--mobile.png",
+      "sha256": "d49d0a1b774853027a77178cd1aa14de24d2e2d7bf9c06fe085626319d0ac015",
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 0,
+          "state": "格线开关",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 466,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 1,
+      "state": "画布缩放平移",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-20&state=1&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 1,
+          "state": "画布缩放平移",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 466,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 2,
+      "state": "选择",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-20&state=2&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 2,
+          "state": "选择",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 466,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 3,
+      "state": "工具选中",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-20&state=3&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 3,
+          "state": "工具选中",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 466,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    },
+    {
+      "group": "C-20",
+      "stateIndex": 4,
+      "state": "参数编辑",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "query": "?capture=1&id=C-20&state=4&device=mobile",
+      "file": null,
+      "sha256": null,
+      "checks": {
+        "ready": {
+          "id": "C-20",
+          "stateIndex": 4,
+          "state": "参数编辑",
+          "device": "mobile",
+          "kind": "component"
+        },
+        "images": [],
+        "view": [
+          844,
+          390
+        ],
+        "rootOverflow": [
+          false,
+          false
+        ],
+        "visibleTextLength": 75,
+        "contentScroll": [
+          {
+            "class": "screenBody",
+            "client": 252,
+            "scroll": 466,
+            "overflow": "auto"
+          }
+        ],
+        "outsideControls": []
+      }
+    }
+  ],
+  "errors": [],
+  "sourceAssetManifest": {
+    "file": "ui/kit/manifest.json",
+    "sha256": "9ba6a843cb66189c4c10aa0f7dd05a6bd8fd02371e95974077afb1e5cae3c14a",
+    "purpose": "Raster skins, icons, scene crop available to the captured HTML/CSS; each asset has its own provenance."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Browser composites are not new AI generations. Original AI evidence is in linked kit sources."
+}

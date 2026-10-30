@@ -1,0 +1,63 @@
+{
+  "region": "sublimate-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-preview.png",
+  "sha256": "f7b4c708d98c53d359de5e4bca0e4d2c1bda044025517d34d8d6ee3af40125aa",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.628353+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate.png",
+      "sha256": "d5026d433f526e82c0970513e0e6fcc6675e4d51582b021e5562080119fd2255",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-l.png",
+      "sha256": "2b36f6d694340445c6ebd0459b285dedda4918f0c61279a9e539483ca83507bf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-r.png",
+      "sha256": "2b36f6d694340445c6ebd0459b285dedda4918f0c61279a9e539483ca83507bf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-l.png",
+      "sha256": "40b10e5b4efabd7b2af5ae0016de035e6cdb69c19bf2f5e7b4b56b1efb3c5a92",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-r.png",
+      "sha256": "40b10e5b4efabd7b2af5ae0016de035e6cdb69c19bf2f5e7b4b56b1efb3c5a92",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png",
+      "sha256": "2a146ee2cdac58282a111c328bf4d8f821f25b857e11807833bbe32448c0145e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-r.png",
+      "sha256": "2a146ee2cdac58282a111c328bf4d8f821f25b857e11807833bbe32448c0145e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-top.png",
+      "sha256": "633a5a7d549ac74a1f6fdb23564216ac2c3b6118b66068ca36d7fe5d61a5f445",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-top.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

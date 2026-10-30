@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/16-boulder-props.png",
+  "sha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50",
+  "generatedAt": "2026-10-26 18:36:03 UTC",
+  "startedAt": "2026-10-26 18:34:40 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    2048,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite atlas. Paint24 independent BOULDER props for Mindustry, pure strict TOP-DOWN orthographic from directly above, rounded clean Daoist Q hand-painted rocks consistent with attached references' finish ONLY. No UI, text, people, frames or symbols. Requested2048×3072 portrait, exact4 equal columns×6 equal rows, every cell one centered COMPLETE isolated boulder occupying65-70percent, at least15percent transparent padding, no pieces touching boundaries. Fully transparent background; no ground tile, no cast shadow, no tiny far-away debris. Every pair two different rock silhouettes and facet patterns, NEVER copies. Broad rounded chunky forms with tiny mineral texture and soft overhead light, not noisy photorealism, not side-view or isometric pillars.\nRow1 col1/2 ordinary pale cool-gray limestone boulders, col3/4 charcoal blue-gray basalt boulders.\nRow2 col1/2 pale sage-jade beryllic boulders, col3/4 dark charcoal carbon boulders.\nRow3 col1/2 pale lavender-gray crystalline boulders with2-3 tiny lilac embedded crystals, col3/4 pale warm gray speckled dacite boulders.\nRow4 col1/2 warm rust-ochre ferric boulders, col3/4 warm pale beige sandstone boulders.\nRow5 col1/2 muted purple-gray flaky shale boulders, col3/4 gray boulders heavily capped with soft clean white snow.\nRow6 col1/2 warm golden ochre yellow-stone boulders, col3/4 dusty rose pink rounded red-ice boulders with thin pale ice fractures.\nAll24 isolated whole props, transparent holes outside only, no glow haze or decoration. Top silhouettes visually distinct yet material family coherent.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/16-boulder-props.txt",
+  "promptSha256": "1e305f9f98ecc119554348d480f2a36bdd39a70f01dbd9c38fe3a6c9ce6595c7",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/16-boulder-props.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-e207aa17-87c9-4625-929e-2ffbed8e106e.png",
+    "originalOutputSha256": "a63f02e18389998b5041abaa620f92dbb80410f0ffdfe44d5bc335ad1276bb50"
+  },
+  "regions": [
+    "boulder1",
+    "boulder2",
+    "basalt-boulder1",
+    "basalt-boulder2",
+    "beryllic-boulder1",
+    "beryllic-boulder2",
+    "carbon-boulder1",
+    "carbon-boulder2",
+    "crystalline-boulder1",
+    "crystalline-boulder2",
+    "dacite-boulder1",
+    "dacite-boulder2",
+    "ferric-boulder1",
+    "ferric-boulder2",
+    "sand-boulder1",
+    "sand-boulder2",
+    "shale-boulder1",
+    "shale-boulder2",
+    "snow-boulder1",
+    "snow-boulder2",
+    "yellow-stone-boulder1",
+    "yellow-stone-boulder2",
+    "red-ice-boulder1",
+    "red-ice-boulder2"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/boulder1.png",
+      "sha256": "c47b1bb9ba6e4678578a5dbf70ba01fbb8d80ca8dd5f9b1422a8939d131c8f78"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/boulder2.png",
+      "sha256": "c7731fb66042b711153052f4397aff2e9f5a6eb4b43187af4d08dc1c5aeeefe9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/basalt-boulder1.png",
+      "sha256": "48699b2e6ddaf5dade636e80e7836b1258ed9b6fa1633313d1accaf84d56e1e7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/basalt-boulder2.png",
+      "sha256": "59f9538d583d05d86d2da2019f453bac23a7943dc044ab032555030f25a3aa71"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/beryllic-boulder1.png",
+      "sha256": "3f30173016c115c7336da1f3ef31b951834ffff069e998fd4a1662b6670dd144"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/beryllic-boulder2.png",
+      "sha256": "cf92307a257e03f19c1717d41f6bfaaee56794224fb8c086d7bc80e43d3eb642"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/carbon-boulder1.png",
+      "sha256": "1b9fac5c52061b511227bc211d4c736c250c8c41a91a6405da50711a7cfd6e94"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/carbon-boulder2.png",
+      "sha256": "bb01f380d05b3a9f3ab31783a7fd41172220addd6c8e0b935fd05a73a2050491"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystalline-boulder1.png",
+      "sha256": "d430ac99bc8bb4bb6547447bcd4b633ef429b5a26ceb5ca705d972eaba367724"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystalline-boulder2.png",
+      "sha256": "6adcbf1855da5bcdd984a8100a5c63b4f63b507569106619b83e37eaf411bbf2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/dacite-boulder1.png",
+      "sha256": "37fb4d91721ce7107ff5282eafc3abae7bc15124fb8d628ea251b58eca93246f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/dacite-boulder2.png",
+      "sha256": "d58d6b9955ec7a020de552f515abd095ab17c7483d136baa24c931cdb3400c25"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/ferric-boulder1.png",
+      "sha256": "d88f12d97171191225242ad721e14c46b427488628c7462fcef336e870bae9b8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/ferric-boulder2.png",
+      "sha256": "6c2060ccb15cdaf35d2455ede80924ccea2ade6f5553626bfba45d59756c16ac"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/sand-boulder1.png",
+      "sha256": "56c2039a730c1ff61e394189c11932cf82d9d3657344b565c47409fd8c284399"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/sand-boulder2.png",
+      "sha256": "c3a2097ade81011cd88d88e71a1bbe38340784ff42a0b97d1199ba26cf6f8798"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/shale-boulder1.png",
+      "sha256": "0e2456528b051a1defac0c1d0c86d9c7b94999f9f596512a94993bcf36760bcc"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/shale-boulder2.png",
+      "sha256": "4d9da1d8abdc936d30d9ff2a6d916e9b9e927ba97c4b5584aa5d68601f32c03b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/snow-boulder1.png",
+      "sha256": "ee6bac0a642a70705cde8d85e605e57857cad336907582b1ec11eef321efcd61"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/snow-boulder2.png",
+      "sha256": "fe2d45e093f2b2158fa791f27c2fe65d00740173ebe2abda19747f6e2dd1f000"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/yellow-stone-boulder1.png",
+      "sha256": "03d9a604485a05bd90991de70a7ed81e24514bdbfe59748e5936666ec72fff17"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/yellow-stone-boulder2.png",
+      "sha256": "2b0fe9ebbf42d4ab8ef97fd8ec9d01606b9598df8c4b5354daab90e46c599eae"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-ice-boulder1.png",
+      "sha256": "f9cc23324715add6ae14423cc11bee73be5e9510f7b44fa7893ba6921fdcc61a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-ice-boulder2.png",
+      "sha256": "0d5eaa1e9acc4271c22a6abda1d468c21a2db22288c0863ab234dbc84f3bcf68"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

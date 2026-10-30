@@ -1,0 +1,40 @@
+{
+  "file": "ui/kit/icon-blueprint.png",
+  "sha256": "77655373675e4f4ddb8a2a26ed5238029747ea00ca63e140970d4ea2a5f11660",
+  "width": 265,
+  "height": 204,
+  "derivedFrom": {
+    "file": "ui/components/ui-functional-icons-v1.png",
+    "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104",
+    "generationRecord": "ui/components/ui-functional-icons-v1.png.generation.json"
+  },
+  "operation": {
+    "type": "connected_component_group_crop_alpha_cleanup_and_padding",
+    "sourceBox": [
+      536,
+      532,
+      785,
+      720
+    ],
+    "localAlphaBounds": [
+      0,
+      0,
+      249,
+      188
+    ],
+    "padding": 8,
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "componentGrouping": "by midpoint to six by four atlas cells; full components retained across grid lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true
+  },
+  "nativeSourceSize": [
+    1536,
+    1024
+  ],
+  "resampled": false,
+  "modelEvidence": "Inherited from source; not new model generation",
+  "semanticKey": "blueprint",
+  "sourceImageRetained": false
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/door.png",
+  "sourceGitBlob": "92ac126a1c6cecba72c19131c695c878fdef0fbd",
+  "sourceSha256": "6466a89b09f68d1a593bc41ab46506047e3ff948fc54bce1a70b0aa8091e62bb",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "door",
+  "blockId": "door",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door.png",
+  "sha256": "c7974d86302154c498c9514816fd52795f57751662fb036dda1ea6091bc1d3dc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door.png",
+  "engineSha256": "c7974d86302154c498c9514816fd52795f57751662fb036dda1ea6091bc1d3dc",
+  "nativeFile": "full-game/blocks/masters/door.png",
+  "nativeSha256": "c9c3ecea07aa3505cf164dbe65506e590f9e982697ac7e2618036ccc495b362a",
+  "nativeSize": [
+    239,
+    235
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/door.png",
+      "sha256": "c9c3ecea07aa3505cf164dbe65506e590f9e982697ac7e2618036ccc495b362a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/door.png",
+      "sha256": "6466a89b09f68d1a593bc41ab46506047e3ff948fc54bce1a70b0aa8091e62bb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door.png.derived.json"
+}

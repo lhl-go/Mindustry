@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-crucible-liquid.png",
+  "sourceGitBlob": "e2e3a85b82d28ab3c7f9949624e5b981f9576bda",
+  "sourceSha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-crucible-liquid",
+  "blockId": "surge-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-liquid.png",
+  "sha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-liquid.png",
+  "engineSha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-liquid.png",
+  "nativeSha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f",
+  "nativeSize": [
+    96,
+    96
+  ],
+  "sourceAlphaBounds": [
+    38,
+    38,
+    58,
+    58
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-liquid.png",
+      "sha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-liquid.png",
+      "sha256": "b9879e03e7ab7adcfe3b9b3d28f340b19ae5d08215f8f66944bf67805631230f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

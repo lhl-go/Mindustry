@@ -1,0 +1,48 @@
+{
+  "region": "scathe-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-preview.png",
+  "sha256": "14cb770e4412d908e30a3109c94721c350bd93488285c5ddcf71882bd2e62ed5",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.607422+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-side-l.png",
+      "sha256": "4393e32055a17ebad00825fda7f9238e650c06c39d7a0fe69326e46c9d2e051c",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-side-r.png",
+      "sha256": "4393e32055a17ebad00825fda7f9238e650c06c39d7a0fe69326e46c9d2e051c",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-side-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-l.png",
+      "sha256": "efe7718a14ef91ef32511d6fca3b3f3a9e845409ec6c24422be8de73e3814e37",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-r.png",
+      "sha256": "efe7718a14ef91ef32511d6fca3b3f3a9e845409ec6c24422be8de73e3814e37",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-mid.png",
+      "sha256": "c1842b292974c307b71285ed57e06fd21e5e4cf4e1c03ba307e0a54fcb87e057",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scathe/scathe-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

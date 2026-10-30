@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-planetaryTerminal",
+  "file": "full-game/ui-system/sectors/sector-planetaryTerminal.png",
+  "sha256": "968b0351421798dd783cc1dcf7b69e8b901c252f65f16b9668b7780e78fe00a7",
+  "width": 408,
+  "height": 408,
+  "derivedAt": "2026-10-26T15:54:02.262236+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/10-sectors-04.png",
+    "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+    "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 8,
+    "sourceBox": [
+      844,
+      826,
+      1228,
+      1205
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

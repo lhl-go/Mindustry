@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/basic-assembler-module.png",
+  "sha256": "0141b7ecc114b0b9c854e216e8843feb42fad537c945dabdda9433ef38d8d98d",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1134,
+      418,
+      1378,
+      692
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      244,
+      274
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    276,
+    306
+  ],
+  "anchorPixels": [
+    138.0,
+    153.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

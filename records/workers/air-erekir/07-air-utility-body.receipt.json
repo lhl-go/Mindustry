@@ -1,0 +1,33 @@
+{
+  "stem": "07-air-utility-body",
+  "startedAt": "2026-10-26T10:36:54.352Z",
+  "returnedAt": "2026-10-26T10:37:47.185Z",
+  "tool": "image_gen.imagegen",
+  "args": {
+    "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 contains attack aircraft; Image2 contains support aircraft; Image3 contains core builders; Image4/5 style references. Draw these FIVE bodies in exact reading order:\n1 zenith, image1 top-right: same pointed jet hull and wings; REMOVE paired missile racks, leave smooth gold-rimmed mounting pads.\n2 antumbra, image1 bottom-left: same wide heavy hull and rear engines; REMOVE all missile and rotary-gun turrets, replace covered areas with uninterrupted matching armor.\n3 eclipse, image1 bottom-center: same broad winged capital hull and engines; REMOVE all long laser cannons and small gun turrets, leave clean round mounting bases only.\n4 mega, image2 top-right: same white cargo lifter hull, cargo opening, wings, carrying arms and engines; REMOVE small green repair weapon turrets only.\n5 incite, image3 middle: same four-engine builder hull and cargo socket; REMOVE small rotating tool head near side, retain main body and fixed clamps.\nOnly hulls; do not include any detached weapons elsewhere.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\01-serpulo-air-assault.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\02-serpulo-air-support.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\06-erekir-core-builders.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-654d0c38-41bb-4121-a8c4-cbe22bbba6fd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedWidth": 3072,
+  "requestedHeight": 2048,
+  "units": [
+    "zenith-body",
+    "antumbra-body",
+    "eclipse-body",
+    "mega-body",
+    "incite-body"
+  ]
+}

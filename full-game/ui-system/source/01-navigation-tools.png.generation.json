@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/01-navigation-tools.png",
+  "sha256": "ddda85dd24f94804b890c4dff62c57f22c587658b614176d866b01eb6abd422d",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:15:05-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-asset. Asset type: a production sprite atlas of 24 distinct small UI function icons, no text. Create a 1536x1024 landscape PNG with TRUE transparent background, exactly SIX columns and FOUR rows, regular 256x256 cells, one complete isolated icon centered in each cell. Each icon occupies about 150-175px with at least 38px transparent margins; no neighboring parts touch. No frames around the cells, no labels, no shadows on an opaque background. Reference image 1 and 2 are style only: Daoist Q-style refined hand-painted jade green, ivory, warm gold, soft rounded cloud curls and natural painted shading. Small clear silhouettes readable at 32px, not realistic, not plastic 3D, no text or letters. Render each row left to right exactly as follows. ROW 1: (1) about/info, small ivory information scroll with a circular jade gem; (2) add, chunky warm gold plus sign; (3) admin, jade guardian shield with a golden crown; (4) arrow-note, jade diagonal arrow attached to a small blank ivory note; (5) book, open ivory Taoist book with gold binding; (6) break, small cracked stone brick with a gold demolition hammer. ROW 2: (7) changelog, small unrolled ivory scroll with three visible gold dots and jade abstract short lines, no readable glyphs; (8) chat, two overlapping round jade/ivory speech bubbles; (9) check, clear thick gold checkmark; (10) command-attack, two crossed short Taoist swords with jade handles; (11) command-rally, raised jade triangular rally flag on gold pole; (12) copy, two overlapping blank ivory square documents with gold corners. ROW 3: (13) crafting, small jade-and-gold alchemy cauldron; (14) defense, round jade shield with warm gold rim; (15) diagonal, clear double headed diagonal gold arrow; (16) distribution, three jade routing nodes linked by gold branching pipes; (17) donate, warm gold coin above a rounded ivory offering bowl; (18) dots, three large horizontally aligned jade dots. ROW 4: (19) download, clear gold downward arrow into jade tray; (20) editor, jade brush crossing an ivory ruler; (21) effect, tiny floating jade magic cloud with gold sparkles; (22) elevation, three jade stepped terraces rising left to right with a gold up arrow; (23) eraser, rounded ivory eraser with jade wrapper; (24) exit, open jade doorway with gold arrow pointing out to the right. Keep exact ordering and icon identities, coherent natural hand-painted craft, no characters, no scenery, no badges covering symbols. Highest available fidelity, crisp native detail; configured model/quality target handled by host.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/01-navigation-tools.txt",
+  "promptSha256": "3b1eec85cde56b209f7ac51e069b721855148e8c6345b6859000403e8175aaa9",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\01-navigation-tools.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-83ae7993-963b-40ef-a62f-bd940e634be4.png",
+    "nativePngSha256": "ddda85dd24f94804b890c4dff62c57f22c587658b614176d866b01eb6abd422d",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 860931,
+  "status": "generated_pending_review"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/additional-atlas/vela-weapon.png",
+  "sha256": "579dafda0878300fb9ab0cd02e4db1395e81502796bcbdc321ed2937d2e86b14",
+  "width": 170,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+      "sha256": "81c8f5cb58027011d0e1c7884d15a2b9d35579c0214bbb60a2e85caf3ea7ba3c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      298,
+      360
+    ],
+    "sourcePivot": [
+      157.0,
+      280.88
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      48,
+      1
+    ],
+    "sourceDimensions": [
+      314,
+      376
+    ],
+    "targetDimensions": [
+      170,
+      140
+    ],
+    "officialAlphaBounds": [
+      0,
+      0,
+      170,
+      140
+    ],
+    "scale": 0.26049531863485353,
+    "engineAnchorPx": [
+      85.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "additional-atlas/vela-weapon.png",
+    "gitBlobSha1": null,
+    "sha256": null
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

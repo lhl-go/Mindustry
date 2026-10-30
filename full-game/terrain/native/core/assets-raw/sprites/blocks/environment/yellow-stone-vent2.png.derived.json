@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-vent2.png",
+  "sha256": "32f90fcd85925bda9f94069646a87c39cac96dfb975aa003d94402c15f3ae659",
+  "size": [
+    263,
+    256
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/08-geothermal-vents.png",
+      "sha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290",
+      "generationRecord": "full-game/terrain/source/08-geothermal-vents.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    959,
+    344,
+    1222,
+    600
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

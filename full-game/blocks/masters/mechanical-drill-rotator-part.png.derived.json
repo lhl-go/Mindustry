@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/mechanical-drill-rotator-part.png",
+  "sha256": "6c2430b1e3d3cd425cf5112dff765a4761867a97974a6a688a47b7ef13ea7817",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      86,
+      52,
+      289,
+      252
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      203,
+      200
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    235,
+    232
+  ],
+  "anchorPixels": [
+    117.5,
+    116.0
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

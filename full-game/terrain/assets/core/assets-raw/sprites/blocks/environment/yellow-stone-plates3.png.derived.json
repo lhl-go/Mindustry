@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/yellow-stone-plates3.png",
+  "sha256": "9b8b5f727250103ae67b8367112df5298ba468ae56570232b323bb778f95107c",
+  "createdAt": "2026-10-26T16:54:13.852459+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/06-rock-crater-floors.png",
+      "sha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8",
+      "generationRecord": "full-game/terrain/source/06-rock-crater-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      593,
+      1185,
+      885,
+      1476
+    ],
+    "nativeExtractedSize": [
+      292,
+      291
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.3342654294187257
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

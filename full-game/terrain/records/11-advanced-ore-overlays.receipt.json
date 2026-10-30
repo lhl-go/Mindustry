@@ -1,0 +1,47 @@
+{
+  "args": {
+    "prompt": "Use case: game-sprite atlas. Paint18 NEW flat mineral vein overlays for Mindustry, strict top-down orthographic. Refined bright clean Daoist Q hand-painted material finish from attached refs ONLY; no UI/text/characters/symbols/frames. Requested1536×3072 portrait, exactly3columns×6rows of independent patches on fully TRANSPARENT background. Each complete irregular patch centered occupying65-70percent of cell, generous empty gutters, no detached stray pixels far from patch. Each row3 independently painted variant distributions, same color/scale, never copies. Minerals embed FLUSH into a ground/wall top surface: not tall rocks, piles or inventory gems. Thin broken seams with small readable broad mineral flecks, alpha gaps exposing underlying terrain. No opaque ground square beneath; no detached shadow or glow haze.\nRow1 TUNGSTEN ore: cool desaturated steel-gray silvery heavy mineral shards with faint bluish rims.\nRow2 CRYSTAL THORIUM ore: pale rose-lilac small flat crystal facets and a few short prismatic pink mineral veins, brighter/more crystalline than normal thorium yet flat.\nRow3 WALL BERYLLIUM ore: pale jade-green branching broad mineral veins and flattened broken jade flecks, compact flush patch for rock wall top.\nRow4 WALL GRAPHITE ore: dark graphite-black layered short flattened flakes and fine black seams, visibly distinct slate-gray highlights.\nRow5 WALL THORIUM ore: dusty vivid rose-pink short mineral veins and smooth flattened chips, compact broken patch.\nRow6 WALL TUNGSTEN ore: silver blue-gray angular flattened metallic vein bands and broken small flakes.\nEach piece fully isolated, complete silhouette and transparent holes, no ground tiles, borders or text. Soft top-left light restrained enough to remain top-down.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 17:37:56 UTC",
+  "returnedAt": "2026-10-26 17:38:58 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-d4881978-e88e-4c77-8145-78ee086f376d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "ore-tungsten1",
+    "ore-tungsten2",
+    "ore-tungsten3",
+    "ore-crystal-thorium1",
+    "ore-crystal-thorium2",
+    "ore-crystal-thorium3",
+    "ore-wall-beryllium1",
+    "ore-wall-beryllium2",
+    "ore-wall-beryllium3",
+    "ore-wall-graphite1",
+    "ore-wall-graphite2",
+    "ore-wall-graphite3",
+    "ore-wall-thorium1",
+    "ore-wall-thorium2",
+    "ore-wall-thorium3",
+    "ore-wall-tungsten1",
+    "ore-wall-tungsten2",
+    "ore-wall-tungsten3"
+  ]
+}

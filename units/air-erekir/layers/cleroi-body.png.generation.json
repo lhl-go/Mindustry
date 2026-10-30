@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "cleroi-body",
+  "file": "units/air-erekir/layers/cleroi-body.png",
+  "sha256": "5ce14a6b757074b65d2afef3aeb5f0469b5a7c29dac13900c6facbebb15abdc0",
+  "width": 510,
+  "height": 416,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/09-walker-body.png",
+      "sha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+      "generationRecord": "units/air-erekir/source/09-walker-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      515,
+      60,
+      1030,
+      485
+    ],
+    "trimBoundsInRegion": [
+      17,
+      20,
+      495,
+      404
+    ],
+    "padding": 16,
+    "width": 510,
+    "height": 416,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

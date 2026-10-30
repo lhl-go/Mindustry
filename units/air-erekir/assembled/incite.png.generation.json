@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/incite.png",
+  "sha256": "cd2c0cda44fe9954fa826327437ca4799d3a0cafbb821a2fc2b143585f8da5c3",
+  "width": 457,
+  "height": 483,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/incite-body.png",
+      "sha256": "1d51717e5cd6b80d8853e7e898409bce1ff11a12682ea98753b40098cddd8171",
+      "generationRecord": "units/air-erekir/layers/incite-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/build-weapon.png",
+      "sha256": "b0ec57a71d75b833f3431fbb6eccd1c192aecf09b507a89c633b745477ce7adb",
+      "generationRecord": "units/air-erekir-parts/assets/build-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/incite-body.png",
+        "role": "body",
+        "region": "incite",
+        "anchorPixels": [
+          228,
+          242
+        ],
+        "scale": 1,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          212.5,
+          225.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/build-weapon.png",
+        "role": "weapon",
+        "region": "build-weapon",
+        "anchorPixels": [
+          134.5,
+          169.84
+        ],
+        "scale": 0.2919847328244275,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          161,
+          247
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/build-weapon.png",
+        "role": "weapon",
+        "region": "build-weapon",
+        "anchorPixels": [
+          321.5,
+          169.84
+        ],
+        "scale": 0.2919847328244275,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          161,
+          247
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

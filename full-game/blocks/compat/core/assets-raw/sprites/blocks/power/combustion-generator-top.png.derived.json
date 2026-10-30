@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/combustion-generator-top.png",
+  "sourceGitBlob": "971e7b6cd8648dabbc3000f306b7a6244400429d",
+  "sourceSha256": "e56398b2eab54d0758ff7a160974208ca5c20e1aff7b86cbbb3f57d3b76d40ea",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "combustion-generator-top",
+  "blockId": "combustion-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator-top.png",
+  "sha256": "ce0045a8c5f604e553ccb5f257370a087058eae4b4a2ec0afd9671f06baedfdf",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator-top.png",
+  "engineSha256": "ce0045a8c5f604e553ccb5f257370a087058eae4b4a2ec0afd9671f06baedfdf",
+  "nativeFile": "full-game/blocks/masters/combustion-generator.png",
+  "nativeSha256": "ce2ab7eed2b6efe1194edc4f083f253196c9293bc7f282983c0922d691ed9804",
+  "nativeSize": [
+    301,
+    250
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    28,
+    28
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/combustion-generator.png",
+      "sha256": "ce2ab7eed2b6efe1194edc4f083f253196c9293bc7f282983c0922d691ed9804"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/combustion-generator-top.png",
+      "sha256": "e56398b2eab54d0758ff7a160974208ca5c20e1aff7b86cbbb3f57d3b76d40ea"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/combustion-generator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

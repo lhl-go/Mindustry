@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/red-stone-wall-large.png",
+  "sha256": "cf2056cb5676b712c26778e439072693243e25f431d79c5cec7f778b9b158812",
+  "createdAt": "2026-10-26T18:25:54.567168+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 64,
+  "height": 64,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/15-special-wall-tops.png",
+      "sha256": "27479126c7f26b250744e93aa7ab6cdbd09daf55abbef82e3ddf05b9c691e759",
+      "generationRecord": "full-game/terrain/source/15-special-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      770,
+      514,
+      1022,
+      766
+    ],
+    "nativeExtractedSize": [
+      252,
+      252
+    ],
+    "targetSize": [
+      64,
+      64
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 10.895085365751642
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

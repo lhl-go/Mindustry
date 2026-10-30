@@ -1,0 +1,23 @@
+{
+  "stem": "07-assault-bodies",
+  "startedAt": "2026-10-26T08:44:04.224Z",
+  "returnedAt": "2026-10-26T08:46:27.292Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "submittedArguments": {
+    "prompt": "Use case: stylized-concept. Source atlas for actual TOP-DOWN strategy game body sprites.\nImages 1 and 2 guide ONLY the refined hand-painted Daoist jade-green / warm-ivory / warm-gold material quality and rounded shapes. DO NOT use their people, human proportions, faces, UI panels, backdrop or text.\nEXACTLY FIVE bare mechanical CHASSIS body sprites in an invisible 3 columns × 2 rows grid: three in top row, two in bottom left and bottom center, bottom right empty. Requested 3072×2048 PNG. Each complete chassis isolated with wide clear spacing and 18% transparent cell margins.\nABSOLUTELY VERTICAL CAMERA 90 DEGREES LOOKING STRAIGHT DOWN ON A FLOOR-PLANE MACHINE. No side wall or front chest view, no standing humanoid, no isometric perspective. Only roof/top surfaces visible, like a flat orthographic technical plan rendered in fine painted color. Nose/front is at TOP of image. Body shapes must look rotatable in an RTS, not portrait art.\nFive distinct ARMORED MECH BODY CHASSIS only. Exclude all guns, arms and legs; do not depict a robot torso from the front. The sprite is a horizontal armored machine seen on its roof from directly above. Small center pivot cap, subtly visible mount sockets on left/right edges. Left-to-right tier progression: compact light teardrop jade hull; broad short fire-unit hull with two small rear heat reservoirs; squat rectangular ivory artillery platform; heavy twin-shoulder armored jade chassis; largest layered ivory/gold siege chassis with wider engine housing. No head, no face, no hands, no chest panel shown frontally.\nPaint finished rounded jade enamel, ivory ceramic armor and restrained antique bronze trim; clear low-profile mechanical forms, soft controlled shading, fine cloud motif only inside panels. NO mechanical parts overlap each other. Fully opaque body interiors. Genuinely transparent exterior alpha=0, no shadow or glow, no matte, no checkerboard, no captions, no labels, no text, no guide grid. No firing, no disconnected decorations. Crisp edges, no plastic 3D, no photorealism. Target GPT Image 2.5 maximum quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4 as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-0aab813c-db17-4344-94af-bc54e77eb372.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-0aab813c-db17-4344-94af-bc54e77eb372.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

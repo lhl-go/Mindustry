@@ -1,0 +1,42 @@
+{
+  "region": "disperse-blade-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-l.png",
+  "sha256": "a140ea0d31bff89c710c6d6542b165a977fdcd4af1cf70343cf75b84f0af3a09",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.059957+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/disperse-blade-l.png",
+      "sha256": "503b3b6be09956ad95869237e2d1837ddc8dba6e694ef04cc5b00af4ab8e4e51",
+      "record": "full-game/root-turrets/masters/disperse-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/disperse/disperse-blade-l.png",
+      "sha256": "f31f9c8d5a080db7d22d86e838bc519902d7178004fc9c170c062022cb6feb1b",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      68,
+      14,
+      108,
+      119
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      149,
+      347
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

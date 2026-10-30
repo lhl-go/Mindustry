@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-surge-wall.png",
+  "sha256": "062bd03ef4ffbfdca4716f28b14de0e3664b85c207cfbdf0a1abb7a87506553a",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      401,
+      731,
+      698,
+      1039
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      297,
+      308
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    329,
+    340
+  ],
+  "anchorPixels": [
+    164.5,
+    170.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

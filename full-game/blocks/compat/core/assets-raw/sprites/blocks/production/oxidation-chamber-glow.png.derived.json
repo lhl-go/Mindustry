@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/oxidation-chamber-glow.png",
+  "sourceGitBlob": "f1a3713cb82ed8c47b60678ef72bfd3a8042fc77",
+  "sourceSha256": "f6b5afcc91ea1f4843e800112cfab66700cc0308179409523fa7c4ecd6834182",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oxidation-chamber-glow",
+  "blockId": "oxidation-chamber",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-glow.png",
+  "sha256": "7ac6d607fd6e0f4ab240dbf269b158015a15359f070231cf8591a3bd9719a9f0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-glow.png",
+  "engineSha256": "7ac6d607fd6e0f4ab240dbf269b158015a15359f070231cf8591a3bd9719a9f0",
+  "nativeFile": "full-game/blocks/masters/oxidation-chamber.png",
+  "nativeSha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05",
+  "nativeSize": [
+    358,
+    326
+  ],
+  "sourceAlphaBounds": [
+    5,
+    5,
+    91,
+    91
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/oxidation-chamber.png",
+      "sha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber-glow.png",
+      "sha256": "f6b5afcc91ea1f4843e800112cfab66700cc0308179409523fa7c4ecd6834182"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

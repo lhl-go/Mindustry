@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellowcoral.png",
+  "sha256": "068c98c81d3862eda3b62077e975700a4834f66183f9d1ccd7cd434e310fbf6c",
+  "size": [
+    277,
+    282
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/18-vegetation-props.png",
+      "sha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430",
+      "generationRecord": "full-game/terrain/source/18-vegetation-props.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    27,
+    931,
+    304,
+    1213
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

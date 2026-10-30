@@ -1,0 +1,42 @@
+{
+  "region": "malign-end",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-end.png",
+  "sha256": "d1da06c910eaba6017d57ef99679608974eb8d7c72fa9dae1f1de216cf8d499c",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.125370+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/malign-end.png",
+      "sha256": "68ac452c4b309cf90167afc93bc1488752fcdb8fe4deb0452fad4ed54bdefbd8",
+      "record": "full-game/root-turrets/masters/malign-end.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-end.png",
+      "sha256": "4a14ffb957561aca86928e9bb81a45aa1cd55ffd440fa4ca3e39cf1182bf720e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      43,
+      78,
+      117,
+      154
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      298,
+      297
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

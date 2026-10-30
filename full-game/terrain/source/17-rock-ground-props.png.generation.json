@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/17-rock-ground-props.png",
+  "sha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9",
+  "generatedAt": "2026-10-26 18:53:54 UTC",
+  "startedAt": "2026-10-26 18:52:28 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite atlas. Paint16 independent natural props for Mindustry. Pure top-down orthographic, clean rounded detailed Daoist Q hand-painted forms. Attached images ONLY for finish, no UI/text/people/frames. Requested3072×3072 square, exactly4columns×4rows even grid on fully transparent background. Every prop centered with15percent clear padding, no touching adjacent cells, no cast shadow/no ground square, no detached faraway specks. Broad readable forms, each variant different native silhouette/texture.\nRow1 col1/2/3 THREE ARKYIC BOULDERS desaturated blue-teal slate with tiny cyan mineral flecks: three different whole boulder shapes; col4 RED ICE BOULDER variant3 dusty rose frozen rock with pale ice fractures, a whole rounded asymmetric shape.\nRow2 all4 FOUR RED STONE BOULDERS: terracotta rosy-red rounded rock forms, independently different silhouette, facets and thin warm mineral seams.\nRow3 col1/2/3 THREE RHYOLITE BOULDERS muted lavender-gray layered volcanic rock, soft rounded irregular whole rocks; col4 PEBBLES variant1 a small tight scattering of5-8 pale neutral-gray smooth pebbles, transparent gaps.\nRow4 col1 PEBBLES variant2, col2 PEBBLES variant3: distinct tight scattered smooth pale-gray stone arrangements. Col3 PURPLE BUSH upper cluster: a low elongated cluster of3 rounded small violet-blue soft leafy lobes seen directly above. Col4 PURPLE BUSH lower/base cluster: lower overlapping cluster in darker muted purple of same plant family, compact elongated organic lobe silhouette (separate ground plant layer).\nNo tiny unconnected visual noise, no symbols, no perspective pillars. Exact16 complete separated sprites with alpha.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/17-rock-ground-props.txt",
+  "promptSha256": "8eedc6b68aab766502aa935ea234d75c6a26a5b069a2c5cc85b5e92e18e46912",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/17-rock-ground-props.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-a8eb8ed1-ac5c-47b8-b079-e3a593a95c3c.png",
+    "originalOutputSha256": "aab7eeae3d316d3fe2c50ce6a8b17ba5a77038247732d8f8b87ef496ce1881c9"
+  },
+  "regions": [
+    "arkyic-boulder1",
+    "arkyic-boulder2",
+    "arkyic-boulder3",
+    "red-ice-boulder3",
+    "red-stone-boulder1",
+    "red-stone-boulder2",
+    "red-stone-boulder3",
+    "red-stone-boulder4",
+    "rhyolite-boulder1",
+    "rhyolite-boulder2",
+    "rhyolite-boulder3",
+    "pebbles1",
+    "pebbles2",
+    "pebbles3",
+    "pur-bush",
+    "pur-bush-bot"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder1.png",
+      "sha256": "72b562eac43d80c949284c9c4e9fcaeeabbd56520efff65767642ec3ada658c2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder2.png",
+      "sha256": "5b81b3453afad1b3fadbb81bb51c69fe1e205565e1a1e835ca673b1bbf6c66eb"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/arkyic-boulder3.png",
+      "sha256": "1985d0d1e869a6da698aa442e6ec6a96be843e1f8fe44cffc23d7c25a80bbf67"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-ice-boulder3.png",
+      "sha256": "99e79c2691ddf02759d1c215096e96e3f1e5381ded817da2914f4a1f3bb87b05"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-stone-boulder1.png",
+      "sha256": "eec7830a443512f47d30eeee09e0a382e488b50f41c474c4ecc11d3a35856151"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-stone-boulder2.png",
+      "sha256": "113c7a74d633a2c2de3e776d975554db4564b49827b78631b1fa15e1d6751816"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-stone-boulder3.png",
+      "sha256": "499e2cfcd7d70142ada70b6f3e344651b290e7aa3e703cb8632daa19814d7266"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/red-stone-boulder4.png",
+      "sha256": "1f54629f6430d5818cc65c2343aefc55462968f90b265e667859b8a375e34ce2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/rhyolite-boulder1.png",
+      "sha256": "5caec8fa8103afe9de10a7f152a7aa7fc9b08ac0a7f76afc2477084644ece275"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/rhyolite-boulder2.png",
+      "sha256": "6b26db83f5708462a4971f9e640f73dc6e52ed0257130818043bb1bcb89917d8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/rhyolite-boulder3.png",
+      "sha256": "f5f16cfd19bbcb1e9c322caa0054c59230dec81b22001ab484b6a2c5eca8586f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pebbles1.png",
+      "sha256": "5f49068c91c2b5332deb39db73e2f22296bb36db41bfe4603eb55d5690434311"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pebbles2.png",
+      "sha256": "440ee66733eb06e75b5a801c3000b04cb0f6837c2051cbd111f02b04476f47a1"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pebbles3.png",
+      "sha256": "a3dc3e663345b1401b39bc8e3159a0bde5ac033cc6e13fbb9b56e1756a5b08b9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/pur-bush.png",
+      "sha256": "ddc08e54d163a25f91d2a484acb6a1c593f287cd7b6d95008f56e2174e4233f0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/pur-bush-bot.png",
+      "sha256": "558f232d41b899cbec8ba4d6dd13c85e650b58fc23f76168297f8bd28aea54d2"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

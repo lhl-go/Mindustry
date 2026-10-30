@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade-heat.png",
+  "sha256": "db2d12968425f4f2596b1aab43e34d6c2287c230310118cbd47172456bf5eed4",
+  "width": 140,
+  "height": 130,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade.png",
+      "sha256": "89e876957df15321bdd79eca427747ec7bba775c71e6fa5eeb771d90ecfad22d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_heat_mask",
+    "baseRegion": "obviate-blade",
+    "baseCanvas": [
+      140,
+      130
+    ],
+    "outputCanvas": [
+      140,
+      130
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "existing warm-gold illuminated surface pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/obviate-blade-heat.png",
+    "gitBlobSha1": "b6d8f68a40017926ce4889177c770768a7e9135f",
+    "sha256": "b4044ace279c98f663832ebd41dfb971d829bcfc68c77445e56088cc9691e583"
+  },
+  "runtime": {
+    "function": "Weapon/RegionPart heat draw",
+    "tint": "source-defined heatColor * recoil/warmup",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/minke.png",
+  "sha256": "fbc68b3b66bd91144b956a534ff447d649fe4fef6aa4d60bbfffa7a7c4610c1b",
+  "width": 88,
+  "height": 101,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/minke.png",
+      "sha256": "465dd1c6e23952dc4c04268929a65db02814007f511150972ae7be9f21cfd3fa",
+      "generationRecord": "units/serpulo-ground-naval/bodies/minke.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      253,
+      480
+    ],
+    "sourcePivot": [
+      134.5,
+      248.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      4
+    ],
+    "sourceDimensions": [
+      269,
+      496
+    ],
+    "targetDimensions": [
+      88,
+      101
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      84,
+      97
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      44.0,
+      50.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/minke.png",
+    "gitBlobSha1": "597550df3ac81a125be2e489fdbf0c45451fd780",
+    "sha256": "9ba50fa0e7140ba723251ab3fd6d129683838435ba7bb6acbd0b815aadf92c62"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

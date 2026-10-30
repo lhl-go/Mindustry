@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "hammer",
+  "file": "full-game/ui-system/icons/hammer.png",
+  "sha256": "250362f3e8b10417f947a008309e58077e0aeeda5f8d1f06eb671e1868acc52f",
+  "width": 248,
+  "height": 248,
+  "nativeCropPixels": [
+    224,
+    212
+  ],
+  "derivedAt": "2026-10-26T15:24:53.369454+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/02-files-map.png",
+    "sha256": "fafb4adc96a869927f79c3bde5640115cbc7db3afd209a244fbf976f5175a5d4",
+    "generationRecord": "full-game/ui-system/source/02-files-map.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 9,
+    "sourceBox": [
+      784,
+      294,
+      1008,
+      506
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      12,
+      18
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

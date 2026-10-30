@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electrolyzer.png",
+  "sourceGitBlob": "ee3954fb7e06b0573952bf7315c7aded79a35432",
+  "sourceSha256": "43c8227b9d22a3fc655525cccaeb1e3031f0f50822b7870c1682c4182a4e7d71",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "electrolyzer",
+  "blockId": "electrolyzer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer.png",
+  "sha256": "ca6fd5687b8e395260ec3705c39a7b0f79f36bd34afa5e07d20c6b1be95a0a6d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer.png",
+  "engineSha256": "ca6fd5687b8e395260ec3705c39a7b0f79f36bd34afa5e07d20c6b1be95a0a6d",
+  "nativeFile": "full-game/blocks/masters/electrolyzer.png",
+  "nativeSha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5",
+  "nativeSize": [
+    373,
+    329
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electrolyzer.png",
+      "sha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electrolyzer.png",
+      "sha256": "43c8227b9d22a3fc655525cccaeb1e3031f0f50822b7870c1682c4182a4e7d71"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

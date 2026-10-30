@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/large-bomb.png",
+      "sha256": "75ef291f37ac1c498e4b29ecdf397ec7d4fe7467a67355530e9530583cd0d312",
+      "generationRecord": "full-game/items-fx/assets/large-bomb.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/large-bomb-back.png",
+  "sha256": "0aaa2adbee9bc8b1fb4468958a8550405a5762aa2cce8d94039739db3f253ea6",
+  "width": 365,
+  "height": 339,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.404564+00:00"
+}

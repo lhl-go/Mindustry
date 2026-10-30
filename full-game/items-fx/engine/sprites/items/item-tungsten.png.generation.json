@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-tungsten.png",
+  "sha256": "d2ee4953a0990a64ac40a8db81f2077ba409b56d89e5adbd04443ef4b7e37adb",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-tungsten.png",
+      "sha256": "0f9982528255dd4bda52f56c98c8fc9b2dc197b3ea46ed4e98c5609cd243c4fd",
+      "generationRecord": "full-game/items-fx/assets/item-tungsten.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

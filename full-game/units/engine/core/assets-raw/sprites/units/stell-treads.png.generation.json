@@ -1,0 +1,55 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/stell-treads.png",
+  "sha256": "9965b42b943ace85c04ccb85c9cfeb4ec889d8ca1aec1d3680c92e3d33cd44db",
+  "width": 64,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "paired_tread_canvas_from_native_track_component",
+    "placements": [
+      {
+        "left": [
+          12,
+          7,
+          14,
+          51
+        ],
+        "right": [
+          38,
+          7,
+          14,
+          51
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      }
+    ],
+    "officialTreadRects": [
+      [
+        -20,
+        -25,
+        14,
+        51
+      ]
+    ],
+    "cropAndDownsampleOnly": true,
+    "sourceFrames": 18,
+    "sourceTreadPullOffset": 3
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/stell-treads.png",
+    "sha256": "4b17e0eaba4b86dbd08e76dcd96d60005f531c729eb60a412af84fce2a63ff2b",
+    "gitBlobSha1": "703ea03dd065b867e5889c9f30e73e6264aa3844"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Local assembly from traced native tread strip.",
+  "engineNotVerified": true
+}

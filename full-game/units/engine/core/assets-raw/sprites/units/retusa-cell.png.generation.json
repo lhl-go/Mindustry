@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/retusa-cell.png",
+  "sha256": "440736cf191325a62535b31249930b1350255ccefc016a2470f728af6473eb8b",
+  "width": 70,
+  "height": 78,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/retusa.png",
+      "sha256": "46cdd89b605a3cd449c1ea67fd7d54fb86880fbe04a4ff30f8305d6f649228a6",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/retusa.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "retusa",
+    "baseCanvas": [
+      70,
+      78
+    ],
+    "outputCanvas": [
+      70,
+      78
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/retusa-cell.png",
+    "gitBlobSha1": "bb044aa5a358755c2c7fdf62427d757961888b0e",
+    "sha256": "516bc94f875dc6a82e4ed8cd1e828edd255ec710b93d47aa13c5744ff5a7b173"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

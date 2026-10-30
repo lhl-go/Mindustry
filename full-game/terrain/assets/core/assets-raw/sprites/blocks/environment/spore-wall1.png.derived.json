@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/spore-wall1.png",
+  "sha256": "9efc1e6f93b2a306b658899eb502c6231fe55a4be9ba00a32f67701e2ea8e5e1",
+  "createdAt": "2026-10-26T18:07:39.686605+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/13-cold-living-wall-tops.png",
+      "sha256": "bb9036da8b60ff1bbb18699159fa7c6256f5cf6507301bfe3dc1dc3ccea1aec8",
+      "generationRecord": "full-game/terrain/source/13-cold-living-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      1390,
+      266,
+      1772
+    ],
+    "nativeExtractedSize": [
+      264,
+      382
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 10.710893286258068
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

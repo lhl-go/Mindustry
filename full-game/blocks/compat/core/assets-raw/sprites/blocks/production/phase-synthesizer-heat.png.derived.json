@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-synthesizer-heat.png",
+  "sourceGitBlob": "0b92689db7b0b047fea25e4421ed2da6e59b5d8b",
+  "sourceSha256": "bb29c1c6686619d37af9780a97b79895782cad2b5e8e0af674284cbd3e02b68f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "phase-synthesizer-heat",
+  "blockId": "phase-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-heat.png",
+  "sha256": "1e4f58f864d200f59d16ca7819cd509c087ecb34e7d8120a718348985eb5fab0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-heat.png",
+  "engineSha256": "1e4f58f864d200f59d16ca7819cd509c087ecb34e7d8120a718348985eb5fab0",
+  "nativeFile": "full-game/blocks/masters/phase-synthesizer.png",
+  "nativeSha256": "866780adf1e59d57d17bcf09110cfc7f7ee03c1dc1f2cfea5c587b5bdc87d1ea",
+  "nativeSize": [
+    349,
+    377
+  ],
+  "sourceAlphaBounds": [
+    50,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-synthesizer.png",
+      "sha256": "866780adf1e59d57d17bcf09110cfc7f7ee03c1dc1f2cfea5c587b5bdc87d1ea"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-synthesizer-heat.png",
+      "sha256": "bb29c1c6686619d37af9780a97b79895782cad2b5e8e0af674284cbd3e02b68f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

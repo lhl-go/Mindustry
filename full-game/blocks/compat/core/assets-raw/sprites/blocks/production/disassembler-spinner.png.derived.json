@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/disassembler-spinner.png",
+  "sourceGitBlob": "8fe3e325267cc720931542a210caf583a56530a9",
+  "sourceSha256": "10d4d18566a0a1816ca4c953810e76c872343f37bbb568f1d0b2b36903dcc791",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "disassembler-spinner",
+  "blockId": "disassembler",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler-spinner.png",
+  "sha256": "1968ab134f132162122d0313adde0997ed57e1ee056defaa26f7b15d3b8d35dd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler-spinner.png",
+  "engineSha256": "1968ab134f132162122d0313adde0997ed57e1ee056defaa26f7b15d3b8d35dd",
+  "nativeFile": "full-game/blocks/masters/disassembler-spinner-part.png",
+  "nativeSha256": "4ad781d57bffe535ddab051dca13fbc8a3d222e3174839c83692f232ba2838d8",
+  "nativeSize": [
+    293,
+    274
+  ],
+  "sourceAlphaBounds": [
+    19,
+    19,
+    77,
+    77
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/disassembler-spinner-part.png",
+      "sha256": "4ad781d57bffe535ddab051dca13fbc8a3d222e3174839c83692f232ba2838d8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/disassembler-spinner.png",
+      "sha256": "10d4d18566a0a1816ca4c953810e76c872343f37bbb568f1d0b2b36903dcc791"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler-spinner.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "title-logo",
+  "file": "full-game/ui-system/brand/title-logo.png",
+  "sha256": "6b593192adaebc50af7a521d7cad37fa000c8839faea6f2d57e95fb8089bc702",
+  "width": 1768,
+  "height": 445,
+  "derivedAt": "2026-10-26T15:54:03.434232+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/06-title-logo.png",
+    "sha256": "a42e33722181cff62f5b59af133313d6bb578d7d1e6a082b263aeb0bf41bea04",
+    "generationRecord": "full-game/ui-system/source/06-title-logo.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "sourceBox": [
+      13,
+      232,
+      1757,
+      653
+    ],
+    "alphaCutoff": 16,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

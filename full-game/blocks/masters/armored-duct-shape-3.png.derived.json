@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/armored-duct-shape-3.png",
+  "sha256": "24bb3c7bc1ea177217c9ed12aed7393403640420685c86257606b18d65ca26f7",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/ducts-conduit-connections-02.png",
+      "sha256": "8c6c6123608c6ba508ac65735a6ee38bab02a71f53c03e9ae57e10df1e1f642f",
+      "generationRecord": "full-game/blocks/records/ducts-conduit-connections-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      999,
+      362,
+      1294,
+      631
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      295,
+      269
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    327,
+    301
+  ],
+  "anchorPixels": [
+    163.5,
+    150.5
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

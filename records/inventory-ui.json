@@ -1,0 +1,2766 @@
+{
+  "schemaVersion": 1,
+  "inventoryId": "mindustry-ui-v160.7",
+  "inventoryStatus": "source_class_inventory_complete_dynamic_configs_pending",
+  "verifiedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "reference": {
+    "repository": "https://github.com/Anuken/Mindustry",
+    "tag": "v160.7",
+    "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+    "treeCache": "reference-ui-sources/official-tree-v160.7.json",
+    "treeTruncated": false
+  },
+  "scope": "固定版本内置客户端玩家界面、编辑器、联机与开发辅助界面；完整设计面与复用映射分开。独立无图形界面服务端不新增GUI。",
+  "interpretation": "requiredDesignStates 是依据已读官方源码归纳的美术状态合同，不表示官方使用相同的中文设计标题；分组、批次、优先级和共享方案属于本次制作建议。每项均为待制作，现有首屏概念不自动满足全部状态。",
+  "counts": {
+    "independentDesignSurfaces": 28,
+    "reusableDialogFamilies": 16,
+    "sharedComponentFamilies": 20,
+    "totalProductionGroups": 64
+  },
+  "screens": [
+    {
+      "id": "UI-001",
+      "name": "主菜单与入口",
+      "priority": "P0",
+      "batch": "01-foundation",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/MenuFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/MenuFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "桌面主菜单",
+        "移动端菜单",
+        "子菜单展开"
+      ],
+      "sharedComponents": [
+        "C-01",
+        "C-02",
+        "C-03",
+        "C-05"
+      ],
+      "coverage": "战役、加入游戏、自定义、读档、蓝图、数据库、编辑器、模组、设置与关于入口；Steam Workshop 入口按平台显示。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-002",
+      "name": "实战 HUD／建造与建筑配置",
+      "priority": "P0",
+      "batch": "01-foundation",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/HudFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/HudFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/PlacementFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlacementFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/BlockConfigFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/BlockConfigFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/BlockInventoryFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/BlockInventoryFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/PlanConfigFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlanConfigFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/input/MobileInput.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/input/MobileInput.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "桌面建造模式",
+        "移动端操作",
+        "资源不足／锁定建筑",
+        "建筑选中／库存／配置",
+        "波次进行与间隔",
+        "暂停／等待玩家／核心受袭"
+      ],
+      "sharedComponents": [
+        "C-04",
+        "C-10",
+        "C-12",
+        "C-13",
+        "C-14",
+        "C-17",
+        "C-18"
+      ],
+      "coverage": "分类与建筑网格、选中建筑信息、建造计划配置、建筑库存、波次／核心告警；配置内容由具体建筑提供。现有首稿只能对应概念状态。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-003",
+      "name": "单位指挥与姿态 HUD",
+      "priority": "P0",
+      "batch": "01-foundation",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/PlacementFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlacementFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "无单位选中",
+        "单类单位选中",
+        "混合多选",
+        "命令选中",
+        "姿态启停／不可用"
+      ],
+      "sharedComponents": [
+        "C-03",
+        "C-04",
+        "C-10",
+        "C-12",
+        "C-17"
+      ],
+      "coverage": "指挥模式替换建造分类区，呈现选中单位类别、可用命令和姿态；不能以建造栏概念代替。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-004",
+      "name": "展开战术小地图",
+      "priority": "P1",
+      "batch": "02-campaign",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/MinimapFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/MinimapFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/Minimap.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Minimap.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "收起嵌入 HUD",
+        "展开地图",
+        "有玩家／敌方／核心标记"
+      ],
+      "sharedComponents": [
+        "C-01",
+        "C-15",
+        "C-17"
+      ],
+      "coverage": "独立展开态构图，缩略态复用同一框与标记。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-005",
+      "name": "战役星球、区块与区域详情",
+      "priority": "P0",
+      "batch": "02-campaign",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/PlanetDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PlanetDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "星球／战役选择",
+        "区块可发射／锁定／可继续",
+        "被攻击／已占领",
+        "区域统计／全局概览",
+        "发射来源选择"
+      ],
+      "sharedComponents": [
+        "C-01",
+        "C-02",
+        "C-04",
+        "C-10",
+        "C-12",
+        "C-13"
+      ],
+      "coverage": "星球导航、区块状态、资源／生产／进出口／存储统计、改名图标、放弃区块及发射；由同一页面状态集覆盖。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-006",
+      "name": "科技研究树",
+      "priority": "P0",
+      "batch": "02-campaign",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/ResearchDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ResearchDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "切换研究树",
+        "锁定节点",
+        "可研究／资源不足",
+        "研究中／已完成",
+        "节点详情展开"
+      ],
+      "sharedComponents": [
+        "C-11",
+        "C-13",
+        "C-02",
+        "C-05"
+      ],
+      "coverage": "缩放、平移、科技节点关系、研究消耗和进度。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-007",
+      "name": "联机服务器浏览与加入",
+      "priority": "P0",
+      "batch": "03-multiplayer",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/JoinDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/JoinDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "本地／远程／公开列表",
+        "搜索／排序",
+        "刷新／发现中",
+        "空列表",
+        "版本不兼容",
+        "连接／重连",
+        "新增／编辑地址"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-02",
+        "C-16"
+      ],
+      "coverage": "地址录入、服务器条目、人数／延迟排序和连接状态。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-008",
+      "name": "存档读取与保存槽管理",
+      "priority": "P1",
+      "batch": "04-libraries",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/LoadDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LoadDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/SaveDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SaveDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "存档列表／搜索",
+        "空存档",
+        "新建／覆盖／改名",
+        "导入导出",
+        "损坏／缺少资源"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-02",
+        "C-14"
+      ],
+      "coverage": "LoadDialog 与 SaveDialog 共用槽位卡片和皮肤，两个操作态须分别设计。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-009",
+      "name": "自定义对局地图与模式选择",
+      "priority": "P1",
+      "batch": "04-libraries",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/CustomGameDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CustomGameDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/MapListDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapListDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/MapPlayDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapPlayDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "内置／自定义／创意工坊地图",
+        "地图搜索和筛选",
+        "地图详情／模式",
+        "开始／规则自定义",
+        "无地图"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-03",
+        "C-06",
+        "C-02"
+      ],
+      "coverage": "地图卡、来源、环境／模式／作者等筛选和开局选择。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-010",
+      "name": "内容数据库目录",
+      "priority": "P1",
+      "batch": "04-libraries",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/DatabaseDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/DatabaseDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "全部／分类／标签",
+        "搜索结果／无结果",
+        "内容未解锁"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-03",
+        "C-06",
+        "C-04"
+      ],
+      "coverage": "建筑、单位、物品等内容目录；不同内容引用独立资源图标。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-011",
+      "name": "内容详情与属性统计",
+      "priority": "P1",
+      "batch": "04-libraries",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/ContentInfoDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ContentInfoDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通内容说明",
+        "属性分类与数值",
+        "战役解锁条件",
+        "模组作者／补丁信息",
+        "字段查看"
+      ],
+      "sharedComponents": [
+        "C-01",
+        "C-05",
+        "C-09",
+        "C-13"
+      ],
+      "coverage": "从数据库、建筑和研究树进入同一详情系统。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-012",
+      "name": "蓝图库、详情与标签编辑",
+      "priority": "P1",
+      "batch": "04-libraries",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/SchematicsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SchematicsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "缩略图列表／搜索",
+        "空列表／禁用",
+        "蓝图详情",
+        "标签筛选／排序／重命名",
+        "导入导出／剪贴板"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-03",
+        "C-06",
+        "C-04"
+      ],
+      "coverage": "缩略图、标签、命名说明和文件操作共用模板，蓝图画面独立。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-013",
+      "name": "已安装模组管理",
+      "priority": "P1",
+      "batch": "05-settings-mods",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/ModsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "已安装／无模组",
+        "启用／停用",
+        "需重启",
+        "更新可用",
+        "缺失依赖／不兼容／内容错误"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-02",
+        "C-07",
+        "C-14"
+      ],
+      "coverage": "模组列表、元信息、依赖与错误、导入和更新。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-014",
+      "name": "模组浏览与下载详情",
+      "priority": "P1",
+      "batch": "05-settings-mods",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/ModBrowserDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModBrowserDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/ModsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "搜索／日期或星数排序",
+        "加载中",
+        "模组详情／已安装",
+        "发行版本选择",
+        "下载／依赖处理／失败"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-12",
+        "C-16"
+      ],
+      "coverage": "在线浏览与本地管理共享卡片控件，但布局与下载状态独立。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-015",
+      "name": "设置中心与数据管理",
+      "priority": "P0",
+      "batch": "05-settings-mods",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/SettingsMenuDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SettingsMenuDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/LanguageDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LanguageDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "游戏",
+        "图形",
+        "音频",
+        "开发者",
+        "语言选择／重启提示",
+        "数据导入导出／清除"
+      ],
+      "sharedComponents": [
+        "C-02",
+        "C-03",
+        "C-06",
+        "C-07",
+        "C-08",
+        "C-09"
+      ],
+      "coverage": "设置菜单与四类设置页，语言和数据通过共用弹窗皮肤映射；平台条件项不强行显示。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-016",
+      "name": "按键绑定",
+      "priority": "P1",
+      "batch": "05-settings-mods",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/KeybindDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/KeybindDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "分类列表",
+        "等待按键／轴输入",
+        "修改后",
+        "解除绑定",
+        "单项／全部重置"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-02",
+        "C-05",
+        "C-14"
+      ],
+      "coverage": "键位捕捉有专门状态，不能仅用普通设置开关图代替。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-017",
+      "name": "编辑器地图库",
+      "priority": "P1",
+      "batch": "06-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/EditorMapsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/EditorMapsDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/MapListDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapListDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "地图列表／筛选",
+        "新建地图",
+        "导入覆盖冲突",
+        "元信息",
+        "删除／发布入口"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-02"
+      ],
+      "coverage": "复用 UI-009 地图卡；独立编辑操作布局与空态。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-018",
+      "name": "地图编辑工作台",
+      "priority": "P1",
+      "batch": "06-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapEditorDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapEditorDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "绘制／选择工具",
+        "地表／地形／建筑显示",
+        "网格",
+        "撤销重做",
+        "画笔大小／旋转",
+        "菜单／测试前后／未保存"
+      ],
+      "sharedComponents": [
+        "C-20",
+        "C-04",
+        "C-07",
+        "C-08",
+        "C-10"
+      ],
+      "coverage": "地图画布、工具栏、图层、方块筛选和编辑菜单。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-019",
+      "name": "地图生成滤镜编辑器",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapGenerateDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapGenerateDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "滤镜列表／空列表",
+        "添加／排序／复制",
+        "参数编辑",
+        "随机化／应用",
+        "剪贴板／重置"
+      ],
+      "sharedComponents": [
+        "C-20",
+        "C-10",
+        "C-06",
+        "C-08"
+      ],
+      "coverage": "可排序滤镜和预览；SectorGenerateDialog 的数字参数使用 D-14。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-020",
+      "name": "自定义规则编辑器",
+      "priority": "P1",
+      "batch": "06-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/CustomRulesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CustomRulesDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "波次",
+        "建筑／资源",
+        "单位",
+        "敌我／战斗",
+        "环境及其他规则",
+        "搜索",
+        "导入无效／重置"
+      ],
+      "sharedComponents": [
+        "C-03",
+        "C-06",
+        "C-07",
+        "C-08",
+        "C-09"
+      ],
+      "coverage": "密集分组规则表单；禁用内容选择转 D-15，战役难度转 D-08。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-021",
+      "name": "波次编排编辑器",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/WaveInfoDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/WaveInfoDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "单位组列表／无波次",
+        "添加编辑",
+        "搜索／排序／筛选",
+        "波次区间／数量／护盾／首领",
+        "队伍／出生点选择",
+        "随机／导入无效"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-07",
+        "C-09",
+        "C-13"
+      ],
+      "coverage": "单位组与波次参数，可复用单位选择网格但需要完整工作页。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-022",
+      "name": "地图目标与标记编辑器",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapObjectivesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapObjectivesDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/editor/MapObjectivesCanvas.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapObjectivesCanvas.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "目标图／空图",
+        "新增目标",
+        "节点选中／连线",
+        "标记属性",
+        "剪贴板／清空"
+      ],
+      "sharedComponents": [
+        "C-20",
+        "C-11",
+        "C-06",
+        "C-07"
+      ],
+      "coverage": "目标图画布与属性编辑面板，功能内容来自 MapObjectivesDialog。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-023",
+      "name": "世界处理器管理",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapProcessorsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapProcessorsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "列表／搜索",
+        "空列表",
+        "新增空间不足",
+        "重命名／删除",
+        "进入逻辑编辑"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-02"
+      ],
+      "coverage": "世界处理器列表独立排布；编辑内容进入 UI-024。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-024",
+      "name": "逻辑处理器编程工作台",
+      "priority": "P1",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/logic/LogicDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/LogicDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/logic/LCanvas.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/LCanvas.java"
+        },
+        {
+          "path": "core/src/mindustry/logic/LStatements.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/LStatements.java"
+        },
+        {
+          "path": "core/src/mindustry/logic/GlobalVarsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/GlobalVarsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "指令列表／空逻辑",
+        "添加与分类搜索",
+        "指令参数编辑／排序",
+        "变量／全局变量",
+        "导入导出／重启／清空"
+      ],
+      "sharedComponents": [
+        "C-20",
+        "C-10",
+        "C-06",
+        "C-05",
+        "C-03"
+      ],
+      "coverage": "逻辑指令卡、参数控件和运行变量；每种指令内容用同一控件语法，不逐条独立生成整屏。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-025",
+      "name": "地图本地化文本编辑器",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapLocalesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapLocalesDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "语言选择",
+        "属性名／值搜索",
+        "正确／缺失／相同筛选",
+        "属性编辑／多语言应用",
+        "添加图标／回滚／导入"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-05",
+        "C-07",
+        "C-09"
+      ],
+      "coverage": "双栏或列表文本编辑，空态与缺翻译状态独立。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-026",
+      "name": "地图自定义资源管理",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/data/MapAssetsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/data/MapAssetsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "资源列表／搜索",
+        "图片导入",
+        "ZIP 导入导出",
+        "导入错误／空包",
+        "清空确认"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-02",
+        "C-14"
+      ],
+      "coverage": "按资源类别管理图片等素材；具体数据条目可能由 editor/data 的资源类型扩展。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-027",
+      "name": "像素画布与调色板编辑",
+      "priority": "P2",
+      "batch": "07-advanced-editor",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/CanvasEditDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CanvasEditDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/PaletteDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PaletteDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "画布编辑",
+        "颜色／调色板选择",
+        "导入导出",
+        "尺寸与颜色约束／加载错误"
+      ],
+      "sharedComponents": [
+        "C-20",
+        "C-04",
+        "C-08"
+      ],
+      "coverage": "画布建筑的绘制 UI 为功能编辑器，风格改皮不应改变像素编辑精度。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "UI-028",
+      "name": "联机玩家列表与聊天覆盖层",
+      "priority": "P1",
+      "batch": "03-multiplayer",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/PlayerListFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlayerListFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/ChatFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/ChatFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "玩家列表／搜索无结果",
+        "聊天展开／输入／历史",
+        "普通玩家／管理员操作",
+        "投票踢人理由",
+        "队伍选择"
+      ],
+      "sharedComponents": [
+        "C-10",
+        "C-06",
+        "C-05",
+        "C-09",
+        "C-14"
+      ],
+      "coverage": "玩家操作和聊天覆盖 HUD；管理记录复用 D-12。",
+      "status": "pending",
+      "assets": []
+    }
+  ],
+  "reusableDialogs": [
+    {
+      "id": "D-01",
+      "name": "确认与危险操作确认",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/BaseDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/BaseDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通确认",
+        "破坏性操作",
+        "条件不满足"
+      ],
+      "reusedElements": [
+        "确认／取消",
+        "警示色",
+        "可滚动说明"
+      ],
+      "coverage": "清除数据、删除蓝图／存档／地图、放弃区块、踢人等共用，不按业务各画一套。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-02",
+      "name": "文字／数字输入与重命名",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "默认／输入中",
+        "不合法／空值",
+        "数字限定"
+      ],
+      "reusedElements": [
+        "输入框",
+        "确认禁用",
+        "错误提示"
+      ],
+      "coverage": "地址、名称、标签等内容可以映射；不可用图内文字代替运行时输入。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-03",
+      "name": "信息、错误、长文、链接与关于",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/FullTextDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/FullTextDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/AboutDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/AboutDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/DiscordDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/DiscordDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "短提示",
+        "可滚动长文",
+        "错误／异常详情",
+        "链接／贡献者"
+      ],
+      "reusedElements": [
+        "标题框",
+        "正文排版",
+        "展开详情",
+        "复制／打开链接"
+      ],
+      "coverage": "信息类共用框架；内容字段和按钮按来源保留。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-04",
+      "name": "暂停菜单",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/PausedDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PausedDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "单机",
+        "战役",
+        "联机／房主",
+        "编辑器"
+      ],
+      "reusedElements": [
+        "菜单按钮",
+        "退出／保存",
+        "状态标题"
+      ],
+      "coverage": "暂停、保存、设置、联机、数据库、研究与星球入口按环境显示。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-05",
+      "name": "战斗结算与战役完成",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/GameOverDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/GameOverDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/CampaignCompleteDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CampaignCompleteDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "失败／PvP 结果",
+        "区域丢失",
+        "等待／断开",
+        "战役完成"
+      ],
+      "reusedElements": [
+        "统计行",
+        "结果标题",
+        "继续／菜单按钮"
+      ],
+      "coverage": "同一结算框皮肤，两种结果构图与统计字段分别映射。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-06",
+      "name": "创建联机房间",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/HostDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/HostDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "名称／端口",
+        "仅好友",
+        "创建中",
+        "地址占用／失败"
+      ],
+      "reusedElements": [
+        "表单",
+        "复选框",
+        "进度提示"
+      ],
+      "coverage": "房主入口是客户端表单，不是独立服务端 GUI。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-07",
+      "name": "发射与资源配装",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/LaunchLoadoutDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LaunchLoadoutDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/LoadoutDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LoadoutDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "核心蓝图选择",
+        "物资数量",
+        "容量上限",
+        "资源不足／配置无效"
+      ],
+      "reusedElements": [
+        "图标数量编辑",
+        "容量条",
+        "确认按钮"
+      ],
+      "coverage": "发射与普通资源配装共用资源格，发射来源和容量为扩展字段。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-08",
+      "name": "战役难度与选项",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/CampaignRulesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CampaignRulesDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "难度选择",
+        "规则开关",
+        "区域失败后处理"
+      ],
+      "reusedElements": [
+        "选项卡／单选",
+        "开关",
+        "说明"
+      ],
+      "coverage": "战役选项与 UI-020 自定义规则密集页面共享控件。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-09",
+      "name": "搜索列表／图标／区域／语言选择",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/IconSelectDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/IconSelectDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/SectorSelectDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SectorSelectDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/editor/MapLoadDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapLoadDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/LanguageDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LanguageDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "有结果／空态",
+        "当前选中",
+        "搜索／过滤"
+      ],
+      "reusedElements": [
+        "选择列表／网格",
+        "搜索框",
+        "确认／返回"
+      ],
+      "coverage": "模板根据数据用文本行、地图缩略图或图标格，来源类逐一覆盖。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-10",
+      "name": "颜色选择",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/ColorPicker.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ColorPicker.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "当前色",
+        "色相／饱和度／亮度",
+        "透明度／颜色值"
+      ],
+      "reusedElements": [
+        "色盘",
+        "滑条",
+        "颜色预览"
+      ],
+      "coverage": "与调色板资源一致但颜色值原生编辑。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-11",
+      "name": "文件选择／保存",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/FileChooserDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/FileChooserDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/FileChooser.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/FileChooser.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "目录列表",
+        "文件筛选",
+        "文件名输入",
+        "打开／保存／取消"
+      ],
+      "reusedElements": [
+        "路径栏",
+        "文件行",
+        "输入框"
+      ],
+      "coverage": "系统原生文件选择在不同平台可能替代此回退界面；不改变原生系统 UI。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-12",
+      "name": "管理记录列表与详情",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/AdminsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/AdminsDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/BansDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/BansDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/TraceDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/TraceDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/logic/GlobalVarsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/GlobalVarsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "管理员／封禁列表",
+        "空列表",
+        "玩家追踪详情",
+        "全局变量分组"
+      ],
+      "reusedElements": [
+        "记录行",
+        "滚动详情",
+        "解除／复制按钮"
+      ],
+      "coverage": "这些共享记录表皮肤，但玩家敏感数据仅用演示值；全局变量是独立内容映射。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-13",
+      "name": "元信息表单",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapInfoDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapInfoDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/SchematicsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SchematicsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "地图名／作者／说明",
+        "蓝图名／说明／标签",
+        "关联编辑入口"
+      ],
+      "reusedElements": [
+        "文字输入",
+        "说明文本区",
+        "工具入口"
+      ],
+      "coverage": "地图信息与蓝图元信息共享表单布局，地图的波次／规则／目标等入口保留。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-14",
+      "name": "尺寸／偏移／区域生成参数",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapResizeDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapResizeDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/editor/SectorGenerateDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/SectorGenerateDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "宽高和偏移",
+        "星球／区块／种子",
+        "有效／无效参数"
+      ],
+      "reusedElements": [
+        "数字框",
+        "下拉选择",
+        "应用／取消"
+      ],
+      "coverage": "使用同一紧凑参数表单，两类实际字段各留状态样图。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-15",
+      "name": "禁用内容选择",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/BannedContentDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/BannedContentDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/CustomRulesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CustomRulesDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "建筑／单位",
+        "搜索／空态",
+        "全选／清空",
+        "黑名单／白名单"
+      ],
+      "reusedElements": [
+        "内容网格",
+        "选中态",
+        "搜索",
+        "批量操作"
+      ],
+      "coverage": "每个内容项复用既有图标，不做新的同名单位图。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "D-16",
+      "name": "开发效果预览",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/EffectsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/EffectsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "效果列表／搜索",
+        "点击预览"
+      ],
+      "reusedElements": [
+        "文本列表",
+        "预览区"
+      ],
+      "coverage": "开发辅助界面，低优先级；效果本体不是本 UI 清单的美术动画交付。",
+      "status": "pending",
+      "assets": []
+    }
+  ],
+  "sharedComponents": [
+    {
+      "id": "C-01",
+      "name": "框板／标题／关闭／全屏与小窗",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/BaseDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/BaseDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通窗",
+        "全屏窗",
+        "标题／分隔线",
+        "关闭"
+      ],
+      "productionNotes": "主参考的玉绿标题与米白正文，边框九宫格需单独合同。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-02",
+      "name": "文字按钮",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "up",
+        "over",
+        "down",
+        "disabled"
+      ],
+      "productionNotes": "主要／次要／危险按钮共享尺寸系列，文字使用原生字体。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-03",
+      "name": "切换按钮、页签与菜单",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/Menus.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Menus.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通",
+        "悬停",
+        "按下",
+        "checked",
+        "disabled"
+      ],
+      "productionNotes": "选中与禁用必须可区分。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-04",
+      "name": "图标按钮、工具栏与建筑选择框",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/PlacementFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlacementFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通",
+        "悬停",
+        "按下",
+        "选中",
+        "禁用"
+      ],
+      "productionNotes": "图标不嵌按钮文字，保持小尺寸可读轮廓。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-05",
+      "name": "中文文字、标题、数字与等宽代码",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Fonts.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Fonts.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "正文",
+        "标题",
+        "说明",
+        "错误",
+        "mono"
+      ],
+      "productionNotes": "交付字体与排版规则，不把全部文字烘焙进控件。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-06",
+      "name": "单行、多行、数字输入框",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "默认",
+        "焦点",
+        "选择",
+        "光标",
+        "禁用",
+        "无效"
+      ],
+      "productionNotes": "输入内容、选区和光标由引擎控制。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-07",
+      "name": "复选框和规则开关",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/Elems.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Elems.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "未选",
+        "选中",
+        "禁用"
+      ],
+      "productionNotes": "沿用玉绿选中、米白普通层级。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-08",
+      "name": "滑条与拖动柄",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "轨道",
+        "普通柄",
+        "悬停柄",
+        "数值变化"
+      ],
+      "productionNotes": "参数数值为原生文字。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-09",
+      "name": "滚动区和滚动条",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "纵向",
+        "横向",
+        "细条",
+        "无条"
+      ],
+      "productionNotes": "圆角窗内不破坏独立滚动和底部固定操作。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-10",
+      "name": "列表行、资源卡与选择网格",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/dialogs/MapListDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapListDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/LoadDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LoadDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/ModsDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModsDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "普通",
+        "选中",
+        "禁用",
+        "空态",
+        "有错误"
+      ],
+      "productionNotes": "地图、存档、模组和单位卡共用皮肤变体，内容图独立映射。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-11",
+      "name": "研究／目标节点和连线",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Styles.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Styles.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/ResearchDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ResearchDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/editor/MapObjectivesDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapObjectivesDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "锁定",
+        "可用",
+        "选中",
+        "已完成",
+        "连线"
+      ],
+      "productionNotes": "科技图与目标图共用材质，不能共用功能图数据。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-12",
+      "name": "状态条、资源栏与警告条",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Bar.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Bar.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/WarningBar.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/WarningBar.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/CoreItemsDisplay.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/CoreItemsDisplay.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "满／部分／空",
+        "增加／减少",
+        "警告"
+      ],
+      "productionNotes": "血量、核心、构建、容量等有一致语义颜色。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-13",
+      "name": "物品数量、成本与需求状态",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/ItemsDisplay.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/ItemsDisplay.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/ReqImage.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/ReqImage.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/MultiReqImage.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/MultiReqImage.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "满足",
+        "不足",
+        "多选需求",
+        "数量"
+      ],
+      "productionNotes": "来源资源图标可复用；缺货不只靠颜色表达。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-14",
+      "name": "提示、通知、教程与告警",
+      "priority": "P0",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/HintsFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/HintsFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/HudFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/HudFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "tooltip",
+        "toast",
+        "淡出消息",
+        "教程提示",
+        "告警"
+      ],
+      "productionNotes": "不遮挡主操作，文字在客户端排版。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-15",
+      "name": "小地图框与标记",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/Minimap.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/Minimap.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/MinimapFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/MinimapFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "嵌入",
+        "展开",
+        "敌我／核心／视域标记"
+      ],
+      "productionNotes": "地图数据与静态框分离。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-16",
+      "name": "加载／保存提示与过渡",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/LoadingFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/LoadingFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/FadeInFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/FadeInFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "加载中",
+        "取消",
+        "完成淡出"
+      ],
+      "productionNotes": "动态进度组件不能以静态图宣称已实现动画。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-17",
+      "name": "选中圈、世界提示与光标",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/core/UI.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/UI.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/PlacementFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlacementFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "采矿",
+        "卸载",
+        "目标",
+        "修理",
+        "单位选中"
+      ],
+      "productionNotes": "保留实际操作含义；俯视世界标记与UI按钮分开。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-18",
+      "name": "移动端操作控件",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/MobileButton.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/MobileButton.java"
+        },
+        {
+          "path": "core/src/mindustry/input/MobileInput.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/input/MobileInput.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "未按",
+        "按下",
+        "选中",
+        "可用／不可用"
+      ],
+      "productionNotes": "触控按钮和响应布局单独核验，桌面设计不能默认视为移动端完成。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-19",
+      "name": "控制台与性能覆盖层",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/ui/fragments/ConsoleFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/ConsoleFragment.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/fragments/PerformanceFragment.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PerformanceFragment.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "输入／历史",
+        "错误输出",
+        "性能数据显示"
+      ],
+      "productionNotes": "以代码文字与轻量面板复用，不添加虚构管理功能。",
+      "status": "pending",
+      "assets": []
+    },
+    {
+      "id": "C-20",
+      "name": "编辑器画布、格线、选择与属性工具",
+      "priority": "P1",
+      "officialSources": [
+        {
+          "path": "core/src/mindustry/editor/MapEditorDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapEditorDialog.java"
+        },
+        {
+          "path": "core/src/mindustry/logic/LCanvas.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/LCanvas.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/GridImage.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/GridImage.java"
+        },
+        {
+          "path": "core/src/mindustry/ui/dialogs/CanvasEditDialog.java",
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CanvasEditDialog.java"
+        }
+      ],
+      "requiredDesignStates": [
+        "格线开关",
+        "画布缩放平移",
+        "选择",
+        "工具选中",
+        "参数编辑"
+      ],
+      "productionNotes": "逻辑和地图使用共用工具材质，功能画布分别保留。",
+      "status": "pending",
+      "assets": []
+    }
+  ],
+  "coverageRules": [
+    "相同界面不同状态可以在状态说明页中组合，但每个状态必须有明确文件/图层或组件映射。",
+    "复用弹窗按模板交付；每个官方对应类仍需映射，不得仅写“通用框”而跳过实际字段。",
+    "所有图片保留真实原生尺寸与逐图生成记录；设计稿、切片、可加载资产、运行验收分开。",
+    "Windows/桌面与移动端布局分别核验；Steam、原生系统文件选择等平台入口不凭空复制。",
+    "官方资源内容图标与世界单位资产不由一张 UI 缩略图覆盖，引用外部单位／物品／建筑映射。"
+  ],
+  "batches": [
+    {
+      "id": "01-foundation",
+      "name": "基础控件与主菜单／双模式HUD",
+      "groups": [
+        "C-01",
+        "C-02",
+        "C-03",
+        "C-04",
+        "C-05",
+        "C-06",
+        "C-07",
+        "C-08",
+        "C-09",
+        "C-10",
+        "C-12",
+        "C-13",
+        "C-14",
+        "UI-001",
+        "UI-002",
+        "UI-003",
+        "D-01",
+        "D-02",
+        "D-03",
+        "D-04",
+        "D-05"
+      ]
+    },
+    {
+      "id": "02-campaign",
+      "name": "战役、研究、区域与发射",
+      "groups": [
+        "UI-004",
+        "UI-005",
+        "UI-006",
+        "D-07",
+        "D-08",
+        "C-11",
+        "C-15",
+        "C-17"
+      ]
+    },
+    {
+      "id": "03-multiplayer",
+      "name": "联机列表、房主与玩家聊天",
+      "groups": [
+        "UI-007",
+        "UI-028",
+        "D-06",
+        "D-12"
+      ]
+    },
+    {
+      "id": "04-libraries",
+      "name": "地图、存档、内容与蓝图库",
+      "groups": [
+        "UI-008",
+        "UI-009",
+        "UI-010",
+        "UI-011",
+        "UI-012",
+        "D-09",
+        "D-11"
+      ]
+    },
+    {
+      "id": "05-settings-mods",
+      "name": "设置、键位、模组与平台状态",
+      "groups": [
+        "UI-013",
+        "UI-014",
+        "UI-015",
+        "UI-016",
+        "C-16",
+        "C-18",
+        "C-19"
+      ]
+    },
+    {
+      "id": "06-editor",
+      "name": "地图编辑基础与规则",
+      "groups": [
+        "UI-017",
+        "UI-018",
+        "UI-020",
+        "D-13",
+        "D-14",
+        "D-15",
+        "C-20"
+      ]
+    },
+    {
+      "id": "07-advanced-editor",
+      "name": "高级编辑器与专用工具",
+      "groups": [
+        "UI-019",
+        "UI-021",
+        "UI-022",
+        "UI-023",
+        "UI-024",
+        "UI-025",
+        "UI-026",
+        "UI-027",
+        "D-10",
+        "D-16"
+      ]
+    }
+  ],
+  "openCoverage": [
+    {
+      "id": "GAP-01",
+      "status": "pending_source_expansion",
+      "name": "具体建筑的动态配置内容",
+      "evidence": {
+        "path": "core/src/mindustry/ui/fragments/BlockConfigFragment.java",
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/BlockConfigFragment.java"
+      },
+      "reason": "BlockConfigFragment 由具体 Building.buildConfiguration 填充；world/blocks 下的全部覆盖尚未在本次 UI 类盘点中逐类穷举。需要对内置建筑配置覆写做后续专项扫描，并映射 UI-002 或新增专用控件变体，不能把此项当作完成。"
+    },
+    {
+      "id": "GAP-02",
+      "status": "pending_source_expansion",
+      "name": "地图资源类型专用编辑行",
+      "evidence": {
+        "path": "core/src/mindustry/editor/data/MapAssetsDialog.java",
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/data/MapAssetsDialog.java"
+      },
+      "reason": "地图资源管理调用各资源类型的编辑构建器；editor/data 中条目的专用内容需要追加资源类型清单，当前 UI-026 是管理框架。"
+    },
+    {
+      "id": "GAP-03",
+      "status": "pending_runtime_validation",
+      "name": "平台条件与运行布局",
+      "reason": "本次是固定源码盘点，没有运行客户端。桌面/移动/Steam 条件、分辨率、滚动、字段长度及真实控件状态须在接入验收确认。"
+    }
+  ],
+  "excludedAsNotIndependentScreens": [
+    "UI builder/parser/hot reload API 与 tree layout 实现类是界面基础设施，不独立生成整屏；应用到上述页面时继承控件。",
+    "Fonts/IntFormat/Displayable/Links 等是字体、数值或数据接口，不作为独立玩家页面。",
+    "模组通过自定义UI API添加的任意第三方页面不属于固定原版内置清单。"
+  ],
+  "completionStatus": "not_complete",
+  "completionReason": "仅源码与生产清单完成；全部生产组和未覆盖专项保持 pending。",
+  "sourceClassCoverageSummary": {
+    "expectedClasses": 67,
+    "sourceReadCount": 67,
+    "mappedClasses": 67,
+    "unresolvedClasses": 0
+  },
+  "sourceClassCoverage": [
+    {
+      "path": "core/src/mindustry/editor/BannedContentDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/BannedContentDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__BannedContentDialog.java",
+      "sourceRead": true,
+      "sha256": "e4bc0cfacbd49f26c7040dd1428cffa5aaf23f0194ac4f7cf629a839aaa47d6e",
+      "productionGroupIds": [
+        "D-15"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapEditorDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapEditorDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapEditorDialog.java",
+      "sourceRead": true,
+      "sha256": "b0401633409436637f32635c88c9cd971126d640b717a6adebf633abf6ba5876",
+      "productionGroupIds": [
+        "UI-018",
+        "C-20"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapGenerateDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapGenerateDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapGenerateDialog.java",
+      "sourceRead": true,
+      "sha256": "58443f7a9e0e36bbb778f1323fc3edd20563a42f8987aae076b592559b13ba7e",
+      "productionGroupIds": [
+        "UI-019"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapInfoDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapInfoDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapInfoDialog.java",
+      "sourceRead": true,
+      "sha256": "812eac488a0edf3e44e4150cad5516144d035a81bcbc7e0c04b2b563db834acc",
+      "productionGroupIds": [
+        "D-13"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapLoadDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapLoadDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapLoadDialog.java",
+      "sourceRead": true,
+      "sha256": "2dc1e407bd23f25b76bbbff8d5ce9c8115f8cec9bfd3d7e499d8d95e8c4e39b6",
+      "productionGroupIds": [
+        "D-09"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapLocalesDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapLocalesDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapLocalesDialog.java",
+      "sourceRead": true,
+      "sha256": "90902df98e1c478d27e20b02df4dae7155020a8fc00afd4d909bb2bcc0bc74a9",
+      "productionGroupIds": [
+        "UI-025"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapObjectivesDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapObjectivesDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapObjectivesDialog.java",
+      "sourceRead": true,
+      "sha256": "85654416223bd98b75a35a16c310fe518e97d6fd433b736749b52411aee39f3f",
+      "productionGroupIds": [
+        "UI-022",
+        "C-11"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapProcessorsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapProcessorsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapProcessorsDialog.java",
+      "sourceRead": true,
+      "sha256": "698116e6af01f4893766d1ff4e2523c2e3ff9be73a2a63f37111dacbf990a80d",
+      "productionGroupIds": [
+        "UI-023"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/MapResizeDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/MapResizeDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__MapResizeDialog.java",
+      "sourceRead": true,
+      "sha256": "a9ad1b620ec6130e61e4846ca9cfce805136931bd3849aca32b2c8e9e14f6b40",
+      "productionGroupIds": [
+        "D-14"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/SectorGenerateDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/SectorGenerateDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__SectorGenerateDialog.java",
+      "sourceRead": true,
+      "sha256": "835205e39ce6b1f6b8384ac4f88e5b551b8a250adb02b5f418761df00cafdc55",
+      "productionGroupIds": [
+        "D-14"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/WaveInfoDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/WaveInfoDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__WaveInfoDialog.java",
+      "sourceRead": true,
+      "sha256": "905c795865a04a6108161481b62b2705b551124b1ba6d05ad692f38e45ff32de",
+      "productionGroupIds": [
+        "UI-021"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapAssetsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/editor/data/MapAssetsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__editor__data__MapAssetsDialog.java",
+      "sourceRead": true,
+      "sha256": "edbc91019b3f507ec78faabbd9880647294cec9028f1c976badb6f894d553e12",
+      "productionGroupIds": [
+        "UI-026"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/logic/GlobalVarsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/GlobalVarsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__logic__GlobalVarsDialog.java",
+      "sourceRead": true,
+      "sha256": "bef080783e9a18b58edf38a795e75dc9620595599e004c7135d929e2027dca00",
+      "productionGroupIds": [
+        "UI-024",
+        "D-12"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/logic/LogicDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/logic/LogicDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__logic__LogicDialog.java",
+      "sourceRead": true,
+      "sha256": "0f680bc49a08155bb7cc54bae65a7f0226fed61273d13c6169d5a0d0c64d130f",
+      "productionGroupIds": [
+        "UI-024"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/AboutDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/AboutDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__AboutDialog.java",
+      "sourceRead": true,
+      "sha256": "707d5e478b61f16e328cc23d2e73f53533e9c7036b1c7ae83c90fca5d316926d",
+      "productionGroupIds": [
+        "D-03"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/AdminsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/AdminsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__AdminsDialog.java",
+      "sourceRead": true,
+      "sha256": "adb81c2a860fedc05beddf1cc24db8e6208f3cb8796efb4755f0a6acb514b8bd",
+      "productionGroupIds": [
+        "D-12"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/BansDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/BansDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__BansDialog.java",
+      "sourceRead": true,
+      "sha256": "a436da8396ff9e54d0ac2d659bf0ac13df1e19e3307266c3b86cf17c3b9a1338",
+      "productionGroupIds": [
+        "D-12"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/BaseDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/BaseDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__BaseDialog.java",
+      "sourceRead": true,
+      "sha256": "e94909412d84d4476dd2faf602493498151945faffba0970e923d471bf0be65a",
+      "productionGroupIds": [
+        "D-01",
+        "C-01"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/CampaignCompleteDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CampaignCompleteDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__CampaignCompleteDialog.java",
+      "sourceRead": true,
+      "sha256": "858b4bacf3cdcbcee454a61643749e7cde800116811dfec03ac92c05ca6c298f",
+      "productionGroupIds": [
+        "D-05"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/CampaignRulesDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CampaignRulesDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__CampaignRulesDialog.java",
+      "sourceRead": true,
+      "sha256": "8ce83e8a7a0b63ff5dc78c3c895aea232e1164c5cd91fea03eb6cb7f101569ab",
+      "productionGroupIds": [
+        "D-08"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/CanvasEditDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CanvasEditDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__CanvasEditDialog.java",
+      "sourceRead": true,
+      "sha256": "802e057f6d558a8a267766f7618d4ac387c086aa771670399c746916cc61a1fb",
+      "productionGroupIds": [
+        "UI-027",
+        "C-20"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/ColorPicker.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ColorPicker.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__ColorPicker.java",
+      "sourceRead": true,
+      "sha256": "c2cf2fccfeefb69d5db5c4809fdc48c3b4fa80a72ac8098964310a31ef271d52",
+      "productionGroupIds": [
+        "D-10"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/ContentInfoDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ContentInfoDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__ContentInfoDialog.java",
+      "sourceRead": true,
+      "sha256": "41bfd53fdc7f7349ca34ae0ce25bd3a6ab657d36282c827627102cf9b2ec0462",
+      "productionGroupIds": [
+        "UI-011"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/CustomGameDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CustomGameDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__CustomGameDialog.java",
+      "sourceRead": true,
+      "sha256": "34deb3e7d508222090312d430acd0e9b9e86ca8a64c88393c290f88240897e14",
+      "productionGroupIds": [
+        "UI-009"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/CustomRulesDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/CustomRulesDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__CustomRulesDialog.java",
+      "sourceRead": true,
+      "sha256": "9da2004894bb30a44a131839e09df86368d2bcfb6d0d392661516cdab4a597f2",
+      "productionGroupIds": [
+        "UI-020",
+        "D-15"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/DatabaseDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/DatabaseDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__DatabaseDialog.java",
+      "sourceRead": true,
+      "sha256": "2b0039fa3f38d3fbefb3fd6c826edd045e35001e5c5fc380190554d6da6c22fd",
+      "productionGroupIds": [
+        "UI-010"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/DiscordDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/DiscordDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__DiscordDialog.java",
+      "sourceRead": true,
+      "sha256": "dab69ea2a7dfadfcc1845f6fe62d8bf555b0c781fabed5ff8d18e1d1a072fb74",
+      "productionGroupIds": [
+        "D-03"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/EditorMapsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/EditorMapsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__EditorMapsDialog.java",
+      "sourceRead": true,
+      "sha256": "e0d5b56d676da6a1754cd11f0f14f543c1f701cb18a6f0730ff7a2a9b3c7e9b3",
+      "productionGroupIds": [
+        "UI-017"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/EffectsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/EffectsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__EffectsDialog.java",
+      "sourceRead": true,
+      "sha256": "25dc7910056f52dfc22c7fa81ea03266075f5d732725ed515b642a32c051a247",
+      "productionGroupIds": [
+        "D-16"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/FileChooserDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/FileChooserDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__FileChooserDialog.java",
+      "sourceRead": true,
+      "sha256": "48bfa031c85d8d61e2b8ba663145948047f26fe6a81194df78fbc0ea7cc4a200",
+      "productionGroupIds": [
+        "D-11"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/FullTextDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/FullTextDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__FullTextDialog.java",
+      "sourceRead": true,
+      "sha256": "5e38357c02c91060d77d1ce8f60f922c63c50c527f530f5de4f2b90a4b0e7deb",
+      "productionGroupIds": [
+        "D-03"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/GameOverDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/GameOverDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__GameOverDialog.java",
+      "sourceRead": true,
+      "sha256": "fd749e797765fe838ccb761a37c0efe16af50b837b75257cb31fd7b856273648",
+      "productionGroupIds": [
+        "D-05"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/HostDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/HostDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__HostDialog.java",
+      "sourceRead": true,
+      "sha256": "f3849f26b0b939a59815e5c774ec22f95e9617bb3e15a11900270fb108f957b1",
+      "productionGroupIds": [
+        "D-06"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/IconSelectDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/IconSelectDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__IconSelectDialog.java",
+      "sourceRead": true,
+      "sha256": "51f51598635c535352caffff6fb7458d18478e1a6d5bb878a668069b87d195f7",
+      "productionGroupIds": [
+        "D-09"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/JoinDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/JoinDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__JoinDialog.java",
+      "sourceRead": true,
+      "sha256": "f4e27d3a0a07702de64bd327c2228267bcf6d59561bd44ce44c3169ac40f5796",
+      "productionGroupIds": [
+        "UI-007"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/KeybindDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/KeybindDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__KeybindDialog.java",
+      "sourceRead": true,
+      "sha256": "078bb83bebe2bc2d54d6d45296d1a8cd5d1480f4f5950bbdd2ac1057df8c47bc",
+      "productionGroupIds": [
+        "UI-016"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/LanguageDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LanguageDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__LanguageDialog.java",
+      "sourceRead": true,
+      "sha256": "928256f76aab405ee97dfbbeb8af90613408d8290492a56e371a50ed1f3a2258",
+      "productionGroupIds": [
+        "UI-015",
+        "D-09"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/LaunchLoadoutDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LaunchLoadoutDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__LaunchLoadoutDialog.java",
+      "sourceRead": true,
+      "sha256": "b84885eb3fb1d25c771b484382518d696d3abaaba61cc4064cfa42042d349c29",
+      "productionGroupIds": [
+        "D-07"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/LoadDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LoadDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__LoadDialog.java",
+      "sourceRead": true,
+      "sha256": "7ccc1e232baf620b24338448ca298d77ecf044733b647a046d6426fca7df0cfd",
+      "productionGroupIds": [
+        "UI-008",
+        "C-10"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/LoadoutDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/LoadoutDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__LoadoutDialog.java",
+      "sourceRead": true,
+      "sha256": "8807ba727a74071120923c9db0d9d37c5597e20832b9d2bcc5cfa07f704dc389",
+      "productionGroupIds": [
+        "D-07"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/MapListDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapListDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__MapListDialog.java",
+      "sourceRead": true,
+      "sha256": "cf57b1ba356cf4a51171a9d886f7d710b3f870fdcf2a8fad6c2f740d0362e8db",
+      "productionGroupIds": [
+        "UI-009",
+        "UI-017",
+        "C-10"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/MapPlayDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/MapPlayDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__MapPlayDialog.java",
+      "sourceRead": true,
+      "sha256": "dd79386207c94bf01ca425c33e4fa5c874e60afdef610afd3444ecb13a13dc72",
+      "productionGroupIds": [
+        "UI-009"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/ModBrowserDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModBrowserDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__ModBrowserDialog.java",
+      "sourceRead": true,
+      "sha256": "62aec37285cb5528374a72b482220483f450b2ef48dfb6cb4759af296d837571",
+      "productionGroupIds": [
+        "UI-014"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/ModsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ModsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__ModsDialog.java",
+      "sourceRead": true,
+      "sha256": "527640cfd3f23ab62d36230647742d6983a45352a37e22ab12f1592195ea853e",
+      "productionGroupIds": [
+        "UI-013",
+        "UI-014",
+        "C-10"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/PaletteDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PaletteDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__PaletteDialog.java",
+      "sourceRead": true,
+      "sha256": "2211545752bac112e28741e81c9bd3aedae1cf9ae4388a0dcd623de5f1a46939",
+      "productionGroupIds": [
+        "UI-027"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/PausedDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PausedDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__PausedDialog.java",
+      "sourceRead": true,
+      "sha256": "e195b67708d445ce204c3a46b92d3a5f5c2b6514c9822535c0a96d0ee627dd0a",
+      "productionGroupIds": [
+        "D-04"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/PlanetDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/PlanetDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__PlanetDialog.java",
+      "sourceRead": true,
+      "sha256": "d1081fc112bf4962ae9087473c7e2d015fedc49a6bf574afaa97a36b04c8013f",
+      "productionGroupIds": [
+        "UI-005"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/ResearchDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ResearchDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__ResearchDialog.java",
+      "sourceRead": true,
+      "sha256": "54ef8c5aa2887583612ebcbd11279ae4462a12825cbf447b0aa5c5e39bd5cc9b",
+      "productionGroupIds": [
+        "UI-006",
+        "C-11"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/SaveDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SaveDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__SaveDialog.java",
+      "sourceRead": true,
+      "sha256": "f5e5c682d9ea5f43737dbf37a2878137a7d82a9a712497b6fae78f518f0cd2c7",
+      "productionGroupIds": [
+        "UI-008"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/SchematicsDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SchematicsDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__SchematicsDialog.java",
+      "sourceRead": true,
+      "sha256": "0778da9c4f23e88803eb09ac097c57ea4614a4656b3a4436414d8ad129e54adb",
+      "productionGroupIds": [
+        "UI-012",
+        "D-13"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/SectorSelectDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SectorSelectDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__SectorSelectDialog.java",
+      "sourceRead": true,
+      "sha256": "0295da2f70286a5c5ac224e4aac3825127da0f99662dbf1921d5e0ced6e714f6",
+      "productionGroupIds": [
+        "D-09"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/SettingsMenuDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/SettingsMenuDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__SettingsMenuDialog.java",
+      "sourceRead": true,
+      "sha256": "657f0f007f38caf8263a5d51f707d947a66dc58ff76e03a27aa4521edc0d44cb",
+      "productionGroupIds": [
+        "UI-015"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/dialogs/TraceDialog.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/TraceDialog.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__dialogs__TraceDialog.java",
+      "sourceRead": true,
+      "sha256": "2ca4f16dd6c7753b8a9e9a7195cfdf6b57e2c38cc42c4affbe7919e98dda6227",
+      "productionGroupIds": [
+        "D-12"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/BlockConfigFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/BlockConfigFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__BlockConfigFragment.java",
+      "sourceRead": true,
+      "sha256": "1dacc2fa4675e742067d5f20e4877d9cded2e92e45dcab7084001d1b34e1f549",
+      "productionGroupIds": [
+        "UI-002"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/BlockInventoryFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/BlockInventoryFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__BlockInventoryFragment.java",
+      "sourceRead": true,
+      "sha256": "dac714a229184383762e0a4838a34fd694e42323ec4e9a74e4f1ab40a87083ae",
+      "productionGroupIds": [
+        "UI-002"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/ChatFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/ChatFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__ChatFragment.java",
+      "sourceRead": true,
+      "sha256": "33798b56b9383ecdf3c19f6f3232e4d1b6b2cf1183307e1be60ca0bf126171f4",
+      "productionGroupIds": [
+        "UI-028"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/ConsoleFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/ConsoleFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__ConsoleFragment.java",
+      "sourceRead": true,
+      "sha256": "bda5ce4fe40a8c3a9392cb8321509cf759f8d737559e39753b32a7e994f6f7bf",
+      "productionGroupIds": [
+        "C-19"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/FadeInFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/FadeInFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__FadeInFragment.java",
+      "sourceRead": true,
+      "sha256": "7a31f08911bc8cf17858dd68105628a19323a16773ed33ab975a1a38c9b6603a",
+      "productionGroupIds": [
+        "C-16"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/HintsFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/HintsFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__HintsFragment.java",
+      "sourceRead": true,
+      "sha256": "114c813792a849bab907987d419bce4f7d377da7e321cf4681d16524f20c6ed0",
+      "productionGroupIds": [
+        "C-14"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/HudFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/HudFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__HudFragment.java",
+      "sourceRead": true,
+      "sha256": "e7dc36adfc43ccd843077310141f27d5627a3b3bd5b4132b3d3334421da58615",
+      "productionGroupIds": [
+        "UI-002",
+        "C-14"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/LoadingFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/LoadingFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__LoadingFragment.java",
+      "sourceRead": true,
+      "sha256": "f63b60e358209478c3e3294cde3f72ece41ef2f4aaf41503899b73c75151c698",
+      "productionGroupIds": [
+        "C-16"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/MenuFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/MenuFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__MenuFragment.java",
+      "sourceRead": true,
+      "sha256": "21aceef1721bfc313f19686a3ab1cb0b46d8b74a823507046d0acd6027a8bf89",
+      "productionGroupIds": [
+        "UI-001"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/MinimapFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/MinimapFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__MinimapFragment.java",
+      "sourceRead": true,
+      "sha256": "851cf7e8388a8e075e8d389d5537ce9d801e3c4e5e85d2526e23a966f7a43a01",
+      "productionGroupIds": [
+        "UI-004",
+        "C-15"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/PerformanceFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PerformanceFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__PerformanceFragment.java",
+      "sourceRead": true,
+      "sha256": "7e483e932e26289c024f43022afb761350c223e569c7ee33b0015062508afad8",
+      "productionGroupIds": [
+        "C-19"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/PlacementFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlacementFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__PlacementFragment.java",
+      "sourceRead": true,
+      "sha256": "de4b4c47a90975e681fcfed6b5a9d72be041d7932e08a84b46a93be3e3c885d2",
+      "productionGroupIds": [
+        "UI-002",
+        "UI-003",
+        "C-04",
+        "C-17"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/PlanConfigFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlanConfigFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__PlanConfigFragment.java",
+      "sourceRead": true,
+      "sha256": "46f485b73d96e5620c23bfc4b4f22d8b4a643e048d12223e7476ea303e852375",
+      "productionGroupIds": [
+        "UI-002"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    },
+    {
+      "path": "core/src/mindustry/ui/fragments/PlayerListFragment.java",
+      "sourceUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/fragments/PlayerListFragment.java",
+      "cacheFile": "reference-ui-sources/core__src__mindustry__ui__fragments__PlayerListFragment.java",
+      "sourceRead": true,
+      "sha256": "4bd8b19e4658ce9df6d19a1dd5032291a00fb871e253c32436621888a5dc4e4f",
+      "productionGroupIds": [
+        "UI-028"
+      ],
+      "mappingStatus": "mapped_pending_art"
+    }
+  ]
+}

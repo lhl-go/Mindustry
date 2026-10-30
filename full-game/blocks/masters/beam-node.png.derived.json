@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/beam-node.png",
+  "sha256": "42e1d3b5bf06a6769b305af84d790e00ab42e8f2d203c747f8f7ec0d82afc7c9",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      673,
+      348,
+      926,
+      594
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      253,
+      246
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    285,
+    278
+  ],
+  "anchorPixels": [
+    142.5,
+    139.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/teams/team-crux.png",
+  "sha256": "0216747c195099663194e4ccad9390e3e9634b3f18f06591890e0e7c8ef919d5",
+  "width": 62,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/team-crux.png",
+      "sha256": "39f1dfa3f3e7bfc549a8bb3521bcd54b14d1bcb5243f358a6169b1808cac1fe0",
+      "generationRecord": "full-game/items-fx/assets/team-crux.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      62,
+      62
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

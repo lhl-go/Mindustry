@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "avert",
+  "file": "units/air-erekir/individual/avert.png",
+  "sha256": "43ec076c5f425538e9d7513e3a0b39e1d8faa474b4214e297cb1c610512c1324",
+  "width": 433,
+  "height": 446,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/05-erekir-air.png",
+      "sha256": "6ff6836bb46a7a2369253e591a6ba21a200f5d8f9d5a177ac0d9eaf3dd93e606",
+      "generationRecord": "units/air-erekir/source/05-erekir-air.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      545,
+      5,
+      990,
+      465
+    ],
+    "trimBoundsInRegion": [
+      23,
+      25,
+      424,
+      439
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 433,
+    "height": 446
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "imageRetained": false,
+  "supersededBy": "units/coordinator-recoil-fix/avert-assembled.png"
+}

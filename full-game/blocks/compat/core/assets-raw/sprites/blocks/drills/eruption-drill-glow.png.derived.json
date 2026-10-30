@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/eruption-drill-glow.png",
+  "sourceGitBlob": "d8f35a144fe1918adf5d588b12cd263e5d3feacd",
+  "sourceSha256": "7f3f02bbd2dca062016bdfe4ced57fcacd5573346badbae12728447ece4a59bd",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "eruption-drill-glow",
+  "blockId": "eruption-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-glow.png",
+  "sha256": "1d29ccb9004a388c0768e021ef0814033250d6d47e6c0f315e6349ae6b26340f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-glow.png",
+  "engineSha256": "1d29ccb9004a388c0768e021ef0814033250d6d47e6c0f315e6349ae6b26340f",
+  "nativeFile": "full-game/blocks/masters/eruption-drill.png",
+  "nativeSha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81",
+  "nativeSize": [
+    364,
+    341
+  ],
+  "sourceAlphaBounds": [
+    37,
+    37,
+    123,
+    123
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/eruption-drill.png",
+      "sha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-glow.png",
+      "sha256": "7f3f02bbd2dca062016bdfe4ced57fcacd5573346badbae12728447ece4a59bd"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

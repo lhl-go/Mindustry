@@ -1,0 +1,483 @@
+{
+  "auditAt": "2026-10-26T10:13:20.992388+00:00",
+  "readOnly": true,
+  "snapshotInputs": {
+    "exports\\manifest.json": "b326c00f964cd77fbad9f69833dac8d5be2333517c0e5feb5aed483ae8f2b2ec",
+    "records\\production-ledger.json": "49813e399d248da42266300add262c73ffa46c705dfcb62ecb9c68255d1a864a",
+    "records\\inventory-units.json": "7c5338dac3d84870bf5d532950093b3dba0a83b9805a41bb5621f2d3cf1f0cda",
+    "records\\inventory-ui.json": "9ff340d7c934fed79fc74864583484507d6aea6e58c5afe740cb49c7ac722fe0"
+  },
+  "manifestStatus": "assembly_in_progress",
+  "units": {
+    "required": 68,
+    "mapped": 15,
+    "uniqueIds": 15,
+    "missing": [
+      "aegires",
+      "anthicus",
+      "antumbra",
+      "arkyid",
+      "atrax",
+      "avert",
+      "bryde",
+      "cleroi",
+      "collaris",
+      "conquer",
+      "corvus",
+      "crawler",
+      "cyerce",
+      "dagger",
+      "disrupt",
+      "eclipse",
+      "elude",
+      "emanate",
+      "evoke",
+      "flare",
+      "fortress",
+      "horizon",
+      "incite",
+      "locus",
+      "mace",
+      "mega",
+      "merui",
+      "minke",
+      "mono",
+      "navanax",
+      "nova",
+      "obviate",
+      "oct",
+      "omura",
+      "oxynoe",
+      "poly",
+      "precept",
+      "pulsar",
+      "quad",
+      "quasar",
+      "quell",
+      "reign",
+      "retusa",
+      "risso",
+      "scepter",
+      "sei",
+      "spiroct",
+      "stell",
+      "tecta",
+      "toxopid",
+      "vanquish",
+      "vela",
+      "zenith"
+    ],
+    "extra": [],
+    "duplicates": [],
+    "nonVisualMappings": [
+      {
+        "id": "block",
+        "mapping": "Official internal block proxy; draws the associated building, no independent unit image."
+      }
+    ],
+    "uniquePrimaryPngs": 15
+  },
+  "ui": {
+    "requiredGroups": 64,
+    "mappedGroups": 64,
+    "missingGroups": [],
+    "stateFamilies": 308,
+    "latestRenderChecks": 616,
+    "uncoveredChecks": [],
+    "failedLatestChecks": [],
+    "staleLatestCheckCount": 336,
+    "staleCheckSample": [
+      {
+        "key": [
+          "UI-001",
+          0,
+          "desktop"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-001",
+          0,
+          "mobile"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-001",
+          1,
+          "desktop"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-001",
+          1,
+          "mobile"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-001",
+          2,
+          "desktop"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-001",
+          2,
+          "mobile"
+        ],
+        "report": "records/ui-render-screen.json",
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      },
+      {
+        "key": [
+          "UI-002",
+          0,
+          "desktop"
+        ],
+        "report": "records/ui-render-screen-UI-002-UI-006-UI-008-UI-023.json",
+        "changedInputs": [
+          "ui/preview/dialog-component-variants.js",
+          "ui/preview/dialog-component-variants.css"
+        ]
+      },
+      {
+        "key": [
+          "UI-002",
+          0,
+          "mobile"
+        ],
+        "report": "records/ui-render-screen-UI-002-UI-006-UI-008-UI-023.json",
+        "changedInputs": [
+          "ui/preview/dialog-component-variants.js",
+          "ui/preview/dialog-component-variants.css"
+        ]
+      }
+    ],
+    "reports": [
+      {
+        "file": "records/ui-render-component.json",
+        "createdAt": "2026-10-26T10:08:07.992Z",
+        "recordCount": 170,
+        "reportedErrors": [],
+        "changedInputs": []
+      },
+      {
+        "file": "records/ui-render-dialog.json",
+        "createdAt": "2026-10-26T10:07:38.796Z",
+        "recordCount": 110,
+        "reportedErrors": [],
+        "changedInputs": []
+      },
+      {
+        "file": "records/ui-render-screen-UI-002-UI-006-UI-008-UI-023.json",
+        "createdAt": "2026-10-26T10:03:40.954Z",
+        "recordCount": 84,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/dialog-component-variants.js",
+          "ui/preview/dialog-component-variants.css"
+        ]
+      },
+      {
+        "file": "records/ui-render-screen.json",
+        "createdAt": "2026-10-26T09:38:19.631Z",
+        "recordCount": 336,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      }
+    ]
+  },
+  "checkedAssetCount": 456,
+  "checkedProvenanceRecordCount": 95,
+  "assetIssues": [],
+  "historicalSourceReferences": [
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/manifold.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/assembly-drone.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/dummy.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-phase.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-surge.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-surge-split.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/anthicus-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/quell-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/scathe-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-left-fin.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-body.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-right-fin.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment2.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment1.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment0.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment3.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment2.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment1.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment0.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/alpha-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/small-basic-weapon.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/beta-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/small-mount-weapon.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/gamma-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-search.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-filter.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-sort.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-refresh.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-close.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-settings.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-play.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-pause.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-save.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-folder.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-import.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-export.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-planet.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-research.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-blueprint.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-mods.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-database.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-network.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-drill.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-conveyor.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-furnace.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-power.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-turret.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-drone.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "characters/02-alchemy-engineer-v1.png",
+      "record": "characters/02-alchemy-engineer-clean.png.derived.json",
+      "sha256": "5576da7362d1f220ad6271bf62328fa10199ddf4c0188c496771d8c270972926"
+    }
+  ],
+  "runtimeIntegrationVerified": false,
+  "snapshotConclusion": "incomplete"
+}

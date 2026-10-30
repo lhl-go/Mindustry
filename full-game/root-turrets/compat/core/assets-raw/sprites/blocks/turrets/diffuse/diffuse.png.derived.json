@@ -1,0 +1,42 @@
+{
+  "region": "diffuse",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse.png",
+  "sha256": "e73d01904cafa4825d3d949ec07764b90b3ccd23a360e9c7dafc992d68ab5a7b",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.059452+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/diffuse.png",
+      "sha256": "faf07a0dfa36f2a2fe5306c0a52981d14bc7e74b9fec041cf46ec14243c2e58c",
+      "record": "full-game/root-turrets/masters/diffuse.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/diffuse/diffuse.png",
+      "sha256": "22200b6702e32525635bb562691c2a52c541b4411f40df786727b563d4a89d8f",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      24,
+      92,
+      90
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      364,
+      279
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

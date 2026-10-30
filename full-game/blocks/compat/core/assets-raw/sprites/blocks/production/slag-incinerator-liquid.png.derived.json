@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-incinerator-liquid.png",
+  "sourceGitBlob": "4759ece2ce30be0746d355317315eb89b94f20e4",
+  "sourceSha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "slag-incinerator-liquid",
+  "blockId": "slag-incinerator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-liquid.png",
+  "sha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-liquid.png",
+  "engineSha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/slag-incinerator-liquid.png",
+  "nativeSha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40",
+  "nativeSize": [
+    32,
+    32
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    20,
+    20
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-incinerator-liquid.png",
+      "sha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-incinerator-liquid.png",
+      "sha256": "ff0d1f771586d75dc509447b6018cb00dcc8ca67ed62c812ed88a9758026cf40"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

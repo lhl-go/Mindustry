@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spore-wall2.png",
+  "sha256": "1ba6b1dc6cca51a2d7064ce28c53c52ab8045fb339a7ef2568b8ca09cac42792",
+  "size": [
+    257,
+    382
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/13-cold-living-wall-tops.png",
+      "sha256": "bb9036da8b60ff1bbb18699159fa7c6256f5cf6507301bfe3dc1dc3ccea1aec8",
+      "generationRecord": "full-game/terrain/source/13-cold-living-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    270,
+    1390,
+    527,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

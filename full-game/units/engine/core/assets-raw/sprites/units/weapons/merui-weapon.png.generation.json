@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/merui-weapon.png",
+  "sha256": "2ed728b7a103e0e8c7e67fc9ade6d393551a685e151b96355efd23c3c98f02cf",
+  "width": 2,
+  "height": 3,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/merui-weapon.png",
+      "sha256": "c8e27f94c16f3f09c9bb582d00c95bb977fff207519544c786191acbbf0a34c2",
+      "generationRecord": "units/air-erekir-parts/assets/merui-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      272,
+      287
+    ],
+    "sourcePivot": [
+      153,
+      179
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      2
+    ],
+    "sourceDimensions": [
+      304,
+      319
+    ],
+    "targetDimensions": [
+      2,
+      3
+    ],
+    "officialAlphaBounds": [
+      0,
+      0,
+      2,
+      3
+    ],
+    "scale": 0.0,
+    "engineAnchorPx": [
+      1.0,
+      1.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/merui-weapon.png",
+    "gitBlobSha1": "84eee1be40b3890271bae880d98ed95be0717405",
+    "sha256": "4ae182fc42ed5c7c8ffbab6df426feac70bf23a9e732bfaf23510e79cf223df7"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

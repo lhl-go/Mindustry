@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/bar.9.png",
+  "sourceGitBlob": "5e9ab3f2a0d45775828863d9f130e8c431be39d8",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/bar.9.png",
+  "sha256": "895b4083980a79a0e2cc59e108d0bfea9241f9a680ffdbc84f27121611bb1b6e",
+  "sourceSize": [
+    29,
+    38
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/bar.9.png",
+      "sha256": "895b4083980a79a0e2cc59e108d0bfea9241f9a680ffdbc84f27121611bb1b6e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "byte_exact_technical_texture",
+    "reason": "White progress-fill tint mask; runtime controls fill/team/stat color; keeping exact mask avoids multiplying jade into diagnostic colors.",
+    "sourceEvidence": "5e9ab3f2a0d45775828863d9f130e8c431be39d8"
+  },
+  "disposition": "verified_technical_reuse",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

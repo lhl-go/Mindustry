@@ -1,0 +1,48 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/shielded-wall-glow.png",
+  "sourceGitBlob": "7eac1db5155a8ac978dece0ed1be50ddf67c734b",
+  "sourceSha256": "760f66ba9988aaf330abe88a7efb713d56dc864cc58da029f25e8d037f44db67",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "shielded-wall-glow",
+  "blockId": "shielded-wall",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall-glow.png",
+  "sha256": "f6d6dd1e50fd2fbf18099d6c628c008823a9c0bb0361e70465eefa56790a8826",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall-glow.png",
+  "engineSha256": "f6d6dd1e50fd2fbf18099d6c628c008823a9c0bb0361e70465eefa56790a8826",
+  "nativeFile": "full-game/blocks/masters/shielded-wall.png",
+  "nativeSha256": "f8555868d8f268dbb234cab020a50d2958311f5983df13129ff7161ecbed2ef8",
+  "nativeSize": [
+    335,
+    337
+  ],
+  "sourceAlphaBounds": [
+    18,
+    18,
+    46,
+    46
+  ],
+  "operation": {
+    "kind": "neutral_original_effect_alpha_clipped_to_new_body",
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shielded-wall.png",
+      "sha256": "f8555868d8f268dbb234cab020a50d2958311f5983df13129ff7161ecbed2ef8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/shielded-wall-glow.png",
+      "sha256": "760f66ba9988aaf330abe88a7efb713d56dc864cc58da029f25e8d037f44db67"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/shielded-wall-glow.png.derived.json"
+}

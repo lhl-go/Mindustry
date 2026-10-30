@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus-joint.png",
+  "sha256": "5ac823b868ecde4ef04f723f0c7ba00f93c086715593b098f7b8b6fcc6f3d20b",
+  "width": 60,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-heavy.png",
+      "sha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5",
+      "generationRecord": "full-game/units/parts/joint-cap-heavy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      510,
+      490
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      5,
+      6
+    ],
+    "sourceDimensions": [
+      526,
+      506
+    ],
+    "targetDimensions": [
+      60,
+      60
+    ],
+    "officialAlphaBounds": [
+      5,
+      5,
+      55,
+      55
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      30.0,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/corvus-joint.png",
+    "gitBlobSha1": "2a83e1f3bcefa22ca67f2513280ff643d7cb166b",
+    "sha256": "c1e2a494e5534465a8124bd0307afe8b20fc4a19aaa8a7e61fd565f3e210994e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

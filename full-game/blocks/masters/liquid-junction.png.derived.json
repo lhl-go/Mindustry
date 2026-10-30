@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/liquid-junction.png",
+  "sha256": "0285e66d9381e7e236ffcce25dda88f9d00aee25679f1ab4776d39a970a7db38",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      683,
+      354,
+      939,
+      605
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      256,
+      251
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    288,
+    283
+  ],
+  "anchorPixels": [
+    144.0,
+    141.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

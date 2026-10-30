@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets/sprites/distortAlpha.png",
+  "sha256": "284538dbdeb378bcee61f171b3c9ab90139ab4732d47c630ce03e603ab25701a",
+  "createdAt": "2026-10-26T17:24:44.240681+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets/sprites/distortAlpha.png",
+  "officialGitBlobSha1": "06810a4d715c1276bcbeedf7a34641b8fd3f7f52",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets/sprites/distortAlpha.png",
+  "sourceSha256": "284538dbdeb378bcee61f171b3c9ab90139ab4732d47c630ce03e603ab25701a",
+  "byteIdenticalToOfficial": true,
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "alphaRange": [
+    67,
+    195
+  ],
+  "reason": "Technical scalar/alpha modulation texture for procedural rendering; frequency, channel and repeat behavior retained byte-exact. These are runtime shader inputs, not replacement scenic paintings.",
+  "technicalEvidence": [
+    "core/src/mindustry/graphics/Shaders.java",
+    "core/src/mindustry/graphics/CacheLayer.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/source/09-walker-body.png",
+  "sha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+  "generatedAt": "2026-10-26T10:51:00.980Z",
+  "generatedAtBasis": "tool_return_receipt_time",
+  "startedAt": "2026-10-26T10:50:02.923Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    2048
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 is the five-walker atlas. Preserve the FIVE central armored bodies only in tier order Merui,Cleroi,Anthicus,Tecta,Collaris. REMOVE ALL legs, feet, upper/lower limbs, guns, missile pods and external translucent shields. Each is now a self-contained central jade-and-ivory dorsal shell with small round limb sockets on sides and a complete seamless armor surface under removed guns. Keep distinct beetle/crab/mantis/turtle/spider shell shapes. No remaining legs or cannons, no detached parts. Style references2/3.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无型号、质量或尺寸参数，返回未披露精确型号和质量。",
+  "prompt": "prompts/air-erekir/09-walker-body.txt",
+  "promptSha256": "d386979f3cd1828deaf1cc4dcbcc456288cb646b395ecb403d34732e8920489c",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+      "sha256": "c8f0d20e2e4b83a0480d9ce6713bea527749ca829bc9a4d2423a7bfcdb2b58e7",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    }
+  ],
+  "evidence": {
+    "receipt": "records/workers/air-erekir/09-walker-body.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-3af22bc1-44f9-40c0-87af-1df204de77a7.png",
+    "originalOutputSha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+    "sourceBytesPreserved": true,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaInspection": {
+    "present": true,
+    "transparentPixels": 1008291,
+    "opaquePixels": 0,
+    "partialPixels": 564573
+  },
+  "units": [
+    "merui-body",
+    "cleroi-body",
+    "anthicus-body",
+    "tecta-body",
+    "collaris-body"
+  ],
+  "status": "intermediate_retained_cleanup_blocked",
+  "sourceImageRetained": true,
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

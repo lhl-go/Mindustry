@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-fabricator.png",
+  "sourceGitBlob": "c48284e98b940ce479e5d9ce09355de7c1430c58",
+  "sourceSha256": "8058b9050bef90cfd0a342eabf9959b998b1fd1080c984564d0186decdb121f5",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "ship-fabricator",
+  "blockId": "ship-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator.png",
+  "sha256": "64e3fa22fdc79a57344b5eb6a960e08451fccccd9ea2f4fd5476277e7a659452",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator.png",
+  "engineSha256": "64e3fa22fdc79a57344b5eb6a960e08451fccccd9ea2f4fd5476277e7a659452",
+  "nativeFile": "full-game/blocks/masters/ship-fabricator.png",
+  "nativeSha256": "5edd993dedbd6b3a2d42930f46d538b42dc729b68c58f444a140c616fcd80ad7",
+  "nativeSize": [
+    379,
+    352
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-fabricator.png",
+      "sha256": "5edd993dedbd6b3a2d42930f46d538b42dc729b68c58f444a140c616fcd80ad7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-fabricator.png",
+      "sha256": "8058b9050bef90cfd0a342eabf9959b998b1fd1080c984564d0186decdb121f5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

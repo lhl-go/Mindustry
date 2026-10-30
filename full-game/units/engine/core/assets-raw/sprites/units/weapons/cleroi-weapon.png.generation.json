@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+  "sha256": "090d43d63f34f971498a332e4000bb62d4660f9de9c0b3076ef93fe3fce6cd5e",
+  "width": 23,
+  "height": 26,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/cleroi-weapon.png",
+      "sha256": "fe355adb4e525608d303b64bfa7953f7532c94251dfff122aea4f494966e9762",
+      "generationRecord": "units/air-erekir-parts/assets/cleroi-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      286,
+      335
+    ],
+    "sourcePivot": [
+      159,
+      228
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      1
+    ],
+    "sourceDimensions": [
+      318,
+      367
+    ],
+    "targetDimensions": [
+      23,
+      26
+    ],
+    "officialAlphaBounds": [
+      5,
+      5,
+      18,
+      21
+    ],
+    "scale": 0.061224489795918366,
+    "engineAnchorPx": [
+      11.5,
+      13.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+    "gitBlobSha1": "7133cb1d879760d882ea43d51b92444262acbd89",
+    "sha256": "43e7540fa6866c5b03e1babbb6ddf4ea8764e8c88a809b6117c38fbb32e210e8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

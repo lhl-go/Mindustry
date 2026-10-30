@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/graphitic-wall-large.png",
+  "sha256": "3538673f596879581c1fa7ef90f6251655becd06092f7de578b41438920f4883",
+  "size": [
+    252,
+    252
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/15-special-wall-tops.png",
+      "sha256": "27479126c7f26b250744e93aa7ab6cdbd09daf55abbef82e3ddf05b9c691e759",
+      "generationRecord": "full-game/terrain/source/15-special-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    770,
+    258,
+    1022,
+    510
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

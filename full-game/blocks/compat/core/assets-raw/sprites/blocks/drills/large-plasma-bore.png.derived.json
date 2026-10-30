@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/large-plasma-bore.png",
+  "sourceGitBlob": "9221578a2dd34519700a6d488a45c37ee5406b27",
+  "sourceSha256": "a2129eec8ef61d87d565263848bfc3704df9f152dfbd2fccf2b3673112ffc07e",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "large-plasma-bore",
+  "blockId": "large-plasma-bore",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore.png",
+  "sha256": "4cedeeaadd3b8c26cc7080ea142812320a54d421de4275fe3b5084c331786a64",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore.png",
+  "engineSha256": "4cedeeaadd3b8c26cc7080ea142812320a54d421de4275fe3b5084c331786a64",
+  "nativeFile": "full-game/blocks/masters/large-plasma-bore.png",
+  "nativeSha256": "36abef31058d341819d57954a501a09652f6d2e7d15bca4f0965a077d335b506",
+  "nativeSize": [
+    383,
+    309
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-plasma-bore.png",
+      "sha256": "36abef31058d341819d57954a501a09652f6d2e7d15bca4f0965a077d335b506"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/large-plasma-bore.png",
+      "sha256": "a2129eec8ef61d87d565263848bfc3704df9f152dfbd2fccf2b3673112ffc07e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

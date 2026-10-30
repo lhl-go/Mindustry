@@ -1,0 +1,480 @@
+[
+  {
+    "name": "logistics-nodes-01",
+    "grid": [
+      3,
+      2
+    ],
+    "ids": [
+      "router",
+      "junction",
+      "sorter",
+      "inverted-sorter",
+      "overflow-gate",
+      "underflow-gate"
+    ]
+  },
+  {
+    "name": "defense-walls-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "copper-wall",
+      "titanium-wall",
+      "plastanium-wall",
+      "thorium-wall",
+      "phase-wall",
+      "surge-wall",
+      "scrap-wall",
+      "beryllium-wall",
+      "tungsten-wall",
+      "reinforced-surge-wall",
+      "carbide-wall",
+      "shielded-wall"
+    ]
+  },
+  {
+    "name": "logic-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "message",
+      "switch",
+      "micro-processor",
+      "logic-processor",
+      "hyper-processor",
+      "memory-cell",
+      "memory-bank",
+      "logic-display",
+      "large-logic-display",
+      "tile-logic-display",
+      "canvas",
+      "reinforced-message"
+    ]
+  },
+  {
+    "name": "production-serpulo-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "graphite-press",
+      "multi-press",
+      "silicon-smelter",
+      "silicon-crucible",
+      "kiln",
+      "plastanium-compressor",
+      "phase-weaver",
+      "surge-smelter",
+      "cryofluid-mixer",
+      "pyratite-mixer",
+      "blast-mixer",
+      "melter"
+    ]
+  },
+  {
+    "name": "production-processors-02",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "separator",
+      "disassembler",
+      "spore-press",
+      "pulverizer",
+      "coal-centrifuge",
+      "incinerator",
+      "silicon-arc-furnace",
+      "electrolyzer",
+      "atmospheric-concentrator",
+      "oxidation-chamber",
+      "carbide-crucible",
+      "slag-centrifuge"
+    ]
+  },
+  {
+    "name": "production-heat-03",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "electric-heater",
+      "slag-heater",
+      "phase-heater",
+      "heat-redirector",
+      "small-heat-redirector",
+      "heat-router",
+      "slag-incinerator",
+      "surge-crucible",
+      "cyanogen-synthesizer",
+      "phase-synthesizer",
+      "heat-reactor",
+      "heat-source"
+    ]
+  },
+  {
+    "name": "power-static-01",
+    "grid": [
+      4,
+      4
+    ],
+    "ids": [
+      "power-node",
+      "power-node-large",
+      "surge-tower",
+      "diode",
+      "battery",
+      "battery-large",
+      "beam-node",
+      "beam-tower",
+      "beam-link",
+      "solar-panel",
+      "solar-panel-large",
+      "power-source",
+      "power-void",
+      "combustion-generator",
+      "thermal-generator",
+      "rtg-generator"
+    ]
+  },
+  {
+    "name": "power-reactors-02",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "steam-generator",
+      "differential-generator",
+      "thorium-reactor",
+      "impact-reactor",
+      "turbine-condenser",
+      "chemical-combustion-chamber",
+      "pyrolysis-generator",
+      "flux-reactor",
+      "neoplasia-reactor",
+      "water-extractor",
+      "vent-condenser",
+      "oil-extractor"
+    ]
+  },
+  {
+    "name": "conveyors-connections-01",
+    "grid": [
+      5,
+      3
+    ],
+    "role": "connection-master",
+    "ids": [
+      "conveyor-shape-0",
+      "conveyor-shape-1",
+      "conveyor-shape-2",
+      "conveyor-shape-3",
+      "conveyor-shape-4",
+      "titanium-conveyor-shape-0",
+      "titanium-conveyor-shape-1",
+      "titanium-conveyor-shape-2",
+      "titanium-conveyor-shape-3",
+      "titanium-conveyor-shape-4",
+      "armored-conveyor-shape-0",
+      "armored-conveyor-shape-1",
+      "armored-conveyor-shape-2",
+      "armored-conveyor-shape-3",
+      "armored-conveyor-shape-4"
+    ],
+    "additionalReferences": [
+      "mindustry-image/full-game/blocks/records/conveyor-source-contact.png"
+    ]
+  },
+  {
+    "name": "ducts-conduit-connections-02",
+    "grid": [
+      5,
+      3
+    ],
+    "role": "connection-master",
+    "ids": [
+      "duct-shape-0",
+      "duct-shape-1",
+      "duct-shape-2",
+      "duct-shape-3",
+      "duct-shape-4",
+      "armored-duct-shape-0",
+      "armored-duct-shape-1",
+      "armored-duct-shape-2",
+      "armored-duct-shape-3",
+      "armored-duct-shape-4",
+      "conduit-shape-0",
+      "conduit-shape-1",
+      "conduit-shape-2",
+      "conduit-shape-3",
+      "conduit-shape-4"
+    ],
+    "additionalReferences": [
+      "mindustry-image/full-game/blocks/boards/conveyors-connections-01.png"
+    ]
+  },
+  {
+    "name": "conduits-advanced-03",
+    "grid": [
+      5,
+      3
+    ],
+    "role": "connection-master",
+    "ids": [
+      "pulse-conduit-shape-0",
+      "pulse-conduit-shape-1",
+      "pulse-conduit-shape-2",
+      "pulse-conduit-shape-3",
+      "pulse-conduit-shape-4",
+      "plated-conduit-shape-0",
+      "plated-conduit-shape-1",
+      "plated-conduit-shape-2",
+      "plated-conduit-shape-3",
+      "plated-conduit-shape-4",
+      "reinforced-conduit-shape-0",
+      "reinforced-conduit-shape-1",
+      "reinforced-conduit-shape-2",
+      "reinforced-conduit-shape-3",
+      "reinforced-conduit-shape-4"
+    ],
+    "additionalReferences": [
+      "mindustry-image/full-game/blocks/boards/ducts-conduit-connections-02.png"
+    ]
+  },
+  {
+    "name": "logistics-special-04",
+    "grid": [
+      5,
+      3
+    ],
+    "ids": [
+      "plastanium-conveyor",
+      "bridge-conveyor",
+      "phase-conveyor",
+      "distributor",
+      "unloader",
+      "mass-driver",
+      "duct-router",
+      "overflow-duct",
+      "underflow-duct",
+      "duct-bridge",
+      "duct-unloader",
+      "surge-conveyor",
+      "surge-router",
+      "unit-cargo-loader",
+      "unit-cargo-unload-point"
+    ]
+  },
+  {
+    "name": "liquid-machinery-04",
+    "grid": [
+      5,
+      3
+    ],
+    "ids": [
+      "mechanical-pump",
+      "rotary-pump",
+      "impulse-pump",
+      "reinforced-pump",
+      "liquid-router",
+      "liquid-container",
+      "liquid-tank",
+      "liquid-junction",
+      "bridge-conduit",
+      "phase-conduit",
+      "reinforced-liquid-junction",
+      "reinforced-bridge-conduit",
+      "reinforced-liquid-router",
+      "reinforced-liquid-container",
+      "reinforced-liquid-tank"
+    ]
+  },
+  {
+    "name": "mining-bodies-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "mechanical-drill",
+      "pneumatic-drill",
+      "laser-drill",
+      "blast-drill",
+      "cultivator",
+      "cliff-crusher",
+      "large-cliff-crusher",
+      "plasma-bore",
+      "large-plasma-bore",
+      "impact-drill",
+      "eruption-drill",
+      "thruster"
+    ]
+  },
+  {
+    "name": "support-defense-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "mender",
+      "mend-projector",
+      "overdrive-projector",
+      "overdrive-dome",
+      "force-projector",
+      "shock-mine",
+      "radar",
+      "build-tower",
+      "regen-projector",
+      "shockwave-tower",
+      "shield-projector",
+      "large-shield-projector"
+    ]
+  },
+  {
+    "name": "storage-cores-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "core-shard",
+      "core-foundation",
+      "core-nucleus",
+      "core-bastion",
+      "core-citadel",
+      "core-acropolis",
+      "container",
+      "vault",
+      "reinforced-container",
+      "reinforced-vault",
+      "launch-pad",
+      "landing-pad"
+    ]
+  },
+  {
+    "name": "unit-factories-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "ground-factory",
+      "air-factory",
+      "naval-factory",
+      "additive-reconstructor",
+      "multiplicative-reconstructor",
+      "exponential-reconstructor",
+      "tetrative-reconstructor",
+      "repair-point",
+      "repair-turret",
+      "tank-fabricator",
+      "ship-fabricator",
+      "mech-fabricator"
+    ]
+  },
+  {
+    "name": "unit-factories-02",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "tank-refabricator",
+      "ship-refabricator",
+      "mech-refabricator",
+      "prime-refabricator",
+      "tank-assembler",
+      "ship-assembler",
+      "mech-assembler",
+      "basic-assembler-module",
+      "unit-repair-tower",
+      "advanced-launch-pad",
+      "interplanetary-accelerator",
+      "constructor"
+    ]
+  },
+  {
+    "name": "payload-and-doors-01",
+    "grid": [
+      4,
+      4
+    ],
+    "ids": [
+      "payload-conveyor",
+      "payload-router",
+      "reinforced-payload-conveyor",
+      "reinforced-payload-router",
+      "payload-mass-driver",
+      "large-payload-mass-driver",
+      "small-deconstructor",
+      "deconstructor",
+      "large-constructor",
+      "payload-loader",
+      "payload-unloader",
+      "payload-source",
+      "payload-void",
+      "door",
+      "door-large",
+      "blast-door"
+    ]
+  },
+  {
+    "name": "sandbox-world-final-01",
+    "grid": [
+      4,
+      3
+    ],
+    "ids": [
+      "world-processor",
+      "world-cell",
+      "world-message",
+      "world-switch",
+      "item-source",
+      "item-void",
+      "liquid-source",
+      "liquid-void",
+      "target-dummy",
+      "illuminator",
+      "liquid-overflow-gate",
+      "reinforced-payload-router-v2"
+    ]
+  },
+  {
+    "name": "moving-rotors-01",
+    "grid": [
+      4,
+      4
+    ],
+    "role": "moving-part",
+    "ids": [
+      "mechanical-drill-rotator-part",
+      "pneumatic-drill-rotator-part",
+      "laser-drill-rotator-part",
+      "blast-drill-rotator-part",
+      "water-extractor-rotator-part",
+      "oil-extractor-rotator-part",
+      "cliff-crusher-rotator-part",
+      "large-cliff-crusher-rotator-part",
+      "separator-spinner-part",
+      "disassembler-spinner-part",
+      "pulverizer-rotator-part",
+      "steam-generator-turbine-part",
+      "turbine-condenser-rotator-part",
+      "vent-condenser-rotator-part",
+      "impact-drill-arrow-part",
+      "eruption-drill-arrow-part"
+    ],
+    "additionalReferences": [
+      "mindustry-image/full-game/blocks/boards/mining-bodies-01.png"
+    ]
+  }
+]

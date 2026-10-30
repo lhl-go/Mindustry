@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/unit-cargo-unload-point.png",
+  "sourceGitBlob": "29d5c9a88334b91bb96b2e991502c15dc94cf875",
+  "sourceSha256": "ec75b68e7cb40e8b5ec225a336cc22424f854ff7301f79a05e86bbb6edaf1000",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "unit-cargo-unload-point",
+  "blockId": "unit-cargo-unload-point",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-unload-point.png",
+  "sha256": "524e0a4f55a69e11e0ef6632f501d0028eef2e43c07877bf10b5306b73ec9a85",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-unload-point.png",
+  "engineSha256": "524e0a4f55a69e11e0ef6632f501d0028eef2e43c07877bf10b5306b73ec9a85",
+  "nativeFile": "full-game/blocks/masters/unit-cargo-unload-point.png",
+  "nativeSha256": "b678235cdb1ba9b675c1b5ee40cef72771a54059aa74ed206ed76f593a1b0d4c",
+  "nativeSize": [
+    240,
+    279
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/unit-cargo-unload-point.png",
+      "sha256": "b678235cdb1ba9b675c1b5ee40cef72771a54059aa74ed206ed76f593a1b0d4c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/unit-cargo-unload-point.png",
+      "sha256": "ec75b68e7cb40e8b5ec225a336cc22424f854ff7301f79a05e86bbb6edaf1000"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-unload-point.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-unload-point.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/unit-cargo-unload-point.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

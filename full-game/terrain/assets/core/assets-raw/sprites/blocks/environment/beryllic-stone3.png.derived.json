@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/beryllic-stone3.png",
+  "sha256": "c470932284a8bc995bec8a839ca41d20842f30c5e6f07bd7a452de239a369dc3",
+  "createdAt": "2026-10-26T16:49:49.582453+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+      "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+      "generationRecord": "full-game/terrain/source/05-erekir-mineral-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      514,
+      2,
+      766,
+      248
+    ],
+    "nativeExtractedSize": [
+      252,
+      246
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 11.04414260648359
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+  "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    3072,
+    2048
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T06:55:19.623000-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Precisely edit the FIRST image, a five-vessel overhead sprite sheet. Other two images are the exact jade, ivory and warm-gold hand-painted style references. Keep all five ship positions, scales, body silhouettes, engine pods, all native detailed linework, transparency and 3-by-2 sheet layout. This is a targeted weapon-removal repair. TWO REMAINING WEAPONS MUST DISAPPEAR: (1) TOP-CENTER ship: remove the LONG GREEN CENTRAL CANNON between its two small gold circular deck mounts, including the gold cylindrical rotating gun base near the middle. Replace this whole long cannon region with continuous flat ivory-and-jade deck panels and one small flat circular mounting plate. Preserve the narrow bow and lower yin-yang panel. (2) BOTTOM-CENTER ship: remove BOTH tall parallel GREEN AND GOLD EMP LAUNCHERS on the upper half of the hull. Their gold pointed bottoms and long green cylinders are weapon objects, NOT engines. Replace both objects with flat finished ivory-and-jade deck panels and small circular mounting plates. The two engines at the bottom stern MUST stay. Preserve its large central round green energy orb. Top-left, top-right and bottom-left ships are already correct: DO NOT change them. Bottom-left circular green energy-field ring is inherent to body and MUST remain. All ships' bows face top; no weapons, no barrels, no detached parts, no new ornaments. True alpha0 transparent around silhouettes; keep opaque body materials and clean edges. Requested3072x2048 if supported.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\serpulo-root-parts\\14-support-hulls-v1.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "prompts/serpulo-root-parts/14-support-hulls-v2.txt",
+  "promptSha256": "38fab1ac42897e87c55b4382d389ef8680f7e5080d21013abab159399b98cee8",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\serpulo-root-parts\\14-support-hulls-v1.png",
+      "sha256": "5e34e34b287947d7283fe4f6ddceb7275c5a29a130e7a79b68d6207651b972f9",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records\\workers\\serpulo-root-parts\\14-support-hulls-v2.receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-87b02e14-da05-4c62-8a04-5292cb0db5a5.png",
+    "nativePngSha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 940304,
+  "status": "consumed_by_verified_native_layer_exports",
+  "imageRetained": false,
+  "finalAssets": [
+    "units/serpulo-root-parts/layers/retusa-body.png",
+    "units/serpulo-root-parts/layers/oxynoe-body.png",
+    "units/serpulo-root-parts/layers/cyerce-body.png",
+    "units/serpulo-root-parts/layers/aegires-body.png",
+    "units/serpulo-root-parts/layers/navanax-body.png"
+  ]
+}

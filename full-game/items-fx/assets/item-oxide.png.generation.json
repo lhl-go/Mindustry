@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/03-erekir-materials.png",
+      "sha256": "5cd3897c243fa86cf4722313cb8b736580bf9811e9e24bdc04f9af916b9933d1",
+      "generationRecord": "full-game/items-fx/source/03-erekir-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      59,
+      60,
+      477,
+      467
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-oxide.png",
+  "sha256": "de062d0321f60774c1e63880eba9b66e5acd67099af2948b8f349cfa271cfc64",
+  "width": 450,
+  "height": 439,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.954607+00:00"
+}

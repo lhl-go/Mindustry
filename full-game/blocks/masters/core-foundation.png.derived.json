@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/core-foundation.png",
+  "sha256": "4535c6bb73ab2b1ee802637e633ffbc0a28cc1d5087b8a6fcaeceb711dd906e1",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      377,
+      41,
+      689,
+      341
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      312,
+      300
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    344,
+    332
+  ],
+  "anchorPixels": [
+    172.0,
+    166.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

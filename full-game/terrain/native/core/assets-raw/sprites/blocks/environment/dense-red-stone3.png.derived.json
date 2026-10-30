@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dense-red-stone3.png",
+  "sha256": "92109c6ba45297db8549e336b5f5642db805e435b4bccb90245ef90c1cc62584",
+  "size": [
+    252,
+    238
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+      "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+      "generationRecord": "full-game/terrain/source/05-erekir-mineral-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    514,
+    252,
+    766,
+    490
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

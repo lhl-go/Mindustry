@@ -1,0 +1,35 @@
+{
+  "region": "titan-barrel-heat_full",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel-heat_full.png",
+  "sha256": "9bda44e94c7579c3a28801f9583aa3375b61ddb010be6562c780be8532fab95c",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.559885+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan-barrel-heat_full.png",
+      "sha256": "dd9a6a44739ba2fc61f18cfc45ef231ca48c41350b632fb6e08e0a7805c3da9a",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel.png",
+      "sha256": "164051bf1e08c475db843cecc4e639e07b7f2b418f2d95809e05e03e5617cb8f",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "titan-barrel"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 2163
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

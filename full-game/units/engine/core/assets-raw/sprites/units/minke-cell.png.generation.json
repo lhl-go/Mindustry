@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/minke-cell.png",
+  "sha256": "66ba8c195cd6a55cab31462d402903752c1249211d5252109487eeecf43186b0",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/minke.png",
+      "sha256": "fbc68b3b66bd91144b956a534ff447d649fe4fef6aa4d60bbfffa7a7c4610c1b",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/minke.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "minke",
+    "baseCanvas": [
+      88,
+      101
+    ],
+    "outputCanvas": [
+      128,
+      128
+    ],
+    "centerRegistrationOffset": [
+      20,
+      14
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/minke-cell.png",
+    "gitBlobSha1": "e8194f1819269a6d23604e8d3e6b8d4d43f12726",
+    "sha256": "f824439ef617eaa30abedd8404dd575cf65fe625e9faa6cdf52cf7107b6f1e0b"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

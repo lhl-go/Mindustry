@@ -1,0 +1,43 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Asset type: Mindustry terrain floor texture atlas, strict vertical top-down orthographic. Create NEW painted GROUND TEXTURES only. Use attached approved mail and party references ONLY for the refined bright clean Daoist Q hand-painted finish and restrained jade/ivory/warm stone material harmony. DO NOT draw UI frames, letters, numbers, labels, characters, symbols, objects, raised blocks or scenery. Terrain retains functional material colors, not all green. Requested 1536×3072 tall image, exactly 3 equal columns × 6 equal rows, EIGHTEEN full-bleed square terrain swatches. NO gaps, gutters, outlines, framing, rounded corners or margins: each 1/3-width by 1/6-height cell is its own continuous FLAT tile. Within every row draw THREE genuinely different variations of its same ground material, with same average color and scale but different cracks/grain/pebble distribution. Do not repeat one tile three times. Texture details only, no elevation view. Each tile should tile on all four edges without dominant cut lines; edges quiet, consistent and natural; broad contrast kept low for gameplay legibility. Soft overhead daylight, high-end delicate hand-painted texture, no photoreal noise.\nRows top to bottom:\n1 STONE: natural pale cool gray limestone with subtle jade-gray shading, rounded embedded stones and fine irregular hairline cracks, mostly smooth walkable ground.\n2 BASALT: darker charcoal blue-gray cooled basalt, small rounded polygon cracks with subdued lighter rims, no lava, retain readable broad shapes.\n3 SHALE: muted purple-gray layered flat shale with irregular overlapping thin flakes embedded in ground, no raised rocky wall.\n4 DIRT: warm cocoa-brown compact earth, occasional tiny embedded pebbles, gentle granular brushwork, no plants.\n5 SAND: warm pale ivory-beige fine desert sand with soft wind ripple brush strokes, no rocks, no dunes viewed from the side.\n6 MUD: damp desaturated warm gray-brown mud, soft smooth wet clay mottling with tiny shallow glossy patches, no open water pool.\nAll eighteen cells fully opaque. No blank cells, no lighting vignette over whole atlas. Pure usable ground imagery, no text or dividers.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 15:49:30 UTC",
+  "returnedAt": "2026-10-26 15:50:29 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-0b58413c-3375-48d0-9111-87976a6dcab5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "regions": [
+    "stone1",
+    "stone2",
+    "stone3",
+    "basalt1",
+    "basalt2",
+    "basalt3",
+    "shale1",
+    "shale2",
+    "shale3",
+    "dirt1",
+    "dirt2",
+    "dirt3",
+    "sand-floor1",
+    "sand-floor2",
+    "sand-floor3",
+    "mud1",
+    "mud2",
+    "mud3"
+  ]
+}

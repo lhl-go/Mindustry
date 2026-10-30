@@ -1,0 +1,4258 @@
+{
+  "schemaVersion": 1,
+  "status": "in_progress",
+  "count": 290,
+  "mapped": 181,
+  "unmapped": [
+    "aegires-cell",
+    "alpha-cell",
+    "anthicus-blade-heat",
+    "anthicus-cell",
+    "antumbra-cell",
+    "arkyid-cell",
+    "arkyid-joint-base",
+    "assembly-drone-cell",
+    "atrax-base",
+    "atrax-cell",
+    "atrax-joint",
+    "avert-cell",
+    "beta-cell",
+    "bryde-cell",
+    "cleroi-cell",
+    "collaris-cell",
+    "conquer-cell",
+    "corvus-base",
+    "corvus-cell",
+    "corvus-joint-base",
+    "corvus-joint",
+    "crawler-base",
+    "crawler-cell",
+    "cyerce-cell",
+    "dagger-base",
+    "disrupt-cell",
+    "dummy-cell",
+    "eclipse-cell",
+    "elude-cell",
+    "emanate-cell",
+    "evoke-cell",
+    "fortress-base",
+    "fortress-cell",
+    "gamma-cell",
+    "horizon-cell",
+    "incite-cell",
+    "locus-cell",
+    "mace-base",
+    "mace-cell",
+    "manifold-cell",
+    "mega-cell",
+    "merui-cell",
+    "minke-cell",
+    "mono-cell",
+    "navanax-cell",
+    "nova-base",
+    "nova-cell",
+    "obviate-blade-heat",
+    "obviate-cell",
+    "obviate-heat",
+    "obviate-preview",
+    "oct-cell",
+    "omura-cell",
+    "oxynoe-cell",
+    "poly-cell",
+    "power-cell",
+    "precept-cell",
+    "pulsar-base",
+    "pulsar-cell",
+    "quad-cell",
+    "quasar-base",
+    "quasar-cell",
+    "quell-cell",
+    "reign-base",
+    "reign-cell",
+    "retusa-cell",
+    "risso-cell",
+    "scepter-base",
+    "scepter-cell",
+    "sei-cell",
+    "spiroct-cell",
+    "spiroct-joint",
+    "stell-cell",
+    "tecta-cell",
+    "toxopid-cell",
+    "toxopid-joint-base",
+    "vanquish-cell",
+    "vela-base",
+    "vela-cell",
+    "anthicus-missile-cell",
+    "anthicus-weapon-blade-heat",
+    "anthicus-weapon-heat",
+    "cleroi-weapon-heat",
+    "collaris-weapon-blade-heat",
+    "collaris-weapon-heat",
+    "conquer-weapon-blade-heat",
+    "conquer-weapon-heat",
+    "corvus-weapon-heat",
+    "disrupt-missile-fin",
+    "disrupt-weapon-preview",
+    "emp-cannon-mount-heat",
+    "incite-weapon",
+    "locus-weapon-cell",
+    "merui-weapon-heat",
+    "omura-cannon-heat",
+    "plasma-laser-mount-heat",
+    "precept-weapon-cell",
+    "precept-weapon-heat",
+    "repair-beam-weapon",
+    "scathe-missile-cell",
+    "scathe-missile-phase-cell",
+    "scathe-missile-surge-cell",
+    "scathe-missile-surge-split-cell",
+    "small-weapon",
+    "tecta-weapon-heat",
+    "vanquish-weapon-heat",
+    "vela-weapon-heat",
+    "weapon",
+    "zenith-cell"
+  ],
+  "mappingConflicts": {
+    "large-bullet-mount": [
+      {
+        "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+        "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+        "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    ],
+    "missiles-mount": [
+      {
+        "file": "units/air-erekir-parts/assets/missiles-mount.png",
+        "sha256": "c78ea6ee4766675a14b7a34272692c1855c21aaa1f5d1fa39378f97d0ffdcd85",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      },
+      {
+        "file": "units/air-erekir-parts/assets/missiles-mount.png",
+        "sha256": "c78ea6ee4766675a14b7a34272692c1855c21aaa1f5d1fa39378f97d0ffdcd85",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    ],
+    "large-artillery": [
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      },
+      {
+        "file": "units/air-erekir-parts/assets/large-artillery.png",
+        "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "sourcePath": "core/assets-raw/sprites/units/aegires-cell.png",
+      "sourceGitBlob": "f85cfc8e176982b243d989e18aeb04dc5540ff09",
+      "sourceBytes": 2064,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "aegires-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/aegires.png",
+      "sourceGitBlob": "4514fb20357bb0449096d5d916b73f7492653ede",
+      "sourceBytes": 7870,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "aegires",
+      "mapping": {
+        "file": "units/serpulo-root-parts/layers/aegires-body.png",
+        "sha256": "1a05fa676247d7b541cff832ca1cdae48a549ab18fa6d8cae0b476bceb39cb55",
+        "manifest": "records/workers/serpulo-root-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/alpha-cell.png",
+      "sourceGitBlob": "d791541089ebdff3b6f8da1b39d699e9ea4043e7",
+      "sourceBytes": 634,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "alpha-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/alpha.png",
+      "sourceGitBlob": "6e8672eff3eb8668f94dc7b9a0ad3cadb72ddfd2",
+      "sourceBytes": 1018,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "alpha",
+      "mapping": {
+        "file": "units/root-builders/layers/alpha-body.png",
+        "sha256": "10fc79bcec7af371f979e265eb3f04b9cea38f6412c66c34f794f169069bcebb",
+        "manifest": "records/workers/root-builders/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus-blade-heat.png",
+      "sourceGitBlob": "1587cc4658678896b2672fdcea5eaecc1b344737",
+      "sourceBytes": 734,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-blade-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus-blade.png",
+      "sourceGitBlob": "7dcd5ea4826e316a60a17f3b346e5fb3bc178ece",
+      "sourceBytes": 194,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus-cell.png",
+      "sourceGitBlob": "e0d1d8071608e62b8a06d8f1ab24a3cbacd71a7c",
+      "sourceBytes": 777,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus-leg-base.png",
+      "sourceGitBlob": "0b92243f3082cd49beac6f0947c74609631c4bfc",
+      "sourceBytes": 560,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-leg-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "sha256": "0daf2f3585757c72aa5f579ae70131bf111fd1986f8e67a5ffdd74904a326ccb",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus-leg.png",
+      "sourceGitBlob": "229f6d633090d90d6c1e9e0986bc131924684393",
+      "sourceBytes": 557,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-leg",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "sha256": "111bfbc97e1b656e1c65099165f655ebe9576fb63f11c721cd27ed4d233d2000",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/anthicus.png",
+      "sourceGitBlob": "a764180aab2f0560ac99569a9202477e42e08cd2",
+      "sourceBytes": 2431,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus",
+      "mapping": {
+        "file": "units/air-erekir/layers/anthicus-body.png",
+        "sha256": "32fb89c371b6357b308367def1e16419bb7ad223fb5255d972d44aa133d2f6a0",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/antumbra-cell.png",
+      "sourceGitBlob": "85c7517229526bd4e4982b248a806d88bdd1a0c6",
+      "sourceBytes": 1165,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "antumbra-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/antumbra.png",
+      "sourceGitBlob": "bbbcb480fe751340e4f2c5ee0c41a2ba904e8f64",
+      "sourceBytes": 6405,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "antumbra",
+      "mapping": {
+        "file": "units/air-erekir/layers/antumbra-body.png",
+        "sha256": "e49d1181f948da410a8ea3ed4244664ba94c48ac1014a62b5a3f7515e481a845",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid-cell.png",
+      "sourceGitBlob": "2cfccc7afba933ae77fe7d26a1b36e2d484a8034",
+      "sourceBytes": 1141,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid-foot.png",
+      "sourceGitBlob": "0919d7ae30bd02eb82d102f2e3d9fb9dc228797f",
+      "sourceBytes": 624,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid-foot",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "foot"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid-joint-base.png",
+      "sourceGitBlob": "7b6a56925999614fb1f1c7d4a69c2b1f8e3819b9",
+      "sourceBytes": 592,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid-joint-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid-leg-base.png",
+      "sourceGitBlob": "bbc5c171d83760e8e2fa43a219c36cedc9b8b493",
+      "sourceBytes": 618,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid-leg-base",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_lower"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid-leg.png",
+      "sourceGitBlob": "8def9d58892d078404df6c54be782f6f72e1c0e5",
+      "sourceBytes": 618,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_upper"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/arkyid.png",
+      "sourceGitBlob": "184ea910ae23208627e8c428fca22fcbb7adb81d",
+      "sourceBytes": 2729,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "arkyid",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/arkyid.png",
+        "sha256": "41f818296204960942bc7a3a16a18ffc86173c1406754b56b45af8e9084c353f",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/assembly-drone-cell.png",
+      "sourceGitBlob": "8312d7a6e77f228729b1dd2f3e8ee12293829e78",
+      "sourceBytes": 264,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "assembly-drone-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/assembly-drone.png",
+      "sourceGitBlob": "fa6c784b168916b3519f64a0d198be45304af3a3",
+      "sourceBytes": 810,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "assembly-drone",
+      "mapping": {
+        "file": "units/special/assets/assembly-drone.png",
+        "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-base.png",
+      "sourceGitBlob": "5dc8896177b81b004ba4ff11c81ace86d5d06a9b",
+      "sourceBytes": 304,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-cell.png",
+      "sourceGitBlob": "9b8baf165daa12942c944561ec9049f4f92d48d5",
+      "sourceBytes": 455,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-foot.png",
+      "sourceGitBlob": "cb2348f903a601308ab34e8f1b92983c9561a87c",
+      "sourceBytes": 359,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-foot",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "foot"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-joint.png",
+      "sourceGitBlob": "054879457bf737d6b302bb15932916d355b1b11e",
+      "sourceBytes": 230,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-joint",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-leg-base.png",
+      "sourceGitBlob": "df93d2d32085f174ca33fbac4be3fee5511ac828",
+      "sourceBytes": 273,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-leg-base",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_lower"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax-leg.png",
+      "sourceGitBlob": "b4ffb9cb8dedaf11bffb2b0caf89eeca0a451adc",
+      "sourceBytes": 400,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_upper"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/atrax.png",
+      "sourceGitBlob": "b73d3046d099cf59b80bb57d50b19c1927454975",
+      "sourceBytes": 1051,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "atrax",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/atrax.png",
+        "sha256": "763375f3c3675b73d608ba5e89edf9e6b739d1bdc2ef5e24e00848e00ef75048",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/avert-cell.png",
+      "sourceGitBlob": "2eecb72f3ffdfebfa26274790181427a4374116c",
+      "sourceBytes": 460,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "avert-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/avert.png",
+      "sourceGitBlob": "ab1344a9714749cb1b7028e7abea7a1afd91fdbf",
+      "sourceBytes": 1767,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "avert",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/avert-body.png",
+        "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/beta-cell.png",
+      "sourceGitBlob": "7b53cad13ec03595e5ec6c54a451c63ee9ef8cfd",
+      "sourceBytes": 279,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "beta-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/beta.png",
+      "sourceGitBlob": "3a6de9a054aaee67e4fcdca181ae20e7c2a3b77d",
+      "sourceBytes": 840,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "beta",
+      "mapping": {
+        "file": "units/root-builders/layers/beta-body.png",
+        "sha256": "c167f74b8a10d6ae96ca59567d2dca56150f9c455b87f3a7aa08c8c0b73e80e6",
+        "manifest": "records/workers/root-builders/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/bryde-cell.png",
+      "sourceGitBlob": "830aa8ba1e1b14f1bf3268b630f8c9972ebe6861",
+      "sourceBytes": 1138,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "bryde-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/bryde.png",
+      "sourceGitBlob": "97990553b7ad64d4e0ebebedd9138d6fdabd3e13",
+      "sourceBytes": 2233,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "bryde",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/bryde.png",
+        "sha256": "24d45c89fccb3e20b3b09b8b77e8ba66bfdd5d802595521fb73cb60b4ecb30f1",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cleroi-cell.png",
+      "sourceGitBlob": "ab1922cf29a43fb3ef106da1faa52b693d2210c2",
+      "sourceBytes": 441,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cleroi-leg-base.png",
+      "sourceGitBlob": "1ff53aaf7803ba31c60849b74d8ea054073294c5",
+      "sourceBytes": 401,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-leg-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-short-lower.png",
+        "sha256": "db84a2a497d1fbe9e208436bb8f8950916b2eafeb09daa6c65a774019d0f6efa",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cleroi-leg.png",
+      "sourceGitBlob": "cab7379bd259c6d9997a4759ebb39507b41a9f0f",
+      "sourceBytes": 376,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-leg",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-short-upper.png",
+        "sha256": "2c1119478850802e55919429f3af1e8b0a534b69cf7f5e343ae9a1a73552517f",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cleroi-spine.png",
+      "sourceGitBlob": "6a42960bf91bb95629c52bdc730a8c35b5448a27",
+      "sourceBytes": 215,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-spine",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cleroi.png",
+      "sourceGitBlob": "c48211473d1b23b0421637600543090385cffd89",
+      "sourceBytes": 1422,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi",
+      "mapping": {
+        "file": "units/air-erekir/layers/cleroi-body.png",
+        "sha256": "5ce14a6b757074b65d2afef3aeb5f0469b5a7c29dac13900c6facbebb15abdc0",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/collaris-cell.png",
+      "sourceGitBlob": "2e87344fb53193620ca2fff83269cd21d396faa9",
+      "sourceBytes": 1620,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/collaris-joint-base.png",
+      "sourceGitBlob": "3e6bf26d16a658176faf9fd3d05cdea9332710ab",
+      "sourceBytes": 587,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-joint-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/collaris-leg-base.png",
+      "sourceGitBlob": "841e11dab3f7fe274a7eb77a7b66af4df2c5c1c8",
+      "sourceBytes": 1003,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-leg-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/collaris-leg.png",
+      "sourceGitBlob": "ff3330fe9ab916a585de03c06858d93a91d86d1a",
+      "sourceBytes": 911,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-leg",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/collaris.png",
+      "sourceGitBlob": "bc741fdb39283627030eaa580f8de1ff85353520",
+      "sourceBytes": 5649,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris",
+      "mapping": {
+        "file": "units/air-erekir/layers/collaris-body-v2.png",
+        "sha256": "72b57c8c69045c1fcdc6838021c058fa757c1ae4dd8cdb43539921d5fa6572ea",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/conquer-cell.png",
+      "sourceGitBlob": "07d08e545fe8349e70a63d64a4e3c3f1713362bc",
+      "sourceBytes": 1777,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/conquer-glow.png",
+      "sourceGitBlob": "b1374eb85a5939960daed7f0a1f21854a9b90dd2",
+      "sourceBytes": 27148,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-glow",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+        "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/conquer-treads.png",
+      "sourceGitBlob": "3bc6677188e4d0be5f3771b8f67bd589623cf521",
+      "sourceBytes": 682,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-treads",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/conquer.png",
+      "sourceGitBlob": "6d2d669ec1fbfcf3023281f5ade1df1022f362a2",
+      "sourceBytes": 7272,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer",
+      "mapping": {
+        "file": "units/air-erekir/layers/conquer-body.png",
+        "sha256": "d763d22fc2cef137013f04c464954180ee66473a01fbe476164561b74cb21c6b",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-base.png",
+      "sourceGitBlob": "448484ab53dd644f003dacc275a9363ada14db40",
+      "sourceBytes": 828,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-cell.png",
+      "sourceGitBlob": "a0be8437039f6c95ad9d265f5695156513ef91dd",
+      "sourceBytes": 1216,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-foot.png",
+      "sourceGitBlob": "3dcb61c7fcc751e3c4a80312e68ff334868cda24",
+      "sourceBytes": 720,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-foot",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "foot"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-joint-base.png",
+      "sourceGitBlob": "921a27e55c216d1205ca9555c3bc3fb1942555fb",
+      "sourceBytes": 617,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-joint-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-joint.png",
+      "sourceGitBlob": "2a83e1f3bcefa22ca67f2513280ff643d7cb166b",
+      "sourceBytes": 550,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-joint",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-leg-base.png",
+      "sourceGitBlob": "07d18a1a4404b70148713fdfb1066d29f85142d2",
+      "sourceBytes": 350,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-leg-base",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_lower"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus-leg.png",
+      "sourceGitBlob": "581dc520323db0d87073f0382aee34d14601bce2",
+      "sourceBytes": 486,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_upper"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/corvus.png",
+      "sourceGitBlob": "87d309348f18e6a036e1c09c5e50f4b598c83110",
+      "sourceBytes": 3344,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "corvus",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/corvus.png",
+        "sha256": "806762bac2fc404f57d79535eed83a28db1349c870ce2e229f91d61142133e14",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/crawler-base.png",
+      "sourceGitBlob": "bb890e32b6dfb42f65992b6a9f7e0826419c74cd",
+      "sourceBytes": 240,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "crawler-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/crawler-cell.png",
+      "sourceGitBlob": "c77471dc6bf99b338e54477e108297d61043d073",
+      "sourceBytes": 269,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "crawler-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/crawler-leg.png",
+      "sourceGitBlob": "3183e7832137aef467205e27b4a9319db638520d",
+      "sourceBytes": 312,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "crawler-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-crawler.png",
+        "sha256": "3db3a9bb0b820ddc781384ff23ade36d7d41d82fdcca41cf87e013460b8603eb",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/crawler.png",
+      "sourceGitBlob": "0184ad19ba2d618b4774aab4e4aa498afc58059e",
+      "sourceBytes": 510,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "crawler",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/crawler.png",
+        "sha256": "f61021deea7ede0fce81be2fab036a3638755cb56bfb46b8c8ff8a94314925fb",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cyerce-cell.png",
+      "sourceGitBlob": "6dba8c92850515daeea9d8fb033e17e2f2b2f561",
+      "sourceBytes": 1441,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "cyerce-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/cyerce.png",
+      "sourceGitBlob": "75a4908109ce596411232540290f8b767010c73a",
+      "sourceBytes": 3729,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cyerce",
+      "mapping": {
+        "file": "units/serpulo-root-parts/layers/cyerce-body.png",
+        "sha256": "64a90e55df36119cc4ed4f565ae5d310006cff1c269bc1a5da618aaf9b801134",
+        "manifest": "records/workers/serpulo-root-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/dagger-base.png",
+      "sourceGitBlob": "0c9e4973e8a5e2e1dc5a74257a59a2aef654094d",
+      "sourceBytes": 199,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "dagger-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/dagger-leg.png",
+      "sourceGitBlob": "d27c010dbc3f48552c10f88c73b768501e1df15c",
+      "sourceBytes": 253,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "dagger-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/dagger.png",
+      "sourceGitBlob": "784c3c49e1aaaafc781f125a730f82a14a9dd2c4",
+      "sourceBytes": 523,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "dagger",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/dagger.png",
+        "sha256": "4a9f6ac6ce8bb84a35f4b91857e3ad0bee0d42f8cf3250236d19226c0d74ce8c",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/disrupt-cell.png",
+      "sourceGitBlob": "4c6beb6e2ddf898dce0887ee1ee0f45936208bf5",
+      "sourceBytes": 1967,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/disrupt.png",
+      "sourceGitBlob": "660ffb47673e3b3bc36b20583e5b616ea2ce69c4",
+      "sourceBytes": 5818,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt",
+      "mapping": {
+        "file": "units/air-erekir/layers/disrupt-body.png",
+        "sha256": "272d002067d65e09722ae73e55c5a1dad5ca35f3c5843d18a22bcdefe240984e",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/dummy-cell.png",
+      "sourceGitBlob": "cdf4aac595078e71340a4f378fa34747a86aae78",
+      "sourceBytes": 576,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "dummy-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/dummy.png",
+      "sourceGitBlob": "988bb37e850d5a56d1a83739cdfd6f75ab37996d",
+      "sourceBytes": 609,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "dummy",
+      "mapping": {
+        "file": "units/special/assets/dummy.png",
+        "sha256": "efe2b30f1efa5bc82a6e3df8b2d3b264a5c017f1b8e1232f3030e486a476a804",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/eclipse-cell.png",
+      "sourceGitBlob": "eba8627f99eef0c865c348d99223b1280518010a",
+      "sourceBytes": 1533,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "eclipse-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/eclipse.png",
+      "sourceGitBlob": "5d49e2132e2eb0d1fc129c25e12778453f9b2303",
+      "sourceBytes": 6823,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "eclipse",
+      "mapping": {
+        "file": "units/air-erekir/layers/eclipse-body.png",
+        "sha256": "80db0edc11629f1d269625a554a345756c24ac8fc173de19cfb819446c6b7f5c",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/elude-cell.png",
+      "sourceGitBlob": "af424fb76a9e2950aec46ea19ca857884c8b05f4",
+      "sourceBytes": 362,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "elude-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/elude.png",
+      "sourceGitBlob": "173a779327a92ec029685a09021e3d64ae160aa5",
+      "sourceBytes": 966,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "elude",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/elude-body.png",
+        "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/emanate-cell.png",
+      "sourceGitBlob": "101a01b9ece24d3beadc5827f0a1c73671f2e64f",
+      "sourceBytes": 517,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "emanate-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/emanate.png",
+      "sourceGitBlob": "a6bfa45261339dd67b7ef07e4de3ca1eb446bbe9",
+      "sourceBytes": 1480,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "emanate",
+      "mapping": {
+        "file": "units/air-erekir/individual/emanate.png",
+        "sha256": "00b729089c8caf9fd9b71123fa3513e5cf9d396c17036f29589132a544229ac7",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/evoke-cell.png",
+      "sourceGitBlob": "fd59b26b4abcc926677af9772d4eb0512c6faaf3",
+      "sourceBytes": 318,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "evoke-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/evoke.png",
+      "sourceGitBlob": "11e8f689faa38852fdd671a18c9594cccbeedc46",
+      "sourceBytes": 848,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "evoke",
+      "mapping": {
+        "file": "units/air-erekir/individual/evoke.png",
+        "sha256": "39a5aaee2082489850d1162cab417a61ab1255521eaae4234d0bb7cc3706f8e4",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/flare.png",
+      "sourceGitBlob": "fe81ef23df25be58634b91a3dab4ea85b22d3c54",
+      "sourceBytes": 417,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "flare",
+      "mapping": {
+        "file": "units/air-erekir/individual/flare.png",
+        "sha256": "40dd6c2a3730b2e2deb6a69cbde8493e56683c2a27b35887a3509412372b5811",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/fortress-base.png",
+      "sourceGitBlob": "795b3154daedd259a67d3b07bd0890fee6fb60cd",
+      "sourceBytes": 325,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "fortress-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/fortress-cell.png",
+      "sourceGitBlob": "368735f7d5cf2fac8c39f973e9a23ed13222c85d",
+      "sourceBytes": 465,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "fortress-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/fortress-leg.png",
+      "sourceGitBlob": "fc4c7ad566861f34aae94ae2418e92881cae0354",
+      "sourceBytes": 390,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "fortress-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/fortress.png",
+      "sourceGitBlob": "1dc89c484240802d0f61d8c2aad27e1fa7bd03f3",
+      "sourceBytes": 1210,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "fortress",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/fortress.png",
+        "sha256": "9de9f92fb02488a9c24024dc696ff571cde9717747db6c8f858c9449e47c7876",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/gamma-cell.png",
+      "sourceGitBlob": "c7d03aa2218095c47499fe7e27e0c053aae82004",
+      "sourceBytes": 356,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "gamma-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/gamma.png",
+      "sourceGitBlob": "c603be37d145764e4602602379e470f48574ff5b",
+      "sourceBytes": 1149,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "gamma",
+      "mapping": {
+        "file": "units/root-builders/layers/gamma-body.png",
+        "sha256": "6655a914a9dc0b0480be659a618edb9c8238d89231309cfb62f39416e7d5619a",
+        "manifest": "records/workers/root-builders/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/horizon-cell.png",
+      "sourceGitBlob": "704b0dea1524c22b25ebd23a481bd1544d1a3dc1",
+      "sourceBytes": 336,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "horizon-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/horizon.png",
+      "sourceGitBlob": "eda5795cc9d7e37749ad5d79eeb16ff99b93b602",
+      "sourceBytes": 1436,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "horizon",
+      "mapping": {
+        "file": "units/air-erekir/individual/horizon.png",
+        "sha256": "bde20e7f36ec53aaa7fd85494af5d1827a31f4430c0202845c958aed48a7b184",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/incite-cell.png",
+      "sourceGitBlob": "5fecb45a292e864de711a3e411645e466e66691f",
+      "sourceBytes": 379,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "incite-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/incite.png",
+      "sourceGitBlob": "84da4c8278405977346af03263f0cef7a23ad150",
+      "sourceBytes": 1123,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "incite",
+      "mapping": {
+        "file": "units/air-erekir/layers/incite-body.png",
+        "sha256": "1d51717e5cd6b80d8853e7e898409bce1ff11a12682ea98753b40098cddd8171",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/locus-cell.png",
+      "sourceGitBlob": "673f589670c5af98306ff591ef5dfd7b7c575e88",
+      "sourceBytes": 316,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "locus-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/locus-treads.png",
+      "sourceGitBlob": "e39c164a76000913934e684765cdd2e6de863895",
+      "sourceBytes": 408,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "locus-treads",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/locus.png",
+      "sourceGitBlob": "7d69b23f0408e645973b90a6c07f99bc8f8fb66b",
+      "sourceBytes": 1647,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "locus",
+      "mapping": {
+        "file": "units/air-erekir/layers/locus-body.png",
+        "sha256": "ec3f42bc6094d9903b42bff452140aa9bb21979488fb8143e7c981787748fd5d",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mace-base.png",
+      "sourceGitBlob": "75543a44856ab09354e2e3136f79071cc74a6d3b",
+      "sourceBytes": 246,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "mace-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mace-cell.png",
+      "sourceGitBlob": "865ff568fd5783143777558644bde47c6f5be482",
+      "sourceBytes": 284,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "mace-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mace-leg.png",
+      "sourceGitBlob": "bb1b501dfa7025fe9c6f850140807107f3e60ee9",
+      "sourceBytes": 341,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mace-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mace.png",
+      "sourceGitBlob": "dd5ab163a256f58d58287f9f97fd4b575b7fa43d",
+      "sourceBytes": 676,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mace",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/mace.png",
+        "sha256": "71c1c093141aa93aaab272289528825d200b1675228aa27af3899d61feffd98e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/manifold-cell.png",
+      "sourceGitBlob": "d921e81cb14cce210d486747e2be525b7ae3a766",
+      "sourceBytes": 434,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "manifold-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/manifold.png",
+      "sourceGitBlob": "d9276a4c9f13ed7ea68558608ab3bf80fdabd13b",
+      "sourceBytes": 1232,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "manifold",
+      "mapping": {
+        "file": "units/special/assets/manifold.png",
+        "sha256": "24ba028e845145ce8ea54f3c017799a43fbb62e6c1caabf66bebcef5114c47fc",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mega-cell.png",
+      "sourceGitBlob": "4ea5a1d2e7a9583d69d67eb424c2a737176bfb9d",
+      "sourceBytes": 526,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "mega-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mega.png",
+      "sourceGitBlob": "0c3ff432a0470da01c6a7aada1734ab186e7fe7a",
+      "sourceBytes": 1006,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mega",
+      "mapping": {
+        "file": "units/air-erekir/layers/mega-body.png",
+        "sha256": "113f04b8beb019d134c31600aadfdf04c6d8a6e5240ea2245a35b41c0c034680",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/merui-cell.png",
+      "sourceGitBlob": "9548b30a9afa9ef51305358c5cb5dfd9182f79b3",
+      "sourceBytes": 254,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "merui-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/merui-leg-base.png",
+      "sourceGitBlob": "efcda8729118bd5d68301834a4c4f6e776fc160c",
+      "sourceBytes": 295,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "merui-leg-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-short-lower.png",
+        "sha256": "db84a2a497d1fbe9e208436bb8f8950916b2eafeb09daa6c65a774019d0f6efa",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/merui-leg.png",
+      "sourceGitBlob": "aad88b1de67a51b50420bc6f978edf682644e9f8",
+      "sourceBytes": 289,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "merui-leg",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-short-upper.png",
+        "sha256": "2c1119478850802e55919429f3af1e8b0a534b69cf7f5e343ae9a1a73552517f",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/merui.png",
+      "sourceGitBlob": "270c8efc539d2e7f72663231c09919b2178fcbdd",
+      "sourceBytes": 812,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "merui",
+      "mapping": {
+        "file": "units/air-erekir/layers/merui-body-v2.png",
+        "sha256": "bb18178d01933c1ec5c46901a8c724911614dd834227fe6ad5df23fec48a540c",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/minke-cell.png",
+      "sourceGitBlob": "e8194f1819269a6d23604e8d3e6b8d4d43f12726",
+      "sourceBytes": 944,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "minke-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/minke.png",
+      "sourceGitBlob": "597550df3ac81a125be2e489fdbf0c45451fd780",
+      "sourceBytes": 1820,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "minke",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/minke.png",
+        "sha256": "465dd1c6e23952dc4c04268929a65db02814007f511150972ae7be9f21cfd3fa",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mono-cell.png",
+      "sourceGitBlob": "03c87d5e292a8d61aa1effe27edb0e7a36d6a15d",
+      "sourceBytes": 280,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "mono-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/mono.png",
+      "sourceGitBlob": "573d2d06552c35fd1b9ad8ab2314634154878bfc",
+      "sourceBytes": 743,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mono",
+      "mapping": {
+        "file": "units/air-erekir/individual/mono.png",
+        "sha256": "d89c5ff4d7ff61455e2823165d5f78e02d1887b0580c4f75815e9567c363545e",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/navanax-cell.png",
+      "sourceGitBlob": "79e2b847b77ff878ce3043bd7ad5318a5cbbcf57",
+      "sourceBytes": 2396,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "navanax-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/navanax.png",
+      "sourceGitBlob": "17cf6bb068d0013d3bd42b750f61e2f3fa0489b7",
+      "sourceBytes": 13436,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "navanax",
+      "mapping": {
+        "file": "units/serpulo-root-parts/layers/navanax-body.png",
+        "sha256": "8f7359cd2d97cf72d63a80b8095d02a692d6c05ba97581edf0dc9912583a984d",
+        "manifest": "records/workers/serpulo-root-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/latum-segment0.png",
+      "sourceGitBlob": "694b491924aab052a040059cde10b348699a9c68",
+      "sourceBytes": 3588,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "latum-segment0",
+      "mapping": {
+        "file": "units/special/layers/latum-segment0.png",
+        "sha256": "c6548375768809406596a7e915ad64ebdd9824d22d8485e5a5a522cd2311b652",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "tail"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+      "sourceGitBlob": "9764ace4f03716d99ef2b6c4de2ce7f742d9838b",
+      "sourceBytes": 4145,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "latum-segment1",
+      "mapping": {
+        "file": "units/special/layers/latum-segment1.png",
+        "sha256": "4b9840aa1b83e01ec98f20e498883e15400df08247f80e6b183dc28b49d3ed4a",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "torso"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/latum-segment2.png",
+      "sourceGitBlob": "cca25fc655e4d8366a19ac1172b4c743b139c260",
+      "sourceBytes": 3994,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "latum-segment2",
+      "mapping": {
+        "file": "units/special/layers/latum-segment2.png",
+        "sha256": "5969b22270cca8b236ff8b46e146ee711ac16586c7c2afc502295525d3a3326e",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "torso"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/latum-segment3.png",
+      "sourceGitBlob": "ffad71d5409e2296f6a9a73af622e4eae5759cc9",
+      "sourceBytes": 4162,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "latum-segment3",
+      "mapping": {
+        "file": "units/special/layers/latum-segment3.png",
+        "sha256": "374633ee95917406a1371ae5a53cfdc23a118e7a8b1f63482e3751c8aef2470b",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "head"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+      "sourceGitBlob": "98230644183ff219fded1936f97b2ce11bdaf037",
+      "sourceBytes": 326,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "renale-segment0",
+      "mapping": {
+        "file": "units/special/layers/renale-segment0.png",
+        "sha256": "d4e67d9fa535b383fab7bb4f732cb2a997d7d89ec84fd97097e766ea1ee03c3e",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "tail"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/renale-segment1.png",
+      "sourceGitBlob": "36729c3e93939114f8c890f73188f3fd71a063e5",
+      "sourceBytes": 750,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "renale-segment1",
+      "mapping": {
+        "file": "units/special/layers/renale-segment1.png",
+        "sha256": "dd2d35aef282ef433d16956e78480826deb75ba6241c88e545b95d8358dd52f4",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "torso"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/neoplasm/renale-segment2.png",
+      "sourceGitBlob": "067b85151934e65cc70a98eba0e3b13d3e44263d",
+      "sourceBytes": 505,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "renale-segment2",
+      "mapping": {
+        "file": "units/special/layers/renale-segment2.png",
+        "sha256": "712595a9a3bbef593b18f2c35f589853ff8fc2ca4cce8a2579fbc815a916f3c1",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "head"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/nova-base.png",
+      "sourceGitBlob": "28386147bf20b746b9a6485b7a296c9506e7c2a3",
+      "sourceBytes": 328,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "nova-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/nova-cell.png",
+      "sourceGitBlob": "f690a34497d24a1d6277f554a69ceddafe794aad",
+      "sourceBytes": 295,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "nova-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/nova-leg.png",
+      "sourceGitBlob": "eaab48a296691cb7cb9724e518413ceae03fb53c",
+      "sourceBytes": 339,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "nova-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/nova.png",
+      "sourceGitBlob": "baf46e3fa60c6113799ab668a61489cdd7cae054",
+      "sourceBytes": 627,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "nova",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/nova.png",
+        "sha256": "2b1f52fe55471510b474149334733d23c4343833e09a5f04154ee0ca996818d9",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-blade-heat.png",
+      "sourceGitBlob": "b6d8f68a40017926ce4889177c770768a7e9135f",
+      "sourceBytes": 1594,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-blade-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-blade.png",
+      "sourceGitBlob": "e1528e1bbcd17ffad0bb5ae0820db2f953789877",
+      "sourceBytes": 1396,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-cell.png",
+      "sourceGitBlob": "9c807c22dcf9e12ce6f19db9fcef980a63f03a86",
+      "sourceBytes": 597,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-heat.png",
+      "sourceGitBlob": "410a97bd0d9ac736dcee5787582dc9d9cd7b3eb7",
+      "sourceBytes": 2666,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-preview.png",
+      "sourceGitBlob": "4a7553fffde20c4348c72bb858c759061a532a68",
+      "sourceBytes": 2880,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-preview",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate-side.png",
+      "sourceGitBlob": "ebba8b2e875eb1fbd7d56363b0d62b6cbdd63d8e",
+      "sourceBytes": 419,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "obviate-side",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/obviate.png",
+      "sourceGitBlob": "a952fabb874941e8a28c786a0edb2fe5e59dd841",
+      "sourceBytes": 1209,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "obviate",
+      "mapping": {
+        "file": "units/air-erekir/individual/obviate.png",
+        "sha256": "35a2e9754939cb1c541849fc846c579e204b6547cd0979751e62e0a9edda0f79",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/oct-cell.png",
+      "sourceGitBlob": "b27f93adb40bda0636e9fc9b02e1f7470d3a533d",
+      "sourceBytes": 2693,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "oct-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/oct.png",
+      "sourceGitBlob": "d61cf5c2f52b3ef82ffcae1d9d4fecf9feb7dcab",
+      "sourceBytes": 11621,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "oct",
+      "mapping": {
+        "file": "units/air-erekir/individual/oct.png",
+        "sha256": "229a6c50faae27b37ba94fd657e40ad8f623107d4c981194ac627de2c6d074ae",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/omura-cell.png",
+      "sourceGitBlob": "504824b015fa6c41aa7eaa18a88d778200bea22b",
+      "sourceBytes": 2032,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "omura-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/omura.png",
+      "sourceGitBlob": "d29aff77397dfddbffc47efb126373255b560e35",
+      "sourceBytes": 6572,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "omura",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/omura.png",
+        "sha256": "e52710d47a0355dd57f22aa2c40fe0a68b9ba62f7f259a04514a4794f4b34911",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/oxynoe-cell.png",
+      "sourceGitBlob": "92120a6bd412b764136cdb4645fd4aed7806c744",
+      "sourceBytes": 816,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "oxynoe-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/oxynoe.png",
+      "sourceGitBlob": "35a4d45cbcc36272bdc293707061c3ea0da3c75b",
+      "sourceBytes": 2376,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "oxynoe",
+      "mapping": {
+        "file": "units/serpulo-root-parts/layers/oxynoe-body.png",
+        "sha256": "60415af4b8bb17f04df3795c903a57f88e825425b4403d022e3135f47b85714b",
+        "manifest": "records/workers/serpulo-root-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/poly-cell.png",
+      "sourceGitBlob": "ee18427365744b84647422271cb2f0ed638532d6",
+      "sourceBytes": 312,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "poly-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/poly.png",
+      "sourceGitBlob": "dd3c76e96ffe9df07fa6a0f18abb915f0d7886a0",
+      "sourceBytes": 483,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "poly",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/poly-body.png",
+        "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/power-cell.png",
+      "sourceGitBlob": "5a288ada351a61283fd9e7a545a3f514ceabfbcb",
+      "sourceBytes": 262,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "power-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/precept-cell.png",
+      "sourceGitBlob": "8f4a9ecdafc31ab1a2fd62dac4982be20137194e",
+      "sourceBytes": 319,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "precept-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/precept-treads.png",
+      "sourceGitBlob": "916cd739e56d69842836e2c65b258676246e5c5b",
+      "sourceBytes": 492,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "precept-treads",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/precept.png",
+      "sourceGitBlob": "58f5f586e75ef6ead86aecb9905b36ed44a25541",
+      "sourceBytes": 2943,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "precept",
+      "mapping": {
+        "file": "units/air-erekir/layers/precept-body.png",
+        "sha256": "514c8542222f97129342c74f7f10aee01800d3daf600017bc355a2367b6b6526",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/pulsar-base.png",
+      "sourceGitBlob": "f076436987131fe5f51e2a892032efa69b5fd9d0",
+      "sourceBytes": 663,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "pulsar-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/pulsar-cell.png",
+      "sourceGitBlob": "9268d386516f98fd8b92e8efc5166d69c0299735",
+      "sourceBytes": 796,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "pulsar-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/pulsar-leg.png",
+      "sourceGitBlob": "9d3a4ec2afc3641bf090acc67faa3fb82bd2ee42",
+      "sourceBytes": 792,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "pulsar-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/pulsar.png",
+      "sourceGitBlob": "b16864d31c9049383b01473a1edb676c9bc58e3d",
+      "sourceBytes": 999,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "pulsar",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/pulsar.png",
+        "sha256": "53ebaee34282c17315d1f4f4a0d69dc22ef7f2851a0d7fa3db8e2d2400452f20",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quad-cell.png",
+      "sourceGitBlob": "13222f495b8ffa93db3407679495b14c9177eeb0",
+      "sourceBytes": 1269,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "quad-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quad.png",
+      "sourceGitBlob": "51b20f747d13cd60301264741eefa1963898f51a",
+      "sourceBytes": 3532,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quad",
+      "mapping": {
+        "file": "units/air-erekir/individual/quad.png",
+        "sha256": "f2eeb53a162808a149aaa695cae2e9a745ae19a47ae527327370bc424382cb84",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quasar-base.png",
+      "sourceGitBlob": "ba43ef6406f841a6cb520360fff1030686fdcb52",
+      "sourceBytes": 331,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "quasar-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quasar-cell.png",
+      "sourceGitBlob": "d15d720349a7735794f729de59f2520f05e84c61",
+      "sourceBytes": 422,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "quasar-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quasar-leg.png",
+      "sourceGitBlob": "5c2650440c71641fa610dd3f378dd7993aeca9d2",
+      "sourceBytes": 415,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quasar-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quasar.png",
+      "sourceGitBlob": "dfbf9825814e33c6c227283e2fd13545e73500b8",
+      "sourceBytes": 788,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quasar",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/quasar.png",
+        "sha256": "966c148fd05ac3dd5dfa417cb78ba19f53788d590c07e9030ceaa546a4457e91",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quell-cell.png",
+      "sourceGitBlob": "9c381e0415ad0f465551c193cf169af5aa7c1615",
+      "sourceBytes": 995,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "quell-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/quell.png",
+      "sourceGitBlob": "8f337b129e58f3ab8d24125fc8828c97ea82ffa9",
+      "sourceBytes": 3644,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quell",
+      "mapping": {
+        "file": "units/air-erekir/layers/quell-body.png",
+        "sha256": "ad523984559e9b2577f79a0b5998092cc397a63f37fa801a9819f912f7fd6295",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/reign-base.png",
+      "sourceGitBlob": "6d47effdc9d7a45b3c163735364856b13479666f",
+      "sourceBytes": 836,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "reign-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/reign-cell.png",
+      "sourceGitBlob": "c6983917f512815532b00d70b7abbfcbeb078992",
+      "sourceBytes": 891,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "reign-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/reign-leg.png",
+      "sourceGitBlob": "1bf212125e2908e1c17c4170564cd0aba2eeafbe",
+      "sourceBytes": 804,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "reign-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/reign.png",
+      "sourceGitBlob": "6e7b81c1461493c124855b1c48cddf98a635ba30",
+      "sourceBytes": 2664,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "reign",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/reign.png",
+        "sha256": "199355d2f43a07bc71252b3ffd4e3868d3d2c962f38b5f89bc50e8ca3b493a8b",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/retusa-cell.png",
+      "sourceGitBlob": "bb044aa5a358755c2c7fdf62427d757961888b0e",
+      "sourceBytes": 749,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "retusa-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/retusa.png",
+      "sourceGitBlob": "367e0d5921ee542f8dace93458348417cde0c9ab",
+      "sourceBytes": 1683,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "retusa",
+      "mapping": {
+        "file": "units/serpulo-root-parts/layers/retusa-body.png",
+        "sha256": "661c50658f15c04dd9683727c640f55bbb2eb5fcc9d88df64dced17e742e9b3e",
+        "manifest": "records/workers/serpulo-root-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/risso-cell.png",
+      "sourceGitBlob": "f01db0e5b1cc7f574d87772cddd0e42a5ca1a626",
+      "sourceBytes": 796,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "risso-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/risso.png",
+      "sourceGitBlob": "bcfa3c29adf9093974b1ca076785c0b6e6b61896",
+      "sourceBytes": 1319,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "risso",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/risso.png",
+        "sha256": "be8124b0b0758591a1608e64a7f9c405b998b747e8d7a59b7dc28b218b2dd80d",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/scepter-base.png",
+      "sourceGitBlob": "1ec4aac2300bbc640db5d9cc2179a9d3232127f6",
+      "sourceBytes": 600,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scepter-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/scepter-cell.png",
+      "sourceGitBlob": "86aec9412d4d848c6451da2fabb063df03ee3322",
+      "sourceBytes": 720,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scepter-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/scepter-leg.png",
+      "sourceGitBlob": "80e25079bf3291965ff26735be2bcf966a9d0a9c",
+      "sourceBytes": 740,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scepter-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/scepter.png",
+      "sourceGitBlob": "1cfaaa2a871ba84706f4f5449f240ce8a79a70fd",
+      "sourceBytes": 1922,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scepter",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/scepter.png",
+        "sha256": "b9c85214bc670573fcd83de4c4e8b404058bfeec63ed0f22e403f14e6956a31a",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/sei-cell.png",
+      "sourceGitBlob": "c440ce3ee6be7a6392bb499397385ba62c87093d",
+      "sourceBytes": 1644,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "sei-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/sei.png",
+      "sourceGitBlob": "122cd107ab1562c70395924b356127a45e1fece8",
+      "sourceBytes": 3459,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "sei",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/sei.png",
+        "sha256": "60df1f865e4bac6a695ad13768cfd2c8016d667c55e13141ac0d32062e98220e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct-cell.png",
+      "sourceGitBlob": "180d3e986b29d9a3b870aa29d96fb85931b99b61",
+      "sourceBytes": 606,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct-foot.png",
+      "sourceGitBlob": "c501d7843d38c1c5c0b9d68d097777a64d4c0e09",
+      "sourceBytes": 467,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-foot",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "foot"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct-joint.png",
+      "sourceGitBlob": "1fe4fdbd3eed70f09635a22168d8aa0a3c550067",
+      "sourceBytes": 281,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-joint",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct-leg-base.png",
+      "sourceGitBlob": "0c2a1783e1e3924a5c1e35efe8831d8ac0d9da26",
+      "sourceBytes": 411,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-leg-base",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_lower"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct-leg.png",
+      "sourceGitBlob": "cc9081fce9734e7902374416d3da88a1346152ab",
+      "sourceBytes": 495,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_upper"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/spiroct.png",
+      "sourceGitBlob": "36df70869ab9a1b16660a52f67b5a53f69e82fce",
+      "sourceBytes": 1213,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/spiroct.png",
+        "sha256": "966d26262c7b263db546ed3e435ae24d2fe5d4c06a82f1bc034370d92fbd450c",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/stell-cell.png",
+      "sourceGitBlob": "c0909f4df517cd03d2a78ee57fc6314ee80906dd",
+      "sourceBytes": 404,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "stell-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/stell-treads.png",
+      "sourceGitBlob": "703ea03dd065b867e5889c9f30e73e6264aa3844",
+      "sourceBytes": 271,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "stell-treads",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/stell.png",
+      "sourceGitBlob": "e2eb8ec5ac0cfa487f77c303533bbb936b7fbc0e",
+      "sourceBytes": 1059,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "stell",
+      "mapping": {
+        "file": "units/air-erekir/layers/stell-body.png",
+        "sha256": "1d9a2b7aa4c71986478fc008bafc6d5a4448b3e4026c9a330ab8f61b56aafa3b",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta-cell.png",
+      "sourceGitBlob": "0fea687a7e591957ee4ad9fdee36f1d757bb4de6",
+      "sourceBytes": 1046,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta-foot.png",
+      "sourceGitBlob": "f035f791d4816aef3efa8cce1957f85b9dae645d",
+      "sourceBytes": 647,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-foot",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta-leg-base.png",
+      "sourceGitBlob": "6091d584692393eb4141ec28fc9509d886b4792c",
+      "sourceBytes": 775,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-leg-base",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta-leg.png",
+      "sourceGitBlob": "fc8fba6a7fb1fea9bf14310fffafe51e132bc39a",
+      "sourceBytes": 691,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-leg",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta-shield.png",
+      "sourceGitBlob": "6ef60f4ac9a9fcbf2ee095ec94f267b55f4a84ad",
+      "sourceBytes": 632,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-shield",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/tecta-shield.png",
+        "sha256": "e6e7b08ee8cf7f96ef7eb909b2951c82ee7b7b63c4db45748bd54c892ccb8f58",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/tecta.png",
+      "sourceGitBlob": "828e169320caadda5d8aae178d3ad5e26450b39b",
+      "sourceBytes": 3146,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta",
+      "mapping": {
+        "file": "units/air-erekir/layers/tecta-body.png",
+        "sha256": "07d7148e17c1cdc37f3cbf3acc2076f420b1efb19b64aa38e81c9b929ebe3c46",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid-cell.png",
+      "sourceGitBlob": "b58dba388dd884fd8ec2b2b921474d6afc514c52",
+      "sourceBytes": 1313,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid-foot.png",
+      "sourceGitBlob": "fffa78f2a65077526ea78868e7c544fab51a669f",
+      "sourceBytes": 989,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-foot",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+        "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "foot"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid-joint-base.png",
+      "sourceGitBlob": "921a27e55c216d1205ca9555c3bc3fb1942555fb",
+      "sourceBytes": 617,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-joint-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid-leg-base.png",
+      "sourceGitBlob": "8684da9f26bc40d5db229f01670ca3ff3a6e2d5d",
+      "sourceBytes": 1483,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-leg-base",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+        "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_lower"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid-leg.png",
+      "sourceGitBlob": "c8b18eb7947a55a90eb232ff075b166afa3a6d7f",
+      "sourceBytes": 1826,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+        "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "leg_upper"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/toxopid.png",
+      "sourceGitBlob": "3f4037e94b239ef9cb3b26c959608a25ed0194c3",
+      "sourceBytes": 3078,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/toxopid.png",
+        "sha256": "ce2663f2821bfbc6bfa50bfbac938db5d43abecf6ebe8017c45d5baef885563a",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vanquish-cell.png",
+      "sourceGitBlob": "46c91ead155b09e17f18028dfd510f4fd06c5c39",
+      "sourceBytes": 1107,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vanquish-treads.png",
+      "sourceGitBlob": "e878c59a7dd0892ba5c7fce93e76eec0f97e19d8",
+      "sourceBytes": 556,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish-treads",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vanquish.png",
+      "sourceGitBlob": "c867e2f81d2020490121069052f7d4e3430ecaa9",
+      "sourceBytes": 4361,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish",
+      "mapping": {
+        "file": "units/air-erekir/layers/vanquish-body.png",
+        "sha256": "36396e17181d291b5e6c0c749b7e56bbe53636473085caa6ffd86ae222a183c0",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vela-base.png",
+      "sourceGitBlob": "1ec4aac2300bbc640db5d9cc2179a9d3232127f6",
+      "sourceBytes": 600,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "vela-base",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vela-cell.png",
+      "sourceGitBlob": "595fbce8be643b348170f621ccb5789f18394d9a",
+      "sourceBytes": 748,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "vela-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vela-leg.png",
+      "sourceGitBlob": "80e25079bf3291965ff26735be2bcf966a9d0a9c",
+      "sourceBytes": 740,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vela-leg",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "locomotion_leg"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/vela.png",
+      "sourceGitBlob": "b1c734abd421975531b3d171551016654232f346",
+      "sourceBytes": 2328,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vela",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/bodies/vela.png",
+        "sha256": "46b0ccf7e2d9420d16dcbd5e34d75e847e17236da30c13bce409e06c3d76f5e8",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-missile-cell.png",
+      "sourceGitBlob": "4299db9770a20b4de5fdc74dbd822d4f28b0a0d5",
+      "sourceBytes": 183,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-missile-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+      "sourceGitBlob": "5bb8d3b91e61804c811055fb976c856d3ff93894",
+      "sourceBytes": 443,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-missile",
+      "mapping": {
+        "file": "units/special/assets/anthicus-missile.png",
+        "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-weapon-blade-heat.png",
+      "sourceGitBlob": "851b98682a247d4c81695d9ff1e6f88466192bcd",
+      "sourceBytes": 624,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-weapon-blade-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-weapon-blade.png",
+      "sourceGitBlob": "047772b92a15f39b217ec98c8be2f7a410d32f38",
+      "sourceBytes": 505,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-weapon-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-weapon-heat.png",
+      "sourceGitBlob": "8bdd66749b0cc54a17bc71691c1490c7200fd6e1",
+      "sourceBytes": 741,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/anthicus-weapon.png",
+      "sourceGitBlob": "cf327299c6428ba2c43ff8cb7e3128f649d0cf86",
+      "sourceBytes": 369,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "anthicus-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+        "sha256": "06415c55537275b01f51de7b183990fd4a6bc698e995209bed55191eabc4407e",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/artillery-mount.png",
+      "sourceGitBlob": "ac6552e539bcf82d84aa6f4fd9406eed5ba0b8b5",
+      "sourceBytes": 509,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "artillery-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-mortar.png",
+        "sha256": "f9dd0c25e2e08873be7ef758a50e2110169ce72f496c58be2bc8a58c952ecacd",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/artillery.png",
+      "sourceGitBlob": "fe8369d27a0c34c27ad02435a58b6163cf221e01",
+      "sourceBytes": 597,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "artillery",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-mortar.png",
+        "sha256": "a9b940b0c9bc39999f04fd26b929a27458ad45e574ab863da9ff3dbf3d79702c",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+      "sourceGitBlob": "e0a6b3f1ff233eeec31d638ba8dfcdecec399afa",
+      "sourceBytes": 528,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "atrax-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+        "sha256": "db70e6c7922b9465a85abd25240e00df53c328dec0f691146821b8b0fcfb4758",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/avert-weapon.png",
+      "sourceGitBlob": "75d41b24eecaac6ad03a9398930427eec8ea3319",
+      "sourceBytes": 1067,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "avert-weapon",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/avert-weapon.png",
+        "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/beam-weapon.png",
+      "sourceGitBlob": "d4784aa69f1500fe6f41f4cd6c21d410b080ab7a",
+      "sourceBytes": 801,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "beam-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-beam-laser.png",
+        "sha256": "3ef2e711bcb5f4b49fddf6866de6dd0cb28b57c2d5039e511c38daa4841b722e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/build-weapon.png",
+      "sourceGitBlob": "30591fa51f24e93ba70c574edf52f24ccca9e91c",
+      "sourceBytes": 408,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "build-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/build-weapon.png",
+        "sha256": "b0ec57a71d75b833f3431fbb6eccd1c192aecf09b507a89c633b745477ce7adb",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/cleroi-point-defense.png",
+      "sourceGitBlob": "96a02463d4d03dbb9a284121d7f01c74e6dad007",
+      "sourceBytes": 345,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-point-defense",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/cleroi-point-defense.png",
+        "sha256": "402eac6f9696b214815232ee7a51e2d520b99528b170f509f019d631a5003c47",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/cleroi-weapon-heat.png",
+      "sourceGitBlob": "b33112bbe6083356eab73ee3c8147bbf083d3425",
+      "sourceBytes": 470,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/cleroi-weapon.png",
+      "sourceGitBlob": "7133cb1d879760d882ea43d51b92444262acbd89",
+      "sourceBytes": 268,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "cleroi-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/cleroi-weapon.png",
+        "sha256": "fe355adb4e525608d303b64bfa7953f7532c94251dfff122aea4f494966e9762",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/collaris-weapon-blade-heat.png",
+      "sourceGitBlob": "6e0ef1fcb25c0550f9b849693bb4c7b1bdb1286d",
+      "sourceBytes": 664,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-weapon-blade-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+      "sourceGitBlob": "8b7303d2a550aacaf50313ca855af9d8502ce9e3",
+      "sourceBytes": 270,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-weapon-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/collaris-weapon-heat.png",
+      "sourceGitBlob": "20e4e5165a8d12e5f82cf00958d33099620a02c2",
+      "sourceBytes": 2033,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/collaris-weapon.png",
+      "sourceGitBlob": "56d66f2431aa85b31480739235126122a5babaf5",
+      "sourceBytes": 1305,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "collaris-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+        "sha256": "4ce7eb613dba05cd9c3914268995301985e426ded8d9a8375a88e1dc271aa474",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-blade-heat.png",
+      "sourceGitBlob": "d3847c82db99b26fecf850d634a7aac68aa4be5d",
+      "sourceBytes": 1404,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-blade-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+      "sourceGitBlob": "4d4181e03553bf69323d418d156769c4ae421054",
+      "sourceBytes": 638,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-glow.png",
+      "sourceGitBlob": "0d00463db2664fb56c1a518bcf02c4074f1f26e9",
+      "sourceBytes": 13784,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-glow",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+        "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-heat.png",
+      "sourceGitBlob": "ee963032bc1a23c9a751902b451d8d08e4c9dbcc",
+      "sourceBytes": 20028,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+      "sourceGitBlob": "81a6757cd9bdff071b8294f937613dd6b1b47c20",
+      "sourceBytes": 612,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-sides",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-sinks-heat.png",
+      "sourceGitBlob": "4eeeb3a15854a3b6d7c5b7f2b18db63dfaec3572",
+      "sourceBytes": 1543,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-sinks-heat",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+      "sourceGitBlob": "a41a37c05a93edc8c2ff985b4eeeefe4802cd12a",
+      "sourceBytes": 374,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon-sinks",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/track-strip.png",
+        "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/conquer-weapon.png",
+      "sourceGitBlob": "79cc1bdcecf2075cb84f8281d5899a534741a6a0",
+      "sourceBytes": 4284,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "conquer-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+        "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+      "sourceGitBlob": "6ea3ffe1e71670d3da3859d83f06e89b82487612",
+      "sourceBytes": 3045,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "corvus-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/disrupt-missile-fin.png",
+      "sourceGitBlob": "9b5173fb28a090065fd2fdc6231d51f92192a984",
+      "sourceBytes": 305,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-missile-fin",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+      "sourceGitBlob": "d2a9ff6e3a52425225d9f5c6c6a042c033969666",
+      "sourceBytes": 639,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-missile",
+      "mapping": {
+        "file": "units/special/layers/disrupt-missile-body.png",
+        "sha256": "598d07b11c7345c5e9d919fb114c2de69eb0bee80d51a6715aa15703efc93772",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+      "sourceGitBlob": "3cc4e4aaae19ce7c5729c4a8fa89679b9c12f4ba",
+      "sourceBytes": 886,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-weapon-blade",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "unknown"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+      "sourceGitBlob": "39bd8016e12c39424bcf01b890b3c5982feaeb0e",
+      "sourceBytes": 1685,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-weapon-preview",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/disrupt-weapon.png",
+      "sourceGitBlob": "8dabc8df95408d0a532269936abab55555968914",
+      "sourceBytes": 815,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "disrupt-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+        "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/elude-weapon.png",
+      "sourceGitBlob": "b3c65bcfed391168fdf6c7f24af6e13b5dde2559",
+      "sourceBytes": 629,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "elude-weapon",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/elude-weapon.png",
+        "sha256": "61e6e67b4a49907b491444571657bb948302d405ff5119c8063b37a55edb451d",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/emp-cannon-mount-heat.png",
+      "sourceGitBlob": "b23f9257be489d98ea7f20b16e1516092e3728b5",
+      "sourceBytes": 569,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "emp-cannon-mount-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/emp-cannon-mount.png",
+      "sourceGitBlob": "1fcaf470b1e4d6f613c241bfc14b9b516d0e107d",
+      "sourceBytes": 2014,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "emp-cannon-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+        "sha256": "ca26ef73f64884ff0e2b21f32b47d883eb5937cf74dd64946ff7490150708c3d",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/flamethrower.png",
+      "sourceGitBlob": "6aac73acd3c21adcdd2aa6d65abaa4cb44ed98fb",
+      "sourceBytes": 648,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "flamethrower",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+        "sha256": "db70e6c7922b9465a85abd25240e00df53c328dec0f691146821b8b0fcfb4758",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+      "sourceGitBlob": "a519b8e8c04dfa244b0db762e6a27e18adf7adcd",
+      "sourceBytes": 586,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "heal-shotgun-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-electric-coil.png",
+        "sha256": "5ae705db8fd06a82c9217784685995211387a46bd9a8d105d0bd289a7e33363c",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/heal-weapon-mount.png",
+      "sourceGitBlob": "2ff4d59c4af1b4e63efe67015ccea5b53f8ea1bd",
+      "sourceBytes": 301,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "heal-weapon-mount",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+        "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/heal-weapon.png",
+      "sourceGitBlob": "7ab9309d40dd64223a656a3f053e65cab5b38ed9",
+      "sourceBytes": 357,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "heal-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-repair-bolt.png",
+        "sha256": "b4fcc25fb8a56ca5e446abdf1c9cdddc0f214a1278581f94427e7c2060462cc5",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/incite-weapon.png",
+      "sourceGitBlob": "26d09e97840565e9c18e514af18facb2db4b724b",
+      "sourceBytes": 454,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "incite-weapon",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/large-artillery.png",
+      "sourceGitBlob": "b5f6577bed257e15b487828454ede98a8ec38a01",
+      "sourceBytes": 895,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "large-artillery",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-long-artillery.png",
+        "sha256": "b788b9c0cd9d971303400b53c9f2d9ff4295050756789622cf624701705fa42e",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+      "sourceGitBlob": "92b785ef652daa82aee1f8a4875c19b3c5f2cdc4",
+      "sourceBytes": 724,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "large-bullet-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+      "sourceGitBlob": "5e04ace067bb591013021c7b8ef63daddbf2ccbe",
+      "sourceBytes": 1579,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "large-laser-mount",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+        "sha256": "afe2e74d3740bd8605d67c28dc5566ca5f07735499ef943040dea97bcef35489",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+      "sourceGitBlob": "4940a5b049a8c43de234be2a5e7c80699c7710d6",
+      "sourceBytes": 938,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "large-purple-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+        "sha256": "61606cf01e4429a6c94be7f52bf03b75688e853cbc09b4bdead3377b9e4b92f1",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/large-weapon.png",
+      "sourceGitBlob": "426fbfc4708741c35ac11c3e1985deba9718940b",
+      "sourceBytes": 407,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "large-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "sha256": "8e704421082ad44f152f08dc576a2f1d2514e3df9bd461fd2d32e6bcb8dc9999",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+      "sourceGitBlob": "3ba48d74e2054ff6ce466edba6dac82eabc4ffb9",
+      "sourceBytes": 559,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "locus-weapon-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/locus-weapon.png",
+      "sourceGitBlob": "bb426746dd9d306d926265229175001a5a2a0ab6",
+      "sourceBytes": 1329,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "locus-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/locus-weapon.png",
+        "sha256": "bad4e625196b7c53022318ce06f67f5427ef2868e0785711b876980418036144",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/merui-weapon-heat.png",
+      "sourceGitBlob": "764158d51be356aa09096d7ca6569031eb1001da",
+      "sourceBytes": 499,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "merui-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/merui-weapon.png",
+      "sourceGitBlob": "84eee1be40b3890271bae880d98ed95be0717405",
+      "sourceBytes": 81,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "merui-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/merui-weapon.png",
+        "sha256": "c8e27f94c16f3f09c9bb582d00c95bb977fff207519544c786191acbbf0a34c2",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/missiles-mount.png",
+      "sourceGitBlob": "3503be2fb7dd3072b8f8b28ddf1b9d60f683598d",
+      "sourceBytes": 443,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "missiles-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-missile-pair.png",
+        "sha256": "d63d678364473e3e5ae962df64a244463072a812a797d1ed9d1a3de3fd0046dc",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/mount-purple-weapon.png",
+      "sourceGitBlob": "d34950accd619244fd77ed5a84c132c317b8b727",
+      "sourceBytes": 697,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mount-purple-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-sap-emitter.png",
+        "sha256": "6fc31a6bbb2daabf01f58065cf40ea84babb5309cb566355df9142a1f7eb2743",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/mount-weapon.png",
+      "sourceGitBlob": "f6176f26ea747307fb94f6d628425955aeab1e17",
+      "sourceBytes": 303,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "mount-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+      "sourceGitBlob": "c3c0d6378cbb56a26f36b3e40488d4b47d34ac10",
+      "sourceBytes": 2317,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "omura-cannon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/omura-cannon.png",
+      "sourceGitBlob": "e751f29572114f63eb53d8132fc4afb1b5525787",
+      "sourceBytes": 4445,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "omura-cannon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-railgun.png",
+        "sha256": "b8050a509440adc50913d9e4ad82ef2079432e9e7496291a7aeeb8ffeb1eded6",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/plasma-laser-mount-heat.png",
+      "sourceGitBlob": "63e3eafc53c390eb00744c69bea7a83716dc9dde",
+      "sourceBytes": 562,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "plasma-laser-mount-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+      "sourceGitBlob": "8a7ac5a27ba6c220330f00c049314aa4fd1afa3f",
+      "sourceBytes": 1206,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "plasma-laser-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+        "sha256": "1ef8385623078cb9220fe18f0d66cd63b8d982cce0c41a2d0353b2bf9b771e6d",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/plasma-missile-mount.png",
+      "sourceGitBlob": "f8c5476bdc09d550f77abc4721f381f46f303aa6",
+      "sourceBytes": 833,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "plasma-missile-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-missile.png",
+        "sha256": "6390d304e17a14b96caf1e9ee61a07f72b1c7488939798c79dfc3e980cc98a5b",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/plasma-mount-weapon.png",
+      "sourceGitBlob": "57dad881debcb7a05c055801e12c40b2b97b869b",
+      "sourceBytes": 415,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "plasma-mount-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+        "sha256": "a9cb255ee833c402f09dd2cfea27402894948b36249c52e2caeffd322e281e97",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+      "sourceGitBlob": "b14acbc73b1aa76c4dd24315da4415bf7ee95d9d",
+      "sourceBytes": 505,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "point-defense-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "sha256": "6a5df320b38727eba02d7542d47b4a193026708c8fd66f55e1eaac306fb9b4a5",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/poly-weapon.png",
+      "sourceGitBlob": "2ff4d59c4af1b4e63efe67015ccea5b53f8ea1bd",
+      "sourceBytes": 301,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "poly-weapon",
+      "mapping": {
+        "file": "units/coordinator-recoil-fix/poly-weapon.png",
+        "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/precept-weapon-cell.png",
+      "sourceGitBlob": "e3cad4156d31be1a5781ecd3e9066def3f73a8ed",
+      "sourceBytes": 696,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "precept-weapon-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/precept-weapon-heat.png",
+      "sourceGitBlob": "07c80972dbebb755cbc2d346a158a3b780b5f505",
+      "sourceBytes": 1301,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "precept-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/precept-weapon.png",
+      "sourceGitBlob": "a90cf9ad7385b931aa5266dc22cd3ae2a966447e",
+      "sourceBytes": 1960,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "precept-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/precept-weapon.png",
+        "sha256": "4f5b7455ff5f2dbfb6c4aa2e9b63b7dee99df528162586a9d656b571279fb47c",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/quell-missile.png",
+      "sourceGitBlob": "6aadf02c8a51708130f99ecee95bd394f057a871",
+      "sourceBytes": 502,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quell-missile",
+      "mapping": {
+        "file": "units/special/assets/quell-missile.png",
+        "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/quell-weapon.png",
+      "sourceGitBlob": "44f39f794f85a6d332aa7faf94940b26396b2ed8",
+      "sourceBytes": 844,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "quell-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/quell-weapon.png",
+        "sha256": "5f136f385541686ae8513dd0ab9154c8171c9a3908f3f0ff5611ccba683db312",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/reign-weapon.png",
+      "sourceGitBlob": "bfe5c921fda909087db27db7fc962fdc690b92a4",
+      "sourceBytes": 1692,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "reign-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png",
+        "sha256": "9b55ca9fbb376b3e797f40fef842331bb280fff75c826fb2f3c3e0414edb19f7",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+      "sourceGitBlob": "2053dbbe2c05792da952139326b9a9d86927b227",
+      "sourceBytes": 525,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "repair-beam-weapon-center-large",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/repair-beam-weapon-center.png",
+      "sourceGitBlob": "4f38701c30f57da7ee00fd1cd9b7af1aefff195e",
+      "sourceBytes": 377,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "repair-beam-weapon-center",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/repair-beam-weapon.png",
+      "sourceGitBlob": "373cf433ba38078faa3bd9ae637f22eda8247d4c",
+      "sourceBytes": 344,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "repair-beam-weapon",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+      "sourceGitBlob": "183907169c2c36bdcbe89f80c57cf1050e49399a",
+      "sourceBytes": 301,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "retusa-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+      "sourceGitBlob": "7854083dfd74dba7e77b2fd1d17ee5880abd5ac5",
+      "sourceBytes": 236,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-phase-cell.png",
+      "sourceGitBlob": "7f4d7e4c936c32bfcc4d8cf5b8720267904713aa",
+      "sourceBytes": 230,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-phase-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-phase.png",
+      "sourceGitBlob": "0065be21abda382f792405e2c592ac77c1ab2028",
+      "sourceBytes": 1256,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-phase",
+      "mapping": {
+        "file": "units/special/assets/scathe-missile-phase.png",
+        "sha256": "896c1249f81baee16b99ffb52aff9b13b712bc5e7c64cbcb5a78ecb845862ef6",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+      "sourceGitBlob": "7854083dfd74dba7e77b2fd1d17ee5880abd5ac5",
+      "sourceBytes": 236,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-surge-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-surge-split-cell.png",
+      "sourceGitBlob": "7854083dfd74dba7e77b2fd1d17ee5880abd5ac5",
+      "sourceBytes": 236,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-surge-split-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-surge-split.png",
+      "sourceGitBlob": "22d7b4a9a6c592b25cafa50c3de177f08cfd750e",
+      "sourceBytes": 789,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-surge-split",
+      "mapping": {
+        "file": "units/special/assets/scathe-missile-surge-split.png",
+        "sha256": "cc2ed09cf91eb0803684dc26a668f909a9a8a9243ced16b419291ca920cc39c3",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+      "sourceGitBlob": "fd05b27d08dabf614e74fe8921275d84cdb8a84c",
+      "sourceBytes": 1399,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile-surge",
+      "mapping": {
+        "file": "units/special/assets/scathe-missile-surge.png",
+        "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scathe-missile.png",
+      "sourceGitBlob": "e2a25eaeda2b0acf2ed5c892818d3d4c899d3def",
+      "sourceBytes": 1158,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scathe-missile",
+      "mapping": {
+        "file": "units/special/assets/scathe-missile.png",
+        "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+        "manifest": "records/workers/special/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scepter-mount.png",
+      "sourceGitBlob": "df2b7c82982f48910078078633f50ddf94815221",
+      "sourceBytes": 581,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scepter-mount",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "sha256": "8e704421082ad44f152f08dc576a2f1d2514e3df9bd461fd2d32e6bcb8dc9999",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+      "sourceGitBlob": "07ff2b1629f79c992889bf267e09523d3d8f156c",
+      "sourceBytes": 1246,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "scepter-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+        "sha256": "8bbfada5fabe3652cfde5836e25d06be3a89954853552aa467e99ccf86c8b4ad",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/sei-launcher.png",
+      "sourceGitBlob": "0b1e0b193277a29ecfb796dbb3c374ad9b82da50",
+      "sourceBytes": 1113,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "sei-launcher",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/naval-missile-six.png",
+        "sha256": "9a328639c6dc12984fdfe390eab615585662f243e62bc08e06bf3a632b9ced49",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/small-basic-weapon.png",
+      "sourceGitBlob": "e4833342a43eac3ee53b1105766039569d4458a6",
+      "sourceBytes": 656,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "small-basic-weapon",
+      "mapping": {
+        "file": "units/root-builders/layers/small-basic-weapon.png",
+        "sha256": "68e2bc3b8f0fc78e0a513b3a98f7548cc0ebe87b95b711ec4ab28f91122c95db",
+        "manifest": "records/workers/root-builders/manifest.json",
+        "role": "weapon_mirrored_pair"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+      "sourceGitBlob": "f928b890d6230ad5f8956e95893d401fd2f6a832",
+      "sourceBytes": 698,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "small-mount-weapon",
+      "mapping": {
+        "file": "units/root-builders/layers/small-mount-weapon.png",
+        "sha256": "453a4dbb8c0d3fa3cef503fafca768cab97089766f986f81ff6f2e5cee85077b",
+        "manifest": "records/workers/root-builders/manifest.json",
+        "role": "weapon_mirrored_pair"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/small-weapon.png",
+      "sourceGitBlob": "ee4554082e451e2ec96071f31060ead0c5e150ad",
+      "sourceBytes": 659,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "small-weapon",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/spiroct-weapon.png",
+      "sourceGitBlob": "91ff27033e72d03102542119c7b2ff92969577d3",
+      "sourceBytes": 446,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "spiroct-weapon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-sap-emitter.png",
+        "sha256": "6fc31a6bbb2daabf01f58065cf40ea84babb5309cb566355df9142a1f7eb2743",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/stell-weapon.png",
+      "sourceGitBlob": "6cf23e21055d2f6fc1fa4978a8b089adb5790f5f",
+      "sourceBytes": 710,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "stell-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/stell-weapon.png",
+        "sha256": "a7a88552ae0f56ee085c31330eeb189d7996962d2cf5e0a174ac55ec84ec6b3d",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/tecta-weapon-heat.png",
+      "sourceGitBlob": "11826e13054d8d8bda05234a02fa93e6dda01122",
+      "sourceBytes": 1708,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/tecta-weapon.png",
+      "sourceGitBlob": "85ab504421526158052718cecdf28e9f58e80b6b",
+      "sourceBytes": 1195,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "tecta-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+        "sha256": "22a132f978d43a50be56de29860c5c2d39eef1e7045f039e3f12332f8deac35f",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+      "sourceGitBlob": "535ef3b5d7acc92147e4f471b1bb9d4742b4d55b",
+      "sourceBytes": 2638,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "toxopid-cannon",
+      "mapping": {
+        "file": "units/serpulo-ground-naval/parts/mech-shock-cannon.png",
+        "sha256": "b0e41993020464e0050904d2972ee17685bef6554a58fcf0885d77f3592beae1",
+        "manifest": "units/serpulo-ground-naval/manifest.json",
+        "role": "weapon"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+      "sourceGitBlob": "f3b3434c71883acac087aeb19705fbe582dcba52",
+      "sourceBytes": 437,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish-point-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "sha256": "952b0b08dfef214bf7076bb863b04fc925d851e5fa99e0017ee2c737735b2674",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/vanquish-weapon-heat.png",
+      "sourceGitBlob": "7dc109fcec854612ba24bce1a20208d1238a1942",
+      "sourceBytes": 2969,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/vanquish-weapon.png",
+      "sourceGitBlob": "d58bf6e54ffedf9e577784d83348735b1a402403",
+      "sourceBytes": 1725,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "vanquish-weapon",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+        "sha256": "ee4aa403fdc6d49fcd98e5d54c822b4142accd28a4ca11d77db93082e3c0db92",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/vela-weapon-heat.png",
+      "sourceGitBlob": "68e264c5d37fe97b0f3199bc88efaeb34132f5d7",
+      "sourceBytes": 1512,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "vela-weapon-heat",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/weapon.png",
+      "sourceGitBlob": "a0c24aa143434e072f6a2702e523aadc0e2f2d50",
+      "sourceBytes": 346,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "weapon",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+      "sourceGitBlob": "f9b614d61105c657690889bef3ff846ecd7a8060",
+      "sourceBytes": 461,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "zenith-missiles",
+      "mapping": {
+        "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+        "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+        "manifest": "records/workers/air-erekir-parts/manifest.json",
+        "role": "body"
+      }
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/zenith-cell.png",
+      "sourceGitBlob": "852af589049efb015788e893051092770cf11b89",
+      "sourceBytes": 950,
+      "owner": "units-existing-audit",
+      "status": "requires_mapping",
+      "output": null,
+      "disposition": null,
+      "region": "zenith-cell",
+      "mapping": null
+    },
+    {
+      "sourcePath": "core/assets-raw/sprites/units/zenith.png",
+      "sourceGitBlob": "a41ac04898d3054ed80bfed05de278420dbdde6f",
+      "sourceBytes": 2037,
+      "owner": "units-existing-audit",
+      "status": "mapped_existing_art",
+      "output": null,
+      "disposition": null,
+      "region": "zenith",
+      "mapping": {
+        "file": "units/air-erekir/layers/zenith-body.png",
+        "sha256": "4323f4c7fef832b690280ddea9d9f89f34004dfe164578149a132b8b487e7aee",
+        "manifest": "records/workers/air-erekir/manifest.json",
+        "role": "body"
+      }
+    }
+  ]
+}

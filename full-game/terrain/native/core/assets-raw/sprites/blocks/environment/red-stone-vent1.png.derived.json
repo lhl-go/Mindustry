@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone-vent1.png",
+  "sha256": "e6cae085a6798baab9b75fb2ab7073c8c242433e476143dad4e3575a867bc4c7",
+  "size": [
+    267,
+    258
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/08-geothermal-vents.png",
+      "sha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290",
+      "generationRecord": "full-game/terrain/source/08-geothermal-vents.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    39,
+    952,
+    306,
+    1210
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

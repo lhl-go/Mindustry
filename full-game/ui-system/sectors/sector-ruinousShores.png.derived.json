@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-ruinousShores",
+  "file": "full-game/ui-system/sectors/sector-ruinousShores.png",
+  "sha256": "8688db840e1d56055b2652935e095b51a7d2559b897cca3be2128cf08733f1dc",
+  "width": 412,
+  "height": 412,
+  "derivedAt": "2026-10-26T15:54:02.766522+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/11-sectors-05.png",
+    "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 1,
+    "sourceBox": [
+      439,
+      30,
+      827,
+      389
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

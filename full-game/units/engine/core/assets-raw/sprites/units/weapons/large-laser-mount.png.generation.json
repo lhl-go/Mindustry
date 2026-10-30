@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+  "sha256": "56d5a7228a55e06c08f3fa874ff7eb2f6acc083a8f0d752895f4c72e7daa4b6b",
+  "width": 96,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+      "sha256": "afe2e74d3740bd8605d67c28dc5566ca5f07735499ef943040dea97bcef35489",
+      "generationRecord": "units/air-erekir-parts/assets/large-laser-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      291,
+      433
+    ],
+    "sourcePivot": [
+      161,
+      300
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      15,
+      1
+    ],
+    "sourceDimensions": [
+      323,
+      465
+    ],
+    "targetDimensions": [
+      96,
+      140
+    ],
+    "officialAlphaBounds": [
+      15,
+      8,
+      82,
+      113
+    ],
+    "scale": 0.2574626865671642,
+    "engineAnchorPx": [
+      48.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/large-laser-mount.png",
+    "gitBlobSha1": "5e04ace067bb591013021c7b8ef63daddbf2ccbe",
+    "sha256": "ff47cc30306c60780cc14ea5a6b78448fdb498d9452fa95d4bb3f9c49342b702"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

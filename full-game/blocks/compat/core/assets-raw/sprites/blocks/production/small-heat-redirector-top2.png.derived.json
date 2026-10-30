@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/small-heat-redirector-top2.png",
+  "sourceGitBlob": "4af1a77431b9d32c468a675fe6aaa6c94e85c790",
+  "sourceSha256": "a7f144655b7515524547637f4637c30fc1f12367629b7a84a8d873ef63cac74b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "small-heat-redirector-top2",
+  "blockId": "small-heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-top2.png",
+  "sha256": "a43d759c6da3b0e4064948073ddd6b43c816360ee0f4c7a2250600070d83e52e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-top2.png",
+  "engineSha256": "a43d759c6da3b0e4064948073ddd6b43c816360ee0f4c7a2250600070d83e52e",
+  "nativeFile": "full-game/blocks/masters/small-heat-redirector.png",
+  "nativeSha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1",
+  "nativeSize": [
+    239,
+    268
+  ],
+  "sourceAlphaBounds": [
+    42,
+    7,
+    64,
+    57
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/small-heat-redirector.png",
+      "sha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/small-heat-redirector-top2.png",
+      "sha256": "a7f144655b7515524547637f4637c30fc1f12367629b7a84a8d873ef63cac74b"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-joint-base.png",
+  "sha256": "692788545bc55e191838b76c6b98effbfdeb82d6ba755672b2bf72165905f50d",
+  "width": 60,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-socket.png",
+      "sha256": "beaf27ce24b01061c00354178269fbe1a4042cf63ce2ef2b2ee4257ddfacb9ce",
+      "generationRecord": "full-game/units/parts/joint-socket.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      482,
+      471
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      4
+    ],
+    "sourceDimensions": [
+      498,
+      487
+    ],
+    "targetDimensions": [
+      60,
+      60
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      56,
+      56
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      30.0,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/collaris-joint-base.png",
+    "gitBlobSha1": "3e6bf26d16a658176faf9fd3d05cdea9332710ab",
+    "sha256": "08d8396964568a03e415c2362f84303aa8bf05e9302dc895862e946653a4ad89"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+  "sha256": "cab8ef685893ae717e2d1e843fd0ce1f9cfdeab4a20d148492b2b9e183b49c3d",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+      "sha256": "6a5df320b38727eba02d7542d47b4a193026708c8fd66f55e1eaac306fb9b4a5",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      202,
+      250
+    ],
+    "sourcePivot": [
+      109.0,
+      191.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      12,
+      1
+    ],
+    "sourceDimensions": [
+      218,
+      266
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      11,
+      9,
+      37,
+      39
+    ],
+    "scale": 0.13105413105413105,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/point-defense-mount.png",
+    "gitBlobSha1": "b14acbc73b1aa76c4dd24315da4415bf7ee95d9d",
+    "sha256": "f1aded72ad3b74b443f03fcccead5ac8a13d17fe3cd7658be626eb0694ba497a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-titanium.png",
+  "sha256": "61d7b13ccc5a3300f06611cc16f76e38918831cb1dfd3c1fce365f6789783c93",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-titanium.png",
+      "sha256": "64deb24b4eeecb8d8301c7b3f230d2496a465c118cb2ff89fe1aebf7a269db68",
+      "generationRecord": "full-game/items-fx/assets/item-titanium.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

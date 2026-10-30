@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/layers/renale-segment0.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.538629+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 442,
+  "height": 881,
+  "sha256": "d4e67d9fa535b383fab7bb4f732cb2a997d7d89ec84fd97097e766ea1ee03c3e",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524",
+      "generationRecord": "units/special/boards/02-neoplasm-segments-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "segment_component_crop_translate",
+    "sourceBBox": [
+      190,
+      819,
+      485,
+      1099
+    ],
+    "destination": [
+      73,
+      569
+    ],
+    "commonCanvas": [
+      442,
+      881
+    ],
+    "mask": "alpha >= 16",
+    "pixelResampling": false,
+    "plannedOverlapPx": 32
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

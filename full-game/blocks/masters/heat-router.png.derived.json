@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/heat-router.png",
+  "sha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-heat-03.png",
+      "sha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "generationRecord": "full-game/blocks/records/production-heat-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      352,
+      388,
+      695,
+      689
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      343,
+      301
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    375,
+    333
+  ],
+  "anchorPixels": [
+    187.5,
+    166.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

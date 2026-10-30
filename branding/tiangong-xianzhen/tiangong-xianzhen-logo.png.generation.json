@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "file": "branding/tiangong-xianzhen/tiangong-xianzhen-logo.png",
+  "sha256": "bb68fe8164eba3da6fcfcebc9e5093e1594ef51770018b73c44b6c18de5ac06a",
+  "createdAt": "2026-10-29T03:08:47.914764+00:00",
+  "tool": "local Pillow/numpy alpha postprocessing",
+  "route": "derived_no_new_model_call",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Inherited source generation used host-managed image_gen; exact model and quality were not disclosed. This file is a local derivative, not a new generation.",
+  "width": 2304,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeArtSize": [
+    1774,
+    887
+  ],
+  "exportCanvasSize": [
+    2304,
+    1152
+  ],
+  "artResized": false,
+  "derivedFrom": {
+    "file": "branding/tiangong-xianzhen/logo-v1.png",
+    "sha256": "00a97fcc0d446806e298b02a7b688c3ac64d60e81b3eb7a6b118b33fd997f24a",
+    "generationRecord": "branding/tiangong-xianzhen/logo-v1.png.generation.json"
+  },
+  "operation": {
+    "alphaCoreThreshold": 220,
+    "connectedComponent": "central continuous logo silhouette",
+    "edgeSupportExpansionPixels": 1,
+    "alphaRemap": {
+      "inputZero": 60,
+      "inputOpaque": 248
+    },
+    "bodyRgbPreserved": true,
+    "fullyTransparentRgbZeroed": true,
+    "paddingOnly": true,
+    "offset": [
+      265,
+      132
+    ]
+  },
+  "authorization": "User previously explicitly approved local pixel cleanup and slicing for this game art; preserves subject artwork and native detail.",
+  "qa": {
+    "text": "天工仙阵",
+    "simplifiedChinese": true,
+    "visibleBBox": [
+      292,
+      144,
+      2012,
+      1006
+    ],
+    "transparentPixelCount": 1781186,
+    "opaquePixelCount": 851355,
+    "noArtworkTouchesCanvasEdge": true,
+    "humanVisualReviewPending": false,
+    "actualVisualReview": {
+      "checkedAt": "2026-10-29T03:15:16.620394+00:00",
+      "checkedOn": [
+        "light ivory background",
+        "dark jade background"
+      ],
+      "result": "Text reads simplified 天工仙阵; fringe removed; cloud/gear/tassel contours remain intact; all sides have clear transparent padding."
+    },
+    "independentVisualReview": "Second agent actually viewed both background composites and confirmed exact text, clean edges and intact cloud, jade and tassel forms."
+  },
+  "sourceImageRetained": true,
+  "status": "accepted_final",
+  "retentionRecord": "branding/tiangong-xianzhen/retention-cleanup.json"
+}

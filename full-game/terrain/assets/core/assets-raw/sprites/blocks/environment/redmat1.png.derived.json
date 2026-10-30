@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/redmat1.png",
+  "sha256": "4d6015d6bd0cae874345e6474b57e57778d203a23962c7eafba39d3443694c01",
+  "createdAt": "2026-10-26T17:20:35.496268+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/09-mats-metal-floors.png",
+      "sha256": "337503faab04d04ad74d1ef3467eae8f2b3110d67b329b75247532b0a2a8676a",
+      "generationRecord": "full-game/terrain/source/09-mats-metal-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      2,
+      294,
+      294
+    ],
+    "nativeExtractedSize": [
+      292,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.2481731449999445
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

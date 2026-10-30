@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/incite.png",
+  "sha256": "bf8ee6b688c6e080201705b86ad8eb6e82f5c54579b9bd2ce272a45d30474d3e",
+  "width": 66,
+  "height": 72,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/incite-body.png",
+      "sha256": "1d51717e5cd6b80d8853e7e898409bce1ff11a12682ea98753b40098cddd8171",
+      "generationRecord": "units/air-erekir/layers/incite-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      409,
+      435
+    ],
+    "sourcePivot": [
+      212.5,
+      225.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      5
+    ],
+    "sourceDimensions": [
+      425,
+      451
+    ],
+    "targetDimensions": [
+      66,
+      72
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      62,
+      68
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      33.0,
+      36.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/incite.png",
+    "gitBlobSha1": "84da4c8278405977346af03263f0cef7a23ad150",
+    "sha256": "d427adbbe4457f645fdb682bc2078ed20ece6b28d6e474f90abaf49ee9608536"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

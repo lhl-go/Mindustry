@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-in-3-dark.png",
+  "sourceGitBlob": "d626287db63adb8e46d21433a2678878a7234fe8",
+  "sourceSha256": "4f0fb33864dcd78027f9ad8a1913882d548ed4c60077e7ec2d856f5a0fa32b62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "factory-in-3-dark",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3-dark.png",
+  "sha256": "3cc97ed9eca3d943d4df52bd42b984bdcc26493ce00a732e314893313edb32ec",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3-dark.png",
+  "engineSha256": "3cc97ed9eca3d943d4df52bd42b984bdcc26493ce00a732e314893313edb32ec",
+  "nativeFile": "full-game/blocks/masters/constructor.png",
+  "nativeSha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9",
+  "nativeSize": [
+    292,
+    315
+  ],
+  "sourceAlphaBounds": [
+    0,
+    5,
+    33,
+    91
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-in-3-dark",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/constructor.png",
+      "sha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-in-3-dark.png",
+      "sha256": "4f0fb33864dcd78027f9ad8a1913882d548ed4c60077e7ec2d856f5a0fa32b62"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3-dark.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3-dark.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/constructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

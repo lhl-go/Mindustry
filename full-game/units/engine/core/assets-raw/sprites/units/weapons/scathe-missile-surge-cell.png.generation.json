@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+  "sha256": "0bc810fe733aba53e8a6206a3275558228603ddbafc51670f2e65addd9e2cca1",
+  "width": 58,
+  "height": 95,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+      "sha256": "14058ccb7ae95ec05f1df8f676f48069aa900dd9f72ee9afa866fb92ec24753e",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "scathe-missile-surge",
+    "baseCanvas": [
+      62,
+      95
+    ],
+    "outputCanvas": [
+      58,
+      95
+    ],
+    "centerRegistrationOffset": [
+      -2,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scathe-missile-surge-cell.png",
+    "gitBlobSha1": "7854083dfd74dba7e77b2fd1d17ee5880abd5ac5",
+    "sha256": "2f834a5b6f69229928783702d41e0b2fa64f33f268cd78c23f1fed4fe7e65031"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

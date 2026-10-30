@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/cultivator.png",
+  "sha256": "8df58f3d3acbebb1f2f1153db0a8d3ac915e7516294f764f4dc4592d27e58e43",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      29,
+      391,
+      340,
+      686
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      311,
+      295
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    343,
+    327
+  ],
+  "anchorPixels": [
+    171.5,
+    163.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

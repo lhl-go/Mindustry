@@ -1,0 +1,16 @@
+{
+  "file": "full-game/terrain/qa/20-white-trees-alpha.png",
+  "sha256": "15b79c29fab4f04be0a1e8750030fad8769b313b9ba83d01cd9dba9771b8318d",
+  "operation": "True alpha composite on light and dark background, nearest enlarged for inspection only",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "7b28a50fb8b5659df0a84ece16c1a66c5d3b824738527df51e1fbf5079045887"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree-dead.png",
+      "sha256": "1881850cc9b366bba39f91c871b412c3f2f5758b518aa118f95254b62f8ac0a6"
+    }
+  ],
+  "inspectionOnly": true
+}

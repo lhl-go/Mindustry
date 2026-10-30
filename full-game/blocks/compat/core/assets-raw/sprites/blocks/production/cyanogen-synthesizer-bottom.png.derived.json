@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-bottom.png",
+  "sourceGitBlob": "4f4b6a2b8fa10ba52de5f54471a2bd0c9083c362",
+  "sourceSha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "cyanogen-synthesizer-bottom",
+  "blockId": "cyanogen-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-bottom.png",
+  "sha256": "a974160e7cd1dc221860b57f163a238da0e29a204c1872f4cbe0a7ab9bcf6415",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-bottom.png",
+  "engineSha256": "a974160e7cd1dc221860b57f163a238da0e29a204c1872f4cbe0a7ab9bcf6415",
+  "nativeFile": "full-game/blocks/masters/cyanogen-synthesizer.png",
+  "nativeSha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16",
+  "nativeSize": [
+    312,
+    334
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cyanogen-synthesizer.png",
+      "sha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cyanogen-synthesizer-bottom.png",
+      "sha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

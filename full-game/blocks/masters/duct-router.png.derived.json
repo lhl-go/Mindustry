@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/duct-router.png",
+  "sha256": "539be11e8fd15807f1176692b69554495a01c504077a4704ed87ca08e1105510",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      352,
+      380,
+      622,
+      572
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      270,
+      192
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    302,
+    224
+  ],
+  "anchorPixels": [
+    151.0,
+    112.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

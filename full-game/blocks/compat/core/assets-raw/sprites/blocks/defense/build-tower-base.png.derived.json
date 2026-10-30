@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/build-tower-base.png",
+  "sourceGitBlob": "1c3bf95ff3f7f9e730a68a308969bbaf114c9c4c",
+  "sourceSha256": "c5dd3616daa6ba4ebcd9625c9373c044fff575755f10c7fab68f2da31562d4ad",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "build-tower-base",
+  "blockId": "build-tower",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-base.png",
+  "sha256": "ce41d343182e93b63b154c803e915e6509d28d45d5aee2881e47d14387d1ed85",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-base.png",
+  "engineSha256": "ce41d343182e93b63b154c803e915e6509d28d45d5aee2881e47d14387d1ed85",
+  "nativeFile": "full-game/units/parts/mech-base-heavy.png",
+  "nativeSha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+  "nativeSize": [
+    620,
+    447
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "stationary_native_pedestal",
+    "containsRotatingHead": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/build-tower-base.png",
+      "sha256": "c5dd3616daa6ba4ebcd9625c9373c044fff575755f10c7fab68f2da31562d4ad"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-base.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-base.png.derived.json",
+  "nativeGenerationRecord": "full-game/units/parts/mech-base-heavy.png.generation.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

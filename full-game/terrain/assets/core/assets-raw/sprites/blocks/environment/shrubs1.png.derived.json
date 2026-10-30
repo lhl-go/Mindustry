@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/shrubs1.png",
+  "sha256": "234c6fdd0636be0347792504e9c31befd52ff380d390d05888060cb95e6bee76",
+  "createdAt": "2026-10-26T18:07:39.670777+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/13-cold-living-wall-tops.png",
+      "sha256": "bb9036da8b60ff1bbb18699159fa7c6256f5cf6507301bfe3dc1dc3ccea1aec8",
+      "generationRecord": "full-game/terrain/source/13-cold-living-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      1076,
+      266,
+      1386
+    ],
+    "nativeExtractedSize": [
+      264,
+      310
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 6.999062754390637
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

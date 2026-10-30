@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/locus-cell.png",
+  "sha256": "e0930d310df4a728a246c7c89e353b3552cb001c1af131d84afb2eece1449ed9",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus.png",
+      "sha256": "42c8e859f675f76da279df9e3520ac0752eb983870b2bde5a615b2a4c39d43bb",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/locus.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "locus",
+    "baseCanvas": [
+      96,
+      96
+    ],
+    "outputCanvas": [
+      96,
+      96
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/locus-cell.png",
+    "gitBlobSha1": "673f589670c5af98306ff591ef5dfd7b7c575e88",
+    "sha256": "8eee925c47b16ffc66f1acd6afee63bfdb4b037d1a41fe8a30df2fa1f31ea7d5"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

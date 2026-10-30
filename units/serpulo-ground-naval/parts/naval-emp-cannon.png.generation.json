@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+  "sha256": "ca26ef73f64884ff0e2b21f32b47d883eb5937cf74dd64946ff7490150708c3d",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "generationRecord": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      791,
+      698,
+      1119,
+      1006
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 360,
+    "height": 340,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 45940,
+    "opaquePixelCount": 73376,
+    "partialPixelCount": 3084,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      344,
+      324
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    180.0,
+    247.0
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "part"
+}

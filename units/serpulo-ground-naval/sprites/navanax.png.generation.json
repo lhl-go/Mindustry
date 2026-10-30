@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/navanax.png",
+  "sha256": "e444bcc6b48ca26d5d16d4b7617eb12e3b4f4622c9ae82889f1444163b1294bd",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/navanax-body.png",
+      "sha256": "8f7359cd2d97cf72d63a80b8095d02a692d6c05ba97581edf0dc9912583a984d",
+      "generationRecord": "units/serpulo-root-parts/layers/navanax-body.png.derived.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+      "sha256": "ca26ef73f64884ff0e2b21f32b47d883eb5937cf74dd64946ff7490150708c3d",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-emp-cannon.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+      "sha256": "1ef8385623078cb9220fe18f0d66cd63b8d982cce0c41a2d0353b2bf9b771e6d",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      832,
+      838,
+      1368,
+      1363
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-root-parts/layers/navanax-body.png",
+        "generationRecord": "units/serpulo-root-parts/layers/navanax-body.png.derived.json",
+        "sourceAnchorPx": [
+          258.5,
+          270.5
+        ],
+        "targetAnchorPx": [
+          268,
+          262
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          10,
+          -8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-emp-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          180.0,
+          247.0
+        ],
+        "targetAnchorPx": [
+          154.26,
+          316.1
+        ],
+        "scale": [
+          0.4305555555555556,
+          0.4294117647058823
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          77,
+          210
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-emp-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-emp-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          180.0,
+          247.0
+        ],
+        "targetAnchorPx": [
+          381.74,
+          316.1
+        ],
+        "scale": [
+          0.4305555555555556,
+          0.4294117647058823
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          304,
+          210
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json",
+        "sourceAnchorPx": [
+          132.5,
+          253.75
+        ],
+        "targetAnchorPx": [
+          71.54,
+          445.94
+        ],
+        "scale": [
+          0.3886792452830189,
+          0.38968481375358166
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          20,
+          347
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json",
+        "sourceAnchorPx": [
+          132.5,
+          253.75
+        ],
+        "targetAnchorPx": [
+          464.46,
+          445.94
+        ],
+        "scale": [
+          0.3886792452830189,
+          0.38968481375358166
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          413,
+          347
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json",
+        "sourceAnchorPx": [
+          132.5,
+          253.75
+        ],
+        "targetAnchorPx": [
+          71.54,
+          170.03
+        ],
+        "scale": [
+          0.3886792452830189,
+          0.38968481375358166
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          20,
+          71
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json",
+        "sourceAnchorPx": [
+          132.5,
+          253.75
+        ],
+        "targetAnchorPx": [
+          464.46,
+          170.03
+        ],
+        "scale": [
+          0.3886792452830189,
+          0.38968481375358166
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          413,
+          71
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 536,
+    "height": 525,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 105080,
+    "opaquePixelCount": 170396,
+    "partialPixelCount": 5924,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      512,
+      501
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "navanax",
+    "sha256": "e444bcc6b48ca26d5d16d4b7617eb12e3b4f4622c9ae82889f1444163b1294bd",
+    "size": [
+      536,
+      525
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

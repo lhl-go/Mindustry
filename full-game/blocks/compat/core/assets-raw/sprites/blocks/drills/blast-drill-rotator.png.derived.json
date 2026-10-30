@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/blast-drill-rotator.png",
+  "sourceGitBlob": "f781765591ea97a276e953a66f2383e524f375b5",
+  "sourceSha256": "0d8f54dc6697e6fd72437c073852028dfdb8bd9fba7cae0198d1a0f7a7ace89d",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "blast-drill-rotator",
+  "blockId": "blast-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rotator.png",
+  "sha256": "168fa5d657774426fb35c0923f12a2f30969cf72abf8b80a2823c5338745842e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rotator.png",
+  "engineSha256": "168fa5d657774426fb35c0923f12a2f30969cf72abf8b80a2823c5338745842e",
+  "nativeFile": "full-game/blocks/masters/blast-drill-rotator-part.png",
+  "nativeSha256": "39fd974be32d92ad8e6a302699bcab44244f0f451727f46ec02a2aac2a374876",
+  "nativeSize": [
+    295,
+    286
+  ],
+  "sourceAlphaBounds": [
+    20,
+    20,
+    108,
+    108
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/blast-drill-rotator-part.png",
+      "sha256": "39fd974be32d92ad8e6a302699bcab44244f0f451727f46ec02a2aac2a374876"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/blast-drill-rotator.png",
+      "sha256": "0d8f54dc6697e6fd72437c073852028dfdb8bd9fba7cae0198d1a0f7a7ace89d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

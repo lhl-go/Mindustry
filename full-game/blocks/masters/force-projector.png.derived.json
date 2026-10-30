@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/force-projector.png",
+  "sha256": "d7b01088813e20f3e39295933ff7c6c008f736e40441b28d31f071ef87b24485",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      46,
+      405,
+      333,
+      669
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      287,
+      264
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    319,
+    296
+  ],
+  "anchorPixels": [
+    159.5,
+    148.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

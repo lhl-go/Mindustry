@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-reactor-top2.png",
+  "sourceGitBlob": "b5861e05dae63a963846054f3172e7c6ff395dc8",
+  "sourceSha256": "213228616906815dd50ea881f243c19a4e512b0a0fe1f70534abea21756a057d",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-reactor-top2",
+  "blockId": "heat-reactor",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-top2.png",
+  "sha256": "f366a5a63ebf47756bec2676f680bc4612719dda58ad6f5618f636f93731a780",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-top2.png",
+  "engineSha256": "f366a5a63ebf47756bec2676f680bc4612719dda58ad6f5618f636f93731a780",
+  "nativeFile": "full-game/blocks/masters/heat-reactor.png",
+  "nativeSha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96",
+  "nativeSize": [
+    353,
+    380
+  ],
+  "sourceAlphaBounds": [
+    62,
+    5,
+    96,
+    91
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-reactor.png",
+      "sha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-reactor-top2.png",
+      "sha256": "213228616906815dd50ea881f243c19a4e512b0a0fe1f70534abea21756a057d"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

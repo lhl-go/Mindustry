@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/rotary-pump.png",
+  "sha256": "44e02fb7c5e17e6391f84bdb9eb778023f88ba5cec914a0b6e4c50531b1a2748",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      308,
+      19,
+      603,
+      301
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      295,
+      282
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    327,
+    314
+  ],
+  "anchorPixels": [
+    163.5,
+    157.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

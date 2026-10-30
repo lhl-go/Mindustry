@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/tetrative-reconstructor.png",
+  "sha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      734,
+      386,
+      1091,
+      728
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      357,
+      342
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    389,
+    374
+  ],
+  "anchorPixels": [
+    194.5,
+    187.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

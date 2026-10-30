@@ -1,0 +1,41 @@
+{
+  "region": "parallax",
+  "file": "full-game/root-turrets/masters/parallax.png",
+  "sha256": "1b8183262fa09eb7e99f0af206495354b5affc125a961a3cb6fa12512712b9ef",
+  "size": [
+    272,
+    347
+  ],
+  "derivedAt": "2026-10-26T18:34:44.266929+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 0,
+    "sourceBox": [
+      68,
+      10,
+      316,
+      333
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

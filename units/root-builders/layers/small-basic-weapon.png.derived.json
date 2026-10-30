@@ -1,0 +1,35 @@
+{
+  "file": "units/root-builders/layers/small-basic-weapon.png",
+  "sha256": "68e2bc3b8f0fc78e0a513b3a98f7548cc0ebe87b95b711ec4ab28f91122c95db",
+  "width": 253,
+  "height": 296,
+  "mode": "RGBA",
+  "derivedFrom": {
+    "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+    "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f",
+    "generationRecord": "units/root-builders/boards/01-core-builders-parts-v1.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "alphaCutoff": 16,
+    "alphaRemap": "clip(round((a-8)*255/237),0,255)",
+    "retainedRgb": "unchanged",
+    "sourceCropBox": [
+      146,
+      704,
+      335,
+      936
+    ],
+    "padding": 32,
+    "rotationDegrees": 180,
+    "resampled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceImageRetained": false,
+  "authorization": "2026-10-26 user explicitly allowed local cleanup and slicing",
+  "runtimeIntegrationVerified": false
+}

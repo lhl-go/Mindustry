@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-stack.png",
+  "sourceGitBlob": "aa10d1419b3f58c64a3df2bb932de5f6537534a5",
+  "sourceSha256": "3219cec95745b9143680ef4a8c9e924d7eb9bcc81d6fc4c3048ffddaf76f106a",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "plastanium-conveyor-stack",
+  "blockId": "plastanium-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-stack.png",
+  "sha256": "be10f9f46f9c9801a102a5c2a765bfeb44887ec6d52eb7ad66c4c4e007ff9a4c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-stack.png",
+  "engineSha256": "be10f9f46f9c9801a102a5c2a765bfeb44887ec6d52eb7ad66c4c4e007ff9a4c",
+  "nativeFile": "full-game/blocks/masters/plastanium-conveyor-stack-part.png",
+  "nativeSha256": "d12020aee0d3e57e4831c3f09f23852b1cb028851146313d45068cbf2e9348c6",
+  "nativeSize": [
+    270,
+    287
+  ],
+  "sourceAlphaBounds": [
+    2,
+    3,
+    29,
+    29
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "plastanium-conveyor-stack-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plastanium-conveyor-stack-part.png",
+      "sha256": "d12020aee0d3e57e4831c3f09f23852b1cb028851146313d45068cbf2e9348c6"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-stack.png",
+      "sha256": "3219cec95745b9143680ef4a8c9e924d7eb9bcc81d6fc4c3048ffddaf76f106a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-stack.png.derived.json"
+}

@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mace-base.png",
+  "sha256": "60bff69215aaff8d7227d9aa286ce67343ce0c131c3b98d010a0035459047fdb",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-small.png",
+      "sha256": "f9bd721912f4ade8d63aa201865c446b9c2cec06897668286551ec869785be24",
+      "generationRecord": "full-game/units/parts/mech-base-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      398,
+      285
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      16,
+      28
+    ],
+    "sourceDimensions": [
+      414,
+      301
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      16,
+      28,
+      48,
+      51
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mace-base.png",
+    "gitBlobSha1": "75543a44856ab09354e2e3136f79071cc74a6d3b",
+    "sha256": "25733694f4744b4ffae7c33f1fb8fa7132430aafb6030bef0da271d9fb8d6366"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

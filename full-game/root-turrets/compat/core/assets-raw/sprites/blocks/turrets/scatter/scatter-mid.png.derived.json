@@ -1,0 +1,42 @@
+{
+  "region": "scatter-mid",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter-mid.png",
+  "sha256": "ddb4cfe6f7e07dd280b8e901e489b994b90b9c76c0e15879e76eeb2f72511669",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.187908+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/scatter-mid.png",
+      "sha256": "41bfa9418d4654b3d9e85189586527328b41b458587ae7897404361d336ded83",
+      "record": "full-game/root-turrets/masters/scatter-mid.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scatter/scatter-mid.png",
+      "sha256": "552bf3f0ea87bb3e84039483249ccb16ae5a48b62f2ad9d6bda3c44639412d79",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      24,
+      4,
+      40,
+      59
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      122,
+      341
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

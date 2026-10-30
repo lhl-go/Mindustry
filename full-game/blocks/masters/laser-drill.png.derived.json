@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/laser-drill.png",
+  "sha256": "d66017ed920d29a4a1b8a7572b5dec0dbe0bf8d113d6e44a5038dd63c4b9ac60",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      750,
+      66,
+      1061,
+      336
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      311,
+      270
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    343,
+    302
+  ],
+  "anchorPixels": [
+    171.5,
+    151.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

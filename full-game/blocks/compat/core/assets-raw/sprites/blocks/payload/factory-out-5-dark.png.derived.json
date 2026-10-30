@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-out-5-dark.png",
+  "sourceGitBlob": "8c6647da5694f9b967277003078019e3d51b6f8f",
+  "sourceSha256": "4a0b3f56bb24901db6a01dd098001ad30047fe9612952d708484880238abf1bb",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "factory-out-5-dark",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5-dark.png",
+  "sha256": "c8f6e47b7e0006ba7b50fa19873dc24a0e0be7765dfbb2cdce2c5441ce5bb9a6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5-dark.png",
+  "engineSha256": "c8f6e47b7e0006ba7b50fa19873dc24a0e0be7765dfbb2cdce2c5441ce5bb9a6",
+  "nativeFile": "full-game/blocks/masters/large-constructor.png",
+  "nativeSha256": "1bd4b19364a3e39ba738c351b5d4d77652151568e929efaa8a74d17410ee5850",
+  "nativeSize": [
+    375,
+    317
+  ],
+  "sourceAlphaBounds": [
+    101,
+    7,
+    160,
+    153
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-out-5-dark",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-constructor.png",
+      "sha256": "1bd4b19364a3e39ba738c351b5d4d77652151568e929efaa8a74d17410ee5850"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-out-5-dark.png",
+      "sha256": "4a0b3f56bb24901db6a01dd098001ad30047fe9612952d708484880238abf1bb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5-dark.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5-dark.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/large-constructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

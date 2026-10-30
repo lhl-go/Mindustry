@@ -1,0 +1,41 @@
+{
+  "region": "malign-back-l",
+  "file": "full-game/root-turrets/masters/malign-back-l.png",
+  "sha256": "36572badd684de58c280666ed87fc46a65bf78496d6ade862988b23d04333f60",
+  "size": [
+    292,
+    313
+  ],
+  "derivedAt": "2026-10-26T18:34:43.794940+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/03-regions.png",
+      "sha256": "1aa7ef54c2cb6c9430de900630308c8ff04c44732f0b33bdef3e68736edd1342",
+      "record": "full-game/root-turrets/source/03-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 4,
+    "sourceBox": [
+      75,
+      371,
+      343,
+      660
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

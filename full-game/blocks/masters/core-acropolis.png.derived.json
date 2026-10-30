@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/core-acropolis.png",
+  "sha256": "47543b0b1ba61bc627557420c8c175f67c89e5f416a672c5c2776d1891ca5ac0",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      395,
+      357,
+      774,
+      714
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      379,
+      357
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    411,
+    389
+  ],
+  "anchorPixels": [
+    205.5,
+    194.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

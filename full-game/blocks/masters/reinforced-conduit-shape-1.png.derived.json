@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-conduit-shape-1.png",
+  "sha256": "a035bf28c3018f327aec66475827d5bd65aa88c73dc65e7e933c1d96eaa3a616",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conduits-advanced-03.png",
+      "sha256": "9184e3661dffaa8a585db47b833c9d651a60d55f90437f363da1f89f61284bc8",
+      "generationRecord": "full-game/blocks/records/conduits-advanced-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      411,
+      662,
+      632,
+      874
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      221,
+      212
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    253,
+    244
+  ],
+  "anchorPixels": [
+    126.5,
+    122.0
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/scroll.9.png",
+  "sourceGitBlob": "4c92865fcb9989ba98cca85d704e6841dab2e93c",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/scroll.9.png",
+  "sha256": "4d6258dd9c009ff0f92168b25df727eee866b45a371060e79f561c2a4692d9e6",
+  "sourceSize": [
+    26,
+    37
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/stat_field.png",
+      "sha256": "c175e6e627776393cb7371df797ebe88bdfa0916769829269089ee22ac9b8c46",
+      "record": "ui/kit/stat_field.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/scroll.9.png",
+      "sha256": "b7e27ac77620dfd570fba3346658b37aa123d9d150bb31b260ea0876ba2b9384",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+    ],
+    "sourceCanvas": [
+      26,
+      37
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "normal",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

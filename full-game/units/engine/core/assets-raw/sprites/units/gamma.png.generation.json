@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/gamma.png",
+  "sha256": "ae07f25aa2f8fe5496caca24e5eb7d7fc7b3346218a5b0caf3dd1fe2f994cf9a",
+  "width": 68,
+  "height": 68,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/gamma-body.png",
+      "sha256": "6655a914a9dc0b0480be659a618edb9c8238d89231309cfb62f39416e7d5619a",
+      "generationRecord": "units/root-builders/layers/gamma-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      506,
+      571
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      538,
+      603
+    ],
+    "targetDimensions": [
+      68,
+      68
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      64,
+      64
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      34.0,
+      34.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/gamma.png",
+    "gitBlobSha1": "c603be37d145764e4602602379e470f48574ff5b",
+    "sha256": "2d76e754e9dbd468bfab191ce89d089ea9d0a9a658803859066681f95032a71f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-leg-base.png",
+  "sha256": "a7db78dc0ce2de2440ab11941ca838971fc6dba002df58cf5b01d5ba62493b5e",
+  "width": 270,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-lower.png",
+      "sha256": "09fe7e270930075bdd1add80d8ed332604b6c66580eeab58cbb94873c3819201",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      16,
+      16,
+      148,
+      444
+    ],
+    "sourcePivot": [
+      82.0,
+      75.92
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      48,
+      2
+    ],
+    "sourceDimensions": [
+      164,
+      460
+    ],
+    "targetDimensions": [
+      270,
+      64
+    ],
+    "officialAlphaBounds": [
+      21,
+      2,
+      270,
+      62
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      135.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/toxopid-leg-base.png",
+    "gitBlobSha1": "8684da9f26bc40d5db229f01670ca3ff3a6e2d5d",
+    "sha256": "dbeb81d8fe97ef33f25a7bdf0dafa2e770e48be87eea82907224dcc92ab0142e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/disrupt-missile-light.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.186183+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 450,
+  "height": 646,
+  "sha256": "602ce27b1b2308ca44d26560d9e9bbe6eaa6f1779248e45cb27e68b603c5c72c",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/disrupt-missile.png",
+      "sha256": "6081ed6d0e9b3dd3ac72a88a1845f4c995258ffe2664f27f0e3c0402a26b53ce",
+      "generationRecord": "units/special/assets/disrupt-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      240,
+      236,
+      224,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

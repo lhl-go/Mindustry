@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/disassembler.png",
+  "sourceGitBlob": "ce6ded3a03d9abc48deabd25b80910d73b3137da",
+  "sourceSha256": "a327cc6c558d68eeeb38b55ea742e7b24c2825a98cda5e7e7f85bf27a5903c84",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "disassembler",
+  "blockId": "disassembler",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler.png",
+  "sha256": "6764107cb79ccdbdca23f3c718c4b21bda81a49314046b4bf0caf2e30055e8d1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler.png",
+  "engineSha256": "6764107cb79ccdbdca23f3c718c4b21bda81a49314046b4bf0caf2e30055e8d1",
+  "nativeFile": "full-game/blocks/masters/disassembler.png",
+  "nativeSha256": "a4b3f4dc1be55361009c3268e8048d1977f3034f5ca794ded7420694c2454190",
+  "nativeSize": [
+    399,
+    352
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/disassembler.png",
+      "sha256": "a4b3f4dc1be55361009c3268e8048d1977f3034f5ca794ded7420694c2454190"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/disassembler.png",
+      "sha256": "a327cc6c558d68eeeb38b55ea742e7b24c2825a98cda5e7e7f85bf27a5903c84"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/disassembler.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

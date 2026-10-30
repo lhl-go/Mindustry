@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-acropolis-team.png",
+  "sourceGitBlob": "4099c3aa093206277c87542351504cde650b4f9f",
+  "sourceSha256": "56701fa374134b9a8933d14de48541345d27c779ac386437e8b05b1a809aebfb",
+  "sourceDimensions": [
+    192,
+    192
+  ],
+  "region": "core-acropolis-team",
+  "blockId": "core-acropolis",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-team.png",
+  "sha256": "bb4cd124a4c92b5dceae2b06c57ed11bab8ace521715e6b645032976f32e4d7d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-team.png",
+  "engineSha256": "bb4cd124a4c92b5dceae2b06c57ed11bab8ace521715e6b645032976f32e4d7d",
+  "nativeFile": "full-game/blocks/masters/core-acropolis.png",
+  "nativeSha256": "47543b0b1ba61bc627557420c8c175f67c89e5f416a672c5c2776d1891ca5ac0",
+  "nativeSize": [
+    411,
+    389
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    192,
+    192
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-acropolis.png",
+      "sha256": "47543b0b1ba61bc627557420c8c175f67c89e5f416a672c5c2776d1891ca5ac0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-acropolis-team.png",
+      "sha256": "56701fa374134b9a8933d14de48541345d27c779ac386437e8b05b1a809aebfb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-team.png.derived.json"
+}

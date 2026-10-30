@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/retusa.png",
+  "sha256": "a348acc977cab5c562e966f8d4ceecb657517ecffa11b8890405098fa4a2ab1e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/retusa-body.png",
+      "sha256": "661c50658f15c04dd9683727c640f55bbb2eb5fcc9d88df64dced17e742e9b3e",
+      "generationRecord": "units/serpulo-root-parts/layers/retusa-body.png.derived.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+      "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+      "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      940,
+      840,
+      1260,
+      1359
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-root-parts/layers/retusa-body.png",
+        "generationRecord": "units/serpulo-root-parts/layers/retusa-body.png.derived.json",
+        "sourceAnchorPx": [
+          168.0,
+          267.5
+        ],
+        "targetAnchorPx": [
+          160,
+          260
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          -8,
+          -8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+        "sourceAnchorPx": [
+          126.5,
+          168.25
+        ],
+        "targetAnchorPx": [
+          160,
+          409.8
+        ],
+        "scale": [
+          0.39920948616600793,
+          0.4
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          110,
+          342
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          65.92,
+          313.5
+        ],
+        "scale": [
+          0.3620689655172414,
+          0.36101083032490977
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          24,
+          241
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+        "sourceAnchorPx": [
+          116.0,
+          199.75
+        ],
+        "targetAnchorPx": [
+          254.08,
+          313.5
+        ],
+        "scale": [
+          0.3620689655172414,
+          0.36101083032490977
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          212,
+          241
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 320,
+    "height": 519,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 91419,
+    "opaquePixelCount": 72077,
+    "partialPixelCount": 2584,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      296,
+      495
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "retusa",
+    "sha256": "a348acc977cab5c562e966f8d4ceecb657517ecffa11b8890405098fa4a2ab1e",
+    "size": [
+      320,
+      519
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

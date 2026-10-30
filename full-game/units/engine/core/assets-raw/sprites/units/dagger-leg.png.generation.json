@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger-leg.png",
+  "sha256": "75291cc2c725e79f1edbd232ea079217dec676a66b173aafbd2a6da35388c523",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      190,
+      476
+    ],
+    "sourcePivot": [
+      103.0,
+      80.4
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      30,
+      10
+    ],
+    "sourceDimensions": [
+      206,
+      492
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      29,
+      10,
+      40,
+      35
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/dagger-leg.png",
+    "gitBlobSha1": "d27c010dbc3f48552c10f88c73b768501e1df15c",
+    "sha256": "6d4065a6bcb8280b27dab1919022301e6f8d2a9ca9898be8bda38c05783555b9"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

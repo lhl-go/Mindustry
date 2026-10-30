@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-leg-base.png",
+  "sha256": "c3f05fde4959ff494ebfecc36e09a822a8b7b96baa75ef6163483ad5e03486e4",
+  "width": 57,
+  "height": 54,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      32,
+      32,
+      220,
+      382
+    ],
+    "sourcePivot": [
+      126,
+      57
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      5,
+      14
+    ],
+    "sourceDimensions": [
+      252,
+      414
+    ],
+    "targetDimensions": [
+      57,
+      54
+    ],
+    "officialAlphaBounds": [
+      5,
+      3,
+      54,
+      51
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.5,
+      27.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/tecta-leg-base.png",
+    "gitBlobSha1": "6091d584692393eb4141ec28fc9509d886b4792c",
+    "sha256": "650c7236085c41e79f7c16c8c8a1bbde7b092a59f2a0596cbb73fae5e0767bc8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

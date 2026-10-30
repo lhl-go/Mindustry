@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-cryofluid.png",
+  "sha256": "49e8c265a851911b5b8e17807571ef8e82aab64b0876f65ebc7accb6041f6267",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-cryofluid.png",
+      "sha256": "770ad82248e7648170403ec0dd6ecece5eeb5e5007f624a7cdf8de12bcfccbcd",
+      "generationRecord": "full-game/items-fx/assets/liquid-cryofluid.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

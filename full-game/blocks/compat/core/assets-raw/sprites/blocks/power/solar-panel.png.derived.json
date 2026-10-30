@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/solar-panel.png",
+  "sourceGitBlob": "7416d3400cf4dbd72f340cc8005094df70a6e02b",
+  "sourceSha256": "c2a3f8df45a84663c1922888cd2a242302e1fbd7ea55ff6cef9f883eafe8fe8c",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "solar-panel",
+  "blockId": "solar-panel",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/solar-panel.png",
+  "sha256": "8f8e0029ece5d1effaf2342b79c44cb372d2956f3d595f65179215f34c299e94",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/solar-panel.png",
+  "engineSha256": "8f8e0029ece5d1effaf2342b79c44cb372d2956f3d595f65179215f34c299e94",
+  "nativeFile": "full-game/blocks/masters/solar-panel.png",
+  "nativeSha256": "33e85e848969415049389a80a0d68d6f2da92627e182df8d34adf99b780f6014",
+  "nativeSize": [
+    225,
+    226
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/solar-panel.png",
+      "sha256": "33e85e848969415049389a80a0d68d6f2da92627e182df8d34adf99b780f6014"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/solar-panel.png",
+      "sha256": "c2a3f8df45a84663c1922888cd2a242302e1fbd7ea55ff6cef9f883eafe8fe8c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/solar-panel.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,43 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Asset type: Mindustry flat terrain texture atlas. Use the two attached approved UI references ONLY for their bright clean refined Daoist Q hand-painted material finish. Pure TOP-DOWN GROUND TEXTURE ONLY, no UI, people, letters, symbols, frames, objects or perspective. Requested 1536×3072 portrait, exactly THREE equal columns and SIX equal rows: 18 square full-bleed swatches, no gutters/dividers/margins. Each row has 3 independently painted variations of same material, matching average light/color and scale but different small details, never identical copies. Every square has quiet matching tileable edges on all four sides; no large features cut at borders, no global atlas vignette. Soft overhead daylight, gentle broad value range, crisp refined brushwork suitable readable game terrain.\nRow1 SNOW: clean ivory white packed soft snow with sparse pale cool-blue undulations, tiny subtle depressions, no footprints.\nRow2 ICE: pale cyan blue translucent frozen surface, delicate thin ice cracks and faint white subsurface bubbles, flat glossy yet restrained.\nRow3 ICE-SNOW: pale icy cyan slabs mostly covered by soft white snow dust, organic patches feathering together, flat walkable frozen ground.\nRow4 GRASS: fresh jade green tiny dense short grass painted as smooth close-cropped ground with sparse tiny clover marks, no upright grass props.\nRow5 MOSS: lush deeper green velvety dense moss, tiny rounded cushions embedded in flat ground, slightly uneven organic speckling, no flowers or objects.\nRow6 SPORE-MOSS: muted violet lilac fluffy alien moss carpet, soft tiny rounded spores merged in flat ground, no tall mushrooms.\nAll eighteen fully opaque. No blank cells, text, labels or symbols. Natural hand-painted material variety; do not color-swap one texture into another.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:33:52 UTC",
+  "returnedAt": "2026-10-26 16:34:59 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-f35fc2c2-842b-4534-96f0-d2b93fe04aa0.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "regions": [
+    "snow1",
+    "snow2",
+    "snow3",
+    "ice1",
+    "ice2",
+    "ice3",
+    "ice-snow1",
+    "ice-snow2",
+    "ice-snow3",
+    "grass1",
+    "grass2",
+    "grass3",
+    "moss1",
+    "moss2",
+    "moss3",
+    "spore-moss1",
+    "spore-moss2",
+    "spore-moss3"
+  ]
+}

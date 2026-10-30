@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/bullet.png",
+      "sha256": "b89ae9470b6bf20060cef333b9eaf6487cb339942ed52a762973098500b44e28",
+      "generationRecord": "full-game/items-fx/assets/bullet.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/bullet-back.png",
+  "sha256": "eaecb0c582a2faac2e232cb73c166cc4ce5ce54519a9dd5cace7a4fb09679b14",
+  "width": 88,
+  "height": 365,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.374308+00:00"
+}

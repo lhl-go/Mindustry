@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/transfer-arrow.png",
+  "sha256": "ec07c8d6b406ab99007105050b7f5645559a758f07b0fe80c4cdb18baac64579",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/transfer-arrow.png",
+      "sha256": "777bec98751427667decbbe41d75282173f6ebbee2ba1d73109747f540eb5aff",
+      "generationRecord": "full-game/items-fx/assets/transfer-arrow.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

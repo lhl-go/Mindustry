@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-vent1.png",
+  "sha256": "1c2236ed28d338cd0ae917704dae27199f1996d50078615ac95d885da87a9790",
+  "size": [
+    276,
+    263
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/08-geothermal-vents.png",
+      "sha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290",
+      "generationRecord": "full-game/terrain/source/08-geothermal-vents.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    32,
+    642,
+    308,
+    905
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

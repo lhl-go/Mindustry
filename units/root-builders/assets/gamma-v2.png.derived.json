@@ -1,0 +1,70 @@
+{
+  "file": "units/root-builders/assets/gamma-v2.png",
+  "sha256": "b684e2c5c6aa8a9fb51fbb8aff803d6b45d1bb68621631ace7695c34bc2755f2",
+  "width": 538,
+  "height": 603,
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T10:13:39.958546+00:00",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/gamma-body.png",
+      "sha256": "6655a914a9dc0b0480be659a618edb9c8238d89231309cfb62f39416e7d5619a",
+      "generationRecord": "units/root-builders/layers/gamma-body.png.derived.json"
+    },
+    {
+      "file": "units/root-builders/layers/small-mount-weapon.png",
+      "sha256": "453a4dbb8c0d3fa3cef503fafca768cab97089766f986f81ff6f2e5cee85077b",
+      "generationRecord": "units/root-builders/layers/small-mount-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "static_art_mount_composite",
+    "order": [
+      "weapon_pair",
+      "body"
+    ],
+    "bodyResampled": false,
+    "weaponDownsampled": true,
+    "redrawn": false,
+    "placements": [
+      {
+        "side": -1,
+        "topLeftPixels": [
+          96,
+          90
+        ],
+        "size": [
+          118,
+          133
+        ],
+        "mountPivotNormalized": [
+          0.5,
+          0.82
+        ],
+        "visibleFractionAfterBody": 0.15791296263576377
+      },
+      {
+        "side": 1,
+        "topLeftPixels": [
+          324,
+          90
+        ],
+        "size": [
+          118,
+          133
+        ],
+        "mountPivotNormalized": [
+          0.5,
+          0.82
+        ],
+        "visibleFractionAfterBody": 0.15873954908735508
+      }
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "alignmentEvidence": "Estimated art attachment anchors adjusted to expose the weapon tips. These are design coordinates, not validated official runtime Weapon.x/y.",
+  "runtimeIntegrationVerified": false,
+  "imageRetained": false,
+  "supersededBy": "units/root-builders/assets/gamma-v3.png"
+}

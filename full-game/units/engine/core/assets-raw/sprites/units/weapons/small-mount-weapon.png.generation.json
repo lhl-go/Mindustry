@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+  "sha256": "da0b7edd6eacf02d167063f0d0fa21a70d192360dcfba202a8e3426c562efd79",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/small-mount-weapon.png",
+      "sha256": "453a4dbb8c0d3fa3cef503fafca768cab97089766f986f81ff6f2e5cee85077b",
+      "generationRecord": "units/root-builders/layers/small-mount-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      281,
+      313
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      16
+    ],
+    "sourceDimensions": [
+      313,
+      345
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      20,
+      10,
+      29,
+      31
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/small-mount-weapon.png",
+    "gitBlobSha1": "f928b890d6230ad5f8956e95893d401fd2f6a832",
+    "sha256": "b0512f346bb61c576d25b2bc7c58cad2eb5b63788b6325841adf151fa2879099"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

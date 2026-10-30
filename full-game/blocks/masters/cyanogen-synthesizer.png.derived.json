@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/cyanogen-synthesizer.png",
+  "sha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-heat-03.png",
+      "sha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "generationRecord": "full-game/blocks/records/production-heat-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      43,
+      737,
+      323,
+      1039
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      280,
+      302
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    312,
+    334
+  ],
+  "anchorPixels": [
+    156.0,
+    167.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

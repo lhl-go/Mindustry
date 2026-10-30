@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/oxidation-chamber.png",
+  "sha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      421,
+      686,
+      747,
+      980
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      326,
+      294
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    358,
+    326
+  ],
+  "anchorPixels": [
+    179.0,
+    163.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

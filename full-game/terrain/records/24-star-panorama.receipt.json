@@ -1,0 +1,31 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept game sky environment. Paint ONE continuous seamless 360-degree equirectangular celestial star field panorama, latitude-longitude spherical environment map, 2:1 aspect, requested4096x2048. Pure outer space backdrop, NO ground, horizon, landscape, mountains, moons, planets, architecture, characters, UI, borders, letters or icons. Attached two images are ONLY for refined Daoist Q hand-painted visual finish and restrained jade/ivory/warm-gold color taste. Main sky is very deep blue-green charcoal, lightly hand-painted, many tiny scattered warm ivory and cool pale jade stars with varied spacing, mostly pinpoints, a handful slightly brighter soft stars, no huge lens flare. Broad very faint wisps of jade-green and pale antique-gold cosmic cloud across central latitudes, sparse elegant negative space. Sky should stay dark enough behind lit planets. Projection requirements: left/right edges seamlessly continuous longitude; top/bottom polar bands nearly uniform very dark color without conspicuous points so cubemap poles won't pinch. Consistent exposure throughout, no bright white cloud masses. All texture fullbleed opaque; professionally painted game sky, not a contact sheet, not six panels, no repeating artificial grid.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 20:21:26 UTC",
+  "returnedAt": "2026-10-26 20:22:31 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-4f956cb0-319b-4a0c-af4c-5bbad48bb7b1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    4096,
+    2048
+  ],
+  "grid": [
+    1,
+    1
+  ],
+  "regions": [
+    "stars-equirectangular"
+  ],
+  "exportMode": "equirectangular_to_cube"
+}

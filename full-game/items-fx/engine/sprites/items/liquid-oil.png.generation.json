@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-oil.png",
+  "sha256": "4cdcaf1ac5030879f5609fc00203dc141e20838657941d3f980f7e6ae5e3199d",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-oil.png",
+      "sha256": "a36e2231f0898133b94c365fff8cfe8712c6dca71f579220ab2c777b29c638ff",
+      "generationRecord": "full-game/items-fx/assets/liquid-oil.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

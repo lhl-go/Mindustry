@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-freezing.png",
+  "sha256": "8ca75eda8e8f5f84a77c00f243e574153ca0264d5f6cd612a519ab33886a6813",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-freezing.png",
+      "sha256": "f6a8e1b85a3157711f1280a10c23e4e5e03cbabb31395dcbbf8d5a74da729972",
+      "generationRecord": "full-game/items-fx/assets/status-freezing.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

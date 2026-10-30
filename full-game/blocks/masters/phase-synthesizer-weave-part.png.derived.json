@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+  "sha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c",
+  "derivedAt": "2026-10-27T02:26:37.381939+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/root-detached-parts-03.png",
+      "sha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "generationRecord": "full-game/blocks/records/root-detached-parts-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      101,
+      723,
+      259,
+      1065
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      158,
+      342
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    190,
+    374
+  ],
+  "anchorPixels": [
+    95.0,
+    187.0
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": null,
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/liquid-tank.png",
+  "sha256": "4dd1b6f07bffcccb3c05b642a6e2e2fb130a852890ec210e4534485c054fca71",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      321,
+      331,
+      644,
+      629
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      323,
+      298
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    355,
+    330
+  ],
+  "anchorPixels": [
+    177.5,
+    165.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

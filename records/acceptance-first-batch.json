@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26T07:50:11.775Z",
+  "reviewers": [
+    "production_agent_visual_and_pixel_inspection",
+    "hud_review_independent_subagent"
+  ],
+  "overall": "concepts_available_production_export_not_approved",
+  "checks": {
+    "styleReferencesActuallyViewed": true,
+    "primaryReferencesSubmittedToEveryGeneration": true,
+    "sameFunctionHudBadgeViewedAndSubmitted": true,
+    "hudReadable": true,
+    "productionAndDefenseRecognizable": true,
+    "characterFullBody": true,
+    "characterToolsVisible": true,
+    "realAlphaVerified": true,
+    "imageBytesUnchangedFromTool": true,
+    "upscaled": false
+  },
+  "issues": [
+    {
+      "id": "HUD-CATEGORY-01",
+      "asset": "ui/01-factory-defense-hud-v1.png",
+      "severity": "nonblocking_concept",
+      "status": "open",
+      "finding": "防御页签高亮，但下方展示钻头、传送带、分流器、炼炉、发电机等跨分类建筑。",
+      "nextAction": "实现阶段决定该排为综合快捷栏并相应标注，或改为随分类筛选；当前不按可交互界面验收。"
+    },
+    {
+      "id": "HUD-DIRECTION-02",
+      "asset": "ui/01-factory-defense-hud-v1.png",
+      "severity": "nonblocking_concept",
+      "status": "open",
+      "finding": "右侧战场部分红色方向箭头相反，主要来袭方向应统一。",
+      "nextAction": "后续无字战场/动态指示实现时统一敌军进攻方向。"
+    },
+    {
+      "id": "CHAR-EDGE-01",
+      "asset": "characters/02-alchemy-engineer-v1.png",
+      "severity": "blocks_production_cutout",
+      "status": "open_after_two_unsuccessful_ai_repairs",
+      "finding": "发梢、圆规、锤子、袖口附近有红黄彩边与散点，脸与圆规间有孤立点。",
+      "attempts": [
+        "characters/02-alchemy-engineer-v2.png.generation.json",
+        "characters/02-alchemy-engineer-v3.png.generation.json"
+      ],
+      "selection": "v2/v3 无实质改善；保留 v1 当前唯一人物方向稿。",
+      "nextAction": "按同一点两次无改善规则暂停该点返修，后续集中解决；不得把暂停当作通过。"
+    },
+    {
+      "id": "CHAR-ALPHA-02",
+      "asset": "characters/02-alchemy-engineer-v1.png",
+      "severity": "blocks_production_cutout",
+      "status": "open",
+      "finding": "RGBA具有真实透明像素（1002163，63.73%）；但主体Alpha多为253/252而非255，边缘低Alpha杂点使非零边界触及画布。",
+      "nextAction": "正式导出前复验不透明主体及干净Alpha边缘，当前仅作方向稿。"
+    },
+    {
+      "id": "NATIVE-SIZE-01",
+      "asset": "ui/01-factory-defense-hud-v1.png",
+      "severity": "contract_target_not_reached",
+      "status": "open",
+      "finding": "目标2560×1440；内置实际输出1672×941，接近16:9但并非精确16:9。未做重采样。"
+    },
+    {
+      "id": "NATIVE-SIZE-02",
+      "asset": "characters/02-alchemy-engineer-v1.png",
+      "severity": "contract_target_not_reached",
+      "status": "open",
+      "finding": "目标2048×2048；三次实际输出均1254×1254。未做重采样。"
+    }
+  ],
+  "unavailableReferences": [
+    {
+      "path": "../qdao_ui_redesign_v5/UI_SPEC.md",
+      "reason": "缺失；未恢复，沿用根AGENTS及现存邮件UI规范。"
+    },
+    {
+      "path": "../designs/ui-completion-20261021/07-team-hud.png",
+      "reason": "132字节Git LFS指针，无法解码；未下载或恢复。"
+    },
+    {
+      "path": "../designs/team-ui-v2/assets/hero-headband.png",
+      "reason": "131字节Git LFS指针，无法解码；改查看真实HUD bag/team小图作为补充参考。"
+    }
+  ]
+}

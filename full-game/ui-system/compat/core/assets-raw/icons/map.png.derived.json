@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/map.png",
+  "sourceGitBlob": "92ff76d74f628ac79dc1f36627704e57ba4b2e50",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/map.png",
+  "sha256": "5b2f1238bde07e4ae715532b3054162423350e165d0d96d3f942d4c938c3e41f",
+  "sourceSize": [
+    14,
+    14
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/map.png",
+      "sha256": "2a594c762e3a4881774ddbb2ecb50b295e44c19e1a76772fbe50f495e9f3356f",
+      "record": "full-game/ui-system/icons/map.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "map",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/discord-banner.png",
+  "sourceGitBlob": "49efc827119bd0c017476cfce42aad44af844778",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/discord-banner.png",
+  "sha256": "b99aa72b508602319d9b46c293b25d81f8d0f2d94b2b7a0f80209e6b2ab7b0a0",
+  "sourceSize": [
+    89,
+    50
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/button_primary.png",
+      "sha256": "e9e5ada2210d1f57741a3955b7166002c0a41142a92a40f089125678c1c5a24e",
+      "record": "ui/kit/button_primary.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_banner_skin",
+    "resampling": "LANCZOS",
+    "usage": "Blank service banner surface; destination/brand label supplied by game UI."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

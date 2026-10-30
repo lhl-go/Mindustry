@@ -1,0 +1,2212 @@
+{
+  "status": "art_export_complete_runtime_unverified",
+  "count": 49,
+  "assets": [
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-aegis",
+      "file": "full-game/ui-system/sectors/sector-aegis.png",
+      "sha256": "d1b9e4d8657ee39408b8fff56cf6906184e815d25d3a09c20b06969e46a52712",
+      "width": 355,
+      "height": 355,
+      "derivedAt": "2026-10-26T15:54:00.457303+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 0,
+        "sourceBox": [
+          64,
+          53,
+          395,
+          358
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-atlas",
+      "file": "full-game/ui-system/sectors/sector-atlas.png",
+      "sha256": "339dda773583d78c6def1b015a55eef280da27627cfb97db72f22f3c94e74793",
+      "width": 361,
+      "height": 361,
+      "derivedAt": "2026-10-26T15:54:00.467054+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 1,
+        "sourceBox": [
+          458,
+          48,
+          795,
+          355
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-atolls",
+      "file": "full-game/ui-system/sectors/sector-atolls.png",
+      "sha256": "41384be51398e884dfc5abc146106d5b4bec38a92dc166edd7aa72336d51bc20",
+      "width": 372,
+      "height": 372,
+      "derivedAt": "2026-10-26T15:54:00.479122+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 2,
+        "sourceBox": [
+          869,
+          47,
+          1217,
+          385
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-basin",
+      "file": "full-game/ui-system/sectors/sector-basin.png",
+      "sha256": "04675eeb29a3f0747e5e62511c261c6da39343144c9d221f816818c29e23b194",
+      "width": 409,
+      "height": 409,
+      "derivedAt": "2026-10-26T15:54:00.491136+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 3,
+        "sourceBox": [
+          30,
+          437,
+          415,
+          791
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-biomassFacility",
+      "file": "full-game/ui-system/sectors/sector-biomassFacility.png",
+      "sha256": "774383210631158da15cad6c5caacde2b59d2e0e07a537e26ea36abefed2e602",
+      "width": 410,
+      "height": 410,
+      "derivedAt": "2026-10-26T15:54:00.502073+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 4,
+        "sourceBox": [
+          433,
+          549,
+          819,
+          790
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-caldera-erekir",
+      "file": "full-game/ui-system/sectors/sector-caldera-erekir.png",
+      "sha256": "c429ffc107fa2d77aca826242db7ba4075f683fac65e8f5dbe117d3c6c6bc54a",
+      "width": 414,
+      "height": 414,
+      "derivedAt": "2026-10-26T15:54:00.512972+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 5,
+        "sourceBox": [
+          836,
+          465,
+          1226,
+          788
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-coastline",
+      "file": "full-game/ui-system/sectors/sector-coastline.png",
+      "sha256": "96bd7d24bd4b0ca9664a85ea88ac9fe1a0c045e2eeaed7d2500c807b8489a175",
+      "width": 404,
+      "height": 404,
+      "derivedAt": "2026-10-26T15:54:00.525462+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 6,
+        "sourceBox": [
+          33,
+          868,
+          413,
+          1198
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-crateredBattleground",
+      "file": "full-game/ui-system/sectors/sector-crateredBattleground.png",
+      "sha256": "9d951fcd900c8a71558bfbb7a4372c4fa670b43c7c65f1e52f61fa8e38ac8bd9",
+      "width": 399,
+      "height": 399,
+      "derivedAt": "2026-10-26T15:54:00.536830+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 7,
+        "sourceBox": [
+          437,
+          843,
+          812,
+          1201
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-crevice",
+      "file": "full-game/ui-system/sectors/sector-crevice.png",
+      "sha256": "9dc018147e52e5b9107feda6210966fdfa1ba211dc2ce5149300fb1b1808d98c",
+      "width": 416,
+      "height": 416,
+      "derivedAt": "2026-10-26T15:54:00.548479+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/07-sectors-01.png",
+        "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+        "generationRecord": "full-game/ui-system/source/07-sectors-01.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 8,
+        "sourceBox": [
+          832,
+          860,
+          1224,
+          1196
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-crossroads",
+      "file": "full-game/ui-system/sectors/sector-crossroads.png",
+      "sha256": "8acdab30965b249b0f5024f31aca9db8451ad4ef16c883dee69811d65e30ae96",
+      "width": 377,
+      "height": 377,
+      "derivedAt": "2026-10-26T15:54:01.002280+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 0,
+        "sourceBox": [
+          61,
+          47,
+          381,
+          400
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-cruxscape",
+      "file": "full-game/ui-system/sectors/sector-cruxscape.png",
+      "sha256": "e164a6a3ede6d6a2770b6b929b653c12fa02b41eb5a53763d90c60a28fc2eaec",
+      "width": 392,
+      "height": 392,
+      "derivedAt": "2026-10-26T15:54:01.015824+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 1,
+        "sourceBox": [
+          454,
+          44,
+          799,
+          412
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-desolateRift",
+      "file": "full-game/ui-system/sectors/sector-desolateRift.png",
+      "sha256": "f85e92763062fc7c255e0d89d83ea5c054e203b29639f042a2c333acc971fd90",
+      "width": 395,
+      "height": 395,
+      "derivedAt": "2026-10-26T15:54:01.027746+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 2,
+        "sourceBox": [
+          849,
+          56,
+          1220,
+          397
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-extractionOutpost",
+      "file": "full-game/ui-system/sectors/sector-extractionOutpost.png",
+      "sha256": "a05c2daa103ffc1c72064c179e8a5c6c93d39f912fbb0a8ec19e43d28ce5bba2",
+      "width": 393,
+      "height": 393,
+      "derivedAt": "2026-10-26T15:54:01.039302+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 3,
+        "sourceBox": [
+          33,
+          453,
+          402,
+          798
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-facility32m",
+      "file": "full-game/ui-system/sectors/sector-facility32m.png",
+      "sha256": "ce766cfce3dbd5638f589508a9eea8a1dabf83345946a28b7b0007b1f9ce3dd4",
+      "width": 407,
+      "height": 407,
+      "derivedAt": "2026-10-26T15:54:01.054955+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 4,
+        "sourceBox": [
+          436,
+          457,
+          819,
+          804
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-fallenVessel",
+      "file": "full-game/ui-system/sectors/sector-fallenVessel.png",
+      "sha256": "906c005088ba133963d0ceec659b31cba55c75dfb90d9fbd05258f2fea8b4e5d",
+      "width": 388,
+      "height": 388,
+      "derivedAt": "2026-10-26T15:54:01.069652+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 5,
+        "sourceBox": [
+          857,
+          467,
+          1221,
+          803
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-frontier",
+      "file": "full-game/ui-system/sectors/sector-frontier.png",
+      "sha256": "eb69dcc031897234feb8893dc3ec9f2f664b9f90f36bdaaa3c1dc2bb2e1b334f",
+      "width": 408,
+      "height": 408,
+      "derivedAt": "2026-10-26T15:54:01.081081+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 6,
+        "sourceBox": [
+          29,
+          891,
+          413,
+          1197
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-frozenForest",
+      "file": "full-game/ui-system/sectors/sector-frozenForest.png",
+      "sha256": "5949bf3fdcd0e53084c465888a9835c4bc65ced389b4c382c425ff1f936cc6d9",
+      "width": 400,
+      "height": 400,
+      "derivedAt": "2026-10-26T15:54:01.093519+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 7,
+        "sourceBox": [
+          436,
+          847,
+          812,
+          1210
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-fungalPass",
+      "file": "full-game/ui-system/sectors/sector-fungalPass.png",
+      "sha256": "06b1fdd77bcb67ec015e5d602623fd810ab9563f0208c8d4772ba8e013f61991",
+      "width": 395,
+      "height": 395,
+      "derivedAt": "2026-10-26T15:54:01.105148+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/08-sectors-02.png",
+        "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+        "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 8,
+        "sourceBox": [
+          853,
+          873,
+          1224,
+          1204
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-geothermalStronghold",
+      "file": "full-game/ui-system/sectors/sector-geothermalStronghold.png",
+      "sha256": "9e6ac6deee7a4868ccb49d478e43d33ff6951487c4d818ca3e9c01ad6edff8d7",
+      "width": 420,
+      "height": 420,
+      "derivedAt": "2026-10-26T15:54:01.560462+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 0,
+        "sourceBox": [
+          13,
+          57,
+          409,
+          398
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-groundZero",
+      "file": "full-game/ui-system/sectors/sector-groundZero.png",
+      "sha256": "6979e376ebd99f0cc5473b93ec8d0c1bbdc787a3b3c264bc3ff0cb540a35b57f",
+      "width": 423,
+      "height": 423,
+      "derivedAt": "2026-10-26T15:54:01.573942+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 1,
+        "sourceBox": [
+          441,
+          13,
+          840,
+          398
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-impact0078",
+      "file": "full-game/ui-system/sectors/sector-impact0078.png",
+      "sha256": "6c8a07de05cd73216fa96a2d2bc7d200f0bdf3939d969ec81aabb4cfed8bccec",
+      "width": 396,
+      "height": 396,
+      "derivedAt": "2026-10-26T15:54:01.587554+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 2,
+        "sourceBox": [
+          868,
+          47,
+          1240,
+          398
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-infestedCanyons",
+      "file": "full-game/ui-system/sectors/sector-infestedCanyons.png",
+      "sha256": "2a23a21b119272b64ca660e2904f968323bece505cd7016e29539f2934cc8acd",
+      "width": 411,
+      "height": 411,
+      "derivedAt": "2026-10-26T15:54:01.600902+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 3,
+        "sourceBox": [
+          16,
+          428,
+          403,
+          807
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-intersect",
+      "file": "full-game/ui-system/sectors/sector-intersect.png",
+      "sha256": "b6f28834924a3d880683a4ca4aed7ccdda8cef8d7b4c75e7b238984409962763",
+      "width": 420,
+      "height": 420,
+      "derivedAt": "2026-10-26T15:54:01.613332+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 4,
+        "sourceBox": [
+          429,
+          455,
+          825,
+          807
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-karst",
+      "file": "full-game/ui-system/sectors/sector-karst.png",
+      "sha256": "f050cbe92bccb8500bc15a6e2ff9501be38db2db8da9809de72bc48e6068f74a",
+      "width": 410,
+      "height": 410,
+      "derivedAt": "2026-10-26T15:54:01.626848+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 5,
+        "sourceBox": [
+          855,
+          455,
+          1241,
+          807
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-lake",
+      "file": "full-game/ui-system/sectors/sector-lake.png",
+      "sha256": "8aee171706ea27d4f730d2b436981677d021b07c783b8380f518c45459e412b6",
+      "width": 361,
+      "height": 361,
+      "derivedAt": "2026-10-26T15:54:01.638760+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 6,
+        "sourceBox": [
+          49,
+          857,
+          386,
+          1173
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-littoralShipyard",
+      "file": "full-game/ui-system/sectors/sector-littoralShipyard.png",
+      "sha256": "cb89759de65a2bd6660f921cf4b43b7d509d85b3e8db0a48244bd0e5fb087ca0",
+      "width": 429,
+      "height": 429,
+      "derivedAt": "2026-10-26T15:54:01.653931+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 7,
+        "sourceBox": [
+          427,
+          824,
+          832,
+          1214
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-marsh",
+      "file": "full-game/ui-system/sectors/sector-marsh.png",
+      "sha256": "5ad647d5a438db45cedc08669166a9a05afb085947142a8061fea3df613f60f7",
+      "width": 409,
+      "height": 409,
+      "derivedAt": "2026-10-26T15:54:01.666177+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/09-sectors-03.png",
+        "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+        "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 8,
+        "sourceBox": [
+          852,
+          860,
+          1237,
+          1205
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-mycelialBastion",
+      "file": "full-game/ui-system/sectors/sector-mycelialBastion.png",
+      "sha256": "e65a274be9f75f446e2d2de59fa46429b82c231aea8e7ca14ebee47cdddd6ff2",
+      "width": 407,
+      "height": 407,
+      "derivedAt": "2026-10-26T15:54:02.142744+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 0,
+        "sourceBox": [
+          26,
+          47,
+          409,
+          394
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-navalFortress",
+      "file": "full-game/ui-system/sectors/sector-navalFortress.png",
+      "sha256": "24818d09ffabca629746ecb6572a5f0c84af58848aa6f9a5586455c09012c6d4",
+      "width": 419,
+      "height": 419,
+      "derivedAt": "2026-10-26T15:54:02.157476+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 1,
+        "sourceBox": [
+          430,
+          13,
+          825,
+          407
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-nuclearComplex",
+      "file": "full-game/ui-system/sectors/sector-nuclearComplex.png",
+      "sha256": "a84e8c1c02de064cb1fa236b3f389dde92d72ff564f5134faf916f8895975548",
+      "width": 405,
+      "height": 405,
+      "derivedAt": "2026-10-26T15:54:02.169662+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 2,
+        "sourceBox": [
+          844,
+          57,
+          1225,
+          396
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-onset",
+      "file": "full-game/ui-system/sectors/sector-onset.png",
+      "sha256": "e2a323884dd7ea7684a561ddb24ea1c9f5b2b739b5b30734692fa4f0d1c847ed",
+      "width": 411,
+      "height": 411,
+      "derivedAt": "2026-10-26T15:54:02.183046+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 3,
+        "sourceBox": [
+          25,
+          433,
+          412,
+          795
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-origin",
+      "file": "full-game/ui-system/sectors/sector-origin.png",
+      "sha256": "285c5cb574e484702584e924484ffde3ff50cc6d17583e50490531950c07ab90",
+      "width": 410,
+      "height": 410,
+      "derivedAt": "2026-10-26T15:54:02.196694+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 4,
+        "sourceBox": [
+          435,
+          422,
+          821,
+          806
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-overgrowth",
+      "file": "full-game/ui-system/sectors/sector-overgrowth.png",
+      "sha256": "382a0c035a434708428a5a304751e6d5d5067684db335f25b2aa8ae32b6445c3",
+      "width": 410,
+      "height": 410,
+      "derivedAt": "2026-10-26T15:54:02.210267+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 5,
+        "sourceBox": [
+          844,
+          468,
+          1230,
+          799
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-peaks",
+      "file": "full-game/ui-system/sectors/sector-peaks.png",
+      "sha256": "59071514f24cf5c9f4dd3df54bdaa11e2a0455d2cfb6b40b49222d276cc3ac4b",
+      "width": 415,
+      "height": 415,
+      "derivedAt": "2026-10-26T15:54:02.228474+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 6,
+        "sourceBox": [
+          32,
+          814,
+          409,
+          1205
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-perilousHarbor",
+      "file": "full-game/ui-system/sectors/sector-perilousHarbor.png",
+      "sha256": "73f72430d0d06459fc03b527b2e1467faf30233317792918cef9007cd6d384a4",
+      "width": 411,
+      "height": 411,
+      "derivedAt": "2026-10-26T15:54:02.245721+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 7,
+        "sourceBox": [
+          433,
+          826,
+          820,
+          1204
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-planetaryTerminal",
+      "file": "full-game/ui-system/sectors/sector-planetaryTerminal.png",
+      "sha256": "968b0351421798dd783cc1dcf7b69e8b901c252f65f16b9668b7780e78fe00a7",
+      "width": 408,
+      "height": 408,
+      "derivedAt": "2026-10-26T15:54:02.262236+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/10-sectors-04.png",
+        "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+        "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 8,
+        "sourceBox": [
+          844,
+          826,
+          1228,
+          1205
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-ravine",
+      "file": "full-game/ui-system/sectors/sector-ravine.png",
+      "sha256": "087eac7fb16f0dd7c64ae409295d12b11e5794e356df45915ba5be4f24e09027",
+      "width": 420,
+      "height": 420,
+      "derivedAt": "2026-10-26T15:54:02.753492+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 0,
+        "sourceBox": [
+          21,
+          25,
+          417,
+          389
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-ruinousShores",
+      "file": "full-game/ui-system/sectors/sector-ruinousShores.png",
+      "sha256": "8688db840e1d56055b2652935e095b51a7d2559b897cca3be2128cf08733f1dc",
+      "width": 412,
+      "height": 412,
+      "derivedAt": "2026-10-26T15:54:02.766522+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 1,
+        "sourceBox": [
+          439,
+          30,
+          827,
+          389
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-saltFlats",
+      "file": "full-game/ui-system/sectors/sector-saltFlats.png",
+      "sha256": "e49dad34b0c611256324294ab7f6d72cac9c0bf20d27b9146d9f4f3ed3f2ba9f",
+      "width": 397,
+      "height": 397,
+      "derivedAt": "2026-10-26T15:54:02.781061+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 2,
+        "sourceBox": [
+          856,
+          18,
+          1229,
+          385
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-siege",
+      "file": "full-game/ui-system/sectors/sector-siege.png",
+      "sha256": "bc83ba4f04c6184a0e0ebff7a67a2cf4ccb1ecb84469e44dbbb2bf786a58b7b9",
+      "width": 420,
+      "height": 420,
+      "derivedAt": "2026-10-26T15:54:02.794070+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 3,
+        "sourceBox": [
+          17,
+          424,
+          413,
+          790
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-split",
+      "file": "full-game/ui-system/sectors/sector-split.png",
+      "sha256": "334b3d5aae156fbdfaa885d3a077932fcb4abff3ddbaf3c9bbc80bf11013f8ca",
+      "width": 413,
+      "height": 413,
+      "derivedAt": "2026-10-26T15:54:02.807305+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 4,
+        "sourceBox": [
+          436,
+          416,
+          825,
+          785
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-stainedMountains",
+      "file": "full-game/ui-system/sectors/sector-stainedMountains.png",
+      "sha256": "85e91b353c431c44c5a273f9fded728ae7c33278483b6f5cac066f992819de4d",
+      "width": 409,
+      "height": 409,
+      "derivedAt": "2026-10-26T15:54:02.821264+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 5,
+        "sourceBox": [
+          852,
+          427,
+          1237,
+          781
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-stronghold",
+      "file": "full-game/ui-system/sectors/sector-stronghold.png",
+      "sha256": "1e8a746588ca9b84372aeef635da30732550bb7ab0dea2a5515b731a3859e043",
+      "width": 413,
+      "height": 413,
+      "derivedAt": "2026-10-26T15:54:02.834813+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 6,
+        "sourceBox": [
+          16,
+          843,
+          405,
+          1198
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-sunkenPier",
+      "file": "full-game/ui-system/sectors/sector-sunkenPier.png",
+      "sha256": "c59cb832d30e7ec3f72f2ef6332a0ce64ce86e7449257444e4326d790902acf9",
+      "width": 414,
+      "height": 414,
+      "derivedAt": "2026-10-26T15:54:02.849880+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 7,
+        "sourceBox": [
+          436,
+          808,
+          826,
+          1197
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-taintedWoods",
+      "file": "full-game/ui-system/sectors/sector-taintedWoods.png",
+      "sha256": "4dec1303fb70a02ac2094afd55e1a641274c0589ef32a011bfc484a3f1182389",
+      "width": 411,
+      "height": 411,
+      "derivedAt": "2026-10-26T15:54:02.864432+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/11-sectors-05.png",
+        "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+        "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          3,
+          3
+        ],
+        "index": 8,
+        "sourceBox": [
+          852,
+          813,
+          1239,
+          1198
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-tarFields",
+      "file": "full-game/ui-system/sectors/sector-tarFields.png",
+      "sha256": "b23146537b2fea18457efdbabd2fd381d8f7a0833f0fdd3c4347a8f63413d6b9",
+      "width": 578,
+      "height": 578,
+      "derivedAt": "2026-10-26T15:54:03.156022+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/12-sectors-06.png",
+        "sha256": "e92a685280cf27df018a87b334250b5db1cbd9bbd3802e3c8e9b4adef4975ded",
+        "generationRecord": "full-game/ui-system/source/12-sectors-06.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 0,
+        "sourceBox": [
+          44,
+          39,
+          598,
+          565
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-testingGrounds",
+      "file": "full-game/ui-system/sectors/sector-testingGrounds.png",
+      "sha256": "87e7479843f20141aa12351bddc62d0624f962576e328d25ca2fe281d95d33e7",
+      "width": 581,
+      "height": 581,
+      "derivedAt": "2026-10-26T15:54:03.187894+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/12-sectors-06.png",
+        "sha256": "e92a685280cf27df018a87b334250b5db1cbd9bbd3802e3c8e9b4adef4975ded",
+        "generationRecord": "full-game/ui-system/source/12-sectors-06.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 1,
+        "sourceBox": [
+          655,
+          41,
+          1212,
+          569
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-weatheredChannels",
+      "file": "full-game/ui-system/sectors/sector-weatheredChannels.png",
+      "sha256": "3226291706b030d1132a7b1d5054dfcc23c90811980d362beda8710661b6066f",
+      "width": 599,
+      "height": 599,
+      "derivedAt": "2026-10-26T15:54:03.221188+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/12-sectors-06.png",
+        "sha256": "e92a685280cf27df018a87b334250b5db1cbd9bbd3802e3c8e9b4adef4975ded",
+        "generationRecord": "full-game/ui-system/source/12-sectors-06.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 2,
+        "sourceBox": [
+          47,
+          614,
+          622,
+          1180
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    },
+    {
+      "schemaVersion": 1,
+      "semanticKey": "sector-windsweptIslands",
+      "file": "full-game/ui-system/sectors/sector-windsweptIslands.png",
+      "sha256": "e4369e7fd52dd4bfb6a4415904cd399fbd8b72866b15a9d64b455d619486b492",
+      "width": 613,
+      "height": 613,
+      "derivedAt": "2026-10-26T15:54:03.254944+00:00",
+      "derivedFrom": {
+        "file": "full-game/ui-system/source/12-sectors-06.png",
+        "sha256": "e92a685280cf27df018a87b334250b5db1cbd9bbd3802e3c8e9b4adef4975ded",
+        "generationRecord": "full-game/ui-system/source/12-sectors-06.png.generation.json"
+      },
+      "operation": {
+        "kind": "authorized_alpha_component_crop_padding",
+        "grid": [
+          2,
+          2
+        ],
+        "index": 3,
+        "sourceBox": [
+          638,
+          614,
+          1227,
+          1184
+        ],
+        "alphaCutoff": 16,
+        "minComponentArea": 28,
+        "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+        "retainedRGBUnchanged": true,
+        "resampling": false,
+        "padding": 12
+      },
+      "actualModel": null,
+      "actualQuality": null,
+      "validation": {
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "visualReview": "passed",
+        "runtime": "unverified"
+      },
+      "status": "art_export_complete_runtime_unverified"
+    }
+  ],
+  "visualReviewRecord": "full-game/ui-system/validation.json"
+}

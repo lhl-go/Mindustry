@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/whiteui.png",
+  "sourceGitBlob": "ba9bf827c1f3fd6fc95544f0d9c34f0ffc29a2ec",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/whiteui.png",
+  "sha256": "9585d99e7a6e84a43fb6d281ed584714b8ec31f6c78e8d3f0a9091b515f4d90c",
+  "sourceSize": [
+    3,
+    3
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/whiteui.png",
+      "sha256": "9585d99e7a6e84a43fb6d281ed584714b8ec31f6c78e8d3f0a9091b515f4d90c",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "byte_exact_technical_texture",
+    "reason": "White tint primitive; Styles.java:104-110 and editor palette dynamically multiply user-selected colors.",
+    "sourceEvidence": "ba9bf827c1f3fd6fc95544f0d9c34f0ffc29a2ec"
+  },
+  "disposition": "verified_technical_reuse",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

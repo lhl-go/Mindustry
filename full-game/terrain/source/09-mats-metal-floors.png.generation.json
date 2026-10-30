@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/09-mats-metal-floors.png",
+  "sha256": "337503faab04d04ad74d1ef3467eae8f2b3110d67b329b75247532b0a2a8676a",
+  "generatedAt": "2026-10-26 17:20:34 UTC",
+  "startedAt": "2026-10-26 17:19:36 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-terrain atlas. Create18 NEW Mindustry ground surfaces, detailed bright Daoist Q hand-painted material art harmonizing with attached jade/ivory/warm-gold UI craftsmanship. Pure flat TOP-DOWN ORTHOGRAPHIC textures only: no UI controls, text, people, weapons or decorative emblems. Requested1536×3072 portrait, exactly3 equal columns×6 equal rows square fullbleed swatches, no gutters/frames/labels. Opaque. Each cell uniform light, no gradient/vignette, tileable edges.\nRow1 all3 REDMAT variants: muted dark red-brown soil densely covered by small red clay-like curled alien plant threads embedded flat in ground, three independent distributions, tiny shapes not giant roots.\nRow2 all3 BLUEMAT variants: muted dark bluish-purple soil with tiny violet-blue curled alien organic threads embedded flat, three independent distributions.\nRow3 left METAL FLOOR1 satin jade-gray square metal plate with small restrained warm-gold corner rivets; middle METAL FLOOR2 warm ivory-gray small tiled metal plates with delicate seams; right METAL FLOOR3 cool green-gray striped narrow metal planks with sparse gold fasteners.\nRow4 left METAL FLOOR4 muted dark-teal diamond mesh metal floor; middle METAL FLOOR5 sage-gray metal with fine crossing support braces; right DAMAGED METAL1 weathered jade-gray plates with subtle scratches and one chipped corner.\nRow5 left DAMAGED METAL2 different worn jade-gray plate arrangement with a fine cracked seam; middle DAMAGED METAL3 worn brushed gray metal with small dents/scuffs; right CORE ZONE pale sandy-beige reinforced landing pad tile, subtle warm gold corner brackets with center clear, no symbols/letters.\nRow6 all3 DARK PANEL floor variants: 1 dark charcoal-teal rectangular metal plating; 2 dark charcoal-teal diamond grip surface; 3 dark charcoal-teal fine parallel vent slats. Tiny warm gold accents only, mechanical ground materials, not UI panels.\nRefined handpainted soft edges and clear small-scale structural detail. Exact18cells no typography.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/09-mats-metal-floors.txt",
+  "promptSha256": "c6065011e45682586b5ba3ac5b5e6ab629a57daeafb8dd774c5896e9b50f4eea",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/09-mats-metal-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-af3c6b19-fa90-4056-adce-11e8b21fc0aa.png",
+    "originalOutputSha256": "337503faab04d04ad74d1ef3467eae8f2b3110d67b329b75247532b0a2a8676a"
+  },
+  "regions": [
+    "redmat1",
+    "redmat2",
+    "redmat3",
+    "bluemat1",
+    "bluemat2",
+    "bluemat3",
+    "metal-floor",
+    "metal-floor-2",
+    "metal-floor-3",
+    "metal-floor-4",
+    "metal-floor-5",
+    "metal-floor-damaged1",
+    "metal-floor-damaged2",
+    "metal-floor-damaged3",
+    "core-zone",
+    "dark-panel-1",
+    "dark-panel-2",
+    "dark-panel-3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/redmat1.png",
+      "sha256": "ae6bed59e82f0c2ac51b8ffd2bafd5f732e689db2e310ea02f3c3491daa89a01"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/redmat2.png",
+      "sha256": "42ee2f5c0c4ef753f5712b259b1533176a0fdfdabe1819d177d75139bb574143"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/redmat3.png",
+      "sha256": "c87d8a93f5a9cfc98711b23cbde01747cd9f23b4a5cdbf8f4bf0dae4d72b3390"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/bluemat1.png",
+      "sha256": "7a5133dcdb25398c2ee70ec52bba829c0d1800494782e5a9d8bc08a9b38c813a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/bluemat2.png",
+      "sha256": "4b1aaf9d15f8553b554ec582faeec89ca1c9f95c5cb11c5d6fdf25fa03cd1457"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/bluemat3.png",
+      "sha256": "36e3e78e67d5b364e0d5edfc71a7094b78ab2e44762a3688978450840cc3bb8f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor.png",
+      "sha256": "4a6e377639df7339820362dd7251a2d19fb7a0ffce9a57245bf67d8b92a5160a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-2.png",
+      "sha256": "5cdddf0993a25af6213cdc45e95b30415129127f6999599345251939cba74ec9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-3.png",
+      "sha256": "f5cead3809db9b5b2fd0f571565a8a2aa3ffa3cc5d9166112008aeea8ad14d76"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-4.png",
+      "sha256": "acb50d27fdf1a0da173dca07a582044bffc63d6ebc15c7f0279662a21344583a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-5.png",
+      "sha256": "f90a5ae431515050bf4b1eaa9f81fa9a09977edc4f044dcbfd1987260732a71c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-damaged1.png",
+      "sha256": "353fc72e71618a6bb9657600f4c9c92e11b5b9f5245a15db161dba2b4356ac16"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-damaged2.png",
+      "sha256": "728caad13b4ebf3020970fd7bdd29115248b4e578fa739f53090de866a00140e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-damaged3.png",
+      "sha256": "9fd066fa8840550b1241cf9eac563eef216501a9d3ffe8d2919bffc346808a95"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/core-zone.png",
+      "sha256": "cd40deed737c5a30215264c7b96e89801470487cab84e12e55fa4610e140d38f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dark-panel-1.png",
+      "sha256": "f66bb395fb673b5d93a3d087f8d93e2aadc8a15a798818816ba3b73cc2e53c13"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dark-panel-2.png",
+      "sha256": "744d88b4ec88272951888f5f9f3c76aea318024eeff8cb9915287c3fe89d781e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dark-panel-3.png",
+      "sha256": "d5765e6fd2d16cd94354cd9c274b6a8f29c783aaa22c205badb91ef4056523ff"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

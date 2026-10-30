@@ -1,0 +1,63 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Paint 24 NEW Mindustry terrain floor tiles, refined clean bright Daoist Q hand-painted materials using two attached references as craftsmanship reference ONLY. NO UI, text, symbols, people, raised props or perspective. Requested2048×3072 portrait, exactly FOUR columns × SIX rows of square full-bleed material swatches without gutters, lines, borders or labels. Strict top-down FLAT GROUND. Each row FOUR different native variants of same material, uniform mean brightness/color and feature scale, distinct patterns no copied tiles. Even overhead daylight, no lighting gradient/vignette. Fine material texture, soft rounded broad planes, sparse accents and low-medium contrast; naturally tileable quiet edges, every cell opaque.\nRow1 BERYLLIC STONE: desaturated pale sage-jade gray rock, tiny beryl-green mineral grains, soft irregular chalky stone plates.\nRow2 DENSE RED STONE: dense dusty rust-red brick-colored natural rock with close irregular hairline fractures and subtle dark mottling, NOT manufactured bricks.\nRow3 RED STONE: lighter warm terracotta rosy stone ground with broad rounded natural plates, fine warm beige mineral veins.\nRow4 FERRIC STONE: muted warm iron-brown ocher rock with tiny rusty orange iron flecks and sparse shallow soft cracks.\nRow5 ROUGH RHYOLITE: muted purple-mauve gray rough volcanic ground, coarse rounded rocky grains and small shallow surface fissures, all flat.\nRow6 CARBON STONE: very dark blue charcoal-gray carbon-rich ground, flat broad smooth fractured plates with subtle blue-gray rims, no bright lava.\nPreserve sensible functional material identity; never simply recolor a shared crack drawing. Precisely24 fullbleed squares, no text.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:43:06 UTC",
+  "returnedAt": "2026-10-26 16:45:03 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5bdfd5ef-0fb4-445d-99d0-e1281d34058e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    2048,
+    3072
+  ],
+  "grid": [
+    4,
+    6
+  ],
+  "regions": [
+    "beryllic-stone1",
+    "beryllic-stone2",
+    "beryllic-stone3",
+    "beryllic-stone4",
+    "dense-red-stone1",
+    "dense-red-stone2",
+    "dense-red-stone3",
+    "dense-red-stone4",
+    "red-stone1",
+    "red-stone2",
+    "red-stone3",
+    "red-stone4",
+    "ferric-stone1",
+    "ferric-stone2",
+    "ferric-stone3",
+    "ferric-stone4",
+    "rough-rhyolite1",
+    "rough-rhyolite2",
+    "rough-rhyolite3",
+    "rough-rhyolite4",
+    "carbon-stone1",
+    "carbon-stone2",
+    "carbon-stone3",
+    "carbon-stone4"
+  ],
+  "rowBounds": [
+    0,
+    250,
+    492,
+    746,
+    984,
+    1236,
+    1536
+  ],
+  "exportSegmentationNote": "Measured material boundary transitions, visually confirmed; grid not mechanically equally sliced."
+}

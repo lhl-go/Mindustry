@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "ui/menu-network-research/02-network-join-v1.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T04:01:42.497000-04:00",
+  "generatedAtBasis": "Tool receipt return time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T08:01:00.383Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-a81edafc-3eed-4c8f-98ec-48203c097d64",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "733563cc0ef60d324795ba86349f7c7cfb610a94e60acb00303a3961b3bab889",
+  "byteLength": 2470883,
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alphaExtrema": null,
+  "nativeSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedSize": {
+    "width": 2560,
+    "height": 1440,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "static_concept_visual_reviewed",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: ui-mockup\nCreate ONE polished Mindustry v160.7 client multiplayer server browser screen with an \"add server\" address dialog open on top. Landscape 16:9, requested native 2560 x 1440, fully opaque. This is concept art with fictitious demonstration server data.\nInput images: Image 1 approved mail UI and Image 2 approved team UI are mandatory primary visual references. Match their refined Daoist chibi hand-painted aesthetic, jade-green and warm-gold heading plaques, ivory silk-paper panels, round corners, cloud carving, fine gold dividers, clear dark-jade Chinese text, restrained red tassels. Do not copy the reference titles, people, mail content or party content.\nFunctional reference: v160.7 JoinDialog. It has player name, local servers, saved remote servers, community servers, refresh/search, sorting by ping, favorites and address add/edit. A single address input accepts host:port; adding a server saves it, it does not instantly join. Do not draw a server administration GUI.\nComposition: large ivory client window fills about 90% canvas with slim visible daytime mountain-factory background. Small \"Mindustry\" at upper left outside the content, centered jade title \"加入游戏\", round X top-right.\nTop field row: \"玩家名称\" followed by a long cream field containing \"炼器道童\". Right of it a cream \"刷新\" button with circular arrow.\nUnderlying server browser: grouped horizontal sections rather than tabs. Left 62% remains unobstructed, with three narrow group headers and rows underneath. Headers \"局域网\", \"已保存的服务器\", \"社区服务器\". At least one complete visible row under each section. Each row uses a small map thumbnail, clear name, a few concise status values, and compact action icons.\nExact visible demo server row text: first group \"本地工坊\", \"生存\", \"2 / 8\", \"12 ms\"; second group \"云岫工坊\", \"生存\", \"12 / 32\", \"42 ms\"; third group \"青竹基地\", \"合作\", \"24 / 64\", \"68 ms\". A gold star marks one favorite. Put \"搜索服务器\" in a search box near community header, with small \"延迟排序\" control.\nServer cards sit neatly aligned, no overlapping text. Saved row has small edit and delete icons.\nOverlay dialog sits on RIGHT side, about 36% canvas width, centered vertically, clearly above the underlying list with a soft shadow. It must not cover the full readable rows on the left. Jade title \"添加服务器\". Body label \"服务器地址\". A single large bordered input showing exactly \"192.0.2.10:6567\". Secondary line \"地址与端口\". Bottom two equal buttons: ivory \"取消\", jade \"确定\". Small X at dialog top-right. It is a modal foreground layer, not a second full-screen pane.\nUnderlying bottom bar: cream \"返回\" on left, jade \"添加服务器\" near center. Small bottom caption \"演示数据 · 客户端界面\".\nUse the references' precise painted controls with clean readable Chinese and numerals. Preserve depth hierarchy between modal and browser. No player character portraits, no currencies, no unrelated fantasy title, no \"五行奇谈\", no real public server addresses, no payment, no watermark. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "parameterLimitations": "内置工具无 model、quality、size 专用参数；尺寸只在 prompt 请求。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号和质量；未验证可确认具体版本或质量的来源元数据。",
+  "prompt": "prompts/menu-network-research/02-network-join-v1.txt",
+  "promptSha256": "80179c64d8ab1e32ed2194123c9dafbeac30cbc5a9051213e9ee0dad29bc6773",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/workers/menu-network-research/02-network-join-v1.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-a81edafc-3eed-4c8f-98ec-48203c097d64.png",
+    "originalOutputSha256": "733563cc0ef60d324795ba86349f7c7cfb610a94e60acb00303a3961b3bab889",
+    "projectBytesMatchOriginal": true
+  },
+  "integrationStatus": "not_runtime_integrated",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "functionalSources": [
+    {
+      "path": "core/src/mindustry/ui/dialogs/JoinDialog.java",
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/JoinDialog.java"
+    }
+  ],
+  "visualReview": {
+    "result": "passed_for_static_concept",
+    "inspectedUsing": "tool returned full image preview",
+    "observations": [
+      "三组服务器行、人数延迟、收藏与编辑删除图标可辨。",
+      "192.0.2.10:6567 地址完整，取消和确定操作区分，弹窗层级清楚。"
+    ],
+    "blockingVisualIssues": [],
+    "runtimeAcceptance": false
+  }
+}

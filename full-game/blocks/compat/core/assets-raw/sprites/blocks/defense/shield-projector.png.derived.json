@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/shield-projector.png",
+  "sourceGitBlob": "281848306e04f8b4c5707fbb447f16456aadb234",
+  "sourceSha256": "a3c05aa0f4ce69f3e5053179d87a66e91465d517ad57b622b2508056f6960efc",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "shield-projector",
+  "blockId": "shield-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shield-projector.png",
+  "sha256": "7a839056aefb347347cb8c84f4d9cc7cf4372b950d84fadce0d3d4cd19ae0c52",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shield-projector.png",
+  "engineSha256": "7a839056aefb347347cb8c84f4d9cc7cf4372b950d84fadce0d3d4cd19ae0c52",
+  "nativeFile": "full-game/blocks/masters/shield-projector.png",
+  "nativeSha256": "011b1299bed97363cf173952cdbfeea4a0ceafd4c1e9cdcd4cfde4a0a6add224",
+  "nativeSize": [
+    292,
+    292
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shield-projector.png",
+      "sha256": "011b1299bed97363cf173952cdbfeea4a0ceafd4c1e9cdcd4cfde4a0a6add224"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/shield-projector.png",
+      "sha256": "a3c05aa0f4ce69f3e5053179d87a66e91465d517ad57b622b2508056f6960efc"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shield-projector.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shield-projector.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/shield-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

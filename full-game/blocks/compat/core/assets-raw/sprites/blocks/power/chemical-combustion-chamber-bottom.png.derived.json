@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-bottom.png",
+  "sourceGitBlob": "4f4b6a2b8fa10ba52de5f54471a2bd0c9083c362",
+  "sourceSha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "chemical-combustion-chamber-bottom",
+  "blockId": "chemical-combustion-chamber",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-bottom.png",
+  "sha256": "3b2f2571cd910336972bdce023ca2c1e51d58382441a1f796a92024e74ae2c86",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-bottom.png",
+  "engineSha256": "3b2f2571cd910336972bdce023ca2c1e51d58382441a1f796a92024e74ae2c86",
+  "nativeFile": "full-game/blocks/masters/chemical-combustion-chamber.png",
+  "nativeSha256": "eb4fe26ebb654d9711a4cf02f067c0749db5d3207af802f3d196d608bb98ec7f",
+  "nativeSize": [
+    332,
+    330
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/chemical-combustion-chamber.png",
+      "sha256": "eb4fe26ebb654d9711a4cf02f067c0749db5d3207af802f3d196d608bb98ec7f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/chemical-combustion-chamber-bottom.png",
+      "sha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

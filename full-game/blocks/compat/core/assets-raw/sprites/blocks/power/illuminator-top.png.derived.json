@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/illuminator-top.png",
+  "sourceGitBlob": "38754f57b0259afa17360662903c2d3fbddaeddc",
+  "sourceSha256": "3f855a061e71b87ff3cc8a1c6ec4c09d9a5d87d0c6c46da15f88a2c98ec225ab",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "illuminator-top",
+  "blockId": "illuminator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator-top.png",
+  "sha256": "afcc1c22b948bd5454e34f49d851487ee8c87947f4e78cb0fc4ba166d7d3ad36",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator-top.png",
+  "engineSha256": "afcc1c22b948bd5454e34f49d851487ee8c87947f4e78cb0fc4ba166d7d3ad36",
+  "nativeFile": "full-game/blocks/masters/illuminator.png",
+  "nativeSha256": "0a69a5341bf45f991a533c725f20fca04aa9049fbae78cfe66ee97eb56b627e0",
+  "nativeSize": [
+    276,
+    287
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    24,
+    24
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/illuminator.png",
+      "sha256": "0a69a5341bf45f991a533c725f20fca04aa9049fbae78cfe66ee97eb56b627e0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/illuminator-top.png",
+      "sha256": "3f855a061e71b87ff3cc8a1c6ec4c09d9a5d87d0c6c46da15f88a2c98ec225ab"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

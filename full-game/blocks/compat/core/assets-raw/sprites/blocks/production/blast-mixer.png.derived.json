@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/blast-mixer.png",
+  "sourceGitBlob": "52e7a3020e9b886bbbd5527eb9efd1686683d5cc",
+  "sourceSha256": "544807fc1f5a4059ccc27c087321310d1a3bde37737684001d35a98196e7738c",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "blast-mixer",
+  "blockId": "blast-mixer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/blast-mixer.png",
+  "sha256": "7456a5efd332fab8f8215ec27e2bcd00d9463b00d1c1ae8795840c1dca0b1876",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/blast-mixer.png",
+  "engineSha256": "7456a5efd332fab8f8215ec27e2bcd00d9463b00d1c1ae8795840c1dca0b1876",
+  "nativeFile": "full-game/blocks/masters/blast-mixer.png",
+  "nativeSha256": "905a80b65230d0475bc9560334aba4d67aec175cea00a4987e5a7e3ebf0153fa",
+  "nativeSize": [
+    343,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/blast-mixer.png",
+      "sha256": "905a80b65230d0475bc9560334aba4d67aec175cea00a4987e5a7e3ebf0153fa"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/blast-mixer.png",
+      "sha256": "544807fc1f5a4059ccc27c087321310d1a3bde37737684001d35a98196e7738c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/blast-mixer.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

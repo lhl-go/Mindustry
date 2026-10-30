@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/spore-pine.png",
+  "sha256": "7dc9e26bb5f2cb9a889b897ec3415d8e6d3e5a993598cfb371ae17f79e0df51d",
+  "createdAt": "2026-10-26T19:14:30.280747+00:00",
+  "kind": "derived_image",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/18-vegetation-props.png",
+      "sha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430",
+      "generationRecord": "full-game/terrain/source/18-vegetation-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      945,
+      633,
+      1237,
+      927
+    ],
+    "nativeExtractedSize": [
+      292,
+      294
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.1564625850340136,
+    "exportPadding": 1,
+    "registeredCanvas": [
+      48,
+      48
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electrolyzer-ozone-output1.png",
+  "sourceGitBlob": "f81b37607ec3fd810da18fc2084035c4e905d688",
+  "sourceSha256": "6fe67798cfd93c843b1b9d7e3b196b96c5447fffc34fdaeba883d08c9e2d2186",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "electrolyzer-ozone-output1",
+  "blockId": "electrolyzer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-ozone-output1.png",
+  "sha256": "1ec549da857fd88160d183c594741e725e015f535871814b76f38c27c8694cde",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-ozone-output1.png",
+  "engineSha256": "1ec549da857fd88160d183c594741e725e015f535871814b76f38c27c8694cde",
+  "nativeFile": "full-game/blocks/masters/electrolyzer.png",
+  "nativeSha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5",
+  "nativeSize": [
+    373,
+    329
+  ],
+  "sourceAlphaBounds": [
+    70,
+    8,
+    96,
+    88
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "1",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electrolyzer.png",
+      "sha256": "1301e7dd6df71dd0c78bdaa3221e167ade466f64e07fcf5955b8c8b661c9aca5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electrolyzer-ozone-output1.png",
+      "sha256": "6fe67798cfd93c843b1b9d7e3b196b96c5447fffc34fdaeba883d08c9e2d2186"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electrolyzer-ozone-output1.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

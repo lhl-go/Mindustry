@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/spore-press-piston0.png",
+  "sourceGitBlob": "80dec747a0c4c2394993df6ba1d2a0cbcca82dcf",
+  "sourceSha256": "4ffe8b90525429880db9436b2769358f36dcbd4ba7a5a793036613c78e0150da",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "spore-press-piston0",
+  "blockId": "spore-press",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston0.png",
+  "sha256": "91204dbec62a7a65d208c6989bed1c7d175fda0cfc2b46089667bdb3a1b10264",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston0.png",
+  "engineSha256": "91204dbec62a7a65d208c6989bed1c7d175fda0cfc2b46089667bdb3a1b10264",
+  "nativeFile": "full-game/blocks/masters/spore-press-piston-part.png",
+  "nativeSha256": "6050e296f315fc8c17445c9ea761df0e12b10936cbdf8c5632445c18b7a847d8",
+  "nativeSize": [
+    132,
+    253
+  ],
+  "sourceAlphaBounds": [
+    44,
+    28,
+    64,
+    36
+  ],
+  "operation": {
+    "kind": "independent_native_piston_on_original_canvas",
+    "localRotationDegrees": -90,
+    "oppositeLightVariantVerticalFlip": false,
+    "runtimeMotion": "DrawPistons translation and rotation",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/spore-press-piston-part.png",
+      "sha256": "6050e296f315fc8c17445c9ea761df0e12b10936cbdf8c5632445c18b7a847d8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/spore-press-piston0.png",
+      "sha256": "4ffe8b90525429880db9436b2769358f36dcbd4ba7a5a793036613c78e0150da"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston0.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/power-void.png",
+  "sourceGitBlob": "13aa45569c1e1f1e1dc4e24aa58631eebea3bebf",
+  "sourceSha256": "7333ce895077c5d17f094ed60b30b477f93779138b6658a0a0a6c06fcdc02dc2",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "power-void",
+  "blockId": "power-void",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-void.png",
+  "sha256": "9874fa70d404811cde5519abcad4a72f45ebd1f8394f51ddda995ec3d3420a5a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-void.png",
+  "engineSha256": "9874fa70d404811cde5519abcad4a72f45ebd1f8394f51ddda995ec3d3420a5a",
+  "nativeFile": "full-game/blocks/masters/power-void.png",
+  "nativeSha256": "c97357ddf7c91e105e475c37072ab8ab802fb14a18be1ecde5ed5439be613646",
+  "nativeSize": [
+    280,
+    282
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/power-void.png",
+      "sha256": "c97357ddf7c91e105e475c37072ab8ab802fb14a18be1ecde5ed5439be613646"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/power-void.png",
+      "sha256": "7333ce895077c5d17f094ed60b30b477f93779138b6658a0a0a6c06fcdc02dc2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/power-void.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

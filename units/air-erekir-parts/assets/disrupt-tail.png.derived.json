@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+  "createdAt": "2026-10-26T11:09:36.331855+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 470,
+  "height": 383,
+  "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+      "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      392,
+      735,
+      798,
+      1054
+    ],
+    "sourceComponentArea": 49874,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

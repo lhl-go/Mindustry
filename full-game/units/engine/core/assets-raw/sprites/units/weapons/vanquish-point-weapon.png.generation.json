@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+  "sha256": "41d615f3ffc8958ff5991bb69da53c05d372079b0b71c096e14b91fea6dfe968",
+  "width": 28,
+  "height": 57,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+      "sha256": "952b0b08dfef214bf7076bb863b04fc925d851e5fa99e0017ee2c737735b2674",
+      "generationRecord": "units/air-erekir-parts/assets/vanquish-point-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      226,
+      274
+    ],
+    "sourcePivot": [
+      128,
+      173
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      10
+    ],
+    "sourceDimensions": [
+      258,
+      306
+    ],
+    "targetDimensions": [
+      28,
+      57
+    ],
+    "officialAlphaBounds": [
+      8,
+      8,
+      21,
+      41
+    ],
+    "scale": 0.1326530612244898,
+    "engineAnchorPx": [
+      14.0,
+      28.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/vanquish-point-weapon.png",
+    "gitBlobSha1": "f3b3434c71883acac087aeb19705fbe582dcba52",
+    "sha256": "fb5ce41519b1a31b7f93449c818fcbc15ac365636afa8265fdf3f8237b135c4f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

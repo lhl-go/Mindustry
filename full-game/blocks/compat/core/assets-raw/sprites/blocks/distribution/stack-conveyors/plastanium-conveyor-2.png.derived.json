@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-2.png",
+  "sourceGitBlob": "bba89971adb6681e1d78900ab6d3edba487751b2",
+  "sourceSha256": "4be9f2c7893f1801bc4b6fc7d4022996897622e93a6f431944e51cce9f928856",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "plastanium-conveyor-2",
+  "blockId": "plastanium-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-2.png",
+  "sha256": "b81c1a99703fbe07788e2ae6e72f38acc9e61b31acb4e0e03a1a07cb75b5b1cc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-2.png",
+  "engineSha256": "b81c1a99703fbe07788e2ae6e72f38acc9e61b31acb4e0e03a1a07cb75b5b1cc",
+  "nativeFile": "full-game/blocks/masters/plastanium-conveyor.png",
+  "nativeSha256": "d3bd7838142de380037b9d3033e1eb51b1ccf07fd8ea6b4c86a57081115e7aa2",
+  "nativeSize": [
+    285,
+    261
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "nativeMaterialRotationBeforePlacement": -90,
+    "orientationReason": "StackConveyor rotation=0 points east; original concept belt axis points north."
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plastanium-conveyor.png",
+      "sha256": "d3bd7838142de380037b9d3033e1eb51b1ccf07fd8ea6b4c86a57081115e7aa2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-2.png",
+      "sha256": "4be9f2c7893f1801bc4b6fc7d4022996897622e93a6f431944e51cce9f928856"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/plastanium-conveyor-2.png.derived.json"
+}

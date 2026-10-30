@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/crafting.png",
+  "sourceGitBlob": "3f7022e87b5d3ab8efc690fa91c9b31ee0be1533",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/crafting.png",
+  "sha256": "07db5c3bfec6a2b883aafac637474e3ed865503818749c78fff19698184f39e9",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/crafting.png",
+      "sha256": "78c4a5bca12a8650f4f14b0b15fc04924234d438458cfd117aee180c2fe5f825",
+      "record": "full-game/ui-system/icons/crafting.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "crafting",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

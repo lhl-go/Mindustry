@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+  "sha256": "e46a150b16611821dab7cf519050421606a066c5ccd6b2378871971171dc18ad",
+  "width": 206,
+  "height": 220,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-shock-cannon.png",
+      "sha256": "b0e41993020464e0050904d2972ee17685bef6554a58fcf0885d77f3592beae1",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-shock-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      312,
+      357
+    ],
+    "sourcePivot": [
+      164.0,
+      278.57
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      42,
+      1
+    ],
+    "sourceDimensions": [
+      328,
+      373
+    ],
+    "targetDimensions": [
+      206,
+      220
+    ],
+    "officialAlphaBounds": [
+      65,
+      17,
+      141,
+      146
+    ],
+    "scale": 0.41512739459953535,
+    "engineAnchorPx": [
+      103.0,
+      110.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/toxopid-cannon.png",
+    "gitBlobSha1": "535ef3b5d7acc92147e4f471b1bb9d4742b4d55b",
+    "sha256": "80ca2f0316b8f04a8afabf00da880f5f817ae5e3c7847a6bfdbf971942e247d3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

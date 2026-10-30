@@ -1,0 +1,1613 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-26T11:33:01.516792+00:00",
+  "status": "complete_independent_parts_ready_for_owner_assembly",
+  "scope": "33 independent regions only; body-only redraws and unit assembly owned by units_air_erekir",
+  "boards": [
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+      "regions": [
+        "zenith-missiles",
+        "missiles-mount",
+        "large-bullet-mount",
+        "large-laser-mount",
+        "large-artillery",
+        "heal-weapon-mount",
+        "build-weapon",
+        "quell-weapon",
+        "disrupt-weapon"
+      ],
+      "imageRetained": false,
+      "status": "source_pixels_removed_provenance_retained"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+      "regions": [
+        "stell-weapon",
+        "locus-weapon",
+        "precept-weapon",
+        "vanquish-weapon",
+        "vanquish-point-weapon",
+        "conquer-weapon",
+        "merui-weapon",
+        "cleroi-weapon",
+        "cleroi-point-defense",
+        "anthicus-weapon",
+        "tecta-weapon",
+        "collaris-weapon"
+      ],
+      "imageRetained": false,
+      "status": "source_pixels_removed_provenance_retained"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+      "regions": [
+        "leg-short-upper",
+        "leg-short-lower",
+        "foot-short",
+        "leg-medium-upper",
+        "leg-medium-lower",
+        "foot-medium",
+        "leg-heavy-upper",
+        "leg-heavy-lower",
+        "foot-heavy",
+        "disrupt-tail",
+        "tecta-shield",
+        "track-strip"
+      ],
+      "imageRetained": false,
+      "status": "source_pixels_removed_provenance_retained"
+    }
+  ],
+  "assets": [
+    {
+      "region": "zenith-missiles",
+      "id": "zenith-missiles",
+      "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+      "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+      "record": "units/air-erekir-parts/assets/zenith-missiles.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        273,
+        369
+      ],
+      "outputSize": [
+        337,
+        433
+      ],
+      "sourceBBox": [
+        84,
+        47,
+        357,
+        416
+      ],
+      "pivot": [
+        168,
+        290
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "missiles-mount",
+      "id": "missiles-mount",
+      "file": "units/air-erekir-parts/assets/missiles-mount.png",
+      "sha256": "c78ea6ee4766675a14b7a34272692c1855c21aaa1f5d1fa39378f97d0ffdcd85",
+      "record": "units/air-erekir-parts/assets/missiles-mount.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        354,
+        410
+      ],
+      "outputSize": [
+        418,
+        474
+      ],
+      "sourceBBox": [
+        451,
+        16,
+        805,
+        426
+      ],
+      "pivot": [
+        209,
+        323
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "large-bullet-mount",
+      "id": "large-bullet-mount",
+      "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+      "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+      "record": "units/air-erekir-parts/assets/large-bullet-mount.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        311,
+        364
+      ],
+      "outputSize": [
+        375,
+        428
+      ],
+      "sourceBBox": [
+        877,
+        62,
+        1188,
+        426
+      ],
+      "pivot": [
+        190,
+        280
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "large-laser-mount",
+      "id": "large-laser-mount",
+      "file": "units/air-erekir-parts/assets/large-laser-mount.png",
+      "sha256": "afe2e74d3740bd8605d67c28dc5566ca5f07735499ef943040dea97bcef35489",
+      "record": "units/air-erekir-parts/assets/large-laser-mount.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        259,
+        401
+      ],
+      "outputSize": [
+        323,
+        465
+      ],
+      "sourceBBox": [
+        91,
+        432,
+        350,
+        833
+      ],
+      "pivot": [
+        161,
+        300
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "large-artillery",
+      "id": "large-artillery",
+      "file": "units/air-erekir-parts/assets/large-artillery.png",
+      "sha256": "81b0e21bc2bb971c9965dfb0fca539343445bf016a7120bad213276c3bcf80c2",
+      "record": "units/air-erekir-parts/assets/large-artillery.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        284,
+        325
+      ],
+      "outputSize": [
+        348,
+        389
+      ],
+      "sourceBBox": [
+        486,
+        510,
+        770,
+        835
+      ],
+      "pivot": [
+        174,
+        232
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "heal-weapon-mount",
+      "id": "heal-weapon-mount",
+      "file": "units/air-erekir-parts/assets/heal-weapon-mount.png",
+      "sha256": "96dec599b9b0772324084f25af738a8e8542cc79c16500e513ea672ee51ef34f",
+      "record": "units/air-erekir-parts/assets/heal-weapon-mount.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        250,
+        256
+      ],
+      "outputSize": [
+        314,
+        320
+      ],
+      "sourceBBox": [
+        917,
+        568,
+        1167,
+        824
+      ],
+      "pivot": [
+        160,
+        169
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "build-weapon",
+      "id": "build-weapon",
+      "file": "units/air-erekir-parts/assets/build-weapon.png",
+      "sha256": "b0ec57a71d75b833f3431fbb6eccd1c192aecf09b507a89c633b745477ce7adb",
+      "record": "units/air-erekir-parts/assets/build-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        262,
+        336
+      ],
+      "outputSize": [
+        326,
+        400
+      ],
+      "sourceBBox": [
+        91,
+        870,
+        353,
+        1206
+      ],
+      "pivot": [
+        161,
+        247
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "quell-weapon",
+      "id": "quell-weapon",
+      "file": "units/air-erekir-parts/assets/quell-weapon.png",
+      "sha256": "5f136f385541686ae8513dd0ab9154c8171c9a3908f3f0ff5611ccba683db312",
+      "record": "units/air-erekir-parts/assets/quell-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        344,
+        329
+      ],
+      "outputSize": [
+        408,
+        393
+      ],
+      "sourceBBox": [
+        455,
+        881,
+        799,
+        1210
+      ],
+      "pivot": [
+        204,
+        241
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "disrupt-weapon",
+      "id": "disrupt-weapon",
+      "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+      "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+      "record": "units/air-erekir-parts/assets/disrupt-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/01-air-weapons.png",
+        "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+        "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        412,
+        339
+      ],
+      "outputSize": [
+        476,
+        403
+      ],
+      "sourceBBox": [
+        825,
+        877,
+        1237,
+        1216
+      ],
+      "pivot": [
+        242,
+        255
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "stell-weapon",
+      "id": "stell-weapon",
+      "file": "units/air-erekir-parts/assets/stell-weapon.png",
+      "sha256": "a7a88552ae0f56ee085c31330eeb189d7996962d2cf5e0a174ac55ec84ec6b3d",
+      "record": "units/air-erekir-parts/assets/stell-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        203,
+        284
+      ],
+      "outputSize": [
+        267,
+        348
+      ],
+      "sourceBBox": [
+        80,
+        83,
+        283,
+        367
+      ],
+      "pivot": [
+        134,
+        224
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "locus-weapon",
+      "id": "locus-weapon",
+      "file": "units/air-erekir-parts/assets/locus-weapon.png",
+      "sha256": "bad4e625196b7c53022318ce06f67f5427ef2868e0785711b876980418036144",
+      "record": "units/air-erekir-parts/assets/locus-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        261,
+        306
+      ],
+      "outputSize": [
+        325,
+        370
+      ],
+      "sourceBBox": [
+        401,
+        66,
+        662,
+        372
+      ],
+      "pivot": [
+        159,
+        251
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "precept-weapon",
+      "id": "precept-weapon",
+      "file": "units/air-erekir-parts/assets/precept-weapon.png",
+      "sha256": "4f5b7455ff5f2dbfb6c4aa2e9b63b7dee99df528162586a9d656b571279fb47c",
+      "record": "units/air-erekir-parts/assets/precept-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        277,
+        359
+      ],
+      "outputSize": [
+        341,
+        423
+      ],
+      "sourceBBox": [
+        752,
+        35,
+        1029,
+        394
+      ],
+      "pivot": [
+        170,
+        272
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "vanquish-weapon",
+      "id": "vanquish-weapon",
+      "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+      "sha256": "ee4aa403fdc6d49fcd98e5d54c822b4142accd28a4ca11d77db93082e3c0db92",
+      "record": "units/air-erekir-parts/assets/vanquish-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        328,
+        400
+      ],
+      "outputSize": [
+        392,
+        464
+      ],
+      "sourceBBox": [
+        1095,
+        12,
+        1423,
+        412
+      ],
+      "pivot": [
+        192,
+        305
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "vanquish-point-weapon",
+      "id": "vanquish-point-weapon",
+      "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+      "sha256": "952b0b08dfef214bf7076bb863b04fc925d851e5fa99e0017ee2c737735b2674",
+      "record": "units/air-erekir-parts/assets/vanquish-point-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        194,
+        242
+      ],
+      "outputSize": [
+        258,
+        306
+      ],
+      "sourceBBox": [
+        84,
+        479,
+        278,
+        721
+      ],
+      "pivot": [
+        128,
+        173
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "conquer-weapon",
+      "id": "conquer-weapon",
+      "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+      "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+      "record": "units/air-erekir-parts/assets/conquer-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        363,
+        371
+      ],
+      "outputSize": [
+        427,
+        435
+      ],
+      "sourceBBox": [
+        343,
+        382,
+        706,
+        753
+      ],
+      "pivot": [
+        215,
+        265
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "merui-weapon",
+      "id": "merui-weapon",
+      "file": "units/air-erekir-parts/assets/merui-weapon.png",
+      "sha256": "c8e27f94c16f3f09c9bb582d00c95bb977fff207519544c786191acbbf0a34c2",
+      "record": "units/air-erekir-parts/assets/merui-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        240,
+        255
+      ],
+      "outputSize": [
+        304,
+        319
+      ],
+      "sourceBBox": [
+        771,
+        473,
+        1011,
+        728
+      ],
+      "pivot": [
+        153,
+        179
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "cleroi-weapon",
+      "id": "cleroi-weapon",
+      "file": "units/air-erekir-parts/assets/cleroi-weapon.png",
+      "sha256": "fe355adb4e525608d303b64bfa7953f7532c94251dfff122aea4f494966e9762",
+      "record": "units/air-erekir-parts/assets/cleroi-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        254,
+        303
+      ],
+      "outputSize": [
+        318,
+        367
+      ],
+      "sourceBBox": [
+        1133,
+        434,
+        1387,
+        737
+      ],
+      "pivot": [
+        159,
+        228
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "cleroi-point-defense",
+      "id": "cleroi-point-defense",
+      "file": "units/air-erekir-parts/assets/cleroi-point-defense.png",
+      "sha256": "402eac6f9696b214815232ee7a51e2d520b99528b170f509f019d631a5003c47",
+      "record": "units/air-erekir-parts/assets/cleroi-point-defense.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        173,
+        166
+      ],
+      "outputSize": [
+        237,
+        230
+      ],
+      "sourceBBox": [
+        95,
+        861,
+        268,
+        1027
+      ],
+      "pivot": [
+        117,
+        111
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "anthicus-weapon",
+      "id": "anthicus-weapon",
+      "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+      "sha256": "06415c55537275b01f51de7b183990fd4a6bc698e995209bed55191eabc4407e",
+      "record": "units/air-erekir-parts/assets/anthicus-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        233,
+        268
+      ],
+      "outputSize": [
+        297,
+        332
+      ],
+      "sourceBBox": [
+        407,
+        785,
+        640,
+        1053
+      ],
+      "pivot": [
+        151,
+        232
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "tecta-weapon",
+      "id": "tecta-weapon",
+      "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+      "sha256": "22a132f978d43a50be56de29860c5c2d39eef1e7045f039e3f12332f8deac35f",
+      "record": "units/air-erekir-parts/assets/tecta-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        293,
+        271
+      ],
+      "outputSize": [
+        357,
+        335
+      ],
+      "sourceBBox": [
+        747,
+        785,
+        1040,
+        1056
+      ],
+      "pivot": [
+        179,
+        202
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "collaris-weapon",
+      "id": "collaris-weapon",
+      "file": "units/air-erekir-parts/assets/collaris-weapon.png",
+      "sha256": "4ce7eb613dba05cd9c3914268995301985e426ded8d9a8375a88e1dc271aa474",
+      "record": "units/air-erekir-parts/assets/collaris-weapon.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+        "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+        "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        212,
+        314
+      ],
+      "outputSize": [
+        276,
+        378
+      ],
+      "sourceBBox": [
+        1155,
+        749,
+        1367,
+        1063
+      ],
+      "pivot": [
+        137,
+        248
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-short-upper",
+      "id": "leg-short-upper",
+      "file": "units/air-erekir-parts/assets/leg-short-upper.png",
+      "sha256": "2c1119478850802e55919429f3af1e8b0a534b69cf7f5e343ae9a1a73552517f",
+      "record": "units/air-erekir-parts/assets/leg-short-upper.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        111,
+        269
+      ],
+      "outputSize": [
+        175,
+        333
+      ],
+      "sourceBBox": [
+        130,
+        23,
+        241,
+        292
+      ],
+      "pivot": [
+        82,
+        64
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          82,
+          64
+        ],
+        [
+          86,
+          268
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-short-lower",
+      "id": "leg-short-lower",
+      "file": "units/air-erekir-parts/assets/leg-short-lower.png",
+      "sha256": "db84a2a497d1fbe9e208436bb8f8950916b2eafeb09daa6c65a774019d0f6efa",
+      "record": "units/air-erekir-parts/assets/leg-short-lower.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        102,
+        283
+      ],
+      "outputSize": [
+        166,
+        347
+      ],
+      "sourceBBox": [
+        475,
+        22,
+        577,
+        305
+      ],
+      "pivot": [
+        84,
+        61
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          84,
+          61
+        ],
+        [
+          84,
+          275
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "foot-short",
+      "id": "foot-short",
+      "file": "units/air-erekir-parts/assets/foot-short.png",
+      "sha256": "91f8858af28f88424979ea3c02a3387fc8c627ee1580cd9bce187b27062b304d",
+      "record": "units/air-erekir-parts/assets/foot-short.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        178,
+        247
+      ],
+      "outputSize": [
+        242,
+        311
+      ],
+      "sourceBBox": [
+        799,
+        63,
+        977,
+        310
+      ],
+      "pivot": [
+        119,
+        252
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-medium-upper",
+      "id": "leg-medium-upper",
+      "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+      "sha256": "111bfbc97e1b656e1c65099165f655ebe9576fb63f11c721cd27ed4d233d2000",
+      "record": "units/air-erekir-parts/assets/leg-medium-upper.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        146,
+        303
+      ],
+      "outputSize": [
+        210,
+        367
+      ],
+      "sourceBBox": [
+        1190,
+        11,
+        1336,
+        314
+      ],
+      "pivot": [
+        138,
+        69
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          138,
+          69
+        ],
+        [
+          136,
+          297
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-medium-lower",
+      "id": "leg-medium-lower",
+      "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+      "sha256": "0daf2f3585757c72aa5f579ae70131bf111fd1986f8e67a5ffdd74904a326ccb",
+      "record": "units/air-erekir-parts/assets/leg-medium-lower.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        134,
+        332
+      ],
+      "outputSize": [
+        198,
+        396
+      ],
+      "sourceBBox": [
+        116,
+        349,
+        250,
+        681
+      ],
+      "pivot": [
+        99,
+        59
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          99,
+          59
+        ],
+        [
+          97,
+          327
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "foot-medium",
+      "id": "foot-medium",
+      "file": "units/air-erekir-parts/assets/foot-medium.png",
+      "sha256": "26422925d2985feb3296351cf5903921d97e0b77bb6efd38f5928cb9a7b61cab",
+      "record": "units/air-erekir-parts/assets/foot-medium.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        263,
+        284
+      ],
+      "outputSize": [
+        327,
+        348
+      ],
+      "sourceBBox": [
+        402,
+        409,
+        665,
+        693
+      ],
+      "pivot": [
+        167,
+        285
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-heavy-upper",
+      "id": "leg-heavy-upper",
+      "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+      "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+      "record": "units/air-erekir-parts/assets/leg-heavy-upper.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        193,
+        344
+      ],
+      "outputSize": [
+        257,
+        408
+      ],
+      "sourceBBox": [
+        792,
+        341,
+        985,
+        685
+      ],
+      "pivot": [
+        159,
+        77
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          159,
+          77
+        ],
+        [
+          158,
+          340
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "leg-heavy-lower",
+      "id": "leg-heavy-lower",
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "record": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        188,
+        350
+      ],
+      "outputSize": [
+        252,
+        414
+      ],
+      "sourceBBox": [
+        1188,
+        334,
+        1376,
+        684
+      ],
+      "pivot": [
+        126,
+        57
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [
+        [
+          126,
+          57
+        ],
+        [
+          123,
+          340
+        ]
+      ],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "foot-heavy",
+      "id": "foot-heavy",
+      "file": "units/air-erekir-parts/assets/foot-heavy.png",
+      "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+      "record": "units/air-erekir-parts/assets/foot-heavy.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        309,
+        339
+      ],
+      "outputSize": [
+        373,
+        403
+      ],
+      "sourceBBox": [
+        30,
+        722,
+        339,
+        1061
+      ],
+      "pivot": [
+        184,
+        342
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "disrupt-tail",
+      "id": "disrupt-tail",
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "record": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        406,
+        319
+      ],
+      "outputSize": [
+        470,
+        383
+      ],
+      "sourceBBox": [
+        392,
+        735,
+        798,
+        1054
+      ],
+      "pivot": [
+        399,
+        70
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "hinge upper-right; single blade sweeps lower-left; mirror for opposite side",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "officialRegionAlias": "disrupt-weapon-blade",
+      "mappingNote": "Working art name only. Official movable part is Weapon RegionPart(\"-blade\"), not UnitType tail; reusable as a designed rear-wing piece.",
+      "visualReviewPassed": true
+    },
+    {
+      "region": "tecta-shield",
+      "id": "tecta-shield",
+      "file": "units/air-erekir-parts/assets/tecta-shield.png",
+      "sha256": "e6e7b08ee8cf7f96ef7eb909b2951c82ee7b7b63c4db45748bd54c892ccb8f58",
+      "record": "units/air-erekir-parts/assets/tecta-shield.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        289,
+        334
+      ],
+      "outputSize": [
+        353,
+        398
+      ],
+      "sourceBBox": [
+        821,
+        707,
+        1110,
+        1041
+      ],
+      "pivot": [
+        176,
+        200
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "alphaCorrection": [
+        {
+          "type": "make_existing_jade_shield_material_translucent",
+          "selector": "G > R+4 and B > R on retained shield pixels",
+          "alphaMax": 150,
+          "pixelsChanged": 45335,
+          "rgbUnchanged": true,
+          "goldFrameAndCentralPivotPreserved": true
+        }
+      ],
+      "translucentJadePixels": 46335,
+      "visualReviewPassed": true
+    },
+    {
+      "region": "track-strip",
+      "id": "track-strip",
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "record": "units/air-erekir-parts/assets/track-strip.png.derived.json",
+      "source": {
+        "file": "units/air-erekir-parts/source/03-motion-defense.png",
+        "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f",
+        "generationRecord": "units/air-erekir-parts/source/03-motion-defense.png.generation.json",
+        "imageRetained": false
+      },
+      "nativeExtractedSize": [
+        151,
+        371
+      ],
+      "outputSize": [
+        215,
+        435
+      ],
+      "sourceBBox": [
+        1214,
+        701,
+        1365,
+        1072
+      ],
+      "pivot": [
+        110,
+        219
+      ],
+      "pivotSpace": "output image pixels, top-left origin",
+      "pivotStatus": "estimated visual mounting axis; owner must register per unit",
+      "jointCenters": [],
+      "forward": "north",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "padding": 32,
+      "hiddenRgbPixels": 0,
+      "runtimeIntegrationVerified": false,
+      "status": "independent_part_art_verified_runtime_unverified",
+      "visualReviewPassed": true
+    }
+  ],
+  "resized": false,
+  "runtimeIntegrationVerified": false,
+  "usage": "Owner may downsample and register these independent pieces; never upsample while claiming native detail.",
+  "verification": "records/workers/air-erekir-parts/verification.json",
+  "finalContactSheets": [
+    "records/workers/air-erekir-parts/qa/01-air-weapons-contact.png",
+    "records/workers/air-erekir-parts/qa/02-ground-weapons-contact.png",
+    "records/workers/air-erekir-parts/qa/03-motion-defense-contact.png"
+  ],
+  "blockedRegions": [],
+  "integrationOwner": "units_air_erekir",
+  "officialMappingNote": "disrupt-tail is a working art name; official movement region alias is disrupt-weapon-blade. Shared leg/foot/track files are design reuse regions; final per-unit atlas mapping belongs to owner."
+}

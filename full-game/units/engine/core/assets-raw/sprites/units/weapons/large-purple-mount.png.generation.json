@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+  "sha256": "a94213138e03a822f196bdde36599b757ab3cd0433f50bb4bf710c66e02c867b",
+  "width": 70,
+  "height": 97,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-purple-artillery.png",
+      "sha256": "61606cf01e4429a6c94be7f52bf03b75688e853cbc09b4bdead3377b9e4b92f1",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-purple-artillery.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      327,
+      370
+    ],
+    "sourcePivot": [
+      171.5,
+      288.58
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      1
+    ],
+    "sourceDimensions": [
+      343,
+      386
+    ],
+    "targetDimensions": [
+      70,
+      97
+    ],
+    "officialAlphaBounds": [
+      20,
+      13,
+      49,
+      78
+    ],
+    "scale": 0.17426076748110647,
+    "engineAnchorPx": [
+      35.0,
+      48.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/large-purple-mount.png",
+    "gitBlobSha1": "4940a5b049a8c43de234be2a5e7c80699c7710d6",
+    "sha256": "475cc4cfcb55391378d3380ee232659a784f6c0fc875f1156b0f321ed3903e2b"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

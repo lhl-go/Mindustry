@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/pyratite-mixer.png",
+  "sourceGitBlob": "fa1d0beb29110ee38091960243d6bfcf886a3c6c",
+  "sourceSha256": "ff5b96959201d67e759710a1cec61bcdf823d1b2699515f466d7c43978a0ba0b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "pyratite-mixer",
+  "blockId": "pyratite-mixer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pyratite-mixer.png",
+  "sha256": "e478e536227ec9b6e2ff1a7678baf2965480767fcdec1211c674d8ed6b24e2eb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pyratite-mixer.png",
+  "engineSha256": "e478e536227ec9b6e2ff1a7678baf2965480767fcdec1211c674d8ed6b24e2eb",
+  "nativeFile": "full-game/blocks/masters/pyratite-mixer.png",
+  "nativeSha256": "18313f3642425b3bebade068ad93f416fe9490eeb1bceec1af095ca87d18fb23",
+  "nativeSize": [
+    346,
+    314
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pyratite-mixer.png",
+      "sha256": "18313f3642425b3bebade068ad93f416fe9490eeb1bceec1af095ca87d18fb23"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/pyratite-mixer.png",
+      "sha256": "ff5b96959201d67e759710a1cec61bcdf823d1b2699515f466d7c43978a0ba0b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pyratite-mixer.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

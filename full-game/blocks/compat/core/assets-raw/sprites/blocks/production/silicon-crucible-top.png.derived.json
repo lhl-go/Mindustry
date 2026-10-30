@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/silicon-crucible-top.png",
+  "sourceGitBlob": "36cc10b0898c488ce7f1d12662d042d2d2f49467",
+  "sourceSha256": "60ae604774c6a7d9418a5de99e38a1b3d302590ae288c5a185632203e117fcfd",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "silicon-crucible-top",
+  "blockId": "silicon-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible-top.png",
+  "sha256": "92ef87096dc2dab8adb96d248553620e35113b6d437ef572020ab02fa8daf252",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible-top.png",
+  "engineSha256": "92ef87096dc2dab8adb96d248553620e35113b6d437ef572020ab02fa8daf252",
+  "nativeFile": "full-game/blocks/masters/silicon-crucible.png",
+  "nativeSha256": "c29993c254a86cea707389ca990d268358df45f40eaa70e147e58db521ae87d5",
+  "nativeSize": [
+    404,
+    330
+  ],
+  "sourceAlphaBounds": [
+    22,
+    22,
+    74,
+    74
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/silicon-crucible.png",
+      "sha256": "c29993c254a86cea707389ca990d268358df45f40eaa70e147e58db521ae87d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/silicon-crucible-top.png",
+      "sha256": "60ae604774c6a7d9418a5de99e38a1b3d302590ae288c5a185632203e117fcfd"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

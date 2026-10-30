@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/sand-floor3.png",
+  "sha256": "c6e2a8a93e3128cdc449dbf32ab13c626f4740f02a58a0cf26c3e933eaeee743",
+  "createdAt": "2026-10-26T16:41:59.810992+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/01-basic-floors.png",
+      "sha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e",
+      "generationRecord": "full-game/terrain/source/01-basic-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      593,
+      1185,
+      885,
+      1476
+    ],
+    "nativeExtractedSize": [
+      292,
+      291
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 1.6230808523592812
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

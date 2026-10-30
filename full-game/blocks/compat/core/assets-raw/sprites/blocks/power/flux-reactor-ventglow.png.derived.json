@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/flux-reactor-ventglow.png",
+  "sourceGitBlob": "491e57cb2028ee7bfcb40843a39a5b7615ae841c",
+  "sourceSha256": "27564409d9d243f87dc0f93b7c7eb94946957850c1ddddaf0153deb37016a47a",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "flux-reactor-ventglow",
+  "blockId": "flux-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-ventglow.png",
+  "sha256": "0fc895d6be9592b61d98f857fc0c6b25a33807482585c6536b51820269358b55",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-ventglow.png",
+  "engineSha256": "0fc895d6be9592b61d98f857fc0c6b25a33807482585c6536b51820269358b55",
+  "nativeFile": "full-game/blocks/masters/flux-reactor.png",
+  "nativeSha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1",
+  "nativeSize": [
+    374,
+    322
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    152,
+    152
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/flux-reactor.png",
+      "sha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/flux-reactor-ventglow.png",
+      "sha256": "27564409d9d243f87dc0f93b7c7eb94946957850c1ddddaf0153deb37016a47a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor-ventglow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

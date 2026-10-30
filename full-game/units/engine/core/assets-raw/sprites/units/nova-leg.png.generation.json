@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-leg.png",
+  "sha256": "7b9c64195659e9206b3b3cc924effd9f56cde7132ff94115e21e9c483c869749",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      190,
+      476
+    ],
+    "sourcePivot": [
+      103.0,
+      80.4
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      32,
+      6
+    ],
+    "sourceDimensions": [
+      206,
+      492
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      32,
+      6,
+      44,
+      38
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/nova-leg.png",
+    "gitBlobSha1": "eaab48a296691cb7cb9724e518413ceae03fb53c",
+    "sha256": "4a4cbe2fd111689fce4e52603593b507b1851ad8c286abc557255b4f3a842cab"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

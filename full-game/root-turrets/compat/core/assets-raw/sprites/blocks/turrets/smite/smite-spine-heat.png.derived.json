@@ -1,0 +1,41 @@
+{
+  "region": "smite-spine-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-heat.png",
+  "sha256": "4fdc4a717846cd26b6f79acda06d22aedd804601c642d1c28eb15911669b72ea",
+  "size": [
+    130,
+    65
+  ],
+  "derivedAt": "2026-10-26T18:34:46.530619+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-spine-heat.png",
+      "sha256": "9fcc582343710ec56f26491582c250ac7b67bd7f28875c61187745e7add69bce",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-r.png",
+      "sha256": "0e74c00f424af3389dd77fc9f352f184ae5ff8ef1e26ea71aa0d7acb13c2e967",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-l.png",
+      "sha256": "0e74c00f424af3389dd77fc9f352f184ae5ff8ef1e26ea71aa0d7acb13c2e967",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "smite-spine-r",
+      "smite-spine-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 747
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

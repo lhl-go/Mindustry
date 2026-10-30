@@ -1,0 +1,36 @@
+{
+  "region": "cyclone-barrel-3",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone-barrel-3.png",
+  "sha256": "86e94ce7fff0dce91aa583e7a6c470ba712e09e3d835bd7ed0a49087fa49be8c",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.299122+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/cyclone-barrel-1.png",
+      "sha256": "f5c050c5e2505178e8d9651665e509908f5965794b5093dcdba0fc11507360b7",
+      "record": "full-game/root-turrets/masters/cyclone-barrel-1.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/cyclone/cyclone-barrel-3.png",
+      "sha256": "fc3a382cb8c923d3e306334b8bfdd838e866e8f227ab8a84d934e0de3ac58ce6",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "shared_barrel_fit_to_original_position",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      32,
+      8,
+      43,
+      27
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

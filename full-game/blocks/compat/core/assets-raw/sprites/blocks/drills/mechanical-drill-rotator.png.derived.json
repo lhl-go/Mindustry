@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/mechanical-drill-rotator.png",
+  "sourceGitBlob": "22326cc9bb1a9652c319ca4df5ac9640237d591f",
+  "sourceSha256": "18450c0703fc0289ed135c65b65f0db98b24497afbf7b9462a024524c79f1092",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "mechanical-drill-rotator",
+  "blockId": "mechanical-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-rotator.png",
+  "sha256": "424865fc8e2f9beac893e731c7f7ec727188b30eab09a8946e2f40a214f3b2bc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-rotator.png",
+  "engineSha256": "424865fc8e2f9beac893e731c7f7ec727188b30eab09a8946e2f40a214f3b2bc",
+  "nativeFile": "full-game/blocks/masters/mechanical-drill-rotator-part.png",
+  "nativeSha256": "6c2430b1e3d3cd425cf5112dff765a4761867a97974a6a688a47b7ef13ea7817",
+  "nativeSize": [
+    235,
+    232
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    60,
+    60
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mechanical-drill-rotator-part.png",
+      "sha256": "6c2430b1e3d3cd425cf5112dff765a4761867a97974a6a688a47b7ef13ea7817"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/mechanical-drill-rotator.png",
+      "sha256": "18450c0703fc0289ed135c65b65f0db98b24497afbf7b9462a024524c79f1092"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

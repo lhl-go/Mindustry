@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/sei-launcher.png",
+  "sha256": "f710d0fd54c637143ec376ba17d90e03279f683fa823d0717bbc70f9b2298425",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-missile-six.png",
+      "sha256": "9a328639c6dc12984fdfe390eab615585662f243e62bc08e06bf3a632b9ced49",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-six.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      301,
+      294
+    ],
+    "sourcePivot": [
+      158.5,
+      224.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      13,
+      1
+    ],
+    "sourceDimensions": [
+      317,
+      310
+    ],
+    "targetDimensions": [
+      80,
+      80
+    ],
+    "officialAlphaBounds": [
+      12,
+      11,
+      68,
+      67
+    ],
+    "scale": 0.18705035971223022,
+    "engineAnchorPx": [
+      40.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/sei-launcher.png",
+    "gitBlobSha1": "0b1e0b193277a29ecfb796dbb3c374ad9b82da50",
+    "sha256": "9c1dc7f0fcade8d9f2c500a3adedee2be604d530b21debd0d0670d76a68e618e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

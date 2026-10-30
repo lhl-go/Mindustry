@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+  "sourceGitBlob": "3d101b1403577cd2db1ad070b77b9350ace6134e",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+  "sha256": "693ac69f83432381acf45bb5f5a10e54ce77e9a78b449d6d34409a0453bab17e",
+  "sourceSize": [
+    64,
+    64
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/sectors/sector-atlas.png",
+      "sha256": "339dda773583d78c6def1b015a55eef280da27627cfb97db72f22f3c94e74793",
+      "record": "full-game/ui-system/sectors/sector-atlas.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "sector-atlas"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-joint.png",
+  "sha256": "c0ad08ed3f86dc2c43e7c9b19f80f4331d5c1031ab9a1b865785b0b1dbdc09e7",
+  "width": 26,
+  "height": 26,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-small.png",
+      "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+      "generationRecord": "full-game/units/parts/joint-cap-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      356,
+      267
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      2,
+      5
+    ],
+    "sourceDimensions": [
+      372,
+      283
+    ],
+    "targetDimensions": [
+      26,
+      26
+    ],
+    "officialAlphaBounds": [
+      2,
+      2,
+      24,
+      24
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      13.0,
+      13.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/atrax-joint.png",
+    "gitBlobSha1": "054879457bf737d6b302bb15932916d355b1b11e",
+    "sha256": "78052f414fe9ef66e8e7fe5d62e2ad3d5d3c10f7e1a7c4936f2777cef3a8ff20"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

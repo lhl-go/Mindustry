@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "liquid",
+  "file": "full-game/ui-system/icons/liquid.png",
+  "sha256": "2109c90a0ea1827042237d6c2f2c934d83c05e781c43c5f7c453edb37b4f8d7e",
+  "width": 212,
+  "height": 212,
+  "nativeCropPixels": [
+    141,
+    188
+  ],
+  "derivedAt": "2026-10-26T15:24:53.806250+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/02-files-map.png",
+    "sha256": "fafb4adc96a869927f79c3bde5640115cbc7db3afd209a244fbf976f5175a5d4",
+    "generationRecord": "full-game/ui-system/source/02-files-map.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 17,
+    "sourceBox": [
+      1320,
+      533,
+      1461,
+      721
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      35,
+      12
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

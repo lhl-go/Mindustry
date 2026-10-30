@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/beam-tower.png",
+  "sourceGitBlob": "74ade38fcd41cf53f64194304c9152059316edac",
+  "sourceSha256": "574d590b715720c0b36936b48a39c4e86816dce8744c7deca0a0752dccdc6120",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "beam-tower",
+  "blockId": "beam-tower",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-tower.png",
+  "sha256": "04d65f61b395d855720137e7bce5c1e74c199c50478a82a108b649353e67ef5a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-tower.png",
+  "engineSha256": "04d65f61b395d855720137e7bce5c1e74c199c50478a82a108b649353e67ef5a",
+  "nativeFile": "full-game/blocks/masters/beam-tower.png",
+  "nativeSha256": "da2650b046fb73bead373ed57df40168a2c6bd14142cd651c4ed8f8dbd30eae0",
+  "nativeSize": [
+    331,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/beam-tower.png",
+      "sha256": "da2650b046fb73bead373ed57df40168a2c6bd14142cd651c4ed8f8dbd30eae0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/beam-tower.png",
+      "sha256": "574d590b715720c0b36936b48a39c4e86816dce8744c7deca0a0752dccdc6120"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-tower.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/mech-refabricator.png",
+  "sha256": "6b7392233daf01e3a6daa9b793e87f9abe44ed86a8eb419189a72e788b008e5c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      750,
+      55,
+      1040,
+      354
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      290,
+      299
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    322,
+    331
+  ],
+  "anchorPixels": [
+    161.0,
+    165.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

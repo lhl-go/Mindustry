@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/vent-condenser.png",
+  "sha256": "a0386a9851a65823db9bf7a141faceeb446c079c63dcb6899a429ea7ff3cd7b8",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-reactors-02.png",
+      "sha256": "701a6e542270c724234dcd3bd16d40551c23b25e4c5c383b5722ad483b8de7b7",
+      "generationRecord": "full-game/blocks/records/power-reactors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      758,
+      758,
+      1030,
+      1048
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      272,
+      290
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    304,
+    322
+  ],
+  "anchorPixels": [
+    152.0,
+    161.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

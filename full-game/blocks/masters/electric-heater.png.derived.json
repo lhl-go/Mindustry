@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/electric-heater.png",
+  "sha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-heat-03.png",
+      "sha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "generationRecord": "full-game/blocks/records/production-heat-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      50,
+      71,
+      319,
+      340
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      269,
+      269
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    301,
+    301
+  ],
+  "anchorPixels": [
+    150.5,
+    150.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

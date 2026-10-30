@@ -1,0 +1,44 @@
+{
+  "region": "afflict-blade-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-r.png",
+  "sha256": "2343b4606e25ab0f1b81cece0e71edcfcdad1805ffdd2957657b97fab12bfd33",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.292532+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/afflict-blade-l.png",
+      "sha256": "be54eda36963250671653e2d37864e84fb4433c2d014d6c854a010f3781550cf",
+      "record": "full-game/root-turrets/masters/afflict-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/afflict/afflict-blade-r.png",
+      "sha256": "09b11ec66b07a7b7fc125f556a3c567de3b9d9cb11bef28d8090f7cb127b187f",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/afflict/afflict-blade-l.png",
+      "sha256": "7b5cb070d7736715061a7ccb32f37a358944a1c19059e3a586508ae7aafc0048",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      63,
+      8,
+      122,
+      108
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

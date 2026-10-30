@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-cell.png",
+  "sha256": "1506ab1065dd5f988850ba0d7267da1c0f2dfe8a9c16890962cb19f3f30741c1",
+  "width": 162,
+  "height": 162,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta.png",
+      "sha256": "811e7dbed4fbea97dc7a81082dc6cc74292551e3f8165d8b7940e98fb2f98ca4",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/tecta.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "tecta",
+    "baseCanvas": [
+      190,
+      162
+    ],
+    "outputCanvas": [
+      162,
+      162
+    ],
+    "centerRegistrationOffset": [
+      -14,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/tecta-cell.png",
+    "gitBlobSha1": "0fea687a7e591957ee4ad9fdee36f1d757bb4de6",
+    "sha256": "222763e3bd4d4f08e6141d87d92c8ea94dd274fe188d99758c866269ccb261d7"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

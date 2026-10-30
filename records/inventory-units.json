@@ -1,0 +1,5594 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-26T04:00:39-04:00",
+  "clientTimezone": "America/New_York",
+  "upstream": {
+    "repository": "https://github.com/Anuken/Mindustry",
+    "tag": "v160.7",
+    "releaseUrl": "https://github.com/Anuken/Mindustry/releases/tag/v160.7",
+    "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+    "commitEvidenceUrl": "https://github.com/Anuken/Mindustry/commit/17012d61d9e4c3cbd9820d87e81c24495486ac53"
+  },
+  "counts": {
+    "allInstantiatedUnitContentIds": 69,
+    "unitTypesJavaConstructors": 65,
+    "blocksJavaAdditionalMissiles": 4,
+    "regularPublicUnits": 56,
+    "factoryOrUpgradeUnits": 50,
+    "coreBuilderUnits": 6,
+    "buildingAutomaticDrones": 2,
+    "normalGameplayVisualUnits": 58,
+    "hiddenNeoplasmUnits": 2,
+    "sandboxTargetEntities": 1,
+    "internalBuildingProxies": 1,
+    "spawnedMissileEntities": 7,
+    "recommendedDistinctArtAssetMappings": 68,
+    "note": "68 excludes internal block proxy only; hidden, sandbox, projectiles are separate scopes, not final PNG count."
+  },
+  "groupCounts": {
+    "ground": {
+      "label": "地面",
+      "count": 21,
+      "unitIds": [
+        "dagger",
+        "mace",
+        "fortress",
+        "scepter",
+        "reign",
+        "crawler",
+        "atrax",
+        "spiroct",
+        "arkyid",
+        "toxopid",
+        "stell",
+        "locus",
+        "precept",
+        "vanquish",
+        "conquer",
+        "merui",
+        "cleroi",
+        "anthicus",
+        "tecta",
+        "collaris",
+        "elude"
+      ]
+    },
+    "air": {
+      "label": "空中",
+      "count": 9,
+      "unitIds": [
+        "flare",
+        "horizon",
+        "zenith",
+        "antumbra",
+        "eclipse",
+        "avert",
+        "obviate",
+        "quell",
+        "disrupt"
+      ]
+    },
+    "naval": {
+      "label": "海军",
+      "count": 10,
+      "unitIds": [
+        "risso",
+        "minke",
+        "bryde",
+        "sei",
+        "omura",
+        "retusa",
+        "oxynoe",
+        "cyerce",
+        "aegires",
+        "navanax"
+      ]
+    },
+    "builder": {
+      "label": "建造",
+      "count": 6,
+      "unitIds": [
+        "alpha",
+        "beta",
+        "gamma",
+        "evoke",
+        "incite",
+        "emanate"
+      ]
+    },
+    "support": {
+      "label": "辅助",
+      "count": 12,
+      "unitIds": [
+        "nova",
+        "pulsar",
+        "quasar",
+        "vela",
+        "corvus",
+        "mono",
+        "poly",
+        "mega",
+        "quad",
+        "oct",
+        "manifold",
+        "assembly-drone"
+      ]
+    },
+    "special": {
+      "label": "特殊",
+      "count": 11,
+      "unitIds": [
+        "anthicus-missile",
+        "quell-missile",
+        "disrupt-missile",
+        "renale",
+        "latum",
+        "block",
+        "dummy",
+        "scathe-missile",
+        "scathe-missile-phase",
+        "scathe-missile-surge",
+        "scathe-missile-surge-split"
+      ]
+    }
+  },
+  "interpretation": [
+    "ID 为构造器中的内容字符串，不是运行时数字 ID；assemblyDrone 的内容 ID 为 assembly-drone。",
+    "穷举 UnitTypes.load 的 65 个构造和 Blocks.load 的 4 个附加导弹构造；Bullets.java 未见 UnitType 构造。",
+    "分组为本项目排产口径：海军支援留在海军，地面／空中支援归辅助；建造核心单列。",
+    "elude 位于官方 Erekir 飞行系列，但 flying=false、hovering=true，按地面悬浮计数。",
+    "hidden 不代表没有画面：manifold、assembly-drone 有建筑宿主；dummy 用于沙盒标靶。",
+    "UnitTypes.missile 仅有 EntityDef 代码生成声明，无同名构造实例，不计第70个 ID。",
+    "legacy=true 属实体代码生成兼容，不表示已废弃兵种。",
+    "isEnemy 表示计入波次敌人统计，不等同固定阵营；effectiveFlags 为静态初始化推导，不是运行时补丁后值。",
+    "Latum/Renale 在中文包中仍为拉丁名；内部实体和导弹没有 name 键时保持 null，不自造官方译名。",
+    "58 个正常玩法视觉单位；dummy 沙盒目标、2 个隐藏生物、7 个弹体单列。69 不是可玩角色数或最终 PNG 数。",
+    "道家改编保留机关、灵兽、御器的功能与移动轮廓，不全部换成人像；每个 ID 独立文件，不能用简单放大换色替代。"
+  ],
+  "excludedDeclarations": [
+    {
+      "symbol": "UnitTypes.missile",
+      "reason": "EntityDef declaration only, no instantiated content ID.",
+      "evidence": {
+        "source": "UnitTypes.java",
+        "line": 89,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L89"
+      }
+    }
+  ],
+  "sources": {
+    "UnitTypes.java": {
+      "repositoryPath": "core/src/mindustry/content/UnitTypes.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/content/UnitTypes.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java",
+      "cache": "reference-unit-sources/UnitTypes.java",
+      "sha256": "0deee2e5ba342cd6e195a00586fa270e9ec368181c3bd38cec0bfa2d69016ae4"
+    },
+    "Blocks.java": {
+      "repositoryPath": "core/src/mindustry/content/Blocks.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/content/Blocks.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java",
+      "cache": "reference-unit-sources/Blocks.java",
+      "sha256": "27c59d95bc5cc7c82fc1dc20c7feee0db914014866e67e7ef990b9ccb3007d8b"
+    },
+    "Bullets.java": {
+      "repositoryPath": "core/src/mindustry/content/Bullets.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/content/Bullets.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Bullets.java",
+      "cache": "reference-unit-sources/Bullets.java",
+      "sha256": "e5242bfd4e9b3898e111580ab2b0e2e89503e0eebc5ea4cb1d1761c5e038e118"
+    },
+    "bundle_zh_CN.properties": {
+      "repositoryPath": "core/assets/bundles/bundle_zh_CN.properties",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/assets/bundles/bundle_zh_CN.properties",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties",
+      "cache": "reference-unit-sources/bundle_zh_CN.properties",
+      "sha256": "dc119562b2cffdcba4dd4c95d469f6007df1a893c5c41017f0613c89ccc6e0fb"
+    },
+    "UnitType.java": {
+      "repositoryPath": "core/src/mindustry/type/UnitType.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/type/UnitType.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/UnitType.java",
+      "cache": "reference-unit-sources/UnitType.java",
+      "sha256": "b9f75e66aab62bffbb1084012481ba9260f9f5acc78b7ec59a3ec3d3c89b57b0"
+    },
+    "MissileUnitType.java": {
+      "repositoryPath": "core/src/mindustry/type/unit/MissileUnitType.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/type/unit/MissileUnitType.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/unit/MissileUnitType.java",
+      "cache": "reference-unit-sources/MissileUnitType.java",
+      "sha256": "1d3fa20b5c529b93fbbbb0e9a03316526bec6e91b995bfe2c30c8e221df0c382"
+    },
+    "NeoplasmUnitType.java": {
+      "repositoryPath": "core/src/mindustry/type/unit/NeoplasmUnitType.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/type/unit/NeoplasmUnitType.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/unit/NeoplasmUnitType.java",
+      "cache": "reference-unit-sources/NeoplasmUnitType.java",
+      "sha256": "dc960b186f29e9f3e86ff8744ddd1d42858a56b5f94eee50152df9e8d042dd46"
+    },
+    "ErekirUnitType.java": {
+      "repositoryPath": "core/src/mindustry/type/unit/ErekirUnitType.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/type/unit/ErekirUnitType.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/unit/ErekirUnitType.java",
+      "cache": "reference-unit-sources/ErekirUnitType.java",
+      "sha256": "172b0ed68bccdb466a91811d469e7d0c1729a9076e41add1ac9203bb014f8926"
+    },
+    "TankUnitType.java": {
+      "repositoryPath": "core/src/mindustry/type/unit/TankUnitType.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/type/unit/TankUnitType.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/unit/TankUnitType.java",
+      "cache": "reference-unit-sources/TankUnitType.java",
+      "sha256": "237250a123af194a88fb959c49a4255673a7156150ab5218518dcd1a01488f15"
+    },
+    "SerpuloTechTree.java": {
+      "repositoryPath": "core/src/mindustry/content/SerpuloTechTree.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/content/SerpuloTechTree.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java",
+      "cache": "reference-unit-sources/SerpuloTechTree.java",
+      "sha256": "0aa0465f289d7070ede998adb4e93aba3cd05397bcf361209e332a0e00f87fb9"
+    },
+    "ErekirTechTree.java": {
+      "repositoryPath": "core/src/mindustry/content/ErekirTechTree.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/content/ErekirTechTree.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java",
+      "cache": "reference-unit-sources/ErekirTechTree.java",
+      "sha256": "95446b47adb2ac53869276b99a9ceaa75a094cf60ae58a5746f4a540670057f6"
+    },
+    "ContentLoader.java": {
+      "repositoryPath": "core/src/mindustry/core/ContentLoader.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/core/ContentLoader.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/core/ContentLoader.java",
+      "cache": "reference-unit-sources/ContentLoader.java",
+      "sha256": "ed0baa13c17444a0a55095260db1f49dc1d9e84b4178e379d1696a7bb5de20bd"
+    },
+    "UnitAssembler.java": {
+      "repositoryPath": "core/src/mindustry/world/blocks/units/UnitAssembler.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/world/blocks/units/UnitAssembler.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/units/UnitAssembler.java",
+      "cache": "reference-unit-sources/UnitAssembler.java",
+      "sha256": "4dafdd9d45409a9db427d0deae203a6a3067249c19e4540fdadb3d7f38c364f9"
+    },
+    "UnitCargoLoader.java": {
+      "repositoryPath": "core/src/mindustry/world/blocks/units/UnitCargoLoader.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/world/blocks/units/UnitCargoLoader.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/units/UnitCargoLoader.java",
+      "cache": "reference-unit-sources/UnitCargoLoader.java",
+      "sha256": "32f739bcb071724e856943be4501be3e08c3b6e287b8967f604883c96575cce9"
+    },
+    "TargetDummy.java": {
+      "repositoryPath": "core/src/mindustry/world/blocks/defense/TargetDummy.java",
+      "tag": "v160.7",
+      "url": "https://raw.githubusercontent.com/Anuken/Mindustry/v160.7/core/src/mindustry/world/blocks/defense/TargetDummy.java",
+      "browserUrl": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/defense/TargetDummy.java",
+      "cache": "reference-unit-sources/TargetDummy.java",
+      "sha256": "f06ac70d607a538507267272671f8e15e05a694b566b2f2ffd8ce58fdf9c638d"
+    }
+  },
+  "artFamilies": [
+    {
+      "id": "serpulo-ground-attack",
+      "label": "Serpulo 地面火力",
+      "unitIds": [
+        "dagger",
+        "mace",
+        "fortress",
+        "scepter",
+        "reign"
+      ],
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-ground-support",
+      "label": "Serpulo 地面支援",
+      "unitIds": [
+        "nova",
+        "pulsar",
+        "quasar",
+        "vela",
+        "corvus"
+      ],
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-ground-legs",
+      "label": "Serpulo 突击爬行",
+      "unitIds": [
+        "crawler",
+        "atrax",
+        "spiroct",
+        "arkyid",
+        "toxopid"
+      ],
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-air-attack",
+      "label": "Serpulo 空中火力",
+      "unitIds": [
+        "flare",
+        "horizon",
+        "zenith",
+        "antumbra",
+        "eclipse"
+      ],
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-air-support",
+      "label": "Serpulo 空中辅助",
+      "unitIds": [
+        "mono",
+        "poly",
+        "mega",
+        "quad",
+        "oct"
+      ],
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-naval-attack",
+      "label": "Serpulo 海军火力",
+      "unitIds": [
+        "risso",
+        "minke",
+        "bryde",
+        "sei",
+        "omura"
+      ],
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-naval-support",
+      "label": "Serpulo 海军支援",
+      "unitIds": [
+        "retusa",
+        "oxynoe",
+        "cyerce",
+        "aegires",
+        "navanax"
+      ],
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "serpulo-core",
+      "label": "Serpulo 核心建造",
+      "unitIds": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "artDirectionProposal": "御器建造机关；各型独立体量、工具及推进结构",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "erekir-tank",
+      "label": "Erekir 履带战车",
+      "unitIds": [
+        "stell",
+        "locus",
+        "precept",
+        "vanquish",
+        "conquer"
+      ],
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "erekir-mech",
+      "label": "Erekir 多足机甲",
+      "unitIds": [
+        "merui",
+        "cleroi",
+        "anthicus",
+        "tecta",
+        "collaris"
+      ],
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "erekir-air",
+      "label": "Erekir 悬浮／空中线",
+      "unitIds": [
+        "elude",
+        "avert",
+        "obviate",
+        "quell",
+        "disrupt"
+      ],
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "erekir-core",
+      "label": "Erekir 核心建造",
+      "unitIds": [
+        "evoke",
+        "incite",
+        "emanate"
+      ],
+      "artDirectionProposal": "维修御器与建造机关；载荷、光束和工程武器分别分层",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "building-drones",
+      "label": "建筑附属无人机",
+      "unitIds": [
+        "manifold",
+        "assembly-drone"
+      ],
+      "artDirectionProposal": "货运葫芦与装配浮器；货舱和装配工具独立",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    },
+    {
+      "id": "neoplasm-hidden",
+      "label": "隐藏 Neoplasm 生物",
+      "unitIds": [
+        "renale",
+        "latum"
+      ],
+      "artDirectionProposal": "分节瘴灵异兽；3 节小体与 4 节大体独立",
+      "separateFilesRequired": true,
+      "proposalApproved": false
+    }
+  ],
+  "units": [
+    {
+      "id": "dagger",
+      "officialNameZhCN": "尖刀",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1839,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1839"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 100,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L100",
+        "endLine": 119
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射标准子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2771,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2771"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-attack",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 350,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L350"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6305,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6305"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6347,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6347"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/dagger/dagger"
+    },
+    {
+      "id": "mace",
+      "officialNameZhCN": "战锤",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1840,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1840"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 121,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L121",
+        "endLine": 151
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人喷射火焰。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2772,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2772"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-attack",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 351,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L351"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6347,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6347"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6367,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6367"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/mace/mace"
+    },
+    {
+      "id": "fortress",
+      "officialNameZhCN": "堡垒",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1841,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1841"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 153,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L153",
+        "endLine": 188
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向地面敌人发射远程火炮。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2773,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2773"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-attack",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 352,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L352"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6367,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6367"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6390,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6390"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/fortress/fortress"
+    },
+    {
+      "id": "scepter",
+      "officialNameZhCN": "权杖",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1873,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1873"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 190,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L190",
+        "endLine": 289
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人快速发射带电子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2774,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2774"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-attack",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 353,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L353"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6390,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6390"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6412,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6412"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/scepter/scepter"
+    },
+    {
+      "id": "reign",
+      "officialNameZhCN": "王座",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1874,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1874"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 291,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L291",
+        "endLine": 352
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人快速发射大型穿透子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2775,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2775"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-attack",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "符甲机关卫；独立双足与枪炮轮廓",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 354,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L354"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6412,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6412"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/reign/reign"
+    },
+    {
+      "id": "nova",
+      "officialNameZhCN": "新星",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1842,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1842"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 357,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L357",
+        "endLine": 395
+      },
+      "explicitFlags": {
+        "canBoost": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 358,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L358"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": true,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射激光弹攻击敌人并修复己方建筑。能够助推。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2776,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2776"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support",
+        "boostable"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 361,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L361"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6307,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6307"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6346,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6346"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/nova/nova"
+    },
+    {
+      "id": "pulsar",
+      "officialNameZhCN": "恒星",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1843,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1843"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 397,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L397",
+        "endLine": 450
+      },
+      "explicitFlags": {
+        "canBoost": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 398,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L398"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": true,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射电弧攻击敌人并修复己方建筑。能够助推。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2777,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2777"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support",
+        "boostable"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 362,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L362"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6346,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6346"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6370,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6370"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/pulsar/pulsar"
+    },
+    {
+      "id": "quasar",
+      "officialNameZhCN": "耀星",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1844,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1844"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 452,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L452",
+        "endLine": 496
+      },
+      "explicitFlags": {
+        "canBoost": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 457,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L457"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": true,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射穿透性激光束攻击敌人并修复己方建筑。能够助推。拥有护盾。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2778,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2778"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support",
+        "boostable"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 363,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L363"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6370,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6370"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6393,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6393"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/quasar/quasar"
+    },
+    {
+      "id": "vela",
+      "officialNameZhCN": "灾星",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1875,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1875"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 498,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L498",
+        "endLine": 583
+      },
+      "explicitFlags": {
+        "canBoost": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 518,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L518"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": true,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射巨大的持续激光束攻击敌人并引起燃烧，修复己方建筑。能够助推。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2779,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2779"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support",
+        "boostable"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 364,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L364"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6393,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6393"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6415,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6415"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/vela/vela"
+    },
+    {
+      "id": "corvus",
+      "officialNameZhCN": "死星",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1876,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1876"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 585,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L585",
+        "endLine": 656
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 602,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L602"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射巨大的爆发激光束，摧毁敌人并修复己方建筑。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2780,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2780"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "玉莲阵法机关；独立修复光束、护盾及腿部结构",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 365,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L365"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6415,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6415"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/corvus/corvus"
+    },
+    {
+      "id": "crawler",
+      "officialNameZhCN": "爬虫",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1845,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1845"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 661,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L661",
+        "endLine": 699
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "冲向敌人并自毁，造成大范围爆炸。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2781,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2781"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-legs",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "biped_mech",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 374,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L374"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6306,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6306"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6348,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6348"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/crawler/crawler"
+    },
+    {
+      "id": "atrax",
+      "officialNameZhCN": "毒蛛",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1846,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1846"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 701,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L701",
+        "endLine": 742
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 718,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L718"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向地面目标发射削弱性的球状矿渣液。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2782,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2782"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-legs",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 375,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L375"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6348,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6348"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6371,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6371"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/atrax/atrax"
+    },
+    {
+      "id": "spiroct",
+      "officialNameZhCN": "血蛭",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1847,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1847"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 744,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L744",
+        "endLine": 808
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 755,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L755"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射弱化性的激光束，并在该过程中自我修复。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2783,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2783"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-legs",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 376,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L376"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6371,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6371"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6389,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6389"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/spiroct/spiroct"
+    },
+    {
+      "id": "arkyid",
+      "officialNameZhCN": "毒蛊",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1848,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1848"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 810,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L810",
+        "endLine": 912
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 837,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L837"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射大型激光束，并在该过程中自我修复。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2784,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2784"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-legs",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 377,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L377"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6389,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6389"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6411,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6411"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/arkyid/arkyid"
+    },
+    {
+      "id": "toxopid",
+      "officialNameZhCN": "天蝎",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1849,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1849"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 914,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L914",
+        "endLine": 1042
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 940,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L940"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射大型带电集束炮弹和穿透性激光。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2785,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2785"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-ground-legs",
+      "group": "ground",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "机关虫兽；爆破、毒液、吸能与重装多足分别制作",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 378,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L378"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6411,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6411"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/toxopid/toxopid"
+    },
+    {
+      "id": "flare",
+      "officialNameZhCN": "星辉",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1850,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1850"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1047,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1047",
+        "endLine": 1089
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1052,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1052"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射标准子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2786,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2786"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-attack",
+      "group": "air",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 388,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L388"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6317,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6317"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6349,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6349"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/flare/flare"
+    },
+    {
+      "id": "horizon",
+      "officialNameZhCN": "天垠",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1851,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1851"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1091,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1091",
+        "endLine": 1138
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1096,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1096"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向正下方的地面敌人投掷炸弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2787,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2787"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-attack",
+      "group": "air",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 389,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L389"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6349,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6349"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6366,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6366"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/horizon/horizon"
+    },
+    {
+      "id": "zenith",
+      "officialNameZhCN": "苍穹",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1852,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1852"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1140,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1140",
+        "endLine": 1185
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1145,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1145"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射多枚导弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2788,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2788"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-attack",
+      "group": "air",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 390,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L390"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6366,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6366"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6388,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6388"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/zenith/zenith"
+    },
+    {
+      "id": "antumbra",
+      "officialNameZhCN": "月影",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1853,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1853"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1187,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1187",
+        "endLine": 1261
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1192,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1192"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射密集的子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2789,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2789"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-attack",
+      "group": "air",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 391,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L391"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6388,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6388"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6410,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6410"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/antumbra/antumbra"
+    },
+    {
+      "id": "eclipse",
+      "officialNameZhCN": "日蚀",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1854,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1854"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1263,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1263",
+        "endLine": 1340
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1268,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1268"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射穿透性激光和爆炸性炮弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2790,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2790"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-attack",
+      "group": "air",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "飞鸢／灵禽机关；翼型、投弹口、导弹及重激光独立",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 392,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L392"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6410,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6410"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/eclipse/eclipse"
+    },
+    {
+      "id": "mono",
+      "officialNameZhCN": "独影",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1855,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1855"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1345,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1345",
+        "endLine": 1362
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1348,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1348"
+          }
+        },
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1356,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1356"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "自动开采铜和铅，并将其放入核心中。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2791,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2791"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 399,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L399"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6318,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6318"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6350,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6350"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/mono/mono"
+    },
+    {
+      "id": "poly",
+      "officialNameZhCN": "幻型",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1856,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1856"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1364,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1364",
+        "endLine": 1420
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1367,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1367"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "自动重建被摧毁的建筑，并协助其他单位进行建造。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2792,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2792"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 400,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L400"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6350,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6350"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6368,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6368"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/poly/poly"
+    },
+    {
+      "id": "mega",
+      "officialNameZhCN": "巨像",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1857,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1857"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1422,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1422",
+        "endLine": 1471
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1433,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1433"
+          }
+        },
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1440,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1440"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "自动修复受损建筑。能够携带建筑和小型地面单位。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2793,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2793"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 401,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L401"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6368,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6368"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6392,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6392"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/mega/mega"
+    },
+    {
+      "id": "quad",
+      "officialNameZhCN": "雷霆",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1858,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1858"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1473,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1473",
+        "endLine": 1545
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1481,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1481"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向地面目标投掷等离子炸弹，修复己方建筑并摧毁敌人。能够携带中型地面单位。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2794,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2794"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 402,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L402"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6392,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6392"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6414,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6414"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/quad/quad"
+    },
+    {
+      "id": "oct",
+      "officialNameZhCN": "要塞",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1859,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1859"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1547,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1547",
+        "endLine": 1572
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 1556,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1556"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "用它的再生护盾保护附近的己方单位。能够携带大多数地面单位。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2795,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2795"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-air-support",
+      "group": "support",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "采矿葫芦、修造浮器及护阵运载机关；独立工具与负载挂点",
+      "groupLabel": "辅助",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 403,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L403"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6414,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6414"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/oct/oct"
+    },
+    {
+      "id": "risso",
+      "officialNameZhCN": "梭鱼",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1860,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1860"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1577,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1577",
+        "endLine": 1636
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射一串导弹与子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2796,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2796"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-attack",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 413,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L413"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6328,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6328"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6351,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6351"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/risso/risso"
+    },
+    {
+      "id": "minke",
+      "officialNameZhCN": "飞鲨",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1861,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1861"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1638,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1638",
+        "endLine": 1698
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射炮弹和标准子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2797,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2797"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-attack",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 414,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L414"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6351,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6351"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6369,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6369"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/minke/minke"
+    },
+    {
+      "id": "bryde",
+      "officialNameZhCN": "戟鲸",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1862,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1862"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1700,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1700",
+        "endLine": 1796
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程炮弹和导弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2798,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2798"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-attack",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 415,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L415"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6369,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6369"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6391,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6391"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/bryde/bryde"
+    },
+    {
+      "id": "sei",
+      "officialNameZhCN": "蛟龙",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1863,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1863"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1798,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1798",
+        "endLine": 1890
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射一串导弹与穿甲弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2799,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2799"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-attack",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 416,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L416"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6391,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6391"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6413,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6413"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/sei/sei"
+    },
+    {
+      "id": "omura",
+      "officialNameZhCN": "海神",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1864,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1864"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1892,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1892",
+        "endLine": 1939
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程穿透轨道炮。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2800,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2800"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-attack",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "龙舟机关舰；各级独立船体、炮塔及水迹层",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 417,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L417"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6413,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6413"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/omura/omura"
+    },
+    {
+      "id": "retusa",
+      "officialNameZhCN": "潜螺",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1865,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1865"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 1943,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1943",
+        "endLine": 2049
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射追踪鱼雷，并修复己方单位。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2804,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2804"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-support",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 424,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L424"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6329,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6329"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6352,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6352"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/retusa/retusa"
+    },
+    {
+      "id": "oxynoe",
+      "officialNameZhCN": "电鳗",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1866,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1866"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2051,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2051",
+        "endLine": 2130
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射火焰束，并修复己方建筑。搭载一台单点防御炮塔，能够防御来袭的子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2805,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2805"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-support",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 425,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L425"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6352,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6352"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6372,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6372"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/oxynoe/oxynoe"
+    },
+    {
+      "id": "cyerce",
+      "officialNameZhCN": "江豚",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1867,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1867"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2132,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2132",
+        "endLine": 2271
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射追踪集束导弹，并修复己方单位。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2806,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2806"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-support",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 426,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L426"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6372,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6372"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6394,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6394"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/cyerce/cyerce"
+    },
+    {
+      "id": "aegires",
+      "officialNameZhCN": "玄武",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1868,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1868"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2273,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2273",
+        "endLine": 2323
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "产生能量场，使范围内的敌方建筑与单位受到电击，对己方则进行修复。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2807,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2807"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-support",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 427,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L427"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6394,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6394"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6416,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6416"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/aegires/aegires"
+    },
+    {
+      "id": "navanax",
+      "officialNameZhCN": "龙王",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1869,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1869"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2325,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2325",
+        "endLine": 2489
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "发射大型电磁爆弹，对敌方电网造成重大破坏，同时可修复友军建筑，压制敌方修复建筑。搭载4台自动激光炮台，能熔化靠近的敌人。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2808,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2808"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-naval-support",
+      "group": "naval",
+      "planet": "serpulo",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "玉螺／玄甲水上机关；治疗、点防御与压制装置独立",
+      "groupLabel": "海军",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "naval",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [
+        {
+          "source": "SerpuloTechTree.java",
+          "line": 428,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/SerpuloTechTree.java#L428"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6416,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6416"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/navanax/navanax"
+    },
+    {
+      "id": "alpha",
+      "officialNameZhCN": "阿尔法",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1870,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1870"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2494,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2494",
+        "endLine": 2543
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2496,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2496"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2500,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2500"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护初代核心，可建造建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2801,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2801"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-core",
+      "group": "builder",
+      "planet": "serpulo",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "御器建造机关；各型独立体量、工具及推进结构",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3150,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3150"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/alpha/alpha"
+    },
+    {
+      "id": "beta",
+      "officialNameZhCN": "贝塔",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1871,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1871"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2545,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2545",
+        "endLine": 2594
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2547,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2547"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2550,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2550"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护次代核心,可建造建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2802,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2802"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-core",
+      "group": "builder",
+      "planet": "serpulo",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "御器建造机关；各型独立体量、工具及推进结构",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3162,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3162"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/beta/beta"
+    },
+    {
+      "id": "gamma",
+      "officialNameZhCN": "伽马",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1872,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1872"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2596,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2596",
+        "endLine": 2649
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2598,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2598"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 2602,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2602"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护终代核心，可建造建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2803,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2803"
+      },
+      "artworkStatus": "not_started",
+      "family": "serpulo-core",
+      "group": "builder",
+      "planet": "serpulo",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "御器建造机关；各型独立体量、工具及推进结构",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3175,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3175"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/gamma/gamma"
+    },
+    {
+      "id": "stell",
+      "officialNameZhCN": "围护",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1878,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1878"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "TankUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2654,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2654",
+        "endLine": 2698
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射普通子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2811,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2811"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-tank",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "tracked_tank",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 315,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L315"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6452,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6452"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6496,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6496"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6563,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6563"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/stell/stell"
+    },
+    {
+      "id": "locus",
+      "officialNameZhCN": "循迹",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1879,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1879"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "TankUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2700,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2700",
+        "endLine": 2781
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人交替发射子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2812,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2812"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-tank",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "tracked_tank",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 328,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L328"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6496,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6496"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6552,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6552"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6564,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6564"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/locus/locus"
+    },
+    {
+      "id": "precept",
+      "officialNameZhCN": "准绳",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1880,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1880"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "TankUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2783,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2783",
+        "endLine": 2855
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射穿透性集束子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2813,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2813"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-tank",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "tracked_tank",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 337,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L337"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6552,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6552"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/precept/precept"
+    },
+    {
+      "id": "vanquish",
+      "officialNameZhCN": "征服",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1881,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1881"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "TankUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2857,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2857",
+        "endLine": 2967
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射大型穿透性分裂子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2814,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2814"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-tank",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "tracked_tank",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 344,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L344"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6563,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6563"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/vanquish/vanquish"
+    },
+    {
+      "id": "conquer",
+      "officialNameZhCN": "领主",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1882,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1882"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "TankUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 2969,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2969",
+        "endLine": 3148
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射大量大型穿透性子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2815,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2815"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-tank",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "玄甲履带机关；独立底盘与炮位，不以缩放代替升级",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "tracked_tank",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 345,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L345"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6564,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6564"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/conquer/conquer"
+    },
+    {
+      "id": "merui",
+      "officialNameZhCN": "天守",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1883,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1883"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3153,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3153",
+        "endLine": 3237
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3180,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3180"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向地面敌人发射远程火炮。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2816,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2816"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-mech",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 325,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L325"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6475,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6475"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6533,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6533"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6593,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6593"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/merui/merui"
+    },
+    {
+      "id": "cleroi",
+      "officialNameZhCN": "天赐",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1884,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1884"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3239,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3239",
+        "endLine": 3347
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3262,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3262"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射双发炮弹。搭载一台单点防御炮塔，能够防御来袭的子弹。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2817,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2817"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-mech",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 331,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L331"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6533,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6533"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6553,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6553"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6594,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6594"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/cleroi/cleroi"
+    },
+    {
+      "id": "anthicus",
+      "officialNameZhCN": "天灾",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1885,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1885"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3349,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3349",
+        "endLine": 3505
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3375,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3375"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程追踪导弹。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2818,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2818"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-mech",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 338,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L338"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6553,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6553"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/anthicus/anthicus"
+    },
+    {
+      "id": "anthicus-missile",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3465,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3465",
+        "endLine": 3502
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "anthicus",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/anthicus-missile/anthicus-missile"
+    },
+    {
+      "id": "tecta",
+      "officialNameZhCN": "天理",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1886,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1886"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3507,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3507",
+        "endLine": 3613
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3554,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3554"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射等离子追踪导弹。用它前方的护盾保护自己。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2819,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2819"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-mech",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 359,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L359"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6593,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6593"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/tecta/tecta"
+    },
+    {
+      "id": "collaris",
+      "officialNameZhCN": "天帝",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1887,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1887"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3615,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3615",
+        "endLine": 3784
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3647,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3647"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程分裂火炮。可以跨越大多数地形。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2820,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2820"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-mech",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "阵甲多足灵械；独立足肢、反导、导弹、盾向与火炮",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "multi_leg",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 360,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L360"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6594,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6594"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/collaris/collaris"
+    },
+    {
+      "id": "elude",
+      "officialNameZhCN": "挣脱",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1888,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1888"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3789,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3789",
+        "endLine": 3856
+      },
+      "explicitFlags": {
+        "hovering": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3790,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3790"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": true,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射螺旋状追踪子弹。可以在液体上悬浮。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2821,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2821"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-air",
+      "group": "ground",
+      "planet": "erekir",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "groupLabel": "地面",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "hover_ground_over_liquids",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 322,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L322"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6464,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6464"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6513,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6513"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6578,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6578"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/elude/elude"
+    },
+    {
+      "id": "avert",
+      "officialNameZhCN": "遮蔽",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1889,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1889"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3858,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3858",
+        "endLine": 3921
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3860,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3860"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射螺旋状扭曲子弹。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2822,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2822"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-air",
+      "group": "air",
+      "planet": "erekir",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 334,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L334"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6513,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6513"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6554,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6554"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6579,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6579"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/avert/avert"
+    },
+    {
+      "id": "obviate",
+      "officialNameZhCN": "消散",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1890,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1890"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 3923,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3923",
+        "endLine": 4042
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 3924,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3924"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射螺旋状闪电球。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2823,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2823"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-air",
+      "group": "air",
+      "planet": "erekir",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 339,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L339"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6554,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6554"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/obviate/obviate"
+    },
+    {
+      "id": "quell",
+      "officialNameZhCN": "遏止",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1891,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1891"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4044,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4044",
+        "endLine": 4147
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4049,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4049"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程追踪导弹。能够压制敌方修复建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2824,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2824"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-air",
+      "group": "air",
+      "planet": "erekir",
+      "tierOrSequence": 4,
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 351,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L351"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6578,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6578"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/quell/quell"
+    },
+    {
+      "id": "quell-missile",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4115,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4115",
+        "endLine": 4138
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "quell",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/quell-missile/quell-missile"
+    },
+    {
+      "id": "disrupt",
+      "officialNameZhCN": "悲怆",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1892,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1892"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4149,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4149",
+        "endLine": 4304
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4154,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4154"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "向敌人发射远程压制性追踪导弹。能够压制敌方修复建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2825,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2825"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-air",
+      "group": "air",
+      "planet": "erekir",
+      "tierOrSequence": 5,
+      "artDirectionProposal": "悬浮符舟至压制飞舟；elude 悬浮底盘与其余飞行单位分开",
+      "groupLabel": "空中",
+      "availability": "regular_factory_or_upgrade",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [
+        {
+          "source": "ErekirTechTree.java",
+          "line": 352,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/ErekirTechTree.java#L352"
+        }
+      ],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 6579,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6579"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/disrupt/disrupt"
+    },
+    {
+      "id": "disrupt-missile",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4236,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4236",
+        "endLine": 4296
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "disrupt",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/disrupt-missile/disrupt-missile"
+    },
+    {
+      "id": "renale",
+      "officialNameZhCN": "Renale",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1899,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1899"
+      },
+      "nameIsUntranslatedLatin": true,
+      "javaClass": "NeoplasmUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4309,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4309",
+        "endLine": 4327
+      },
+      "explicitFlags": {
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4318,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4318"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "neoplasm-hidden",
+      "group": "special",
+      "planet": "hidden",
+      "tierOrSequence": null,
+      "artDirectionProposal": "分节瘴灵异兽；3 节小体与 4 节大体独立",
+      "groupLabel": "特殊",
+      "availability": "hidden_no_regular_production",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "segmented_crawler",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "hidden_content_separate_scope",
+      "proposedFileStem": "units/hidden/renale/renale"
+    },
+    {
+      "id": "latum",
+      "officialNameZhCN": "Latum",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1898,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1898"
+      },
+      "nameIsUntranslatedLatin": true,
+      "javaClass": "NeoplasmUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4329,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4329",
+        "endLine": 4347
+      },
+      "explicitFlags": {
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4337,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4337"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "neoplasm-hidden",
+      "group": "special",
+      "planet": "hidden",
+      "tierOrSequence": null,
+      "artDirectionProposal": "分节瘴灵异兽；3 节小体与 4 节大体独立",
+      "groupLabel": "特殊",
+      "availability": "hidden_no_regular_production",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "segmented_crawler",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "hidden_content_separate_scope",
+      "proposedFileStem": "units/hidden/latum/latum"
+    },
+    {
+      "id": "evoke",
+      "officialNameZhCN": "苏醒",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1893,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1893"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4354,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4354",
+        "endLine": 4418
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4357,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4357"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4367,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4367"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护城堡核心，可建造建筑。使用激光束修复建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2826,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2826"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-core",
+      "group": "builder",
+      "planet": "erekir",
+      "tierOrSequence": 1,
+      "artDirectionProposal": "维修御器与建造机关；载荷、光束和工程武器分别分层",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3190,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3190"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/evoke/evoke"
+    },
+    {
+      "id": "incite",
+      "officialNameZhCN": "策动",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1894,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1894"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4420,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4420",
+        "endLine": 4497
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4423,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4423"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4433,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4433"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护堡垒核心，可建造建筑。使用激光束修复建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2827,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2827"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-core",
+      "group": "builder",
+      "planet": "erekir",
+      "tierOrSequence": 2,
+      "artDirectionProposal": "维修御器与建造机关；载荷、光束和工程武器分别分层",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3210,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3210"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/incite/incite"
+    },
+    {
+      "id": "emanate",
+      "officialNameZhCN": "发散",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1895,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1895"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4499,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4499",
+        "endLine": 4567
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4502,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4502"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4512,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4512"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": false,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": "保护卫城核心，可建造建筑。使用一对激光束修复建筑。",
+      "descriptionEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 2828,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L2828"
+      },
+      "artworkStatus": "not_started",
+      "family": "erekir-core",
+      "group": "builder",
+      "planet": "erekir",
+      "tierOrSequence": 3,
+      "artDirectionProposal": "维修御器与建造机关；载荷、光束和工程武器分别分层",
+      "groupLabel": "建造",
+      "availability": "core_spawn",
+      "isRegularPublicUnit": true,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "Blocks.java",
+          "line": 3228,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L3228"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/emanate/emanate"
+    },
+    {
+      "id": "block",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4572,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4572",
+        "endLine": 4580
+      },
+      "explicitFlags": {
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4578,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4578"
+          }
+        },
+        "internal": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4579,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4579"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": true,
+        "internalGenerateSprites": false,
+        "playerControllable": true,
+        "logicControllable": true,
+        "isEnemy": true,
+        "flying": false,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "internal-special",
+      "group": "special",
+      "planet": "system",
+      "tierOrSequence": null,
+      "artDirectionProposal": "dummy 用机关标靶；block 不设计独立人物",
+      "groupLabel": "特殊",
+      "availability": "internal_building_proxy",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "stationary_proxy",
+      "parentWeaponOrEntity": null,
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": false,
+      "artScope": "integration_mapping_only",
+      "proposedFileStem": null
+    },
+    {
+      "id": "manifold",
+      "officialNameZhCN": "货运无人机",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1896,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1896"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4582,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4582",
+        "endLine": 4607
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4584,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4584"
+          }
+        },
+        "logicControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4586,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4586"
+          }
+        },
+        "playerControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4587,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4587"
+          }
+        },
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4592,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4592"
+          }
+        },
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4602,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4602"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": true
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "building-drones",
+      "group": "support",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "货运葫芦与装配浮器；货舱和装配工具独立",
+      "groupLabel": "辅助",
+      "availability": "building_tethered_automatic",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "UnitCargoLoader.java",
+          "line": 24,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/units/UnitCargoLoader.java#L24"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/manifold/manifold"
+    },
+    {
+      "id": "assembly-drone",
+      "officialNameZhCN": "装配无人机",
+      "nameEvidence": {
+        "source": "bundle_zh_CN.properties",
+        "line": 1897,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/assets/bundles/bundle_zh_CN.properties#L1897"
+      },
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "ErekirUnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4609,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4609",
+        "endLine": 4633
+      },
+      "explicitFlags": {
+        "flying": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4612,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4612"
+          }
+        },
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4624,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4624"
+          }
+        },
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4625,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4625"
+          }
+        },
+        "useUnitCap": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4626,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4626"
+          }
+        },
+        "logicControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4627,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4627"
+          }
+        },
+        "playerControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4628,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4628"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "building-drones",
+      "group": "support",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "货运葫芦与装配浮器；货舱和装配工具独立",
+      "groupLabel": "辅助",
+      "availability": "building_tethered_automatic",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": true,
+      "mobility": "flying",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "support"
+      ],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "UnitAssembler.java",
+          "line": 47,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/units/UnitAssembler.java#L47"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "gameplay_unit_asset",
+      "proposedFileStem": "units/assembly-drone/assembly-drone"
+    },
+    {
+      "id": "dummy",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "UnitType",
+      "definition": {
+        "source": "UnitTypes.java",
+        "line": 4635,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4635",
+        "endLine": 4669
+      },
+      "explicitFlags": {
+        "isEnemy": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4640,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4640"
+          }
+        },
+        "logicControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4642,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4642"
+          }
+        },
+        "playerControllable": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4643,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4643"
+          }
+        },
+        "hidden": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4644,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4644"
+          }
+        },
+        "canBoost": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4646,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4646"
+          }
+        },
+        "useUnitCap": {
+          "value": false,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4647,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4647"
+          }
+        },
+        "internal": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4650,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4650"
+          }
+        },
+        "internalGenerateSprites": {
+          "value": true,
+          "evidence": {
+            "source": "UnitTypes.java",
+            "line": 4651,
+            "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4651"
+          }
+        }
+      },
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": true,
+        "internalGenerateSprites": true,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": false,
+        "hovering": false,
+        "canBoost": true,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "internal-special",
+      "group": "special",
+      "planet": "system",
+      "tierOrSequence": null,
+      "artDirectionProposal": "dummy 用机关标靶；block 不设计独立人物",
+      "groupLabel": "特殊",
+      "availability": "sandbox_target_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "sandbox_ground_or_flying_configurable",
+      "parentWeaponOrEntity": null,
+      "roleTags": [
+        "boostable"
+      ],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [
+        {
+          "source": "TargetDummy.java",
+          "line": 28,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/world/blocks/defense/TargetDummy.java#L28"
+        },
+        {
+          "source": "Blocks.java",
+          "line": 6806,
+          "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L6806"
+        }
+      ],
+      "independentArtRequired": true,
+      "artScope": "sandbox_target_asset",
+      "proposedFileStem": "units/special/dummy/dummy"
+    },
+    {
+      "id": "scathe-missile",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5257,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5257",
+        "endLine": 5335
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "scathe",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/scathe-missile/scathe-missile"
+    },
+    {
+      "id": "scathe-missile-phase",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5345,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5345",
+        "endLine": 5439
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "scathe",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/scathe-missile-phase/scathe-missile-phase"
+    },
+    {
+      "id": "scathe-missile-surge",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5450,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5450",
+        "endLine": 5571
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "scathe",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/scathe-missile-surge/scathe-missile-surge"
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "officialNameZhCN": null,
+      "nameEvidence": null,
+      "nameIsUntranslatedLatin": false,
+      "javaClass": "MissileUnitType",
+      "definition": {
+        "source": "Blocks.java",
+        "line": 5506,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5506",
+        "endLine": 5559
+      },
+      "explicitFlags": {},
+      "effectiveFlags": {
+        "hidden": true,
+        "internal": false,
+        "internalGenerateSprites": false,
+        "playerControllable": false,
+        "logicControllable": false,
+        "isEnemy": false,
+        "flying": true,
+        "hovering": false,
+        "canBoost": false,
+        "useUnitCap": false
+      },
+      "officialDescriptionZhCN": null,
+      "descriptionEvidence": null,
+      "artworkStatus": "not_started",
+      "family": "missile-entities",
+      "group": "special",
+      "planet": "erekir",
+      "tierOrSequence": null,
+      "artDirectionProposal": "符箓飞梭／法器弹体，保持母武器辨识",
+      "groupLabel": "特殊",
+      "availability": "spawned_missile_entity",
+      "isRegularPublicUnit": false,
+      "normalGameplayVisualUnit": false,
+      "mobility": "flying",
+      "parentWeaponOrEntity": "scathe-missile-surge",
+      "roleTags": [],
+      "techTreeEvidence": [],
+      "productionOrOwnerReferences": [],
+      "independentArtRequired": true,
+      "artScope": "projectile_and_effect_asset",
+      "proposedFileStem": "units/projectiles/scathe-missile-surge-split/scathe-missile-surge-split"
+    }
+  ],
+  "unresolved": [
+    "未启动客户端或加载 Mod／数据补丁，未确认运行时数字 ID。",
+    "未逐个核对 atlas region、像素尺寸、旋转锚点、武器/腿/负载层与动画帧；本清单不能代表美术交付完成。",
+    "Neoplasm 两单位在核查的工厂、核心、科技树没有常规获取入口；是否启用隐藏内容与沙盒标靶需按项目功能范围决定。",
+    "原创设计方向未批准为正式角色文案；已有道童概念稿不可抵扣原单位完成数量。",
+    "REST tag 元数据请求连接中断，tag→commit 改由官方发布页的提交链接确认。"
+  ],
+  "validation": {
+    "unique69Ids": true,
+    "regularPublic56": true,
+    "normalGameplay58": true,
+    "allRegularUnitsLocalized": true,
+    "allFactoryUnitsHaveTechTreeEvidence": true,
+    "allNormalGameplayUnitsHaveProductionOrOwnerEvidence": true,
+    "ownInitializerFlagsOnly": true,
+    "noImagesGenerated": true
+  }
+}

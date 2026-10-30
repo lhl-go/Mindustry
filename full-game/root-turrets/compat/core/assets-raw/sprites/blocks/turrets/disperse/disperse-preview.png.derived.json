@@ -1,0 +1,48 @@
+{
+  "region": "disperse-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-preview.png",
+  "sha256": "124d5ec3f7b2f5957a425b599ef537c1050333d233e3f14229292a9c7b8410cd",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.579721+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-side-l.png",
+      "sha256": "d8962dbd275bd87e8ac1a7c2388b932e0c3b7801728c2d615f9f0609858e90cf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-side-r.png",
+      "sha256": "d8962dbd275bd87e8ac1a7c2388b932e0c3b7801728c2d615f9f0609858e90cf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-side-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-l.png",
+      "sha256": "a140ea0d31bff89c710c6d6542b165a977fdcd4af1cf70343cf75b84f0af3a09",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-r.png",
+      "sha256": "a140ea0d31bff89c710c6d6542b165a977fdcd4af1cf70343cf75b84f0af3a09",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-mid.png",
+      "sha256": "43141cf5c3f57b29d183e6df9f419239a323107f3c20dc372f716c730fb97892",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

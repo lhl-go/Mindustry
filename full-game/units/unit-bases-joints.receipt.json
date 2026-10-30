@@ -1,0 +1,31 @@
+{
+  "stem": "unit-bases-joints",
+  "names": [
+    "mech-base-small",
+    "mech-base-heavy",
+    "crawler-base-plate",
+    "joint-cap-small",
+    "joint-cap-heavy",
+    "joint-socket"
+  ],
+  "cols": 3,
+  "rows": 2,
+  "args": {
+    "prompt": "Game-ready top-down mechanical UNDERBODY parts, SIX isolated components in a strict invisible3 columns by2 rows grid, requested1536x1024, transparent RGBA. Follow both attached Daoist Q handpainted style refs, jade-green, ivory ceramic, finely brushed warm gold, rounded substantial clean detail. True 90-degree overhead orthographic camera, NO vertical side faces, no perspective, no feet, legs, weapons or characters. Row1 left: a small compact low-profile octagonal hip swivel base, solid jade center, gold rim, two side lugs; middle: a broad heavy armored oval hip undercarriage with two overlapping ivory-jade plates and subtle gold rivets, solid center, no turret; right: a compact six-lobed crawler mounting chassis with jade center and six short gold attachment tabs, no legs. Row2 left: small round hinge CAP, fully complete circular rim, solid jade lens center, two very short gold side pins; middle: large thick octagonal hinge CAP with ivory jade center, double gold ring, four pins; right: complete diamond-shaped armored JOINT SOCKET base, gold corners, ivory/jade center, inset circular gold swivel. All parts have COMPLETE solid underpaint, no missing back halves, no holes or transparency inside center. Entire silhouette must remain within own cell with20% empty margins. No text, names, grid, background, floor, shadow or scene. Each component can be independently layered under existing units and limbs.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26T18:32:10.468Z",
+  "returnedAt": "2026-10-26T18:33:36.453Z",
+  "tool": "image_gen.imagegen",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-d3a42a9d-4d4e-42d6-aa78-41a8ca66d4cb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/plastanium-compressor.png",
+  "sourceGitBlob": "fa43d0b2c3f9895f941342f17e9d44b386f8906f",
+  "sourceSha256": "165d198d2974743a796a621a21e803517dc436cdb7401942a042dba966154aa5",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "plastanium-compressor",
+  "blockId": "plastanium-compressor",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor.png",
+  "sha256": "f02314f1fec2d8579ccf26a454f187ce4ac0b324daf15a65b72036d4b2404594",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor.png",
+  "engineSha256": "f02314f1fec2d8579ccf26a454f187ce4ac0b324daf15a65b72036d4b2404594",
+  "nativeFile": "full-game/blocks/masters/plastanium-compressor.png",
+  "nativeSha256": "6cc1997b0c00bb622d0c38c4ed3336cfdaf6119e52956ffa94e19ece1fd23605",
+  "nativeSize": [
+    342,
+    334
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plastanium-compressor.png",
+      "sha256": "6cc1997b0c00bb622d0c38c4ed3336cfdaf6119e52956ffa94e19ece1fd23605"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/plastanium-compressor.png",
+      "sha256": "165d198d2974743a796a621a21e803517dc436cdb7401942a042dba966154aa5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

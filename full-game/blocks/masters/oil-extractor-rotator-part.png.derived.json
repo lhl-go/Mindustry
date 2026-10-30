@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/oil-extractor-rotator-part.png",
+  "sha256": "a6ab5320ca70f45c1a3cbd1eba01ef5ca1b9b697eb7bf8954d5fa845455d1245",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      408,
+      300,
+      680,
+      535
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      272,
+      235
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    304,
+    267
+  ],
+  "anchorPixels": [
+    152.0,
+    133.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

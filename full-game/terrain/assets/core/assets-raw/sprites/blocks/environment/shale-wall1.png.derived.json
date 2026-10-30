@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/shale-wall1.png",
+  "sha256": "b1d5dfa334dc31184575a8e65c1a663c8f275feec7d178ed944b70d5831e0689",
+  "createdAt": "2026-10-26T18:07:39.655403+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/13-cold-living-wall-tops.png",
+      "sha256": "bb9036da8b60ff1bbb18699159fa7c6256f5cf6507301bfe3dc1dc3ccea1aec8",
+      "generationRecord": "full-game/terrain/source/13-cold-living-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      799,
+      266,
+      1072
+    ],
+    "nativeExtractedSize": [
+      264,
+      273
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 12.261796119532603
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

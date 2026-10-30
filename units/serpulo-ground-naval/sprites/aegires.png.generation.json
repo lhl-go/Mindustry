@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/aegires.png",
+  "sha256": "6ddf9298d8fcdf036facbabdee237cae09c0e990270630e33e3bfb2cf4570a6e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/aegires-body.png",
+      "sha256": "1a05fa676247d7b541cff832ca1cdae48a549ab18fa6d8cae0b476bceb39cb55",
+      "generationRecord": "units/serpulo-root-parts/layers/aegires-body.png.derived.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+      "sha256": "6a5df320b38727eba02d7542d47b4a193026708c8fd66f55e1eaac306fb9b4a5",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      838,
+      821,
+      1363,
+      1379
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-root-parts/layers/aegires-body.png",
+        "generationRecord": "units/serpulo-root-parts/layers/aegires-body.png.derived.json",
+        "sourceAnchorPx": [
+          270.5,
+          287.0
+        ],
+        "targetAnchorPx": [
+          262,
+          279
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          -8,
+          -8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+        "sourceAnchorPx": [
+          109.0,
+          191.5
+        ],
+        "targetAnchorPx": [
+          99.7,
+          451.2
+        ],
+        "scale": [
+          0.44495412844036697,
+          0.4473684210526316
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          51,
+          366
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+        "sourceAnchorPx": [
+          109.0,
+          191.5
+        ],
+        "targetAnchorPx": [
+          424.3,
+          451.2
+        ],
+        "scale": [
+          0.44495412844036697,
+          0.4473684210526316
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          376,
+          366
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+        "sourceAnchorPx": [
+          109.0,
+          191.5
+        ],
+        "targetAnchorPx": [
+          99.7,
+          175.68
+        ],
+        "scale": [
+          0.44495412844036697,
+          0.4473684210526316
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          51,
+          90
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+        "sourceAnchorPx": [
+          109.0,
+          191.5
+        ],
+        "targetAnchorPx": [
+          424.3,
+          175.68
+        ],
+        "scale": [
+          0.44495412844036697,
+          0.4473684210526316
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          376,
+          90
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 525,
+    "height": 558,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 127772,
+    "opaquePixelCount": 159812,
+    "partialPixelCount": 5366,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      501,
+      534
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "aegires",
+    "sha256": "6ddf9298d8fcdf036facbabdee237cae09c0e990270630e33e3bfb2cf4570a6e",
+    "size": [
+      525,
+      558
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/graphitic-wall3.png",
+  "sha256": "652f110ff70459edad40159398f2145993c049c0db9a4b9d988b2e40360e3506",
+  "createdAt": "2026-10-26T18:25:54.541147+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/15-special-wall-tops.png",
+      "sha256": "27479126c7f26b250744e93aa7ab6cdbd09daf55abbef82e3ddf05b9c691e759",
+      "generationRecord": "full-game/terrain/source/15-special-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      514,
+      258,
+      766,
+      510
+    ],
+    "nativeExtractedSize": [
+      252,
+      252
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.6654636000551966
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

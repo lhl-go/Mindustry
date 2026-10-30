@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/root-turrets/source/05-regions.png",
+  "sha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T13:49:06-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/root-turrets/reference/guide-05.png"
+    ],
+    "prompt": "High-detail game sprite sheet requested1536x1024, exactly4columns3rows, true transparent background. Repaint precisely the 12 reference3 isolated turret regions in the identical grid using Daoist Q hand-painted jade/ivory/gold/slate style fromrefs1-2. Strict orthographic top down, not perspective; preserve proportions and open gaps; all parts face north/up. Row1 smite-blade-bar-l a SINGLE thin ivory blade bar diagonally from upper-left to lower-right, restrained pale engraving, silhouette like long slash; smite-blade-l SINGLE tall crooked thin dark spine coral bands; smite-front-l SINGLE stepped oblique armor bracket slate grey with palegold band and coral end; smite-mid SINGLE very narrow symmetric linked dark spine with two small coral diamond inserts. Row2 smite-spine-l SINGLE bent horizontal bracket, left half dark slate and right upward slanting half ivory white, exact source L/knee silhouette; spectre whole main gun casing, long central spine and two vertical outer barrels, dark graphite coral-orange fins, all viewed straight from above; sublimate compact symmetric dark fluid-turret body, purple/pink ring around clear dark central diamond reservoir, two short upper side wings; sublimate-back-l SINGLE rectangular diagonal rearplate with dark metal and purple central insert. Row3 sublimate-front-l SINGLE compact stepped dark plate, pale-pink and purple inlays; sublimate-nozzle-l SINGLE crooked nozzle arm with dark iron outside and violet channels; sublimate-top SINGLE small pale ivory top cover in stepped diagonal oval/diamond silhouette, no body, ivory/gold subtle bevel with near-white center; swarmer compact dark three-tube rocket launcher casing, three obvious north-facing short openings, coral side lobes and diamond center. Smite white parts must remain neutral pale ivory for runtime color tinting, no saturated jade in those two. All shapes match third reference, do not combine pieces into new full guns. Generous13% empty margin, 12 complete separated objects, no labels/grid/floor/background/cast shadows/outer glows."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/root-turrets/prompts/05-regions.txt",
+  "promptSha256": "09079a816aed44741e802dc66a33ca7f09a0088e787d8c15fb4a1f3c7546aedd",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\root-turrets\\reference\\guide-05.png",
+      "sha256": "e7ee75f2df318553ba974db55b64eeacded175bbe55ca31e847b8c3f25531089",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\root-turrets\\records\\05-regions-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-27d4d68e-5faf-41d2-b152-e3461700fcee.png",
+    "nativePngSha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 1033707,
+  "status": "generated_pending_review"
+}

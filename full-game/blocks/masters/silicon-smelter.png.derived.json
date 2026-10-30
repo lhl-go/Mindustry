@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/silicon-smelter.png",
+  "sha256": "641a8c3378709a444cf802633387325ec8de5d08b1f21864c7fadc59f6d85f5e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-serpulo-01.png",
+      "sha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "generationRecord": "full-game/blocks/records/production-serpulo-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      790,
+      39,
+      1082,
+      325
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      292,
+      286
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    324,
+    318
+  ],
+  "anchorPixels": [
+    162.0,
+    159.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

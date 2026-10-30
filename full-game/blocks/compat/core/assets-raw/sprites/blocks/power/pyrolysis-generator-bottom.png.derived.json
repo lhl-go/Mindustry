@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/pyrolysis-generator-bottom.png",
+  "sourceGitBlob": "4f4b6a2b8fa10ba52de5f54471a2bd0c9083c362",
+  "sourceSha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "pyrolysis-generator-bottom",
+  "blockId": "pyrolysis-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-bottom.png",
+  "sha256": "6683ccb1810c6b82f111405ab118e69b18f38d77564bf40c3734d15701fedfcb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-bottom.png",
+  "engineSha256": "6683ccb1810c6b82f111405ab118e69b18f38d77564bf40c3734d15701fedfcb",
+  "nativeFile": "full-game/blocks/masters/pyrolysis-generator.png",
+  "nativeSha256": "af1d1504ca693564ee3e870543cb1cf612931195eeb4a50772b889eb07eaff71",
+  "nativeSize": [
+    374,
+    321
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pyrolysis-generator.png",
+      "sha256": "af1d1504ca693564ee3e870543cb1cf612931195eeb4a50772b889eb07eaff71"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/pyrolysis-generator-bottom.png",
+      "sha256": "11b52d357517a395b0080dcbb47452bdcc52cee92b96106f5f1c9350c17b7a62"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

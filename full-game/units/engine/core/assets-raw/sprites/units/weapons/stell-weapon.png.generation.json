@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/stell-weapon.png",
+  "sha256": "4288f7f991a579d7f430f71bb890e395b294834c6f74bd18f8c646aeb0e7b777",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/stell-weapon.png",
+      "sha256": "a7a88552ae0f56ee085c31330eeb189d7996962d2cf5e0a174ac55ec84ec6b3d",
+      "generationRecord": "units/air-erekir-parts/assets/stell-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      235,
+      316
+    ],
+    "sourcePivot": [
+      134,
+      224
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      16,
+      1
+    ],
+    "sourceDimensions": [
+      267,
+      348
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      19,
+      4,
+      45,
+      48
+    ],
+    "scale": 0.16145833333333334,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/stell-weapon.png",
+    "gitBlobSha1": "6cf23e21055d2f6fc1fa4978a8b089adb5790f5f",
+    "sha256": "99da3718c17353ee294a60a29d09da54fec6c8e3c7a7be402b0097038c1fe78a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

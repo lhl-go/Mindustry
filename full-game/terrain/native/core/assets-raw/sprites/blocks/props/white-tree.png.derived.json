@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png",
+  "sha256": "f6578b3c1a5aa5b3228201c08188016c09bda8515f2e332986323876a7b0c2fa",
+  "size": [
+    869,
+    854
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/20-white-trees.png",
+      "sha256": "8a513720bd47bb6e81879cd91325b7e18e375a70ca6b261f3d6a0c20a21074ba",
+      "generationRecord": "full-game/terrain/source/20-white-trees.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    27,
+    17,
+    896,
+    871
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

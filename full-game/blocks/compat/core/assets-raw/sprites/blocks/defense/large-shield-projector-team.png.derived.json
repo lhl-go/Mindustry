@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/large-shield-projector-team.png",
+  "sourceGitBlob": "42859f0f2d3093dce998fd9b79f1be868e959fce",
+  "sourceSha256": "6f730e2a11358c14faaad3953e915dc3b9cdb546ac991caefe40041f20fe18ba",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "large-shield-projector-team",
+  "blockId": "large-shield-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/large-shield-projector-team.png",
+  "sha256": "d2e7bde1117023418436488138e37271a0130bfda0d2f9dacd9f77bdbfbe7fef",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/large-shield-projector-team.png",
+  "engineSha256": "d2e7bde1117023418436488138e37271a0130bfda0d2f9dacd9f77bdbfbe7fef",
+  "nativeFile": "full-game/blocks/masters/large-shield-projector.png",
+  "nativeSha256": "4b7c1232c2f44417045603e7a54c93b8bc17a21bf825cf312afd5aba9241c5f3",
+  "nativeSize": [
+    374,
+    387
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "jade material",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-shield-projector.png",
+      "sha256": "4b7c1232c2f44417045603e7a54c93b8bc17a21bf825cf312afd5aba9241c5f3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/large-shield-projector-team.png",
+      "sha256": "6f730e2a11358c14faaad3953e915dc3b9cdb546ac991caefe40041f20fe18ba"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/large-shield-projector-team.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/large-shield-projector-team.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/large-shield-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

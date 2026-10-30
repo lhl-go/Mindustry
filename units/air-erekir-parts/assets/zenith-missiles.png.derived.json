@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+  "createdAt": "2026-10-26T11:09:35.550594+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 337,
+  "height": 433,
+  "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538",
+      "generationRecord": "units/air-erekir-parts/source/01-air-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      84,
+      47,
+      357,
+      416
+    ],
+    "sourceComponentArea": 73849,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

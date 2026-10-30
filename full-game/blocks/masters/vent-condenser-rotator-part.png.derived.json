@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/vent-condenser-rotator-part.png",
+  "sha256": "5d5fb16cb692a103f3a793eade825a56506862c6c1d6f9dae5e0a1244e6c16c7",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      427,
+      818,
+      667,
+      1045
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      240,
+      227
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    272,
+    259
+  ],
+  "anchorPixels": [
+    136.0,
+    129.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

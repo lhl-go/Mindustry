@@ -1,0 +1,42 @@
+{
+  "region": "scorch",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scorch.png",
+  "sha256": "5da88db6a264e39419a0e39b06f00d7070e9b6433f435f84efd9d12b390183b0",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.197603+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/scorch.png",
+      "sha256": "62fbe04341c21d5c43c9c76fd3a24bcfb7a8cee6f7562ffc955c287195aaaa61",
+      "record": "full-game/root-turrets/masters/scorch.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/scorch.png",
+      "sha256": "1d29488911f64d8a5148c1b14fb0a4ee71d9e5d1c478cf0b78687a76e592fcb5",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      3,
+      3,
+      29,
+      30
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      324,
+      323
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

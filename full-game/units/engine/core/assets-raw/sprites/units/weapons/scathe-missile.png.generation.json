@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile.png",
+  "sha256": "dbb387ad2396e6d02677be328adfe302d11a3270386135894fc06893cb2986ad",
+  "width": 58,
+  "height": 95,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/scathe-missile.png",
+      "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+      "generationRecord": "units/special/assets/scathe-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      457,
+      636
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      12
+    ],
+    "sourceDimensions": [
+      489,
+      668
+    ],
+    "targetDimensions": [
+      58,
+      95
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      54,
+      91
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      29.0,
+      47.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scathe-missile.png",
+    "gitBlobSha1": "e2a25eaeda2b0acf2ed5c892818d3d4c899d3def",
+    "sha256": "18524bd1f1c475d0dcf816208d6b0020bd6c967dbe6058bd415b4cc0343e6d38"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

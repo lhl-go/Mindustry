@@ -1,0 +1,41 @@
+{
+  "region": "diffuse-front-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-heat.png",
+  "sha256": "ddac56eee3e8c857bea4fff05b4a6769fc6a9991cdefdf7eb15311771a763b89",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.427960+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/diffuse/diffuse-front-heat.png",
+      "sha256": "2f9600d0b4ca3eab132005755e32b1c2130da66a804ba67205203a027130dec3",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-r.png",
+      "sha256": "e42620d49ff73388f6b68b187990e83a46b2432500a270f0daea94ac6fe83185",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-l.png",
+      "sha256": "e42620d49ff73388f6b68b187990e83a46b2432500a270f0daea94ac6fe83185",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "diffuse-front-r",
+      "diffuse-front-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 755
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

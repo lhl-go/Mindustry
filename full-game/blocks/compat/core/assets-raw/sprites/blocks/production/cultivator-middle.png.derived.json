@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cultivator-middle.png",
+  "sourceGitBlob": "f74af4240b557e09ca1eda80c18a2e7733d4b6aa",
+  "sourceSha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cultivator-middle",
+  "blockId": "cultivator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-middle.png",
+  "sha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-middle.png",
+  "engineSha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/cultivator-middle.png",
+  "nativeSha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009",
+  "nativeSize": [
+    64,
+    64
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    56,
+    56
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cultivator-middle.png",
+      "sha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cultivator-middle.png",
+      "sha256": "1bb79a29d0c36e2eb95e974927f9c5c460215eec0169b834f724508f7a8e9009"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-middle.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets/cubemaps/stars/bottom.png",
+  "sha256": "6e8fb6b3b8ce744402d38274b20a8f62c59b7f8454e8f938fe1ee02e77a046e3",
+  "size": [
+    256,
+    256
+  ],
+  "mode": "RGB",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/native/stars-equirectangular.png",
+      "sha256": "d8934353600761dde8e69b1c29ebdbbf5b8546c89ad4f8412c69e3cfa5dd8a21",
+      "record": "full-game/terrain/native/stars-equirectangular.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "equirectangular_to_OpenGL_cubemap_bilinear_sampling",
+    "panoramaSize": [
+      1774,
+      887
+    ],
+    "faceSize": [
+      256,
+      256
+    ],
+    "equatorialSourceSamplesPer90Degrees": 443.5,
+    "side": "bottom",
+    "pixelGridIncludesBoundaryDirections": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "256px cube projection from native1774x887 panorama; not independently generated face"
+}

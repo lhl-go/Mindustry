@@ -1,0 +1,48 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-arrow.png",
+  "sourceGitBlob": "aeeca0acda8735c7cd8790794fe496b45937a971",
+  "sourceSha256": "939f8b6313d51b94380917f22f884f1835ed25f2dc7745fd179311322acd59b4",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "reinforced-bridge-conduit-arrow",
+  "blockId": "reinforced-bridge-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-arrow.png",
+  "sha256": "d7defa40da166d28a8c5fd171861e70184ffadcaeed977f69ea69232c7207330",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-arrow.png",
+  "engineSha256": "d7defa40da166d28a8c5fd171861e70184ffadcaeed977f69ea69232c7207330",
+  "nativeFile": "full-game/blocks/masters/bridge-arrow-part.png",
+  "nativeSha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427",
+  "nativeSize": [
+    183,
+    178
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    22,
+    20
+  ],
+  "operation": {
+    "kind": "native_right_facing_arrow_original_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/bridge-arrow-part.png",
+      "sha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/reinforced-bridge-conduit-arrow.png",
+      "sha256": "939f8b6313d51b94380917f22f884f1835ed25f2dc7745fd179311322acd59b4"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-bridge-conduit-arrow.png.derived.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+  "sha256": "b9e489855b3276da0d9acbcd9ece1530aa985f8220e0baf5df15091266da3858",
+  "width": 21,
+  "height": 67,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      7,
+      22
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      21,
+      67
+    ],
+    "officialAlphaBounds": [
+      7,
+      7,
+      14,
+      42
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      10.5,
+      33.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/collaris-weapon-blade.png",
+    "gitBlobSha1": "8b7303d2a550aacaf50313ca855af9d8502ce9e3",
+    "sha256": "87adaa452a8b55c6074d077ec544b0fbdfdcefeb7d47a705529e65dbdff9b5f4"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

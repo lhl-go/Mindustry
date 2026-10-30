@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "characters/02-alchemy-engineer-v2.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T03:42:48.946-04:00",
+  "generatedAtBasis": "Tool result receipt time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T07:42:01.033Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-73fa4948-49d1-4897-b087-befb75b88334",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "byteLength": 1378291,
+  "sha256": "6e745c708a02f749da8ab88d12f79539fac424baf86ff56aa71f17b56c5c89d4",
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alpha": {
+    "extrema": [
+      0,
+      255
+    ],
+    "nonzeroBounds": [
+      0,
+      0,
+      1224,
+      1254
+    ],
+    "transparentPixels": 991655,
+    "opaquePixels": 997,
+    "partialAlphaPixels": 579864,
+    "transparentFraction": 0.6306167949960445,
+    "mostCommonValues": [
+      [
+        0,
+        991655
+      ],
+      [
+        253,
+        432347
+      ],
+      [
+        254,
+        48556
+      ],
+      [
+        252,
+        24657
+      ],
+      [
+        1,
+        15570
+      ],
+      [
+        251,
+        9140
+      ],
+      [
+        2,
+        5403
+      ],
+      [
+        250,
+        5000
+      ],
+      [
+        249,
+        3496
+      ],
+      [
+        3,
+        2844
+      ],
+      [
+        248,
+        2394
+      ],
+      [
+        4,
+        2074
+      ]
+    ],
+    "cornerValues": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pngChunks": [
+    "IHDR",
+    "caBX",
+    "IDAT",
+    "IEND"
+  ],
+  "nativeSize": {
+    "width": 1254,
+    "height": 1254
+  },
+  "requestedSize": {
+    "width": 2048,
+    "height": 2048,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "rejected_no_edge_improvement",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\characters\\02-alchemy-engineer-v1.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "prompt": "Edit the FIRST input image, the existing single full-body Daoist chibi alchemical engineer. Preserve this exact character identity, face, expression, hairstyle, costume, colors, pose, two hands, hammer, brass compass, apron tools, gourd and complete boots. The second and third images are PRIMARY style references only; retain the same jade/ivory/warm-gold refined hand-painted quality.\nMake ONE targeted production fix: clean the cutout boundary and transparency. Remove all stray red, yellow, green and white pixels, colored fringe / matte halos and isolated specks around the hair, hammer, compass legs, sleeve cuffs, and the empty area between right cheek and compass. Preserve the intentional red tassels and warm gold ornaments INSIDE the character. Every empty area outside the silhouette and inside the limb/tool gaps must be genuinely alpha=0 transparent, not painted black or white and not checkerboard. All opaque character surfaces must remain opaque, only actual antialiased edge pixels partially transparent. Crisp natural antialiasing without a colored outline; remove detached speck islands outside the intended silhouette.\nKeep the whole figure and both tools entirely in frame. Fit character height within about 88% of a square transparent canvas with a clear empty margin above the hair and below the boots; do not crop, do not change proportions. Requested native output 2048×2048 if supported. No pedestal, no shadow plane, no background, no typography, no border. Return a single clean transparent RGBA PNG. Do not redesign the character. Target configured GPT Image 2.5 highest quality."
+  },
+  "parameterLimitations": "内置接口只开放 prompt、参考图与 transparent_background；型号、质量、尺寸无专用参数。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号或质量。PNG 内嵌软件代理版本仅为 gpt-image，未给出2.5、Sunburst或max，且本次未验证其加密签名，不能据此确认实际具体型号。",
+  "prompt": "prompts/02-alchemy-engineer-v2.txt",
+  "promptSha256": "1feeafeef33f4955e5f8fcaae5aafa15f458352ee8ddfe2097396414ac7ec70b",
+  "references": [
+    {
+      "path": "../mindustry-image/characters/02-alchemy-engineer-v1.png",
+      "absolutePath": "D:\\work\\image\\mindustry-image\\characters\\02-alchemy-engineer-v1.png",
+      "sha256": "5576da7362d1f220ad6271bf62328fa10199ddf4c0188c496771d8c270972926",
+      "purpose": "edit_target_identity_preservation",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/02-alchemy-engineer-v2.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-73fa4948-49d1-4897-b087-befb75b88334.png",
+    "originalOutputSha256": "6e745c708a02f749da8ab88d12f79539fac424baf86ff56aa71f17b56c5c89d4",
+    "projectBytesMatchOriginal": true,
+    "embeddedModelMetadataFound": false,
+    "officialVerification": "records/official-verification-20261026.json",
+    "embeddedProvenance": "records/02-alchemy-engineer-v2.embedded-provenance.json",
+    "embeddedSoftwareAgentVersion": "gpt-image",
+    "embeddedProvenanceSignatureVerified": false
+  },
+  "editedFrom": {
+    "file": "characters/02-alchemy-engineer-v1.png",
+    "sha256": "5576da7362d1f220ad6271bf62328fa10199ddf4c0188c496771d8c270972926",
+    "generationRecord": "characters/02-alchemy-engineer-v1.png.generation.json"
+  },
+  "imageRetention": {
+    "state": "deleted_rejected_project_copy",
+    "cleanupRecord": "records/rejected-image-cleanup.json",
+    "selectedInstead": "characters/02-alchemy-engineer-v1.png"
+  }
+}

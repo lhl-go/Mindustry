@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/small-deconstructor.png",
+  "sha256": "dee231503d4afe223bdfc6630c222dcd0939ed78172e2ebeaba1be05a50dde32",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      779,
+      316,
+      1038,
+      521
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      259,
+      205
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    291,
+    237
+  ],
+  "anchorPixels": [
+    145.5,
+    118.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

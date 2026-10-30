@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-surge-alloy.png",
+  "sha256": "d86921077083684de0b10f7377fad0bf671145ea5c1fa4b7ea63c17484c2559b",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-surge-alloy.png",
+      "sha256": "40fbcd154e90a0510e30ef0fb8f41fce08927f80af5c1605e9881a0bb6db5b3a",
+      "generationRecord": "full-game/items-fx/assets/item-surge-alloy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat.png",
+  "sourceGitBlob": "38598c0d6d587b24f6d1347321399b1c3bc335c4",
+  "sourceSha256": "7394ab2e039d4217429e4705f8a6c22c312ac917def22229d2bb440d2098027f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "cyanogen-synthesizer-heat",
+  "blockId": "cyanogen-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat.png",
+  "sha256": "73fcd437f6c6b0c5903a34cd8817512f30c9d5e8bbec1374fdf6106df0995f90",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat.png",
+  "engineSha256": "73fcd437f6c6b0c5903a34cd8817512f30c9d5e8bbec1374fdf6106df0995f90",
+  "nativeFile": "full-game/blocks/masters/cyanogen-synthesizer.png",
+  "nativeSha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16",
+  "nativeSize": [
+    312,
+    334
+  ],
+  "sourceAlphaBounds": [
+    61,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cyanogen-synthesizer.png",
+      "sha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cyanogen-synthesizer-heat.png",
+      "sha256": "7394ab2e039d4217429e4705f8a6c22c312ac917def22229d2bb440d2098027f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

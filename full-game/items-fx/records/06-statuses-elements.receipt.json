@@ -1,0 +1,33 @@
+{
+  "stem": "06-statuses-elements",
+  "names": [
+    "status-burning",
+    "status-freezing",
+    "status-wet",
+    "status-melting",
+    "status-tarred",
+    "status-muddy",
+    "status-corroded",
+    "status-spore-slowed"
+  ],
+  "cols": 4,
+  "rows": 2,
+  "args": {
+    "prompt": "Production game sprite sheet, exactly 8 distinct isolated sprites. Strict invisible 4 columns x2 rows reading order; unused final cell empty. Requested 2048x1024. The two attached refs dictate fine Daoist chibi painted style, jade ivory warm-gold finish, clean rounded detailed art, but preserve described colors. 1 burning: orange three-tongue flame. 2 freezing: ice-blue six-arm snow crystal. 3 wet: deep blue water drop splashing. 4 melting: red-orange melting metal ingot dripping. 5 tarred: black sticky drop with tangled tendrils. 6 muddy: brown footprint sunk in mud. 7 corroded: green acid droplet eating a cracked bronze plate. 8 spore-slowed: purple mushroom spores wrapped around a tiny jade gear. Entire objects inside each cell with generous15% margins, no overlaps. Genuine transparent RGBA. No text, border, plaque, floor, grid, cast shadow, glow fog or UI. Status symbols should read at small size, pictorial silhouette only, not square button backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26T16:26:37.208Z",
+  "returnedAt": "2026-10-26T16:27:32.062Z",
+  "tool": "image_gen.imagegen",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-9b64aaf4-a4bc-41b0-a75e-43c5e66d5a33.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

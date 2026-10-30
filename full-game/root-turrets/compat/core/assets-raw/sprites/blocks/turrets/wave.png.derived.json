@@ -1,0 +1,42 @@
+{
+  "region": "wave",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/wave.png",
+  "sha256": "9fd3c797925c86011d1c2de73140abc14d5d7f670e3437856728c1d65c862413",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.286120+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/wave.png",
+      "sha256": "4b47cf0b265d8727d20c55ce256906f2cfa691da43dc725ad15c8020071312bb",
+      "record": "full-game/root-turrets/masters/wave.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/wave.png",
+      "sha256": "cec96b0413c856d193e5d6bdeddf6163e41bddfb57b1b9b88b306913f723cf77",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      8,
+      4,
+      56,
+      60
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      353,
+      395
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

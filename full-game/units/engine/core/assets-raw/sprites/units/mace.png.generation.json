@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mace.png",
+  "sha256": "17e0952c94b3530628859ef494a49307f8e19b23763d5ea5289d3c822ee90beb",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/mace.png",
+      "sha256": "71c1c093141aa93aaab272289528825d200b1675228aa27af3899d61feffd98e",
+      "generationRecord": "units/serpulo-ground-naval/bodies/mace.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      442,
+      388
+    ],
+    "sourcePivot": [
+      229.0,
+      202.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      458,
+      404
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mace.png",
+    "gitBlobSha1": "dd5ab163a256f58d58287f9f97fd4b575b7fa43d",
+    "sha256": "cce216f6ee549489110972f33857685ca0d789124578314ea254e6d28317021e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

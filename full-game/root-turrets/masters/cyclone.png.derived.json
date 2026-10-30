@@ -1,0 +1,41 @@
+{
+  "region": "cyclone",
+  "file": "full-game/root-turrets/masters/cyclone.png",
+  "sha256": "e1ff84917eb20dec2e7f567d86234d5d2fe2dd20e5c25962b2d436012d6ab447",
+  "size": [
+    358,
+    330
+  ],
+  "derivedAt": "2026-10-26T18:34:42.933008+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/02-regions.png",
+      "sha256": "3c3105bf17a7cdeb45aa9560ec1c61d370bb62bdcfb2c6961f8a27281d3ffb46",
+      "record": "full-game/root-turrets/source/02-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 0,
+    "sourceBox": [
+      73,
+      13,
+      407,
+      319
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

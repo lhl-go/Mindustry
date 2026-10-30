@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/dagger.png",
+  "sha256": "07dba1498e980e61634ab6d70723b74df2e75bb1654c25b37dc3838afc971973",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/dagger.png",
+      "sha256": "4a9f6ac6ce8bb84a35f4b91857e3ad0bee0d42f8cf3250236d19226c0d74ce8c",
+      "generationRecord": "units/serpulo-ground-naval/bodies/dagger.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+      "sha256": "8e704421082ad44f152f08dc576a2f1d2514e3df9bd461fd2d32e6bcb8dc9999",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      889,
+      888,
+      1311,
+      1357
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          119.36,
+          232.35
+        ],
+        "scale": [
+          0.5533980582524272,
+          0.5548780487804879
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          -6,
+          172
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          302.64,
+          232.35
+        ],
+        "scale": [
+          0.5533980582524272,
+          0.5548780487804879
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          234,
+          172
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/dagger.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/dagger.png.generation.json",
+        "sourceAnchorPx": [
+          158.0,
+          203.5
+        ],
+        "targetAnchorPx": [
+          211,
+          212
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          53,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          75.12,
+          203.86
+        ],
+        "scale": [
+          0.4049586776859504,
+          0.40425531914893614
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          26,
+          105
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          346.88,
+          203.86
+        ],
+        "scale": [
+          0.4049586776859504,
+          0.40425531914893614
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          298,
+          105
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 422,
+    "height": 469,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 99051,
+    "opaquePixelCount": 92563,
+    "partialPixelCount": 6304,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      398,
+      445
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "dagger",
+    "sha256": "07dba1498e980e61634ab6d70723b74df2e75bb1654c25b37dc3838afc971973",
+    "size": [
+      422,
+      469
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

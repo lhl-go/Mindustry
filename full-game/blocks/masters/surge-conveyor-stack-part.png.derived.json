@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/surge-conveyor-stack-part.png",
+  "sha256": "1a8191144893283750b10b78dfbde407a2c9c41c31ccb64ab3a68a50d27c1021",
+  "derivedAt": "2026-10-27T02:26:37.360293+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/root-detached-parts-03.png",
+      "sha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "generationRecord": "full-game/blocks/records/root-detached-parts-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      759,
+      407,
+      1052,
+      709
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      293,
+      302
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    325,
+    334
+  ],
+  "anchorPixels": [
+    162.5,
+    167.0
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": null,
+  "engineNotVerified": true
+}

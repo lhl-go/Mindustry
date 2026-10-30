@@ -1,0 +1,38 @@
+{
+  "region": "afflict-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-preview.png",
+  "sha256": "b1d4457f7f10289930fa5e8a101690668c7e574138d35a0deaa5081733d2fc7a",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.568648+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict.png",
+      "sha256": "33953801b7ef8b2ac3336f7ce4b946f9ef258b7227b87cb1c75e472122fe256c",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-l.png",
+      "sha256": "2343b4606e25ab0f1b81cece0e71edcfcdad1805ffdd2957657b97fab12bfd33",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-r.png",
+      "sha256": "2343b4606e25ab0f1b81cece0e71edcfcdad1805ffdd2957657b97fab12bfd33",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-r.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

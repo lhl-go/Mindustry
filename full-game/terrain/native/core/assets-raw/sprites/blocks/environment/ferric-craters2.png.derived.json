@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-craters2.png",
+  "sha256": "8152882a7b8e6f5d70084961d0bb78c4feec8dcf3b21abfbe6693c360a41df47",
+  "size": [
+    291,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/07-crystal-crater-floors.png",
+      "sha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238",
+      "generationRecord": "full-game/terrain/source/07-crystal-crater-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    1480,
+    589,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

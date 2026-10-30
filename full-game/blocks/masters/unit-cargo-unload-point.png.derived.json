@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/unit-cargo-unload-point.png",
+  "sha256": "b678235cdb1ba9b675c1b5ee40cef72771a54059aa74ed206ed76f593a1b0d4c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1371,
+      666,
+      1579,
+      913
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      208,
+      247
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    240,
+    279
+  ],
+  "anchorPixels": [
+    120.0,
+    139.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

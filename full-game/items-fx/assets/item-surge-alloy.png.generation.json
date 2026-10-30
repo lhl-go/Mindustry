@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/02-refined-materials.png",
+      "sha256": "9080234a953266c55b672946700d872f2a4fd7d2dfac354b85d9795ab0cf9958",
+      "generationRecord": "full-game/items-fx/source/02-refined-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      28,
+      36,
+      437,
+      395
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-surge-alloy.png",
+  "sha256": "40fbcd154e90a0510e30ef0fb8f41fce08927f80af5c1605e9881a0bb6db5b3a",
+  "width": 441,
+  "height": 391,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.801222+00:00"
+}

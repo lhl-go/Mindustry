@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "branding/tiangong-xianzhen/logo-v1.png",
+  "sha256": "00a97fcc0d446806e298b02a7b688c3ac64d60e81b3eb7a6b118b33fd997f24a",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-29T02:48:34Z",
+  "generatedAtBasis": "UTC observation immediately after tool result and byte-for-byte copy, not provider timestamp",
+  "generationStartedAt": "2026-10-29T02:43:33Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/source/05-app-icon.png"
+    ],
+    "prompt": "Use case: logo-brand. Create one finished Chinese game title logo for the game 天工仙阵, a cheerful Daoist fantasy automation, factory-building and tower-defense game. This is a new logo derived from the attached established game's visual language, not a UI screen.\nInput images: Image 1 and Image 2 are mandatory style references ONLY: match their jade green, warm gold, ivory, elegant rounded Chinese cloud scrolls and refined hand-painted shading. Image 3 is the existing game app icon: preserve the core identity of a jade-and-ivory Taiji mechanism inside a warm-gold gear, but simplify it for the logo. Do not reproduce the surrounding screenshots, interface text, icon background, factory buildings or conveyor belts.\nText (verbatim, only text in image): \"天工仙阵\". Exactly these FOUR simplified Chinese characters, in the order 天 工 仙 阵, left to right on ONE prominent horizontal line. The last character must be simplified 阵, left radical 阝 and right component 车. No punctuation, no English, no subtitle, no slogan, no small illegible symbols.\nComposition: a cohesive wide horizontal title logo with an approximate 2:1 canvas, ideally 2048x1024 native if supported. Four large beautifully hand-lettered Chinese characters dominate at least 70 percent of the visual weight. Bold rounded brush-calligraphy strokes, controlled curves, intact counters and generous separation; unmistakable text at a small game-menu scale. Ivory-to-warm-gold letter faces, restrained jade inner shading, warm-gold bevel rim and deep-jade outer contour; handcrafted hand-painted dimensionality, not plastic or chrome. One compact jade/ivory Taiji disc in a broad rounded golden gear rises behind the middle of the wordmark; its lower edge is naturally obscured by the title. A restrained thin arc and four small jade nodes suggest an orderly defensive energy array, not a giant ornate magic circle. Sparse ivory-and-jade cloud curls support both ends of the lettering. One small vermilion tassel and a couple of jade beads supply a subtle accent, no dense ornament.\nThe entire logo has a strong clean silhouette with optically balanced center, readable elegant Chinese letterforms and subtle soft painted highlights. The symbol supports the text, never competes with it. Warm, bright, premium Q-style illustrated game identity. Use the finest available native detail.\nOutput: ONE isolated polished complete logo, true RGBA transparent background including all empty spaces, no simulated checkerboard, no white rectangle, no colored backdrop, no scenery, no floor, no cast shadow across the canvas, no mockup, no presentation board, no variants or extra logos. Keep 10 percent clear transparent margin on all sides, with no clipped strokes or decorative tips. Avoid excessive glow, tiny particles, generic esports shields, sharp metallic spikes, heavy distressed texture, noisy strokes, blurry edges, fake watermarks, and extraneous text."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool exposes no model, quality or size selector; result contains image_url and output_hint only; PNG contains no model/quality metadata.",
+  "prompt": "branding/tiangong-xianzhen/logo-v1.prompt.txt",
+  "promptSha256": "4d60e2a84e6f07f7029cb363a2917a2583586a6fc9bc22d582e38c0973c3dbb7",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\source\\05-app-icon.png",
+      "sha256": "b390a21ca6ee5556e2dce490424da5c45c94b8da696ce838e035bd6740932102",
+      "purpose": "existing_game_identity_reference",
+      "actuallyViewed": true,
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "resultKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "toolOutputPath": "C:/Users/luyua/.codex/generated_images/01a17720-2a4e-70c0-a0de-f389672e250d/exec-d2f6fc89-3777-44d2-9a9b-3b99b1ff2f92.png",
+    "returnedResultId": "exec-d2f6fc89-3777-44d2-9a9b-3b99b1ff2f92",
+    "pngMetadataKeys": [],
+    "copiedWithoutPixelChanges": true
+  },
+  "officialCapabilityCheck": {
+    "checkedOn": "2026-10-28",
+    "timezone": "America/New_York",
+    "modelTargetUnchanged": true,
+    "qualityTargetUnchanged": true,
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    },
+    "additionalModelCatalog": "https://developers.openai.com/api/docs/models/all",
+    "note": "Official catalog still identifies Sunburst as the most capable image model and supports max; this is a configuration target, not evidence of the actual built-in result model."
+  },
+  "styleInstructionEvidence": {
+    "rootInstructions": "../AGENTS.md",
+    "uiSpecOriginalMissing": true,
+    "uiSpecExistingHandoffSummaryRead": "../handoffs/roster-run-20261026/source/qdao_ui_redesign_v5/UI_SPEC.md",
+    "noDeletedDocumentRestored": true
+  },
+  "status": "adopted_source_local_cleanup_blocked",
+  "sourceImageRetained": true,
+  "retentionRecord": "branding/tiangong-xianzhen/retention-cleanup.json"
+}

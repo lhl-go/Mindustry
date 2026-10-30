@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets/sprites/space.png",
+  "sha256": "b6e4bb505bd58dc9f935b4e362f942470d724eb8e40478decabbc4ae7eacbb5e",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGB",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/25-space-material.png",
+      "sha256": "a7d66fbf919506def13c0cc41af81f2ec96bfedd068d88e422cdccb026fe9b2a",
+      "generationRecord": "full-game/terrain/source/25-space-material.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native periodic-plus-smooth seam cleanup",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "resized": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "native-resolution space material after local seam cleanup; compatibility copy is resampled"
+}

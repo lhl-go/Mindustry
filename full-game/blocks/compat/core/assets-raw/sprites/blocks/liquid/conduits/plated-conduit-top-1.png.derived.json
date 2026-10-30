@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-1.png",
+  "sourceGitBlob": "c231c324b10482b5e18e73a1d1ccd66521516d3f",
+  "sourceSha256": "70c5ee1f548d819f0a9d841272ff7966192754b72f124a1510a4ee031afae757",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "plated-conduit-top-1",
+  "blockId": "plated-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-1.png",
+  "sha256": "e523303f2127364802d8cee72d7001d229fe79d540c958d628b450c467da99d6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-1.png",
+  "engineSha256": "e523303f2127364802d8cee72d7001d229fe79d540c958d628b450c467da99d6",
+  "nativeFile": "full-game/blocks/masters/plated-conduit-shape-1.png",
+  "nativeSha256": "ed82aa81b4d6a4a352ab417a4399f07a6c15bfc8ea14f4b0f6db82a78e26f117",
+  "nativeSize": [
+    268,
+    272
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 1,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plated-conduit-shape-1.png",
+      "sha256": "ed82aa81b4d6a4a352ab417a4399f07a6c15bfc8ea14f4b0f6db82a78e26f117"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/conduits/plated-conduit-top-1.png",
+      "sha256": "70c5ee1f548d819f0a9d841272ff7966192754b72f124a1510a4ee031afae757"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/plated-conduit-top-1.png.derived.json"
+}

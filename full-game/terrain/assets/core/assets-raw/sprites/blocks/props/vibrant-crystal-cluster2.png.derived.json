@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png",
+  "sha256": "39b130ceaec74ef46cf7a0070b5b4a91fa7f323259ba1dd2e52ee11e50a2c41a",
+  "createdAt": "2026-10-26T19:25:01.825898+00:00",
+  "kind": "derived_image",
+  "width": 169,
+  "height": 173,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/19-large-crystal-props.png",
+      "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+      "generationRecord": "full-game/terrain/source/19-large-crystal-props.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      381,
+      1005,
+      724,
+      1411
+    ],
+    "nativeExtractedSize": [
+      343,
+      406
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.41133004926108374,
+    "exportPadding": 3,
+    "registeredCanvas": [
+      169,
+      173
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

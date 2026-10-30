@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-siege",
+  "file": "full-game/ui-system/sectors/sector-siege.png",
+  "sha256": "bc83ba4f04c6184a0e0ebff7a67a2cf4ccb1ecb84469e44dbbb2bf786a58b7b9",
+  "width": 420,
+  "height": 420,
+  "derivedAt": "2026-10-26T15:54:02.794070+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/11-sectors-05.png",
+    "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 3,
+    "sourceBox": [
+      17,
+      424,
+      413,
+      790
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

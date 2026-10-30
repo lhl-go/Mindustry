@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "verifiedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "projectRoot": "D:\\work\\image\\mindustry-image",
+  "configurationSource": "../config/image-generation.json",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "officialVerification": [
+    "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "https://developers.openai.com/api/reference/resources/images/methods/generate"
+  ],
+  "route": "builtin",
+  "modelSelectorExposed": false,
+  "qualitySelectorExposed": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "note": "Setup record only; no image generation has occurred in this chat. Per-image evidence is required for each subsequent output.",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBySetupChat": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBySetupChat": true
+    }
+  ],
+  "missingDocumentation": [
+    "qdao_ui_redesign_v5/UI_SPEC.md"
+  ]
+}

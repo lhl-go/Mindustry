@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/conquer-weapon.png",
+  "createdAt": "2026-10-26T11:09:35.970956+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 427,
+  "height": 435,
+  "sha256": "72b7d4699d6537f6ad96db39d621d0af854f21a7cee8671fdbf076027aacdfca",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+      "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      343,
+      382,
+      706,
+      753
+    ],
+    "sourceComponentArea": 90939,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

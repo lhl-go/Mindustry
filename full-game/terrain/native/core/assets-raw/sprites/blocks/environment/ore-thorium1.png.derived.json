@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium1.png",
+  "sha256": "415288ef882c8a137992565d6991519641dc1b1945d18927f0f80d910ab30002",
+  "size": [
+    216,
+    210
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+      "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+      "generationRecord": "full-game/terrain/source/10-basic-ore-overlays.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    34,
+    1084,
+    250,
+    1384
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed.",
+  "foreignFleckRemoved": {
+    "previousNativeSha256": "da8c4589e81d036b5686abc0d9aae0c92ce2659e06128a91e1c3761e2344ccd6",
+    "removedRegion": [
+      0,
+      240,
+      216,
+      300
+    ],
+    "reason": "Visually isolated brown stone below pink ore cluster belonged to no ore1 design; removed only this stray component.",
+    "postCleanupCrop": [
+      0,
+      0,
+      216,
+      210
+    ]
+  }
+}

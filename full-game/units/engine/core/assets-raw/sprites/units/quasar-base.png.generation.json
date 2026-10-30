@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-base.png",
+  "sha256": "1dc8e2fce690c8537b555efaf70eb8e6fde45e0f00ef861515ce52b456cc652b",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-small.png",
+      "sha256": "f9bd721912f4ade8d63aa201865c446b9c2cec06897668286551ec869785be24",
+      "generationRecord": "full-game/units/parts/mech-base-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      398,
+      285
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      17,
+      26
+    ],
+    "sourceDimensions": [
+      414,
+      301
+    ],
+    "targetDimensions": [
+      80,
+      80
+    ],
+    "officialAlphaBounds": [
+      17,
+      25,
+      63,
+      59
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      40.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quasar-base.png",
+    "gitBlobSha1": "ba43ef6406f841a6cb520360fff1030686fdcb52",
+    "sha256": "46fff8183679b2c3affdec0012ffe996102b9d4ab7804215907a2cbc40f17403"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

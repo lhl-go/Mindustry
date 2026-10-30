@@ -1,0 +1,47 @@
+{
+  "args": {
+    "prompt": "Use case: terrain atlas. Paint18 new natural WALL TOP textures for Mindustry, bright clean refined Daoist Q hand-painted geology guided by attached references' craftsmanship ONLY. Strict directly overhead orthographic, NO UI/text/symbols/people/perspective. Requested1536×3072 portrait. EXACTLY3 EQUAL columns ×6 EQUAL rows, each square fullbleed cell fills edge to edge with opaque natural rock cap, no gutters/borders/labels. Do not make last row or column larger. Every row has2 different small wall variants at left/middle and1 independent larger wall design at right with more crown/fracture details, not copied. Pronounced rounded broad rocky crowns, soft internal shadow cracks, material fills square continuously with quiet tileable edges. Even overhead lighting, no vignette/gradient.\nRow1 BERYLLIC STONE WALL: pale sage-jade gray stone crowns with small green mineral flecks.\nRow2 CARBON WALL: dark blue charcoal carbon-rich rock crowns, rounded large smooth plates and deep soft cracks, no lava.\nRow3 FERRIC STONE WALL: muted warm iron-brown ocher rock crowns with small rusty orange flecks.\nRow4 RHYOLITE WALL: muted lavender-gray volcanic rock crowns, subtle fine layered streaks, few small pebbles between crowns.\nRow5 REGOLITH WALL: pale mauve-tan compact moonrock crowns with tiny soft pits and powdery texture.\nRow6 YELLOW STONE WALL: warm golden ochre stone crowns with gentle pale beige veins and broad round erosion surfaces.\nRefined painterly coherent material shapes distinct in all18tiles, no architectural brick patterns or isolated object backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 18:14:30 UTC",
+  "returnedAt": "2026-10-26 18:15:30 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-7ca57de4-134a-420d-bd13-9937fac9bc46.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "beryllic-stone-wall1",
+    "beryllic-stone-wall2",
+    "beryllic-stone-wall-large",
+    "carbon-wall1",
+    "carbon-wall2",
+    "carbon-wall-large",
+    "ferric-stone-wall1",
+    "ferric-stone-wall2",
+    "ferric-stone-wall-large",
+    "rhyolite-wall1",
+    "rhyolite-wall2",
+    "rhyolite-wall-large",
+    "regolith-wall1",
+    "regolith-wall2",
+    "regolith-wall-large",
+    "yellow-stone-wall1",
+    "yellow-stone-wall2",
+    "yellow-stone-wall-large"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+  "sha256": "a37f55a20d148b9cf18da93caabe20f828f8e19a0230d8123693f9df39db1249",
+  "width": 50,
+  "height": 50,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-electric-coil.png",
+      "sha256": "5ae705db8fd06a82c9217784685995211387a46bd9a8d105d0bd289a7e33363c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-electric-coil.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      268,
+      299
+    ],
+    "sourcePivot": [
+      142.0,
+      233.91
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      1
+    ],
+    "sourceDimensions": [
+      284,
+      315
+    ],
+    "targetDimensions": [
+      50,
+      50
+    ],
+    "officialAlphaBounds": [
+      16,
+      4,
+      37,
+      44
+    ],
+    "scale": 0.11013721261071084,
+    "engineAnchorPx": [
+      25.0,
+      25.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/heal-shotgun-weapon.png",
+    "gitBlobSha1": "a519b8e8c04dfa244b0db762e6a27e18adf7adcd",
+    "sha256": "860a85167536e986b3a008f5c29206f4ce851652a7a238cbbef209887eaac396"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/payload-mass-driver-left-part.png",
+  "sha256": "ddcf5a4c28f9d5e47d191762a9d8aa445805efc7b7cf6b4d9b00aaccab77ed9d",
+  "derivedAt": "2026-10-27T02:26:11.152065+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-heads-pistons-02.png",
+      "sha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "generationRecord": "full-game/blocks/records/moving-heads-pistons-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1221,
+      535,
+      1350,
+      804
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      129,
+      269
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    161,
+    301
+  ],
+  "anchorPixels": [
+    80.5,
+    150.5
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": null,
+  "engineNotVerified": true
+}

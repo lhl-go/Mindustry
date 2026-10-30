@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/beam-link.png",
+  "sourceGitBlob": "7311804768eed4cfd671e9deecd2b2f5e7a55b01",
+  "sourceSha256": "0120140f9a8b880125faf80d3e1684f0dca7ccb6061f23b9a063018d5bb0b930",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "beam-link",
+  "blockId": "beam-link",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link.png",
+  "sha256": "c56337690223b8ed589d18ee83e4b04d4536d9ea5264f0837a63bc7d788e3cb6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link.png",
+  "engineSha256": "c56337690223b8ed589d18ee83e4b04d4536d9ea5264f0837a63bc7d788e3cb6",
+  "nativeFile": "full-game/blocks/masters/beam-link.png",
+  "nativeSha256": "612e05cb6766ccb8365d97010cba4e4c1cc3e8dbe2597ed7c5a2357c2e7a4eba",
+  "nativeSize": [
+    146,
+    316
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/beam-link.png",
+      "sha256": "612e05cb6766ccb8365d97010cba4e4c1cc3e8dbe2597ed7c5a2357c2e7a4eba"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/beam-link.png",
+      "sha256": "0120140f9a8b880125faf80d3e1684f0dca7ccb6061f23b9a063018d5bb0b930"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

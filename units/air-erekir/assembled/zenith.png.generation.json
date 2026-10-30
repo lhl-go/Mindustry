@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/zenith.png",
+  "sha256": "2878a9c8505b2580e8f49d024f33b5ac94e7a0ebd0bb38920f9d84a4a1911042",
+  "width": 516,
+  "height": 491,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/zenith-body.png",
+      "sha256": "4323f4c7fef832b690280ddea9d9f89f34004dfe164578149a132b8b487e7aee",
+      "generationRecord": "units/air-erekir/layers/zenith-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+      "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+      "generationRecord": "units/air-erekir-parts/assets/zenith-missiles.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/zenith-body.png",
+        "role": "body",
+        "region": "zenith",
+        "anchorPixels": [
+          258,
+          245
+        ],
+        "scale": 0.7004470938897168,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          335.5,
+          317.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+        "role": "weapon",
+        "region": "zenith-missiles",
+        "anchorPixels": [
+          149.9,
+          231.65
+        ],
+        "scale": 0.46483516483516485,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          168,
+          290
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+        "role": "weapon",
+        "region": "zenith-missiles",
+        "anchorPixels": [
+          366.1,
+          231.65
+        ],
+        "scale": 0.46483516483516485,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          168,
+          290
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/shield-projector.png",
+  "sha256": "011b1299bed97363cf173952cdbfeea4a0ceafd4c1e9cdcd4cfde4a0a6add224",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      764,
+      746,
+      1024,
+      1006
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      260,
+      260
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    292,
+    292
+  ],
+  "anchorPixels": [
+    146.0,
+    146.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

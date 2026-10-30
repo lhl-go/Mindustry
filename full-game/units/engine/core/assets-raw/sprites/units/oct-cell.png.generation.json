@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/oct-cell.png",
+  "sha256": "fe35c78ffcce19897fff766b47b80303e0e2eb251f0bfa9972c838569577bbc8",
+  "width": 400,
+  "height": 400,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/oct.png",
+      "sha256": "5044693ba287dd06882d39521f87fe64518e55d87ba3fd54ae3575e4f9342299",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/oct.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "oct",
+    "baseCanvas": [
+      400,
+      400
+    ],
+    "outputCanvas": [
+      400,
+      400
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/oct-cell.png",
+    "gitBlobSha1": "b27f93adb40bda0636e9fc9b02e1f7470d3a533d",
+    "sha256": "e940ea357417660dbe40e8a736093e8e5f622aa504a0ee654bddd7f3bc6adf98"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,74 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/precept.png",
+  "sha256": "5c02dcec64ab9b8b62d1ba09516bafcdff1bceedc26f0cecd391f0a882987a81",
+  "width": 120,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/revised-bodies/precept-body.png",
+      "sha256": "a0b1bb6f66e6271c6b5222ddfcd999d45095882127c14840216763c877fbd21f",
+      "generationRecord": "full-game/units/revised-bodies/precept-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "original_canvas_export_after_layer_separation",
+    "sourceTrim": [
+      16,
+      16,
+      476,
+      443
+    ],
+    "sourceDimensions": [
+      492,
+      459
+    ],
+    "destinationTopLeft": [
+      4,
+      18
+    ],
+    "scaledSize": [
+      112,
+      104
+    ],
+    "engineWindows": [
+      [
+        20,
+        52,
+        42,
+        119
+      ],
+      [
+        78,
+        52,
+        100,
+        119
+      ],
+      [
+        46,
+        20,
+        59,
+        74
+      ],
+      [
+        61,
+        20,
+        74,
+        74
+      ]
+    ],
+    "registrationPreserved": true,
+    "edgeAntialiasRemovedInsideMotionWindows": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/precept.png",
+    "gitBlobSha1": "58f5f586e75ef6ead86aecb9905b36ed44a25541",
+    "sha256": "203e17288cc2f2dea1b485ea6f41b61feb4b8c8d5901a52d41608d9db3cf0af7"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Downsample of traced corrected native body; no new image generation.",
+  "engineNotVerified": true
+}

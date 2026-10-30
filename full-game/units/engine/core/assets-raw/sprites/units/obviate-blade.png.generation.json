@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-blade.png",
+  "sha256": "89e876957df15321bdd79eca427747ec7bba775c71e6fa5eeb771d90ecfad22d",
+  "width": 140,
+  "height": 130,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      77,
+      32
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      140,
+      130
+    ],
+    "officialAlphaBounds": [
+      77,
+      14,
+      130,
+      92
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      70.0,
+      65.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/obviate-blade.png",
+    "gitBlobSha1": "e1528e1bbcd17ffad0bb5ae0820db2f953789877",
+    "sha256": "ba218e9c0145f0162c79c4f383fd4e0ebed01d22652c55aad74cfdf82e17a76d"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

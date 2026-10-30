@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "file": "ui/menu-network-research/03-research-tree-v1.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T04:04:40.565000-04:00",
+  "generatedAtBasis": "Tool receipt return time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T08:03:52.400Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-b9dc1966-d98e-4c52-96a0-54b47930b07a",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "sha256": "b3d12b4dae39a458992daa8aa6b9b4d90e178582f3aeaae701667564117b0e50",
+  "byteLength": 2599906,
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alphaExtrema": null,
+  "nativeSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedSize": {
+    "width": 2560,
+    "height": 1440,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "static_concept_visual_reviewed",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: ui-mockup\nCreate ONE refined technology research tree screen for \"Mindustry\", functional design based on v160.7 ResearchDialog and SerpuloTechTree, with Daoist chibi factory art. Landscape 16:9; request 2560 x 1440 native; opaque.\nImage 1 mail UI and Image 2 team UI are PRIMARY approved style references. Closely preserve jade-green heading plates, ivory silk-paper fields, thin warm gold edges, round carved cloud/ruyi corners, precise soft hand-painted lighting, readable dark-jade Chinese, restrained red tassels. Do not copy their game titles, portraits or page contents.\nComposition: ivory research canvas occupies most of screen, with unobtrusive soft teal landscape visible around a slim frame. Top-center jade title \"科技树\"; beneath it a compact planet/root selector \"Serpulo\" with down arrow. Small \"Mindustry\" upper-left. Top-right circular X.\nMain canvas left 73%: spacious node graph with THREE horizontal rows of large rounded square painted building icons. Fine gold orthogonal connection lines behind nodes. Avoid crossings and all lines must end at a node. Use no dense forest of tiny labels.\nAccurate visible sample dependencies:\n\"核心\" at far left branches into upper \"传送带\" and lower \"机械钻头\".\nUpper branch: \"传送带\" -> \"交叉器\" -> \"路由器\". Then \"路由器\" branches to three separate nodes \"分配器\", \"分类器\", \"传送带桥\". The first four upper nodes have green check indicators (already unlocked); \"分类器\" is selected with bright gold halo and small partial progress ring; \"分配器\" and \"传送带桥\" are available ivory nodes without checkmarks.\nLower branch: \"机械钻头\" branches to \"机械泵\", \"石墨压缩机\", \"燃烧发电机\". Mechanical drill is unlocked with check; pump and graphite press are available ivory nodes; combustion generator is visibly greyed and carries a lock (objective still unmet). Do not connect its future descendants. Render every name clearly below its own icon.\nBuilding icons are distinct rounded jade/bronze mechanisms: core hexagonal Taoist machine house, conveyor belt, four-way crossing, tri-way router, larger multiway distributor, sorter with color-filter crystals, conveyor bridge, drill, pump, press and furnace generator. Retain industrial identities.\nRight 25%: ivory selected-node detail panel with jade heading \"分类器\", large matching sorter icon. Exact body: \"研究进度 40%\" with 40%-filled jade bar; \"剩余需求\"; copper icon and \"铜 120\"; lead icon and \"铅 60\". Small cream button \"详细信息\". Jade primary button \"研究\". A compact separate locked-condition strip at bottom of panel reads \"燃烧发电机\" then lock icon and \"需要：研究煤炭\". These are demonstration quantities, not asserted game costs.\nTop-left narrow resource availability strip: \"铜 2,400\" and \"铅 1,200\".\nBottom: cream \"返回\" left; cream \"数据库\" right; center small state legend \"已解锁\" green check, \"可研究\" ivory, \"条件未满足\" gray lock. Tiny note \"示例分支 · 数值演示\".\nPrecise lines, aligned legible labels, generous spacing, no ambiguous arrows or duplicated nodes. This is a game screen showing a selected tech node, not an infographic poster. No portraits, no shop, no \"五行奇谈\", no photorealism, no plastic shine, no watermark. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "parameterLimitations": "内置工具无 model、quality、size 专用参数；尺寸只在 prompt 请求。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号和质量；未验证可确认具体版本或质量的来源元数据。",
+  "prompt": "prompts/menu-network-research/03-research-tree-v1.txt",
+  "promptSha256": "9aaab4384b869c6dc28ca4a09f23bd48e6b5faabc0e214d98b153d8b50165dfd",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/workers/menu-network-research/03-research-tree-v1.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-b9dc1966-d98e-4c52-96a0-54b47930b07a.png",
+    "originalOutputSha256": "b3d12b4dae39a458992daa8aa6b9b4d90e178582f3aeaae701667564117b0e50",
+    "projectBytesMatchOriginal": true
+  },
+  "integrationStatus": "not_runtime_integrated",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "functionalSources": [
+    {
+      "path": "core/src/mindustry/ui/dialogs/ResearchDialog.java",
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/ui/dialogs/ResearchDialog.java"
+    },
+    {
+      "path": "core/src/mindustry/content/SerpuloTechTree.java",
+      "localEvidence": "records/reference-unit-sources/SerpuloTechTree.java"
+    }
+  ],
+  "visualReview": {
+    "result": "passed_for_static_concept",
+    "inspectedUsing": "tool returned full image preview",
+    "observations": [
+      "样例依赖与 SerpuloTechTree.java 中已核对分支相符。",
+      "中文节点名称、连接线、选中分类器详情和资源需求清楚。",
+      "研究数量为演示，不声称是官方实际费用。"
+    ],
+    "blockingVisualIssues": [],
+    "runtimeAcceptance": false
+  }
+}

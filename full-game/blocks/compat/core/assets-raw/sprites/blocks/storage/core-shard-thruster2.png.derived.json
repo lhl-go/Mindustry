@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-shard-thruster2.png",
+  "sourceGitBlob": "2a15417fbe2290a3eecf4ea8c29e44e5668018bf",
+  "sourceSha256": "24a5bbdd0bd6dc642b948758ff788188704c8c8ff6b666d0d5453f234ed0aa4b",
+  "sourceDimensions": [
+    128,
+    60
+  ],
+  "region": "core-shard-thruster2",
+  "blockId": "core-shard",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-thruster2.png",
+  "sha256": "a7a4fcbb0767be0741bf4024eea91337a2c6f753485182dd3ed0bf16952c8660",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-thruster2.png",
+  "engineSha256": "a7a4fcbb0767be0741bf4024eea91337a2c6f753485182dd3ed0bf16952c8660",
+  "nativeFile": "full-game/blocks/masters/core-thruster-small-part.png",
+  "nativeSha256": "80f319782af080c046bf0bb642e1ed2440caaa3bbc5a3344887cb09d49e3205a",
+  "nativeSize": [
+    150,
+    311
+  ],
+  "sourceAlphaBounds": [
+    104,
+    1,
+    126,
+    59
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "2",
+    "localHorizontalMirror": false,
+    "localVerticalMirror": true,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-small-part.png",
+      "sha256": "80f319782af080c046bf0bb642e1ed2440caaa3bbc5a3344887cb09d49e3205a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-shard-thruster2.png",
+      "sha256": "24a5bbdd0bd6dc642b948758ff788188704c8c8ff6b666d0d5453f234ed0aa4b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-thruster2.png.derived.json"
+}

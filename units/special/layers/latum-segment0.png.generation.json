@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/layers/latum-segment0.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.675945+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 579,
+  "height": 1170,
+  "sha256": "c6548375768809406596a7e915ad64ebdd9824d22d8485e5a5a522cd2311b652",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524",
+      "generationRecord": "units/special/boards/02-neoplasm-segments-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "segment_component_crop_translate",
+    "sourceBBox": [
+      740,
+      912,
+      1085,
+      1237
+    ],
+    "destination": [
+      117,
+      813
+    ],
+    "commonCanvas": [
+      579,
+      1170
+    ],
+    "mask": "alpha >= 16",
+    "pixelResampling": false,
+    "plannedOverlapPx": 32
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

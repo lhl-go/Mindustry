@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vela-cell.png",
+  "sha256": "fd37d904498a24e578bd809d7696b241295ad6a6fa8e43304f5b6bd44e5d8cc7",
+  "width": 170,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vela.png",
+      "sha256": "e366f53fcfd5514df5acf197e162e3fbdab10b87c085f3e14c87eeea8615e8f6",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/vela.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "vela",
+    "baseCanvas": [
+      170,
+      140
+    ],
+    "outputCanvas": [
+      170,
+      140
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vela-cell.png",
+    "gitBlobSha1": "595fbce8be643b348170f621ccb5789f18394d9a",
+    "sha256": "5ec898140203d42e170356de46a5df5609e9c774a18bc1507bca5efee2ed6ce1"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

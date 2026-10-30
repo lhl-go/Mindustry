@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/teams/team-sharded.png",
+  "sha256": "b7d836793f4207441b4ac86f08cd80ec95f59b260e8e4bb7aae4ed90f22315e7",
+  "width": 62,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/team-sharded.png",
+      "sha256": "f612fcdbad9f69ffca04fe19daa81069e36a3aa6076d617bb075e2455f778f48",
+      "generationRecord": "full-game/items-fx/assets/team-sharded.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      62,
+      62
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

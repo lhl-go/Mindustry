@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/elude.png",
+  "sha256": "1bffdac45b562584a26384c4208e4fb030ffe4a94b9bb0f0cb15e0fa746e483a",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/elude-body.png",
+      "sha256": "57c8daaa170e4a13f4dfc70afb257ff0558f5aff95b7327b3448cf7f17782c3c",
+      "generationRecord": "units/coordinator-recoil-fix/elude-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      405,
+      591
+    ],
+    "sourcePivot": [
+      218.5,
+      311.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      14,
+      4
+    ],
+    "sourceDimensions": [
+      437,
+      623
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      60,
+      60
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/elude.png",
+    "gitBlobSha1": "173a779327a92ec029685a09021e3d64ae160aa5",
+    "sha256": "7be9c8d2f2bd119fc6aeb0bfa1eaafdc25e0142fb863cbf688ede33ad61dc218"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/reign.png",
+  "sha256": "1d1c81793e2d0a860c197afa18d855fdfe3b8d7c67b7adcf7aacf1d59b07cc65",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+      "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/reign.png",
+      "sha256": "199355d2f43a07bc71252b3ffd4e3868d3d2c962f38b5f89bc50e8ca3b493a8b",
+      "generationRecord": "units/serpulo-ground-naval/bodies/reign.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png",
+      "sha256": "9b55ca9fbb376b3e797f40fef842331bb280fff75c826fb2f3c3e0414edb19f7",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      689,
+      840,
+      1511,
+      1416
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          219.6,
+          285.15
+        ],
+        "scale": [
+          0.657051282051282,
+          0.6556420233463035
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          34,
+          201
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          602.4,
+          285.15
+        ],
+        "scale": [
+          0.657051282051282,
+          0.6556420233463035
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          487,
+          201
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/reign.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/reign.png.generation.json",
+        "sourceAnchorPx": [
+          330.0,
+          251.5
+        ],
+        "targetAnchorPx": [
+          411,
+          260
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          81,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png.generation.json",
+        "sourceAnchorPx": [
+          161.5,
+          252.39
+        ],
+        "targetAnchorPx": [
+          127.2,
+          275.09
+        ],
+        "scale": [
+          0.6934984520123839,
+          0.696165191740413
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          15,
+          99
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png.generation.json",
+        "sourceAnchorPx": [
+          161.5,
+          252.39
+        ],
+        "targetAnchorPx": [
+          694.8,
+          275.09
+        ],
+        "scale": [
+          0.6934984520123839,
+          0.696165191740413
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          583,
+          99
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 822,
+    "height": 576,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 186102,
+    "opaquePixelCount": 277635,
+    "partialPixelCount": 9735,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      798,
+      552
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "reign",
+    "sha256": "1d1c81793e2d0a860c197afa18d855fdfe3b8d7c67b7adcf7aacf1d59b07cc65",
+    "size": [
+      822,
+      576
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

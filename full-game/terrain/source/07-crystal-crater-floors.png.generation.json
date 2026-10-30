@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/07-crystal-crater-floors.png",
+  "sha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238",
+  "generatedAt": "2026-10-26 16:59:25 UTC",
+  "startedAt": "2026-10-26 16:58:17 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Paint a NEW Mindustry flat ground texture atlas, refined bright Daoist Q hand-painted game materials. Attached references guide the quality/brushwork ONLY: no UI, text, characters, frames or symbols. Requested1536×3072 portrait, exact3 equal columns ×6 equal rows of square fullbleed cells, without borders or gutters. Uniform top-down orthographic diffuse lighting with no gradient or vignette; all18 cells opaque, quiet tileable edges. Distinct native patterns for each variant; preserve same average hue/lightness for same material.\nRead cells row by row left to right:\nRow1 all3: CRYSTALLINE STONE variants1/2/3, pale desaturated violet-gray stone with little lavender crystals embedded flush into ground, fine luminous lavender streaks, mostly matte walkable rock.\nRow2 first2: CRYSTALLINE STONE variants4/5 matching row1 but different grain/crystal placement. Row2 third: CRYSTAL FLOOR variant1, pale mint-cyan translucent faceted mineral surface, flat tightly packed angular crystal mosaic with delicate white highlights, NOT tall crystals.\nRow3 all3: CRYSTAL FLOOR variants2/3/4 matching row2 third, each independently painted flat mint-cyan crystal mosaic.\nRow4 all3: CRATER STONE variants1/2/3, pale natural cool gray limestone ground with small subtle shallow round impact depressions, soft dust rims.\nRow5 all3: CRATER STONE variants4/5/6, same gray material with different sparse small impact pits; no dominant huge craters, gameplay-readable.\nRow6 all3: FERRIC CRATERS variants1/2/3, rusty ocher brown iron-rich rock ground with sparse tiny soft shallow pits, scattered orange mineral grains.\nNo cell labels, no black seams, no vertical cliffs, no objects. Small irregular details and harmonious gentle contrast.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/07-crystal-crater-floors.txt",
+  "promptSha256": "946bdc0a163347f0b246f45476d1deb446b15fc9cf945c8b1f8cef8f6627bea9",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/07-crystal-crater-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-4d887205-cb7d-4bd4-903b-4adc523ebf23.png",
+    "originalOutputSha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238"
+  },
+  "regions": [
+    "crystalline-stone1",
+    "crystalline-stone2",
+    "crystalline-stone3",
+    "crystalline-stone4",
+    "crystalline-stone5",
+    "crystal-floor1",
+    "crystal-floor2",
+    "crystal-floor3",
+    "crystal-floor4",
+    "crater-stone1",
+    "crater-stone2",
+    "crater-stone3",
+    "crater-stone4",
+    "crater-stone5",
+    "crater-stone6",
+    "ferric-craters1",
+    "ferric-craters2",
+    "ferric-craters3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone1.png",
+      "sha256": "278e28e23495b78ba167bd843e6947ff21c1a298ded5c2ddc4020b88c97529c7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone2.png",
+      "sha256": "a3f0c9e47b8a455dd7b56ce80ca812db4dcb00b8d9d502b729af13e6f89d3a5a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone3.png",
+      "sha256": "b40148c42eb442b2c065768cedcf0696630f73a7ac15a0885d6f2c320ed29a54"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone4.png",
+      "sha256": "61ad37441b4cdcfcf466517b10bef864bd791bacfee4bddca125d123b7a0681c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-stone5.png",
+      "sha256": "48e5acdff2c0e12b9a8816ee91e88319cb2aa195877faba1a2e3f7743ac05068"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystal-floor1.png",
+      "sha256": "2904e5a315462bb01d8995d83199315a81f13f8e0ede8b605c9a219f4d6ee565"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystal-floor2.png",
+      "sha256": "b910e41bb1ff96376529c8529d782f600ea2707bc2617db961881f8fee6629a2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystal-floor3.png",
+      "sha256": "748a5aaed71bb4cfb88b63458c7ffbdb89491d04585a49ad8d9c9f9dc990045c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystal-floor4.png",
+      "sha256": "57a76c735bf678da3ad16caa23f1923af9dba7b33b84c603717cfc9bc12a9ae6"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone1.png",
+      "sha256": "c2f9b03f95b46438eb7026b14cba8a3ac3a8e3899a3298c47c9e471db22d0635"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone2.png",
+      "sha256": "3c0e6c05a81244e571e793a6d64dbed77033a354fa31141d1ae018740b363832"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone3.png",
+      "sha256": "5ab0b7313e38cecd39c5bf70ffdfcacb2994badf558b77f315b9c628015e7da5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone4.png",
+      "sha256": "f0f1392625e7a7f646548e4f51a0246d20b2ccf2be57d9c83f8b5362b676a6c0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone5.png",
+      "sha256": "ca28e83ace6a05f3c8d41cc8229294932a321519e99adf49d35982ce92644d26"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crater-stone6.png",
+      "sha256": "0f3fb5329508350fd5386c5819989dc91416c426bb9aa76407ee5cb8eafd85a1"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-craters1.png",
+      "sha256": "62b4bd64023888ab4a47811c89092e61cb6e3271c4e9d7bac694b3971208612f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-craters2.png",
+      "sha256": "8152882a7b8e6f5d70084961d0bb78c4feec8dcf3b21abfbe6693c360a41df47"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-craters3.png",
+      "sha256": "06fd9c0e026d0a1335cae0955ad1fa07a42267427e41864e12ae75fafef44930"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

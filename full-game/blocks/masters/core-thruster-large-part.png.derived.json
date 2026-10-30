@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/core-thruster-large-part.png",
+  "sha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500",
+  "derivedAt": "2026-10-27T02:26:37.300543+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/root-detached-parts-03.png",
+      "sha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "generationRecord": "full-game/blocks/records/root-detached-parts-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      824,
+      0,
+      979,
+      387
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      155,
+      387
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    187,
+    419
+  ],
+  "anchorPixels": [
+    93.5,
+    209.5
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 3,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": "Source has three alpha>=16 pixels at the uppermost decorative apex. All four nozzle modules are present;16px padding adds no missing art or generated detail.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,67 @@
+{
+  "file": "full-game/blocks/qa/liquid-machinery-04-dark.jpg",
+  "sha256": "0c283271e231a97a329ea508a6cc68b78d868cbb7f10510ed095e715113be3f6",
+  "operation": "QA downscale and actual alpha compositing only",
+  "sourceInputs": [
+    {
+      "file": "full-game/blocks/masters/mechanical-pump.png",
+      "sha256": "da493186ed3b263035b7743ee8d8e7157987d2f3f5a22c80e651667f22597975"
+    },
+    {
+      "file": "full-game/blocks/masters/rotary-pump.png",
+      "sha256": "44e02fb7c5e17e6391f84bdb9eb778023f88ba5cec914a0b6e4c50531b1a2748"
+    },
+    {
+      "file": "full-game/blocks/masters/impulse-pump.png",
+      "sha256": "d240ec45e537b6a26c3ed271928b334bb38489f51e08eab668f110730ba28363"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-pump.png",
+      "sha256": "1df47c9dfbc60da61998489a6b5077bbb8cb55cab042dc1f1ea44a73616276f8"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-router.png",
+      "sha256": "7963980c77ee92890e3b72b8553f9fa14c5cd50a5d092d1475ad44c41fe1a854"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-container.png",
+      "sha256": "c0e6bb2a9824c0120622ac27bc2082a93bf5f90a1e211253463196047fb41e31"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-tank.png",
+      "sha256": "4dd1b6f07bffcccb3c05b642a6e2e2fb130a852890ec210e4534485c054fca71"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-junction.png",
+      "sha256": "0285e66d9381e7e236ffcce25dda88f9d00aee25679f1ab4776d39a970a7db38"
+    },
+    {
+      "file": "full-game/blocks/masters/bridge-conduit.png",
+      "sha256": "b0fecfcc704c16123bf5f01bbf8f82a45f177e84cd559ebc19b8f097d131846e"
+    },
+    {
+      "file": "full-game/blocks/masters/phase-conduit.png",
+      "sha256": "dff8230eb78058e5448bc1320161f7cf331c5b9f516d388bd97014e387890e0a"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-junction.png",
+      "sha256": "70f5ba189f8c51d764b52b734a719c72fc7b2ad11fa57e3f4e86cc2ad2965f58"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-bridge-conduit.png",
+      "sha256": "5dfe259b9416f03e3c7570f3a59d4a959d08af81213e8b5073233e3168e8a394"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-router.png",
+      "sha256": "103f69fd2ff42a351408c0fcb87df236e24b2548f9e234e6927e97020f148d9a"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-container.png",
+      "sha256": "f02caa8b92d0e7331db1ff33eb2f9144f34e7ababf1815a2e66b940a08f48c45"
+    },
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-tank.png",
+      "sha256": "22c244fef84492cf2a8cda5b15c12b70930876768bb777b666ed93824355f65a"
+    }
+  ]
+}

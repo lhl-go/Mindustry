@@ -1,0 +1,56 @@
+{
+  "file": "full-game/terrain/qa/03-liquids-salt-seams.png",
+  "sha256": "47e5816b646fcd96247705647f3eb4ed5183bec575320d46c412f5a0bb59e64e",
+  "operation": "3x3 repetition of exported tile, nearest-neighbor enlargement only for QA (not native art)",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/deep-water.png",
+      "sha256": "ccbdc2c9325f85ad15a1eeca5cbc0358746ee1cb26e68c3df4f3d95bc62cdf79"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/shallow-water.png",
+      "sha256": "405a0d681d942bbb5f2be23162213f84ddd58707cf1b9f8e86ba7b94952992c7"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/tainted-water.png",
+      "sha256": "7fe730b675b41420980ff2f91cd0f9431d131487e372f1e0c334d7d77a2d0c36"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/deep-tainted-water.png",
+      "sha256": "bf546b32ddc72d1762a87d91f9acf058bd73c15f2829367698bc59b82d2db7a2"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/sand-water.png",
+      "sha256": "36d05f6a8ce3ece3ffbf34727dfea7c54ca827c0fa4631a6781a40fd93405556"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/darksand-water.png",
+      "sha256": "acf41862608d8e0bfc8620ec3702aa1fe7d237ecd5580a4ea507f6ccb63d420e"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/darksand-tainted-water.png",
+      "sha256": "467f841d0688ded0e369e52516fc6bd33e0fea38695e5fa37c656d19068f871a"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/tar.png",
+      "sha256": "6d561b1916afbf7fd22063f8ef7bbb7dcb07cc54e561406156fb63149154ea47"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/pooled-cryofluid.png",
+      "sha256": "4cf08e88c620077e3cad8ecb803955a0afde3158497a812076091f7a349f5e23"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/molten-slag.png",
+      "sha256": "699aaedfa19b5ae18fd2d15e8a14679d7ba6706b5ae7ade2ebf4262ca82550d4"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/arkycite-floor.png",
+      "sha256": "1c2630e40491cb704eea108afc5fc6b0904362ea4f96ae8d31f9c5a803b125ca"
+    },
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/salt.png",
+      "sha256": "1cf9a930ddefc61a76fe21092c5e23c8e4559c25248c358f7627bb310d2bec50"
+    }
+  ],
+  "inspectionOnly": true
+}

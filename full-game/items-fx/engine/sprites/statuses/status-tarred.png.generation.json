@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-tarred.png",
+  "sha256": "30105d9d6ab0ea97b27795f378f38fc143eb6ab4e3a78caf3d57ddf7eb96b2a0",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-tarred.png",
+      "sha256": "3f93674716e4541a0660bfb01f8b3b8b92796ac67c15aea3a5e59f62de81174d",
+      "generationRecord": "full-game/items-fx/assets/status-tarred.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

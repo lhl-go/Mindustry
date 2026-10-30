@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/06-statuses-elements.png",
+      "sha256": "a57d9a2950185382c5765ad615de70b0b9dd30a56ded85087462a6d7ee616c14",
+      "generationRecord": "full-game/items-fx/source/06-statuses-elements.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      40,
+      31,
+      425,
+      430
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-freezing.png",
+  "sha256": "f6a8e1b85a3157711f1280a10c23e4e5e03cbabb31395dcbbf8d5a74da729972",
+  "width": 417,
+  "height": 431,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.440610+00:00"
+}

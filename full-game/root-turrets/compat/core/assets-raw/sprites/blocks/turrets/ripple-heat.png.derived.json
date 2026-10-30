@@ -1,0 +1,35 @@
+{
+  "region": "ripple-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/ripple-heat.png",
+  "sha256": "c39aee86706e6dc0b3dc07e68533b88346084dbc2755cbdb84dbaeb29e236a0f",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.490402+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/ripple-heat.png",
+      "sha256": "54745615d088667fd0614ac499ab6128b421df7e464dfeaa33faa7594aa4f955",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/ripple.png",
+      "sha256": "9ef1fb810beb54dc431e4731bd084bc2f52e8ae1b1f4bebf72b49e41ce83143e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/ripple.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "ripple"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1124
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

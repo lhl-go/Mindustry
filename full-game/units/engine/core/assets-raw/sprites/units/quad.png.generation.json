@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quad.png",
+  "sha256": "b9ff06e0fd4536db13430ad797a4b544a27ce701bdaebcc87210866743eda40b",
+  "width": 220,
+  "height": 220,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/quad.png",
+      "sha256": "f2eeb53a162808a149aaa695cae2e9a745ae19a47ae527327370bc424382cb84",
+      "generationRecord": "units/air-erekir/individual/quad.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      569,
+      479
+    ],
+    "sourcePivot": [
+      292.5,
+      247.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      22
+    ],
+    "sourceDimensions": [
+      585,
+      495
+    ],
+    "targetDimensions": [
+      220,
+      220
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      216,
+      216
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      110.0,
+      110.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quad.png",
+    "gitBlobSha1": "51b20f747d13cd60301264741eefa1963898f51a",
+    "sha256": "b352c717bdad6e9f5f5578821f2e0589bbdedd2d0bd43ba91275e919bd63d866"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

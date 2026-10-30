@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png",
+  "sourceGitBlob": "539aa3f0576e89cfec201c5d6aa125a5810477ff",
+  "sourceSha256": "dc42ecc3b71bbada4e704292c3135c1655c566e16bce8a0c4c5254d8d120b38e",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "reinforced-conduit-top-3",
+  "blockId": "reinforced-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png",
+  "sha256": "d63a703465ee610cdd663c7eaf0e7086250faa9de57f13fe96b50cf1ba26b83a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png",
+  "engineSha256": "d63a703465ee610cdd663c7eaf0e7086250faa9de57f13fe96b50cf1ba26b83a",
+  "nativeFile": "full-game/blocks/masters/reinforced-conduit-shape-3.png",
+  "nativeSha256": "c291d15352c11f0f6c3cc5b06739eb91e7b6c36319822be1aa5a5890b75654fd",
+  "nativeSize": [
+    351,
+    303
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 3,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-conduit-shape-3.png",
+      "sha256": "c291d15352c11f0f6c3cc5b06739eb91e7b6c36319822be1aa5a5890b75654fd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png",
+      "sha256": "dc42ecc3b71bbada4e704292c3135c1655c566e16bce8a0c4c5254d8d120b38e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/reinforced-conduit-top-3.png.derived.json"
+}

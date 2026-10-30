@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/turbine-condenser-rotator-blur.png",
+  "sourceGitBlob": "adea1029afdcc581ee183d6fa391345ef8bd15b0",
+  "sourceSha256": "b4eec10f6c0ade8b1ae554891d71f823286177fc7f9404ee22c93d0efc1f54d5",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "turbine-condenser-rotator-blur",
+  "blockId": "turbine-condenser",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator-blur.png",
+  "sha256": "f0bdd807de19bb6d07e7c6ebddaaa7ff2c70087da00b9922352d492f1da457e0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator-blur.png",
+  "engineSha256": "f0bdd807de19bb6d07e7c6ebddaaa7ff2c70087da00b9922352d492f1da457e0",
+  "nativeFile": "full-game/blocks/masters/turbine-condenser-rotator-part.png",
+  "nativeSha256": "ff252f607f75dd382bbd319ba18f4e945658af58eb72df70c705dfe218b7da62",
+  "nativeSize": [
+    274,
+    288
+  ],
+  "sourceAlphaBounds": [
+    14,
+    14,
+    82,
+    82
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": 34,
+    "blurDerivedFromSameRotor": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/turbine-condenser-rotator-part.png",
+      "sha256": "ff252f607f75dd382bbd319ba18f4e945658af58eb72df70c705dfe218b7da62"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/turbine-condenser-rotator-blur.png",
+      "sha256": "b4eec10f6c0ade8b1ae554891d71f823286177fc7f9404ee22c93d0efc1f54d5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator-blur.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

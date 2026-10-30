@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/risso.png",
+  "sha256": "89f64313e109272f96709759ff4f62178725ccd2f60da9b19131783090064cbd",
+  "width": 70,
+  "height": 78,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/risso.png",
+      "sha256": "be8124b0b0758591a1608e64a7f9c405b998b747e8d7a59b7dc28b218b2dd80d",
+      "generationRecord": "units/serpulo-ground-naval/bodies/risso.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      204,
+      439
+    ],
+    "sourcePivot": [
+      110.0,
+      227.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      4
+    ],
+    "sourceDimensions": [
+      220,
+      455
+    ],
+    "targetDimensions": [
+      70,
+      78
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      66,
+      74
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      35.0,
+      39.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/risso.png",
+    "gitBlobSha1": "bcfa3c29adf9093974b1ca076785c0b6e6b61896",
+    "sha256": "5b393c40f9d62a310ffe32c4946cc49d8f16d65cccab19308ca3260bce53afa9"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

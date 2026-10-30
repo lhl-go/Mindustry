@@ -1,0 +1,73 @@
+{
+  "file": "full-game/items-fx/source/07-statuses-combat.png",
+  "sha256": "ac6ca1afc32eae50c2bcb7a58aef7aaa7ddd639ab6a6403d5023426f88151988",
+  "generatedAt": "2026-10-26T16:29:45.596Z",
+  "startedAt": "2026-10-26T16:28:35.391Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Production game sprite sheet, exactly 8 distinct isolated sprites. Strict invisible 4 columns x2 rows reading order; unused final cell empty. Requested 2048x1024. The two attached refs dictate fine Daoist chibi painted style, jade ivory warm-gold finish, clean rounded detailed art, but preserve described colors. 1 sapped: purple draining spiral pulling a pale glowing spirit pearl downward. 2 electrified: sharp blue branching electrical bolt around a small gold ring. 3 shocked: yellow single zigzag lightning burst. 4 blasted: red-orange radial explosion with black center. 5 disarmed: broken jade sword in two pieces with a small locking seal. 6 unmoving: jade boot chained to a square golden padlock. 7 slow: small jade snail with heavy spiral shell. 8 fast: winged jade boot with three golden speed streaks. Entire objects inside each cell with generous15% margins, no overlaps. Genuine transparent RGBA. No text, border, plaque, floor, grid, cast shadow, glow fog or UI. Status symbols should read at small size, pictorial silhouette only, not square button backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/07-statuses-combat.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/07-statuses-combat.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-a691196f-04f1-481d-9882-1dab797a7bde.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "status-sapped",
+    "status-electrified",
+    "status-shocked",
+    "status-blasted",
+    "status-disarmed",
+    "status-unmoving",
+    "status-slow",
+    "status-fast"
+  ],
+  "sourceImageRetained": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/quell-weapon.png",
+  "sha256": "5bf4005b82465e0dadbb1a48f8d2db1a764bc8a82b6d60db82fc3f07f30e995d",
+  "width": 53,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/quell-weapon.png",
+      "sha256": "5f136f385541686ae8513dd0ab9154c8171c9a3908f3f0ff5611ccba683db312",
+      "generationRecord": "units/air-erekir-parts/assets/quell-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      376,
+      361
+    ],
+    "sourcePivot": [
+      204,
+      241
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      3,
+      1
+    ],
+    "sourceDimensions": [
+      408,
+      393
+    ],
+    "targetDimensions": [
+      53,
+      60
+    ],
+    "officialAlphaBounds": [
+      5,
+      4,
+      48,
+      51
+    ],
+    "scale": 0.13875598086124402,
+    "engineAnchorPx": [
+      26.5,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/quell-weapon.png",
+    "gitBlobSha1": "44f39f794f85a6d332aa7faf94940b26396b2ed8",
+    "sha256": "6942e2f257592cda082d3e64a304cc6fc60c695e650e2c77885d8bc83a8abab7"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

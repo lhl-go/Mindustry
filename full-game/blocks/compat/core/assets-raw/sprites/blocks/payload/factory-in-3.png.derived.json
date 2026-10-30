@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-in-3.png",
+  "sourceGitBlob": "9ea0ed0f19111354b1c316180b7d0a775af5ca67",
+  "sourceSha256": "7f6e7d271737e189b455f9d62e291941e0383e7959c41514043a83bdba0859c2",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "factory-in-3",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3.png",
+  "sha256": "082a6beba1f8b86f0a6106ac12f69a20fadbc236ec15760808c8b5fb34f611db",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3.png",
+  "engineSha256": "082a6beba1f8b86f0a6106ac12f69a20fadbc236ec15760808c8b5fb34f611db",
+  "nativeFile": "full-game/blocks/masters/constructor.png",
+  "nativeSha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9",
+  "nativeSize": [
+    292,
+    315
+  ],
+  "sourceAlphaBounds": [
+    0,
+    5,
+    37,
+    91
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-in-3",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/constructor.png",
+      "sha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-in-3.png",
+      "sha256": "7f6e7d271737e189b455f9d62e291941e0383e7959c41514043a83bdba0859c2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-3.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/constructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

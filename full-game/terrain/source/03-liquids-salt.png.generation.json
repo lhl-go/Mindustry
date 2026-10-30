@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/03-liquids-salt.png",
+  "sha256": "0412041f336228c00390514d12c867df14335dd4f7c4fa86102f3dc53d6f9259",
+  "generatedAt": "2026-10-26 16:38:18 UTC",
+  "startedAt": "2026-10-26 16:36:36 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1086,
+  "height": 1448,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    2304,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Paint a Mindustry ground LIQUID texture atlas. References attached are ONLY for refined bright Daoist Q hand-painted finish and clean brushwork; DO NOT draw their UI, text, people, objects or symbols. Requested 2304×3072 portrait, precisely THREE columns × FOUR rows of 12 square material swatches. Each square fills entire cell, no border, gutter, label or frame. Strict flat top-down orthographic liquid surface; tiny quiet ripples and subtle brushwork, not a scene or pool shoreline. Low contrast readable texture with matching tileable edges on all four sides and no large reflections crossing borders. No global lighting gradient. Keep the 12 functional materials distinguishable by color and texture, all opaque.\nRow1 left to right: DEEP WATER dark sapphire-blue water with faint broad soft ripples; SHALLOW WATER clean light turquoise water with small pale caustics over faint stony bed; TAINTED WATER dusky lavender-purple water with tiny subtle irregular contamination wisps.\nRow2: DEEP TAINTED WATER dark muted plum-purple water; SAND WATER pale transparent turquoise shallow water over warm beige sand ripple bed; DARKSAND WATER desaturated blue teal water over dark gray fine sand.\nRow3: DARKSAND TAINTED WATER smoky violet water over dark gray sand; TAR almost-black warm charcoal viscous petroleum with restrained oily sheen; POOLED CRYOFLUID luminous cool powder-blue milky liquid with faint soft mistlike swirls, not ice cracks.\nRow4: MOLTEN SLAG hot orange-red molten liquid with golden glowing thin eddies and small dark crust specks, no solid cliffs; ARKYCITE FLOOR deep olive-lime green viscous alien organic liquid with tiny green surface bubbles; SALT dry pale ivory-white granular salt flat with small irregular polygon cracks and fine crystalline grains, completely dry not water.\nEach cell completely filled, no text, no labels, no borders, no raised geometry. Materials should resemble beautifully painted game floor textures, no photoreal noise.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/03-liquids-salt.txt",
+  "promptSha256": "fbe6931e78787b66374872e58cf845b620b11b52adc01276ab62df86219624f1",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/03-liquids-salt.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5d0c3497-e11b-4f8b-8337-29531cc07132.png",
+    "originalOutputSha256": "0412041f336228c00390514d12c867df14335dd4f7c4fa86102f3dc53d6f9259"
+  },
+  "regions": [
+    "deep-water",
+    "shallow-water",
+    "tainted-water",
+    "deep-tainted-water",
+    "sand-water",
+    "darksand-water",
+    "darksand-tainted-water",
+    "tar",
+    "pooled-cryofluid",
+    "molten-slag",
+    "arkycite-floor",
+    "salt"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/deep-water.png",
+      "sha256": "c33e52768cbccfeab24c9ade8e8ce228cad9cd5a774677eb57c81e3a8d6a076c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shallow-water.png",
+      "sha256": "7771202f6c66f2b3483dcbef19048f5c8f2ef2243834db055e3e837865afb6d5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tainted-water.png",
+      "sha256": "354f0569105ee63794d051f098a71ad32ab2d59ac2eefde687168eb6f508b413"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/deep-tainted-water.png",
+      "sha256": "1af93c2a7cb0c7ebd92a51a0980d9c6d24a61edb113422e88f1fe62da85115cb"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-water.png",
+      "sha256": "084393ad25149c7d19a3bc0a4dd0e7573bbe3d9cd9b69881b8744a88367d8918"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand-water.png",
+      "sha256": "c1784f1788bdcd70924b1a61c89c5d2a3fe3222b49135ccf4f3b8f603cdc84da"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand-tainted-water.png",
+      "sha256": "b2d9ae3a43bd2224d63faeb9f29243c0a672831749be25d54967adec9da944d7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tar.png",
+      "sha256": "9ea35d45b59f3f063daadc5c38b0f2f1a9bb535d0197234de5c878958a0e2f76"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pooled-cryofluid.png",
+      "sha256": "4363bc75fcc0df5e02d6db7c801f0845a284fad5e2368fc04c50a153735f10b2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/molten-slag.png",
+      "sha256": "08c23b9e9b4b4211324a18e7ea5b3ed85b08758c1cec8f641076d4a799f36f2a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkycite-floor.png",
+      "sha256": "2b1b694a2ac5f4bfd4252eb55b3e9d9fd01106e5ba2d286c627552280e7f53b2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/salt.png",
+      "sha256": "140980e82a6910bd1639304e92f8670a2aa9b666f8a284b939600888c90cd454"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

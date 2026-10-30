@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-stone3.png",
+  "sha256": "97f9ad37370b6f5b736becc6d869dc23f50c6dd57688c7588025c048cc2b2b85",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/06-rock-crater-floors.png",
+      "sha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8",
+      "generationRecord": "full-game/terrain/source/06-rock-crater-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    1480,
+    885,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

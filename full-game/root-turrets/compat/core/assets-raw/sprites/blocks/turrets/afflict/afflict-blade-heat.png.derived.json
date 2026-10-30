@@ -1,0 +1,41 @@
+{
+  "region": "afflict-blade-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-heat.png",
+  "sha256": "c96f6bcbed5d1598a4cb4d9b7c267aa367cd9ff08e506033cf2c5eb01d70495c",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.419768+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/afflict/afflict-blade-heat.png",
+      "sha256": "fb98262c84ed4edc57999e42cbbd5112001678e2458a4574fe7980c5566fd33e",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-r.png",
+      "sha256": "2343b4606e25ab0f1b81cece0e71edcfcdad1805ffdd2957657b97fab12bfd33",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-l.png",
+      "sha256": "2343b4606e25ab0f1b81cece0e71edcfcdad1805ffdd2957657b97fab12bfd33",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict-blade-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "afflict-blade-r",
+      "afflict-blade-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 453
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

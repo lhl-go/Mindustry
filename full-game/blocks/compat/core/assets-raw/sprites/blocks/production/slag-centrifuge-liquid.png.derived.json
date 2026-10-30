@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-centrifuge-liquid.png",
+  "sourceGitBlob": "a8fb90921fda0d7ad831c4d4fc8fd22f211f502d",
+  "sourceSha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "slag-centrifuge-liquid",
+  "blockId": "slag-centrifuge",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-liquid.png",
+  "sha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-liquid.png",
+  "engineSha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/slag-centrifuge-liquid.png",
+  "nativeSha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b",
+  "nativeSize": [
+    96,
+    96
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    92,
+    92
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-centrifuge-liquid.png",
+      "sha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-centrifuge-liquid.png",
+      "sha256": "a45cc03d1c3fecdd11e19c0fc25f7a934f681dfdb9953cee2833939a1ecca01b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-centrifuge-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

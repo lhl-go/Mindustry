@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/naval-factory.png",
+  "sourceGitBlob": "cddc8dc9cbffd557d076c9fe36838b1607d04b27",
+  "sourceSha256": "32ffe284c6893551701ff01b30c990b58781007760656b45243cc549db04bf6e",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "naval-factory",
+  "blockId": "naval-factory",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/naval-factory.png",
+  "sha256": "e0009367e612dc6983b9116bfa46ea6609a74cf084a3aa1b65f001bcc513578d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/naval-factory.png",
+  "engineSha256": "e0009367e612dc6983b9116bfa46ea6609a74cf084a3aa1b65f001bcc513578d",
+  "nativeFile": "full-game/blocks/masters/naval-factory.png",
+  "nativeSha256": "2a71e96faae40e74eed2161fe6dd43bcd65c9e1099dcd185b08d13a2f821c5d3",
+  "nativeSize": [
+    369,
+    382
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/naval-factory.png",
+      "sha256": "2a71e96faae40e74eed2161fe6dd43bcd65c9e1099dcd185b08d13a2f821c5d3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/naval-factory.png",
+      "sha256": "32ffe284c6893551701ff01b30c990b58781007760656b45243cc549db04bf6e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/naval-factory.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/naval-factory.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/naval-factory.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/cliff-crusher-rotator-part.png",
+  "sha256": "64af80708f08314b8ad3e105c4f9a942c0857f5f3ad59a4e791625b1185f0061",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      784,
+      300,
+      1029,
+      541
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      245,
+      241
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    277,
+    273
+  ],
+  "anchorPixels": [
+    138.5,
+    136.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

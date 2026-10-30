@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/large-cliff-crusher.png",
+  "sha256": "cb112aefcc1cfeae1cae54714b66c047a4ba5251e20ef0617b7d913a7492b76c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      707,
+      413,
+      1104,
+      674
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      397,
+      261
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    429,
+    293
+  ],
+  "anchorPixels": [
+    214.5,
+    146.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

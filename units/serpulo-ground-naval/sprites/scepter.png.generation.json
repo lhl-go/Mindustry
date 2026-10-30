@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/scepter.png",
+  "sha256": "17bbae1f1d798fe58ac9706b5a701b2117695b0c90e89edbf8f3aac8a565f8ac",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+      "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/scepter.png",
+      "sha256": "b9c85214bc670573fcd83de4c4e8b404058bfeec63ed0f22e403f14e6956a31a",
+      "generationRecord": "units/serpulo-ground-naval/bodies/scepter.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+      "sha256": "8bbfada5fabe3652cfde5836e25d06be3a89954853552aa467e99ccf86c8b4ad",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-heavy-burst.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+      "sha256": "8e704421082ad44f152f08dc576a2f1d2514e3df9bd461fd2d32e6bcb8dc9999",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      777,
+      868,
+      1423,
+      1386
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          172.49,
+          254.45
+        ],
+        "scale": [
+          0.5865384615384616,
+          0.585603112840467
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          7,
+          180
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          473.51,
+          254.45
+        ],
+        "scale": [
+          0.5865384615384616,
+          0.585603112840467
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          370,
+          180
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/scepter.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/scepter.png.generation.json",
+        "sourceAnchorPx": [
+          259.5,
+          224.5
+        ],
+        "targetAnchorPx": [
+          323,
+          232
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          63,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-heavy-burst.png.generation.json",
+        "sourceAnchorPx": [
+          147.0,
+          251.62
+        ],
+        "targetAnchorPx": [
+          99.83,
+          232
+        ],
+        "scale": [
+          0.564625850340136,
+          0.5650887573964497
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          17,
+          90
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-heavy-burst.png.generation.json",
+        "sourceAnchorPx": [
+          147.0,
+          251.62
+        ],
+        "targetAnchorPx": [
+          546.17,
+          232
+        ],
+        "scale": [
+          0.564625850340136,
+          0.5650887573964497
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          463,
+          90
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          229.58,
+          151.18
+        ],
+        "scale": [
+          0.36363636363636365,
+          0.364741641337386
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          186,
+          62
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          416.42,
+          151.18
+        ],
+        "scale": [
+          0.36363636363636365,
+          0.364741641337386
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          372,
+          62
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          229.58,
+          344.25
+        ],
+        "scale": [
+          0.36363636363636365,
+          0.364741641337386
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          186,
+          255
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-autocannon.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+        "sourceAnchorPx": [
+          121.0,
+          244.69
+        ],
+        "targetAnchorPx": [
+          416.42,
+          344.25
+        ],
+        "scale": [
+          0.36363636363636365,
+          0.364741641337386
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          372,
+          255
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 646,
+    "height": 518,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 131353,
+    "opaquePixelCount": 195380,
+    "partialPixelCount": 7895,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      622,
+      494
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "scepter",
+    "sha256": "17bbae1f1d798fe58ac9706b5a701b2117695b0c90e89edbf8f3aac8a565f8ac",
+    "size": [
+      646,
+      518
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/blast-door-open.png",
+  "sourceGitBlob": "afe9aa0f1f6a1170f38a36499609e0b72eb77022",
+  "sourceSha256": "490b0da9e7c3c207203add83b419109af56794dfbc2623ef2713c39d007caf9e",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "blast-door-open",
+  "blockId": "blast-door",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door-open.png",
+  "sha256": "5d4778357e61eb2a0fcaa323a1ba2e1bd9931d9fde8f130123659acdb55a4b49",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door-open.png",
+  "engineSha256": "5d4778357e61eb2a0fcaa323a1ba2e1bd9931d9fde8f130123659acdb55a4b49",
+  "nativeFile": "full-game/blocks/masters/blast-door.png",
+  "nativeSha256": "73409a370b87720605a082c18933dfef66d23ac0dba8e6d0dab1efae347f7e54",
+  "nativeSize": [
+    324,
+    286
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "painted_door_material_on_exact_original_open_frame_geometry",
+    "centerRemainsTransparent": true,
+    "nativeMasterIsDesignMaterialSource": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_open_frame_with_original_passage_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/blast-door.png",
+      "sha256": "73409a370b87720605a082c18933dfef66d23ac0dba8e6d0dab1efae347f7e54"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/blast-door-open.png",
+      "sha256": "490b0da9e7c3c207203add83b419109af56794dfbc2623ef2713c39d007caf9e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door-open.png.derived.json"
+}

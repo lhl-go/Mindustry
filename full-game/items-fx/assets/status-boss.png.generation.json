@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/08-statuses-power.png",
+      "sha256": "bda3badfec43648fe7bec7fd2e3b3aae4760344bd4e14592a0110dff1751cb4c",
+      "generationRecord": "full-game/items-fx/source/08-statuses-power.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      627,
+      627,
+      1254,
+      1254
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      15,
+      23,
+      598,
+      561
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-boss.png",
+  "sha256": "7049331a687103081ecff9b1fd1a45a635d6996a7724110c1c215fa9f732747e",
+  "width": 615,
+  "height": 570,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.871046+00:00"
+}

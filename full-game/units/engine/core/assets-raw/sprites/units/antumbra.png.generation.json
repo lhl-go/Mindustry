@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/antumbra.png",
+  "sha256": "7086038c3ab4933dba5bf66f29abdc9b04481c1615ac1684b986943540d128d4",
+  "width": 216,
+  "height": 240,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/antumbra-body.png",
+      "sha256": "e49d1181f948da410a8ea3ed4244664ba94c48ac1014a62b5a3f7515e481a845",
+      "generationRecord": "units/air-erekir/layers/antumbra-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      727,
+      562
+    ],
+    "sourcePivot": [
+      371.5,
+      289.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      40
+    ],
+    "sourceDimensions": [
+      743,
+      578
+    ],
+    "targetDimensions": [
+      216,
+      240
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      212,
+      236
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      108.0,
+      120.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/antumbra.png",
+    "gitBlobSha1": "bbbcb480fe751340e4f2c5ee0c41a2ba904e8f64",
+    "sha256": "d040c0c929b7b98eeb88d17e258db06893492a653d1f750f9561bcb4d6bf1da9"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

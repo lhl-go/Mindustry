@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/thermal-generator.png",
+  "sourceGitBlob": "07b1da15677efc76ed99316ed17ea925978a728a",
+  "sourceSha256": "50da99fd6111b714c7158c6fb2596eedbdbd7b6a3f7d4fdac1925ea62d99dace",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "thermal-generator",
+  "blockId": "thermal-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thermal-generator.png",
+  "sha256": "eb1c2b892942237ba13ffd0710f5527836208ecf5546236bf0393a79be367ec0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thermal-generator.png",
+  "engineSha256": "eb1c2b892942237ba13ffd0710f5527836208ecf5546236bf0393a79be367ec0",
+  "nativeFile": "full-game/blocks/masters/thermal-generator.png",
+  "nativeSha256": "5ae4d6e1c3198ca6e215462d714ba32f63fc3c8616f827630d0d238a5ff5b890",
+  "nativeSize": [
+    281,
+    284
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/thermal-generator.png",
+      "sha256": "5ae4d6e1c3198ca6e215462d714ba32f63fc3c8616f827630d0d238a5ff5b890"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/thermal-generator.png",
+      "sha256": "50da99fd6111b714c7158c6fb2596eedbdbd7b6a3f7d4fdac1925ea62d99dace"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thermal-generator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/silicon-crucible.png",
+  "sourceGitBlob": "9e0f352606c2e9b1867abc455092cb4dfe577252",
+  "sourceSha256": "0c2e35cee4ec904bdf473f65521f7711268cc867182875ff49a9d913a850f964",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "silicon-crucible",
+  "blockId": "silicon-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible.png",
+  "sha256": "df11394d264cfd15363d440559cf313130f655b624cf3d45e361d58de8da2b80",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible.png",
+  "engineSha256": "df11394d264cfd15363d440559cf313130f655b624cf3d45e361d58de8da2b80",
+  "nativeFile": "full-game/blocks/masters/silicon-crucible.png",
+  "nativeSha256": "c29993c254a86cea707389ca990d268358df45f40eaa70e147e58db521ae87d5",
+  "nativeSize": [
+    404,
+    330
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/silicon-crucible.png",
+      "sha256": "c29993c254a86cea707389ca990d268358df45f40eaa70e147e58db521ae87d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/silicon-crucible.png",
+      "sha256": "0c2e35cee4ec904bdf473f65521f7711268cc867182875ff49a9d913a850f964"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/silicon-crucible.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

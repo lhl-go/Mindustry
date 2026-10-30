@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/air-factory.png",
+  "sourceGitBlob": "0b9f9753cab6279bd987200c91b4d6914c22268f",
+  "sourceSha256": "a12402737e6858c39e5bbcf1ea342b830aca6b4593f1d522809245fe4d80bbad",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "air-factory",
+  "blockId": "air-factory",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/air-factory.png",
+  "sha256": "73b4a249a93d260cbdf45ff408016b2f1330dc24b651232c5c40e88ad87c2d79",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/air-factory.png",
+  "engineSha256": "73b4a249a93d260cbdf45ff408016b2f1330dc24b651232c5c40e88ad87c2d79",
+  "nativeFile": "full-game/blocks/masters/air-factory.png",
+  "nativeSha256": "6830520efba20428ee3d27b01ec67e5678fd870dccd0879910b729d9cdd2b638",
+  "nativeSize": [
+    364,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/air-factory.png",
+      "sha256": "6830520efba20428ee3d27b01ec67e5678fd870dccd0879910b729d9cdd2b638"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/air-factory.png",
+      "sha256": "a12402737e6858c39e5bbcf1ea342b830aca6b4593f1d522809245fe4d80bbad"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/air-factory.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/air-factory.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/air-factory.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

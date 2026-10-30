@@ -1,0 +1,37 @@
+{
+  "file": "full-game/units/parts/joint-cap-small.png",
+  "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+  "width": 372,
+  "height": 283,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/source/unit-bases-joints.png",
+      "sha256": "b98abe39616f5c44f16d077cc28c1c13765e0618235468b1bcd1a9837c0b4f08",
+      "generationRecord": "full-game/units/source/unit-bases-joints.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_crop_alpha_cleanup",
+    "crop": [
+      0,
+      490,
+      450,
+      1024
+    ],
+    "trim": [
+      70,
+      121,
+      410,
+      372
+    ],
+    "padding": 16,
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded builtin generation; actual model/quality not disclosed."
+}

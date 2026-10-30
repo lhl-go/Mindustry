@@ -1,0 +1,4655 @@
+{
+  "status": "complete_art_and_runtime_mapping_engine_not_verified",
+  "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "sourcePathCount": 164,
+  "assetCount": 164,
+  "missing": [],
+  "assets": [
+    {
+      "id": "item-copper",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-copper.png",
+      "officialGitBlob": "e35ef78511d242b2cd5a10c812ca47b443ff631d",
+      "file": "full-game/items-fx/assets/item-copper.png",
+      "sha256": "d18b4300e94654cb2afcb6852ef721226059afea11e69c0bda9b89fcedf4c298",
+      "size": [
+        436,
+        374
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-copper.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-copper.png",
+      "engineSha256": "57c357a42214851a48b8017c21b096e0833e8e16d7f8681012a028903f48c6f8",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-copper.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-lead",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-lead.png",
+      "officialGitBlob": "f42443997b1d1128f7ad6cdf40b178ef4bade505",
+      "file": "full-game/items-fx/assets/item-lead.png",
+      "sha256": "85574ca7cef96e5d4f41dbdb32718ce600494a34adfd9930b6b3ddcb0a083c7e",
+      "size": [
+        409,
+        366
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-lead.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-lead.png",
+      "engineSha256": "a28c2ee2d96884a78137957009a38933cc0dcab068f062ed7de63a1b753050c4",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-lead.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-metaglass",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-metaglass.png",
+      "officialGitBlob": "4707552a2cc66ac57f17178c982d4eb4fd8ab8ac",
+      "file": "full-game/items-fx/assets/item-metaglass.png",
+      "sha256": "27551d8bdea5ada5860c566081e4cc422064caca8ea76fb2391880416e5cb419",
+      "size": [
+        423,
+        352
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-metaglass.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-metaglass.png",
+      "engineSha256": "5fd5fe82cce65533c5b0d3a1d28feb27a1cf6cde14c6082365a8db09121a86a6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-metaglass.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-graphite",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-graphite.png",
+      "officialGitBlob": "a6cbb3454a61dc51e1ee47c162b87585ad5f4d6b",
+      "file": "full-game/items-fx/assets/item-graphite.png",
+      "sha256": "1776b5a899107f4c41a090f177cb10a273b82a0767122b4cc97ac326335f9327",
+      "size": [
+        400,
+        355
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-graphite.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-graphite.png",
+      "engineSha256": "3f4eea153e788b67936df1fa06a1209e159daa31256c6fef3634c1f23a005634",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-graphite.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-sand",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-sand.png",
+      "officialGitBlob": "79ddca5d304859a00bf909ca67d1b2894ee0a25d",
+      "file": "full-game/items-fx/assets/item-sand.png",
+      "sha256": "90411686b945c04ceefc3adaf5117dd4bf34fd8a4a7d2cc525e702fffde74ee5",
+      "size": [
+        436,
+        286
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-sand.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-sand.png",
+      "engineSha256": "d52de56cada95188a4a9b1aa35af174404fa54e08e68c3c80ce6e74ee0e8a9dd",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-sand.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-coal",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-coal.png",
+      "officialGitBlob": "4f67e0a80e28b8f15b62d8926ad9a13650438d62",
+      "file": "full-game/items-fx/assets/item-coal.png",
+      "sha256": "f605d7f23e955ed32fa5f74c3aae64ec4b53f38b15b4dbf71fef337291d26889",
+      "size": [
+        414,
+        375
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-coal.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-coal.png",
+      "engineSha256": "c6e5159c61af4f60476c2c72fbc9923dfe76788697974574e84cdcec070d3eaa",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-coal.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-titanium",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-titanium.png",
+      "officialGitBlob": "8f9214a89c40b14b79bdde54d6797a3ff7d88549",
+      "file": "full-game/items-fx/assets/item-titanium.png",
+      "sha256": "64deb24b4eeecb8d8301c7b3f230d2496a465c118cb2ff89fe1aebf7a269db68",
+      "size": [
+        415,
+        377
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-titanium.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-titanium.png",
+      "engineSha256": "61d7b13ccc5a3300f06611cc16f76e38918831cb1dfd3c1fce365f6789783c93",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-titanium.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-thorium",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-thorium.png",
+      "officialGitBlob": "6da37cfb1ea7596ca7595c2bb918c2a949aba5ae",
+      "file": "full-game/items-fx/assets/item-thorium.png",
+      "sha256": "e777122d07d6adba60d8d4ee3d2ae06e6fd38c2f7b52c01512c9b904dc725c55",
+      "size": [
+        384,
+        398
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-thorium.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-thorium.png",
+      "engineSha256": "76591a164c93a171e98e060556f118c9666ca514640b3055d1e6e5779008ab35",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-thorium.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-scrap",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-scrap.png",
+      "officialGitBlob": "242b66db66d932d6dc9516631a91f520a24ff47f",
+      "file": "full-game/items-fx/assets/item-scrap.png",
+      "sha256": "91d165c086b623886b7f8c1b1d6de0720b7d649d5863a19cf2df773d2a3c6fae",
+      "size": [
+        442,
+        373
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-scrap.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-scrap.png",
+      "engineSha256": "943511261a6889e06f75cfe26b474a9bf031a5afcee163bd0ba30a369c52b345",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-scrap.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-silicon",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-silicon.png",
+      "officialGitBlob": "1c498c25247fdd80af24a34cb11f5486e20754c6",
+      "file": "full-game/items-fx/assets/item-silicon.png",
+      "sha256": "edd23fc6f492622711b946c0411c0831cff18a3620027b305275dacbf7647f0d",
+      "size": [
+        408,
+        392
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-silicon.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-silicon.png",
+      "engineSha256": "038733e6678b6af77fb7ae4b48033265e3bf68f6356650a2dc31c42b750c21cf",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-silicon.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-plastanium",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-plastanium.png",
+      "officialGitBlob": "eb5b69d374262a0e69bcc6ea8c7a8c43e5ed299d",
+      "file": "full-game/items-fx/assets/item-plastanium.png",
+      "sha256": "7e06b1c0473a73f5ec3bda7d02d6dcade0c1519566806f9a14426efd0059a700",
+      "size": [
+        420,
+        347
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-plastanium.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-plastanium.png",
+      "engineSha256": "32ec01d61512f52af1e5eac672a53384dd996e0702f8b60833677012b325a4d4",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-plastanium.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-phase-fabric",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-phase-fabric.png",
+      "officialGitBlob": "8dd6efca3885a737c48c2391111f26006bb9ca5d",
+      "file": "full-game/items-fx/assets/item-phase-fabric.png",
+      "sha256": "71e4d79480b6d3d92d01bc7191d38249675d98ecf3336a07e4e11aaa347e197b",
+      "size": [
+        441,
+        406
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-phase-fabric.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-phase-fabric.png",
+      "engineSha256": "0f57107dfb06bdfce8abda9499309c0c9d3c13747b53d4a227d0b33b067f7e7b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-phase-fabric.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-surge-alloy",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-surge-alloy.png",
+      "officialGitBlob": "07d73c762e18b2bfd385412d7b8529e1360999df",
+      "file": "full-game/items-fx/assets/item-surge-alloy.png",
+      "sha256": "40fbcd154e90a0510e30ef0fb8f41fce08927f80af5c1605e9881a0bb6db5b3a",
+      "size": [
+        441,
+        391
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-surge-alloy.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-surge-alloy.png",
+      "engineSha256": "d86921077083684de0b10f7377fad0bf671145ea5c1fa4b7ea63c17484c2559b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-surge-alloy.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-spore-pod",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-spore-pod.png",
+      "officialGitBlob": "b627c0da1b27673ea4a409984747c3cf8f1a0111",
+      "file": "full-game/items-fx/assets/item-spore-pod.png",
+      "sha256": "294a84021e18c682ec8a66e2bda1ba43d8a82dee5475c61479a9cf15e5cb92d7",
+      "size": [
+        406,
+        423
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-spore-pod.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-spore-pod.png",
+      "engineSha256": "74a2e0f80f6416f402ac2cca41ede214be8414bab95033664114c962972cda7e",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-spore-pod.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-blast-compound",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-blast-compound.png",
+      "officialGitBlob": "1b103c7c9db24e56ccb8f230626f7dcaea778785",
+      "file": "full-game/items-fx/assets/item-blast-compound.png",
+      "sha256": "bb3cdde5043a3816d106ea6de33151498690b7e7062907efc16e520264ff8826",
+      "size": [
+        440,
+        359
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-blast-compound.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-blast-compound.png",
+      "engineSha256": "0144caae67811f282cb5a75b4d8bbf68722da8739ab2023195337aa582a63b11",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-blast-compound.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-pyratite",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-pyratite.png",
+      "officialGitBlob": "987fdca8c078f14cc884d38e9214965ede643679",
+      "file": "full-game/items-fx/assets/item-pyratite.png",
+      "sha256": "0500df01eb067d4192b3ba9ee4e6d9bc3f8915de4113a136ab01e2195d082a20",
+      "size": [
+        438,
+        395
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-pyratite.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-pyratite.png",
+      "engineSha256": "6ebc3e4ce32c6e22101f8ada8e5fff2f516c999f02a697a800e3fa4f9dff9a13",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-pyratite.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-beryllium",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-beryllium.png",
+      "officialGitBlob": "b16182be763bcca27b6f0e567b64fec8f251b656",
+      "file": "full-game/items-fx/assets/item-beryllium.png",
+      "sha256": "aef4394bc3b5967d630c9b213cb8aaf6a62cbe97ccabac30e970ccddacd8599b",
+      "size": [
+        501,
+        462
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-beryllium.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-beryllium.png",
+      "engineSha256": "dfafc7d8095154b55d85b32508f3d93f7cf4e11ad07cc99edba78e1afa821984",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-beryllium.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-tungsten",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-tungsten.png",
+      "officialGitBlob": "da25267a56de6659f6d9a709398b60f1e41aaa94",
+      "file": "full-game/items-fx/assets/item-tungsten.png",
+      "sha256": "0f9982528255dd4bda52f56c98c8fc9b2dc197b3ea46ed4e98c5609cd243c4fd",
+      "size": [
+        504,
+        430
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-tungsten.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-tungsten.png",
+      "engineSha256": "d2ee4953a0990a64ac40a8db81f2077ba409b56d89e5adbd04443ef4b7e37adb",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-tungsten.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-oxide",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-oxide.png",
+      "officialGitBlob": "fa3dab9a96dcbae487181c9b32402569286ae773",
+      "file": "full-game/items-fx/assets/item-oxide.png",
+      "sha256": "de062d0321f60774c1e63880eba9b66e5acd67099af2948b8f349cfa271cfc64",
+      "size": [
+        450,
+        439
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-oxide.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-oxide.png",
+      "engineSha256": "763d65700c41a3f8cf2e51fdad3669f11db1e548b5705e9d3688e6334a4005e2",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-oxide.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-carbide",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-carbide.png",
+      "officialGitBlob": "20d65e08bd2821a30f8c4c8b6bc96aca7eb9b01d",
+      "file": "full-game/items-fx/assets/item-carbide.png",
+      "sha256": "70004498230d016a1bd7076660233efa7a229d1461fc33ed8ba147b5f1061a9d",
+      "size": [
+        484,
+        423
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-carbide.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-carbide.png",
+      "engineSha256": "7ed3012fc2f8a9779f154760f192a8806781548f8d4f57e0ac74753510d57a5a",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-carbide.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-fissile-matter",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-fissile-matter.png",
+      "officialGitBlob": "119c92732d22bcad4850f5750a63fc367814d278",
+      "file": "full-game/items-fx/assets/item-fissile-matter.png",
+      "sha256": "c065ef05d6d199a00dfb368962314b6158d211e3c808bc9316e25f6a62c06b12",
+      "size": [
+        466,
+        478
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-fissile-matter.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-fissile-matter.png",
+      "engineSha256": "fc144e64af9b1b4c077320eadc6c26c0d0875c9711e0629eb9c60581cd464bb8",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-fissile-matter.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "item-dormant-cyst",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/item-dormant-cyst.png",
+      "officialGitBlob": "263f7ea57fab9513210e7643cdba62ecce457acc",
+      "file": "full-game/items-fx/assets/item-dormant-cyst.png",
+      "sha256": "19260f02ad1de500a1f023b7e41220f859545c4de6f2251337129a042b594ff9",
+      "size": [
+        479,
+        454
+      ],
+      "generationRecord": "full-game/items-fx/assets/item-dormant-cyst.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/item-dormant-cyst.png",
+      "engineSha256": "7136743f5135264ee30dfaa813c863e1b612c527e94013f2ccc341918329fa41",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/item-dormant-cyst.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-water",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-water.png",
+      "officialGitBlob": "4fd8b92f741933741a941a4e1624a4fa04fbb2b8",
+      "file": "full-game/items-fx/assets/liquid-water.png",
+      "sha256": "c9824033c9cd4074aa0baaa86d3125872ee3fd16e1018e541fe5b72a02fcb85b",
+      "size": [
+        441,
+        417
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-water.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-water.png",
+      "engineSha256": "1308b3ed7010412e9ff1f7e22daa600be375b40577e78f7977fe90fba142c283",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-water.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-slag",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-slag.png",
+      "officialGitBlob": "f1d604fbc67cc3572aeb07488a3c2f02c0eadd18",
+      "file": "full-game/items-fx/assets/liquid-slag.png",
+      "sha256": "399486d6e35ee283211259ce6731d75ef46aebfabc99633d00c70faf913f95e4",
+      "size": [
+        454,
+        413
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-slag.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-slag.png",
+      "engineSha256": "9bef276c5043e865ed7ba4e267f011bb9724cd0ac41342216819d5e7d80e3a88",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-slag.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-oil",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-oil.png",
+      "officialGitBlob": "74199a2dbce0d782c479e98a838ac7df78c634bf",
+      "file": "full-game/items-fx/assets/liquid-oil.png",
+      "sha256": "a36e2231f0898133b94c365fff8cfe8712c6dca71f579220ab2c777b29c638ff",
+      "size": [
+        445,
+        429
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-oil.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-oil.png",
+      "engineSha256": "4cdcaf1ac5030879f5609fc00203dc141e20838657941d3f980f7e6ae5e3199d",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-oil.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-cryofluid",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-cryofluid.png",
+      "officialGitBlob": "9b6ccc900f8669770f9c6ddd6b38d71145961174",
+      "file": "full-game/items-fx/assets/liquid-cryofluid.png",
+      "sha256": "770ad82248e7648170403ec0dd6ecece5eeb5e5007f624a7cdf8de12bcfccbcd",
+      "size": [
+        447,
+        434
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-cryofluid.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-cryofluid.png",
+      "engineSha256": "49e8c265a851911b5b8e17807571ef8e82aab64b0876f65ebc7accb6041f6267",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-cryofluid.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-neoplasm",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-neoplasm.png",
+      "officialGitBlob": "0f5f15e26794ebeef5dd431568a4f8644c545885",
+      "file": "full-game/items-fx/assets/liquid-neoplasm.png",
+      "sha256": "161d9e9d42f4ed44ca5b5d423bb6d5ab67af2009fd3382e2fa13b6a5ec2996f4",
+      "size": [
+        436,
+        407
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-neoplasm.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-neoplasm.png",
+      "engineSha256": "740344b9da973863a9304cae54beba15c0cfbe6f712fd31bc08ff1592457dbfd",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-neoplasm.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-arkycite",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-arkycite.png",
+      "officialGitBlob": "0ecdd7cc7313070037355ff14d772dfdd00b6281",
+      "file": "full-game/items-fx/assets/liquid-arkycite.png",
+      "sha256": "a8286c94f23b1275f58edff44f1040fc3802f1af321f968a94d982da6a9b8317",
+      "size": [
+        451,
+        437
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-arkycite.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-arkycite.png",
+      "engineSha256": "360ba3faddb35ce51cfd9ed3ed9a1eff64b176027b6a9c03568c527804bd6420",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-arkycite.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-gallium",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-gallium.png",
+      "officialGitBlob": "7f1d7f8a243a498d4e4cfd1b15a9ac98a35e0ff1",
+      "file": "full-game/items-fx/assets/liquid-gallium.png",
+      "sha256": "ef896dfe684992dfe6ebfb596455876f695a6c22c9307ee0f7e0b4078d2b8ada",
+      "size": [
+        443,
+        430
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-gallium.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-gallium.png",
+      "engineSha256": "4d2bf8392d528b695b6886aa3fefffcb0064ede18d4b3fcb8b808bd9eef2e958",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-gallium.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-ozone",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-ozone.png",
+      "officialGitBlob": "34607d5802b7328d7913b4b973618ce8098e53dc",
+      "file": "full-game/items-fx/assets/liquid-ozone.png",
+      "sha256": "b2e8216d6a6132d92b890fcf1e3e5510e636e04e80ac6ec9324a0bbffdc68f4c",
+      "size": [
+        421,
+        425
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-ozone.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-ozone.png",
+      "engineSha256": "da88151805de6f1168a92c4a5cc4e2ab692ba240fb2563a918d0fffbd0005984",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-ozone.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-hydrogen",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-hydrogen.png",
+      "officialGitBlob": "cf55930c4249b954d884c03b99cf449c6578bfab",
+      "file": "full-game/items-fx/assets/liquid-hydrogen.png",
+      "sha256": "601cc6e315186ffd53fb35b47396f4898166a53eda3ce9b9fbdee4b87bb8b8c3",
+      "size": [
+        388,
+        460
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-hydrogen.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-hydrogen.png",
+      "engineSha256": "589b83d71f41ee6998cb58db2bc8c5a3094b2b639eb22956d0b34f36f45d7ead",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-hydrogen.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-nitrogen",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-nitrogen.png",
+      "officialGitBlob": "7f0d913212d39febe4ccde41db951113c1cd832c",
+      "file": "full-game/items-fx/assets/liquid-nitrogen.png",
+      "sha256": "10c42815a30f9434995f672b7b9366d2474c9a409338e5cfd1140cd9fb3d8ad6",
+      "size": [
+        433,
+        399
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-nitrogen.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-nitrogen.png",
+      "engineSha256": "1ca5bd8a12a2f0cd3964f70b4b32feda86da52a57a77e17913dcb04fdad484dd",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-nitrogen.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "liquid-cyanogen",
+      "group": "items",
+      "officialPath": "core/assets-raw/sprites/items/liquid-cyanogen.png",
+      "officialGitBlob": "29c204c89db611be56a22410a954b00383e4e7ab",
+      "file": "full-game/items-fx/assets/liquid-cyanogen.png",
+      "sha256": "9f5172dc64fd90d5054578d1ae4c59c72bc5fc7a63bcc6dcba2f8bda6009fb83",
+      "size": [
+        372,
+        459
+      ],
+      "generationRecord": "full-game/items-fx/assets/liquid-cyanogen.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/items/liquid-cyanogen.png",
+      "engineSha256": "ae44da6215ba647787069a1bdd024062bf1591da98e50427a471fc919903fcd9",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/items/liquid-cyanogen.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "team-sharded",
+      "group": "teams",
+      "officialPath": "core/assets-raw/sprites/teams/team-sharded.png",
+      "officialGitBlob": "a3643d4bba12a305b8a598ff702df49f65d5a6d9",
+      "file": "full-game/items-fx/assets/team-sharded.png",
+      "sha256": "f612fcdbad9f69ffca04fe19daa81069e36a3aa6076d617bb075e2455f778f48",
+      "size": [
+        430,
+        391
+      ],
+      "generationRecord": "full-game/items-fx/assets/team-sharded.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/teams/team-sharded.png",
+      "engineSha256": "b7d836793f4207441b4ac86f08cd80ec95f59b260e8e4bb7aae4ed90f22315e7",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/teams/team-sharded.png.generation.json",
+      "officialSize": [
+        62,
+        62
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "team-crux",
+      "group": "teams",
+      "officialPath": "core/assets-raw/sprites/teams/team-crux.png",
+      "officialGitBlob": "bd945aba7b475fcca42700608ad2e1a90bfd4825",
+      "file": "full-game/items-fx/assets/team-crux.png",
+      "sha256": "39f1dfa3f3e7bfc549a8bb3521bcd54b14d1bcb5243f358a6169b1808cac1fe0",
+      "size": [
+        452,
+        435
+      ],
+      "generationRecord": "full-game/items-fx/assets/team-crux.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/teams/team-crux.png",
+      "engineSha256": "0216747c195099663194e4ccad9390e3e9634b3f18f06591890e0e7c8ef919d5",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/teams/team-crux.png.generation.json",
+      "officialSize": [
+        62,
+        62
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "team-malis",
+      "group": "teams",
+      "officialPath": "core/assets-raw/sprites/teams/team-malis.png",
+      "officialGitBlob": "48c853183b32c37509daee9973df8bfd00d7bd74",
+      "file": "full-game/items-fx/assets/team-malis.png",
+      "sha256": "7a516eef13e224814104e9c53c69092d7248a188ad6899290d1d1d1b23404ac1",
+      "size": [
+        454,
+        408
+      ],
+      "generationRecord": "full-game/items-fx/assets/team-malis.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/teams/team-malis.png",
+      "engineSha256": "475def937984cc726ec27a816d9279e23d8f0715fe6807934fa3532028124756",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/teams/team-malis.png.generation.json",
+      "officialSize": [
+        62,
+        62
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "team-derelict",
+      "group": "teams",
+      "officialPath": "core/assets-raw/sprites/teams/team-derelict.png",
+      "officialGitBlob": "7123f12eae3f99310b220408d65c0054cfa8070e",
+      "file": "full-game/items-fx/assets/team-derelict.png",
+      "sha256": "1da6fba3d9354406c49fe7cef9dc31bdfa8d2a74d7f7ea39cc8746fcf30ff946",
+      "size": [
+        387,
+        405
+      ],
+      "generationRecord": "full-game/items-fx/assets/team-derelict.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/teams/team-derelict.png",
+      "engineSha256": "720e93ced4351e5ed588b59fbbfb1336a59f7004a855bd73a5410c135f77e8d8",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/teams/team-derelict.png.generation.json",
+      "officialSize": [
+        62,
+        62
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-burning",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-burning.png",
+      "officialGitBlob": "7e82dd44823d8fa5fe3042f00b7c178652228eaa",
+      "file": "full-game/items-fx/assets/status-burning.png",
+      "sha256": "5d4e80c3f2edbaa704c0eb9839747354091937e5c9d716cadde37b8dab6291b6",
+      "size": [
+        405,
+        457
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-burning.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-burning.png",
+      "engineSha256": "fc368158c3834acee29226feff5be223b6e5d74a471ebabd1f1bf65b30089c56",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-burning.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-freezing",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-freezing.png",
+      "officialGitBlob": "5be529ab127affb3e458e0ac9996f3e0a5201878",
+      "file": "full-game/items-fx/assets/status-freezing.png",
+      "sha256": "f6a8e1b85a3157711f1280a10c23e4e5e03cbabb31395dcbbf8d5a74da729972",
+      "size": [
+        417,
+        431
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-freezing.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-freezing.png",
+      "engineSha256": "8ca75eda8e8f5f84a77c00f243e574153ca0264d5f6cd612a519ab33886a6813",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-freezing.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-wet",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-wet.png",
+      "officialGitBlob": "3a26c4974a541f3edb50b12bd72f4245a54a85f7",
+      "file": "full-game/items-fx/assets/status-wet.png",
+      "sha256": "48a0a6c25203807bc295ff3a24e1c6ba3f51984244c98328534ff9622cc95874",
+      "size": [
+        406,
+        388
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-wet.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-wet.png",
+      "engineSha256": "a5e95c5991347a3bfc8f5399530f97bd027507ec9e2a3eb33f704c63958f0864",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-wet.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-melting",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-melting.png",
+      "officialGitBlob": "e3b4e54b54c729d30178c3f911b3d2a0e46b70ad",
+      "file": "full-game/items-fx/assets/status-melting.png",
+      "sha256": "f427a615d783a294cb457afff7acc220133264bf0a421c4ca7e247dcd2ae905f",
+      "size": [
+        418,
+        390
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-melting.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-melting.png",
+      "engineSha256": "e47d8c4d5992b154fb698c821a104a87472fac0cbc164c3bf987f917830af4f9",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-melting.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-tarred",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-tarred.png",
+      "officialGitBlob": "41946e670d823ccd9195a9221e536e7be7606347",
+      "file": "full-game/items-fx/assets/status-tarred.png",
+      "sha256": "3f93674716e4541a0660bfb01f8b3b8b92796ac67c15aea3a5e59f62de81174d",
+      "size": [
+        411,
+        441
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-tarred.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-tarred.png",
+      "engineSha256": "30105d9d6ab0ea97b27795f378f38fc143eb6ab4e3a78caf3d57ddf7eb96b2a0",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-tarred.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-muddy",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-muddy.png",
+      "officialGitBlob": "41946e670d823ccd9195a9221e536e7be7606347",
+      "file": "full-game/items-fx/assets/status-muddy.png",
+      "sha256": "a105b97b31acce6b8304d195e299c41790c306ab8a0a93037e2cb25f04643eeb",
+      "size": [
+        452,
+        445
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-muddy.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-muddy.png",
+      "engineSha256": "3d32de913ba15065473835ac4a3ad2083f790104a0e5f65e49d5c2ee2cf8f86b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-muddy.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-corroded",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-corroded.png",
+      "officialGitBlob": "908a522381d00f406a7f33de2d678b9d817ce964",
+      "file": "full-game/items-fx/assets/status-corroded.png",
+      "sha256": "4e34a8ddbaee384f882f119b0e0f5b8cecddd288a5067d5d7f729c58f508a7a3",
+      "size": [
+        427,
+        435
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-corroded.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-corroded.png",
+      "engineSha256": "9050dfbc6ee02db2bc6b69bbfa406c5def7b2acb36818b26f8e24fb1578109f7",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-corroded.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-spore-slowed",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-spore-slowed.png",
+      "officialGitBlob": "939584437d393e1bbab1709d460a682456f941a6",
+      "file": "full-game/items-fx/assets/status-spore-slowed.png",
+      "sha256": "71f959c0afd5d6daafbf0339f4cb22facf13d0a9760d422a9083634966d10c08",
+      "size": [
+        430,
+        422
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-spore-slowed.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-spore-slowed.png",
+      "engineSha256": "c418510736242b9ea63fbb00ebad4599aa3c1cf942f1e2cf87bf5bd7478c3081",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-spore-slowed.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-sapped",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-sapped.png",
+      "officialGitBlob": "123686d595239433b4a3056f0a8684a1d1694a58",
+      "file": "full-game/items-fx/assets/status-sapped.png",
+      "sha256": "5fb887d41a1703f901ad48c716887a5af1989b23ab5871870587ff4c8f84054f",
+      "size": [
+        347,
+        452
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-sapped.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-sapped.png",
+      "engineSha256": "2a6747b63f970a85a25f7691a8d28a460c0e379b4375a3d8c38db486861feaad",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-sapped.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-electrified",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-electrified.png",
+      "officialGitBlob": "2a08b271b845224e99cfa8179c2dcb76928cf68a",
+      "file": "full-game/items-fx/assets/status-electrified.png",
+      "sha256": "4d0f3862b0ddbc620cea8cdb739225215274efe9e0277b8b26e3be038585281e",
+      "size": [
+        420,
+        416
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-electrified.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-electrified.png",
+      "engineSha256": "577afbc471f1e304da7c8cb886cbbd7ca4d111667c72d1228675e36dbbaa75f4",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-electrified.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-shocked",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-shocked.png",
+      "officialGitBlob": "2a08b271b845224e99cfa8179c2dcb76928cf68a",
+      "file": "full-game/items-fx/assets/status-shocked.png",
+      "sha256": "45974b21f585bd35c77221215e7413b313094a9209ae3beb96554cebb08111a3",
+      "size": [
+        368,
+        383
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-shocked.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-shocked.png",
+      "engineSha256": "798e280f8484d257a37c45d9e28a8093c894ec9d2b99046797f2de9f922d473d",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-shocked.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-blasted",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-blasted.png",
+      "officialGitBlob": "79f635ffb76121dd4bac786520a5db5402d438b2",
+      "file": "full-game/items-fx/assets/status-blasted.png",
+      "sha256": "d83b23bb8467003b4beb31e790cc1b9133806382502c4a36f047dd9f62c080f5",
+      "size": [
+        405,
+        409
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-blasted.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-blasted.png",
+      "engineSha256": "35402b3f7eb1ef51c384ef382edb044731e24ee85ca2e95b7382f454c71ad769",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-blasted.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-disarmed",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-disarmed.png",
+      "officialGitBlob": "c1cfb764bab2cce0182eb77d4010aed44b3e422b",
+      "file": "full-game/items-fx/assets/status-disarmed.png",
+      "sha256": "11daccff6fad86cd5006d2cfeb1d8c44714d309b6fbcb4705dc3302491a8c5f0",
+      "size": [
+        407,
+        428
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-disarmed.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-disarmed.png",
+      "engineSha256": "468fe3dce017906fb0e6f2cc9bc7708b732da0a0fa0b9777fb81b4db85227f23",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-disarmed.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-unmoving",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-unmoving.png",
+      "officialGitBlob": "a8c874338268ba1b65232afd97641e50e681986c",
+      "file": "full-game/items-fx/assets/status-unmoving.png",
+      "sha256": "20722ad299928259d47c06b0a61dba76a79a36f6184a6208083d31336b73a4c6",
+      "size": [
+        378,
+        354
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-unmoving.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-unmoving.png",
+      "engineSha256": "2f5292c0905b22551508daefa7b723de60519f8d1badc5d5adacfb10ce36a51b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-unmoving.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-slow",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-slow.png",
+      "officialGitBlob": "123686d595239433b4a3056f0a8684a1d1694a58",
+      "file": "full-game/items-fx/assets/status-slow.png",
+      "sha256": "df6270a3079299f1e0644aaf919bf2f67ad47666e72339cfb8c999d25bd42659",
+      "size": [
+        379,
+        286
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-slow.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-slow.png",
+      "engineSha256": "9ca34fea11493944f7dd388d261e7f0ae54589d70790130e0a3d7c2df3c91d87",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-slow.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-fast",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-fast.png",
+      "officialGitBlob": "0de6eda95b46d74003ff90f48de113ce952cc9d5",
+      "file": "full-game/items-fx/assets/status-fast.png",
+      "sha256": "92c9984f0081a66b865a5f1cad0505e8ed6f3960bf6683f8cf76470c9a5d4ff8",
+      "size": [
+        439,
+        345
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-fast.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-fast.png",
+      "engineSha256": "63b5969a9f123600feec3ce15ada5ec7154583ddf1558cea215de7307d5f4437",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-fast.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-overdrive",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-overdrive.png",
+      "officialGitBlob": "79a4d561c3a730546c08888c00cfd80a79f8e494",
+      "file": "full-game/items-fx/assets/status-overdrive.png",
+      "sha256": "03d96f7b8c61f4919a1e9d2d9d1d7fe8a65c0aac01912f377cd4646d17f7893d",
+      "size": [
+        576,
+        576
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-overdrive.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-overdrive.png",
+      "engineSha256": "4b7584a49fe415b0a3e4fd84d522a4938bd98b21fe893c4164e49e3a62207cfc",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-overdrive.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-overclock",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-overclock.png",
+      "officialGitBlob": "ede85bb8e9ae70df641f0ae24c5bb5dd2d69e892",
+      "file": "full-game/items-fx/assets/status-overclock.png",
+      "sha256": "64adcf03208e17dc11bb0b4a58a18ccd9323a7b06464a8abc7bc0d1dfa974053",
+      "size": [
+        620,
+        583
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-overclock.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-overclock.png",
+      "engineSha256": "d89238fe52af948e8477ebcc54d7ddea061f02258252a66d1fe33870cdd7cc54",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-overclock.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-shielded",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-shielded.png",
+      "officialGitBlob": "b079c1bfeff9dcf01c8f3690bdd72e76ac449339",
+      "file": "full-game/items-fx/assets/status-shielded.png",
+      "sha256": "3b4d4543386335ce3f6e89c292b44b5e397abcd83f23c092eb89076a5d82aa09",
+      "size": [
+        604,
+        555
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-shielded.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-shielded.png",
+      "engineSha256": "6d6c99cdf79ada64c60ba1a370d657d99bd5a746275c37ca286492bd90f8b9ce",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-shielded.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "status-boss",
+      "group": "statuses",
+      "officialPath": "core/assets-raw/sprites/statuses/status-boss.png",
+      "officialGitBlob": "4497e73f1730a3eb9d786410f6134fe5fa368ac5",
+      "file": "full-game/items-fx/assets/status-boss.png",
+      "sha256": "7049331a687103081ecff9b1fd1a45a635d6996a7724110c1c215fa9f732747e",
+      "size": [
+        615,
+        570
+      ],
+      "generationRecord": "full-game/items-fx/assets/status-boss.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/statuses/status-boss.png",
+      "engineSha256": "f71df162def3ba243398ba79cdde64ca924e19023656fda405d563a90687b0f8",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/statuses/status-boss.png.generation.json",
+      "officialSize": [
+        38,
+        38
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-1-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-1-0.png",
+      "officialGitBlob": "6da7d9e58331404041105b397d820cd123ccadae",
+      "file": "full-game/items-fx/assets/rubble-1-0.png",
+      "sha256": "296f1ca42e2691be31aa1d607a609ad3e284b2fbaf54ddfab7c2798919814f7a",
+      "size": [
+        291,
+        257
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-1-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-1-0.png",
+      "engineSha256": "9099963e0b0d113217e82612e61d4d5d5fabf8e7484f8e04e8f79df4b044bdee",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-1-0.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-1-1",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-1-1.png",
+      "officialGitBlob": "354f448d7ea19a1ef454883afd465490040c5122",
+      "file": "full-game/items-fx/assets/rubble-1-1.png",
+      "sha256": "6299f474b319bab7ecb64793c9021620180274861d63be265c42f1d65d61b283",
+      "size": [
+        398,
+        331
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-1-1.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-1-1.png",
+      "engineSha256": "a037a95965b483aa414a66d2e73ec4da28383c863bf048444ec2fd712bc8941a",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-1-1.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-2-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-2-0.png",
+      "officialGitBlob": "406e27a2f991e73d4404dcd5d5211cea0d3d3eb4",
+      "file": "full-game/items-fx/assets/rubble-2-0.png",
+      "sha256": "94283521b828893df7fa23e48ba7015558066af02b41e0fb5e93e6bf47cd1459",
+      "size": [
+        566,
+        483
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-2-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-2-0.png",
+      "engineSha256": "ff95f420984006bb55634811971fe42ffd46c8533deedfc54a06ca7f65b8d516",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-2-0.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-2-1",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-2-1.png",
+      "officialGitBlob": "57e13f6c02b7393c9936d91fa9c108d0ec76e861",
+      "file": "full-game/items-fx/assets/rubble-2-1.png",
+      "sha256": "98a32f7df546dc64cee03bd6b5668f1c0f684888b66d96b3d7cfc9dd4501ea4b",
+      "size": [
+        534,
+        501
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-2-1.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-2-1.png",
+      "engineSha256": "ebaf4022f4c426d7f7693c8af92058e586de533e594d5558b56433a9c5e45c35",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-2-1.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-3-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-3-0.png",
+      "officialGitBlob": "83853df7a22439f58c897ff165435cc38b381829",
+      "file": "full-game/items-fx/assets/rubble-3-0.png",
+      "sha256": "dd5112007acd80fcb83199c40acdd794e161cbea8d5be2bdde9cde948401501d",
+      "size": [
+        785,
+        542
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-3-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-3-0.png",
+      "engineSha256": "f56c67ebb8177f287d39aa44e0ff6ef6befe7da500b12475d312dc1cfc9e30b6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-3-0.png.generation.json",
+      "officialSize": [
+        96,
+        96
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-4-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-4-0.png",
+      "officialGitBlob": "f937d25c8e7d55f18794ba7c80d57985bcae721a",
+      "file": "full-game/items-fx/assets/rubble-4-0.png",
+      "sha256": "7dd47b1a9b0fcbf21854a491df000a06c659583b2cdb1b1b945663cba00e3fb1",
+      "size": [
+        388,
+        363
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-4-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-4-0.png",
+      "engineSha256": "169c2a85511cfdf01bb0f6a7ef5aa222cbce7fa15c7e88b819cf6166bb32e63a",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-4-0.png.generation.json",
+      "officialSize": [
+        128,
+        128
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-5-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-5-0.png",
+      "officialGitBlob": "822e4b777ba182e80c379b685cf5e7279c22bd50",
+      "file": "full-game/items-fx/assets/rubble-5-0.png",
+      "sha256": "4c7a8368f303fd19db4b76036dcdf4a2156d188608b8b6d5f628e345733d1844",
+      "size": [
+        548,
+        337
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-5-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-5-0.png",
+      "engineSha256": "252a6f5d9972df4be3b5c415e3ca7fdd95bcc8d632aaf44522aa8d6a15df51a6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-5-0.png.generation.json",
+      "officialSize": [
+        160,
+        160
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-6-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-6-0.png",
+      "officialGitBlob": "3260f4b32dd6c48afe05b0baf18f3e691474efd3",
+      "file": "full-game/items-fx/assets/rubble-6-0.png",
+      "sha256": "8eb9d2d18d32e406ca7cf45ab2177ef60f3830bd7bebf0d75cdcceeede315213",
+      "size": [
+        544,
+        487
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-6-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-6-0.png",
+      "engineSha256": "118a70827fa4aa9050a1e6a946f31712ba66ac7325c368a6fa8221156ddc24a6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-6-0.png.generation.json",
+      "officialSize": [
+        192,
+        192
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-7-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-7-0.png",
+      "officialGitBlob": "525ca3da1ffb80731f6fef92afbf92c72763b221",
+      "file": "full-game/items-fx/assets/rubble-7-0.png",
+      "sha256": "2cc319f3fd3c63f72159a388f0f7669d447a72bbbdf4a81b785c6bdc4bfd68d9",
+      "size": [
+        704,
+        497
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-7-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-7-0.png",
+      "engineSha256": "f581418db7d08988860c91c66b9b1af2277fc5b844c4e3d6aa0f7b759ede3863",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-7-0.png.generation.json",
+      "officialSize": [
+        224,
+        224
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "rubble-8-0",
+      "group": "rubble",
+      "officialPath": "core/assets-raw/sprites/rubble/rubble-8-0.png",
+      "officialGitBlob": "680e65aa48ade40d1336ece1ed19812c7ff37b77",
+      "file": "full-game/items-fx/assets/rubble-8-0.png",
+      "sha256": "f40f65fac2eb447a829f45f2f4c8a470ad070859df8147f01aecf73803b778a1",
+      "size": [
+        798,
+        544
+      ],
+      "generationRecord": "full-game/items-fx/assets/rubble-8-0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/rubble/rubble-8-0.png",
+      "engineSha256": "fe93ea6ef225a3b05ac3aaae3e75c1c7fb349a1c790708174c4c35dc29aff61b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/rubble/rubble-8-0.png.generation.json",
+      "officialSize": [
+        256,
+        256
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "bullet",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/bullet.png",
+      "officialGitBlob": "c242e21ab096b767b1617257c75203d7e4ea6a9f",
+      "file": "full-game/items-fx/assets/bullet.png",
+      "sha256": "b89ae9470b6bf20060cef333b9eaf6487cb339942ed52a762973098500b44e28",
+      "size": [
+        88,
+        365
+      ],
+      "generationRecord": "full-game/items-fx/assets/bullet.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/bullet-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/bullet.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/bullet.png",
+      "engineSha256": "5a1b35c3bfa8a3ba3c59e7ea3b6ff8929b52b9090869d7049c8efa8d94eda4e1",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/bullet.png.generation.json",
+      "officialSize": [
+        52,
+        52
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "circle-bullet",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/circle-bullet.png",
+      "officialGitBlob": "3039f67c858394bff7b7897f8a2624e46b1e4012",
+      "file": "full-game/items-fx/assets/circle-bullet.png",
+      "sha256": "1da0150eff4ef858c84eae91f20ad98c67af3f3e4ac53662e82190ba1cbcfd87",
+      "size": [
+        247,
+        247
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-bullet.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/circle-bullet-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/circle-bullet.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/circle-bullet.png",
+      "engineSha256": "e033bec4c4250b3e748414b6b8fd956664947a855f1bdd5e718a71df786c6dfb",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/circle-bullet.png.generation.json",
+      "officialSize": [
+        48,
+        48
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "large-bomb",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/large-bomb.png",
+      "officialGitBlob": "e670244c35802229c458e8f626b4351ffd1e9f8e",
+      "file": "full-game/items-fx/assets/large-bomb.png",
+      "sha256": "75ef291f37ac1c498e4b29ecdf397ec7d4fe7467a67355530e9530583cd0d312",
+      "size": [
+        365,
+        339
+      ],
+      "generationRecord": "full-game/items-fx/assets/large-bomb.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/large-bomb-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/large-bomb.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/large-bomb.png",
+      "engineSha256": "0525334a3ff984406586f6ca541b0f8f465c9be0e2392e109cefd0a2f0addd6b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/large-bomb.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "large-orb",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/large-orb.png",
+      "officialGitBlob": "414d8d2ab410a0324cea5895962c76b112dcbaad",
+      "file": "full-game/items-fx/assets/large-orb.png",
+      "sha256": "4814e7e0af04c525789391b05b482d6278aff4d02cfe3eeca0b0131de41fe55c",
+      "size": [
+        337,
+        328
+      ],
+      "generationRecord": "full-game/items-fx/assets/large-orb.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/large-orb-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/large-orb.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/large-orb.png",
+      "engineSha256": "88c51290fd423e24cb796b0e7794d67cfecf45c36f40e6f8e070423f6cdfc180",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/large-orb.png.generation.json",
+      "officialSize": [
+        80,
+        80
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "mine-bullet",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/mine-bullet.png",
+      "officialGitBlob": "9525c22bfcab6525e5dfd7ea8276950da4c4aa63",
+      "file": "full-game/items-fx/assets/mine-bullet.png",
+      "sha256": "5dc6afb6a77400643bed72020bd6235e5a6432ab73bdcf4342ca6133ee0ce781",
+      "size": [
+        282,
+        311
+      ],
+      "generationRecord": "full-game/items-fx/assets/mine-bullet.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/mine-bullet-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/mine-bullet.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/mine-bullet.png",
+      "engineSha256": "71b9d15b81f811a5d5141ffd874cac51b6ae031b3841b377ed3fc8326ff3f193",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/mine-bullet.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "missile",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/missile.png",
+      "officialGitBlob": "5937fc06e0e27d640c9b7c62466accf5d74ef3b4",
+      "file": "full-game/items-fx/assets/missile.png",
+      "sha256": "3d27abc46dab778228efe856bb16d9a31a7074c685d8ee08bef1a5a7323ea4f0",
+      "size": [
+        202,
+        335
+      ],
+      "generationRecord": "full-game/items-fx/assets/missile.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/missile-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/missile.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/missile.png",
+      "engineSha256": "0f0d2310c7607dc8583d623ae85339c014b2f7dcd34d8f5994fa32fe882c960f",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/missile.png.generation.json",
+      "officialSize": [
+        36,
+        36
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "missile-large",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/missile-large.png",
+      "officialGitBlob": "f1353b6b2ee234f2a93eae5653d60572c4c80896",
+      "file": "full-game/items-fx/assets/missile-large.png",
+      "sha256": "599a8f3b947a62b6846d98e9ef5e13932498b0085367226d94c6f284c50e5c80",
+      "size": [
+        311,
+        414
+      ],
+      "generationRecord": "full-game/items-fx/assets/missile-large.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/missile-large-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/missile-large.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/missile-large.png",
+      "engineSha256": "246de4a4a1874c6564e4ad17a13b3f385b3d2cb9ae867d41d577f1a6e06c0b0c",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/missile-large.png.generation.json",
+      "officialSize": [
+        56,
+        56
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "shell",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/shell.png",
+      "officialGitBlob": "0818272a40a0de543b458bb91ed069a5206c14f2",
+      "file": "full-game/items-fx/assets/shell.png",
+      "sha256": "881dc6dc9be50439d437efe2b67101e975d8dd06ffc41c68090ab8d978e5b6e3",
+      "size": [
+        156,
+        405
+      ],
+      "generationRecord": "full-game/items-fx/assets/shell.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "layers": [
+        {
+          "file": "full-game/items-fx/assets/shell-back.png",
+          "role": "back",
+          "colorParameter": "BasicBulletType.backColor"
+        },
+        {
+          "file": "full-game/items-fx/assets/shell.png",
+          "role": "front",
+          "colorParameter": "BasicBulletType.frontColor"
+        }
+      ],
+      "engineFile": "full-game/items-fx/engine/sprites/effects/shell.png",
+      "engineSha256": "81b838fc0bc8e81f8b1a36602c38195ff38e3ad7d18db5f223163f6ab1e488c2",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/shell.png.generation.json",
+      "officialSize": [
+        36,
+        36
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "casing",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/casing.png",
+      "officialGitBlob": "37b061325121d05510bb0a7a8d266fa1ed49c517",
+      "file": "full-game/items-fx/assets/casing.png",
+      "sha256": "b1fd46b02eb43138cf0e0dc1724f681dea8aeee7292d8cc02ff575cf43381ff9",
+      "size": [
+        170,
+        341
+      ],
+      "generationRecord": "full-game/items-fx/assets/casing.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/casing.png",
+      "engineSha256": "44857b6a2e2130467411235a224d59c6fb4b2a9fa616a38aaf648f39f11126b0",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/casing.png.generation.json",
+      "officialSize": [
+        8,
+        16
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "launch-arrow",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/launch-arrow.png",
+      "officialGitBlob": "5faa4ae6c79546a970574848de995eeb84fa74f3",
+      "file": "full-game/items-fx/assets/launch-arrow.png",
+      "sha256": "303f07c5a674e9f0a97511806eeedc0d509cac4703302916fc2e5aa47176dfd8",
+      "size": [
+        301,
+        487
+      ],
+      "generationRecord": "full-game/items-fx/assets/launch-arrow.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/launch-arrow.png",
+      "engineSha256": "5eecc9cf07dd1b01158f129037a663dc6455636ea0bbf5824dcf25024f691309",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/launch-arrow.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "select-arrow-small",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/select-arrow-small.png",
+      "officialGitBlob": "6d021c0ddb05e0a1e6ae75b124f13415226340f2",
+      "file": "full-game/items-fx/assets/select-arrow-small.png",
+      "sha256": "0cb25e2c024f8a13874afb6f614a78a4bbc28a96361d3f216e609c88ac2bce58",
+      "size": [
+        300,
+        250
+      ],
+      "generationRecord": "full-game/items-fx/assets/select-arrow-small.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/select-arrow-small.png",
+      "engineSha256": "09c5ba618a68b3530d765774ad7630a4d9658e6f1011663fee2e77df6289bdba",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/select-arrow-small.png.generation.json",
+      "officialSize": [
+        59,
+        59
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "select-arrow",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/select-arrow.png",
+      "officialGitBlob": "41c2608d8b95e40b9d7575465466dc9102f96347",
+      "file": "full-game/items-fx/assets/select-arrow.png",
+      "sha256": "e64ab91888cecbe698e7ee14cc76438e63070e9d174e747f8de1741c5972f338",
+      "size": [
+        475,
+        320
+      ],
+      "generationRecord": "full-game/items-fx/assets/select-arrow.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/select-arrow.png",
+      "engineSha256": "dc805af0106d1bd45415506c234a918160260286d5855b15ac6b362d2f10ba16",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/select-arrow.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "transfer-arrow",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/transfer-arrow.png",
+      "officialGitBlob": "5faa4ae6c79546a970574848de995eeb84fa74f3",
+      "file": "full-game/items-fx/assets/transfer-arrow.png",
+      "sha256": "777bec98751427667decbbe41d75282173f6ebbee2ba1d73109747f540eb5aff",
+      "size": [
+        222,
+        490
+      ],
+      "generationRecord": "full-game/items-fx/assets/transfer-arrow.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/transfer-arrow.png",
+      "engineSha256": "ec07c8d6b406ab99007105050b7f5645559a758f07b0fe80c4cdb18baac64579",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/transfer-arrow.png.generation.json",
+      "officialSize": [
+        32,
+        32
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "transfer",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/transfer.png",
+      "officialGitBlob": "653219d8ddee76afb700eee5c0a61aa65508c4fc",
+      "file": "full-game/items-fx/assets/transfer.png",
+      "sha256": "b280c64ac23c31df62d6c7e9ad2793739b2f566a4add297eb340acaa7f27f19c",
+      "size": [
+        394,
+        446
+      ],
+      "generationRecord": "full-game/items-fx/assets/transfer.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/transfer.png",
+      "engineSha256": "2f43dc94102d6a0663d1205589e5a49c24caf50aa1e7c4da150b1eb8f4d5d39a",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/transfer.png.generation.json",
+      "officialSize": [
+        4,
+        48
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "scale_marker",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/scale_marker.png",
+      "officialGitBlob": "109b5dafa3df116b269dc7bca94cca6b83c8056b",
+      "file": "full-game/items-fx/assets/scale_marker.png",
+      "sha256": "5c6812655505c1d12367eba267978c5688f62bf232d7c91b76bd64e4387bd435",
+      "size": [
+        404,
+        416
+      ],
+      "generationRecord": "full-game/items-fx/assets/scale_marker.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/scale_marker.png",
+      "engineSha256": "ee2e02f8966ea2efddbafb8a6f0bc12534f3ca78be9e268f5c9f404d3940df9f",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/scale_marker.png.generation.json",
+      "officialSize": [
+        4,
+        4
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire0",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire0.png",
+      "officialGitBlob": "d9e1db18e6c92e1003dc20297c38524ba79ba854",
+      "file": "full-game/items-fx/assets/fire0.png",
+      "sha256": "7e90b18ba7563c24176aa94b4491194be939432a7656ae8cc10a41665bb03bbf",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire0.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire0.png",
+      "engineSha256": "0423068f4f1419257d03e3d92091b934f5c392628738288bca6db50d10a32f5d",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire0.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire1",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire1.png",
+      "officialGitBlob": "d3026cedd2dc4781cc18e0a652ad0913118a934e",
+      "file": "full-game/items-fx/assets/fire1.png",
+      "sha256": "ce76d6dc701370bf670cc3e98ab1572c9e52c3cc734442a8a6b47e5bacb4ad33",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire1.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire1.png",
+      "engineSha256": "43d5475dc65f3c9394ddc452b224d1f8c8d0de797041c65ba229d3127a57a1d6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire1.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire2",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire2.png",
+      "officialGitBlob": "0b6ffb4c5007bf4c449ccbdd1ccc0360b305bb50",
+      "file": "full-game/items-fx/assets/fire2.png",
+      "sha256": "7d2385e193a7aff26123348642faa46f894786bef8b6fa7425d3072d7a8091b2",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire2.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire2.png",
+      "engineSha256": "b8a59b180fc2c115dcee3e1954b2e021e40307411a44b4774cd81911a8b9b692",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire2.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire3",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire3.png",
+      "officialGitBlob": "0d99250e4150102c7e787d006ef8d4051618d91c",
+      "file": "full-game/items-fx/assets/fire3.png",
+      "sha256": "30cfe3a13c39e9fcf8caca8686da2ef2d7d7b905836fbb6690ef36df2cdfdf22",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire3.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire3.png",
+      "engineSha256": "0a02bf71892b19388869694d32219e4a266262f6ffcdec5f9cebeb3e7fa1cd86",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire3.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire4",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire4.png",
+      "officialGitBlob": "f0b83d2d55ebef9ed0ecead81bec75b8daa12691",
+      "file": "full-game/items-fx/assets/fire4.png",
+      "sha256": "c0805d007324053e264add6b1663aa78c644ea9c9e9f9e26cbad5a7525e3e5cb",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire4.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire4.png",
+      "engineSha256": "6f6fcd42bb380451bdb22bd965dbb0a02560625dc17b4d0680cbf31d9a0a84ff",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire4.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire5",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire5.png",
+      "officialGitBlob": "fe58e31e5280e7e98686b2bc03b7fcdbaced4040",
+      "file": "full-game/items-fx/assets/fire5.png",
+      "sha256": "f254214e54af4290555656f7f23d1816331e4d7b7a72beaa3a256dd46ac272b7",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire5.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire5.png",
+      "engineSha256": "0111114a80193cd802d241a2dd435a62d5012d898c7567b3007bc5292cd06c4e",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire5.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire6",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire6.png",
+      "officialGitBlob": "0e2a45ff80007a49af93738d13ff6cc7534f3a68",
+      "file": "full-game/items-fx/assets/fire6.png",
+      "sha256": "55aab84854a502035558dce36e4859ff97cbd4885b8210b42403bdb815c6ecbd",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire6.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire6.png",
+      "engineSha256": "1a0471f5472b6c30d1eefff0ca3815318f1ee4a029c6a566972bfa75e0654e4b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire6.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire7",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire7.png",
+      "officialGitBlob": "b74acf05a5b3426ea0c72460436a2aeae740a740",
+      "file": "full-game/items-fx/assets/fire7.png",
+      "sha256": "cb5b86ac68107ba461731fab5dfa0085f7914bdc593604effa69439871550ee8",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire7.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire7.png",
+      "engineSha256": "8011b049f586bfc1d517ea3999947d738bb059100b326ce98fbb9d0b70b6b305",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire7.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire8",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire8.png",
+      "officialGitBlob": "461e0cbc76fff189118b1d1c1dd6f2ae06a34b4d",
+      "file": "full-game/items-fx/assets/fire8.png",
+      "sha256": "114b739f745a38564ebaa60450e5642a2a4f7fa56b7df962053257851732c659",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire8.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire8.png",
+      "engineSha256": "59889b307e1f07aa3ff4b60c7cb19927eb2ba560f12812ce5c56319572504f49",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire8.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire9",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire9.png",
+      "officialGitBlob": "f306ed27e781e8e37f7e807f5281421f04a26149",
+      "file": "full-game/items-fx/assets/fire9.png",
+      "sha256": "d74276a52bcd89cf5e1a0c3290883a261cd0e8819b34a3fbd62debdfeb8c28b5",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire9.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire9.png",
+      "engineSha256": "7c8a3fc6c53091afdeae39c563ded62d8cba386cb686e944c581bffb5c160bb5",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire9.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire10",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire10.png",
+      "officialGitBlob": "b55606ede5189b1105adddf766a1ccef4fc0d218",
+      "file": "full-game/items-fx/assets/fire10.png",
+      "sha256": "94eae58d23a2d51815facf91f0a3492929eaca427e21b64d7f19e39e4958580e",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire10.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire10.png",
+      "engineSha256": "f47bbac2280a14b8de8ecabe444958b6f7b8e366e21e9665bd143b9ea88222ab",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire10.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire11",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire11.png",
+      "officialGitBlob": "4602c384edb9e3efc3fb712b506c75c76bdc8626",
+      "file": "full-game/items-fx/assets/fire11.png",
+      "sha256": "7e33b74356eee7bffdfefd54a6e25096e115133630b682ef94ac5e9f3886b3d9",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire11.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire11.png",
+      "engineSha256": "e478f7bc26059bb78ead0ecd9dae23421cd7a81dc19809f50ec06112ecf87dc7",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire11.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire12",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire12.png",
+      "officialGitBlob": "3860c2ce1d931e50abde37594d8d7fae4b422d49",
+      "file": "full-game/items-fx/assets/fire12.png",
+      "sha256": "f9e868ba10e6aafa87c21be24a8da4d2f353c6e07a540377983cb1f39a67ffc8",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire12.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire12.png",
+      "engineSha256": "70f4814fe33b03cf3f3b2c06583d56f62c3d1a0dd172f0150c652cb76496f930",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire12.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire13",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire13.png",
+      "officialGitBlob": "27e48033ade441130c9d90a829ec638fab6ae608",
+      "file": "full-game/items-fx/assets/fire13.png",
+      "sha256": "706922d9c9848fbac1482c6cca4494a04523905f067017d4c988f050ee3b3aa9",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire13.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire13.png",
+      "engineSha256": "8b678452ab67704a6e2c8f71f4d5325321405710f69b33e62bf4b6b9e1256923",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire13.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire14",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire14.png",
+      "officialGitBlob": "0cc10719614defc189bfbcc88def0169a6a57d4e",
+      "file": "full-game/items-fx/assets/fire14.png",
+      "sha256": "895c782bfcd973b4a593fb471ded44cf20b22433eba669a024f73619f1ab3c61",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire14.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire14.png",
+      "engineSha256": "1329204b583c4b7058cbdfe499fa4973c1ad2758cb5a9c621e229e454f9aeeab",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire14.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire15",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire15.png",
+      "officialGitBlob": "717130d43498893e9f8b4bfadb7ba384a49d318c",
+      "file": "full-game/items-fx/assets/fire15.png",
+      "sha256": "fa51c79ed02883795e31151258256ea818467338589b2b276e99ef84285a13ec",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire15.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire15.png",
+      "engineSha256": "ac79fa195c33d76a688ee5fb7b67a83a59515e6cf9cfb85a1664be0f104ec1a1",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire15.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire16",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire16.png",
+      "officialGitBlob": "7e61b28a69e06cb02532e908e3e066342c805a23",
+      "file": "full-game/items-fx/assets/fire16.png",
+      "sha256": "b14ddbc84c950aeed8358b8543ff679f5c73634a2613c55322ae8a052c5380b7",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire16.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire16.png",
+      "engineSha256": "1ef4e28b99cdf4356efb962aa6b79b056b4832276c53f3bdfeb25be4df557580",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire16.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire17",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire17.png",
+      "officialGitBlob": "5de74405a270fb81747289a53d402cefea5989c5",
+      "file": "full-game/items-fx/assets/fire17.png",
+      "sha256": "b27ea7944184a78495a620c905e031a2359bde49190169408bc0128340d1b1e5",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire17.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire17.png",
+      "engineSha256": "cc299efcaf9f70a39a715dc2ddd5f7e394db97b7bbdb2cebf56983226d1894f9",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire17.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire18",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire18.png",
+      "officialGitBlob": "cdf83dfab6ed793a60fb497163d0cbb743b246f5",
+      "file": "full-game/items-fx/assets/fire18.png",
+      "sha256": "d58349b31686e46cbdd6b7ade013d5d23fa50934ce23e867311ac99171f885b3",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire18.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire18.png",
+      "engineSha256": "7273662aee3689eb422959639fe006ee3bd848a549c00cc860b65031a8125210",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire18.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire19",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire19.png",
+      "officialGitBlob": "e79a1538e95bbd01f4e4db87650bdb465cc34d84",
+      "file": "full-game/items-fx/assets/fire19.png",
+      "sha256": "fb4e8ab10c5b3fa99a10c7a1ef7368b3ba183cecd9ccece6239dd7b0b07f67e4",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire19.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire19.png",
+      "engineSha256": "bf48ce870135fbdbd7b328d19a67878f0b13a87f00d6b3a138eb9a9edcd35a71",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire19.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire20",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire20.png",
+      "officialGitBlob": "5d974a427b9a02a4731ac6fd008771352dc53853",
+      "file": "full-game/items-fx/assets/fire20.png",
+      "sha256": "24efeaecfc5be1550fc35fa608e5c7b4d624af79af9248d547b5dc7b07fd74fa",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire20.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire20.png",
+      "engineSha256": "76e2ee67142e4491b97971cba7fa94599512d694886bad844ee17f785d161a40",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire20.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire21",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire21.png",
+      "officialGitBlob": "409d597aa75b8fc11aa14948781b61f4b4b045db",
+      "file": "full-game/items-fx/assets/fire21.png",
+      "sha256": "6fb3fa6915ee6c78db418d844629b2b1a4134558b59ffa230edb82ff6518ef4b",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire21.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire21.png",
+      "engineSha256": "13fbf55153381774d1410ba8c5384294ba34812d51a5f23b2fb0216da4cda219",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire21.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire22",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire22.png",
+      "officialGitBlob": "5bbd4b93d70cfe0d2eddc082186f0c69c62653f1",
+      "file": "full-game/items-fx/assets/fire22.png",
+      "sha256": "69012b2a08c58ba003484e932e9ad751b94fdcf6ba162573b48ea43e5c3603f8",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire22.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire22.png",
+      "engineSha256": "de45e8b56d353ad1c49d5392d7a88ff6d5412d6b6904011ad9b9ce5c5ae0c8a3",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire22.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire23",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire23.png",
+      "officialGitBlob": "85ede17d2f9dad737029b8f5be885e8a3e259b81",
+      "file": "full-game/items-fx/assets/fire23.png",
+      "sha256": "1ca29a41d39bc06fa0ae0fb5f93ec4cc8ced47b6ac7a6ba694ab67c536a68d6f",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire23.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire23.png",
+      "engineSha256": "ace58c8ecb005fffc2914e285e4c1854afac24c7aca9cbf55f340172fb78fba6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire23.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire24",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire24.png",
+      "officialGitBlob": "5544ee65e84929adc96fedce5ca65db484b00438",
+      "file": "full-game/items-fx/assets/fire24.png",
+      "sha256": "c3cb3037440a3fc9b871ef01e4f6437aa3d54c881092a30a7c006370a83eabf1",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire24.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire24.png",
+      "engineSha256": "bf0128df078ba4aacd7868003f71ff12b56115eb1746578425dfa1f867dfb62f",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire24.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire25",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire25.png",
+      "officialGitBlob": "989beef8e71b1524e9e0d49e764c4ee30b813e1b",
+      "file": "full-game/items-fx/assets/fire25.png",
+      "sha256": "21f5f20f33cd66b7c695afe7da1f1cf471a7a464c357133758c0cf2783351b38",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire25.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire25.png",
+      "engineSha256": "884e28347d72bc04ad1e69d86409cef673aa8df28b2e16ecdc32ff8e75e9b37b",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire25.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire26",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire26.png",
+      "officialGitBlob": "b0eb8eff3406de3a6a008cb2afa37911774a81e5",
+      "file": "full-game/items-fx/assets/fire26.png",
+      "sha256": "c7a402356724154f419998c29e8b3a619e0682d4ed3c5d47aa55dcc7692ff8a7",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire26.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire26.png",
+      "engineSha256": "b5fe7fe166549ec7a6b8d4ad9763052246c2e456cff19101d30d5447e2cc2741",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire26.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire27",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire27.png",
+      "officialGitBlob": "e76de8c346a16d6615c8a71253aa4535fa1f1464",
+      "file": "full-game/items-fx/assets/fire27.png",
+      "sha256": "0a1ddaa17e2ddaed4ea3dffd075b28f68a02ff0117f886790ca928f48c264f5c",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire27.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire27.png",
+      "engineSha256": "8937efeff86e80ea273f302458ebbcc85b86e2ca875e5e661a2d7f8caf7c3992",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire27.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire28",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire28.png",
+      "officialGitBlob": "464e0c37978f7a97b7239ffde9d124249dc37b60",
+      "file": "full-game/items-fx/assets/fire28.png",
+      "sha256": "05a48e118d8a57b6456ccf391208b66247f62992048ac86c7417d62653baa49a",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire28.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire28.png",
+      "engineSha256": "99bc468b6676a256693e80f98be0ae7a3442c0a8c56cbdda36b8cd2bf8ca2604",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire28.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire29",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire29.png",
+      "officialGitBlob": "2342d9a35aa21770a1ee9789c6a946147d5c9b6f",
+      "file": "full-game/items-fx/assets/fire29.png",
+      "sha256": "8ab00a41a0b8ac0e8b048a8977fc23dddb1d81898431e40466fd080a111d9e57",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire29.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire29.png",
+      "engineSha256": "5ffd0a098ba1384a505611bf00536db7f3edb4656923e9966c6545ef242ba3b7",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire29.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire30",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire30.png",
+      "officialGitBlob": "88cb4a0bc2ca2b95d9f6b8a3c51fef1fe53e13b5",
+      "file": "full-game/items-fx/assets/fire30.png",
+      "sha256": "57b342c980890f1d837a19a3efce2ea91529efe285c06a7d330b60c5e2e24b3d",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire30.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire30.png",
+      "engineSha256": "d9e0b7714129239ed11d3bd0a3f190f19f756391890c55836573c4160188f8b8",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire30.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire31",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire31.png",
+      "officialGitBlob": "ea83d1566b453c3ae4b9235a4dca0028a410b476",
+      "file": "full-game/items-fx/assets/fire31.png",
+      "sha256": "b45bc36430f9a8faf33b84c208fc8a45df4052808f5fb98c7865a76c4b6c3fb9",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire31.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire31.png",
+      "engineSha256": "0b4e5aa2f1fee8d409339a79f58c30bafdb4c6b583575422f5d34f22a1919c12",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire31.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire32",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire32.png",
+      "officialGitBlob": "e69ca2dd68c35b389a0e3364762af94e3f73e98e",
+      "file": "full-game/items-fx/assets/fire32.png",
+      "sha256": "6c0930d9d9a56fa0127384eac77d10a63b0495233655769ffc2488cafaf8d7b8",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire32.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire32.png",
+      "engineSha256": "351ebfe6f90fcd6850a2dd613596094e0da3a41f878aa5c72b20fafa2ba65ff4",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire32.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire33",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire33.png",
+      "officialGitBlob": "a76b48aed2afafd0945f7faa8dd5bac0ddfc6d6a",
+      "file": "full-game/items-fx/assets/fire33.png",
+      "sha256": "4b32e47e0010ed12d96dedaf89fd091917923b0dbe213d5b39aafe915a01cb34",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire33.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire33.png",
+      "engineSha256": "7f6e7983b38fda1983e579aff73d63d74fe022489cb41ef9c09bf91b6ed287ec",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire33.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire34",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire34.png",
+      "officialGitBlob": "57544d42924a3a2c5561b037ebc35987ff35a4a0",
+      "file": "full-game/items-fx/assets/fire34.png",
+      "sha256": "06430e93cdeaf7796552d5ae7d9fc03e7812725e4ce550451ea65a5cebcde0c2",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire34.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire34.png",
+      "engineSha256": "f03e5b563d73754bb14f11838b786b557ff3fe741430938d7eb1bb0a9f7dd8da",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire34.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire35",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire35.png",
+      "officialGitBlob": "4a9f15335d5dc6f8180d6404a357e0a732e4826b",
+      "file": "full-game/items-fx/assets/fire35.png",
+      "sha256": "36e95f96e33deb0e3a62c134bcdf501212e2e12180781acca02e2ecf6308442b",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire35.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire35.png",
+      "engineSha256": "6bbf748f4b9fd62eb3e6e7a90f16a879bcdc087d8c11e01ba51615f835a6b8c6",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire35.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire36",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire36.png",
+      "officialGitBlob": "bec029e19a5db89dbcf1e95deba6e077f2be0ac7",
+      "file": "full-game/items-fx/assets/fire36.png",
+      "sha256": "968cea21d87cff2beb8c1cc9848e63f03ab91d9b333d072fcbd2ff7145a2ad42",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire36.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire36.png",
+      "engineSha256": "357e409f64fb5b94a52ae4f5d35a3f49d769b49176602df1a221053c22412c1a",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire36.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire37",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire37.png",
+      "officialGitBlob": "c94dd0d01ed03fd3d60847e161a5c0c163ba8ffd",
+      "file": "full-game/items-fx/assets/fire37.png",
+      "sha256": "0ebc3854234a4a4c0bf1a63886ab27bfa35f312cb3eb3d1302fa694ea73358d9",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire37.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire37.png",
+      "engineSha256": "539044e4fe4b3af8799d3b5784f94954195303fac74f628409621367fb7a2105",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire37.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire38",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire38.png",
+      "officialGitBlob": "c9f23580f98d7bdf4a1590a08f44f593f5666894",
+      "file": "full-game/items-fx/assets/fire38.png",
+      "sha256": "906b79d842470e95ef829bed91937a7fdba3bdeb4b6b253bb22043816932e176",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire38.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire38.png",
+      "engineSha256": "c85413fad25bdd909248762b6976cbf3a33d9a419059677c2bd818867a30581e",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire38.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "fire39",
+      "group": "blocks/fire",
+      "officialPath": "core/assets-raw/sprites/blocks/fire/fire39.png",
+      "officialGitBlob": "fe133c07949246bf4963c5fe735b37542ede9913",
+      "file": "full-game/items-fx/assets/fire39.png",
+      "sha256": "13f3d4d85254a0a22e722f4058cee8a24219123e5a385ffd26d18c4c5f0a2c57",
+      "size": [
+        384,
+        384
+      ],
+      "generationRecord": "full-game/items-fx/assets/fire39.png.generation.json",
+      "artKind": "generated_art",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire39.png",
+      "engineSha256": "3371e4e4594a52e55118b972e5a6b889a08a6337348a6436679dcc878c66aa65",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/blocks/fire/fire39.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "bullet-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/bullet-back.png",
+      "officialGitBlob": "007c025017642d400aa1f9a6d23666510c81c618",
+      "file": "full-game/items-fx/assets/bullet-back.png",
+      "sha256": "eaecb0c582a2faac2e232cb73c166cc4ce5ce54519a9dd5cace7a4fb09679b14",
+      "size": [
+        88,
+        365
+      ],
+      "generationRecord": "full-game/items-fx/assets/bullet-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/bullet-back.png",
+      "engineSha256": "16c6d980a1e6beb491a9499bec9aaaf37a57e61bf7515741603e79975d63b476",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/bullet-back.png.generation.json",
+      "officialSize": [
+        52,
+        52
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "circle-bullet-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/circle-bullet-back.png",
+      "officialGitBlob": "e08bfeae8565204e17607bce12b74b83eca8195e",
+      "file": "full-game/items-fx/assets/circle-bullet-back.png",
+      "sha256": "34288632f14b0b1e9ee156d7f7e9bbd2beee7453e2c740c0d469b85d9ba35b39",
+      "size": [
+        247,
+        247
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-bullet-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/circle-bullet-back.png",
+      "engineSha256": "6e787132e2968a03d38f283d3b632dab802697c41b3ab0f66668ef6b0cddc5a9",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/circle-bullet-back.png.generation.json",
+      "officialSize": [
+        48,
+        48
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "large-bomb-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/large-bomb-back.png",
+      "officialGitBlob": "7a7b643de67e9f45670716938fcf43ae023defa5",
+      "file": "full-game/items-fx/assets/large-bomb-back.png",
+      "sha256": "0aaa2adbee9bc8b1fb4468958a8550405a5762aa2cce8d94039739db3f253ea6",
+      "size": [
+        365,
+        339
+      ],
+      "generationRecord": "full-game/items-fx/assets/large-bomb-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/large-bomb-back.png",
+      "engineSha256": "c52624cb53b7e6f4147e5b883f65423bed82c28f5eac7bb837e661dc31d5c76f",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/large-bomb-back.png.generation.json",
+      "officialSize": [
+        100,
+        100
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "large-orb-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/large-orb-back.png",
+      "officialGitBlob": "261446c5177d11799fc3d5f1b8891aa11a9c557a",
+      "file": "full-game/items-fx/assets/large-orb-back.png",
+      "sha256": "f2185d0ee4bfa05f84413bb21f798218bb19285e83e733be1607aba70c256cdb",
+      "size": [
+        337,
+        328
+      ],
+      "generationRecord": "full-game/items-fx/assets/large-orb-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/large-orb-back.png",
+      "engineSha256": "89d805b69394634d058ca62fb52cc02befc0725d9a05caa67fbff0352b53ac82",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/large-orb-back.png.generation.json",
+      "officialSize": [
+        80,
+        80
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "mine-bullet-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/mine-bullet-back.png",
+      "officialGitBlob": "33738a0c4d7fa9b9e693765e57846c261a576e1a",
+      "file": "full-game/items-fx/assets/mine-bullet-back.png",
+      "sha256": "93474a782c37a365360ac7923a4c26f80b9f68c8c9b134cd98e52bd76f62c1fa",
+      "size": [
+        282,
+        311
+      ],
+      "generationRecord": "full-game/items-fx/assets/mine-bullet-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/mine-bullet-back.png",
+      "engineSha256": "5aa4c579db54bad09b590afe81b0b02fa6e72fbefe842489b4f263a9285d0480",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/mine-bullet-back.png.generation.json",
+      "officialSize": [
+        64,
+        64
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "missile-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/missile-back.png",
+      "officialGitBlob": "cbd578de2412f1e624d0b73bcde3ecb92b0c5140",
+      "file": "full-game/items-fx/assets/missile-back.png",
+      "sha256": "7826b654799cfaad9c3a5a461dbf989806ffc6be26d4461d590c0711936d623e",
+      "size": [
+        202,
+        335
+      ],
+      "generationRecord": "full-game/items-fx/assets/missile-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/missile-back.png",
+      "engineSha256": "6d4ab903e45ce6427b4d1d965c1e571f68b63a62a644f73a2663ebbcc097e9a3",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/missile-back.png.generation.json",
+      "officialSize": [
+        36,
+        36
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "missile-large-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/missile-large-back.png",
+      "officialGitBlob": "bc3d3c2ef4dd4169ce8a275d0d2ba19abc01ff56",
+      "file": "full-game/items-fx/assets/missile-large-back.png",
+      "sha256": "163183304dd46c53ec99e9269901cd566d0eb1deec19b5d6d109bb9c21f1612f",
+      "size": [
+        311,
+        414
+      ],
+      "generationRecord": "full-game/items-fx/assets/missile-large-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/missile-large-back.png",
+      "engineSha256": "8295dab47c90ba7dc4d8f69e0d116a3a96bedebf6b13fb8bab7e5b60c6850883",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/missile-large-back.png.generation.json",
+      "officialSize": [
+        56,
+        56
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "shell-back",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/shell-back.png",
+      "officialGitBlob": "20a6ed6bb57ef60546dc1bb777f4ffd404cfed2f",
+      "file": "full-game/items-fx/assets/shell-back.png",
+      "sha256": "2a2f3fda3ac7cb33d5bd40ce5792216b3d1bbd75ac38110ca6ac89248b1c0689",
+      "size": [
+        156,
+        405
+      ],
+      "generationRecord": "full-game/items-fx/assets/shell-back.png.generation.json",
+      "artKind": "derived_projectile_back_mask",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/engine/sprites/effects/shell-back.png",
+      "engineSha256": "485d396413ab2ea5ff33aed67948b9a2e945a3d901f4283f21af4302086f6ae3",
+      "engineGenerationRecord": "full-game/items-fx/engine/sprites/effects/shell-back.png.generation.json",
+      "officialSize": [
+        36,
+        36
+      ],
+      "integrationStatus": "original_region_size_exported_engine_not_run"
+    },
+    {
+      "id": "blank",
+      "group": "shapes",
+      "officialPath": "core/assets-raw/sprites/shapes/blank.png",
+      "officialGitBlob": "6e438b2f308d0b5d81c0126cc09697b52629cb45",
+      "file": "full-game/items-fx/assets/blank.png",
+      "sha256": "36c907715b80d7cdad0e196256966a3353b771387aefb1116d8769dacc81b675",
+      "size": [
+        1,
+        1
+      ],
+      "generationRecord": "full-game/items-fx/assets/blank.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/blank.png",
+      "officialSize": [
+        1,
+        1
+      ],
+      "engineSha256": "36c907715b80d7cdad0e196256966a3353b771387aefb1116d8769dacc81b675"
+    },
+    {
+      "id": "circle-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/circle-end.png",
+      "officialGitBlob": "a80d7e2dd1d977d212e6f9f5f0253281820c2b93",
+      "file": "full-game/items-fx/assets/circle-end.png",
+      "sha256": "cb9a8236014886adccf4be6c42c95799343e8db23bb415aa7106fc17ce55b892",
+      "size": [
+        100,
+        199
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/circle-end.png",
+      "officialSize": [
+        100,
+        199
+      ],
+      "engineSha256": "cb9a8236014886adccf4be6c42c95799343e8db23bb415aa7106fc17ce55b892"
+    },
+    {
+      "id": "circle-mid",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/circle-mid.png",
+      "officialGitBlob": "12111a64a0e23a8a8562f7912c574aa974105461",
+      "file": "full-game/items-fx/assets/circle-mid.png",
+      "sha256": "fa7b5f148a63e36bc2a029236662fd07cdce42dd686ac2d5f57aaf42377ead1d",
+      "size": [
+        1,
+        199
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-mid.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/circle-mid.png",
+      "officialSize": [
+        1,
+        199
+      ],
+      "engineSha256": "fa7b5f148a63e36bc2a029236662fd07cdce42dd686ac2d5f57aaf42377ead1d"
+    },
+    {
+      "id": "circle-shadow",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/circle-shadow.png",
+      "officialGitBlob": "15a822572f85ef7fc4ec869196794be514f0ee34",
+      "file": "full-game/items-fx/assets/circle-shadow.png",
+      "sha256": "8e7a4dc32eb62c49d923a734a5211b0324766697f2c9891e3e8e58a8a678af20",
+      "size": [
+        201,
+        201
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-shadow.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/circle-shadow.png",
+      "officialSize": [
+        201,
+        201
+      ],
+      "engineSha256": "8e7a4dc32eb62c49d923a734a5211b0324766697f2c9891e3e8e58a8a678af20"
+    },
+    {
+      "id": "circle-small",
+      "group": "shapes",
+      "officialPath": "core/assets-raw/sprites/shapes/circle-small.png",
+      "officialGitBlob": "f69791c29d22130c07c9f564065d7062cc90477c",
+      "file": "full-game/items-fx/assets/circle-small.png",
+      "sha256": "5b0fac34a4443f8de2adfa234b52aa7e40fe9b74d545320651a31de9a187d3db",
+      "size": [
+        50,
+        50
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle-small.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/circle-small.png",
+      "officialSize": [
+        50,
+        50
+      ],
+      "engineSha256": "5b0fac34a4443f8de2adfa234b52aa7e40fe9b74d545320651a31de9a187d3db"
+    },
+    {
+      "id": "circle",
+      "group": "shapes",
+      "officialPath": "core/assets-raw/sprites/shapes/circle.png",
+      "officialGitBlob": "75b0b0acdab764077babe36dcc558e0579bce6d2",
+      "file": "full-game/items-fx/assets/circle.png",
+      "sha256": "7686be2c204cb76624026dcbc674c2998b296735a371af63b8dba74834e48960",
+      "size": [
+        201,
+        201
+      ],
+      "generationRecord": "full-game/items-fx/assets/circle.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/circle.png",
+      "officialSize": [
+        201,
+        201
+      ],
+      "engineSha256": "7686be2c204cb76624026dcbc674c2998b296735a371af63b8dba74834e48960"
+    },
+    {
+      "id": "clear-effect",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/clear-effect.png",
+      "officialGitBlob": "92e99b0ef349ed7a58e567c0c298464beac76842",
+      "file": "full-game/items-fx/assets/clear-effect.png",
+      "sha256": "89b19cf7ff1de2b766e3e0501344e426b21fbae70fac71615f2a4e263c40f8ef",
+      "size": [
+        1,
+        1
+      ],
+      "generationRecord": "full-game/items-fx/assets/clear-effect.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/clear-effect.png",
+      "officialSize": [
+        1,
+        1
+      ],
+      "engineSha256": "89b19cf7ff1de2b766e3e0501344e426b21fbae70fac71615f2a4e263c40f8ef"
+    },
+    {
+      "id": "drill-laser-boost-center",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser-boost-center.png",
+      "officialGitBlob": "e8ed8c4a68d2c3af3bb45d869aa2540487a644cd",
+      "file": "full-game/items-fx/assets/drill-laser-boost-center.png",
+      "sha256": "457c9b7ddd400f88c5c33f364886f7e8f8a69e02a4aa3635ff995b77389856bb",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser-boost-center.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser-boost-center.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "457c9b7ddd400f88c5c33f364886f7e8f8a69e02a4aa3635ff995b77389856bb"
+    },
+    {
+      "id": "drill-laser-boost-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser-boost-end.png",
+      "officialGitBlob": "417d6eb411f130dd07dd6fad7b92556796b3d81b",
+      "file": "full-game/items-fx/assets/drill-laser-boost-end.png",
+      "sha256": "b641f77476ea9ba8867b7a76f470eef15bd95e58d1aeac51d362504178cecdc7",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser-boost-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser-boost-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "b641f77476ea9ba8867b7a76f470eef15bd95e58d1aeac51d362504178cecdc7"
+    },
+    {
+      "id": "drill-laser-boost",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser-boost.png",
+      "officialGitBlob": "f2ae1a24f2582d2d5ff43f5d709bf187620acadb",
+      "file": "full-game/items-fx/assets/drill-laser-boost.png",
+      "sha256": "faccc462197e9ea0c447e4b07f435a3bffd1bf1ccba92de4056f3ed3763ab80b",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser-boost.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser-boost.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "faccc462197e9ea0c447e4b07f435a3bffd1bf1ccba92de4056f3ed3763ab80b"
+    },
+    {
+      "id": "drill-laser-center",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser-center.png",
+      "officialGitBlob": "381b329920c1960a4080d7158e118561bcf87bfc",
+      "file": "full-game/items-fx/assets/drill-laser-center.png",
+      "sha256": "3aaf629361dab6cbbc17680719e461d863fbf2c9d87d95976380ee638542b19f",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser-center.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser-center.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "3aaf629361dab6cbbc17680719e461d863fbf2c9d87d95976380ee638542b19f"
+    },
+    {
+      "id": "drill-laser-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser-end.png",
+      "officialGitBlob": "cb80e5478e97d8f81d6dc52188f63a9da62a8a66",
+      "file": "full-game/items-fx/assets/drill-laser-end.png",
+      "sha256": "17a7cbf4d97ca904b613ac9112e9e28e5a55b5757fd320c1c6da63a8c13e015d",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "17a7cbf4d97ca904b613ac9112e9e28e5a55b5757fd320c1c6da63a8c13e015d"
+    },
+    {
+      "id": "drill-laser",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/drill-laser.png",
+      "officialGitBlob": "026737d529fa0cfcffb3b4846a75fa31368d006b",
+      "file": "full-game/items-fx/assets/drill-laser.png",
+      "sha256": "55b6bbffeecb4075b979ff3e651d46171c96a90187381f2ad928044d6e27f73a",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/drill-laser.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/drill-laser.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "55b6bbffeecb4075b979ff3e651d46171c96a90187381f2ad928044d6e27f73a"
+    },
+    {
+      "id": "error",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/error.png",
+      "officialGitBlob": "005c4056d3e16c0dc5d4ad679a16f9fc705a30f9",
+      "file": "full-game/items-fx/assets/error.png",
+      "sha256": "a40dd3ac3a720473e5e129bfe3f0be019938ac102b90316d80fa03453cc9e86e",
+      "size": [
+        48,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/error.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/error.png",
+      "officialSize": [
+        48,
+        48
+      ],
+      "engineSha256": "a40dd3ac3a720473e5e129bfe3f0be019938ac102b90316d80fa03453cc9e86e"
+    },
+    {
+      "id": "hcircle",
+      "group": "shapes",
+      "officialPath": "core/assets-raw/sprites/shapes/hcircle.png",
+      "officialGitBlob": "5eb12e968fd7c3b6f9ef7efa52718566a41e4fc1",
+      "file": "full-game/items-fx/assets/hcircle.png",
+      "sha256": "f1c4f08355ab2459744909c5de25eb1f749e0eb35bda1710ad06e4356d08e94c",
+      "size": [
+        201,
+        201
+      ],
+      "generationRecord": "full-game/items-fx/assets/hcircle.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/hcircle.png",
+      "officialSize": [
+        201,
+        201
+      ],
+      "engineSha256": "f1c4f08355ab2459744909c5de25eb1f749e0eb35bda1710ad06e4356d08e94c"
+    },
+    {
+      "id": "laser-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser-end.png",
+      "officialGitBlob": "f1167ff6627f0620474b829224727cdaa075d206",
+      "file": "full-game/items-fx/assets/laser-end.png",
+      "sha256": "c7a80d862e668c13fd3599f0f15e203b5f26d42dec485bfeb7cf785668d15ce2",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "c7a80d862e668c13fd3599f0f15e203b5f26d42dec485bfeb7cf785668d15ce2"
+    },
+    {
+      "id": "laser-top-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser-top-end.png",
+      "officialGitBlob": "5f4b05e6a9d7b7bf140da0ba973509beac9d80ed",
+      "file": "full-game/items-fx/assets/laser-top-end.png",
+      "sha256": "85e01aa1759f268bcb775106c09ca8f3c417f574b7c4991ced01e65e2ba5f5d3",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser-top-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser-top-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "85e01aa1759f268bcb775106c09ca8f3c417f574b7c4991ced01e65e2ba5f5d3"
+    },
+    {
+      "id": "laser-top",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser-top.png",
+      "officialGitBlob": "c50f6d69a605dab03b97c307494cc3ec9f501fd4",
+      "file": "full-game/items-fx/assets/laser-top.png",
+      "sha256": "820017f5b753b3ae45139edd328da15854da97b3c57501b8763ac3b073045933",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser-top.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser-top.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "820017f5b753b3ae45139edd328da15854da97b3c57501b8763ac3b073045933"
+    },
+    {
+      "id": "laser-white-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser-white-end.png",
+      "officialGitBlob": "1e6aeffcc5e01ee9c34e659ad2e0cb65c2237c54",
+      "file": "full-game/items-fx/assets/laser-white-end.png",
+      "sha256": "e5b3743db4b7dfaa3e6f7f4564a7f02e47ad4f8a76226c5378e28c6427bc6c97",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser-white-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser-white-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "e5b3743db4b7dfaa3e6f7f4564a7f02e47ad4f8a76226c5378e28c6427bc6c97"
+    },
+    {
+      "id": "laser-white",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser-white.png",
+      "officialGitBlob": "13ac448bbe87309f205e06a79181ca41ae586be3",
+      "file": "full-game/items-fx/assets/laser-white.png",
+      "sha256": "64c83a480191ac64f60e69d9ddbec936c8f7052af526f855ed55c78a3e3a0717",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser-white.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser-white.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "64c83a480191ac64f60e69d9ddbec936c8f7052af526f855ed55c78a3e3a0717"
+    },
+    {
+      "id": "laser",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/laser.png",
+      "officialGitBlob": "0072419acc696eeb0cca18918e0ec815499aa4d1",
+      "file": "full-game/items-fx/assets/laser.png",
+      "sha256": "cae7015919c6d9b5ff164873a9b656852ac30405de01de26745bded070908e5a",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/laser.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/laser.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "cae7015919c6d9b5ff164873a9b656852ac30405de01de26745bded070908e5a"
+    },
+    {
+      "id": "minelaser-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/minelaser-end.png",
+      "officialGitBlob": "820ab782f675602f4c2c8939461c631886df9c7d",
+      "file": "full-game/items-fx/assets/minelaser-end.png",
+      "sha256": "74b8ef914b160b53e155048c48a305c9b965c95782fbd7761f506707678a3438",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/minelaser-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/minelaser-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "74b8ef914b160b53e155048c48a305c9b965c95782fbd7761f506707678a3438"
+    },
+    {
+      "id": "minelaser",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/minelaser.png",
+      "officialGitBlob": "5db610651a6ef36b35083294a5697181f13844d2",
+      "file": "full-game/items-fx/assets/minelaser.png",
+      "sha256": "b813f1e1bb0a0ed0a6eb565813753efeb545c292b531427acc1e96de8433cd3e",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/minelaser.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/minelaser.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "b813f1e1bb0a0ed0a6eb565813753efeb545c292b531427acc1e96de8433cd3e"
+    },
+    {
+      "id": "parallax-laser-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/parallax-laser-end.png",
+      "officialGitBlob": "f81d8c09e9deffd02d4a0424898927e54270a728",
+      "file": "full-game/items-fx/assets/parallax-laser-end.png",
+      "sha256": "f4269187ea140c7ab2b291870194e1a8b2ce2147141daf733e54ad61d489ce15",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/parallax-laser-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/parallax-laser-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "f4269187ea140c7ab2b291870194e1a8b2ce2147141daf733e54ad61d489ce15"
+    },
+    {
+      "id": "parallax-laser",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/parallax-laser.png",
+      "officialGitBlob": "8e05d41dcbbdeeab80164d8361468d28a189a235",
+      "file": "full-game/items-fx/assets/parallax-laser.png",
+      "sha256": "2918f0030c50d59c9b16f280c34be3bbaa64a1a68edcc4a25ee140e717a00d7a",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/parallax-laser.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/parallax-laser.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "2918f0030c50d59c9b16f280c34be3bbaa64a1a68edcc4a25ee140e717a00d7a"
+    },
+    {
+      "id": "particle",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/particle.png",
+      "officialGitBlob": "dabcbab9a97b1b38f62667e3b428dd3567b96f92",
+      "file": "full-game/items-fx/assets/particle.png",
+      "sha256": "0bac4b35ee4e733f016913a8b235b3c2dc443fb3a719d822b04602f84f5cf3d1",
+      "size": [
+        40,
+        40
+      ],
+      "generationRecord": "full-game/items-fx/assets/particle.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/particle.png",
+      "officialSize": [
+        40,
+        40
+      ],
+      "engineSha256": "0bac4b35ee4e733f016913a8b235b3c2dc443fb3a719d822b04602f84f5cf3d1"
+    },
+    {
+      "id": "point-laser-center",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/point-laser-center.png",
+      "officialGitBlob": "31aa55c04063bab3a4203105f0dc5d1cf4136454",
+      "file": "full-game/items-fx/assets/point-laser-center.png",
+      "sha256": "e62d408026cfa677b1840dc1f8c118db5857defa8e1e3665ddff3c5334befcbc",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/point-laser-center.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/point-laser-center.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "e62d408026cfa677b1840dc1f8c118db5857defa8e1e3665ddff3c5334befcbc"
+    },
+    {
+      "id": "point-laser-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/point-laser-end.png",
+      "officialGitBlob": "23690954175b86148d352998b9c998b4d28a1c63",
+      "file": "full-game/items-fx/assets/point-laser-end.png",
+      "sha256": "9414f63d0c125298dbbe74d928026951d3078c1142f4cfde8d52d647ac2ae102",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/point-laser-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/point-laser-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "9414f63d0c125298dbbe74d928026951d3078c1142f4cfde8d52d647ac2ae102"
+    },
+    {
+      "id": "point-laser",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/point-laser.png",
+      "officialGitBlob": "1ac2ffc640f1a9ac967bbc3e9cfdb53f6ffcb099",
+      "file": "full-game/items-fx/assets/point-laser.png",
+      "sha256": "c53ba3625db6bff97a0cb58c07b916156ce132466f1a61381ee329fe97ded7f7",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/point-laser.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/point-laser.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "c53ba3625db6bff97a0cb58c07b916156ce132466f1a61381ee329fe97ded7f7"
+    },
+    {
+      "id": "power-beam-end",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/power-beam-end.png",
+      "officialGitBlob": "c112dad634e2268b78c4f6683d795a349397cd6f",
+      "file": "full-game/items-fx/assets/power-beam-end.png",
+      "sha256": "b81af6faf2647c4bafcadb0df72ab48c1face7143a46912d829cb5bd3a900473",
+      "size": [
+        72,
+        72
+      ],
+      "generationRecord": "full-game/items-fx/assets/power-beam-end.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/power-beam-end.png",
+      "officialSize": [
+        72,
+        72
+      ],
+      "engineSha256": "b81af6faf2647c4bafcadb0df72ab48c1face7143a46912d829cb5bd3a900473"
+    },
+    {
+      "id": "power-beam",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/power-beam.png",
+      "officialGitBlob": "c797f3fad6a77e35eb2bdf93769ae665c23ff8b4",
+      "file": "full-game/items-fx/assets/power-beam.png",
+      "sha256": "5110f18f7ffeda9ec23701e520e96956e172bdf378f1303fa245d3a9fa674742",
+      "size": [
+        4,
+        48
+      ],
+      "generationRecord": "full-game/items-fx/assets/power-beam.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/power-beam.png",
+      "officialSize": [
+        4,
+        48
+      ],
+      "engineSha256": "5110f18f7ffeda9ec23701e520e96956e172bdf378f1303fa245d3a9fa674742"
+    },
+    {
+      "id": "ring-item",
+      "group": "shapes",
+      "officialPath": "core/assets-raw/sprites/shapes/ring-item.png",
+      "officialGitBlob": "e895ebef8988bcb7aa036e56908597f179bcb1e2",
+      "file": "full-game/items-fx/assets/ring-item.png",
+      "sha256": "297673ccda3dee3e978aeccdaabef86cccf5b3f7d62535ff6dd361764eda5ab5",
+      "size": [
+        64,
+        64
+      ],
+      "generationRecord": "full-game/items-fx/assets/ring-item.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/ring-item.png",
+      "officialSize": [
+        64,
+        64
+      ],
+      "engineSha256": "297673ccda3dee3e978aeccdaabef86cccf5b3f7d62535ff6dd361764eda5ab5"
+    },
+    {
+      "id": "square-shadow",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/square-shadow.png",
+      "officialGitBlob": "035ab4abaec5f3dab62e26b4162ad799733fa3f0",
+      "file": "full-game/items-fx/assets/square-shadow.png",
+      "sha256": "5e33520d6f68656590ecd4926bc69b341346c89662fafcc21a5e1b6ea1db2d0e",
+      "size": [
+        40,
+        40
+      ],
+      "generationRecord": "full-game/items-fx/assets/square-shadow.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/square-shadow.png",
+      "officialSize": [
+        40,
+        40
+      ],
+      "engineSha256": "5e33520d6f68656590ecd4926bc69b341346c89662fafcc21a5e1b6ea1db2d0e"
+    },
+    {
+      "id": "white",
+      "group": "effects",
+      "officialPath": "core/assets-raw/sprites/effects/white.png",
+      "officialGitBlob": "e8b825eae04d68ecdc8bc6003f5880024eb09320",
+      "file": "full-game/items-fx/assets/white.png",
+      "sha256": "63cb99ad2b5ddbd6044f1df437cdb5be8eed70e85358b540750937f31cc01f87",
+      "size": [
+        1,
+        1
+      ],
+      "generationRecord": "full-game/items-fx/assets/white.png.generation.json",
+      "artKind": "exact_official_technical_texture_reuse",
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ],
+      "engineNotVerified": true,
+      "status": "passed_art_and_source_checks_engine_not_verified",
+      "engineFile": "full-game/items-fx/assets/white.png",
+      "officialSize": [
+        1,
+        1
+      ],
+      "engineSha256": "63cb99ad2b5ddbd6044f1df437cdb5be8eed70e85358b540750937f31cc01f87"
+    }
+  ],
+  "contacts": [
+    "full-game/items-fx/qa/art-light.png",
+    "full-game/items-fx/qa/art-dark.png",
+    "full-game/items-fx/qa/fire-light.png",
+    "full-game/items-fx/qa/fire-dark.png",
+    "full-game/items-fx/qa/technical-light.png",
+    "full-game/items-fx/qa/technical-dark.png"
+  ],
+  "engineNotVerified": true,
+  "frozenAt": "2026-10-26T18:03:46.130232+00:00",
+  "qaReport": "full-game/items-fx/qa/report.json",
+  "runtimeFxCatalog": "full-game/items-fx/runtime-fx.json",
+  "runtimeContentCatalog": "full-game/items-fx/runtime-content.json",
+  "runtimeAtlasCatalog": "full-game/items-fx/runtime-atlas.json",
+  "animation": "full-game/items-fx/fire.animation.json",
+  "generationCount": 14,
+  "counts": {
+    "sourcePaths": 164,
+    "newNativeExtracts": 122,
+    "derivedProjectileMasks": 8,
+    "exactTechnicalReuses": 34,
+    "additionalExportedRuntimeMasks": 28,
+    "buildTimeFluidRegions": 100,
+    "runtimeFxCallbacks": 267
+  },
+  "retentionCleanup": "full-game/items-fx/retention-cleanup.json"
+}

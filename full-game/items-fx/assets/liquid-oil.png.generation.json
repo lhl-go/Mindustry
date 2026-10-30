@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/04-liquids.png",
+      "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+      "generationRecord": "full-game/items-fx/source/04-liquids.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      0,
+      1330,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      20,
+      30,
+      433,
+      427
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-oil.png",
+  "sha256": "a36e2231f0898133b94c365fff8cfe8712c6dca71f579220ab2c777b29c638ff",
+  "width": 445,
+  "height": 429,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.104660+00:00"
+}
