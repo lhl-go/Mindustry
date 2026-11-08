@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/06-title-logo.png",
+  "sha256": "a42e33722181cff62f5b59af133313d6bb578d7d1e6a082b263aeb0bf41bea04",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "requestedSize": [
+    1536,
+    768
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:30:40-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Create a finished title logotype for this unofficial Daoist Q art edition of the game. Exact text, all uppercase, verbatim: \"MINDUSTRY\". It must be spelled M I N D U S T R Y, nine letters, no other text. Wide centered single-line title occupying about82 percent of a 1536x768 transparent PNG canvas. Attachments are the strict approved style reference: refined hand-painted Daoist Q jade-green, warm ivory, fine gold edges, soft round cloud curls. Draw the nine large legible custom serif block letters in pale ivory with a subtle warm gold bevel and thin deep jade shadow edge; readable at small title size, tastefully handcrafted rather than plastic metallic CGI. Behind the baseline only a restrained jade ribbon with a small single Taiji gear seal centered above the middle, tiny cloud scroll ornaments at the ends, no giant frame. Keep letters visually distinct, complete and all on the same baseline. TRUE transparent background throughout negative space and around logotype, no glow haze, no scenery, no characters, no additional lettering, no watermark. At least70px transparent margin to every outer edge. Preserve excellent typography and high native detail.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/06-title-logo.txt",
+  "promptSha256": "3bf18c1c0ac8ce4c7b3dfb91a36051826bf50388d953694e7529f697d6190cea",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\06-title-logo.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-43834b87-af9c-480f-80e5-a2d66e14996e.png",
+    "nativePngSha256": "a42e33722181cff62f5b59af133313d6bb578d7d1e6a082b263aeb0bf41bea04",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaTransparentPixels": 1110102,
+  "status": "generated_pending_review"
+}

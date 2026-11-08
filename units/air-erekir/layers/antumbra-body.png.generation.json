@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "antumbra-body",
+  "file": "units/air-erekir/layers/antumbra-body.png",
+  "sha256": "e49d1181f948da410a8ea3ed4244664ba94c48ac1014a62b5a3f7515e481a845",
+  "width": 743,
+  "height": 578,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/11-assault-body-corrected.png",
+      "sha256": "ba9e3b22f29854d344f437899587a6613292687dcc95cead981132dead14f50a",
+      "generationRecord": "units/air-erekir/source/11-assault-body-corrected.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      685,
+      90,
+      1420,
+      685
+    ],
+    "trimBoundsInRegion": [
+      3,
+      24,
+      714,
+      570
+    ],
+    "padding": 16,
+    "width": 743,
+    "height": 578,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/radar-glow.png",
+  "sourceGitBlob": "866ec4f44f47890f9104c1963551f37edbd41e01",
+  "sourceSha256": "5823e10ebd4fa50d0dbe87a33da3a79166d70f0b48a28d143a44928bd644d972",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "radar-glow",
+  "blockId": "radar",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-glow.png",
+  "sha256": "105302f17da0d8fa2fe36fcf399769486e343783a6b8e68e47a153488a1258ae",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-glow.png",
+  "engineSha256": "105302f17da0d8fa2fe36fcf399769486e343783a6b8e68e47a153488a1258ae",
+  "nativeFile": "full-game/blocks/masters/radar-head-part.png",
+  "nativeSha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee",
+  "nativeSize": [
+    288,
+    237
+  ],
+  "sourceAlphaBounds": [
+    0,
+    8,
+    32,
+    24
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/radar-head-part.png",
+      "sha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/radar-glow.png",
+      "sha256": "5823e10ebd4fa50d0dbe87a33da3a79166d70f0b48a28d143a44928bd644d972"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-glow.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/radar-glow.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/radar-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

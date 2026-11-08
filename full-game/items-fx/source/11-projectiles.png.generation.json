@@ -1,0 +1,74 @@
+{
+  "file": "full-game/items-fx/source/11-projectiles.png",
+  "sha256": "3506f1e1ef6ab3e63ad005cc7e5afdd45871b846dee81eb8b31d25cd0a15c8d8",
+  "generatedAt": "2026-10-26T16:45:25.744Z",
+  "startedAt": "2026-10-26T16:44:15.021Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "High quality game sprite production sheet. The two attached style references establish Daoist Q detailed hand-painted jade, ivory and warm-gold artwork. No words or labels, UI frames, ground, background, grid, shadow or opaque backplates. Each isolated sprite has true RGBA transparency and 18% clear space around its complete outline. Exactly NINE individual top-down projectile sprites, strict 3 columns by 3 rows, all equal cells. Requested 1536x1536. Every directional projectile points straight NORTH/up, never tilted perspective. Read order: 1 small slender ivory dart with jade tip and fine gold collar; 2 small round jade energy pearl enclosed by gold ring; 3 large squat ivory bomb with two broad tiny fins, gold harness, round jade fuse; 4 large luminous spherical white-jade energy orb with three flowing gold spiral bands; 5 small sharp six-pointed jade mine star with red cinnabar center; 6 slim jade rocket ivory pointed nose and two small gold swept fins; 7 distinctly larger heavy ivory rocket with paired wide jade fins and double gold bands; 8 elongated tapered gold artillery shell with jade tip and engraved cloud line; 9 empty brass cylindrical cartridge casing with a hollow round open mouth and flat base, viewed from top, lying vertical north. Each has a clear unique silhouette. No exhaust trail or lighting fog. Keep all shapes inside each respective cell. These are 9 separate projectiles, not illustrations.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/11-projectiles.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/11-projectiles.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-bf7aeb2f-3516-4a9d-b9a2-f9c103f37676.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "bullet",
+    "circle-bullet",
+    "large-bomb",
+    "large-orb",
+    "mine-bullet",
+    "missile",
+    "missile-large",
+    "shell",
+    "casing"
+  ],
+  "sourceImageRetained": true
+}

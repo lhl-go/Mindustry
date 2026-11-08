@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/unit-cargo-loader.png",
+  "sourceGitBlob": "69024f4877c63f0ffb652060a6ac7fd6165ae4ad",
+  "sourceSha256": "755563946b48f6efea0b5930cffba81df86500c37c36d418185b9cca17cc7932",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "unit-cargo-loader",
+  "blockId": "unit-cargo-loader",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-loader.png",
+  "sha256": "6b86867daa2434c3cd98094a22df664948c5a870c240693193fb7e6dd332899d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-loader.png",
+  "engineSha256": "6b86867daa2434c3cd98094a22df664948c5a870c240693193fb7e6dd332899d",
+  "nativeFile": "full-game/blocks/masters/unit-cargo-loader.png",
+  "nativeSha256": "c7fcb8d270ab65d3cf6aa04251bff3d48b553054634cf266ccec1b44ca83b6e6",
+  "nativeSize": [
+    354,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/unit-cargo-loader.png",
+      "sha256": "c7fcb8d270ab65d3cf6aa04251bff3d48b553054634cf266ccec1b44ca83b6e6"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/unit-cargo-loader.png",
+      "sha256": "755563946b48f6efea0b5930cffba81df86500c37c36d418185b9cca17cc7932"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-loader.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-cargo-loader.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/unit-cargo-loader.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

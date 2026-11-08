@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-mass-driver-left.png",
+  "sourceGitBlob": "e0f0b836faf66f3e0d67fa1fdc73df13b121513a",
+  "sourceSha256": "e4590ce1a280314387081ba0ee6dd3e1eff821ec2ba2314afcd986583e176b99",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "payload-mass-driver-left",
+  "blockId": "payload-mass-driver",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-mass-driver-left.png",
+  "sha256": "4a9c8c0e45e5e45db8922b686da9d289c0e4810cd4de7b3d9fe0245900a5f445",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-mass-driver-left.png",
+  "engineSha256": "4a9c8c0e45e5e45db8922b686da9d289c0e4810cd4de7b3d9fe0245900a5f445",
+  "nativeFile": "full-game/blocks/masters/payload-mass-driver-left-part.png",
+  "nativeSha256": "ddcf5a4c28f9d5e47d191762a9d8aa445805efc7b7cf6b4d9b00aaccab77ed9d",
+  "nativeSize": [
+    161,
+    301
+  ],
+  "sourceAlphaBounds": [
+    5,
+    5,
+    46,
+    92
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "payload-mass-driver-left-part",
+    "role": "independently translated arm; right mirrored once locally; runtime does not mirror",
+    "localRotationDegrees": 0,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-mass-driver-left-part.png",
+      "sha256": "ddcf5a4c28f9d5e47d191762a9d8aa445805efc7b7cf6b4d9b00aaccab77ed9d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-mass-driver-left.png",
+      "sha256": "e4590ce1a280314387081ba0ee6dd3e1eff821ec2ba2314afcd986583e176b99"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-mass-driver-left.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-mass-driver-left.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-mass-driver-left-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

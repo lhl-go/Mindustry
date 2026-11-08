@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/18-vegetation-props.png",
+  "sha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430",
+  "generatedAt": "2026-10-26 19:04:55 UTC",
+  "startedAt": "2026-10-26 19:03:43 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: natural game-sprite atlas. Paint16 isolated top-down Mindustry environment props. Daoist Q bright clean refined hand-painted organic shapes matching attached references' craftsmanship ONLY, no UI/letters/people/frames. Requested3072×3072 square, exactly4equal columns×4equal rows, each sprite centered with15percent transparent padding. FULLY TRANSPARENT background; no ground disc, no drop shadow, no detached noise. STRICT VERTICAL TOP-DOWN ORTHOGRAPHIC: show plant crowns only, no tree side silhouettes or visible upright trunks. Independently different native variants.\nRow1 col1/2/3 REDWEED variants1/2/3: small round radial clumps of curled crimson red coral-like grass leaves seen directly above; col4 SPORE CLUSTER variant1: compact radial violet-purple organic mushroom/spore caps from above.\nRow2 col1/2 SPORE CLUSTER variants2/3 distinct rounded cap arrangement; col3 TENDRILS variant1, col4 TENDRILS variant2: thin muted violet sinuous root tendril cluster lying flat, 4-6 gently curling branches.\nRow3 col1 TENDRILS variant3 distinct flat curling pattern; col2 PINE: round layered jade-green needle canopy viewed DIRECTLY from above, center apex and radial branches, NO triangular side profile/trunk; col3 SNOW PINE: same round radial conifer canopy with dense white snow patches, different outline; col4 SPORE PINE: round radial lavender-purple spore-encrusted conifer crown, no trunk.\nRow4 col1 YELLOW CORAL: compact golden ochre organic coral with4-5 rounded cup-shaped lobes seen from above and warm amber centers. Col2 YELLOW CORAL CENTER: a single small round warm amber-gold center nodule only, isolated, no leaves, same painterly material. Col3 GLOWBLOB: muted rose-brown low fleshy alien organism with5-6 soft lobes and tiny darker red pores, strict above, no glow outside. Col4 SPAWN MARKER: one compact flat cinnabar-red hollow angular hexagonal ring with warm ivory inset edge and a simple ivory horizontal chevron stripe, no text, a crisp map marker with soft hand-painted edge; transparent middle/background.\nExact16 complete sprites, clean transparent cutout edges.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/18-vegetation-props.txt",
+  "promptSha256": "27d32d9715715476cfa95711a9d0ae232f321d3e782d4261bd9977d5b0e1fd1d",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/18-vegetation-props.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-a7b783c8-9402-4ef7-a968-1f867958a6c9.png",
+    "originalOutputSha256": "3766608fd7c54941ebb1363036547acc619c97aa67532853718206a28a379430"
+  },
+  "regions": [
+    "redweed1",
+    "redweed2",
+    "redweed3",
+    "spore-cluster1",
+    "spore-cluster2",
+    "spore-cluster3",
+    "tendrils1",
+    "tendrils2",
+    "tendrils3",
+    "pine",
+    "snow-pine",
+    "spore-pine",
+    "yellowcoral",
+    "yellowcoral-center",
+    "glowblob1",
+    "spawn"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/redweed1.png",
+      "sha256": "bcb7e1da240b720da9906e9223a078e4b822275204b10ef73b053829740d704d"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/redweed2.png",
+      "sha256": "46cbbf00747b3b5f91231ec84548aad432fcc2b2d022109d9c96028d266b2cab"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/redweed3.png",
+      "sha256": "ae2d87499d21c93e02b2e75e51e75c208fe55b0576bfc99094107e9c68086e39"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/spore-cluster1.png",
+      "sha256": "8172b146ba7136c5ad587ede4a5767964a50a7814a7ab39056050af9fca7b942"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/spore-cluster2.png",
+      "sha256": "f23a97da3054eb158aa8decdc381cdf3e02967628118e2a95c6f7d27d2f8dd99"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/spore-cluster3.png",
+      "sha256": "87bbc0d7dc9affc48552ab50368c497bb904aec13e1160e6efe874b67e60aec5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tendrils1.png",
+      "sha256": "25ef908200deb9ab1fed77fb79ec1df58a2fc5c39cf24ee6ee76a7436b41680b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tendrils2.png",
+      "sha256": "80a98ab966450606728c59a34a3a9189f3e2ba6bab05e8eb352b2a3df2d3e995"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/tendrils3.png",
+      "sha256": "41c84909b80d6167a28193a03b25471fb34bfd2dfc3d1ce9bd12ce5a080db0c3"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/pine.png",
+      "sha256": "a73f70b2e55af4fc869587fb580878801339e542543ff7dee38c131dc1d228a8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/snow-pine.png",
+      "sha256": "59725aa2f52250bac831479762e57680e8cc00f63c844cc40226376c46951417"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spore-pine.png",
+      "sha256": "df61d6646d635de356f928eb896dd0fb8e8cb5ee5862ca4100a110cc7fc7d708"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellowcoral.png",
+      "sha256": "068c98c81d3862eda3b62077e975700a4834f66183f9d1ccd7cd434e310fbf6c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellowcoral-center.png",
+      "sha256": "12e1ee0e3a454247cc234952b50babe205a0ad8c1d4e9001a9e9ecd0005b7eae"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/glowblob1.png",
+      "sha256": "1cba5bb65cba1dbfe21a3611b1abe1559ee4023f6b0807a4ed19c09a0d60ab1f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spawn.png",
+      "sha256": "69527eeec0781e74209d23f0de6ca9747f7b7e43f736e6c12e743709b90941bf"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

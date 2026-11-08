@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/constructor.png",
+  "sha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1129,
+      755,
+      1389,
+      1038
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      260,
+      283
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    292,
+    315
+  ],
+  "anchorPixels": [
+    146.0,
+    157.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

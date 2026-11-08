@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/statuses/status-overdrive.png",
+  "sha256": "4b7584a49fe415b0a3e4fd84d522a4938bd98b21fe893c4164e49e3a62207cfc",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/status-overdrive.png",
+      "sha256": "03d96f7b8c61f4919a1e9d2d9d1d7fe8a65c0aac01912f377cd4646d17f7893d",
+      "generationRecord": "full-game/items-fx/assets/status-overdrive.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

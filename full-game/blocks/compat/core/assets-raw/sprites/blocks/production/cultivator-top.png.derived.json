@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cultivator-top.png",
+  "sourceGitBlob": "b87054124b77bc7726cedc2b3864d6de320c54bb",
+  "sourceSha256": "bd6699e75f8a19bfaf5be5775b974ffad3883577511d5941f0dc4a2518f8da6c",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cultivator-top",
+  "blockId": "cultivator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-top.png",
+  "sha256": "7025d8252db1aabb4ccfd7cac96b2533fbd9a47b932de64644c4f5514a7783ce",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-top.png",
+  "engineSha256": "7025d8252db1aabb4ccfd7cac96b2533fbd9a47b932de64644c4f5514a7783ce",
+  "nativeFile": "full-game/blocks/masters/cultivator.png",
+  "nativeSha256": "8df58f3d3acbebb1f2f1153db0a8d3ac915e7516294f764f4dc4592d27e58e43",
+  "nativeSize": [
+    343,
+    327
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cultivator.png",
+      "sha256": "8df58f3d3acbebb1f2f1153db0a8d3ac915e7516294f764f4dc4592d27e58e43"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cultivator-top.png",
+      "sha256": "bd6699e75f8a19bfaf5be5775b974ffad3883577511d5941f0dc4a2518f8da6c"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

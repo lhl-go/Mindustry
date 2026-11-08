@@ -1,0 +1,42 @@
+{
+  "region": "afflict",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/afflict/afflict.png",
+  "sha256": "33953801b7ef8b2ac3336f7ce4b946f9ef258b7227b87cb1c75e472122fe256c",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:45.979239+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/afflict.png",
+      "sha256": "61b980797caa0d44475637a503b7d8f18a1eec850e5cd952e7d64c5edcc2cfcf",
+      "record": "full-game/root-turrets/masters/afflict.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/afflict/afflict.png",
+      "sha256": "af86039cb26e5b98c223c957171fa3ec20d21e8adee5887bab24704dc183c62e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      33,
+      50,
+      95,
+      126
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      280,
+      337
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

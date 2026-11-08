@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/lock.png",
+  "sourceGitBlob": "cf438bcd9c0a8373e3a285ce42c13aa2add5c2e0",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/lock.png",
+  "sha256": "462d57ac871b9dc73f7d8a0878c90b813c50e861cc1441954c84e875ec706d0f",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/lock.png",
+      "sha256": "251d976a3621c2428a09cf2e38d3dac42376eb92aeca7733b4c5169b3b1a8b0e",
+      "record": "full-game/ui-system/icons/lock.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "lock",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

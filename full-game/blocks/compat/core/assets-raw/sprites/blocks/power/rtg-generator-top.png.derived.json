@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/rtg-generator-top.png",
+  "sourceGitBlob": "00fcc2eeafa958b111d7742ba58e2a8492d5585b",
+  "sourceSha256": "d834e3ba885e7d575d7abd352b17d79fa01c75a7ad12ab54744a3510976bdd1c",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "rtg-generator-top",
+  "blockId": "rtg-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator-top.png",
+  "sha256": "c37ffe6060053b8a98e462703df914b6eae6efd76435972604a896adf99bda9e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator-top.png",
+  "engineSha256": "c37ffe6060053b8a98e462703df914b6eae6efd76435972604a896adf99bda9e",
+  "nativeFile": "full-game/blocks/masters/rtg-generator.png",
+  "nativeSha256": "add2f6536eeab1c5870bd18482981771666907b61eb80f792f53502998b7208c",
+  "nativeSize": [
+    290,
+    277
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    28,
+    28
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/rtg-generator.png",
+      "sha256": "add2f6536eeab1c5870bd18482981771666907b61eb80f792f53502998b7208c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/rtg-generator-top.png",
+      "sha256": "d834e3ba885e7d575d7abd352b17d79fa01c75a7ad12ab54744a3510976bdd1c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/rtg-generator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

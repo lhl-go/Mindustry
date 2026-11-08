@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/assets/dummy.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.139241+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 608,
+  "height": 633,
+  "sha256": "efe2b30f1efa5bc82a6e3df8b2d3b264a5c017f1b8e1232f3030e486a476a804",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333",
+      "generationRecord": "units/special/boards/01-drones-target-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "sourceBBox": [
+      1188,
+      155,
+      1732,
+      724
+    ],
+    "mask": "alpha >= 16; isolated components below area 20 excluded",
+    "padding": 32,
+    "pixelResampling": false,
+    "hiddenRGB": "zeroed outside retained alpha mask"
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

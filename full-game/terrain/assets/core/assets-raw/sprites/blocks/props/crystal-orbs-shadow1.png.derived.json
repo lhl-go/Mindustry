@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-orbs1.png",
+      "sha256": "dfb73182fcee453bb84251fca82d0d89f707af21c7adfd4ceabb8841635d1929",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-orbs1.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-orbs1.png",
+      "sha256": "30949c20a6830f11931b5fb35c4f2d49f284668362743b0f5463945da8f7c82f",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-orbs1.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 255,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 1,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 255,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-orbs-shadow1.png",
+  "sha256": "cdfc65bc161089c83351ab85ab1bc85bf3ec9b4453582aef5152698d4f9c0be9",
+  "createdAt": "2026-10-26T20:35:01.883749+00:00",
+  "width": 127,
+  "height": 137,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

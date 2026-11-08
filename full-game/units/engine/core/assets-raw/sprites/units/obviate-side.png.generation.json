@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-side.png",
+  "sha256": "e17102d492f5ebced690e42df2ec6522588da88b5baf3286c50b9608c0d3922c",
+  "width": 110,
+  "height": 100,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      77,
+      12
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      110,
+      100
+    ],
+    "officialAlphaBounds": [
+      77,
+      8,
+      101,
+      36
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      55.0,
+      50.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/obviate-side.png",
+    "gitBlobSha1": "ebba8b2e875eb1fbd7d56363b0d62b6cbdd63d8e",
+    "sha256": "d69547c77bfde2b22df1081be2c816b662b7e57255d808cdea0582feb56d5e5c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

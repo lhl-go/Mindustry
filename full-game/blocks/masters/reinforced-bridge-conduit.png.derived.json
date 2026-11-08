@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-bridge-conduit.png",
+  "sha256": "5dfe259b9416f03e3c7570f3a59d4a959d08af81213e8b5073233e3168e8a394",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      332,
+      705,
+      631,
+      920
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      299,
+      215
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    331,
+    247
+  ],
+  "anchorPixels": [
+    165.5,
+    123.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/vent-condenser-mid.png",
+  "sourceGitBlob": "b70942ba6b378f4ded0f0945e635198b7ccd0c81",
+  "sourceSha256": "21cdd69f07a79ef2bfeb1f07db212a532ea233c79b54e9276b43a809fccd6a0c",
+  "sourceDimensions": [
+    20,
+    20
+  ],
+  "region": "vent-condenser-mid",
+  "blockId": "vent-condenser",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-mid.png",
+  "sha256": "2d4e266b9ed9c1ff74277b72ff4140bb20b472e96dfd4a25091ec0139693522b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-mid.png",
+  "engineSha256": "2d4e266b9ed9c1ff74277b72ff4140bb20b472e96dfd4a25091ec0139693522b",
+  "nativeFile": "full-game/blocks/masters/vent-condenser.png",
+  "nativeSha256": "a0386a9851a65823db9bf7a141faceeb446c079c63dcb6899a429ea7ff3cd7b8",
+  "nativeSize": [
+    304,
+    322
+  ],
+  "sourceAlphaBounds": [
+    2,
+    2,
+    18,
+    18
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/vent-condenser.png",
+      "sha256": "a0386a9851a65823db9bf7a141faceeb446c079c63dcb6899a429ea7ff3cd7b8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/vent-condenser-mid.png",
+      "sha256": "21cdd69f07a79ef2bfeb1f07db212a532ea233c79b54e9276b43a809fccd6a0c"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/vent-condenser-mid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

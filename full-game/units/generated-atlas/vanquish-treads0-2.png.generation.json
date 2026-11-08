@@ -1,0 +1,40 @@
+{
+  "file": "full-game/units/generated-atlas/vanquish-treads0-2.png",
+  "sha256": "f82745f34dc605941aa22d95bac270612f6c8cc2798e772579ef813e35d39514",
+  "width": 1,
+  "height": 130,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-treads.png",
+      "sha256": "7a85d6be6900ad1bf01a0d3f8639d6e48dd44a5308b159269c7364b88fe3e9d2",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-treads.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "official_tread_animation_generator",
+    "sampleRect": [
+      22,
+      16,
+      1,
+      130
+    ],
+    "frame": 2,
+    "treadFrames": 18,
+    "treadPullOffset": 4,
+    "formula": "idx=y+i; if idx>=height: idx=(idx-height+pullOffset)%height"
+  },
+  "sourceCode": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lines": [
+      616,
+      640
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Official procedural shifting of new painted belt pixels, not AI frame generation.",
+  "engineNotVerified": true
+}

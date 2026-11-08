@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/inverted-sorter.png",
+  "sha256": "2c3142502bb84b7d0301005b9392753489645889081dc6dac90f15edb3d2a7be",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-nodes-01.png",
+      "sha256": "ac03dacfd94bdb6c13808d49d7491f071076f5c482dc092fb0480546c6102f84",
+      "generationRecord": "full-game/blocks/records/logistics-nodes-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      49,
+      550,
+      477,
+      953
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      428,
+      403
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    460,
+    435
+  ],
+  "anchorPixels": [
+    230.0,
+    217.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

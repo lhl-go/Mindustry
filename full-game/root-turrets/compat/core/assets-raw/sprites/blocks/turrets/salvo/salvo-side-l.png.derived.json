@@ -1,0 +1,42 @@
+{
+  "region": "salvo-side-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-l.png",
+  "sha256": "596874bbfac54f130bfb50f819d2a86e4db7e17050e06d61ab097d7d4341896e",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.172363+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/salvo-side-l.png",
+      "sha256": "912dbd52e1558b215b238503e9690e1998c89094aa396c344fdcbdd038228aa0",
+      "record": "full-game/root-turrets/masters/salvo-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/salvo/salvo-side-l.png",
+      "sha256": "bb50d870698ed9b2d53503158b8d031e89d4b9fa237e64e6d82d0bd113bc9bcb",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      40,
+      25,
+      59,
+      60
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      214,
+      346
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

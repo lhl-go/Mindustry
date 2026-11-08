@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/regolith1.png",
+  "sha256": "77601513c88c54c54a61a9ed437ec9f39caafa7daf40aa0e0b143bd1d1adc621",
+  "createdAt": "2026-10-26T16:54:13.802158+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/06-rock-crater-floors.png",
+      "sha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8",
+      "generationRecord": "full-game/terrain/source/06-rock-crater-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      593,
+      294,
+      885
+    ],
+    "nativeExtractedSize": [
+      292,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 3.5165619027916426
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

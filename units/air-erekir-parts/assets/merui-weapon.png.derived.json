@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir-parts/assets/merui-weapon.png",
+  "createdAt": "2026-10-26T11:09:35.991136+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "user_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 304,
+  "height": 319,
+  "sha256": "c8e27f94c16f3f09c9bb582d00c95bb977fff207519544c786191acbbf0a34c2",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a",
+      "generationRecord": "units/air-erekir-parts/source/02-ground-weapons.png.generation.json",
+      "sourceImageRetained": false
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "mask": "alpha >= 16; keep full connected component >=100 pixels; zero RGB outside retained alpha; no grid clipping",
+    "sourceBBox": [
+      771,
+      473,
+      1011,
+      728
+    ],
+    "sourceComponentArea": 41018,
+    "padding": 32,
+    "pixelResampling": false,
+    "additionalOperations": []
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation record; no model invoked for this processing."
+}

@@ -1,0 +1,2081 @@
+{
+  "checkedAt": "2026-10-26T10:09:36.502641+00:00",
+  "screenGroups": 28,
+  "screenStateCount": 168,
+  "screenCounts": {
+    "UI-001": 3,
+    "UI-002": 27,
+    "UI-003": 5,
+    "UI-004": 3,
+    "UI-005": 5,
+    "UI-006": 5,
+    "UI-007": 7,
+    "UI-008": 5,
+    "UI-009": 5,
+    "UI-010": 3,
+    "UI-011": 5,
+    "UI-012": 5,
+    "UI-013": 5,
+    "UI-014": 5,
+    "UI-015": 6,
+    "UI-016": 5,
+    "UI-017": 5,
+    "UI-018": 6,
+    "UI-019": 5,
+    "UI-020": 7,
+    "UI-021": 6,
+    "UI-022": 5,
+    "UI-023": 5,
+    "UI-024": 5,
+    "UI-025": 5,
+    "UI-026": 11,
+    "UI-027": 4,
+    "UI-028": 5
+  },
+  "missingScreenPngs": [],
+  "samePixelScreenStates": [
+    {
+      "id": "UI-004",
+      "sha256": "d27fbea4ec11154beb4e99782b7cc6ca9cad939b712d726ab0a9ed33779abe2b",
+      "states": [
+        {
+          "stateIndex": 1,
+          "state": "展开地图",
+          "file": "ui/states/UI-004--s01--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "有玩家／敌方／核心标记",
+          "file": "ui/states/UI-004--s02--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-009",
+      "sha256": "18f485f9786cae33e619ecb37975a425347a6fb964da43966cf7b057f3099910",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "内置／自定义／创意工坊地图",
+          "file": "ui/states/UI-009--s00--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "地图详情／模式",
+          "file": "ui/states/UI-009--s02--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-011",
+      "sha256": "b7752d4801496fd38f4ded99a90d663676d73806cdfc689c426cad261f80206b",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "普通内容说明",
+          "file": "ui/states/UI-011--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "属性分类与数值",
+          "file": "ui/states/UI-011--s01--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-012",
+      "sha256": "e87731fe9be773869fbc2463bdf1cefb82c3a4203ecd64a43ac0250517ebc716",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "缩略图列表／搜索",
+          "file": "ui/states/UI-012--s00--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "蓝图详情",
+          "file": "ui/states/UI-012--s02--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-014",
+      "sha256": "a30dc31ee54828067545179172df2c47e21808775a5c10656e803aa8e4518c05",
+      "states": [
+        {
+          "stateIndex": 1,
+          "state": "加载中",
+          "file": "ui/states/UI-014--s01--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "模组详情／已安装",
+          "file": "ui/states/UI-014--s02--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "发行版本选择",
+          "file": "ui/states/UI-014--s03--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-019",
+      "sha256": "30af8cc6ca46e5108cc4cc1c95ab0398100e83dbb0f1b3e40546b46654f95b24",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "滤镜列表／空列表",
+          "file": "ui/states/UI-019--s00--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "参数编辑",
+          "file": "ui/states/UI-019--s02--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "随机化／应用",
+          "file": "ui/states/UI-019--s03--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-021",
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "单位组列表／无波次",
+          "file": "ui/states/UI-021--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "添加编辑",
+          "file": "ui/states/UI-021--s01--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "搜索／排序／筛选",
+          "file": "ui/states/UI-021--s02--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "波次区间／数量／护盾／首领",
+          "file": "ui/states/UI-021--s03--desktop.png"
+        },
+        {
+          "stateIndex": 4,
+          "state": "队伍／出生点选择",
+          "file": "ui/states/UI-021--s04--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-022",
+      "sha256": "849da39d8eaad5362e43422a91be332c5ca206fd8008a23cd03febe90a54814e",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "目标图／空图",
+          "file": "ui/states/UI-022--s00--desktop.png"
+        },
+        {
+          "stateIndex": 2,
+          "state": "节点选中／连线",
+          "file": "ui/states/UI-022--s02--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "标记属性",
+          "file": "ui/states/UI-022--s03--desktop.png"
+        },
+        {
+          "stateIndex": 4,
+          "state": "剪贴板／清空",
+          "file": "ui/states/UI-022--s04--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-023",
+      "sha256": "cef894f4cba5963e2511d16d153412a0c5420cb8743df02c1cc5f0d2935ab2fa",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "列表／搜索",
+          "file": "ui/states/UI-023--s00--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "重命名／删除",
+          "file": "ui/states/UI-023--s03--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-025",
+      "sha256": "3e18382b203da1dd0dba5b5b0d0962ca853972ea795f7b03a87661425bb10967",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "语言选择",
+          "file": "ui/states/UI-025--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "属性名／值搜索",
+          "file": "ui/states/UI-025--s01--desktop.png"
+        },
+        {
+          "stateIndex": 3,
+          "state": "属性编辑／多语言应用",
+          "file": "ui/states/UI-025--s03--desktop.png"
+        },
+        {
+          "stateIndex": 4,
+          "state": "添加图标／回滚／导入",
+          "file": "ui/states/UI-025--s04--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-026",
+      "sha256": "00024e0c2f80190377fa054ab593c958874ae3acd4107de8b9947ba050dc92f9",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "资源列表／搜索",
+          "file": "ui/states/UI-026--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "图片导入",
+          "file": "ui/states/UI-026--s01--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-027",
+      "sha256": "835d4a7ffe907728a285982cc561070f52821fabffefb352b5094b27c63bfb0f",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "画布编辑",
+          "file": "ui/states/UI-027--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "颜色／调色板选择",
+          "file": "ui/states/UI-027--s01--desktop.png"
+        }
+      ]
+    },
+    {
+      "id": "UI-028",
+      "sha256": "25627eafb1035f514213da18079ac95bbe2c1280e13b60114dc979e5252e3df0",
+      "states": [
+        {
+          "stateIndex": 0,
+          "state": "玩家列表／搜索无结果",
+          "file": "ui/states/UI-028--s00--desktop.png"
+        },
+        {
+          "stateIndex": 1,
+          "state": "聊天展开／输入／历史",
+          "file": "ui/states/UI-028--s01--desktop.png"
+        }
+      ]
+    }
+  ],
+  "dynamicCoverageListCounts": {
+    "sourceScanErrors": 0,
+    "dynamicConfigurations": 21,
+    "mapAssetTypes": 6,
+    "gaps": 3,
+    "notClaimed": 5
+  },
+  "unitImageCountChecked": 30,
+  "unitErrors": [],
+  "unitChecks": [
+    {
+      "file": "units/root-builders/assets/alpha.png",
+      "shaMatches": true,
+      "size": [
+        432,
+        419
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/assets/beta.png",
+      "shaMatches": true,
+      "size": [
+        588,
+        510
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/assets/gamma.png",
+      "shaMatches": true,
+      "size": [
+        538,
+        603
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/layers/alpha-body.png",
+      "shaMatches": true,
+      "size": [
+        432,
+        419
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/layers/beta-body.png",
+      "shaMatches": true,
+      "size": [
+        588,
+        510
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/layers/gamma-body.png",
+      "shaMatches": true,
+      "size": [
+        538,
+        603
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/layers/small-basic-weapon.png",
+      "shaMatches": true,
+      "size": [
+        253,
+        296
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/root-builders/layers/small-mount-weapon.png",
+      "shaMatches": true,
+      "size": [
+        313,
+        345
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/anthicus-missile.png",
+      "shaMatches": true,
+      "size": [
+        309,
+        502
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/assembly-drone.png",
+      "shaMatches": true,
+      "size": [
+        606,
+        579
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/disrupt-missile.png",
+      "shaMatches": true,
+      "size": [
+        450,
+        646
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/dummy.png",
+      "shaMatches": true,
+      "size": [
+        608,
+        633
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/latum.png",
+      "shaMatches": true,
+      "size": [
+        579,
+        1170
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/manifold.png",
+      "shaMatches": true,
+      "size": [
+        625,
+        661
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/quell-missile.png",
+      "shaMatches": true,
+      "size": [
+        417,
+        504
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/renale.png",
+      "shaMatches": true,
+      "size": [
+        442,
+        881
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/scathe-missile-phase.png",
+      "shaMatches": true,
+      "size": [
+        612,
+        872
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/scathe-missile-surge-split.png",
+      "shaMatches": true,
+      "size": [
+        354,
+        592
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/scathe-missile-surge.png",
+      "shaMatches": true,
+      "size": [
+        503,
+        867
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/assets/scathe-missile.png",
+      "shaMatches": true,
+      "size": [
+        489,
+        668
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/disrupt-missile-body.png",
+      "shaMatches": true,
+      "size": [
+        450,
+        646
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/disrupt-missile-left-fin.png",
+      "shaMatches": true,
+      "size": [
+        450,
+        646
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/disrupt-missile-right-fin.png",
+      "shaMatches": true,
+      "size": [
+        450,
+        646
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/latum-segment0.png",
+      "shaMatches": true,
+      "size": [
+        579,
+        1170
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/latum-segment1.png",
+      "shaMatches": true,
+      "size": [
+        579,
+        1170
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 63
+    },
+    {
+      "file": "units/special/layers/latum-segment2.png",
+      "shaMatches": true,
+      "size": [
+        579,
+        1170
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/latum-segment3.png",
+      "shaMatches": true,
+      "size": [
+        579,
+        1170
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/renale-segment0.png",
+      "shaMatches": true,
+      "size": [
+        442,
+        881
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/renale-segment1.png",
+      "shaMatches": true,
+      "size": [
+        442,
+        881
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    },
+    {
+      "file": "units/special/layers/renale-segment2.png",
+      "shaMatches": true,
+      "size": [
+        442,
+        881
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "hiddenRgbPixels": 0,
+      "padding": 32
+    }
+  ],
+  "compositesIdenticalToBody": [
+    {
+      "id": "gamma",
+      "asset": "units/root-builders/assets/gamma.png",
+      "body": "units/root-builders/layers/gamma-body.png"
+    }
+  ],
+  "exportStatus": "assembly_in_progress",
+  "exportUnitCount": 15,
+  "knownReadyAbsentFromExport": [],
+  "uiStatePngCount": 372,
+  "uiStatePngsWithoutAdjacentSidecar": 372,
+  "uiStateSourceRecordPolicy": "ui-render-*.json contains per-file records; adjacent sidecars not required by audit but README wording checked separately.",
+  "screenImageChecks": [
+    {
+      "file": "ui/states/UI-001--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "39ac6462399a5eef84cf391e90696c8f207d69157287b4db5066c1e50dcdb7ed"
+    },
+    {
+      "file": "ui/states/UI-001--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ec772aa8005d548c7ed0263eae1d212f3f0ac5ebb6dc00f7dbdae17a678eb7bd"
+    },
+    {
+      "file": "ui/states/UI-001--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8aae318185d8a4d315ed0ea78613aca500c3c83695d582ee3e3b37f8b42824c2"
+    },
+    {
+      "file": "ui/states/UI-002--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "400b40059cec839ae2d0285a8f8b3e0dcbd49d50b43c5c3723fdfb2f56631bf7"
+    },
+    {
+      "file": "ui/states/UI-002--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7e7761959c29f91bd0aa03e195cda1f06854f52291df193d930357ef02f86b13"
+    },
+    {
+      "file": "ui/states/UI-002--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "0494e22b83ff2827805d6c5a340d0e42012e0cdab4dbf4a794675eb7c048de03"
+    },
+    {
+      "file": "ui/states/UI-002--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8c9eb5c1048e2a8e75c1cfa9bc7a431cec051b5c5925e43f6df3685c2030b72b"
+    },
+    {
+      "file": "ui/states/UI-002--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "5bc6690ea5afa947e0901d6e3f78085cb71033c3fc30ec5bd2b345d20291561d"
+    },
+    {
+      "file": "ui/states/UI-002--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "90742f90b9154c9ad3e5e894e029296f7794be6280a4773ecabe8cfa59897337"
+    },
+    {
+      "file": "ui/states/UI-002--s06--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "80ead0c83a1d64883bd3df7061f587b7292875bd0f09e89811bbb7a824e0a8fd"
+    },
+    {
+      "file": "ui/states/UI-002--s07--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "41c3ce821939df34b3d3ee27d1ea5793e199a0f90b99a16290427a08183c4d5b"
+    },
+    {
+      "file": "ui/states/UI-002--s08--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4cfb087ff5cb637cf2451080ad43409219381422a307e778bffcba3d77e50a52"
+    },
+    {
+      "file": "ui/states/UI-002--s09--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "c311393a36d63f9a05b0d983c98b6d4f9942c7def0e50a8a0b30fc8121db8ecd"
+    },
+    {
+      "file": "ui/states/UI-002--s10--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b7ab6da49c1b8553828d9b183ecff1dbdbd27ffcc49d7deeac5f522e82165e20"
+    },
+    {
+      "file": "ui/states/UI-002--s11--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a1edb5b32833a98c5a9b43cab10c9520410d301759b8da13e2de9c1b71f043c7"
+    },
+    {
+      "file": "ui/states/UI-002--s12--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a4a9acace9887b67b9313f609b5851752036a26b0fc170ade12e323ee1873e11"
+    },
+    {
+      "file": "ui/states/UI-002--s13--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3a6cb159e245d8febce31707d9b7574c18867617ff2652db6917e701efefd2de"
+    },
+    {
+      "file": "ui/states/UI-002--s14--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "01f8862467e4875c9c004b523571cf3f4e65471c2b128aa09cd14f93608f19e7"
+    },
+    {
+      "file": "ui/states/UI-002--s15--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7738fec6b6f8f7dbedfce534cd724010e81e2a916386a6efb140bd012f15a9e9"
+    },
+    {
+      "file": "ui/states/UI-002--s16--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d1a710c098b0176476297021163c91420f00f9f4168c0f5e60d2a592eb8f4508"
+    },
+    {
+      "file": "ui/states/UI-002--s17--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "30152ea3ea4af132503b6d1011784044b86f8b4617a0317a841110d763baf66f"
+    },
+    {
+      "file": "ui/states/UI-002--s18--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "289c801e5c8a70477d10acc9172678cda640ee95f9c116cefeef8c01af3b7e87"
+    },
+    {
+      "file": "ui/states/UI-002--s19--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ff61a8f990e27e027092a6cff637dbe7aef00c7152a9fa0345f4225ec7fee284"
+    },
+    {
+      "file": "ui/states/UI-002--s20--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ba1509f663dad92603a37bfb12702d08e8a483d504f2bdb2569e228b80da55f9"
+    },
+    {
+      "file": "ui/states/UI-002--s21--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6f3fa49feb54b53d6c01bfc1b4d48a2194c69720f17ed2d85b217c995fa56a5c"
+    },
+    {
+      "file": "ui/states/UI-002--s22--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4f77972868f5feca2fb16109d0b1371bb406351be888bde6064accb6f69f8adb"
+    },
+    {
+      "file": "ui/states/UI-002--s23--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "aa6271d5008dee80964ef35e3361f2fece6eed2adc0e6a9bbc43849201e69a23"
+    },
+    {
+      "file": "ui/states/UI-002--s24--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e9a59da2158c58058174273fbe5301f96c87167bb74ece8127840f5ab2fc07fe"
+    },
+    {
+      "file": "ui/states/UI-002--s25--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "557068416d212a24bd70e6227c8e5ad46283c467e43368dbeb1c14e583c4249f"
+    },
+    {
+      "file": "ui/states/UI-002--s26--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8f8952d7ab4fda566e86e51772dd67585c56dd4a6c23977fafbf76a3db86269c"
+    },
+    {
+      "file": "ui/states/UI-003--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d4ae68cabcac8107e09348ebc18a9771f1784909f4672874b302b815d1c8da49"
+    },
+    {
+      "file": "ui/states/UI-003--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f49455b36b2ea00d4432e1f6553f83889a6de90d5a137f83b9bb9fefafbe9480"
+    },
+    {
+      "file": "ui/states/UI-003--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "c1b91c826d8ab2ab2b0aaecc89660280f8743d3c6c7977dc78ec25172f086ba0"
+    },
+    {
+      "file": "ui/states/UI-003--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "24b7d697da0289837dde289dea779b2c192ee1b07248cb6595736eb371202ec5"
+    },
+    {
+      "file": "ui/states/UI-003--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a6ff6c0f39b1cf72b5713b9c4bb746ec6f9b5761a0587e026480d2211ae332ce"
+    },
+    {
+      "file": "ui/states/UI-004--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "400b40059cec839ae2d0285a8f8b3e0dcbd49d50b43c5c3723fdfb2f56631bf7"
+    },
+    {
+      "file": "ui/states/UI-004--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d27fbea4ec11154beb4e99782b7cc6ca9cad939b712d726ab0a9ed33779abe2b"
+    },
+    {
+      "file": "ui/states/UI-004--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d27fbea4ec11154beb4e99782b7cc6ca9cad939b712d726ab0a9ed33779abe2b"
+    },
+    {
+      "file": "ui/states/UI-005--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "cf38a20ac7e560facab34b1dab5d5a7cb11218981d731c2d92067adb613ca7a2"
+    },
+    {
+      "file": "ui/states/UI-005--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4061609d0a167e0897b1a7ecb2d3f360ec5e53721bc0f10685e2d3a8357af603"
+    },
+    {
+      "file": "ui/states/UI-005--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "86ea0dbc4c8f4402bfc180f9983d23cc1b6a8d1b983821e5f025606a7d2192e8"
+    },
+    {
+      "file": "ui/states/UI-005--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b1ad4e9080149034579cae9543adfb8078a528cf68b19465ec2d488ed490e2fc"
+    },
+    {
+      "file": "ui/states/UI-005--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "06950fb711841b2a0d9f5cb1ca6adad2e718b7d9c67dbfdd896f2522109916ea"
+    },
+    {
+      "file": "ui/states/UI-006--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7c5a96c59356bc106e2b488246f288bb18e407339a7d92beb1431176181427e5"
+    },
+    {
+      "file": "ui/states/UI-006--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d599666a8c7af582f1e5c47d8575a4ef28f3b66cde883d4f458d50de5f227f7c"
+    },
+    {
+      "file": "ui/states/UI-006--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f2cad79f502e94b17bb83f5b73566b6ff6839f067d31d4b7dcdbf18629dbbd4a"
+    },
+    {
+      "file": "ui/states/UI-006--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "75d43d27f84ab78a818b47cf3be0df4c954e85908200ddf4e9622d4b73f977be"
+    },
+    {
+      "file": "ui/states/UI-006--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e40f747cb34fa588f0cb37e0f89e9825550d38fca97d6ab3338e8a8ac79d252a"
+    },
+    {
+      "file": "ui/states/UI-007--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "101911d8bbb9ac6c28b88f937f3af1de770add17232058b832737c5cf369d62e"
+    },
+    {
+      "file": "ui/states/UI-007--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "2bb48f447519a96b315f7e461b441706974ff6ed3c8013d28e16b41a053a7e08"
+    },
+    {
+      "file": "ui/states/UI-007--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "c0372faf6aeddf924ed3980dfa40c75ca4a3ca7a9b1eaee7109c69f0c26f0e97"
+    },
+    {
+      "file": "ui/states/UI-007--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6cbf1c01a40b1713ec35cee901887f1121ef3b56920e006cf16462d73a6b27b3"
+    },
+    {
+      "file": "ui/states/UI-007--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "554610d7eb4a28f0a48d5d4625ef3e855045e35c9c325d7b642248047b066461"
+    },
+    {
+      "file": "ui/states/UI-007--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "220bf91df6d65d132481529fc56687a4e0be4ccc3a5f47b9ee11de98e5d506ac"
+    },
+    {
+      "file": "ui/states/UI-007--s06--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "64d156ac74ad8575a96c6070408c3d5b065f49be98dd2939850663ae1412d487"
+    },
+    {
+      "file": "ui/states/UI-008--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4baadc8e32bbedcb6abc698dddd1dbbabec295d43e6aea621531adef0f50a56f"
+    },
+    {
+      "file": "ui/states/UI-008--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "28995e43849ffe85ff6f5a1b92062f3a0eb42a40ebeab070b9368844db861ff5"
+    },
+    {
+      "file": "ui/states/UI-008--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6222d7a9c6df7ae12a8da99e0436c7aba8bc071e713f654a2e2695e4e530ca29"
+    },
+    {
+      "file": "ui/states/UI-008--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "843a404acc2a06163044eda1354dbc4fa0348d13039c80d08ce4c94666615c1d"
+    },
+    {
+      "file": "ui/states/UI-008--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "206aa240884592bc45bb02b16fb630dc668c8856f2dd68443dbedcf9c6f9b9b7"
+    },
+    {
+      "file": "ui/states/UI-009--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "18f485f9786cae33e619ecb37975a425347a6fb964da43966cf7b057f3099910"
+    },
+    {
+      "file": "ui/states/UI-009--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e445d1ff08101fdfe486082f6085d77ab32162ba6852b8645c4a4d94d7bc09ba"
+    },
+    {
+      "file": "ui/states/UI-009--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "18f485f9786cae33e619ecb37975a425347a6fb964da43966cf7b057f3099910"
+    },
+    {
+      "file": "ui/states/UI-009--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3f4e76915dded84c585ae989bba899c6b26fc0bb171227536d18db5c502fae96"
+    },
+    {
+      "file": "ui/states/UI-009--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8e113fe02b5ceebc988b296afe670ba7afa9440d75612d07fc0d5c2412933483"
+    },
+    {
+      "file": "ui/states/UI-010--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "eb317606e3eb7dfcd6e3dec35f369183e0418aa9eb1bd385f488711bc8746d3e"
+    },
+    {
+      "file": "ui/states/UI-010--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f09079576ed643d2e20fc5f20c571431aeb07fb1e0370d1a385f01cd9ec0109b"
+    },
+    {
+      "file": "ui/states/UI-010--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6a4787e63ca08404cdf15f7a25b439e70866281f44605f4b4b01e9beb97dbf52"
+    },
+    {
+      "file": "ui/states/UI-011--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b7752d4801496fd38f4ded99a90d663676d73806cdfc689c426cad261f80206b"
+    },
+    {
+      "file": "ui/states/UI-011--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b7752d4801496fd38f4ded99a90d663676d73806cdfc689c426cad261f80206b"
+    },
+    {
+      "file": "ui/states/UI-011--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "1ce5a949daac72c43eb5528d4b16b36e858fba91e7006ae6a6c6b732ae1faf21"
+    },
+    {
+      "file": "ui/states/UI-011--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e2cfe3c8f429b67d4b3012fdf2098585af810192a9238a6126f42b9d5fc7cb03"
+    },
+    {
+      "file": "ui/states/UI-011--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3884d8ef1e9f90b364afe24b5ece3a9ef184fc23e956a3dcf06b92d587854c86"
+    },
+    {
+      "file": "ui/states/UI-012--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e87731fe9be773869fbc2463bdf1cefb82c3a4203ecd64a43ac0250517ebc716"
+    },
+    {
+      "file": "ui/states/UI-012--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "67b08b946e2d369bc3bedb46fe8ac2faacf5e4245147e15e6a1c05148761891d"
+    },
+    {
+      "file": "ui/states/UI-012--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e87731fe9be773869fbc2463bdf1cefb82c3a4203ecd64a43ac0250517ebc716"
+    },
+    {
+      "file": "ui/states/UI-012--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f38e33434381b3429790ec8c57428998906e129855e996b50dcf4897d646dead"
+    },
+    {
+      "file": "ui/states/UI-012--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ee88ba71d056926e8ee2d1d59ef42ed5e8130879c3ffa424974962398efba1f3"
+    },
+    {
+      "file": "ui/states/UI-013--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "41aac237ac5e00aea5724953d21e1aeb8127190f711cc2d6c83e5a95d4e8e8e2"
+    },
+    {
+      "file": "ui/states/UI-013--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b9a19a5eb10f82114e02702940510674c7a2eed46c434550635f19fc0763bf15"
+    },
+    {
+      "file": "ui/states/UI-013--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "0ec02b1880de9140474f02ff8e1a8cb0e085d3b70f6d42eb2ed75bfda7c0ae1c"
+    },
+    {
+      "file": "ui/states/UI-013--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "5168e257b15c437a6417e6200fd86234218539089d83a6e9b81da2da9565349c"
+    },
+    {
+      "file": "ui/states/UI-013--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "1518261b74218a1909e28b729fb386127bb2499a2b5c951290a51defd17917f7"
+    },
+    {
+      "file": "ui/states/UI-014--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a4c16ea449029c99d6c6e1cd769799a61faa9bc2402b9037bffef00c2ed7a65d"
+    },
+    {
+      "file": "ui/states/UI-014--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a30dc31ee54828067545179172df2c47e21808775a5c10656e803aa8e4518c05"
+    },
+    {
+      "file": "ui/states/UI-014--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a30dc31ee54828067545179172df2c47e21808775a5c10656e803aa8e4518c05"
+    },
+    {
+      "file": "ui/states/UI-014--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a30dc31ee54828067545179172df2c47e21808775a5c10656e803aa8e4518c05"
+    },
+    {
+      "file": "ui/states/UI-014--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8ab3a7863cc9b542ea05887f66c72e965865bcc4e02d6567b5bc4e24d6a7fbf1"
+    },
+    {
+      "file": "ui/states/UI-015--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "5fac16fcf5616304bdcda35b5e517c7998f78c20d3f88f0e3ffc2dc543edaa82"
+    },
+    {
+      "file": "ui/states/UI-015--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ac65b8298cce62e9426ae5117271b4cffd15a885cc03e94182c96ea21bf0eb26"
+    },
+    {
+      "file": "ui/states/UI-015--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "0e41351b51d5b546a0ba05e21fe358aa2c58642af718adba9b4a6ab7c48fd91d"
+    },
+    {
+      "file": "ui/states/UI-015--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "09497e229c2df2698d7a5a510e99782754e61f6c86d54c4f623512054fb363b3"
+    },
+    {
+      "file": "ui/states/UI-015--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "fd67f0d3c7a944e0847bea05de7b48c6ad722f951e76ab2c64a2f47c1fd8f15a"
+    },
+    {
+      "file": "ui/states/UI-015--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7f55771f381ee596b9a04078c316aa327c7df16df248a434f31877d0bdd29aac"
+    },
+    {
+      "file": "ui/states/UI-016--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6c4b674c22964406eb3ea7bbe01b24b0eac0281cdcb64d1bef9bb96ce4fb61e7"
+    },
+    {
+      "file": "ui/states/UI-016--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "1c2313b6431a408ad9ccbb963236adb9eeb165d50681b8aefd2dfda48791f5cc"
+    },
+    {
+      "file": "ui/states/UI-016--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b00718e7754230750f53d38e723e8fb7226a6ca5e27d48fe293b57b63d255397"
+    },
+    {
+      "file": "ui/states/UI-016--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "9947c5c32546ae0e960c295851048851e6e6709c88578d9b481790b159ad3a0f"
+    },
+    {
+      "file": "ui/states/UI-016--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4fc2af8df8374aa552f0771f5f0af34d3415e34c9b2595fef526b08447b5d550"
+    },
+    {
+      "file": "ui/states/UI-017--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "4e2ed35d8fe8f779b04ce4efdbfbd27a17d110eb9ba78b3b3f41b21892c4b12d"
+    },
+    {
+      "file": "ui/states/UI-017--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "478d95eb6252ea4f4f74c741f034309b187a4e28b4cb996c175d201cf62871ba"
+    },
+    {
+      "file": "ui/states/UI-017--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "df38090d786f7bcd644ae4ae7580d1582490ea7dff28318e4f1207a067521a79"
+    },
+    {
+      "file": "ui/states/UI-017--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "fbc2563a9787b9f10c11177f3587fe13bd968c0979b7c921668ac05cbb78f34c"
+    },
+    {
+      "file": "ui/states/UI-017--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3ece47e8dc129760032241ff533d92060f3dd755121e18812d8ffcc7241dfcc2"
+    },
+    {
+      "file": "ui/states/UI-018--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6d9c0c9f938c59c162734af3dc2a0091ebd53eaebd72161dc5643c1c418946c9"
+    },
+    {
+      "file": "ui/states/UI-018--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "6663ead8d94afaeccf9e0ac11349cc9c6e5bd0d780d04a4cde31b1ed2461f9f9"
+    },
+    {
+      "file": "ui/states/UI-018--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d4d2cc8a790290df39a268dd3a65cbf2f4630cb9df597145a83587f2e9241352"
+    },
+    {
+      "file": "ui/states/UI-018--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "51e27d1fbe423a2caee4985ba27af592a805a9211b57f9791f9eabfe9c981ba0"
+    },
+    {
+      "file": "ui/states/UI-018--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "2df02a880098d0a9d01b18fabc2004a5bd867048d3af6cd0c36e78623185b2fd"
+    },
+    {
+      "file": "ui/states/UI-018--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8867720cc3b97bd52a34a70fffb9aa0df669afa51f9635e3e13480956bed1968"
+    },
+    {
+      "file": "ui/states/UI-019--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "30af8cc6ca46e5108cc4cc1c95ab0398100e83dbb0f1b3e40546b46654f95b24"
+    },
+    {
+      "file": "ui/states/UI-019--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e6b3e675adb2787c4569f4f3500bd8ad4600f766a4bec945e7d3bd043e869e02"
+    },
+    {
+      "file": "ui/states/UI-019--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "30af8cc6ca46e5108cc4cc1c95ab0398100e83dbb0f1b3e40546b46654f95b24"
+    },
+    {
+      "file": "ui/states/UI-019--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "30af8cc6ca46e5108cc4cc1c95ab0398100e83dbb0f1b3e40546b46654f95b24"
+    },
+    {
+      "file": "ui/states/UI-019--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "dbf80b85998a07035cbc05f74fb01ae32f9e71fc69c59ea9b51f0357aed4f66e"
+    },
+    {
+      "file": "ui/states/UI-020--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "5dd31b611a96823bbd330fdaf96b512b245461b66ae2c23d1136383ba0069cb5"
+    },
+    {
+      "file": "ui/states/UI-020--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b2338ebdb1defacf8930de2a31cd639f9559b69b40c392d1e1c77374a936520e"
+    },
+    {
+      "file": "ui/states/UI-020--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "673418cd260a974372cd2639aadd8205ed721f196d8a44ebbceacff7fe6c8e8b"
+    },
+    {
+      "file": "ui/states/UI-020--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "353f9e006d9c918e574c703ee8a26d6368ce11b4280c306ebe2046deb85077d2"
+    },
+    {
+      "file": "ui/states/UI-020--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "a6b73798fc83d8e65246724f1e15b352108e9b5cc629cb25400fc1c4a03443ce"
+    },
+    {
+      "file": "ui/states/UI-020--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8e45027c73773cbb6f5a3acdcb62e72635a8c9f2353b3f19d0f0fe61b74924a0"
+    },
+    {
+      "file": "ui/states/UI-020--s06--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "29aae3f2cf4887e69d8df197a4fe1d6af0034e58b2ee02fafc06002322c7dcb7"
+    },
+    {
+      "file": "ui/states/UI-021--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a"
+    },
+    {
+      "file": "ui/states/UI-021--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a"
+    },
+    {
+      "file": "ui/states/UI-021--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a"
+    },
+    {
+      "file": "ui/states/UI-021--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a"
+    },
+    {
+      "file": "ui/states/UI-021--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b004e1ac2a85013067b15473246b9b9cef4905a5508eb61283ffe3b76a58146a"
+    },
+    {
+      "file": "ui/states/UI-021--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "bc78cf15338ba73e5682367beb79f7c409c2447c1953e93e43dfa71dc49985d9"
+    },
+    {
+      "file": "ui/states/UI-022--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "849da39d8eaad5362e43422a91be332c5ca206fd8008a23cd03febe90a54814e"
+    },
+    {
+      "file": "ui/states/UI-022--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f32dd0df3971696d96ad9215fa5aecbf56fbac146674802629c618ab9cff9f2d"
+    },
+    {
+      "file": "ui/states/UI-022--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "849da39d8eaad5362e43422a91be332c5ca206fd8008a23cd03febe90a54814e"
+    },
+    {
+      "file": "ui/states/UI-022--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "849da39d8eaad5362e43422a91be332c5ca206fd8008a23cd03febe90a54814e"
+    },
+    {
+      "file": "ui/states/UI-022--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "849da39d8eaad5362e43422a91be332c5ca206fd8008a23cd03febe90a54814e"
+    },
+    {
+      "file": "ui/states/UI-023--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "cef894f4cba5963e2511d16d153412a0c5420cb8743df02c1cc5f0d2935ab2fa"
+    },
+    {
+      "file": "ui/states/UI-023--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7c4f7b5878282d32e5eabd521b7d4ad7c3984c0c066c1a3a0dae680955e98610"
+    },
+    {
+      "file": "ui/states/UI-023--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "fdcb4414b6752b5bffad5cda861a5e5ba4022ed3fc17630d7b1491eb378289f6"
+    },
+    {
+      "file": "ui/states/UI-023--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "cef894f4cba5963e2511d16d153412a0c5420cb8743df02c1cc5f0d2935ab2fa"
+    },
+    {
+      "file": "ui/states/UI-023--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "c0b09e712d373cd4559627e83175af9b1c3eb9e63c335bed9ac5a9cd56d06bdc"
+    },
+    {
+      "file": "ui/states/UI-024--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "ec43a53bb876b4006bb3d9004ebb82dd812d160dd6d85bd420899de1fc328b7c"
+    },
+    {
+      "file": "ui/states/UI-024--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "630eb8624b535d597fd663a71480dd0eb73087ea443159690d4d4669cd83c514"
+    },
+    {
+      "file": "ui/states/UI-024--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "f67e177104caf180fb79b6e91d582c3263afff6b7c3d3a272a2a18cfdd898a7e"
+    },
+    {
+      "file": "ui/states/UI-024--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "d54656f8dd155e37f7c8173416ed40588cc2cfe6a67a88a916a310bfd775c92c"
+    },
+    {
+      "file": "ui/states/UI-024--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "129d63e45a6f5df2c4c4e7a516cb709ba0a8533b22023eada73f31a7bdc9d11a"
+    },
+    {
+      "file": "ui/states/UI-025--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3e18382b203da1dd0dba5b5b0d0962ca853972ea795f7b03a87661425bb10967"
+    },
+    {
+      "file": "ui/states/UI-025--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3e18382b203da1dd0dba5b5b0d0962ca853972ea795f7b03a87661425bb10967"
+    },
+    {
+      "file": "ui/states/UI-025--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "fd2b78765697be0886b1c3a87c939fd7e3ab79617b6f8a0ef7bb02d81f3fb664"
+    },
+    {
+      "file": "ui/states/UI-025--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3e18382b203da1dd0dba5b5b0d0962ca853972ea795f7b03a87661425bb10967"
+    },
+    {
+      "file": "ui/states/UI-025--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "3e18382b203da1dd0dba5b5b0d0962ca853972ea795f7b03a87661425bb10967"
+    },
+    {
+      "file": "ui/states/UI-026--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "00024e0c2f80190377fa054ab593c958874ae3acd4107de8b9947ba050dc92f9"
+    },
+    {
+      "file": "ui/states/UI-026--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "00024e0c2f80190377fa054ab593c958874ae3acd4107de8b9947ba050dc92f9"
+    },
+    {
+      "file": "ui/states/UI-026--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e51ba49bd259350352d6d42a9647e1998255b5915c13dd9016c83a681feb50a4"
+    },
+    {
+      "file": "ui/states/UI-026--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "05b2528cb07d923d165f7fca5ebc1f03aa855bc7e0674a20059e8ab60623a101"
+    },
+    {
+      "file": "ui/states/UI-026--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "0df968d5f84c1383bc10e139853e627c5c0b5daccea088eed8b5998c035eea7a"
+    },
+    {
+      "file": "ui/states/UI-026--s05--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "260b81ee1912e307ade21194ede655107b619d16c3c0f78e9377398808ddf098"
+    },
+    {
+      "file": "ui/states/UI-026--s06--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "8e8980490768805d7b30a1d8a441f5722383a89630f86a1869dbe5a666bf076a"
+    },
+    {
+      "file": "ui/states/UI-026--s07--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e1dfe585fa685d0ab8195faddde99708eca1315fefdfa6694d9d039a9b2df591"
+    },
+    {
+      "file": "ui/states/UI-026--s08--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "5a43f53a51610d9936cc44da506110e6a96ce45599b238cdb463056d7759273c"
+    },
+    {
+      "file": "ui/states/UI-026--s09--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7104199b205176184375b12b5a60afc0720cd93967e7eff111b4b57e798e3409"
+    },
+    {
+      "file": "ui/states/UI-026--s10--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "7d008edd19a83235856f3f626fcaf9f7bdd78dd0060fb8ac4ab843ae33852cec"
+    },
+    {
+      "file": "ui/states/UI-027--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "835d4a7ffe907728a285982cc561070f52821fabffefb352b5094b27c63bfb0f"
+    },
+    {
+      "file": "ui/states/UI-027--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "835d4a7ffe907728a285982cc561070f52821fabffefb352b5094b27c63bfb0f"
+    },
+    {
+      "file": "ui/states/UI-027--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "e4eee9e404124389f1b1568445494e33f4f195741a2bd9739ba9d8fa9ebcc063"
+    },
+    {
+      "file": "ui/states/UI-027--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "016ae3f6be7605558a562dac127ddcb591b41ec6f50de6d2718c05c65ef5961c"
+    },
+    {
+      "file": "ui/states/UI-028--s00--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "25627eafb1035f514213da18079ac95bbe2c1280e13b60114dc979e5252e3df0"
+    },
+    {
+      "file": "ui/states/UI-028--s01--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "25627eafb1035f514213da18079ac95bbe2c1280e13b60114dc979e5252e3df0"
+    },
+    {
+      "file": "ui/states/UI-028--s02--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "359752ccd3321424c2de5ab2efe209a8d99eb9c8f7e5bda5ee7b721201672e00"
+    },
+    {
+      "file": "ui/states/UI-028--s03--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "b1baec91c07524cbd114af1223618bf0b1e76345431904fb7c24851aba2994a0"
+    },
+    {
+      "file": "ui/states/UI-028--s04--desktop.png",
+      "size": [
+        1366,
+        768
+      ],
+      "sha256": "606b8258301881f6ace81faffe4cf2a1ae0a2ac1049f304e1f071fdbb5263556"
+    }
+  ]
+}

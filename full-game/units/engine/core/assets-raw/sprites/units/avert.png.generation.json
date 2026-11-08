@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/avert.png",
+  "sha256": "f8d27ac8e0c778b74427be7310471cf80e2c23aca8b5855a41a409bdbf0729e0",
+  "width": 96,
+  "height": 96,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/avert-body.png",
+      "sha256": "a49b19fefb1a95978a6aa761a9c55af3744bfb75bf8809084875e4953ea9b1b0",
+      "generationRecord": "units/coordinator-recoil-fix/avert-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      595,
+      548
+    ],
+    "sourcePivot": [
+      313.5,
+      290.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      627,
+      580
+    ],
+    "targetDimensions": [
+      96,
+      96
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      92,
+      92
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      48.0,
+      48.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/avert.png",
+    "gitBlobSha1": "ab1344a9714749cb1b7028e7abea7a1afd91fdbf",
+    "sha256": "c3236fde1ff57d671e70272899f674e430440c45d73b7f876207f204e26bdfd2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

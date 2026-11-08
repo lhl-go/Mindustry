@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris-leg-base.png",
+  "sha256": "f910cdf52456abdab37b1449d7c279bf2cf48398470fa639f0e12696c8160509",
+  "width": 118,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      32,
+      32,
+      220,
+      382
+    ],
+    "sourcePivot": [
+      126,
+      57
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      14,
+      5
+    ],
+    "sourceDimensions": [
+      252,
+      414
+    ],
+    "targetDimensions": [
+      118,
+      60
+    ],
+    "officialAlphaBounds": [
+      7,
+      5,
+      114,
+      55
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      59.0,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/collaris-leg-base.png",
+    "gitBlobSha1": "841e11dab3f7fe274a7eb77a7b66af4df2c5c1c8",
+    "sha256": "55c80aaf00a7368766ebd4f4ad0d25c6d536b0925d2dd22ae0d823ad2aeda8eb"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

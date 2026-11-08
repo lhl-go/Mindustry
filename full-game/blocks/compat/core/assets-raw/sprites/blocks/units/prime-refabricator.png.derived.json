@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/prime-refabricator.png",
+  "sourceGitBlob": "6709222b7b32803da821af11d7bdb574200579d1",
+  "sourceSha256": "63bb30f486965f4df49a2558789d6e0ef14bbf1782337a90f88367c19f1df4fc",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "prime-refabricator",
+  "blockId": "prime-refabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator.png",
+  "sha256": "4c4577e1e4b888ad2b93c230d77261a3e3d7bab7ee7eb3c57e410057dfb425b0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator.png",
+  "engineSha256": "4c4577e1e4b888ad2b93c230d77261a3e3d7bab7ee7eb3c57e410057dfb425b0",
+  "nativeFile": "full-game/blocks/masters/prime-refabricator.png",
+  "nativeSha256": "88aebf1b9abc54ede7bd1fdcb3d162a5d5d4c0b7213e2d9a95b3b3ed421b5b34",
+  "nativeSize": [
+    406,
+    403
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/prime-refabricator.png",
+      "sha256": "88aebf1b9abc54ede7bd1fdcb3d162a5d5d4c0b7213e2d9a95b3b3ed421b5b34"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/prime-refabricator.png",
+      "sha256": "63bb30f486965f4df49a2558789d6e0ef14bbf1782337a90f88367c19f1df4fc"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/prime-refabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

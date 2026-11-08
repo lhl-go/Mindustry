@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-leg.png",
+  "sha256": "dfb65489d9bc03335ce54a8d432d31edae33bf19ec7bc1fb0dc759a805b08c83",
+  "width": 48,
+  "height": 34,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+      "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      16,
+      16,
+      171,
+      475
+    ],
+    "sourcePivot": [
+      93.5,
+      80.26
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      0,
+      9
+    ],
+    "sourceDimensions": [
+      187,
+      491
+    ],
+    "targetDimensions": [
+      48,
+      34
+    ],
+    "officialAlphaBounds": [
+      0,
+      0,
+      48,
+      34
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      17.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/spiroct-leg.png",
+    "gitBlobSha1": "cc9081fce9734e7902374416d3da88a1346152ab",
+    "sha256": "de7e953ad5fda42ac6aa67e552c5d38f0f0e359a567bcc0edc5837c9e1aefe60"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

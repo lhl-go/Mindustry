@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/impact-drill-top.png",
+  "sourceGitBlob": "76d645c278462338c42b09bb2a95253508c134fa",
+  "sourceSha256": "17d58a499d1728aea0e7fecd7802d2803fa655015bae7aee1d3b11233fbeb072",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-drill-top",
+  "blockId": "impact-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-top.png",
+  "sha256": "14b892f705f758230a4dc1687e975286c05c1f709d2fa300a568520a73863e31",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-top.png",
+  "engineSha256": "14b892f705f758230a4dc1687e975286c05c1f709d2fa300a568520a73863e31",
+  "nativeFile": "full-game/blocks/masters/impact-drill.png",
+  "nativeSha256": "115aa571dae2afc7debfd2c88c608e335b4e1007fd3d3f79d267ef26200898ec",
+  "nativeSize": [
+    333,
+    329
+  ],
+  "sourceAlphaBounds": [
+    11,
+    11,
+    117,
+    117
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/impact-drill.png",
+      "sha256": "115aa571dae2afc7debfd2c88c608e335b4e1007fd3d3f79d267ef26200898ec"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-top.png",
+      "sha256": "17d58a499d1728aea0e7fecd7802d2803fa655015bae7aee1d3b11233fbeb072"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

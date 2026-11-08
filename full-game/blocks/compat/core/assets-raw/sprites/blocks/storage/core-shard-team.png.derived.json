@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-shard-team.png",
+  "sourceGitBlob": "1b0ef1a79c1b40eb5445443fee80752dae43fced",
+  "sourceSha256": "65c14ba3b2ad94293b0fa799bd3a914b8441f6308973cbe0909f452443312e77",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "core-shard-team",
+  "blockId": "core-shard",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-team.png",
+  "sha256": "6f0a233445053e332a339806d8bc2fb894889150b5675f85685b26e1dcd89c0f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-team.png",
+  "engineSha256": "6f0a233445053e332a339806d8bc2fb894889150b5675f85685b26e1dcd89c0f",
+  "nativeFile": "full-game/blocks/masters/core-shard.png",
+  "nativeSha256": "c1b2a47d1af28faae315ab9829cba006ccff5d9227e01b87d66a26652b3f9060",
+  "nativeSize": [
+    237,
+    238
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-shard.png",
+      "sha256": "c1b2a47d1af28faae315ab9829cba006ccff5d9227e01b87d66a26652b3f9060"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-shard-team.png",
+      "sha256": "65c14ba3b2ad94293b0fa799bd3a914b8441f6308973cbe0909f452443312e77"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-shard-team.png.derived.json"
+}

@@ -1,0 +1,21 @@
+{
+  "stem": "01-minerals",
+  "names": [
+    "item-copper",
+    "item-lead",
+    "item-metaglass",
+    "item-graphite",
+    "item-sand",
+    "item-coal",
+    "item-titanium",
+    "item-thorium"
+  ],
+  "args": {
+    "prompt": "Create a production inventory sprite sheet: exactly EIGHT distinct isolated resources arranged evenly in a strict invisible 4-column by 2-row grid, row-major reading order. Each fits comfortably inside its cell with 15% clear margin. Native requested 2048x1024. True transparent RGBA background, NO floor, shadow, panel, text, labels or grid. Draw close-up readable hand-painted HD game item icons in the refined Daoist chibi material language of the two attached references: rounded crystalline forms, jade/ivory and restrained warm-gold detail. These are resource objects, NOT UI panels; preserve each resource's unique identity COLOR. Row1: (1) COPPER: rich orange copper ore nuggets with subtle metallic facets, (2) LEAD: muted violet-gray heavy ore cluster, (3) METAGLASS: milky clear pale-blue glass ingot with luminous translucent edges, (4) GRAPHITE: dark blue-gray stacked carbon graphite rods. Row2: (5) SAND: small creamy-beige pile of fine sand in a shallow curved heap, (6) COAL: chunky black coal cluster with charcoal facets, (7) TITANIUM: crisp cool blue titanium metal crystal nuggets, (8) THORIUM: pink luminous mineral crystal cluster with pale white mineral growths. Distinct silhouettes, all equal visual weight and fully separated. Intricate but clean painted shading, no photorealism, no plastic render, no faces or words. All edges fully inside their cell. Both supplied images are STYLE reference only.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/shockwave-tower-heat.png",
+  "sourceGitBlob": "f949af1f2d3045ccbaea1f444bfd90348781af45",
+  "sourceSha256": "fc23c92fa9f0cfe2b16c4c428c4c0f536011ec9f9c5c3a88102cf374e95199fa",
+  "sourceDimensions": [
+    112,
+    112
+  ],
+  "region": "shockwave-tower-heat",
+  "blockId": "shockwave-tower",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower-heat.png",
+  "sha256": "0e27d75f71e311c763b67f169af928ee61b0197c0b2b1aa658fe642602f72de0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower-heat.png",
+  "engineSha256": "0e27d75f71e311c763b67f169af928ee61b0197c0b2b1aa658fe642602f72de0",
+  "nativeFile": "full-game/blocks/masters/shockwave-tower.png",
+  "nativeSha256": "d37c6f03ad701942f3d74ce76c6356ebabc2545c6d6e79b4064c0a8e1f30c07c",
+  "nativeSize": [
+    334,
+    327
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    112,
+    112
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shockwave-tower.png",
+      "sha256": "d37c6f03ad701942f3d74ce76c6356ebabc2545c6d6e79b4064c0a8e1f30c07c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/shockwave-tower-heat.png",
+      "sha256": "fc23c92fa9f0cfe2b16c4c428c4c0f536011ec9f9c5c3a88102cf374e95199fa"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower-heat.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower-heat.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/shockwave-tower.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

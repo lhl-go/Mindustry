@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree-dead.png",
+      "sha256": "1881850cc9b366bba39f91c871b412c3f2f5758b518aa118f95254b62f8ac0a6",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree-dead.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree-dead.png",
+      "sha256": "f1ebbd33e4364dc250156de526adcd8570b5e55ed7fe93e2bb4ec2cd8989fe7b",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree-dead.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 138,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 1,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 138,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree-dead-shadow.png",
+  "sha256": "9a5aedeb2b2c23718a6f40f71bb53fa6f8036e733cdd153e301954ee89292f42",
+  "createdAt": "2026-10-26T20:35:02.007476+00:00",
+  "width": 353,
+  "height": 348,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

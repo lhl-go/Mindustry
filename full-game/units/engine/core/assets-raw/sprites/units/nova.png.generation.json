@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/nova.png",
+  "sha256": "099bb7fde7813afc71ff145bbe1bda27a9fc24dbbc93b40af32ffdcea1607b75",
+  "width": 56,
+  "height": 56,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/nova.png",
+      "sha256": "2b1f52fe55471510b474149334733d23c4343833e09a5f04154ee0ca996818d9",
+      "generationRecord": "units/serpulo-ground-naval/bodies/nova.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      259,
+      311
+    ],
+    "sourcePivot": [
+      137.5,
+      163.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      275,
+      327
+    ],
+    "targetDimensions": [
+      56,
+      56
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      52,
+      52
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.0,
+      28.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/nova.png",
+    "gitBlobSha1": "baf46e3fa60c6113799ab668a61489cdd7cae054",
+    "sha256": "ecf2070f41d7b8beb46d814103ef8b5778ea07793aa3a166da643b16d171f983"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

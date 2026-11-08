@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/stone-wall1.png",
+  "sha256": "aef2def66e8d7118d35964af89b436a04fc9349d0eaab04f3720c854681c4afe",
+  "createdAt": "2026-10-26T17:46:48.847067+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/12-basic-wall-tops.png",
+      "sha256": "0f8abf47ed85ceb0ebb273c19c910abee069fb640c48a474f5e332d309624ad7",
+      "generationRecord": "full-game/terrain/source/12-basic-wall-tops.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      2,
+      2,
+      294,
+      294
+    ],
+    "nativeExtractedSize": [
+      292,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 15.83219178977057
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

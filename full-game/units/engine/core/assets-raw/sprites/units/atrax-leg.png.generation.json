@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax-leg.png",
+  "sha256": "4cf8d2a16b9ca795d10bb5fa34c4f5439340dceb72d214a4cfcfe79272a2ddaf",
+  "width": 36,
+  "height": 26,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-upper.png",
+      "sha256": "05830f802a0c6ecd845a6febb5d3a2438850699193a1445bff72e871a745664e",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      16,
+      16,
+      171,
+      475
+    ],
+    "sourcePivot": [
+      93.5,
+      80.26
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      0,
+      7
+    ],
+    "sourceDimensions": [
+      187,
+      491
+    ],
+    "targetDimensions": [
+      36,
+      26
+    ],
+    "officialAlphaBounds": [
+      0,
+      0,
+      36,
+      26
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      18.0,
+      13.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/atrax-leg.png",
+    "gitBlobSha1": "b4ffb9cb8dedaf11bffb2b0caf89eeca0a451adc",
+    "sha256": "74065467a1bdaa5e614a9956730500d8a086a566d924caa268ba6d8629544b5c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

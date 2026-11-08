@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystal-floor3.png",
+  "sha256": "748a5aaed71bb4cfb88b63458c7ffbdb89491d04585a49ad8d9c9f9dc990045c",
+  "size": [
+    291,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/07-crystal-crater-floors.png",
+      "sha256": "a68085ab9970f7d34ff96a984ab47b5f89554dd779ba682f599707be82952238",
+      "generationRecord": "full-game/terrain/source/07-crystal-crater-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    593,
+    589,
+    885
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

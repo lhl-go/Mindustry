@@ -1,0 +1,55 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/locus-treads.png",
+  "sha256": "7086fbbbe9699be3bc1cc76c94f7323b93c35b128b51fb11d495d4affca2b894",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "paired_tread_canvas_from_native_track_component",
+    "placements": [
+      {
+        "left": [
+          17,
+          10,
+          19,
+          76
+        ],
+        "right": [
+          60,
+          10,
+          19,
+          76
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      }
+    ],
+    "officialTreadRects": [
+      [
+        -31,
+        -38,
+        19,
+        76
+      ]
+    ],
+    "cropAndDownsampleOnly": true,
+    "sourceFrames": 18,
+    "sourceTreadPullOffset": 5
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/locus-treads.png",
+    "sha256": "f230d36e1cf64bd854478f12884ca5201c30f9e810a8b1c7241542cb33c541f3",
+    "gitBlobSha1": "e39c164a76000913934e684765cdd2e6de863895"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Local assembly from traced native tread strip.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/unit-cargo-loader.png",
+  "sha256": "c7fcb8d270ab65d3cf6aa04251bff3d48b553054634cf266ccec1b44ca83b6e6",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      991,
+      632,
+      1313,
+      940
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      322,
+      308
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    354,
+    340
+  ],
+  "anchorPixels": [
+    177.0,
+    170.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

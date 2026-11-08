@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/metal-tiles-5-autotile.png",
+  "sha256": "0700de4c015cb803182a8629f739175314ccb76394f3f1279b512e2f1aec6a57",
+  "createdAt": "2026-10-26T19:56:45.454534+00:00",
+  "kind": "hybrid_texture_composite",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/21-autotile-materials.png",
+      "sha256": "66edebf859594112a1bc9421c5a1fdbc5eca5fb8ed3811eab5afe94571ca003b",
+      "generationRecord": "full-game/terrain/source/21-autotile-materials.png.generation.json",
+      "role": "new AI-painted material"
+    },
+    {
+      "file": "full-game/terrain/reference/core/assets-raw/sprites/blocks/environment/metal-tiles-5-autotile.png",
+      "sha256": "cd77b7e0931d4bd74e51d515a85a6f9c13354ef49d9c91729faba0fd2c888288",
+      "officialPath": "core/assets-raw/sprites/blocks/environment/metal-tiles-5-autotile.png",
+      "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+      "role": "exact existing connection geometry, alpha and normalized structural shading"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_material_downsample_periodic32_then_apply_official_connection_shading",
+    "sourceBBox": [
+      298,
+      298,
+      589,
+      589
+    ],
+    "nativeExtractedSize": [
+      291,
+      291
+    ],
+    "materialTileSize": [
+      32,
+      32
+    ],
+    "geometryUnchanged": true,
+    "officialAlphaByteUnchanged": true,
+    "geometryShadingRange": [
+      0.3,
+      1.0
+    ],
+    "note": "Each path has its own independently painted native swatch. Repetition inside a single128x128 logical atlas is one material skin, not claimed as sixteen new variants."
+  },
+  "artSource": "host_image_material_with_official_geometry",
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "reason": "Official connection shape/shading remains derived upstream GPL repository asset; new material source explicitly separate."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "AI material source actual model/quality undisclosed; official geometry is not AI generated."
+}

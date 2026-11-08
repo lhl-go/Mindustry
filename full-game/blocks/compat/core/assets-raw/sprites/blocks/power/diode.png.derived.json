@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/diode.png",
+  "sourceGitBlob": "51cb7a11227a034905f9bd3f1a6ee027ebb664f1",
+  "sourceSha256": "3fdd0629274ff13811e1f36f351457f2934412f64a9fe173faa8eb260d461f10",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "diode",
+  "blockId": "diode",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode.png",
+  "sha256": "1c500fd186a14d0c961e5511f6001271817d2fc5ff2183f0d959a7969d5e7e37",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode.png",
+  "engineSha256": "1c500fd186a14d0c961e5511f6001271817d2fc5ff2183f0d959a7969d5e7e37",
+  "nativeFile": "full-game/blocks/masters/diode.png",
+  "nativeSha256": "cba3ef3848cd8dc73754aee33358e31d339ecbc820d827afe4f65cd9395aae79",
+  "nativeSize": [
+    199,
+    211
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_diode_fixed_frame_with_baked_direction_removed",
+    "localPixelCleanup": "Existing liquid-source jade crop [150,145,210,205] replaces only the inner octagonal plate; outer painted frame remains unchanged.",
+    "runtimeDirection": "PowerDiode rotates only its independent diode-arrow region",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/diode.png",
+      "sha256": "cba3ef3848cd8dc73754aee33358e31d339ecbc820d827afe4f65cd9395aae79"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/diode.png",
+      "sha256": "3fdd0629274ff13811e1f36f351457f2934412f64a9fe173faa8eb260d461f10"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/diode.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

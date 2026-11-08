@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/check-over.png",
+  "sourceGitBlob": "64cef03a18f38cb1a4a87112cc77b8eb37270bdf",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/check-over.png",
+  "sha256": "09c63a45d3edccdf41ae3b8567f90852be17ed6ab07838a8cdb9d09a94bd7af6",
+  "sourceSize": [
+    32,
+    32
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/controls/check-off.png",
+      "sha256": "e4fba055bee43c79203fb365b6400e062f0468e7e9e52716820f570970df9316",
+      "record": "full-game/ui-system/controls/check-off.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "checkbox_skin_composite",
+    "stateTransform": "over",
+    "checked": false,
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

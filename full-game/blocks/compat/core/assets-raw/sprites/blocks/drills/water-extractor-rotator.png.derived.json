@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/water-extractor-rotator.png",
+  "sourceGitBlob": "ef62105c6473f32d06389f8faee661f10ff1e80f",
+  "sourceSha256": "6e93d8d2ba1a71ea92ff14b84b87e754bf5e54a7aac3613e7ea6bde4f98584a6",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "water-extractor-rotator",
+  "blockId": "water-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-rotator.png",
+  "sha256": "879f94e223882031cf27352d3e43a7eeaad12a49fc91ebfba9598fd831eac3b3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-rotator.png",
+  "engineSha256": "879f94e223882031cf27352d3e43a7eeaad12a49fc91ebfba9598fd831eac3b3",
+  "nativeFile": "full-game/blocks/masters/water-extractor-rotator-part.png",
+  "nativeSha256": "f7f4540ab6eee8ea1fa55e47f3fc13027e3cfbb92bcc2ec28b5f6cd0dfe91b7d",
+  "nativeSize": [
+    274,
+    263
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    60,
+    60
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/water-extractor-rotator-part.png",
+      "sha256": "f7f4540ab6eee8ea1fa55e47f3fc13027e3cfbb92bcc2ec28b5f6cd0dfe91b7d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/water-extractor-rotator.png",
+      "sha256": "6e93d8d2ba1a71ea92ff14b84b87e754bf5e54a7aac3613e7ea6bde4f98584a6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-lake",
+  "file": "full-game/ui-system/sectors/sector-lake.png",
+  "sha256": "8aee171706ea27d4f730d2b436981677d021b07c783b8380f518c45459e412b6",
+  "width": 361,
+  "height": 361,
+  "derivedAt": "2026-10-26T15:54:01.638760+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/09-sectors-03.png",
+    "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+    "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 6,
+    "sourceBox": [
+      49,
+      857,
+      386,
+      1173
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

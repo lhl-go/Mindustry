@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/oxidation-chamber-heat.png",
+  "sourceGitBlob": "1fbb3a69f36f37f7cfe020ac6742ecd085195d8a",
+  "sourceSha256": "b256e61163935d1803151a59a8be09b8def36619db631899f6f7c48cc24ae714",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oxidation-chamber-heat",
+  "blockId": "oxidation-chamber",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-heat.png",
+  "sha256": "dee6d028e36f2617b9210ba5166a44663943d846f61cbb79dea5209300f91b53",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-heat.png",
+  "engineSha256": "dee6d028e36f2617b9210ba5166a44663943d846f61cbb79dea5209300f91b53",
+  "nativeFile": "full-game/blocks/masters/oxidation-chamber.png",
+  "nativeSha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05",
+  "nativeSize": [
+    358,
+    326
+  ],
+  "sourceAlphaBounds": [
+    46,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/oxidation-chamber.png",
+      "sha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber-heat.png",
+      "sha256": "b256e61163935d1803151a59a8be09b8def36619db631899f6f7c48cc24ae714"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

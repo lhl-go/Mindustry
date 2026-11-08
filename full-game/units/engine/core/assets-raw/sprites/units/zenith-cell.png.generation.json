@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/zenith-cell.png",
+  "sha256": "dbe9690e66a16ce2c5556621ed930e7123d0df0477f7adb70b9539bd69339510",
+  "width": 112,
+  "height": 112,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/zenith.png",
+      "sha256": "c03ed3ab73c23ea459ab12a32bea564927ed4352871c2aa9a4178e693848cd77",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/zenith.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "zenith",
+    "baseCanvas": [
+      112,
+      112
+    ],
+    "outputCanvas": [
+      112,
+      112
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/zenith-cell.png",
+    "gitBlobSha1": "852af589049efb015788e893051092770cf11b89",
+    "sha256": "e13967c1b509b75e78c57069d2592e0da52868881a71f14c3f48305b72462c61"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

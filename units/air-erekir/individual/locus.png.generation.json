@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "locus",
+  "file": "units/air-erekir/individual/locus.png",
+  "sha256": "933b81df86c54e3328ee60af10c7bd37e84392a4b377f11a2ec695c95df10c63",
+  "width": 400,
+  "height": 435,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/03-erekir-tanks.png",
+      "sha256": "4c603a146c51110f4162f6e9eb657161f20a45114b630a14e21ee145a8f8360a",
+      "generationRecord": "units/air-erekir/source/03-erekir-tanks.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      560,
+      20,
+      975,
+      460
+    ],
+    "trimBoundsInRegion": [
+      25,
+      25,
+      393,
+      428
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 400,
+    "height": 435
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

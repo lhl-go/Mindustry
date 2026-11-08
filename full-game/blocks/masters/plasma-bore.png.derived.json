@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/plasma-bore.png",
+  "sha256": "6abbfb717061ccae9ddc1e607b0261ce714f4bdf9a8fc88eadfb00e1e60fd610",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1168,
+      395,
+      1382,
+      679
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      214,
+      284
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    246,
+    316
+  ],
+  "anchorPixels": [
+    123.0,
+    158.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

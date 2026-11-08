@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/anthicus.png",
+  "sha256": "b4c4c5cb63d609b009c3208d26ca97d69256dd671de2b189a20d7f6094fa7a0c",
+  "width": 542,
+  "height": 510,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+      "sha256": "111bfbc97e1b656e1c65099165f655ebe9576fb63f11c721cd27ed4d233d2000",
+      "generationRecord": "units/air-erekir-parts/assets/leg-medium-upper.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+      "sha256": "0daf2f3585757c72aa5f579ae70131bf111fd1986f8e67a5ffdd74904a326ccb",
+      "generationRecord": "units/air-erekir-parts/assets/leg-medium-lower.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-medium.png",
+      "sha256": "26422925d2985feb3296351cf5903921d97e0b77bb6efd38f5928cb9a7b61cab",
+      "generationRecord": "units/air-erekir-parts/assets/foot-medium.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir/layers/anthicus-body.png",
+      "sha256": "32fb89c371b6357b308367def1e16419bb7ad223fb5255d972d44aa133d2f6a0",
+      "generationRecord": "units/air-erekir/layers/anthicus-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+      "sha256": "06415c55537275b01f51de7b183990fd4a6bc698e995209bed55191eabc4407e",
+      "generationRecord": "units/air-erekir-parts/assets/anthicus-weapon.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          189.4,
+          137.5
+        ],
+        "scale": 0.4450613733717563,
+        "rotationClockwise": -218.0601882880513,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          126.84,
+          57.6
+        ],
+        "scale": 0.2911209691293555,
+        "rotationClockwise": 44.205502366329256,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          72.44,
+          113.53
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          189.4,
+          255.0
+        ],
+        "scale": 0.3431798942155534,
+        "rotationClockwise": 53.08323944301273,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          126.84,
+          302.0
+        ],
+        "scale": 0.23721323214130297,
+        "rotationClockwise": -238.83531493264877,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          72.44,
+          269.1
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          189.4,
+          372.5
+        ],
+        "scale": 0.4450613733717566,
+        "rotationClockwise": 38.06018828805125,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          126.84,
+          452.4
+        ],
+        "scale": 0.2911209691293558,
+        "rotationClockwise": -224.2055023663292,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          72.44,
+          396.47
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          352.6,
+          137.5
+        ],
+        "scale": 0.44506137337175655,
+        "rotationClockwise": -141.93981171194864,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          415.16,
+          57.6
+        ],
+        "scale": 0.29112096912935503,
+        "rotationClockwise": -44.20550236632918,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          469.56,
+          113.53
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          352.6,
+          255.0
+        ],
+        "scale": 0.3431798942155538,
+        "rotationClockwise": -53.083239443012765,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          415.16,
+          302.0
+        ],
+        "scale": 0.2372132321413024,
+        "rotationClockwise": -121.16468506735131,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          469.56,
+          269.1
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-upper.png",
+        "role": "leg_upper",
+        "region": "leg-medium-upper",
+        "anchorPixels": [
+          352.6,
+          372.5
+        ],
+        "scale": 0.44506137337175694,
+        "rotationClockwise": -38.060188288051314,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          138,
+          69
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+        "role": "leg_lower",
+        "region": "leg-medium-lower",
+        "anchorPixels": [
+          415.16,
+          452.4
+        ],
+        "scale": 0.29112096912935537,
+        "rotationClockwise": -135.7944976336709,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          99,
+          59
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-medium.png",
+        "role": "foot",
+        "region": "foot-medium",
+        "anchorPixels": [
+          469.56,
+          396.47
+        ],
+        "scale": 0.14479087452471484,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          167,
+          285
+        ]
+      },
+      {
+        "file": "units/air-erekir/layers/anthicus-body.png",
+        "role": "body",
+        "region": "anthicus",
+        "anchorPixels": [
+          271,
+          255
+        ],
+        "scale": 0.912621359223301,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          149.0,
+          257.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+        "role": "weapon",
+        "region": "anthicus-weapon",
+        "anchorPixels": [
+          197.56,
+          283.2
+        ],
+        "scale": 0.4436051502145923,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          151,
+          232
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/anthicus-weapon.png",
+        "role": "weapon",
+        "region": "anthicus-weapon",
+        "anchorPixels": [
+          344.44,
+          283.2
+        ],
+        "scale": 0.4436051502145923,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          151,
+          232
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          167.64,
+          151.6
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": 35,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          167.64,
+          203.3
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": 35,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          167.64,
+          255.0
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": 35,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          374.36,
+          151.6
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": -35,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          374.36,
+          203.3
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": -35,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          374.36,
+          255.0
+        ],
+        "scale": 0.06699507389162562,
+        "rotationClockwise": -35,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

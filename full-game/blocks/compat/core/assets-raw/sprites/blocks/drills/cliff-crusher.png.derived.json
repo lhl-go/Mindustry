@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/cliff-crusher.png",
+  "sourceGitBlob": "6429f1c9bcbd78d1290e22a9144f6c558280d2cf",
+  "sourceSha256": "fd956b2fb0175f02011472bdcfca0d4709040ab72976dbcfbcb2c702423a8b7b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cliff-crusher",
+  "blockId": "cliff-crusher",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher.png",
+  "sha256": "c8bcdfe545f8c67120262f3521df181cbc18bde7f61fe9726b1e36585b6efe74",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher.png",
+  "engineSha256": "c8bcdfe545f8c67120262f3521df181cbc18bde7f61fe9726b1e36585b6efe74",
+  "nativeFile": "full-game/blocks/masters/cliff-crusher.png",
+  "nativeSha256": "834f91462404af57b284c2b5baf9f58e56479276b1f78811065fb2349ff6ea78",
+  "nativeSize": [
+    284,
+    317
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cliff-crusher.png",
+      "sha256": "834f91462404af57b284c2b5baf9f58e56479276b1f78811065fb2349ff6ea78"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/cliff-crusher.png",
+      "sha256": "fd956b2fb0175f02011472bdcfca0d4709040ab72976dbcfbcb2c702423a8b7b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-heater-heat.png",
+  "sourceGitBlob": "21a8096ff612db8ba65d3b5d2c9bddaeed98feb4",
+  "sourceSha256": "c3ec0e3070b26c796ecd30bf31e4be5703dc80577bd7988ed84b62305769e231",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-heater-heat",
+  "blockId": "phase-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-heat.png",
+  "sha256": "dedfa50c292c7728124af3bfe5440ff3dfb5c6033479cd7c6cab0b25d30f16fd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-heat.png",
+  "engineSha256": "dedfa50c292c7728124af3bfe5440ff3dfb5c6033479cd7c6cab0b25d30f16fd",
+  "nativeFile": "full-game/blocks/masters/phase-heater.png",
+  "nativeSha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4",
+  "nativeSize": [
+    350,
+    305
+  ],
+  "sourceAlphaBounds": [
+    24,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-heater.png",
+      "sha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-heater-heat.png",
+      "sha256": "c3ec0e3070b26c796ecd30bf31e4be5703dc80577bd7988ed84b62305769e231"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

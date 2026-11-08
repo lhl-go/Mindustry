@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/oxidation-chamber-liquid.png",
+  "sourceGitBlob": "6cad59a0bd66544a0d3d755acc7b31fd2b26a5f8",
+  "sourceSha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oxidation-chamber-liquid",
+  "blockId": "oxidation-chamber",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-liquid.png",
+  "sha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-liquid.png",
+  "engineSha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber-liquid.png",
+  "nativeSha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835",
+  "nativeSize": [
+    96,
+    96
+  ],
+  "sourceAlphaBounds": [
+    13,
+    13,
+    83,
+    83
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber-liquid.png",
+      "sha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber-liquid.png",
+      "sha256": "a3e8153426cc0eecf2fca2c84b2bf897431cc88ed419f2a7b6792031c1a2d835"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

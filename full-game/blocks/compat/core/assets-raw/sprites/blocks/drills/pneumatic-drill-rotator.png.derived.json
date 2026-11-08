@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/pneumatic-drill-rotator.png",
+  "sourceGitBlob": "b9b498872d3b19fc6ae89535956909d011699d1f",
+  "sourceSha256": "28035875bb6e3efedcff1edf8920199dabecf37ba1708a3c90439447f31b3bdb",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "pneumatic-drill-rotator",
+  "blockId": "pneumatic-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-rotator.png",
+  "sha256": "6c9d2c3879a70fbb3fe5162c6090256f79e78129cfb4e38a2c7eaf73b5ed5f15",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-rotator.png",
+  "engineSha256": "6c9d2c3879a70fbb3fe5162c6090256f79e78129cfb4e38a2c7eaf73b5ed5f15",
+  "nativeFile": "full-game/blocks/masters/pneumatic-drill-rotator-part.png",
+  "nativeSha256": "ffed581cdd0d697fbcfdc703a90d079213f714d77d7d79233260b24a02491e3b",
+  "nativeSize": [
+    285,
+    292
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    60,
+    60
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pneumatic-drill-rotator-part.png",
+      "sha256": "ffed581cdd0d697fbcfdc703a90d079213f714d77d7d79233260b24a02491e3b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/pneumatic-drill-rotator.png",
+      "sha256": "28035875bb6e3efedcff1edf8920199dabecf37ba1708a3c90439447f31b3bdb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/pneumatic-drill-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

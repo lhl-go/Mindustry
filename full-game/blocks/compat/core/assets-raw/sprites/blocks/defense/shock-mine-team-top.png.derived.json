@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/shock-mine-team-top.png",
+  "sourceGitBlob": "e215e1a1ea09af8af4dde7d14184ec502a12ba7f",
+  "sourceSha256": "35daeb05d181f6b65886b61ea034c6e531194975410367aa239954c7b9c299a9",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "shock-mine-team-top",
+  "blockId": "shock-mine",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine-team-top.png",
+  "sha256": "5ac8a4ccccb1c47a4cac44ab678ab8cc91abd1722ebe9e9f4cc9ff8536896b50",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine-team-top.png",
+  "engineSha256": "5ac8a4ccccb1c47a4cac44ab678ab8cc91abd1722ebe9e9f4cc9ff8536896b50",
+  "nativeFile": "full-game/blocks/masters/shock-mine.png",
+  "nativeSha256": "ba0c423cb7b8d3cc38b64d200bf0a94507aa5ca897724a93ecba9edf640fe4c3",
+  "nativeSize": [
+    188,
+    186
+  ],
+  "sourceAlphaBounds": [
+    11,
+    11,
+    21,
+    21
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "jade material",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shock-mine.png",
+      "sha256": "ba0c423cb7b8d3cc38b64d200bf0a94507aa5ca897724a93ecba9edf640fe4c3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/shock-mine-team-top.png",
+      "sha256": "35daeb05d181f6b65886b61ea034c6e531194975410367aa239954c7b9c299a9"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine-team-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine-team-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/shock-mine.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

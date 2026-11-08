@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/incinerator.png",
+  "sourceGitBlob": "839acac93f7240e68dd3b15466c41fe92b92ecae",
+  "sourceSha256": "2879c9bb7366536d1a5b15dbc9385579e8d2dd06484a65610ad35e6dce3e1971",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "incinerator",
+  "blockId": "incinerator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/incinerator.png",
+  "sha256": "bf20286c5611c19a6af34eae40c3609245d6677fdd0fa84e393f15cb5f041a53",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/incinerator.png",
+  "engineSha256": "bf20286c5611c19a6af34eae40c3609245d6677fdd0fa84e393f15cb5f041a53",
+  "nativeFile": "full-game/blocks/masters/incinerator.png",
+  "nativeSha256": "8df912daa416c9ddca387e5c51b6f31966db017fb26226e3e4a8bbcbfee91242",
+  "nativeSize": [
+    362,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/incinerator.png",
+      "sha256": "8df912daa416c9ddca387e5c51b6f31966db017fb26226e3e4a8bbcbfee91242"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/incinerator.png",
+      "sha256": "2879c9bb7366536d1a5b15dbc9385579e8d2dd06484a65610ad35e6dce3e1971"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/incinerator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

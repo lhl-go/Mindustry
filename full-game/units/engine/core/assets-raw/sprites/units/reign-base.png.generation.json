@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/reign-base.png",
+  "sha256": "3cc351158c8de304771b56b1514263e1d17bfc2c12ff349c8c8be080e85db378",
+  "width": 152,
+  "height": 124,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+      "generationRecord": "full-game/units/parts/mech-base-heavy.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      604,
+      431
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      24
+    ],
+    "sourceDimensions": [
+      620,
+      447
+    ],
+    "targetDimensions": [
+      152,
+      124
+    ],
+    "officialAlphaBounds": [
+      5,
+      24,
+      147,
+      103
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      76.0,
+      62.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/reign-base.png",
+    "gitBlobSha1": "6d47effdc9d7a45b3c163735364856b13479666f",
+    "sha256": "ba51330fc7876dfa818525ceaff49568aaeecae2891ed2963d799044f1df13b8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

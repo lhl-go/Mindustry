@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/spore-press.png",
+  "sha256": "ce1e7b8356906454015ae88addf8fdef9033c95ca25f641f6cf8884e63cd1076",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      785,
+      15,
+      1145,
+      347
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      360,
+      332
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    392,
+    364
+  ],
+  "anchorPixels": [
+    196.0,
+    182.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

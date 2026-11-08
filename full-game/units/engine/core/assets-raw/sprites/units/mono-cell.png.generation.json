@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mono-cell.png",
+  "sha256": "d694536b5855dedcc38233d4a6a8f569432b1c000428f1d24a68f8eb3723f9b6",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/mono.png",
+      "sha256": "3c8ddbb7fcb53f17c146645b9208062e3b5b179c2cb2b5423b306eb76273ca07",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/mono.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "mono",
+    "baseCanvas": [
+      48,
+      48
+    ],
+    "outputCanvas": [
+      48,
+      48
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mono-cell.png",
+    "gitBlobSha1": "03c87d5e292a8d61aa1effe27edb0e7a36d6a15d",
+    "sha256": "0fd1aaca88287cac7e0826cdab9ae53e4af6df5767a35ffd24ca5a395e2ee87d"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

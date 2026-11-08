@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-26T08:22:58.417Z",
+  "returnedAt": "2026-10-26T08:24:39.259Z",
+  "submittedArguments": {
+    "prompt": "Use case: stylized-concept\nCreate a true transparent top-down projectile asset sheet for four distinct fantasy mechanical missiles from Mindustry. Exactly four groups in a spacious 2 x 2 layout. Requested 2048 x 2048 square canvas, genuine RGBA transparent background. No labels, text, checkerboard, frame, ground or shadows.\nPRIMARY style references: attached mail UI and team UI. Transfer their refined Daoist chibi hand-painted jade-green, ivory ceramic and warm gold material style to compact magical flying shuttle missiles. Not a UI. These are ornate mechanical talisman missiles, with clear streamlined silhouettes, precise fine painted details and rounded volume; never photorealistic ordnance.\nCritical orientation: strict orthographic TOP-DOWN dorsal view; all pointed noses face exactly UP. Bilaterally symmetrical, soft overhead light, no perspective or angled flight pose. Every whole group has ample transparent margin, no crop and no overlap between quadrants. No trails, fire, exhaust, glow aura, particles or movement streaks; engines and effect sockets are physical parts only.\nTOP LEFT: anthicus-missile. Small slender jade-and-ivory dart, blue crystal point at top, compact two swept shoulder fins, a narrow blue crystal stripe along spine, tiny bronze tail nozzle. Agile simple silhouette. Blue accents consistent with tech-blue effect identity.\nTOP RIGHT: quell-missile. A shorter broad purple-cored talisman shuttle, ivory outer shell, jade and warm-gold shoulder frame, two rounded crescent side fins, purple oval crystal on spine, compact rear engine. Clearly different from the blue dart, no weapons mounted.\nBOTTOM LEFT: disrupt-missile group. Larger dark-jade and ivory elongated suppression shuttle with a prominent purple central crystal, a broad armored nose and visible small gold hinge sockets at lower sides. IMPORTANT: its TWO rear side fins are separate parts: central missile BODY has no attached fins; place one matching left fin isolated to its left, one matching right fin isolated to its right, each with a small hinge root and its long axis facing up, separated by a generous clear gap. These three pieces collectively occupy only bottom-left quadrant and never touch each other. Fins are mirror-matched purple-and-gold thin swept wings. Do not repeat a combined missile elsewhere.\nBOTTOM RIGHT: scathe-missile. Heavy long talisman rocket with rounded ivory capsule body, jade armored spine, cinnabar-red crystal nose and red accents, thicker gold structural rings, four compact rear stabilizers and one large rear nozzle. Strong heavy silhouette, distinct from all other three.\nNo branding, no numbers, no UI panels, no human faces, no environment, no cast shadows or detached decorative specks. Preserve sharp complete outlines, consistent high-quality hand-painted finish and readability at small size. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "resultMetadata": {
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-271f1a4a-8f01-42bd-8ddb-c2060d71fffa.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "imagePayload": "Data URL omitted; output copied byte-for-byte."
+  },
+  "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-271f1a4a-8f01-42bd-8ddb-c2060d71fffa.png",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露型号/质量。"
+}

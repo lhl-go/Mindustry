@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/03-erekir-materials.png",
+      "sha256": "5cd3897c243fa86cf4722313cb8b736580bf9811e9e24bdc04f9af916b9933d1",
+      "generationRecord": "full-game/items-fx/source/03-erekir-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      38,
+      50,
+      507,
+      480
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-beryllium.png",
+  "sha256": "aef4394bc3b5967d630c9b213cb8aaf6a62cbe97ccabac30e970ccddacd8599b",
+  "width": 501,
+  "height": 462,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.912677+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/blast-drill-rim.png",
+  "sourceGitBlob": "b71305c8567e5fe8d90183c771339855341bde55",
+  "sourceSha256": "ee8b12e176323a2219906967112c6349506bdc65ab1301e45117e8f59d9d5828",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "blast-drill-rim",
+  "blockId": "blast-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rim.png",
+  "sha256": "9e7714532596d875832fde179b0274d7ea1487cb82adf8940fa8476093c196c6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rim.png",
+  "engineSha256": "9e7714532596d875832fde179b0274d7ea1487cb82adf8940fa8476093c196c6",
+  "nativeFile": "full-game/blocks/masters/blast-drill.png",
+  "nativeSha256": "c672ca4eeb7356d71c3492293b681ef38b0401077f9543532f01cc52253dd56e",
+  "nativeSize": [
+    348,
+    341
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/blast-drill.png",
+      "sha256": "c672ca4eeb7356d71c3492293b681ef38b0401077f9543532f01cc52253dd56e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/blast-drill-rim.png",
+      "sha256": "ee8b12e176323a2219906967112c6349506bdc65ab1301e45117e8f59d9d5828"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/blast-drill-rim.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

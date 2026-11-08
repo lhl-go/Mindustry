@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-crucible-glow.png",
+  "sourceGitBlob": "9cbb441b7ebffd568652c9e1e692e1fdfb326911",
+  "sourceSha256": "d64d280294748f81cfba3b0c03d611475c5773f9fd0dfbcf1000acfb42a9008a",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-crucible-glow",
+  "blockId": "surge-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-glow.png",
+  "sha256": "61c5929da29aadbcbb6bd6af8958e8fbbac8b19d403bfa1343d17ab7554bfe59",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-glow.png",
+  "engineSha256": "61c5929da29aadbcbb6bd6af8958e8fbbac8b19d403bfa1343d17ab7554bfe59",
+  "nativeFile": "full-game/blocks/masters/surge-crucible.png",
+  "nativeSha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44",
+  "nativeSize": [
+    355,
+    358
+  ],
+  "sourceAlphaBounds": [
+    29,
+    29,
+    67,
+    67
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-crucible.png",
+      "sha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-glow.png",
+      "sha256": "d64d280294748f81cfba3b0c03d611475c5773f9fd0dfbcf1000acfb42a9008a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

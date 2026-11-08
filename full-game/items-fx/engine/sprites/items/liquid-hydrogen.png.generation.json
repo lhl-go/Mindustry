@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-hydrogen.png",
+  "sha256": "589b83d71f41ee6998cb58db2bc8c5a3094b2b639eb22956d0b34f36f45d7ead",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-hydrogen.png",
+      "sha256": "601cc6e315186ffd53fb35b47396f4898166a53eda3ce9b9fbdee4b87bb8b8c3",
+      "generationRecord": "full-game/items-fx/assets/liquid-hydrogen.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "mega",
+  "file": "units/air-erekir/individual/mega.png",
+  "sha256": "c22cf1a73dd998f526d534585c2e972edf77c910e0606fcbc98821ee0282de3f",
+  "width": 606,
+  "height": 469,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/02-serpulo-air-support.png",
+      "sha256": "d8b683ad5687d99ef0635afba0ea014bc641eb3e63f12db94fc2be517e4c2b47",
+      "generationRecord": "units/air-erekir/source/02-serpulo-air-support.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      930,
+      0,
+      1536,
+      465
+    ],
+    "trimBoundsInRegion": [
+      14,
+      17,
+      588,
+      454
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 606,
+    "height": 469
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

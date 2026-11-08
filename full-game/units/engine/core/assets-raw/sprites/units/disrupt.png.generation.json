@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/disrupt.png",
+  "sha256": "36a7aa1638d2bca1086234e10fd555179dd466cfb7b75139d4c2ae0b706ccdd7",
+  "width": 243,
+  "height": 243,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/disrupt-body.png",
+      "sha256": "272d002067d65e09722ae73e55c5a1dad5ca35f3c5843d18a22bcdefe240984e",
+      "generationRecord": "units/air-erekir/layers/disrupt-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      973,
+      796
+    ],
+    "sourcePivot": [
+      494.5,
+      406.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      26
+    ],
+    "sourceDimensions": [
+      989,
+      812
+    ],
+    "targetDimensions": [
+      243,
+      243
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      239,
+      239
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      121.5,
+      121.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/disrupt.png",
+    "gitBlobSha1": "660ffb47673e3b3bc36b20583e5b616ea2ce69c4",
+    "sha256": "a521e3b9d26829c435f02ce0c2524cbb6103527038be273ff2ffa9fab2fb06af"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

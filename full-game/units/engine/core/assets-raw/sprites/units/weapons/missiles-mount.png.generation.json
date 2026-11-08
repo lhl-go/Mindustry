@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/missiles-mount.png",
+  "sha256": "b2dfd9eed4ea14a824c58ae719228e9579dc7ed3d4bf87db5f3af705bde0ef2c",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/missiles-mount.png",
+      "sha256": "c78ea6ee4766675a14b7a34272692c1855c21aaa1f5d1fa39378f97d0ffdcd85",
+      "generationRecord": "units/air-erekir-parts/assets/missiles-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      386,
+      442
+    ],
+    "sourcePivot": [
+      209,
+      323
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      10,
+      1
+    ],
+    "sourceDimensions": [
+      418,
+      474
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      16,
+      12,
+      32,
+      39
+    ],
+    "scale": 0.07903780068728522,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/missiles-mount.png",
+    "gitBlobSha1": "3503be2fb7dd3072b8f8b28ddf1b9d60f683598d",
+    "sha256": "b117f24da8ed2b76e7ebea79151dd96d9afc84ea5b95f8d0cf95a6805faf3be5"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

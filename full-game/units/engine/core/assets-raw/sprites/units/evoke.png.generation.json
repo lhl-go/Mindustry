@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/evoke.png",
+  "sha256": "c8cfecb81f7c711670609f43820a1dc2fad906c93c93564c11a443fcb76c4a36",
+  "width": 56,
+  "height": 54,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/evoke.png",
+      "sha256": "39a5aaee2082489850d1162cab417a61ab1255521eaae4234d0bb7cc3706f8e4",
+      "generationRecord": "units/air-erekir/individual/evoke.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      448,
+      496
+    ],
+    "sourcePivot": [
+      232.0,
+      256.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      464,
+      512
+    ],
+    "targetDimensions": [
+      56,
+      54
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      52,
+      50
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.0,
+      27.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/evoke.png",
+    "gitBlobSha1": "11e8f689faa38852fdd671a18c9594cccbeedc46",
+    "sha256": "671bc3758cef88dd267b47ea594f22dd081bb6368237a359904a9a0f1849e5c0"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

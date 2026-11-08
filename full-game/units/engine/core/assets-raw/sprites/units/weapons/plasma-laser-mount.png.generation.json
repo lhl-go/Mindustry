@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+  "sha256": "5acfe58555d876cbd92f664bf58fcbbd060b47be987bc3cd89db1299478d2324",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-plasma-laser.png",
+      "sha256": "1ef8385623078cb9220fe18f0d66cd63b8d982cce0c41a2d0353b2bf9b771e6d",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      249,
+      333
+    ],
+    "sourcePivot": [
+      132.5,
+      253.75
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      17,
+      1
+    ],
+    "sourceDimensions": [
+      265,
+      349
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      7,
+      4,
+      57,
+      60
+    ],
+    "scale": 0.13038906414300735,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/plasma-laser-mount.png",
+    "gitBlobSha1": "8a7ac5a27ba6c220330f00c049314aa4fd1afa3f",
+    "sha256": "e9dbe457b4598db107e9f1b4beba236e1b683389291ba348e4c89991bd7dd0ef"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

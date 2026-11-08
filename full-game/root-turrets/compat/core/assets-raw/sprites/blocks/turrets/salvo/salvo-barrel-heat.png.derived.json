@@ -1,0 +1,35 @@
+{
+  "region": "salvo-barrel-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel-heat.png",
+  "sha256": "0c4500bd1a123ac3413f94f67221cad00f09ce20f2732596bc2e6a91740d0f27",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.491694+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/salvo/salvo-barrel-heat.png",
+      "sha256": "5a55ca2261f2b298c757c663cd6bb48fd4683663742ec12c88a870183711b19a",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel.png",
+      "sha256": "2d9e68d3f5a34283754263e9fa687cd6ce672d9a576670f3af90c923282674bb",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-barrel.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "salvo-barrel"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 496
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

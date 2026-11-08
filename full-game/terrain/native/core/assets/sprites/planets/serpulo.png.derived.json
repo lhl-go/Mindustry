@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets/sprites/planets/serpulo.png",
+  "sha256": "e87895f581f21838cc769069e78739d81bc1e530d6b09482f7d0da6c4ddd6e59",
+  "size": [
+    791,
+    770
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/23-planet-icons.png",
+      "sha256": "d08bd072393c6e2ccda6f6ead92e0bfaf1ebc01800886c8de80bb8ac1abee61b",
+      "generationRecord": "full-game/terrain/source/23-planet-icons.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    947,
+    52,
+    1738,
+    822
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

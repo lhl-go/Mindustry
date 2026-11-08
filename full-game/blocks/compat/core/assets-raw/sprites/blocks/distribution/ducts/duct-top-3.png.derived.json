@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/duct-top-3.png",
+  "sourceGitBlob": "063abef996d4208507f8436aaaa896f95757677e",
+  "sourceSha256": "f8a5f193f9fb577be800d4ff9c202f1c346a583915fd0c1360984e33235c5470",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "duct-top-3",
+  "blockId": "duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-top-3.png",
+  "sha256": "74c6c44d39a5281d3d7fdc347f523280af0c232156901877dc761826690d86d5",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-top-3.png",
+  "engineSha256": "74c6c44d39a5281d3d7fdc347f523280af0c232156901877dc761826690d86d5",
+  "nativeFile": "full-game/blocks/masters/duct-shape-3.png",
+  "nativeSha256": "7cd6de5fd2494627f6ae68587b963bc3edb14e05d502cedcf74d670f7cf2698f",
+  "nativeSize": [
+    319,
+    292
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 3,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/duct-shape-3.png",
+      "sha256": "7cd6de5fd2494627f6ae68587b963bc3edb14e05d502cedcf74d670f7cf2698f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/duct-top-3.png",
+      "sha256": "f8a5f193f9fb577be800d4ff9c202f1c346a583915fd0c1360984e33235c5470"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-top-3.png.derived.json"
+}

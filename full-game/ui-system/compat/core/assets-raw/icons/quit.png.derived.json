@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/quit.png",
+  "sourceGitBlob": "26a9634945837c2b3c0982abd993a639bd9b3156",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/quit.png",
+  "sha256": "c8e73c7e7e1caa179c4a556590b36a27e27e413b3de045f6ad28f1803b47574a",
+  "sourceSize": [
+    14,
+    14
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/quit.png",
+      "sha256": "959526246f7316b3100207bf5acb1a1fee268934ca3cb4097a32fde86a6f7b71",
+      "record": "full-game/ui-system/icons/quit.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "quit",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

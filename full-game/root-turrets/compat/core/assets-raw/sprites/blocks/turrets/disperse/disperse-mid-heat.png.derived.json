@@ -1,0 +1,35 @@
+{
+  "region": "disperse-mid-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-mid-heat.png",
+  "sha256": "a490ae85946a81cbd96f51e2ca02a398bdb88b30e5d1184f02109bd18054ca67",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.435957+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/disperse/disperse-mid-heat.png",
+      "sha256": "5bec82e968bc52781f6789caaf05bcb96389ca68aa703323e5dd779ace444d2b",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-mid.png",
+      "sha256": "43141cf5c3f57b29d183e6df9f419239a323107f3c20dc372f716c730fb97892",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "disperse-mid"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 3669
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

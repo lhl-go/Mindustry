@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/chat.png",
+  "sourceGitBlob": "85f52fa41c226888160175426b67b47b43712326",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/chat.png",
+  "sha256": "174460e0eb851427478a84641f78677bbdb3a7acb68d7430b30965bf2a78582a",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/chat.png",
+      "sha256": "0575aa90101cd941214a7fe96eb6718702d5ee42a69d0774a52e371d769881f6",
+      "record": "full-game/ui-system/icons/chat.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "chat",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

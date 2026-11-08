@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/navanax-cell.png",
+  "sha256": "5834352f080f933c9a2a6e2e2c9e9a9ce20d5a03f6ec057d0242af5ddbf0a0dd",
+  "width": 280,
+  "height": 400,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/navanax.png",
+      "sha256": "32a5f45789d612e83d8c2c0fb88da2f9cf7ad043bd58cb5648655bc482279083",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/navanax.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "navanax",
+    "baseCanvas": [
+      258,
+      366
+    ],
+    "outputCanvas": [
+      280,
+      400
+    ],
+    "centerRegistrationOffset": [
+      11,
+      17
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/navanax-cell.png",
+    "gitBlobSha1": "79e2b847b77ff878ce3043bd7ad5318a5cbbcf57",
+    "sha256": "5f261fdde34086bf0dc4270981abf5080e557849063827abfe0b659d4638e964"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

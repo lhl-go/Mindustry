@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/beam-weapon.png",
+  "sha256": "ff2fc8dcaa60db52c2036ae9ab46254d0e4dfa4463b6eb7c35edc3a056af3e01",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-beam-laser.png",
+      "sha256": "3ef2e711bcb5f4b49fddf6866de6dd0cb28b57c2d5039e511c38daa4841b722e",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-beam-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      219,
+      339
+    ],
+    "sourcePivot": [
+      117.5,
+      264.71
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      24,
+      1
+    ],
+    "sourceDimensions": [
+      235,
+      355
+    ],
+    "targetDimensions": [
+      80,
+      80
+    ],
+    "officialAlphaBounds": [
+      28,
+      11,
+      53,
+      68
+    ],
+    "scale": 0.15680913513730851,
+    "engineAnchorPx": [
+      40.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/beam-weapon.png",
+    "gitBlobSha1": "d4784aa69f1500fe6f41f4cd6c21d410b080ab7a",
+    "sha256": "59605f600cc55851f66766136fbaf81949764e2db4ee99f87bce6908d69603e9"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

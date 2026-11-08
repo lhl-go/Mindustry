@@ -1,0 +1,73 @@
+{
+  "region": "malign-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-preview.png",
+  "sha256": "64d2f4609c0f8149df3eb968b3a8e58d50b24cf1616e85f7d18c0517a1d6da76",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.596543+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-l.png",
+      "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-r.png",
+      "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-l.png",
+      "sha256": "01e457b87447eb5f1ba6c2c649e4809e39453951838b161522164fd4934fda5d",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-r.png",
+      "sha256": "01e457b87447eb5f1ba6c2c649e4809e39453951838b161522164fd4934fda5d",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-end.png",
+      "sha256": "d1da06c910eaba6017d57ef99679608974eb8d7c72fa9dae1f1de216cf8d499c",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-end.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-front-l.png",
+      "sha256": "6a306479ddb4996f4b83e5d4c332170c71dc50f1f45c486a718762da8ac0e2ce",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-front-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-front-r.png",
+      "sha256": "6a306479ddb4996f4b83e5d4c332170c71dc50f1f45c486a718762da8ac0e2ce",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-front-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-main.png",
+      "sha256": "a545a61deb580e388d920ac0ef5ca72fd2bf3530aa4c417862cec50adcb7b0cd",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-main.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mid.png",
+      "sha256": "bf2b5ce06b07c7aba53878b2952eea54bb2e67edc1339ec2e04c9552d0ae6ff5",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mid.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth.png",
+      "sha256": "662ec164def0f8dfb69370861be93e9c68a99a958300e094a28ec2dba905bd8b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

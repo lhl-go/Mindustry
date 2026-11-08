@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/large-payload-mass-driver.png",
+  "sha256": "8089081fc1d5d4bdfaab8832674abf24e6e05a48d97025e1c3b04d5ac007343d",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      432,
+      294,
+      684,
+      528
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      252,
+      234
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    284,
+    266
+  ],
+  "anchorPixels": [
+    142.0,
+    133.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

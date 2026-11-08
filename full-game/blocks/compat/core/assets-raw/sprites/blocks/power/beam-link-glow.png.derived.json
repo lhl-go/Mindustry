@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/beam-link-glow.png",
+  "sourceGitBlob": "6777c9a2228e7de22882473e67b918847f673e2d",
+  "sourceSha256": "13042616a40be47e670a4d7a1a1caa56369bf96ccaeee8ccb30013e73cd74067",
+  "sourceDimensions": [
+    120,
+    120
+  ],
+  "region": "beam-link-glow",
+  "blockId": "beam-link",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link-glow.png",
+  "sha256": "11de910bf16e9edada47cee7b892221c4b262ad2c4e07aa08f2d6c44a47ffac8",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link-glow.png",
+  "engineSha256": "11de910bf16e9edada47cee7b892221c4b262ad2c4e07aa08f2d6c44a47ffac8",
+  "nativeFile": "full-game/blocks/masters/beam-link.png",
+  "nativeSha256": "612e05cb6766ccb8365d97010cba4e4c1cc3e8dbe2597ed7c5a2357c2e7a4eba",
+  "nativeSize": [
+    146,
+    316
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    120,
+    120
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/beam-link.png",
+      "sha256": "612e05cb6766ccb8365d97010cba4e4c1cc3e8dbe2597ed7c5a2357c2e7a4eba"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/beam-link-glow.png",
+      "sha256": "13042616a40be47e670a4d7a1a1caa56369bf96ccaeee8ccb30013e73cd74067"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-link-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

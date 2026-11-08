@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate-cell.png",
+  "sha256": "40ac3b0128a508ba53c76eee51c5bf040a3c4c01d52abaa3f54057c9a7659f51",
+  "width": 140,
+  "height": 130,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/obviate.png",
+      "sha256": "b15ed845771388769da637ca85d4949f47fc3bb3bee70459a0ba8c1536c0dd1d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/obviate.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "obviate",
+    "baseCanvas": [
+      140,
+      130
+    ],
+    "outputCanvas": [
+      140,
+      130
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/obviate-cell.png",
+    "gitBlobSha1": "9c807c22dcf9e12ce6f19db9fcef980a63f03a86",
+    "sha256": "a158cc4dc1e145d234b89413cc5676c4699da5fb5ad140f060176645ba930fc8"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

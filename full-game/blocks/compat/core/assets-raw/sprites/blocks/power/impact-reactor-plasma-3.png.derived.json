@@ -1,0 +1,54 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/impact-reactor-plasma-3.png",
+  "sourceGitBlob": "21ee665e256a3f757716cde2db93ba5fdfd086de",
+  "sourceSha256": "ce46cb5afe422c1a019528e26630dbdba1d4d1aa51b1f25fed0db2d9145e87d2",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-reactor-plasma-3",
+  "blockId": "impact-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-plasma-3.png",
+  "sha256": "9bb001172888517809bf3e3b424fa592ca9629604250fa70c05eeff89fd2620e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-plasma-3.png",
+  "engineSha256": "9bb001172888517809bf3e3b424fa592ca9629604250fa70c05eeff89fd2620e",
+  "nativeFile": "full-game/blocks/masters/impact-reactor-plasma-part.png",
+  "nativeSha256": "245b139bb7339b65a655deba16d61918655703a6a7d08253ec24381a17360510",
+  "nativeSize": [
+    348,
+    337
+  ],
+  "sourceAlphaBounds": [
+    20,
+    20,
+    100,
+    108
+  ],
+  "operation": {
+    "kind": "independent_painted_plasma_ring_with_layer_specific_alpha",
+    "layerIndex": 3,
+    "localRotationDegrees": 123,
+    "simultaneouslyDrawnLayers": 4,
+    "notAnimationFrames": true,
+    "originalAlphaModulatesPaintedRing": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/impact-reactor-plasma-part.png",
+      "sha256": "245b139bb7339b65a655deba16d61918655703a6a7d08253ec24381a17360510"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/impact-reactor-plasma-3.png",
+      "sha256": "ce46cb5afe422c1a019528e26630dbdba1d4d1aa51b1f25fed0db2d9145e87d2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-plasma-3.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

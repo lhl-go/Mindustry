@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/differential-generator.png",
+  "sourceGitBlob": "12e5e820da827c3a06ad3cd02b56606c75c8e5d9",
+  "sourceSha256": "739b943a0daac5f657759c9d942a6a25ab1abaf758be743133daebd41074b5b3",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "differential-generator",
+  "blockId": "differential-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator.png",
+  "sha256": "d0d29a3da5a936f242f16b04a2ebd7ff6fc0ec78ba4341fac59df897cd621de3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator.png",
+  "engineSha256": "d0d29a3da5a936f242f16b04a2ebd7ff6fc0ec78ba4341fac59df897cd621de3",
+  "nativeFile": "full-game/blocks/masters/differential-generator.png",
+  "nativeSha256": "b6d2d67d2b187b3d9993e3a358926ad595a3a9d0841b78fbc461dfcfa9ff56d5",
+  "nativeSize": [
+    319,
+    311
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/differential-generator.png",
+      "sha256": "b6d2d67d2b187b3d9993e3a358926ad595a3a9d0841b78fbc461dfcfa9ff56d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/differential-generator.png",
+      "sha256": "739b943a0daac5f657759c9d942a6a25ab1abaf758be743133daebd41074b5b3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/differential-generator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+  "sha256": "c712ced9ae2c6279bbb6f81714a56f2f25737fe819229213c64800ac0c419295",
+  "width": 292,
+  "height": 278,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/layers/latum-segment1.png",
+      "sha256": "4b9840aa1b83e01ec98f20e498883e15400df08247f80e6b183dc28b49d3ed4a",
+      "generationRecord": "units/special/layers/latum-segment1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      63,
+      607,
+      516,
+      845
+    ],
+    "sourcePivot": [
+      289.5,
+      585.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      64
+    ],
+    "sourceDimensions": [
+      579,
+      1170
+    ],
+    "targetDimensions": [
+      292,
+      278
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      288,
+      274
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      146.0,
+      139.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/neoplasm/latum-segment1.png",
+    "gitBlobSha1": "9764ace4f03716d99ef2b6c4de2ce7f742d9838b",
+    "sha256": "9f4da664eb990d896e6d93d007d2fec23b2ac2bd326f5b7c096b9e59325a1ec3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

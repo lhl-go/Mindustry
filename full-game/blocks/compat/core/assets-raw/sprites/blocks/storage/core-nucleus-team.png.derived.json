@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-nucleus-team.png",
+  "sourceGitBlob": "b63e860085d6ffde1e144c1836e6515d6e0d94db",
+  "sourceSha256": "dc919d043f6db4c7a17ac336255038d1579ce6b972f24b3111e5b414baf9665e",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "core-nucleus-team",
+  "blockId": "core-nucleus",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-team.png",
+  "sha256": "9909ff6c042f3162fb293c9814cfeac7f320f92537f47c6569926d92e971f159",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-team.png",
+  "engineSha256": "9909ff6c042f3162fb293c9814cfeac7f320f92537f47c6569926d92e971f159",
+  "nativeFile": "full-game/blocks/masters/core-nucleus.png",
+  "nativeSha256": "1cacd62b5e79877290eb09b144a12632a5ae61913ad3f60275446217d14128e5",
+  "nativeSize": [
+    390,
+    370
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-nucleus.png",
+      "sha256": "1cacd62b5e79877290eb09b144a12632a5ae61913ad3f60275446217d14128e5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-nucleus-team.png",
+      "sha256": "dc919d043f6db4c7a17ac336255038d1579ce6b972f24b3111e5b414baf9665e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-team.png.derived.json"
+}

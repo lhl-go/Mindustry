@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-out-5.png",
+  "sourceGitBlob": "b82842d04339012b280c4391a35d89624d3c4883",
+  "sourceSha256": "b0e1ad36a048b863bcb4ac4f2162108ccb394e34ff8be716d1493279beea3e60",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "factory-out-5",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5.png",
+  "sha256": "eb6716e76a0fda490bb8a5b71d5c97da55cdf9b2c02e2fbbc08f4082b11af8f1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5.png",
+  "engineSha256": "eb6716e76a0fda490bb8a5b71d5c97da55cdf9b2c02e2fbbc08f4082b11af8f1",
+  "nativeFile": "full-game/blocks/masters/large-constructor.png",
+  "nativeSha256": "1bd4b19364a3e39ba738c351b5d4d77652151568e929efaa8a74d17410ee5850",
+  "nativeSize": [
+    375,
+    317
+  ],
+  "sourceAlphaBounds": [
+    101,
+    7,
+    160,
+    153
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-out-5",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-constructor.png",
+      "sha256": "1bd4b19364a3e39ba738c351b5d4d77652151568e929efaa8a74d17410ee5850"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-out-5.png",
+      "sha256": "b0e1ad36a048b863bcb4ac4f2162108ccb394e34ff8be716d1493279beea3e60"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-5.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/large-constructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

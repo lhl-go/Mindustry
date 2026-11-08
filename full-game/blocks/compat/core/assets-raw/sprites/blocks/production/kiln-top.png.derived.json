@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/kiln-top.png",
+  "sourceGitBlob": "54b786e63a4e42cd08aa9b733fa0e81ec5e78e49",
+  "sourceSha256": "d01924755c8727ee36e696657e578266ce47165a4edaec1f46a2728d62ca5059",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "kiln-top",
+  "blockId": "kiln",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln-top.png",
+  "sha256": "bc2647578522d6934a53a190291834c2fc287eacccbe21032990c1e52954c155",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln-top.png",
+  "engineSha256": "bc2647578522d6934a53a190291834c2fc287eacccbe21032990c1e52954c155",
+  "nativeFile": "full-game/blocks/masters/kiln.png",
+  "nativeSha256": "a2af948027c930ef010e8d6ebf4863399ad84a006bf21750aacc7bb936363650",
+  "nativeSize": [
+    340,
+    328
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    40,
+    40
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/kiln.png",
+      "sha256": "a2af948027c930ef010e8d6ebf4863399ad84a006bf21750aacc7bb936363650"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/kiln-top.png",
+      "sha256": "d01924755c8727ee36e696657e578266ce47165a4edaec1f46a2728d62ca5059"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

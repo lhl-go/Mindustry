@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/20-white-trees.png",
+  "sha256": "8a513720bd47bb6e81879cd91325b7e18e375a70ca6b261f3d6a0c20a21074ba",
+  "generatedAt": "2026-10-26 19:36:47 UTC",
+  "startedAt": "2026-10-26 19:35:31 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    1536
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite pair. Create TWO new Mindustry WHITE TREE environment sprites in refined bright Daoist Q hand-painted style. First2 attached images guide visual finish only; last2 are official functional silhouette references for white-tree and white-tree-dead, preserve their unmistakable TOP-DOWN RADIAL branching structure but repaint with smooth detailed ivory-white bark and subtle icy blue-gray shading. No UI, labels, frames, people, symbols, ground, cast shadows or landscape. Requested3072×1536 landscape, exactly2equal square cells side by side, fully transparent background. Each complete tree has15percent transparent padding inside its cell; no branch clipped, no crossing between cells. STRICT VERTICAL TOP-DOWN ORTHOGRAPHIC VIEW: trunk center is at the center of each circular crown and branches radiate outward in all directions along the map plane. NO upright side-view tree or horizon. Fine broad readable curling branch shapes, not a flat icon, elegant clean hand-painted botanical bark detail, consistent overhead light.\nLEFT: LIVING WHITE TREE. Ivory-white smooth branching central hub with8-10 main curling branches subdividing into slender twigs, scattered small lavender-violet round buds or leaves only at selected tips (sparse foliage, most bark visible). Organic asymmetric radial silhouette, soft jade-gray/blue shadow on bark.\nRIGHT: DEAD WHITE TREE. A separately drawn radial ivory-white skeletal tree with8-10 more broken, thick uneven branch stubs and dry thin twigs, no buds/leaves. Different branch geometry from left, same species and material. Slight pale gray-beige weathering without dark mold.\nBoth whole circular spread forms are large, complete, sharp clean alpha between branches. Bright refined cute game environment painting, no random detached pixels. Do not copy one sprite to make the second.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets-raw\\sprites\\blocks\\props\\white-tree.png",
+      "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets-raw\\sprites\\blocks\\props\\white-tree-dead.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/20-white-trees.txt",
+  "promptSha256": "a608ab5ffc45c41c78731704b13ccc4babe8dc9e87120cd7343b02ecbe80204f",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets-raw\\sprites\\blocks\\props\\white-tree.png",
+      "sha256": "dd9e926fceed4f64c555c1e4f3a5c0f6e5c8ff82bb27680f081009dac87fa083",
+      "purpose": "official source functional silhouette/color reference only; original art style not adopted",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets-raw\\sprites\\blocks\\props\\white-tree-dead.png",
+      "sha256": "e064969fb36e5fa8dad28f898a4b895d1164839888e3d6a57b24391f04a49acb",
+      "purpose": "official source functional silhouette/color reference only; original art style not adopted",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/20-white-trees.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5775c688-9143-4d63-bd19-3c9db90589cf.png",
+    "originalOutputSha256": "8a513720bd47bb6e81879cd91325b7e18e375a70ca6b261f3d6a0c20a21074ba"
+  },
+  "regions": [
+    "white-tree",
+    "white-tree-dead"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "f6578b3c1a5aa5b3228201c08188016c09bda8515f2e332986323876a7b0c2fa"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree-dead.png",
+      "sha256": "f1ebbd33e4364dc250156de526adcd8570b5e55ed7fe93e2bb4ec2cd8989fe7b"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+  "sha256": "b54399c4ca39b268aae4112eb2971cb50e38fb0e6ad1c8513e2261fabae46254",
+  "width": 48,
+  "height": 56,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-flame-pair.png",
+      "sha256": "db70e6c7922b9465a85abd25240e00df53c328dec0f691146821b8b0fcfb4758",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-flame-pair.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      265,
+      296
+    ],
+    "sourcePivot": [
+      140.5,
+      231.6
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      1
+    ],
+    "sourceDimensions": [
+      281,
+      312
+    ],
+    "targetDimensions": [
+      48,
+      56
+    ],
+    "officialAlphaBounds": [
+      12,
+      4,
+      32,
+      44
+    ],
+    "scale": 0.12523191094619665,
+    "engineAnchorPx": [
+      24.0,
+      28.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/atrax-weapon.png",
+    "gitBlobSha1": "e0a6b3f1ff233eeec31d638ba8dfcdecec399afa",
+    "sha256": "3177c74607764000e56fd2d5df911e9084a6537c9ae8ccefbceb90292e5a6a7a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

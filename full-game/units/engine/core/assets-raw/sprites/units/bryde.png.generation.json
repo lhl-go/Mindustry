@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/bryde.png",
+  "sha256": "a9f790301a2f2575284b019cc3bc49bf48d09f19c8d4b1500e9b271537d23b37",
+  "width": 140,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/bryde.png",
+      "sha256": "24d45c89fccb3e20b3b09b8b77e8ba66bfdd5d802595521fb73cb60b4ecb30f1",
+      "generationRecord": "units/serpulo-ground-naval/bodies/bryde.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      336,
+      511
+    ],
+    "sourcePivot": [
+      176.0,
+      263.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      28,
+      4
+    ],
+    "sourceDimensions": [
+      352,
+      527
+    ],
+    "targetDimensions": [
+      140,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      136,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      70.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/bryde.png",
+    "gitBlobSha1": "97990553b7ad64d4e0ebebedd9138d6fdabd3e13",
+    "sha256": "11342a88ec9348686ed24302249827e563be292d3d332a953f69e5cd85c96ab8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

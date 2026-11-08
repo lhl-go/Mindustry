@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/plasma-bore-top.png",
+  "sourceGitBlob": "4d8673451e0d5a6768d6cef5f5d4cf23c8e08b73",
+  "sourceSha256": "29648f0a9b642ab4ae0cb3fa408aa138f268a8c53bbc45ec037036c6d2ee5bf6",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "plasma-bore-top",
+  "blockId": "plasma-bore",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-top.png",
+  "sha256": "59d3c1a5253c9721882c17110f27220550873b8fd7d024d13e865b503acbb5ff",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-top.png",
+  "engineSha256": "59d3c1a5253c9721882c17110f27220550873b8fd7d024d13e865b503acbb5ff",
+  "nativeFile": "full-game/blocks/masters/plasma-bore.png",
+  "nativeSha256": "6abbfb717061ccae9ddc1e607b0261ce714f4bdf9a8fc88eadfb00e1e60fd610",
+  "nativeSize": [
+    246,
+    316
+  ],
+  "sourceAlphaBounds": [
+    20,
+    5,
+    60,
+    59
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plasma-bore.png",
+      "sha256": "6abbfb717061ccae9ddc1e607b0261ce714f4bdf9a8fc88eadfb00e1e60fd610"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/plasma-bore-top.png",
+      "sha256": "29648f0a9b642ab4ae0cb3fa408aa138f268a8c53bbc45ec037036c6d2ee5bf6"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

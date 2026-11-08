@@ -1,0 +1,71 @@
+{
+  "file": "full-game/items-fx/source/03-erekir-materials.png",
+  "sha256": "5cd3897c243fa86cf4722313cb8b736580bf9811e9e24bdc04f9af916b9933d1",
+  "generatedAt": "2026-10-26T15:59:48.194Z",
+  "startedAt": "2026-10-26T15:57:48.030Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Production sprite atlas of exactly 6 DISTINCT objects, strict invisible 3 columns x2 rows reading order. Target 1536x1024. Draw refined Daoist chibi HD hand-painted item icons in the style of the two actual references, jade/ivory/warm gold material language but KEEP each described identity color. Bold readable silhouettes, delicate painted detail. 1 beryllium: deep emerald green metallic mineral nuggets. 2 tungsten: blue-gray angular heavy dense metal ingots. 3 oxide: pale mint white porous crystalline clumps. 4 carbide: broad violet-gray rigid ceramic hexagonal plates. 5 fissile-matter: green teal radioactive crystal mass with subtle mint core. 6 dormant-cyst: orange red leathery dormant organic cyst with folded petal membranes and a closed center. Each isolated complete object comfortably within its cell with15% clear margin. True transparent RGBA. NO text, names, grid, panels, floor, cast shadows, people or glow fog. Do not draw the reference UI. Native crisp painted detail, never blurry. Last unused cells empty.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/03-erekir-materials.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/03-erekir-materials.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-03b028c5-c2bf-41fa-86da-9953637ea326.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "item-beryllium",
+    "item-tungsten",
+    "item-oxide",
+    "item-carbide",
+    "item-fissile-matter",
+    "item-dormant-cyst"
+  ],
+  "sourceImageRetained": true
+}

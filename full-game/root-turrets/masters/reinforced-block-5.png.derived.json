@@ -1,0 +1,41 @@
+{
+  "region": "reinforced-block-5",
+  "file": "full-game/root-turrets/masters/reinforced-block-5.png",
+  "sha256": "17e917b7798e6d91c64343eaabbb26924917a34ccba3d6362f1c810f21d2316e",
+  "size": [
+    321,
+    319
+  ],
+  "derivedAt": "2026-10-26T18:34:42.615390+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/01-regions.png",
+      "sha256": "25a136d5fc334af1479371fa2d4519733073a27ff08a566da687985be665b62a",
+      "record": "full-game/root-turrets/source/01-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 7,
+    "sourceBox": [
+      1184,
+      342,
+      1481,
+      637
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

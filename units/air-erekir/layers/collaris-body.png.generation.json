@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "collaris-body",
+  "file": "units/air-erekir/layers/collaris-body.png",
+  "sha256": "75d956cac8571234adf3331c8acd451b03e98cce728057882e16cfbc0995f12d",
+  "width": 445,
+  "height": 518,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/09-walker-body.png",
+      "sha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+      "generationRecord": "units/air-erekir/source/09-walker-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      605,
+      480,
+      1060,
+      1000
+    ],
+    "trimBoundsInRegion": [
+      21,
+      16,
+      434,
+      502
+    ],
+    "padding": 16,
+    "width": 445,
+    "height": 518,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed.",
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

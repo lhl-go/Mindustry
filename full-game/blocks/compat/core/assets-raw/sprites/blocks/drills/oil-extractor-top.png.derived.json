@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/oil-extractor-top.png",
+  "sourceGitBlob": "fe293d40f0eb0585814b131c026d2bd513e49e36",
+  "sourceSha256": "61d01227e40a16ed5225f875441014ba3c329ab11334f26fc773c8bea6a04b30",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oil-extractor-top",
+  "blockId": "oil-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-top.png",
+  "sha256": "69f7e32e2bec14f7737127735bbfbac74e47e7db5e4b858a9c44c7bca64c97e2",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-top.png",
+  "engineSha256": "69f7e32e2bec14f7737127735bbfbac74e47e7db5e4b858a9c44c7bca64c97e2",
+  "nativeFile": "full-game/units/parts/joint-cap-heavy.png",
+  "nativeSha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5",
+  "nativeSize": [
+    526,
+    506
+  ],
+  "sourceAlphaBounds": [
+    28,
+    28,
+    68,
+    68
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      28,
+      28,
+      68,
+      68
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-heavy.png",
+      "sha256": "7e1e26e7f79e2090b18c29b247cf74f165569570633a069c06bebb719d09b9d5"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor-top.png",
+      "sha256": "61d01227e40a16ed5225f875441014ba3c329ab11334f26fc773c8bea6a04b30"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-leg.png",
+  "sha256": "dd66170bd48f2b3c77d8d58e988c8d63c73138e401bf298afcbbb103a28370e7",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      190,
+      476
+    ],
+    "sourcePivot": [
+      103.0,
+      80.4
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      60,
+      30
+    ],
+    "sourceDimensions": [
+      206,
+      492
+    ],
+    "targetDimensions": [
+      80,
+      80
+    ],
+    "officialAlphaBounds": [
+      60,
+      25,
+      76,
+      77
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      40.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quasar-leg.png",
+    "gitBlobSha1": "5c2650440c71641fa610dd3f378dd7993aeca9d2",
+    "sha256": "3a79ca38633fbe9a35df6f8bb3fe105b8d163fed837e5c2de2c2f0003afb54ca"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

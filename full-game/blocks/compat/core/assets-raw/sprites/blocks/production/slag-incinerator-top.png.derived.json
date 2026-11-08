@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-incinerator-top.png",
+  "sourceGitBlob": "5fd4aef51101a642756c30718ad7a8c87af551e0",
+  "sourceSha256": "c3363ac83978d2baa610b51e227fd8e5101e213c5770f8b2c879e995f3bfc7a4",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "slag-incinerator-top",
+  "blockId": "slag-incinerator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-top.png",
+  "sha256": "9a17c5c43bf413c93989b14c0a08ce18af1d54756868d0625007789f9686fa30",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-top.png",
+  "engineSha256": "9a17c5c43bf413c93989b14c0a08ce18af1d54756868d0625007789f9686fa30",
+  "nativeFile": "full-game/blocks/masters/slag-incinerator.png",
+  "nativeSha256": "335b39a9a7ca45c3fb6113b1debb0e798a2a5e587547622a7998cf1555d2026d",
+  "nativeSize": [
+    320,
+    311
+  ],
+  "sourceAlphaBounds": [
+    14,
+    12,
+    20,
+    18
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-incinerator.png",
+      "sha256": "335b39a9a7ca45c3fb6113b1debb0e798a2a5e587547622a7998cf1555d2026d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-incinerator-top.png",
+      "sha256": "c3363ac83978d2baa610b51e227fd8e5101e213c5770f8b2c879e995f3bfc7a4"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

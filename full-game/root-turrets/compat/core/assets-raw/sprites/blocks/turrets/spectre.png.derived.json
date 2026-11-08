@@ -1,0 +1,42 @@
+{
+  "region": "spectre",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/spectre.png",
+  "sha256": "264efdd01d07926882e0aa069090febafbd598dba23893ea7290b6469f78826b",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.226730+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/spectre.png",
+      "sha256": "5a7301d99a66e5c2313242651168348cfaf775ad8e2269520bdf1e87e5a7c382",
+      "record": "full-game/root-turrets/masters/spectre.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/spectre.png",
+      "sha256": "c9d7e6b9fbdb09754b37b5102f76ad7c8a28ef219b81a6248cdb32d20560fe0f",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      12,
+      3,
+      116,
+      123
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      293,
+      339
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

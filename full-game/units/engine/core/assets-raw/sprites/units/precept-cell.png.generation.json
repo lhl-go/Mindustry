@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/precept-cell.png",
+  "sha256": "ee49767af8d4e3b70f29cde1f2973a790e41c0e8cfbf0d51abd4a929f5e76ff1",
+  "width": 120,
+  "height": 120,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept.png",
+      "sha256": "5c02dcec64ab9b8b62d1ba09516bafcdff1bceedc26f0cecd391f0a882987a81",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/precept.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "precept",
+    "baseCanvas": [
+      120,
+      140
+    ],
+    "outputCanvas": [
+      120,
+      120
+    ],
+    "centerRegistrationOffset": [
+      0,
+      -10
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/precept-cell.png",
+    "gitBlobSha1": "8f4a9ecdafc31ab1a2fd62dac4982be20137194e",
+    "sha256": "4ef85cec885584801e327757b738cdd3164ed41633abd9ecaf0dc69b4dfdd3ce"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

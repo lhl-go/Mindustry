@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/payload-conveyor.png",
+  "sha256": "62483d9a99b3b7fc9fc136f6dab9740af82eba1b542f09fd41b7f58b280a49fb",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      131,
+      23,
+      285,
+      278
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      154,
+      255
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    186,
+    287
+  ],
+  "anchorPixels": [
+    93.0,
+    143.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

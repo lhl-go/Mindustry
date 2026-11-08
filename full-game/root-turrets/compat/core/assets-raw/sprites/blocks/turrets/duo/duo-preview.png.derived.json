@@ -1,0 +1,38 @@
+{
+  "region": "duo-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-preview.png",
+  "sha256": "8c34522e1488d751badb48fc1e32a91510292a654e9fba6c853a0579de4b1533",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.583083+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo.png",
+      "sha256": "5f68575a6d159b954ab3194b341ce497723f94bc19fdad9ee03adfbd4f9edf4b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-l.png",
+      "sha256": "95880e7c12bff5c8e32428ed81939ff19e79f39a99d8d52d337edd3b73b96060",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-r.png",
+      "sha256": "d07e7f8f24c599b441c2291dfae42a1b1a2d7384ff51975da96570e44df1ea90",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-r.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

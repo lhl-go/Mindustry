@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/avert-weapon.png",
+  "sha256": "952d764b14bb2a7b66075303d1ca5eb40a76ec3e4211a996223ede1b7c04ba99",
+  "width": 44,
+  "height": 51,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/avert-weapon.png",
+      "sha256": "7add93b2df8a07fbead5504a1d41cd0f8beb3de1c760429cc38f83dbbcd5e20e",
+      "generationRecord": "units/coordinator-recoil-fix/avert-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      165,
+      394
+    ],
+    "sourcePivot": [
+      98.5,
+      332.28000000000003
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      17,
+      1
+    ],
+    "sourceDimensions": [
+      197,
+      426
+    ],
+    "targetDimensions": [
+      44,
+      51
+    ],
+    "officialAlphaBounds": [
+      5,
+      5,
+      39,
+      43
+    ],
+    "scale": 0.08159051551884906,
+    "engineAnchorPx": [
+      22.0,
+      25.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/avert-weapon.png",
+    "gitBlobSha1": "75d41b24eecaac6ad03a9398930427eec8ea3319",
+    "sha256": "b5296e24763bcb1f59efaa078579165e1bdba2d9fdf8fb54bf3326fcffa0be47"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

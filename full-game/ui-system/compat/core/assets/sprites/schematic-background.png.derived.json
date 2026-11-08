@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets/sprites/schematic-background.png",
+  "sourceGitBlob": "d0085b65d965090fab3a47d43b91fd3220a207a9",
+  "file": "full-game/ui-system/compat/core/assets/sprites/schematic-background.png",
+  "sha256": "af834d598c75db67337e4783c1091ae41e070abb6ad04c7600892a0454340f15",
+  "sourceSize": [
+    32,
+    32
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/reference/core/assets/sprites/schematic-background.png",
+      "sha256": "af834d598c75db67337e4783c1091ae41e070abb6ad04c7600892a0454340f15",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "byte_exact_technical_texture",
+    "reason": "Repeating neutral transparency/empty schematic background, SchematicsDialog.java:744.",
+    "sourceEvidence": "d0085b65d965090fab3a47d43b91fd3220a207a9"
+  },
+  "disposition": "verified_technical_reuse",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

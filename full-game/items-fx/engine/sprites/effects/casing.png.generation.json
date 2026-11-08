@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/casing.png",
+  "sha256": "44857b6a2e2130467411235a224d59c6fb4b2a9fa616a38aaf648f39f11126b0",
+  "width": 8,
+  "height": 16,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/casing.png",
+      "sha256": "b1fd46b02eb43138cf0e0dc1724f681dea8aeee7292d8cc02ff575cf43381ff9",
+      "generationRecord": "full-game/items-fx/assets/casing.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      8,
+      16
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

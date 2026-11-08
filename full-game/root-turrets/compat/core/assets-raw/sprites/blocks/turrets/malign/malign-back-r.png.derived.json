@@ -1,0 +1,44 @@
+{
+  "region": "malign-back-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-r.png",
+  "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.334704+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/malign-back-l.png",
+      "sha256": "36572badd684de58c280666ed87fc46a65bf78496d6ade862988b23d04333f60",
+      "record": "full-game/root-turrets/masters/malign-back-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-back-r.png",
+      "sha256": "36d4d8eb4676c32df66103bbacb8b898f2222035bc19bfc4e7e693d9e85c1f9b",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-back-l.png",
+      "sha256": "f1cacdbed63f9c65b7f14f617eb2eab26b858d46518d0a258f0d3fd7610f5995",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      95,
+      76,
+      151,
+      138
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

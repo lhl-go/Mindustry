@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/impact-drill-arrow-part.png",
+  "sha256": "987211d54c2db8c8cb523c994a78398f3891fa70d0098f6eae11a675b5afa6c0",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      780,
+      810,
+      1031,
+      1055
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      251,
+      245
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    283,
+    277
+  ],
+  "anchorPixels": [
+    141.5,
+    138.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

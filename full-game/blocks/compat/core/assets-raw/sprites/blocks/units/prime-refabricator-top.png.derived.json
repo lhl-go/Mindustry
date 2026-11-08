@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/prime-refabricator-top.png",
+  "sourceGitBlob": "24cc4cd5a583694efb880ebb363069dd372cf265",
+  "sourceSha256": "4180061ae7d8987eda7d37b0e7cac03700e9b4cecd9e7e888cb37e84912d5eed",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "prime-refabricator-top",
+  "blockId": "prime-refabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator-top.png",
+  "sha256": "fe92c12bdfa9b1bdcfce9154a09a5c414ac0130eeb8dbf21460cfb2fcdec35b3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator-top.png",
+  "engineSha256": "fe92c12bdfa9b1bdcfce9154a09a5c414ac0130eeb8dbf21460cfb2fcdec35b3",
+  "nativeFile": "full-game/blocks/masters/prime-refabricator.png",
+  "nativeSha256": "88aebf1b9abc54ede7bd1fdcb3d162a5d5d4c0b7213e2d9a95b3b3ed421b5b34",
+  "nativeSize": [
+    406,
+    403
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/prime-refabricator.png",
+      "sha256": "88aebf1b9abc54ede7bd1fdcb3d162a5d5d4c0b7213e2d9a95b3b3ed421b5b34"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/prime-refabricator-top.png",
+      "sha256": "4180061ae7d8987eda7d37b0e7cac03700e9b4cecd9e7e888cb37e84912d5eed"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/prime-refabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/prime-refabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

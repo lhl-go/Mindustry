@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ground-factory.png",
+  "sourceGitBlob": "5bf4b32783bb006eb49d78703985710200a4e83d",
+  "sourceSha256": "2157ce1ba85efaa7695f2bea973aeccf541d99730b11d3d7eb4767acf0d8a923",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "ground-factory",
+  "blockId": "ground-factory",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ground-factory.png",
+  "sha256": "ce83a434f6834036abcf000f11dd417530fcdf6b2d2e930de1a19d6051533de3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ground-factory.png",
+  "engineSha256": "ce83a434f6834036abcf000f11dd417530fcdf6b2d2e930de1a19d6051533de3",
+  "nativeFile": "full-game/blocks/masters/ground-factory.png",
+  "nativeSha256": "0215f6f6238d3f5998e3c0bab07c26bb5ba4e3655f75200ff89e74e4fbb76458",
+  "nativeSize": [
+    305,
+    282
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ground-factory.png",
+      "sha256": "0215f6f6238d3f5998e3c0bab07c26bb5ba4e3655f75200ff89e74e4fbb76458"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ground-factory.png",
+      "sha256": "2157ce1ba85efaa7695f2bea973aeccf541d99730b11d3d7eb4767acf0d8a923"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ground-factory.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ground-factory.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ground-factory.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

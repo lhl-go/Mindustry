@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/merui-cell.png",
+  "sha256": "3de476c230b7a1d723462c5d2ab88e7c4ec1d5f2656f18002d6d05f9b89b29e1",
+  "width": 56,
+  "height": 54,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/merui.png",
+      "sha256": "993cffbca91035efe6974a1eb407cd31b51f74b42795f7ebfe34ce2bf95aeed2",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/merui.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "merui",
+    "baseCanvas": [
+      56,
+      54
+    ],
+    "outputCanvas": [
+      56,
+      54
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/merui-cell.png",
+    "gitBlobSha1": "9548b30a9afa9ef51305358c5cb5dfd9182f79b3",
+    "sha256": "d3d3bf2930ded740636ba644ca2db46800525104e2a228b0b98e9f73cca699f4"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

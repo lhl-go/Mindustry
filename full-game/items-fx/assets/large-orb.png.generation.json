@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/11-projectiles.png",
+      "sha256": "3506f1e1ef6ab3e63ad005cc7e5afdd45871b846dee81eb8b31d25cd0a15c8d8",
+      "generationRecord": "full-game/items-fx/source/11-projectiles.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      418,
+      418,
+      800
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      62,
+      52,
+      367,
+      348
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/large-orb.png",
+  "sha256": "4814e7e0af04c525789391b05b482d6278aff4d02cfe3eeca0b0131de41fe55c",
+  "width": 337,
+  "height": 328,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:10.276017+00:00"
+}

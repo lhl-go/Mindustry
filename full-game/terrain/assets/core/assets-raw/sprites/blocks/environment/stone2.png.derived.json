@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/stone2.png",
+  "sha256": "5a97e9df22794bfcf76392c2e63a2d794ce1c9cb94ee4dc75626d15cf8e670c3",
+  "createdAt": "2026-10-26T16:41:59.745588+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/01-basic-floors.png",
+      "sha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e",
+      "generationRecord": "full-game/terrain/source/01-basic-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      298,
+      2,
+      589,
+      294
+    ],
+    "nativeExtractedSize": [
+      291,
+      292
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 2.229190950981226
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

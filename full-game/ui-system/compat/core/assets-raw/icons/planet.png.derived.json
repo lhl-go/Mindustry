@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/planet.png",
+  "sourceGitBlob": "6a5c136add32189c84ea9a0884da3a44a05484d6",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/planet.png",
+  "sha256": "0afe35ed3c0abc3246a874d4afd5b5008ecc1050c4c648ff438e40cfd436782f",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-planet.png",
+      "sha256": "564b6ba122cfc8000581d0c3d9370a90aeb2eceb10cb0e58a9b263768043f37f",
+      "record": "ui/kit/icon-planet.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "planet",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

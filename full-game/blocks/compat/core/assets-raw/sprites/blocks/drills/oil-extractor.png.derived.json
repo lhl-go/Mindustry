@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/oil-extractor.png",
+  "sourceGitBlob": "36013391bf97ca4081f5f56b6c81efa0f7354fde",
+  "sourceSha256": "02dae42f56d842f659aa80b0292371c8dcc00b1f1945949c529d0d6bcb02b343",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oil-extractor",
+  "blockId": "oil-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor.png",
+  "sha256": "cbd0406bf74983b95e95deed2cde505db7b1ee6b8d3a67e29079e3a27d6b6bbc",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor.png",
+  "engineSha256": "cbd0406bf74983b95e95deed2cde505db7b1ee6b8d3a67e29079e3a27d6b6bbc",
+  "nativeFile": "full-game/blocks/masters/oil-extractor.png",
+  "nativeSha256": "c378c57063c7483b1dbdb185542f72b95ad9f54e8df2508de83aca7b899fd823",
+  "nativeSize": [
+    357,
+    318
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/oil-extractor.png",
+      "sha256": "c378c57063c7483b1dbdb185542f72b95ad9f54e8df2508de83aca7b899fd823"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor.png",
+      "sha256": "02dae42f56d842f659aa80b0292371c8dcc00b1f1945949c529d0d6bcb02b343"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/heal-weapon.png",
+  "sha256": "1d6d3cb4eb5504075b62bd7314e7b40d8d35507656d11eece9a10e7a2b317b01",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-repair-bolt.png",
+      "sha256": "b4fcc25fb8a56ca5e446abdf1c9cdddc0f214a1278581f94427e7c2060462cc5",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-repair-bolt.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      214,
+      294
+    ],
+    "sourcePivot": [
+      115.0,
+      230.06
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      13,
+      1
+    ],
+    "sourceDimensions": [
+      230,
+      310
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      16,
+      8,
+      28,
+      34
+    ],
+    "scale": 0.10744651032420817,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/heal-weapon.png",
+    "gitBlobSha1": "7ab9309d40dd64223a656a3f053e65cab5b38ed9",
+    "sha256": "60dc1005de9126558564b18c3f86b27d13032707e15bca897840d6d6254fcc38"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

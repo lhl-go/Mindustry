@@ -1,0 +1,41 @@
+{
+  "region": "breach",
+  "file": "full-game/root-turrets/masters/breach.png",
+  "sha256": "103c6292a50bf411c918b6cfc9081028b781fb1d8a03f97d1848034f62f26300",
+  "size": [
+    317,
+    344
+  ],
+  "derivedAt": "2026-10-26T18:34:42.828631+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/01-regions.png",
+      "sha256": "25a136d5fc334af1479371fa2d4519733073a27ff08a566da687985be665b62a",
+      "record": "full-game/root-turrets/source/01-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 11,
+    "sourceBox": [
+      1184,
+      665,
+      1477,
+      985
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

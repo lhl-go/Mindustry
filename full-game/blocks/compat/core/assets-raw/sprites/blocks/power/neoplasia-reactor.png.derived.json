@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/neoplasia-reactor.png",
+  "sourceGitBlob": "d13908e2225a8a0054bde8fffe9171ba45521fd1",
+  "sourceSha256": "8d4ad0b462c48e025facf9298cafd99714efb2de56a28ffaf0a1f1e51d9c2248",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "neoplasia-reactor",
+  "blockId": "neoplasia-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor.png",
+  "sha256": "bf33831b0ac5ebe91ccc6813163f793c849abca5c499227895c5eb2726fce9d8",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor.png",
+  "engineSha256": "bf33831b0ac5ebe91ccc6813163f793c849abca5c499227895c5eb2726fce9d8",
+  "nativeFile": "full-game/blocks/masters/neoplasia-reactor.png",
+  "nativeSha256": "708558be96036fe20a86088c01aae69d5dd6ba2990b71c890a73191883add44e",
+  "nativeSize": [
+    363,
+    353
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/neoplasia-reactor.png",
+      "sha256": "708558be96036fe20a86088c01aae69d5dd6ba2990b71c890a73191883add44e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/neoplasia-reactor.png",
+      "sha256": "8d4ad0b462c48e025facf9298cafd99714efb2de56a28ffaf0a1f1e51d9c2248"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

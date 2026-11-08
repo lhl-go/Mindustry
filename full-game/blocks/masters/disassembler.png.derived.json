@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/disassembler.png",
+  "sha256": "a4b3f4dc1be55361009c3268e8048d1977f3034f5ca794ded7420694c2454190",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      393,
+      15,
+      760,
+      335
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      367,
+      320
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    399,
+    352
+  ],
+  "anchorPixels": [
+    199.5,
+    176.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

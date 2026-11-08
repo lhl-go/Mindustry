@@ -1,0 +1,43 @@
+{
+  "region": "titan-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-preview.png",
+  "sha256": "3644c6362c2f91191ff259bedfc7d0b7e09cd91bd7e7ae50a1b9829caac279b2",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.632970+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan.png",
+      "sha256": "25a8a7737a28508e71cfd0b8ce024ee7e51a0dba77697d4d3f10d600e68d6125",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-l.png",
+      "sha256": "d6de2eb074514011a1764dfc9ec601d8cf15d5244b381a0272da07ae74cb3c71",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-r.png",
+      "sha256": "d6de2eb074514011a1764dfc9ec601d8cf15d5244b381a0272da07ae74cb3c71",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel.png",
+      "sha256": "164051bf1e08c475db843cecc4e639e07b7f2b418f2d95809e05e03e5617cb8f",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-barrel.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/blast-door.png",
+  "sourceGitBlob": "bc4710e43d16bca6af5827e11b42a7ac6595659a",
+  "sourceSha256": "3ac2d1d9362de05b1e0cacc3740f52db56df7fa67ba2d8353db72a120d2702f6",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "blast-door",
+  "blockId": "blast-door",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door.png",
+  "sha256": "7cbb8a151bcc91e77fbd0813c20573e59723fe14282a3c42370e7c6f78bacf6f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door.png",
+  "engineSha256": "7cbb8a151bcc91e77fbd0813c20573e59723fe14282a3c42370e7c6f78bacf6f",
+  "nativeFile": "full-game/blocks/masters/blast-door.png",
+  "nativeSha256": "73409a370b87720605a082c18933dfef66d23ac0dba8e6d0dab1efae347f7e54",
+  "nativeSize": [
+    324,
+    286
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/blast-door.png",
+      "sha256": "73409a370b87720605a082c18933dfef66d23ac0dba8e6d0dab1efae347f7e54"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/blast-door.png",
+      "sha256": "3ac2d1d9362de05b1e0cacc3740f52db56df7fa67ba2d8353db72a120d2702f6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/blast-door.png.derived.json"
+}

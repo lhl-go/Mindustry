@@ -1,0 +1,55 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-treads.png",
+  "sha256": "7a85d6be6900ad1bf01a0d3f8639d6e48dd44a5308b159269c7364b88fe3e9d2",
+  "width": 154,
+  "height": 154,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "paired_tread_canvas_from_native_track_component",
+    "placements": [
+      {
+        "left": [
+          22,
+          16,
+          28,
+          130
+        ],
+        "right": [
+          104,
+          16,
+          28,
+          130
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      }
+    ],
+    "officialTreadRects": [
+      [
+        -55,
+        -61,
+        28,
+        130
+      ]
+    ],
+    "cropAndDownsampleOnly": true,
+    "sourceFrames": 18,
+    "sourceTreadPullOffset": 4
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vanquish-treads.png",
+    "sha256": "ce2c2ac30d93a15bd1d4ea36e41c5c20a7ea270c76b88c526174912abfcde8c8",
+    "gitBlobSha1": "e878c59a7dd0892ba5c7fce93e76eec0f97e19d8"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Local assembly from traced native tread strip.",
+  "engineNotVerified": true
+}

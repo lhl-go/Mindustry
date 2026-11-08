@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cryofluid-mixer-bottom.png",
+  "sourceGitBlob": "e05f72e92ce1a7155e5fd12e70285b5e366fc01d",
+  "sourceSha256": "4d3af7e531f4f139f847e1df626d0ff92e5c09f72ffbd97117d1b26c4ed1bea5",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cryofluid-mixer-bottom",
+  "blockId": "cryofluid-mixer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cryofluid-mixer-bottom.png",
+  "sha256": "7b31ed70d8618496c186bdce02e5178d6f97099a5b8d3b2d60405ad1ec1349b1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cryofluid-mixer-bottom.png",
+  "engineSha256": "7b31ed70d8618496c186bdce02e5178d6f97099a5b8d3b2d60405ad1ec1349b1",
+  "nativeFile": "full-game/blocks/masters/cryofluid-mixer.png",
+  "nativeSha256": "a82e39c8d5efc276bb7bc904af10148b2a3c9730ce907d2e7627ba17573cd5a3",
+  "nativeSize": [
+    350,
+    304
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cryofluid-mixer.png",
+      "sha256": "a82e39c8d5efc276bb7bc904af10148b2a3c9730ce907d2e7627ba17573cd5a3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cryofluid-mixer-bottom.png",
+      "sha256": "4d3af7e531f4f139f847e1df626d0ff92e5c09f72ffbd97117d1b26c4ed1bea5"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cryofluid-mixer-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

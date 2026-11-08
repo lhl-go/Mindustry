@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-foot.png",
+  "sha256": "a34569e57f91b8df93f0d9ff77d61ad7cdb87b9d057e8b6b40259d51f0be2a76",
+  "width": 90,
+  "height": 90,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+      "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      200,
+      289
+    ],
+    "sourcePivot": [
+      108.0,
+      54.22
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      24,
+      4
+    ],
+    "sourceDimensions": [
+      216,
+      305
+    ],
+    "targetDimensions": [
+      90,
+      90
+    ],
+    "officialAlphaBounds": [
+      15,
+      4,
+      88,
+      86
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      45.0,
+      45.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/toxopid-foot.png",
+    "gitBlobSha1": "fffa78f2a65077526ea78868e7c544fab51a669f",
+    "sha256": "95ebc72c6d95be2679c77f5df6ccfef38098a3c516dbad1670610995dbc45396"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

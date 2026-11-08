@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-unloader-top.png",
+  "sourceGitBlob": "1590a12792f1c0551e1230683cc8057dc5e85b2a",
+  "sourceSha256": "2cb7f7d1f0330ead014392272605e18b70b9da32602caf93d552d293fce55303",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "payload-unloader-top",
+  "blockId": "payload-unloader",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-unloader-top.png",
+  "sha256": "58c032257da856049e4c8633723f86c00d0fe15429e74a22d26cdbe493ef95fa",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-unloader-top.png",
+  "engineSha256": "58c032257da856049e4c8633723f86c00d0fe15429e74a22d26cdbe493ef95fa",
+  "nativeFile": "full-game/blocks/masters/payload-unloader.png",
+  "nativeSha256": "72a5d116053f5f87b46dcf85e4ed6f8039d21a1c3190647c11e7a4955729730a",
+  "nativeSize": [
+    283,
+    265
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-unloader.png",
+      "sha256": "72a5d116053f5f87b46dcf85e4ed6f8039d21a1c3190647c11e7a4955729730a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-unloader-top.png",
+      "sha256": "2cb7f7d1f0330ead014392272605e18b70b9da32602caf93d552d293fce55303"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-unloader-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-unloader-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-unloader.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

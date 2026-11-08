@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay63.png",
+  "sha256": "864a37115e8431fe75f13d7b32136551d90d8684d97332880de570ed2e3ea80e",
+  "createdAt": "2026-10-26T17:24:43.681001+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay63.png",
+  "officialGitBlobSha1": "a1ffcc3936927711a54973e61876f3801f6c37b4",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay63.png",
+  "sourceSha256": "864a37115e8431fe75f13d7b32136551d90d8684d97332880de570ed2e3ea80e",
+  "byteIdenticalToOfficial": true,
+  "width": 28,
+  "height": 14,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "reason": "Semantic 64-glyph reduced alphabet plus editor icons; 6-bit character and 2-bit rotation encoding must retain readable exact glyph identities. Official geometry retained, no AI art claimed.",
+  "technicalEvidence": [
+    "core/src/mindustry/world/blocks/environment/CharacterOverlay.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

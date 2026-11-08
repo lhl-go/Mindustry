@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/repair-turret.png",
+  "sourceGitBlob": "4cc4ffc5bdad5ccb66eb6f6ec3eebdf01d0f9cb9",
+  "sourceSha256": "b4d6fdd7e0f17b2100286abb5dec98993d1345050f340561d5c28afe5561f4f2",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "repair-turret",
+  "blockId": "repair-turret",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-turret.png",
+  "sha256": "8f61098ce44af3727c8cce3758aa164dac36c500e1848bf029d51f728327d250",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-turret.png",
+  "engineSha256": "8f61098ce44af3727c8cce3758aa164dac36c500e1848bf029d51f728327d250",
+  "nativeFile": "full-game/blocks/masters/repair-turret-head-part.png",
+  "nativeSha256": "80b22a12a0958051533f23a3fc753dbc6bae6269dadd0048465217d5bcc25d00",
+  "nativeSize": [
+    361,
+    236
+  ],
+  "sourceAlphaBounds": [
+    5,
+    4,
+    59,
+    60
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "repair-turret-head-part",
+    "role": "independent rotating head; visible nozzle corrected to source +Y direction",
+    "localRotationDegrees": 180,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/repair-turret-head-part.png",
+      "sha256": "80b22a12a0958051533f23a3fc753dbc6bae6269dadd0048465217d5bcc25d00"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/repair-turret.png",
+      "sha256": "b4d6fdd7e0f17b2100286abb5dec98993d1345050f340561d5c28afe5561f4f2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-turret.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-turret.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/repair-turret-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

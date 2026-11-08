@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/shock-mine.png",
+  "sha256": "ba0c423cb7b8d3cc38b64d200bf0a94507aa5ca897724a93ecba9edf640fe4c3",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      463,
+      475,
+      619,
+      629
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      156,
+      154
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    188,
+    186
+  ],
+  "anchorPixels": [
+    94.0,
+    93.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

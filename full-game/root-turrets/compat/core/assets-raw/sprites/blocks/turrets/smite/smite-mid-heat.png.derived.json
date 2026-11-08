@@ -1,0 +1,35 @@
+{
+  "region": "smite-mid-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-mid-heat.png",
+  "sha256": "65a3db0a3d431eda9e2b02ace40a0f246bd08cb94f88df9fdcc1c9937bb95d3c",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.524215+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-mid-heat.png",
+      "sha256": "a6151cb20024545ff14eea56d1995d577886e145ceee51af2fc92250432be694",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-mid.png",
+      "sha256": "03cf5a39bcc0d2048184a99a196b634b7930398233f1d4b7573da5471a48fc61",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "smite-mid"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1784
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

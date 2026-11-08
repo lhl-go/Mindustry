@@ -1,0 +1,45 @@
+{
+  "args": {
+    "prompt": "Use case: game-sprite atlas. Paint16 independent natural props for Mindustry. Pure top-down orthographic, clean rounded detailed Daoist Q hand-painted forms. Attached images ONLY for finish, no UI/text/people/frames. Requested3072×3072 square, exactly4columns×4rows even grid on fully transparent background. Every prop centered with15percent clear padding, no touching adjacent cells, no cast shadow/no ground square, no detached faraway specks. Broad readable forms, each variant different native silhouette/texture.\nRow1 col1/2/3 THREE ARKYIC BOULDERS desaturated blue-teal slate with tiny cyan mineral flecks: three different whole boulder shapes; col4 RED ICE BOULDER variant3 dusty rose frozen rock with pale ice fractures, a whole rounded asymmetric shape.\nRow2 all4 FOUR RED STONE BOULDERS: terracotta rosy-red rounded rock forms, independently different silhouette, facets and thin warm mineral seams.\nRow3 col1/2/3 THREE RHYOLITE BOULDERS muted lavender-gray layered volcanic rock, soft rounded irregular whole rocks; col4 PEBBLES variant1 a small tight scattering of5-8 pale neutral-gray smooth pebbles, transparent gaps.\nRow4 col1 PEBBLES variant2, col2 PEBBLES variant3: distinct tight scattered smooth pale-gray stone arrangements. Col3 PURPLE BUSH upper cluster: a low elongated cluster of3 rounded small violet-blue soft leafy lobes seen directly above. Col4 PURPLE BUSH lower/base cluster: lower overlapping cluster in darker muted purple of same plant family, compact elongated organic lobe silhouette (separate ground plant layer).\nNo tiny unconnected visual noise, no symbols, no perspective pillars. Exact16 complete separated sprites with alpha.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 18:52:28 UTC",
+  "returnedAt": "2026-10-26 18:53:54 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-a8eb8ed1-ac5c-47b8-b079-e3a593a95c3c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "regions": [
+    "arkyic-boulder1",
+    "arkyic-boulder2",
+    "arkyic-boulder3",
+    "red-ice-boulder3",
+    "red-stone-boulder1",
+    "red-stone-boulder2",
+    "red-stone-boulder3",
+    "red-stone-boulder4",
+    "rhyolite-boulder1",
+    "rhyolite-boulder2",
+    "rhyolite-boulder3",
+    "pebbles1",
+    "pebbles2",
+    "pebbles3",
+    "pur-bush",
+    "pur-bush-bot"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-10-30T04:28:48.146Z",
+  "mode": "offline file URL",
+  "passed": true,
+  "errors": [],
+  "brokenImages": [],
+  "unitCards": 68,
+  "uiGroups": 64,
+  "kitItems": 47,
+  "searchCount": 1,
+  "darkToggle": true,
+  "embeddedPreview": "UI-001 · 状态 2/3 · 移动端菜单",
+  "frameReady": {
+    "ready": {
+      "id": "UI-001",
+      "stateIndex": 1,
+      "state": "移动端菜单",
+      "device": "mobile",
+      "kind": "screen"
+    },
+    "broken": []
+  },
+  "manifestStatus": "art_complete_runtime_unverified",
+  "sources": [
+    {
+      "file": "exports/index.html",
+      "sha256": "9439327a1b55602bf81fd7d4f5b6fce3c77352088fcc0213bd921cd5802ba7a9"
+    },
+    {
+      "file": "exports/gallery.js",
+      "sha256": "33fc9c6da060a504e617f35cf123c28b360989b7c96b9eb8ebd3a9f9e49555f1"
+    },
+    {
+      "file": "exports/gallery.css",
+      "sha256": "ae586256e3e3f72d1cd78e728491201b0de1b8568b8f3f9a89f2d6178d8ad34a"
+    },
+    {
+      "file": "exports/delivery-data.js",
+      "sha256": "e0f312491dfca9fcfb1f6527633da4c854274c5ed519cfb110ab54c1c98d3535"
+    },
+    {
+      "file": "exports/manifest.json",
+      "sha256": "bbfca7cc734c858a24aae5b22c439847b654092f056c970e60395771010474b0"
+    }
+  ],
+  "runtimeIntegrationVerified": false
+}

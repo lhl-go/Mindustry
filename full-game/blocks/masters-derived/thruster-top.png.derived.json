@@ -1,0 +1,25 @@
+{
+  "file": "full-game/blocks/masters-derived/thruster-top.png",
+  "sha256": "3e7e8e4db475e69918de342c80cec040359e22661f4959464e032392b3fda01d",
+  "nativeSize": [
+    276,
+    342
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/thruster.png",
+      "sha256": "c5a384e57b040f4552838092630a7e1fff519caf80986845d43cc13b903a223e",
+      "generationRecord": "full-game/blocks/masters/thruster.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "existing_native_thruster_as_single_rotating_assembly",
+    "rotationDegrees": -90,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "reason": "Thruster.java is a decorative sandbox Wall: fixed base and independently rotating top, with no thrust/motion simulation."
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/plastanium-wall.png",
+  "sourceGitBlob": "717e32723fd995844d850c944c4e7715e8a9bc56",
+  "sourceSha256": "1dbac617e67bcb545d4b0417ba4bca9192ae74d467ae290bfffed0b4e7502992",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "plastanium-wall",
+  "blockId": "plastanium-wall",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/plastanium-wall.png",
+  "sha256": "09065f4d566e7632065fb55a6c7b1255622e73c66bc0e3da8aa6aa9c7f101278",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/plastanium-wall.png",
+  "engineSha256": "09065f4d566e7632065fb55a6c7b1255622e73c66bc0e3da8aa6aa9c7f101278",
+  "nativeFile": "full-game/blocks/masters/plastanium-wall.png",
+  "nativeSha256": "db14893009f3e2c6a0061969d2e1cf3af0ff27c85fa6531d901e632ed4399ef0",
+  "nativeSize": [
+    320,
+    307
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plastanium-wall.png",
+      "sha256": "db14893009f3e2c6a0061969d2e1cf3af0ff27c85fa6531d901e632ed4399ef0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/plastanium-wall.png",
+      "sha256": "1dbac617e67bcb545d4b0417ba4bca9192ae74d467ae290bfffed0b4e7502992"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/plastanium-wall.png.derived.json"
+}

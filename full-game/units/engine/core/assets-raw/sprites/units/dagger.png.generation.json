@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger.png",
+  "sha256": "6c2de1042b783bb8ddd71e7200f4de3060962ed01763038558f4d10e6a2a0c21",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/dagger.png",
+      "sha256": "4a9f6ac6ce8bb84a35f4b91857e3ad0bee0d42f8cf3250236d19226c0d74ce8c",
+      "generationRecord": "units/serpulo-ground-naval/bodies/dagger.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      300,
+      391
+    ],
+    "sourcePivot": [
+      158.0,
+      203.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      9,
+      4
+    ],
+    "sourceDimensions": [
+      316,
+      407
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      44,
+      44
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/dagger.png",
+    "gitBlobSha1": "784c3c49e1aaaafc781f125a730f82a14a9dd2c4",
+    "sha256": "048eff6288242a7d6a94e141a1d60b345c0f203a34af84eb0aeb1f10b10364c6"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

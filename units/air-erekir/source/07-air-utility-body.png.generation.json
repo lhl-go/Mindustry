@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/source/07-air-utility-body.png",
+  "sha256": "a387de6f44e9c8527b38fcf6dd12fac392d39a66a55bb7c5a36519e21a427227",
+  "generatedAt": "2026-10-26T10:37:47.185Z",
+  "generatedAtBasis": "tool_return_receipt_time",
+  "startedAt": "2026-10-26T10:36:54.352Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    2048
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 contains attack aircraft; Image2 contains support aircraft; Image3 contains core builders; Image4/5 style references. Draw these FIVE bodies in exact reading order:\n1 zenith, image1 top-right: same pointed jet hull and wings; REMOVE paired missile racks, leave smooth gold-rimmed mounting pads.\n2 antumbra, image1 bottom-left: same wide heavy hull and rear engines; REMOVE all missile and rotary-gun turrets, replace covered areas with uninterrupted matching armor.\n3 eclipse, image1 bottom-center: same broad winged capital hull and engines; REMOVE all long laser cannons and small gun turrets, leave clean round mounting bases only.\n4 mega, image2 top-right: same white cargo lifter hull, cargo opening, wings, carrying arms and engines; REMOVE small green repair weapon turrets only.\n5 incite, image3 middle: same four-engine builder hull and cargo socket; REMOVE small rotating tool head near side, retain main body and fixed clamps.\nOnly hulls; do not include any detached weapons elsewhere.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\01-serpulo-air-assault.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\02-serpulo-air-support.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\06-erekir-core-builders.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无型号、质量或尺寸参数，返回未披露精确型号和质量。",
+  "prompt": "prompts/air-erekir/07-air-utility-body.txt",
+  "promptSha256": "c6cbbb8cb4a37658f23722773317823eaa8139781fbda908270ed108ef89a761",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\01-serpulo-air-assault.png",
+      "sha256": "ef4d65196b1c9f6ebe0a8af36a7ef5d02532f197ba363a879c6c0c22cf6e6c27",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\02-serpulo-air-support.png",
+      "sha256": "d8b683ad5687d99ef0635afba0ea014bc641eb3e63f12db94fc2be517e4c2b47",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\06-erekir-core-builders.png",
+      "sha256": "15f443394c06c92af26344f4670d278af037ae672c2ba914c2fc456a1c7c5471",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    }
+  ],
+  "evidence": {
+    "receipt": "records/workers/air-erekir/07-air-utility-body.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-654d0c38-41bb-4121-a8c4-cbe22bbba6fd.png",
+    "originalOutputSha256": "a387de6f44e9c8527b38fcf6dd12fac392d39a66a55bb7c5a36519e21a427227",
+    "sourceBytesPreserved": true,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaInspection": {
+    "present": true,
+    "transparentPixels": 1004479,
+    "opaquePixels": 0,
+    "partialPixels": 568385
+  },
+  "units": [
+    "zenith-body",
+    "antumbra-body",
+    "eclipse-body",
+    "mega-body",
+    "incite-body"
+  ],
+  "status": "intermediate_retained_cleanup_blocked",
+  "sourceImageRetained": true,
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/vault.png",
+  "sourceGitBlob": "150f9acf2479873fc4eaad3fcc0adfd58e778cf0",
+  "sourceSha256": "ab7e396c43905844a5839abfaa5ac4864cc429fa1fef4037bb68516c197679f1",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "vault",
+  "blockId": "vault",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault.png",
+  "sha256": "56de9104844670da47b3020111cdd841c228fe7f1d194897fe0ec2717569b510",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault.png",
+  "engineSha256": "56de9104844670da47b3020111cdd841c228fe7f1d194897fe0ec2717569b510",
+  "nativeFile": "full-game/blocks/masters/vault.png",
+  "nativeSha256": "7e2831fd9fba999fbe28c703ceb5791a00130155ae968949d45a49f831f3b540",
+  "nativeSize": [
+    317,
+    300
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/vault.png",
+      "sha256": "7e2831fd9fba999fbe28c703ceb5791a00130155ae968949d45a49f831f3b540"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/vault.png",
+      "sha256": "ab7e396c43905844a5839abfaa5ac4864cc429fa1fef4037bb68516c197679f1"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault.png.derived.json"
+}

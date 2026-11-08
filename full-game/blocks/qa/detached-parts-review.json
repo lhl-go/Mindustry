@@ -1,0 +1,367 @@
+{
+  "schema": "mindustry-detached-parts-static-review-v1",
+  "reviewedAt": "2026-10-27T02:30:42.993762+00:00",
+  "nativeParts": 28,
+  "status": "passed_static_art_and_integrity_runtime_unverified",
+  "visualReviewEvidence": "All four final light/dark contact sheets were opened with view_image and actually inspected after the 28 exports completed.",
+  "visualObservations": [
+    "All 28 parts are separately identifiable, with consistent jade, ivory and warm gold painting.",
+    "No visible exterior colored speckles, grid dividers, neighboring subjects or opaque background remain in the reviewed light/dark contacts.",
+    "Fine metal edges, internal details and the translucent reactor ring remain visible; the ring is intentionally soft and luminous.",
+    "Large core thruster has all four nozzle modules; its decorative apex touched the source top at three pixels. Transparent padding is not reconstructed art."
+  ],
+  "orientationObservations": {
+    "core-thruster-small-part": "native nozzle openings face screen right",
+    "core-thruster-medium-part": "native nozzle openings face screen right",
+    "core-thruster-large-part": "native nozzle openings face screen left",
+    "integrationRequirement": "Compatibility exports must follow each original renderer convention; native art is not pre-oriented or mirrored."
+  },
+  "sourceEdgeContacts": [
+    {
+      "id": "core-thruster-large-part",
+      "pixels": {
+        "left": 0,
+        "top": 3,
+        "right": 0,
+        "bottom": 0
+      },
+      "note": "Source has three alpha>=16 pixels at the uppermost decorative apex. All four nozzle modules are present;16px padding adds no missing art or generated detail."
+    }
+  ],
+  "contactSheets": [
+    {
+      "file": "full-game/blocks/qa/moving-heads-pistons-02-light.jpg",
+      "sha256": "e6cb432aa7b9b2545a61fb309bb3e109a286b41b67efb842950cafeb3de6aed2",
+      "actualVisualReview": "pass"
+    },
+    {
+      "file": "full-game/blocks/qa/moving-heads-pistons-02-dark.jpg",
+      "sha256": "2d7a0d35662bd275c084df7d73005eacb6c597f90ac2d87bcaf67110d49cb6fb",
+      "actualVisualReview": "pass"
+    },
+    {
+      "file": "full-game/blocks/qa/root-detached-parts-03-light.jpg",
+      "sha256": "ba8015d27bdcb21ed5625eef4c337f3ace1f9f6a449b05a0d247e9bc9b1b2b9c",
+      "actualVisualReview": "pass"
+    },
+    {
+      "file": "full-game/blocks/qa/root-detached-parts-03-dark.jpg",
+      "sha256": "16022c6d41f22ed6db0bc1bd328f7d8bbf4fa488e728e58017db39fb79ee6af4",
+      "actualVisualReview": "pass"
+    }
+  ],
+  "assets": [
+    {
+      "id": "spore-press-piston-part",
+      "file": "full-game/blocks/masters/spore-press-piston-part.png",
+      "sha256": "6050e296f315fc8c17445c9ea761df0e12b10936cbdf8c5632445c18b7a847d8",
+      "nativeSize": [
+        132,
+        253
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "chemical-combustion-chamber-piston-part",
+      "file": "full-game/blocks/masters/chemical-combustion-chamber-piston-part.png",
+      "sha256": "1741dc9770e0e83d9a0b0cbaa3daf102ceecc9b91f78d3a3788460dd8b132711",
+      "nativeSize": [
+        205,
+        281
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "pyrolysis-generator-piston-part",
+      "file": "full-game/blocks/masters/pyrolysis-generator-piston-part.png",
+      "sha256": "94583e1afdda06a872dda1695627ba75be40f58c4617589e98b96b64df7e7eec",
+      "nativeSize": [
+        163,
+        283
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "pyrolysis-generator-piston-t-part",
+      "file": "full-game/blocks/masters/pyrolysis-generator-piston-t-part.png",
+      "sha256": "46b8dbae41080f8f11baa5f73e846b26f47d4e401b8347f44754a3c3f195c85f",
+      "nativeSize": [
+        344,
+        281
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "radar-head-part",
+      "file": "full-game/blocks/masters/radar-head-part.png",
+      "sha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee",
+      "nativeSize": [
+        288,
+        237
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "build-tower-head-part",
+      "file": "full-game/blocks/masters/build-tower-head-part.png",
+      "sha256": "8928ba3f94cf0a166685d6d1f1f0504d1f490de997c5b7072cb68db5ffb9cca3",
+      "nativeSize": [
+        295,
+        268
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "repair-point-head-part",
+      "file": "full-game/blocks/masters/repair-point-head-part.png",
+      "sha256": "ee6e4c302a40fcd3332e87581e10f4b67c4cba24de6612aa61302407c4074662",
+      "nativeSize": [
+        269,
+        199
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "repair-turret-head-part",
+      "file": "full-game/blocks/masters/repair-turret-head-part.png",
+      "sha256": "80b22a12a0958051533f23a3fc753dbc6bae6269dadd0048465217d5bcc25d00",
+      "nativeSize": [
+        361,
+        236
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "mass-driver-head-part",
+      "file": "full-game/blocks/masters/mass-driver-head-part.png",
+      "sha256": "157be2d8bf9baf7ef50b2d8d96826292d1eeb8209d8a4503887e163501452741",
+      "nativeSize": [
+        201,
+        290
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "payload-mass-driver-head-part",
+      "file": "full-game/blocks/masters/payload-mass-driver-head-part.png",
+      "sha256": "7591c6ec73964a03a212fd97741bf22b46856a8e8b83661feafb2cf6bff09f2c",
+      "nativeSize": [
+        213,
+        290
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "large-payload-mass-driver-head-part",
+      "file": "full-game/blocks/masters/large-payload-mass-driver-head-part.png",
+      "sha256": "b327f1b58d357c4e9072cb403eb00e40b6136c2d4a92832a6322a8915a4b9ed0",
+      "nativeSize": [
+        298,
+        309
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "payload-mass-driver-left-part",
+      "file": "full-game/blocks/masters/payload-mass-driver-left-part.png",
+      "sha256": "ddcf5a4c28f9d5e47d191762a9d8aa445805efc7b7cf6b4d9b00aaccab77ed9d",
+      "nativeSize": [
+        161,
+        301
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "large-payload-mass-driver-left-part",
+      "file": "full-game/blocks/masters/large-payload-mass-driver-left-part.png",
+      "sha256": "4a37463a97ba23b59834d0f5e6ab2af4529b608142b0d8e6eb26a60d21acb831",
+      "nativeSize": [
+        225,
+        287
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "payload-mass-driver-cap-part",
+      "file": "full-game/blocks/masters/payload-mass-driver-cap-part.png",
+      "sha256": "6ee2ea3fc3c7d80478f85f985330348481261cea877c7f893da5fe1143c6ac05",
+      "nativeSize": [
+        295,
+        141
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "large-payload-mass-driver-cap-part",
+      "file": "full-game/blocks/masters/large-payload-mass-driver-cap-part.png",
+      "sha256": "f554aae26b9beb74a97bc36a3adef10a0b568c988fd644d29a149f980de3129d",
+      "nativeSize": [
+        331,
+        166
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "unit-repair-tower-head-part",
+      "file": "full-game/blocks/masters/unit-repair-tower-head-part.png",
+      "sha256": "160b2df5e52dda0085c919fc55d473a75a97bd8f2665c1b8980dc7d09d44918a",
+      "nativeSize": [
+        266,
+        256
+      ],
+      "sourceSha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "core-thruster-small-part",
+      "file": "full-game/blocks/masters/core-thruster-small-part.png",
+      "sha256": "80f319782af080c046bf0bb642e1ed2440caaa3bbc5a3344887cb09d49e3205a",
+      "nativeSize": [
+        150,
+        311
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "core-thruster-medium-part",
+      "file": "full-game/blocks/masters/core-thruster-medium-part.png",
+      "sha256": "fabf4a3c4b64156fc7f0fecf11d3d0f6fbcbc880adede27ded1133fc16bd2bc5",
+      "nativeSize": [
+        154,
+        396
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "core-thruster-large-part",
+      "file": "full-game/blocks/masters/core-thruster-large-part.png",
+      "sha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500",
+      "nativeSize": [
+        187,
+        419
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "launchpod-part",
+      "file": "full-game/blocks/masters/launchpod-part.png",
+      "sha256": "89840cd7f9c094480bdc6bed19a5b0ef69c60c59acec5ac0785f69658b909cf8",
+      "nativeSize": [
+        310,
+        296
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "advanced-launch-pad-pod-part",
+      "file": "full-game/blocks/masters/advanced-launch-pad-pod-part.png",
+      "sha256": "308da3be5cf35d75076c46b03d3aa2ee032e7fae664095eec7a9a2038d98df73",
+      "nativeSize": [
+        337,
+        354
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "plastanium-conveyor-stack-part",
+      "file": "full-game/blocks/masters/plastanium-conveyor-stack-part.png",
+      "sha256": "d12020aee0d3e57e4831c3f09f23852b1cb028851146313d45068cbf2e9348c6",
+      "nativeSize": [
+        270,
+        287
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "surge-conveyor-stack-part",
+      "file": "full-game/blocks/masters/surge-conveyor-stack-part.png",
+      "sha256": "1a8191144893283750b10b78dfbde407a2c9c41c31ccb64ab3a68a50d27c1021",
+      "nativeSize": [
+        325,
+        334
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "phase-weaver-weave-part",
+      "file": "full-game/blocks/masters/phase-weaver-weave-part.png",
+      "sha256": "97d75b1d042a1cdbc5cf435847fd55892a7ff82b4f4238d97bfdf225d1f6097a",
+      "nativeSize": [
+        170,
+        352
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "phase-synthesizer-weave-part",
+      "file": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+      "sha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c",
+      "nativeSize": [
+        190,
+        374
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "impact-reactor-plasma-part",
+      "file": "full-game/blocks/masters/impact-reactor-plasma-part.png",
+      "sha256": "245b139bb7339b65a655deba16d61918655703a6a7d08253ec24381a17360510",
+      "nativeSize": [
+        348,
+        337
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "bridge-arrow-part",
+      "file": "full-game/blocks/masters/bridge-arrow-part.png",
+      "sha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427",
+      "nativeSize": [
+        183,
+        178
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    },
+    {
+      "id": "source-bottom-part",
+      "file": "full-game/blocks/masters/source-bottom-part.png",
+      "sha256": "0a34e4bcbb2d08cd7efb8eee479fbd310e9c1be0813558374fda81e2965ccbbc",
+      "nativeSize": [
+        310,
+        303
+      ],
+      "sourceSha256": "b48cc0a1c475ef1d8db89d6fb2357cf6f8df0fd633174b77f999285052fe9888",
+      "decodeHashDimensionsProvenancePaddingAndNativePixels": "pass"
+    }
+  ],
+  "runtimeIntegrationVerified": false,
+  "mainManifestModified": false,
+  "compatOutputsModified": false,
+  "pixelEditsInThisAudit": false
+}

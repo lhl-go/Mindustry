@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/corvus.png",
+  "sha256": "0716c5d0576cc2e1bab24472817159bcea6a49aaf61fe9a8b3ee6a23139f7f9f",
+  "width": 214,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/corvus.png",
+      "sha256": "806762bac2fc404f57d79535eed83a28db1349c870ce2e229f91d61142133e14",
+      "generationRecord": "units/serpulo-ground-naval/bodies/corvus.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      550,
+      538
+    ],
+    "sourcePivot": [
+      283.0,
+      277.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      40,
+      4
+    ],
+    "sourceDimensions": [
+      566,
+      554
+    ],
+    "targetDimensions": [
+      214,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      210,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      107.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/corvus.png",
+    "gitBlobSha1": "87d309348f18e6a036e1c09c5e50f4b598c83110",
+    "sha256": "3ff8c4120d41ba973166229d4491b5e9b72487eb75d9dac849edd0e3064a1555"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

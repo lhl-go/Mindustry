@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/armored-conveyor-shape-4.png",
+  "sha256": "f5f2b295c4d75bab87710e974e609ee5c31e06daffa10f8214db55bfecf5bf40",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conveyors-connections-01.png",
+      "sha256": "89ed7e538b640e55aa8522b57e784df78a68a0beba511d32e8747cdd244e53ef",
+      "generationRecord": "full-game/blocks/records/conveyors-connections-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1353,
+      662,
+      1583,
+      936
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      230,
+      274
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    262,
+    306
+  ],
+  "anchorPixels": [
+    131.0,
+    153.0
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

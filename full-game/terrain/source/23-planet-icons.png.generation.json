@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/23-planet-icons.png",
+  "sha256": "d08bd072393c6e2ccda6f6ead92e0bfaf1ebc01800886c8de80bb8ac1abee61b",
+  "generatedAt": "2026-10-26 20:18:53 UTC",
+  "startedAt": "2026-10-26 20:17:37 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    1536
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept game planet icon pair. Paint two complete isolated spherical planets on a genuinely transparent background, requested 3072x1536, exact 2 columns x 1 row. Image1 and Image2 are approved Daoist Q hand-painted craftsmanship references ONLY: jade, ivory, warm gold, round polished but natural illustrated finish. Never copy UI panels, lettering, characters, buildings or decorative frame. Image3 and Image4 are original functional planetary silhouette/color references only, do not copy their pixelated faceting. Left: Erekir, warm ochre / copper-orange rocky volcanic sphere with broad pale desert plates, deep charcoal basalt valleys, a few quiet jade mineral veins and restrained warm golden atmosphere rim. Right: Serpulo, purple-slate and cool jade mineral world with softly rounded mountain landmasses, deep violet lowland seas, subtle ivory cloud wisps, restrained lavender atmospheric rim. Strongly distinct natural geological geography, round whole spheres, full colored surface details, soft painterly relief, light from upper-right, no plastic gloss. Each globe centered in its half, generous transparent separation and transparent border, neither sphere touching. Both same diameter about 82 percent of cell height; all rim glow inside safe bounds. Refined bright clean game illustration, no stars or space background, no orbital rings, no text or labels. These are static planet icons, not texture maps.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets\\sprites\\planets\\erekir.png",
+      "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets\\sprites\\planets\\serpulo.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/23-planet-icons.txt",
+  "promptSha256": "c747dc4a69c8fc32392c8b1e8a02c8e933875e35d4cc3aa0ea5da105868e6130",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets\\sprites\\planets\\erekir.png",
+      "sha256": "951dfbdf7a5188e30c828d3b3436540925571d53dfb8578ab9b70d6121af694a",
+      "purpose": "official source functional silhouette/color reference only; original art style not adopted",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\mindustry-image\\full-game\\terrain\\reference\\core\\assets\\sprites\\planets\\serpulo.png",
+      "sha256": "d39a0ba294ea36fa19265e66e3226e764dc9a44964680122c7d5206d6b4a4b7e",
+      "purpose": "official source functional silhouette/color reference only; original art style not adopted",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/23-planet-icons.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-1af929e7-d832-4acd-a54d-fa8aa7fb84e3.png",
+    "originalOutputSha256": "d08bd072393c6e2ccda6f6ead92e0bfaf1ebc01800886c8de80bb8ac1abee61b"
+  },
+  "regions": [
+    "erekir",
+    "serpulo"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets/sprites/planets/erekir.png",
+      "sha256": "9af2e5a3288a60cfc483bc7e5e22a276ca98bf64b29d0e0bbe8b6dc9f51582e7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets/sprites/planets/serpulo.png",
+      "sha256": "e87895f581f21838cc769069e78739d81bc1e530d6b09482f7d0da6c4ddd6e59"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

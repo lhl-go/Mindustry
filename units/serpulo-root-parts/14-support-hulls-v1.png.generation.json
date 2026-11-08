@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-root-parts/14-support-hulls-v1.png",
+  "sha256": "5e34e34b287947d7283fe4f6ddceb7275c5a29a130e7a79b68d6207651b972f9",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    3072,
+    2048
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T06:51:11.102000-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Edit image 1, a five-vessel overhead sprite source board. Images 2 and 3 are primary Daoist jade/ivory/gold hand-painted style references. Preserve the exact five ship positions, overall silhouettes, top-down vertical camera, bow direction toward top, relative proportions and painted material.\nMake BODY-ONLY hull layers for an RTS, removing weapon mounts so independently rotating weapon sprites can be placed later. Preserve the five support hull silhouettes, integrated central green repair/energy-field reactor rings and propulsion. Remove every gun/barrel, all missiles, missile pods, point-defense turrets and large EMP launchers. Keep the central Aegires circular energy-field generator as a fixed body feature. Leave plain finished deck plating with small flat mount rings where required.\nRepaint the areas uncovered by removed weapons as coherent matching deck surface, not holes or transparent gaps. No detached parts. Preserve fine detail of all hulls. Maintain original 3×2 layout with 3 ships above, 2 below left/center and empty bottom-right. Genuine transparent background alpha0 around each ship, no floor, no water, no glow, no shadow plane, no text. Opaque hulls, clean antialiased edges, all bows/sterns complete with margins. Requested3072×2048 if supported. Same refined hand-painted style.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\serpulo-ground-naval\\boards\\05-support-naval.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "prompts/serpulo-root-parts/14-support-hulls-v1.txt",
+  "promptSha256": "bfb3caa8be682ea9804ad298881b2dc50673c2b9f18513efbd0757d843a3b60b",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\serpulo-ground-naval\\boards\\05-support-naval.png",
+      "sha256": "e54d6dd86558f1a90a447cc519292a423bbd810da8f62d6ba97ad53d4f1727e6",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records\\workers\\serpulo-root-parts\\14-support-hulls-v1.receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-075b4dfc-e0b2-452d-aada-1d0d7fa4c300.png",
+    "nativePngSha256": "5e34e34b287947d7283fe4f6ddceb7275c5a29a130e7a79b68d6207651b972f9",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 940648,
+  "status": "superseded_weapon_removal_incomplete",
+  "imageRetained": false,
+  "finalAssets": []
+}

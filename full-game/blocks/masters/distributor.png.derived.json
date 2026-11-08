@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/distributor.png",
+  "sha256": "51ba14f1c83e35d4dc5e1a29f7477a401d231713282720b38063d854996d1244",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      989,
+      20,
+      1314,
+      341
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      325,
+      321
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    357,
+    353
+  ],
+  "anchorPixels": [
+    178.5,
+    176.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

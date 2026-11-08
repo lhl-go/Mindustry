@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/melter.png",
+  "sourceGitBlob": "90e833e2f5090eea9dcdd083399c3be88bc49055",
+  "sourceSha256": "426a9d7baa219d32461e9e63e40144060dba41f81ce44afcc4605e090216166f",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "melter",
+  "blockId": "melter",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/melter.png",
+  "sha256": "40e2026c0fbd1c8667f3044364c41f85d72dea48d006de61a2a0050368e21136",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/melter.png",
+  "engineSha256": "40e2026c0fbd1c8667f3044364c41f85d72dea48d006de61a2a0050368e21136",
+  "nativeFile": "full-game/blocks/masters/melter.png",
+  "nativeSha256": "f6a153984a30d45edb4de593c26d8d8ece7a3fe754276913a0efd17994eb9503",
+  "nativeSize": [
+    304,
+    302
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/melter.png",
+      "sha256": "f6a153984a30d45edb4de593c26d8d8ece7a3fe754276913a0efd17994eb9503"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/melter.png",
+      "sha256": "426a9d7baa219d32461e9e63e40144060dba41f81ce44afcc4605e090216166f"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/melter.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

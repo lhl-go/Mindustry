@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/generated/bubble-2.png",
+  "sha256": "c677b5a5302dca356a3edc15529161a4c49919895a5dd5c7d3118656bfd8b784",
+  "width": 40,
+  "height": 40,
+  "format": "PNG",
+  "mode": "RGBA",
+  "artSource": "official_procedural_mask_algorithm",
+  "operation": {
+    "type": "deterministic_reproduction_of_pinned_Generators",
+    "frame": 2,
+    "frames": 16,
+    "size": 40,
+    "fin": 0.125,
+    "stroke": 3.0625,
+    "radius": 2.5,
+    "numericPrecision": "float32 geometry; integer texel coordinates",
+    "alpha": "binary 0/255",
+    "authoring": "No novel pictorial art drawn. Exact technical ring-mask formula retained."
+  },
+  "source": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lineStart": 136,
+    "lineEnd": 161,
+    "exactSource": "        generate(\"bubbles\", () -> {\n\n            int frames = 16;\n            int size = 40;\n            for(int i = 0; i < frames; i++){\n                float fin = (float)i / (frames);\n                float fout = 1f - fin;\n                float stroke = 3.5f * fout;\n                float radius = (size/2f) * fin;\n                float shinelen = radius / 2.5f, shinerad = stroke*1.5f + 0.3f;\n                float shinex = size/2f + shinelen / Mathf.sqrt2, shiney = size/2f - shinelen / Mathf.sqrt2;\n\n                Pixmap pixmap = new Pixmap(size, size);\n\n                pixmap.each((x, y) -> {\n                    float dst = Mathf.dst(x, y, size/2f, size/2f);\n                    if(Math.abs(dst - radius) <= stroke || Mathf.within(x, y, shinex, shiney, shinerad)){\n                        pixmap.set(x, y, Color.white);\n                    }\n                });\n\n                Fi.get(\"bubble-\" + i + \".png\").writePng(pixmap);\n\n                pixmap.dispose();\n            }\n        });"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not model generated; runtime technical mask formula.",
+  "engineNotVerified": true
+}

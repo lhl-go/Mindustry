@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/07-statuses-combat.png",
+      "sha256": "ac6ca1afc32eae50c2bcb7a58aef7aaa7ddd639ab6a6403d5023426f88151988",
+      "generationRecord": "full-game/items-fx/source/07-statuses-combat.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      49,
+      49,
+      395,
+      371
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-unmoving.png",
+  "sha256": "20722ad299928259d47c06b0a61dba76a79a36f6184a6208083d31336b73a4c6",
+  "width": 378,
+  "height": 354,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.670397+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ore-thorium1.png",
+  "sha256": "2911a75148b8b40b0cfa7a0bf3d4025db5654f09d558b2765e1858ea532b9e5b",
+  "createdAt": "2026-10-26T17:30:55.886434+00:00",
+  "kind": "derived_image",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium1.png",
+      "sha256": "415288ef882c8a137992565d6991519641dc1b1945d18927f0f80d910ab30002",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium1.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_cleaned_native_ore_after_single_foreign_fleck_removal",
+    "sourceNativeSize": [
+      216,
+      210
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.1388888888888889,
+    "registeredCanvas": [
+      32,
+      32
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

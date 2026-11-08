@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct-foot.png",
+  "sha256": "919cb8c88bf850371104c343bfedc8a2bd72f36334709cf249e278774144caae",
+  "width": 46,
+  "height": 46,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-foot.png",
+      "sha256": "5f5ccff3d3a9829151feae1ad8b110fe5d9e1c5a0dbaab8e6d6aa85f6ca144d2",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      200,
+      289
+    ],
+    "sourcePivot": [
+      108.0,
+      54.22
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      14,
+      3
+    ],
+    "sourceDimensions": [
+      216,
+      305
+    ],
+    "targetDimensions": [
+      46,
+      46
+    ],
+    "officialAlphaBounds": [
+      10,
+      3,
+      44,
+      43
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      23.0,
+      23.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/spiroct-foot.png",
+    "gitBlobSha1": "c501d7843d38c1c5c0b9d68d097777a64d4c0e09",
+    "sha256": "d73d99b08187cea2790f7077e99336e9004dc0667154a2c55e467c1c10a7e396"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

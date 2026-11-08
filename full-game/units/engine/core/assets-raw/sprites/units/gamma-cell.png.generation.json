@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/gamma-cell.png",
+  "sha256": "52dbe8474803529b701f77fe44eac9843e325d51bf77c9cb4c0d6e42a0774ff5",
+  "width": 56,
+  "height": 56,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/gamma.png",
+      "sha256": "ae07f25aa2f8fe5496caca24e5eb7d7fc7b3346218a5b0caf3dd1fe2f994cf9a",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/gamma.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "gamma",
+    "baseCanvas": [
+      68,
+      68
+    ],
+    "outputCanvas": [
+      56,
+      56
+    ],
+    "centerRegistrationOffset": [
+      -6,
+      -6
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/gamma-cell.png",
+    "gitBlobSha1": "c7d03aa2218095c47499fe7e27e0c053aae82004",
+    "sha256": "0f8ab50535829bb1f5eb81985fda174c72bdb90f66c22ab1de3b9c19810bf30b"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

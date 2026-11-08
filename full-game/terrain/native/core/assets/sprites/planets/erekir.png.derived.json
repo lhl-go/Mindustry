@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets/sprites/planets/erekir.png",
+  "sha256": "9af2e5a3288a60cfc483bc7e5e22a276ca98bf64b29d0e0bbe8b6dc9f51582e7",
+  "size": [
+    782,
+    775
+  ],
+  "mode": "RGBA",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/23-planet-icons.png",
+      "sha256": "d08bd072393c6e2ccda6f6ead92e0bfaf1ebc01800886c8de80bb8ac1abee61b",
+      "generationRecord": "full-game/terrain/source/23-planet-icons.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    74,
+    52,
+    856,
+    827
+  ],
+  "operation": "connected-component native crop; alpha <16 removed, alpha >=245 snapped opaque, hidden RGB zeroed; no resize",
+  "seamCheck": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

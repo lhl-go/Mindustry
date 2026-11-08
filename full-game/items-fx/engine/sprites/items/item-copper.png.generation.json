@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-copper.png",
+  "sha256": "57c357a42214851a48b8017c21b096e0833e8e16d7f8681012a028903f48c6f8",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-copper.png",
+      "sha256": "d18b4300e94654cb2afcb6852ef721226059afea11e69c0bda9b89fcedf4c298",
+      "generationRecord": "full-game/items-fx/assets/item-copper.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

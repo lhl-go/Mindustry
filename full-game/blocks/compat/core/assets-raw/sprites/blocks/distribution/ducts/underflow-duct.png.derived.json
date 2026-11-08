@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct.png",
+  "sourceGitBlob": "0f647a8ae42c9aa9bbae9944eefe00dc459cc94e",
+  "sourceSha256": "7eb846db07adceba160271930fe2c6cc44922705f735d1a6d24794048ac09ae0",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "underflow-duct",
+  "blockId": "underflow-duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct.png",
+  "sha256": "368b389be1577999d5845d85abe7b18d4a11cc19dbae1a255412039c1c48c2ab",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct.png",
+  "engineSha256": "368b389be1577999d5845d85abe7b18d4a11cc19dbae1a255412039c1c48c2ab",
+  "nativeFile": "full-game/blocks/masters-derived/underflow-duct.png",
+  "nativeSha256": "c18695a661443a66bf7e4f2f5a6087ef19b85da88f6c0d75ae158d931f78720e",
+  "nativeSize": [
+    340,
+    240
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/underflow-duct.png",
+      "sha256": "c18695a661443a66bf7e4f2f5a6087ef19b85da88f6c0d75ae158d931f78720e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/underflow-duct.png",
+      "sha256": "7eb846db07adceba160271930fe2c6cc44922705f735d1a6d24794048ac09ae0"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct.png.derived.json"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/phase-conveyor.png",
+  "sha256": "cd6ef8f78a72aadc559422618b505ee924553757a98021d3fb68a0175ed2847f",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      661,
+      47,
+      959,
+      323
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      298,
+      276
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    330,
+    308
+  ],
+  "anchorPixels": [
+    165.0,
+    154.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

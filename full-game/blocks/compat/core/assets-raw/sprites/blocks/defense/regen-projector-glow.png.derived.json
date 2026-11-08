@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/regen-projector-glow.png",
+  "sourceGitBlob": "4aa39ca852ac23bda8745046eabe09b0a70d5790",
+  "sourceSha256": "4c4b93af84908bcfde9aa0995e9643c69af226bfc144898b0da3450d1bf70679",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "regen-projector-glow",
+  "blockId": "regen-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-glow.png",
+  "sha256": "ac743e58f6db20c1a87531eea50b3f9187972f2bfd69345fdec10ab934c447b3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-glow.png",
+  "engineSha256": "ac743e58f6db20c1a87531eea50b3f9187972f2bfd69345fdec10ab934c447b3",
+  "nativeFile": "full-game/blocks/masters/regen-projector.png",
+  "nativeSha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf",
+  "nativeSize": [
+    355,
+    336
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    88,
+    88
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/regen-projector.png",
+      "sha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/regen-projector-glow.png",
+      "sha256": "4c4b93af84908bcfde9aa0995e9643c69af226bfc144898b0da3450d1bf70679"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-glow.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector-glow.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/regen-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+  "sha256": "2a4e8775f279510bab7cc06dca9173df685786791bd4de906aa0b36fd95aac12",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+      "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      216,
+      261
+    ],
+    "sourcePivot": [
+      116.0,
+      199.75
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      1
+    ],
+    "sourceDimensions": [
+      232,
+      277
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      20,
+      8,
+      28,
+      29
+    ],
+    "scale": 0.1251700680272109,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/retusa-weapon.png",
+    "gitBlobSha1": "183907169c2c36bdcbe89f80c57cf1050e49399a",
+    "sha256": "2c5b4d0948cee9e034c6d58cafe0721b25d12dec7896792960ad5f2d81a911f2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

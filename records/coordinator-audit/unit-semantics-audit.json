@@ -1,0 +1,1918 @@
+{
+  "auditedAt": "2026-10-26T10:31:14.556687+00:00",
+  "readOnly": true,
+  "scope": "Semantic part completeness only; earlier file hashes and UI rendering are not repeated.",
+  "upstreamVersion": "v160.7",
+  "workers": [
+    {
+      "worker": "special",
+      "manifest": "records/workers/special/manifest.json",
+      "status": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "sha256": "1ab29f05e463df197e92c6675e4f8cda0452f53e766c69b94e7dfa1f36f8a6ba"
+    },
+    {
+      "worker": "root-builders",
+      "manifest": "records/workers/root-builders/manifest.json",
+      "status": "three_builder_art_exports_complete_runtime_pending",
+      "sha256": "cba56e7a813839da7c37c66f02e82a7cd30f36c76b22e808446a8ac6d95d37e6"
+    },
+    {
+      "worker": "air-erekir",
+      "manifest": "records/workers/air-erekir/manifest.json",
+      "status": "independent_units_exported_layer_production_in_progress",
+      "sha256": "228a7616824f90cc66bb81633939c8f20f85aa43114661e63352dfd854e79847"
+    },
+    {
+      "worker": "serpulo-ground-naval",
+      "manifestMissing": true
+    }
+  ],
+  "mappedUnitsReviewed": 43,
+  "confirmedIssues": [],
+  "pendingParts": [
+    {
+      "id": "zenith",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "antumbra",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "eclipse",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "poly",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "mega",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "stell",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "locus",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "precept",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "vanquish",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "conquer",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent RegionPart image(s) for source-declared motion"
+        ]
+      }
+    },
+    {
+      "id": "merui",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent joint/leg/foot/base representation for procedural legs"
+        ]
+      }
+    },
+    {
+      "id": "cleroi",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent RegionPart image(s) for source-declared motion",
+          "independent joint/leg/foot/base representation for procedural legs"
+        ]
+      }
+    },
+    {
+      "id": "anthicus",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent RegionPart image(s) for source-declared motion",
+          "independent joint/leg/foot/base representation for procedural legs"
+        ]
+      }
+    },
+    {
+      "id": "tecta",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent joint/leg/foot/base representation for procedural legs"
+        ]
+      }
+    },
+    {
+      "id": "collaris",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent RegionPart image(s) for source-declared motion",
+          "independent joint/leg/foot/base representation for procedural legs"
+        ]
+      }
+    },
+    {
+      "id": "elude",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "avert",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "obviate",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent RegionPart image(s) for source-declared motion"
+        ]
+      }
+    },
+    {
+      "id": "quell",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    },
+    {
+      "id": "disrupt",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil",
+          "independent RegionPart image(s) for source-declared motion"
+        ]
+      }
+    },
+    {
+      "id": "incite",
+      "finding": {
+        "severity": "pending_required_parts",
+        "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+        "requirements": [
+          "independent named weapon region(s), for mount rotation and/or recoil"
+        ]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "manifold",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/manifold.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4582,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4582",
+        "endLine": 4607
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "assembly-drone",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/assembly-drone.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4609,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4609",
+        "endLine": 4633
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "dummy",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/dummy.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4635,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4635",
+        "endLine": 4669
+      },
+      "mobility": "sandbox_ground_or_flying_configurable",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "scathe-missile-phase",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/scathe-missile-phase.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "Blocks.java",
+        "line": 5345,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5345",
+        "endLine": 5439
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "scathe-missile-surge",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/scathe-missile-surge.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "Blocks.java",
+        "line": 5450,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5450",
+        "endLine": 5571
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/scathe-missile-surge-split.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "Blocks.java",
+        "line": 5506,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5506",
+        "endLine": 5559
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "anthicus-missile",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/anthicus-missile.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3465,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3465",
+        "endLine": 3502
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "quell-missile",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/quell-missile.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4115,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4115",
+        "endLine": 4138
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "scathe-missile",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/scathe-missile.png",
+      "roles": [
+        "body"
+      ],
+      "layerFileCount": 1,
+      "source": {
+        "source": "Blocks.java",
+        "line": 5257,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/Blocks.java#L5257",
+        "endLine": 5335
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "disrupt-missile",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/disrupt-missile.png",
+      "roles": [
+        "left-fin",
+        "body",
+        "right-fin"
+      ],
+      "layerFileCount": 3,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4236,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4236",
+        "endLine": 4296
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [
+        {
+          "suffix": "-fin",
+          "movement": {
+            "mirror": "true",
+            "moveRot": "32f",
+            "rotation": "-6f",
+            "moveY": "1.5f"
+          },
+          "sourceLine": 4260
+        }
+      ],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent RegionPart image(s) for source-declared motion"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "renale",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/renale.png",
+      "roles": [
+        "tail",
+        "torso",
+        "head"
+      ],
+      "layerFileCount": 3,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4309,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4309",
+        "endLine": 4327
+      },
+      "mobility": "segmented_crawler",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": 3,
+      "requirements": [
+        "3 independent crawler segment images"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "latum",
+      "worker": "special",
+      "workerStatus": "twelve_special_unit_art_exports_complete_runtime_pending",
+      "assetStatus": "art_exported_runtime_pending",
+      "compositeFile": "units/special/assets/latum.png",
+      "roles": [
+        "tail",
+        "torso",
+        "torso",
+        "head"
+      ],
+      "layerFileCount": 4,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4329,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4329",
+        "endLine": 4347
+      },
+      "mobility": "segmented_crawler",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": 4,
+      "requirements": [
+        "4 independent crawler segment images"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "alpha",
+      "worker": "root-builders",
+      "workerStatus": "three_builder_art_exports_complete_runtime_pending",
+      "assetStatus": "static_art_exported_runtime_unverified",
+      "compositeFile": "units/root-builders/assets/alpha-v2.png",
+      "roles": [
+        "weapon_mirrored_pair",
+        "body"
+      ],
+      "layerFileCount": 2,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2494,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2494",
+        "endLine": 2543
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "small-basic-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.5,
+          "sourceLine": 2517
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "beta",
+      "worker": "root-builders",
+      "workerStatus": "three_builder_art_exports_complete_runtime_pending",
+      "assetStatus": "static_art_exported_runtime_unverified",
+      "compositeFile": "units/root-builders/assets/beta-v2.png",
+      "roles": [
+        "weapon_mirrored_pair",
+        "body"
+      ],
+      "layerFileCount": 2,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2545,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2545",
+        "endLine": 2594
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "small-mount-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.0,
+          "sourceLine": 2565
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "gamma",
+      "worker": "root-builders",
+      "workerStatus": "three_builder_art_exports_complete_runtime_pending",
+      "assetStatus": "static_art_exported_runtime_unverified",
+      "compositeFile": "units/root-builders/assets/gamma-v3.png",
+      "roles": [
+        "weapon_mirrored_pair",
+        "body"
+      ],
+      "layerFileCount": 2,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2596,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2596",
+        "endLine": 2649
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "small-mount-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.5,
+          "sourceLine": 2616
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "flare",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/flare.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1047,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1047",
+        "endLine": 1089
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "horizon",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/horizon.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1091,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1091",
+        "endLine": 1138
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "zenith",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/zenith.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1140,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1140",
+        "endLine": 1185
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "zenith-missiles",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1156
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "antumbra",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/antumbra.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1187,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1187",
+        "endLine": 1261
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "missiles-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1220
+        },
+        {
+          "region": "missiles-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1231
+        },
+        {
+          "region": "large-bullet-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1242
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "eclipse",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/eclipse.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1263,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1263",
+        "endLine": 1340
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "large-laser-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 4.0,
+          "sourceLine": 1292
+        },
+        {
+          "region": "large-artillery",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 0.5,
+          "sourceLine": 1315
+        },
+        {
+          "region": "large-artillery",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1327
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "mono",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/mono.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1345,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1345",
+        "endLine": 1362
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "poly",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/poly.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1364,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1364",
+        "endLine": 1420
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "poly-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 2.0,
+          "sourceLine": 1389
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "mega",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/mega.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1422,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1422",
+        "endLine": 1471
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "heal-weapon-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1443
+        },
+        {
+          "region": "heal-weapon-mount",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 1457
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "quad",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/quad.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1473,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1473",
+        "endLine": 1545
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "oct",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/oct.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 1547,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L1547",
+        "endLine": 1572
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "stell",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/stell.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2654,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2654",
+        "endLine": 2698
+      },
+      "mobility": "tracked_tank",
+      "namedWeapons": [
+        {
+          "region": "stell-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.0,
+          "sourceLine": 2669
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "locus",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/locus.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2700,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2700",
+        "endLine": 2781
+      },
+      "mobility": "tracked_tank",
+      "namedWeapons": [
+        {
+          "region": "locus-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.0,
+          "sourceLine": 2716
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "precept",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/precept.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2783,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2783",
+        "endLine": 2855
+      },
+      "mobility": "tracked_tank",
+      "namedWeapons": [
+        {
+          "region": "precept-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 3.0,
+          "sourceLine": 2798
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "vanquish",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/vanquish.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2857,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2857",
+        "endLine": 2967
+      },
+      "mobility": "tracked_tank",
+      "namedWeapons": [
+        {
+          "region": "vanquish-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 4.0,
+          "sourceLine": 2874
+        },
+        {
+          "region": "vanquish-point-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 2.0,
+          "sourceLine": 2939
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "conquer",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/conquer.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 2969,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L2969",
+        "endLine": 3148
+      },
+      "mobility": "tracked_tank",
+      "namedWeapons": [
+        {
+          "region": "conquer-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 5.0,
+          "sourceLine": 2987
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-glow",
+          "movement": {
+            "mirror": "false"
+          },
+          "sourceLine": 3007
+        },
+        {
+          "suffix": "-sides",
+          "movement": {
+            "mirror": "true",
+            "moveX": "0.75f",
+            "moveY": "0.75f",
+            "moveRot": "82f"
+          },
+          "sourceLine": 3012
+        },
+        {
+          "suffix": "-sinks",
+          "movement": {
+            "mirror": "true",
+            "moveX": "17f / 4f",
+            "moveY": "-15f / 4f"
+          },
+          "sourceLine": 3022
+        },
+        {
+          "suffix": "-sinks-heat",
+          "movement": {
+            "mirror": "true",
+            "moveX": "17f / 4f",
+            "moveY": "-15f / 4f"
+          },
+          "sourceLine": 3032
+        },
+        {
+          "suffix": "-blade",
+          "movement": {
+            "mirror": "true",
+            "moveRot": "-40f * fi",
+            "moveX": "3f"
+          },
+          "sourceLine": 3048
+        },
+        {
+          "suffix": "-glow",
+          "movement": {},
+          "sourceLine": 3142
+        }
+      ],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent RegionPart image(s) for source-declared motion"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent RegionPart image(s) for source-declared motion"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "merui",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/merui.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3153,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3153",
+        "endLine": 3237
+      },
+      "mobility": "multi_leg",
+      "namedWeapons": [
+        {
+          "region": "merui-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.5,
+          "sourceLine": 3188
+        }
+      ],
+      "regionParts": [],
+      "legCount": 6,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent joint/leg/foot/base representation for procedural legs"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent joint/leg/foot/base representation for procedural legs"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "cleroi",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/cleroi.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3239,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3239",
+        "endLine": 3347
+      },
+      "mobility": "multi_leg",
+      "namedWeapons": [
+        {
+          "region": "cleroi-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 2.0,
+          "sourceLine": 3280
+        },
+        {
+          "region": "cleroi-point-defense",
+          "class": "PointDefenseWeapon",
+          "rotate": false,
+          "recoil": 0.5,
+          "sourceLine": 3330
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-spine",
+          "movement": {
+            "moveX": "21f / 4f + Mathf.slope(fi / 4f) * 1.25f",
+            "moveRot": "10f - fi * 14f",
+            "mirror": "true"
+          },
+          "sourceLine": 3269
+        }
+      ],
+      "legCount": 4,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent RegionPart image(s) for source-declared motion",
+        "independent joint/leg/foot/base representation for procedural legs"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent RegionPart image(s) for source-declared motion",
+            "independent joint/leg/foot/base representation for procedural legs"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "anthicus",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/anthicus.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3349,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3349",
+        "endLine": 3505
+      },
+      "mobility": "multi_leg",
+      "namedWeapons": [
+        {
+          "region": "anthicus-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 3397
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "movement": {
+            "moveX": "6f + i * 1.9f",
+            "moveY": "8f + -4f * i",
+            "moveRot": "40f - i * 25f",
+            "mirror": "true"
+          },
+          "sourceLine": 3382
+        },
+        {
+          "suffix": "-blade",
+          "movement": {
+            "mirror": "true",
+            "moveRot": "-25f"
+          },
+          "sourceLine": 3424
+        },
+        {
+          "suffix": "-blade",
+          "movement": {
+            "mirror": "true",
+            "moveRot": "-50f",
+            "moveY": "-2f"
+          },
+          "sourceLine": 3434
+        }
+      ],
+      "legCount": 6,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent RegionPart image(s) for source-declared motion",
+        "independent joint/leg/foot/base representation for procedural legs"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent RegionPart image(s) for source-declared motion",
+            "independent joint/leg/foot/base representation for procedural legs"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "tecta",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/tecta.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3507,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3507",
+        "endLine": 3613
+      },
+      "mobility": "multi_leg",
+      "namedWeapons": [
+        {
+          "region": "tecta-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 3.0,
+          "sourceLine": 3558
+        }
+      ],
+      "regionParts": [],
+      "legCount": 6,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent joint/leg/foot/base representation for procedural legs"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent joint/leg/foot/base representation for procedural legs"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "collaris",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/collaris.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3615,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3615",
+        "endLine": 3784
+      },
+      "mobility": "multi_leg",
+      "namedWeapons": [
+        {
+          "region": "collaris-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 4.0,
+          "sourceLine": 3654
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "movement": {
+            "moveY": "1f - fi * 1f",
+            "moveX": "fi * 0.3f",
+            "moveRot": "-45f - fi * 17f"
+          },
+          "sourceLine": 3679
+        }
+      ],
+      "legCount": 8,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent RegionPart image(s) for source-declared motion",
+        "independent joint/leg/foot/base representation for procedural legs"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent RegionPart image(s) for source-declared motion",
+            "independent joint/leg/foot/base representation for procedural legs"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "elude",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/elude.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3789,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3789",
+        "endLine": 3856
+      },
+      "mobility": "hover_ground_over_liquids",
+      "namedWeapons": [
+        {
+          "region": "elude-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.5,
+          "sourceLine": 3829
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "avert",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/avert.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3858,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3858",
+        "endLine": 3921
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "avert-weapon",
+          "class": "Weapon",
+          "rotate": false,
+          "recoil": 1.0,
+          "sourceLine": 3877
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "obviate",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/obviate.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 3923,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L3923",
+        "endLine": 4042
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "movement": {
+            "moveRot": "-10f",
+            "moveX": "2f",
+            "mirror": "true",
+            "moveY": "-2f"
+          },
+          "sourceLine": 3943
+        },
+        {
+          "suffix": "-side",
+          "movement": {
+            "moveX": "2f",
+            "moveY": "-2f",
+            "mirror": "true"
+          },
+          "sourceLine": 3950
+        }
+      ],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent RegionPart image(s) for source-declared motion"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent RegionPart image(s) for source-declared motion"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "quell",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/quell.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4044,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4044",
+        "endLine": 4147
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "quell-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.0,
+          "sourceLine": 4074
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "disrupt",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/disrupt.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4149,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4149",
+        "endLine": 4304
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "disrupt-weapon",
+          "class": "Weapon",
+          "rotate": true,
+          "recoil": 1.0,
+          "sourceLine": 4194
+        }
+      ],
+      "regionParts": [
+        {
+          "suffix": "-blade",
+          "movement": {
+            "moveRot": "-33f",
+            "moveY": "-1f",
+            "moveX": "-1f",
+            "mirror": "true"
+          },
+          "sourceLine": 4214
+        }
+      ],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil",
+        "independent RegionPart image(s) for source-declared motion"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil",
+            "independent RegionPart image(s) for source-declared motion"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "evoke",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/evoke.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4354,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4354",
+        "endLine": 4418
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "incite",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/incite.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4420,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4420",
+        "endLine": 4497
+      },
+      "mobility": "flying",
+      "namedWeapons": [
+        {
+          "region": "build-weapon",
+          "class": "BuildWeapon",
+          "rotate": true,
+          "recoil": 1.5,
+          "sourceLine": 4489
+        }
+      ],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [
+        "independent named weapon region(s), for mount rotation and/or recoil"
+      ],
+      "findings": [
+        {
+          "severity": "pending_required_parts",
+          "message": "Composite unit PNG exists but worker declares no independent layer mapping.",
+          "requirements": [
+            "independent named weapon region(s), for mount rotation and/or recoil"
+          ]
+        }
+      ],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    },
+    {
+      "id": "emanate",
+      "worker": "air-erekir",
+      "workerStatus": "independent_units_exported_layer_production_in_progress",
+      "assetStatus": "composite_exported_required_layers_in_progress",
+      "compositeFile": "units/air-erekir/individual/emanate.png",
+      "roles": [],
+      "layerFileCount": 0,
+      "source": {
+        "source": "UnitTypes.java",
+        "line": 4499,
+        "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/content/UnitTypes.java#L4499",
+        "endLine": 4567
+      },
+      "mobility": "flying",
+      "namedWeapons": [],
+      "regionParts": [],
+      "legCount": null,
+      "segments": null,
+      "requirements": [],
+      "findings": [],
+      "runtimeStatus": "Not evaluated; engine integration alone is not an art failure."
+    }
+  ],
+  "knownSourceRendererEvidence": [
+    {
+      "file": "records/reference-unit-sources/UnitType.java",
+      "line": 1902,
+      "fact": "drawCrawl draws each segment image at the unit center with source-defined motion; transparent image offsets express the assembled shape."
+    },
+    {
+      "file": "records/coordinator-audit/Weapon-v160.7.java",
+      "line": 218,
+      "url": "https://github.com/Anuken/Mindustry/blob/v160.7/core/src/mindustry/type/Weapon.java#L218",
+      "fact": "Weapon draw applies mount rotation and recoil before drawing its named region."
+    }
+  ],
+  "limitations": [
+    "Mask/outline/team-cell atlas pipeline not executed; no failure is inferred from that absence.",
+    "Source-level named region presence does not prove a separate picture is needed for nameless effect-only weapons; those are not flagged.",
+    "Per-part shape completeness and dynamic registration require visual/source review; no image transforms or runtime tests performed."
+  ]
+}

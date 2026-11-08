@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct-top.png",
+  "sourceGitBlob": "7a6637d7a93903ffd2001607dca25f462f48aee9",
+  "sourceSha256": "92940e47f90ad9cf3a7a28b7bda9f2d3d61ebe11d708f0b58c34ff4deb45db26",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "overflow-duct-top",
+  "blockId": "overflow-duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct-top.png",
+  "sha256": "6a6ff5dc523fa9b9d7d906b5e021ad48e74151be94b874f7f8be6b600200e6f4",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct-top.png",
+  "engineSha256": "6a6ff5dc523fa9b9d7d906b5e021ad48e74151be94b874f7f8be6b600200e6f4",
+  "nativeFile": "full-game/blocks/masters-derived/overflow-duct.png",
+  "nativeSha256": "d93b1365fd1d5df8f9d20e7cd134f499b8abd8ba8384914920f391955d5e7097",
+  "nativeSize": [
+    304,
+    264
+  ],
+  "sourceAlphaBounds": [
+    13,
+    11,
+    21,
+    21
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/overflow-duct.png",
+      "sha256": "d93b1365fd1d5df8f9d20e7cd134f499b8abd8ba8384914920f391955d5e7097"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/overflow-duct-top.png",
+      "sha256": "92940e47f90ad9cf3a7a28b7bda9f2d3d61ebe11d708f0b58c34ff4deb45db26"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct-top.png.derived.json"
+}

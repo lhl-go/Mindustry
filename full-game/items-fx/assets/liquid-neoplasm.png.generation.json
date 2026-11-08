@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/04-liquids.png",
+      "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+      "generationRecord": "full-game/items-fx/source/04-liquids.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      26,
+      37,
+      430,
+      412
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-neoplasm.png",
+  "sha256": "161d9e9d42f4ed44ca5b5d423bb6d5ab67af2009fd3382e2fa13b6a5ec2996f4",
+  "width": 436,
+  "height": 407,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.140851+00:00"
+}

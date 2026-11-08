@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid-cell.png",
+  "sha256": "2df957ecc39a7220536abe4ffd294baa61a50ef9a25053aba8c9a314a4887240",
+  "width": 152,
+  "height": 124,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid.png",
+      "sha256": "96d349f3d3563009f9e885ec860d701541ef9f5071fc864bec5629888bfaf925",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/toxopid.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "toxopid",
+    "baseCanvas": [
+      160,
+      190
+    ],
+    "outputCanvas": [
+      152,
+      124
+    ],
+    "centerRegistrationOffset": [
+      -4,
+      -33
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/toxopid-cell.png",
+    "gitBlobSha1": "b58dba388dd884fd8ec2b2b921474d6afc514c52",
+    "sha256": "895073a9d61e55616f6afeadf04ff0009949895ab1c6851ef67610c97aee7aef"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

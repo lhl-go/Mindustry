@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/conveyors/conveyor-0-3.png",
+  "sourceGitBlob": "4406e12de43556839b10a57447bc217a864aec01",
+  "sourceSha256": "21c1a13a5135e2adfe7c3cd81977dfb22d5ae1558a33ca34652f4061741a3c6b",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "conveyor-0-3",
+  "blockId": "conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/conveyor-0-3.png",
+  "sha256": "c85c4c3dc86710e7fe8276bff026e27b65d0be2f65360af8d71f47f19ff01508",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/conveyor-0-3.png",
+  "engineSha256": "c85c4c3dc86710e7fe8276bff026e27b65d0be2f65360af8d71f47f19ff01508",
+  "nativeFile": "full-game/blocks/masters/conveyor-shape-0.png",
+  "nativeSha256": "f8ad52819f5eabbf9ee3a389da51b0ad8edd7195aed598e29cc457aac6d57532",
+  "nativeSize": [
+    279,
+    173
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 0,
+    "animationFrame": 3,
+    "topLayerUsesOriginalTransparentChannels": false,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/conveyor-shape-0.png",
+      "sha256": "f8ad52819f5eabbf9ee3a389da51b0ad8edd7195aed598e29cc457aac6d57532"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/conveyors/conveyor-0-3.png",
+      "sha256": "21c1a13a5135e2adfe7c3cd81977dfb22d5ae1558a33ca34652f4061741a3c6b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/conveyors/conveyor-0-3.png.derived.json"
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter-cell.png",
+  "sha256": "a894856b37c854f303c32db1891bb72de9a13ab2171c96811f89e1d46c2d8d36",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter.png",
+      "sha256": "37132a7dc2733d1860902d55c14f6d306ce31a0434c795c36f1fde7dc8226810",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/scepter.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "scepter",
+    "baseCanvas": [
+      170,
+      140
+    ],
+    "outputCanvas": [
+      128,
+      128
+    ],
+    "centerRegistrationOffset": [
+      -21,
+      -6
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/scepter-cell.png",
+    "gitBlobSha1": "86aec9412d4d848c6451da2fabb063df03ee3322",
+    "sha256": "0aae2dcf0564ebd5e8a17997d473a4c5ce4c423e781cb0de83409ffe09072829"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

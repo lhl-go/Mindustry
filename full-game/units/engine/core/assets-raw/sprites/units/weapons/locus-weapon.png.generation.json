@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon.png",
+  "sha256": "53b6a00993ed653ae3ea08a47f25fb53902a9436fa30297f115d2ebaa013bddb",
+  "width": 96,
+  "height": 102,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/locus-weapon.png",
+      "sha256": "bad4e625196b7c53022318ce06f67f5427ef2868e0785711b876980418036144",
+      "generationRecord": "units/air-erekir-parts/assets/locus-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      293,
+      338
+    ],
+    "sourcePivot": [
+      159,
+      251
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      19,
+      1
+    ],
+    "sourceDimensions": [
+      325,
+      370
+    ],
+    "targetDimensions": [
+      96,
+      102
+    ],
+    "officialAlphaBounds": [
+      23,
+      7,
+      73,
+      85
+    ],
+    "scale": 0.228310502283105,
+    "engineAnchorPx": [
+      48.0,
+      51.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/locus-weapon.png",
+    "gitBlobSha1": "bb426746dd9d306d926265229175001a5a2a0ab6",
+    "sha256": "2a55c7bce1e56e8bc17d249912910f1bf9114fcb547ecd29957db06541418835"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

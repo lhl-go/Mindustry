@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/duct-bridge.png",
+  "sourceGitBlob": "428785c66c5180ade5ddfe4a080f034604f6bd1a",
+  "sourceSha256": "28da4954397e1b2d0349cee7ecf5140a2bea73890cca3cf250341aeba2655c96",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "duct-bridge",
+  "blockId": "duct-bridge",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-bridge.png",
+  "sha256": "4fd3488eec444494977bb3a05ce72b5bcb4f75559c61c65fb590726c067e691b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-bridge.png",
+  "engineSha256": "4fd3488eec444494977bb3a05ce72b5bcb4f75559c61c65fb590726c067e691b",
+  "nativeFile": "full-game/blocks/masters/duct-bridge.png",
+  "nativeSha256": "fd8665990617bf785c8843b01476d33ca8beadb6ddf240b4f396921baf02c2e2",
+  "nativeSize": [
+    255,
+    249
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/duct-bridge.png",
+      "sha256": "fd8665990617bf785c8843b01476d33ca8beadb6ddf240b4f396921baf02c2e2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/duct-bridge.png",
+      "sha256": "28da4954397e1b2d0349cee7ecf5140a2bea73890cca3cf250341aeba2655c96"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-bridge.png.derived.json"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/surge-router.png",
+  "sha256": "77fd935ea1124c9c42a644dc287283420233eb2085387b7a0b4b43c31bb6b67e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      663,
+      648,
+      957,
+      922
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      294,
+      274
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    326,
+    306
+  ],
+  "anchorPixels": [
+    163.0,
+    153.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

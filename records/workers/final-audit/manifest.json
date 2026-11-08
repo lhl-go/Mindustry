@@ -1,0 +1,148 @@
+{
+  "status": "ready_for_root_state_export",
+  "updatedAt": "2026-10-26T10:28:00.169435+00:00",
+  "worker": "hud_review",
+  "affectedIds": [
+    "UI-004",
+    "UI-009",
+    "UI-011",
+    "UI-012",
+    "UI-014",
+    "UI-018",
+    "UI-019",
+    "UI-021",
+    "UI-022",
+    "UI-023",
+    "UI-025",
+    "UI-026",
+    "UI-027",
+    "UI-028"
+  ],
+  "stateCount": 75,
+  "stateViewportPairs": 150,
+  "renderFailures": 0,
+  "duplicateStates": [],
+  "consoleErrors": [],
+  "offlineCheck": {
+    "url": "file:///D:/work/image/mindustry-image/exports/index.html",
+    "unitSearchGammaPresent": true,
+    "uiGroups": 64,
+    "iframeReady": {
+      "id": "UI-001",
+      "stateIndex": 0,
+      "state": "桌面主菜单",
+      "device": "desktop",
+      "kind": "screen"
+    },
+    "consoleErrors": []
+  },
+  "interactionChecks": [
+    {
+      "name": "random seed changes local field",
+      "passed": true
+    },
+    {
+      "name": "empty filter state replaces list",
+      "passed": true
+    },
+    {
+      "name": "clear objectives displays local confirmation",
+      "passed": true
+    },
+    {
+      "name": "state navigation returns to catalog",
+      "passed": true
+    },
+    {
+      "name": "mobile chat input visible above footer without scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile chat history independently scrollable",
+      "passed": true
+    },
+    {
+      "name": "mobile long parameters scroll with footer retained",
+      "passed": true
+    }
+  ],
+  "visualReview": {
+    "representativeScreenshotsViewed": 16,
+    "latestChatScreenshotRechecked": true,
+    "result": "passed for listed screen layout scope",
+    "files": [
+      "records/workers/final-audit/screenshots/UI-004-2-mobile.png",
+      "records/workers/final-audit/screenshots/UI-011-2-mobile.png",
+      "records/workers/final-audit/screenshots/UI-014-1-desktop.png",
+      "records/workers/final-audit/screenshots/UI-014-3-mobile.png",
+      "records/workers/final-audit/screenshots/UI-018-2-mobile.png",
+      "records/workers/final-audit/screenshots/UI-018-3-mobile.png",
+      "records/workers/final-audit/screenshots/UI-019-3-desktop.png",
+      "records/workers/final-audit/screenshots/UI-021-2-mobile.png",
+      "records/workers/final-audit/screenshots/UI-021-3-desktop.png",
+      "records/workers/final-audit/screenshots/UI-022-3-mobile.png",
+      "records/workers/final-audit/screenshots/UI-023-3-mobile.png",
+      "records/workers/final-audit/screenshots/UI-025-3-mobile.png",
+      "records/workers/final-audit/screenshots/UI-026-1-mobile.png",
+      "records/workers/final-audit/screenshots/UI-027-1-mobile.png",
+      "records/workers/final-audit/screenshots/UI-027-2-mobile.png",
+      "records/workers/final-audit/screenshots/UI-028-1-mobile.png"
+    ]
+  },
+  "sources": [
+    {
+      "file": "ui/preview/screen-audit-fixes.js",
+      "sha256": "ecd8e5a59cd96994189693e79cce92395f12abd221953a25d20ef21718bcda2c"
+    },
+    {
+      "file": "ui/preview/screen-audit-fixes.css",
+      "sha256": "5152ea9c020a89ef64a5ee0ed12dd383b3f135ce3e9445222b7cc5517f6ae4d0"
+    },
+    {
+      "file": "ui/preview/data.js",
+      "sha256": "c86e86bca4d8943c923c431fefbef595fd362af236c63663879599a69b33eee3"
+    },
+    {
+      "file": "ui/preview/index.html",
+      "sha256": "745b7ffdd56c23733b310646ae728eb04df747475e1d7497be6497c8b12a901f"
+    },
+    {
+      "file": "ui/preview/unit-art.js",
+      "sha256": "70f70d070f24e9721e14f67b1d16ae11d6ac293a660903c5420a63cd00943f46"
+    },
+    {
+      "file": "ui/preview/unit-art-data.js",
+      "sha256": "97838c2bb537ebd2f3c9593450fa10240c515ac454781112a3a833d68ecb76e6"
+    },
+    {
+      "file": "records/inventory-ui.json",
+      "sha256": "9ff340d7c934fed79fc74864583484507d6aea6e58c5afe740cb49c7ac722fe0"
+    },
+    {
+      "file": "records/dynamic-coverage.json",
+      "sha256": "1c862bef973d6a7373b2db8c5bb846d4d2cac08f1902134f41f9ad34d3fcf0a7"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "records/workers/final-audit/static-check.json",
+      "sha256": "45f9cb774399ba58c26aed4bb85326d91159f220e692248148409c63f47ff40d"
+    },
+    {
+      "file": "records/workers/final-audit/screen-fixes-browser.json",
+      "sha256": "2e7a2779d3d14be2e8dbc58f81ffcbe0fb20533b604d13f91d94beab2ca1194a"
+    },
+    {
+      "file": "records/workers/final-audit/interaction-check.json",
+      "sha256": "a691fa8756e6f9ce749eec11ab1091fc56eae06b9a463dff0b5a3d8ec09d55ad"
+    }
+  ],
+  "rootFollowup": [
+    "Re-export the affected UI states after final unit-art mappings settle.",
+    "Correct README sidecar wording for browser-rendered state PNGs."
+  ],
+  "runtimeIntegrationVerified": false,
+  "otherFamilyProduction": "Excluded from missing-art failure conclusions while actively in production.",
+  "builderCompositeFix": "Root-reported Alpha/Beta/Gamma fix; this worker did not re-review the replacement composites.",
+  "originalConceptNativeResolutionVerifiedByThisPass": false
+}

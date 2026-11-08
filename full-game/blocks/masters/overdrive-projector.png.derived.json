@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/overdrive-projector.png",
+  "sha256": "5ca82a5433ab6b3c14aff7e6b23d624682fac70200c8807df860810c18e40336",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      767,
+      104,
+      1014,
+      344
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      247,
+      240
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    279,
+    272
+  ],
+  "anchorPixels": [
+    139.5,
+    136.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

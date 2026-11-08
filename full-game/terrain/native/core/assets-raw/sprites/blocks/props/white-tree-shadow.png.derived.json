@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree-shadow.png",
+  "sha256": "c5dce2aa976438930535f5b0315317011f21a5967163fc5e25203faf2a104d72",
+  "size": [
+    913,
+    898
+  ],
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "7b28a50fb8b5659df0a84ece16c1a66c5d3b824738527df51e1fbf5079045887",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "f6578b3c1a5aa5b3228201c08188016c09bda8515f2e332986323876a7b0c2fa",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 138,
+    "bodyNotUpscaled": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "derived at native body resolution; generated silhouette, local shadow operation"
+}

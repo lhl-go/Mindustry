@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/pyrolysis-generator-glow.png",
+  "sourceGitBlob": "f49f17b58eb548552ce9402b67c6d5f842ec07c7",
+  "sourceSha256": "1ed8fb7ac0e9caad4d2f22281f80c0641fae755a6c0cd3cc2c193f24bbda9eac",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "pyrolysis-generator-glow",
+  "blockId": "pyrolysis-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-glow.png",
+  "sha256": "fbe38f25cb7b3c4ab6e77f19f0fe2fb567848fafec5ad8305084bf8720e80ca6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-glow.png",
+  "engineSha256": "fbe38f25cb7b3c4ab6e77f19f0fe2fb567848fafec5ad8305084bf8720e80ca6",
+  "nativeFile": "full-game/blocks/masters/pyrolysis-generator.png",
+  "nativeSha256": "af1d1504ca693564ee3e870543cb1cf612931195eeb4a50772b889eb07eaff71",
+  "nativeSize": [
+    374,
+    321
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pyrolysis-generator.png",
+      "sha256": "af1d1504ca693564ee3e870543cb1cf612931195eeb4a50772b889eb07eaff71"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/pyrolysis-generator-glow.png",
+      "sha256": "1ed8fb7ac0e9caad4d2f22281f80c0641fae755a6c0cd3cc2c193f24bbda9eac"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

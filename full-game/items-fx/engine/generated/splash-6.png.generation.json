@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/generated/splash-6.png",
+  "sha256": "4036fd3149c6669da225eccdfece7f780a60558d8592d6e7345164e4eb797d8e",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "artSource": "official_procedural_mask_algorithm",
+  "operation": {
+    "type": "deterministic_reproduction_of_pinned_Generators",
+    "frame": 6,
+    "frames": 12,
+    "size": 32,
+    "fin": 0.5,
+    "stroke": 1.75,
+    "radius": 8.0,
+    "numericPrecision": "float32 geometry; integer texel coordinates",
+    "alpha": "binary 0/255",
+    "authoring": "No novel pictorial art drawn. Exact technical ring-mask formula retained."
+  },
+  "source": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lineStart": 109,
+    "lineEnd": 134,
+    "exactSource": "        generate(\"splashes\", () -> {\n\n            int frames = 12;\n            int size = 32;\n            for(int i = 0; i < frames; i++){\n                float fin = (float)i / (frames);\n                float fout = 1f - fin;\n                float stroke = 3.5f * fout;\n                float radius = (size/2f) * fin;\n\n                Pixmap pixmap = new Pixmap(size, size);\n\n                for(int x = 0; x < pixmap.width; x++){\n                    for(int y = 0; y < pixmap.height; y++){\n                        float dst = Mathf.dst(x, y, size/2f, size/2f);\n                        if(Math.abs(dst - radius) <= stroke){\n                            pixmap.set(x, y, Color.white);\n                        }\n                    }\n                }\n\n                Fi.get(\"splash-\" + i + \".png\").writePng(pixmap);\n\n                pixmap.dispose();\n            }\n        });"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not model generated; runtime technical mask formula.",
+  "engineNotVerified": true
+}

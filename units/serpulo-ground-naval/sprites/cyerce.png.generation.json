@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/cyerce.png",
+  "sha256": "d25068bbf5ae4bb3ffa84d3d8bcefc514dff8f177506649b3abc67ab8b0610db",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/cyerce-body.png",
+      "sha256": "64a90e55df36119cc4ed4f565ae5d310006cff1c269bc1a5da618aaf9b801134",
+      "generationRecord": "units/serpulo-root-parts/layers/cyerce-body.png.derived.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+      "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-plasma-missile.png",
+      "sha256": "6390d304e17a14b96caf1e9ee61a07f72b1c7488939798c79dfc3e980cc98a5b",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      902,
+      828,
+      1299,
+      1371
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-root-parts/layers/cyerce-body.png",
+        "generationRecord": "units/serpulo-root-parts/layers/cyerce-body.png.derived.json",
+        "sourceAnchorPx": [
+          206.5,
+          279.5
+        ],
+        "targetAnchorPx": [
+          198,
+          272
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          -8,
+          -8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+        "sourceAnchorPx": [
+          126.5,
+          168.25
+        ],
+        "targetAnchorPx": [
+          78.23,
+          434.11
+        ],
+        "scale": [
+          0.37549407114624506,
+          0.37446808510638296
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          31,
+          371
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+        "sourceAnchorPx": [
+          126.5,
+          168.25
+        ],
+        "targetAnchorPx": [
+          317.77,
+          434.11
+        ],
+        "scale": [
+          0.37549407114624506,
+          0.37446808510638296
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          270,
+          371
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-missile.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-missile.png.generation.json",
+        "sourceAnchorPx": [
+          155.5,
+          203.5
+        ],
+        "targetAnchorPx": [
+          86.49,
+          244.05
+        ],
+        "scale": [
+          0.3729903536977492,
+          0.3723404255319149
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          28,
+          168
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-missile.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-missile.png.generation.json",
+        "sourceAnchorPx": [
+          155.5,
+          203.5
+        ],
+        "targetAnchorPx": [
+          309.51,
+          244.05
+        ],
+        "scale": [
+          0.3729903536977492,
+          0.3723404255319149
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          252,
+          168
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 397,
+    "height": 543,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 98493,
+    "opaquePixelCount": 114007,
+    "partialPixelCount": 3071,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      373,
+      519
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "cyerce",
+    "sha256": "d25068bbf5ae4bb3ffa84d3d8bcefc514dff8f177506649b3abc67ab8b0610db",
+    "size": [
+      397,
+      543
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

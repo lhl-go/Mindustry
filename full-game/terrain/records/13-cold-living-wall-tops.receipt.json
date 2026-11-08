@@ -1,0 +1,63 @@
+{
+  "args": {
+    "prompt": "Use case: game-terrain atlas. Paint18 NEW WALL TOP terrain textures for Mindustry, refined clean bright Daoist Q hand-painted finish matching attached references' broad rounded forms ONLY. No UI, people, letters, symbols, frames or perspective. Requested1536×3072 portrait, exactly3 equal columns×6 equal rows of square fullbleed tiles, opaque fills to edges, no gutters/dividers/labels. All viewed directly from above: no visible wall side face or horizon. Each row2 different small wall-cap designs in left/middle, plus independent larger 2×2 wall-top design at right with more varied connected details, never enlarged/copy. Quiet tiling edges, consistent diffuse overhead light, no gradient/vignette. Broad pronounced crowns make them obstacles distinct from flat floors.\nRow1 ICE WALL pale clean cyan ice crowns with soft rounded crystalline facets and thin white fractures.\nRow2 RED ICE WALL dusty rose pink frozen crowns with subtle mauve-pink thin fractures and few trapped bubbles.\nRow3 SNOW WALL soft white ivory densely snow-capped rock crowns, faint icy blue shadow fissures, gentle rounded surface.\nRow4 SHALE WALL muted purple-gray dense overlapping layered rock crowns with soft flaking planes.\nRow5 SHRUBS dense bright jade-green bush canopy from directly above, rounded clustered tiny leaves filling full tile, small dark green internal gaps but no background/visible trunks.\nRow6 SPORE WALL dense lavender-purple alien spore canopy, rounded mushroom-like small soft lobes fully filling tile, tiny pale pink spore heads, no stems or side view.\nEvery tile fully opaque, dense continuous cap material, exact18different textures.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 17:56:06 UTC",
+  "returnedAt": "2026-10-26 17:57:13 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-abd8fddb-64fd-488c-be73-4d29b3002afa.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "grid": [
+    3,
+    6
+  ],
+  "regions": [
+    "ice-wall1",
+    "ice-wall2",
+    "ice-wall-large",
+    "red-ice-wall1",
+    "red-ice-wall2",
+    "red-ice-wall-large",
+    "snow-wall1",
+    "snow-wall2",
+    "snow-wall-large",
+    "shale-wall1",
+    "shale-wall2",
+    "shale-wall-large",
+    "shrubs1",
+    "shrubs2",
+    "shrubs-large",
+    "spore-wall1",
+    "spore-wall2",
+    "spore-wall-large"
+  ],
+  "rowBounds": [
+    0,
+    260,
+    522,
+    797,
+    1074,
+    1388,
+    1774
+  ],
+  "columnBounds": [
+    0,
+    268,
+    529,
+    887
+  ],
+  "exportSegmentationNote": "Measured material and column boundaries, visually confirmed; generated grid was not uniform."
+}

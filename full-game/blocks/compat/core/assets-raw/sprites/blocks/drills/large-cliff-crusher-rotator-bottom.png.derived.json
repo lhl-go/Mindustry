@@ -1,0 +1,76 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator-bottom.png",
+  "sourceGitBlob": "6799ee0e87897e62dd38bf9baa24730358e6ea6a",
+  "sourceSha256": "351c809daad3e3a6f493bdeaa44aff8aff7a6f34e26a87037976e234664aa79f",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "large-cliff-crusher-rotator-bottom",
+  "blockId": "large-cliff-crusher",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator-bottom.png",
+  "sha256": "d95dfcfb6612a36dfcaa95678a5083aa6da940476780b9bc83b572bc588ea099",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator-bottom.png",
+  "engineSha256": "d95dfcfb6612a36dfcaa95678a5083aa6da940476780b9bc83b572bc588ea099",
+  "nativeFile": "full-game/blocks/masters/large-cliff-crusher-rotator-part.png",
+  "nativeSha256": "5dc8b0183dbbcd0b45af5c4b44e156ff4edc509d65a3fa8440fbe5877102f250",
+  "nativeSize": [
+    295,
+    287
+  ],
+  "sourceAlphaBounds": [
+    20,
+    20,
+    44,
+    44
+  ],
+  "operation": {
+    "kind": "native_rotor_back_teeth_at_original_component_positions",
+    "componentBoxes": [
+      [
+        20,
+        20,
+        30,
+        30
+      ],
+      [
+        34,
+        20,
+        44,
+        30
+      ],
+      [
+        20,
+        34,
+        30,
+        44
+      ],
+      [
+        34,
+        34,
+        44,
+        44
+      ]
+    ],
+    "runtimeMotion": "wall-contact rotation",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-cliff-crusher-rotator-part.png",
+      "sha256": "5dc8b0183dbbcd0b45af5c4b44e156ff4edc509d65a3fa8440fbe5877102f250"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/large-cliff-crusher-rotator-bottom.png",
+      "sha256": "351c809daad3e3a6f493bdeaa44aff8aff7a6f34e26a87037976e234664aa79f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

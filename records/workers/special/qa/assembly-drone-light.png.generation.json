@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/assembly-drone-light.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.841912+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 606,
+  "height": 579,
+  "sha256": "9f2b869686f2a14c22c01e259a8c6d1c92c4bf57f42690ae60c7eb45e38d9f36",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/assembly-drone.png",
+      "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+      "generationRecord": "units/special/assets/assembly-drone.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      240,
+      236,
+      224,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

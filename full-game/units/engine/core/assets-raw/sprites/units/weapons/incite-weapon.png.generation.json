@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/incite-weapon.png",
+  "sha256": "7f01f5208cf165c49b03a3efe9c69ee8a62e4e818a52615817e8fbe490b09350",
+  "width": 28,
+  "height": 57,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/build-weapon.png",
+      "sha256": "b0ec57a71d75b833f3431fbb6eccd1c192aecf09b507a89c633b745477ce7adb",
+      "generationRecord": "units/air-erekir-parts/assets/build-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      294,
+      368
+    ],
+    "sourcePivot": [
+      161,
+      247
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      7
+    ],
+    "sourceDimensions": [
+      326,
+      400
+    ],
+    "targetDimensions": [
+      28,
+      57
+    ],
+    "officialAlphaBounds": [
+      7,
+      7,
+      21,
+      43
+    ],
+    "scale": 0.09774436090225563,
+    "engineAnchorPx": [
+      14.0,
+      28.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/incite-weapon.png",
+    "gitBlobSha1": "26d09e97840565e9c18e514af18facb2db4b724b",
+    "sha256": "19178c46f108a43366da4de682679d1c541f3dff95f30aa4329c13d2d40acbd0"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

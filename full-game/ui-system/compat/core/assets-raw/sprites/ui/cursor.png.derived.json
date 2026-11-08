@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/cursor.png",
+  "sourceGitBlob": "83efefe2b39aa001add44595d999cbc26b30e6cb",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/cursor.png",
+  "sha256": "817aa992f00c37512531dcf31eab10a3658e13cf1cbc13da6447d57093da7739",
+  "sourceSize": [
+    4,
+    4
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/cursor.png",
+      "sha256": "817aa992f00c37512531dcf31eab10a3658e13cf1cbc13da6447d57093da7739",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "byte_exact_technical_texture",
+    "reason": "4x4 caret/selection marker; exact tiny white mask, distinct from styled OS cursor.",
+    "sourceEvidence": "83efefe2b39aa001add44595d999cbc26b30e6cb"
+  },
+  "disposition": "verified_technical_reuse",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

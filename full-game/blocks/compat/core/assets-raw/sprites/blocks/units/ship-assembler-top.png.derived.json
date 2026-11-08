@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-assembler-top.png",
+  "sourceGitBlob": "a80bf2b8f72efee0f82bc5b8c5aee47038afba37",
+  "sourceSha256": "b41339955fae6be5838b381dbc90c8071b359795c564079c374cf9245185c51f",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "ship-assembler-top",
+  "blockId": "ship-assembler",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-top.png",
+  "sha256": "27a13ec3f696c92fc816d8d12a96b492ef171e7d96866a7af5ed7119c99ad6ed",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-top.png",
+  "engineSha256": "27a13ec3f696c92fc816d8d12a96b492ef171e7d96866a7af5ed7119c99ad6ed",
+  "nativeFile": "full-game/blocks/masters/ship-assembler.png",
+  "nativeSha256": "5e0048581625689995b1aee85f4c969127840bcda81758da61cd363f9542c05b",
+  "nativeSize": [
+    301,
+    370
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-assembler.png",
+      "sha256": "5e0048581625689995b1aee85f4c969127840bcda81758da61cd363f9542c05b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-assembler-top.png",
+      "sha256": "b41339955fae6be5838b381dbc90c8071b359795c564079c374cf9245185c51f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-assembler.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

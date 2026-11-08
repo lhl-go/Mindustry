@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "userScope": "参照 Anuken/Mindustry 做完本次完整 UI 与角色/单位美术包",
+  "reference": "v160.7",
+  "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "productionThreadId": "01a17720-2a4e-70c0-a0de-f389672e250d",
+  "productionHostId": "local",
+  "directory": "D:\\work\\image\\mindustry-image",
+  "contract": "production-contract.json",
+  "inventories": [
+    "records/inventory-ui.json",
+    "records/inventory-units.json"
+  ],
+  "uiProductionGroups": 64,
+  "unitEntityIds": 69,
+  "deliveredArtCompletion": "incomplete",
+  "sourceInventoryValidated": true,
+  "initialImageHashCheckPassed": true,
+  "knownInitialIssues": [
+    "HUD分类高亮/混合建筑栏与进攻箭头待修",
+    "角色透明彩边未通过正式交付"
+  ],
+  "producerContinuation": "Full production dispatched and acknowledged active; updates belong in the production chat and ledger."
+}

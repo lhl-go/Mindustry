@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/underflow-duct.png",
+  "sha256": "a91161ac80ea13e8b723b64990f6af9173598250378ba6521c6a8f882cd2e6f0",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1001,
+      384,
+      1309,
+      592
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      308,
+      208
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    340,
+    240
+  ],
+  "anchorPixels": [
+    170.0,
+    120.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

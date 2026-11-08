@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/scepter.png",
+  "sha256": "37132a7dc2733d1860902d55c14f6d306ce31a0434c795c36f1fde7dc8226810",
+  "width": 170,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/scepter.png",
+      "sha256": "b9c85214bc670573fcd83de4c4e8b404058bfeec63ed0f22e403f14e6956a31a",
+      "generationRecord": "units/serpulo-ground-naval/bodies/scepter.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      503,
+      433
+    ],
+    "sourcePivot": [
+      259.5,
+      224.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      519,
+      449
+    ],
+    "targetDimensions": [
+      170,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      166,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      85.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/scepter.png",
+    "gitBlobSha1": "1cfaaa2a871ba84706f4f5449f240ce8a79a70fd",
+    "sha256": "74a5fb7702639f05ea99a6b21c480683614ecfa84802770beb0f09a1c9f23e8d"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-fabricator-top.png",
+  "sourceGitBlob": "708e36131474d379ca951bd4c8b8814c59c87db1",
+  "sourceSha256": "b0c01656007e418ef1a808718122fa72ab50b5926f3044440e6cbdeb2d0f6fd6",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "ship-fabricator-top",
+  "blockId": "ship-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator-top.png",
+  "sha256": "b7f319027f73164be833057b6f75ddc3c10d9d725d3fe6a80149c3b194e663b6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator-top.png",
+  "engineSha256": "b7f319027f73164be833057b6f75ddc3c10d9d725d3fe6a80149c3b194e663b6",
+  "nativeFile": "full-game/blocks/masters/ship-fabricator.png",
+  "nativeSha256": "5edd993dedbd6b3a2d42930f46d538b42dc729b68c58f444a140c616fcd80ad7",
+  "nativeSize": [
+    379,
+    352
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-fabricator.png",
+      "sha256": "5edd993dedbd6b3a2d42930f46d538b42dc729b68c58f444a140c616fcd80ad7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-fabricator-top.png",
+      "sha256": "b0c01656007e418ef1a808718122fa72ab50b5926f3044440e6cbdeb2d0f6fd6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-fabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

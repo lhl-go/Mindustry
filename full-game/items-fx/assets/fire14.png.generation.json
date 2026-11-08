@@ -1,0 +1,48 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/13-fire-00-19.png",
+      "sha256": "663ebdaadd9f78c289c58d3fa03900c115548a3d3f4a263c14eb4eae026bc43d",
+      "generationRecord": "full-game/items-fx/source/13-fire-00-19.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_frame_extract_cleanup_register",
+    "crop": [
+      1122,
+      560,
+      1403,
+      841
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "registration": "translation only; opaque-body bottom-center registered to (192,330)",
+    "translation": [
+      54,
+      70
+    ],
+    "sourceBodyBBox": [
+      17,
+      10,
+      258,
+      261
+    ],
+    "canvas": [
+      384,
+      384
+    ],
+    "removedDetachedComponents": true
+  },
+  "file": "full-game/items-fx/assets/fire14.png",
+  "sha256": "895c782bfcd973b4a593fb471ded44cf20b22433eba669a024f73619f1ab3c61",
+  "width": 384,
+  "height": 384,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:11.045120+00:00"
+}

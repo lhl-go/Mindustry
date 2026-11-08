@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/02-refined-materials.png",
+      "sha256": "9080234a953266c55b672946700d872f2a4fd7d2dfac354b85d9795ab0cf9958",
+      "generationRecord": "full-game/items-fx/source/02-refined-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      14,
+      65,
+      422,
+      392
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-blast-compound.png",
+  "sha256": "bb3cdde5043a3816d106ea6de33151498690b7e7062907efc16e520264ff8826",
+  "width": 440,
+  "height": 359,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.837267+00:00"
+}

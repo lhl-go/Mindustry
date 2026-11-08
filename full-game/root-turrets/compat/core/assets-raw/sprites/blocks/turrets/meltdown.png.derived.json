@@ -1,0 +1,42 @@
+{
+  "region": "meltdown",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/meltdown.png",
+  "sha256": "9ba51ee38b68f196ebe7d85f20de629df535e3aac55b660cad74eec8c1fb282b",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.157398+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/meltdown.png",
+      "sha256": "4c6aee48c2b0a1ac43c9eb9922cda8e0ee5cb680708f1608e04c8e443c3ffa2a",
+      "record": "full-game/root-turrets/masters/meltdown.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/meltdown.png",
+      "sha256": "e734fe1b20f2ce3fef0c584276f42db60487c40e344c6b205395b5c16c647e29",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      4,
+      124,
+      124
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      357,
+      315
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

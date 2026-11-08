@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "disrupt-body",
+  "file": "units/air-erekir/layers/disrupt-body.png",
+  "sha256": "272d002067d65e09722ae73e55c5a1dad5ca35f3c5843d18a22bcdefe240984e",
+  "width": 989,
+  "height": 812,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/10-erekir-carrier-body.png",
+      "sha256": "f833059dda94f008f9688b6205ce0821789eb200dd869498fcd8c89a7e0e2c7b",
+      "generationRecord": "units/air-erekir/source/10-erekir-carrier-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      765,
+      55,
+      1745,
+      880
+    ],
+    "trimBoundsInRegion": [
+      2,
+      24,
+      959,
+      804
+    ],
+    "padding": 16,
+    "width": 989,
+    "height": 812,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

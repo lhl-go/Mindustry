@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/nova.png",
+  "sha256": "201a1c67bfe68725bbe0b4df0f468fb86a984408982dd8a5ccf991c9fb68c3d8",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/nova.png",
+      "sha256": "2b1f52fe55471510b474149334733d23c4343833e09a5f04154ee0ca996818d9",
+      "generationRecord": "units/serpulo-ground-naval/bodies/nova.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-repair-bolt.png",
+      "sha256": "b4fcc25fb8a56ca5e446abdf1c9cdddc0f214a1278581f94427e7c2060462cc5",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-repair-bolt.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      918,
+      928,
+      1282,
+      1312
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          102.25,
+          188.35
+        ],
+        "scale": [
+          0.44660194174757284,
+          0.4451219512195122
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          1,
+          140
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          261.75,
+          188.35
+        ],
+        "scale": [
+          0.44660194174757284,
+          0.4451219512195122
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          207,
+          140
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/nova.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/nova.png.generation.json",
+        "sourceAnchorPx": [
+          137.5,
+          163.5
+        ],
+        "targetAnchorPx": [
+          182,
+          172
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          44,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-repair-bolt.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-repair-bolt.png.generation.json",
+        "sourceAnchorPx": [
+          115.0,
+          230.06
+        ],
+        "targetAnchorPx": [
+          63.75,
+          172
+        ],
+        "scale": [
+          0.3826086956521739,
+          0.38387096774193546
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          20,
+          84
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-repair-bolt.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-repair-bolt.png.generation.json",
+        "sourceAnchorPx": [
+          115.0,
+          230.06
+        ],
+        "targetAnchorPx": [
+          300.25,
+          172
+        ],
+        "scale": [
+          0.3826086956521739,
+          0.38387096774193546
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          256,
+          84
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 364,
+    "height": 384,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 71857,
+    "opaquePixelCount": 62859,
+    "partialPixelCount": 5060,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      340,
+      360
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "nova",
+    "sha256": "201a1c67bfe68725bbe0b4df0f468fb86a984408982dd8a5ccf991c9fb68c3d8",
+    "size": [
+      364,
+      384
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

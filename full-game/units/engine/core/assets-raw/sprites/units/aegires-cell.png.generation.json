@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/aegires-cell.png",
+  "sha256": "5b3ea36bc87466db7ed0b3950cfa2a8ba1b5b3ba02da70222320eafec2dd0546",
+  "width": 240,
+  "height": 240,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/aegires.png",
+      "sha256": "03a79206b8b2629a051a3b9e20e3e793a7f3c8e9869ead3d5effcabeda8f098f",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/aegires.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "aegires",
+    "baseCanvas": [
+      218,
+      241
+    ],
+    "outputCanvas": [
+      240,
+      240
+    ],
+    "centerRegistrationOffset": [
+      11,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/aegires-cell.png",
+    "gitBlobSha1": "f85cfc8e176982b243d989e18aeb04dc5540ff09",
+    "sha256": "da8584bf23cf4742eaead8772dd37971ccc971e8e516e20abed6c7872b0eb9e9"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

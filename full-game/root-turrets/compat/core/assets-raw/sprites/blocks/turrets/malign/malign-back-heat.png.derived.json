@@ -1,0 +1,41 @@
+{
+  "region": "malign-back-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-heat.png",
+  "sha256": "753e455088e46a727dc746c00b71aaf82e40316cca3528ff18b73cf3625ea92d",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.462946+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-back-heat.png",
+      "sha256": "edc4792b32cc8d01389c84ae71fe74880a5e08e4216fdbaee50c64bb08e4259f",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-r.png",
+      "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-l.png",
+      "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "malign-back-r",
+      "malign-back-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1839
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

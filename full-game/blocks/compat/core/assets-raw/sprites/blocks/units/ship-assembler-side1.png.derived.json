@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-assembler-side1.png",
+  "sourceGitBlob": "ec57520298b6d1d49a1523d7bd2dc2dac3f9f4e6",
+  "sourceSha256": "b3d76af1ecd48ac137e659c024c56f52f3422f164cf28e73c66555a0467e23c3",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "ship-assembler-side1",
+  "blockId": "ship-assembler",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-side1.png",
+  "sha256": "903b7ad89232d901b38a51ab5170115136cb4aa034024378cd5707216792e342",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-side1.png",
+  "engineSha256": "903b7ad89232d901b38a51ab5170115136cb4aa034024378cd5707216792e342",
+  "nativeFile": "full-game/blocks/masters/ship-assembler.png",
+  "nativeSha256": "5e0048581625689995b1aee85f4c969127840bcda81758da61cd363f9542c05b",
+  "nativeSize": [
+    301,
+    370
+  ],
+  "sourceAlphaBounds": [
+    128,
+    34,
+    160,
+    126
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "rotation-selected assembler side; runtime controls side1/side2 and orientation",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-assembler.png",
+      "sha256": "5e0048581625689995b1aee85f4c969127840bcda81758da61cd363f9542c05b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-assembler-side1.png",
+      "sha256": "b3d76af1ecd48ac137e659c024c56f52f3422f164cf28e73c66555a0467e23c3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-side1.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-assembler-side1.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-assembler.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

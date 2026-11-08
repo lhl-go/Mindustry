@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+  "sha256": "f988964bd02910c59a51661139bcd6efe2d1e131ab5ee0b12318ed1bb113d6eb",
+  "width": 58,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      11
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      58,
+      62
+    ],
+    "officialAlphaBounds": [
+      6,
+      5,
+      54,
+      55
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      29.0,
+      31.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/conquer-weapon-sides.png",
+    "gitBlobSha1": "81a6757cd9bdff071b8294f937613dd6b1b47c20",
+    "sha256": "7600266db3c41d79c28c3bf8cd2a7a0759b5fcda876c6bfd38d83d2e90dd6400"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

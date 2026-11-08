@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/steam-generator-turbine.png",
+  "sourceGitBlob": "0f066690c169191e33d672d592cda91551d7588a",
+  "sourceSha256": "b18344b6ff98d2a20d0dbb81c2b00ad9b470386eed0b3c462ae135c5dfd078d7",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "steam-generator-turbine",
+  "blockId": "steam-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-turbine.png",
+  "sha256": "0ba19a7a7bc67182ddac8745e8a4fbfac4d746526cba0a940dd01fe071c275b7",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-turbine.png",
+  "engineSha256": "0ba19a7a7bc67182ddac8745e8a4fbfac4d746526cba0a940dd01fe071c275b7",
+  "nativeFile": "full-game/blocks/masters/steam-generator-turbine-part.png",
+  "nativeSha256": "00b2a215507880b915daf90c5ca94adafeaaf548a0327fe4237e4bf1c4f5653b",
+  "nativeSize": [
+    273,
+    261
+  ],
+  "sourceAlphaBounds": [
+    11,
+    11,
+    53,
+    53
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/steam-generator-turbine-part.png",
+      "sha256": "00b2a215507880b915daf90c5ca94adafeaaf548a0327fe4237e4bf1c4f5653b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator-turbine.png",
+      "sha256": "b18344b6ff98d2a20d0dbb81c2b00ad9b470386eed0b3c462ae135c5dfd078d7"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-turbine.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

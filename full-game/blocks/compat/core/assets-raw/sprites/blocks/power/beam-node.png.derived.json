@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/beam-node.png",
+  "sourceGitBlob": "f8de5c55edb63b7817c90320c1898e15951f7a59",
+  "sourceSha256": "901937dca56b2689ac9899b25cf95d74b8871eb33f6b3db44a49287d6929bde5",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "beam-node",
+  "blockId": "beam-node",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-node.png",
+  "sha256": "259e2105e1abca8d1940e90e2b1a5ed5c5474b76e478a0892080da3ac528c868",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-node.png",
+  "engineSha256": "259e2105e1abca8d1940e90e2b1a5ed5c5474b76e478a0892080da3ac528c868",
+  "nativeFile": "full-game/blocks/masters/beam-node.png",
+  "nativeSha256": "42e1d3b5bf06a6769b305af84d790e00ab42e8f2d203c747f8f7ec0d82afc7c9",
+  "nativeSize": [
+    285,
+    278
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/beam-node.png",
+      "sha256": "42e1d3b5bf06a6769b305af84d790e00ab42e8f2d203c747f8f7ec0d82afc7c9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/beam-node.png",
+      "sha256": "901937dca56b2689ac9899b25cf95d74b8871eb33f6b3db44a49287d6929bde5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/beam-node.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

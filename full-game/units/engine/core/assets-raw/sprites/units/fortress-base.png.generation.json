@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-base.png",
+  "sha256": "7154f3d38eac3f017e3b7a835d59ee7630865cc30dccf59acba70ee405921901",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-small.png",
+      "sha256": "f9bd721912f4ade8d63aa201865c446b9c2cec06897668286551ec869785be24",
+      "generationRecord": "full-game/units/parts/mech-base-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      398,
+      285
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      22
+    ],
+    "sourceDimensions": [
+      414,
+      301
+    ],
+    "targetDimensions": [
+      64,
+      64
+    ],
+    "officialAlphaBounds": [
+      8,
+      22,
+      58,
+      53
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/fortress-base.png",
+    "gitBlobSha1": "795b3154daedd259a67d3b07bd0890fee6fb60cd",
+    "sha256": "4efe75397b45d244af910e9288a8825b675b18c90a6cb7e80b616abbd20fe404"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

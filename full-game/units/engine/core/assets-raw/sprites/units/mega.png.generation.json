@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/mega.png",
+  "sha256": "b657b7510f5c8b948d1b7b7575c57ad09cda4dd44604d9c0da1bc7cc82067e66",
+  "width": 100,
+  "height": 100,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/mega-body.png",
+      "sha256": "113f04b8beb019d134c31600aadfdf04c6d8a6e5240ea2245a35b41c0c034680",
+      "generationRecord": "units/air-erekir/layers/mega-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      519,
+      451
+    ],
+    "sourcePivot": [
+      267.5,
+      233.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      10
+    ],
+    "sourceDimensions": [
+      535,
+      467
+    ],
+    "targetDimensions": [
+      100,
+      100
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      96,
+      96
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      50.0,
+      50.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/mega.png",
+    "gitBlobSha1": "0c3ff432a0470da01c6a7aada1734ab186e7fe7a",
+    "sha256": "880169d78956b698546a9ef7eb2a740b3f37894d53f0395d1f6572174da008d2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

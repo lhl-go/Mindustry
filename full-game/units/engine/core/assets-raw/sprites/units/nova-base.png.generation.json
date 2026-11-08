@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/nova-base.png",
+  "sha256": "7843fe5c0bcf499aa018e50e7904290b73408d0fe8349bcc7bf87d6dd02def6c",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-small.png",
+      "sha256": "f9bd721912f4ade8d63aa201865c446b9c2cec06897668286551ec869785be24",
+      "generationRecord": "full-game/units/parts/mech-base-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      398,
+      285
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      16
+    ],
+    "sourceDimensions": [
+      414,
+      301
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      8,
+      15,
+      40,
+      39
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/nova-base.png",
+    "gitBlobSha1": "28386147bf20b746b9a6485b7a296c9506e7c2a3",
+    "sha256": "03ce7f2cbfc6645138584b3d8889ccbbbbb7504fe7096833018426675f93f507"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

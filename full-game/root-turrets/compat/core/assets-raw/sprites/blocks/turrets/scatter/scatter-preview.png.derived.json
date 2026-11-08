@@ -1,0 +1,33 @@
+{
+  "region": "scatter-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter-preview.png",
+  "sha256": "646dc47ec41d787a5b029822a2dfeb84e9111df41ebe21e17dc26b4c4b5931f4",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.610615+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter.png",
+      "sha256": "67a686aecd546eaa9b8f603d7bbd08051f58e427017004068a90cf5b654199f1",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter-mid.png",
+      "sha256": "ddb4cfe6f7e07dd280b8e901e489b994b90b9c76c0e15879e76eeb2f72511669",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/scatter/scatter-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

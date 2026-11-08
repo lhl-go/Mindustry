@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/bridge-conveyor-bridge.png",
+  "sourceGitBlob": "1ae054b4a041f76dc01cd5abb5fcfde52539c177",
+  "sourceSha256": "ea3111e39afce4612dc36acd687cd30b6a84b7dd80df692bb32fa012f855a4c9",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "bridge-conveyor-bridge",
+  "blockId": "bridge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-bridge.png",
+  "sha256": "a78b0585164873aeb3438bbe3f5da6c0b7d8828e896526f551575de266b1ccd7",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-bridge.png",
+  "engineSha256": "a78b0585164873aeb3438bbe3f5da6c0b7d8828e896526f551575de266b1ccd7",
+  "nativeFile": "full-game/blocks/masters/conveyor-shape-0.png",
+  "nativeSha256": "f8ad52819f5eabbf9ee3a389da51b0ad8edd7195aed598e29cc457aac6d57532",
+  "nativeSize": [
+    279,
+    173
+  ],
+  "sourceAlphaBounds": [
+    0,
+    4,
+    32,
+    28
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/conveyor-shape-0.png",
+      "sha256": "f8ad52819f5eabbf9ee3a389da51b0ad8edd7195aed598e29cc457aac6d57532"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/bridge-conveyor-bridge.png",
+      "sha256": "ea3111e39afce4612dc36acd687cd30b6a84b7dd80df692bb32fa012f855a4c9"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-bridge.png.derived.json"
+}

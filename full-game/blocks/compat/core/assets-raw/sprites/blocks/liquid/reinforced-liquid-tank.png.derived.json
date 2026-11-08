@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank.png",
+  "sourceGitBlob": "69573873b7be20a7d386bd0698beac124479e602",
+  "sourceSha256": "32ae870fdf9b2c202e1247a23721ca72fbda263d2a4cf4aa3fed9123a1374169",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "reinforced-liquid-tank",
+  "blockId": "reinforced-liquid-tank",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank.png",
+  "sha256": "9165bd4b9344429458fed9b9c6b0d8e9321c5cce9990fea6fc59d44a38f35b59",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank.png",
+  "engineSha256": "9165bd4b9344429458fed9b9c6b0d8e9321c5cce9990fea6fc59d44a38f35b59",
+  "nativeFile": "full-game/blocks/masters/reinforced-liquid-tank.png",
+  "nativeSha256": "22c244fef84492cf2a8cda5b15c12b70930876768bb777b666ed93824355f65a",
+  "nativeSize": [
+    359,
+    351
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "painted_material_on_original_liquid_window_frame",
+    "originalLiquidWindowsAndExteriorOcclusionPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_liquid_window_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-liquid-tank.png",
+      "sha256": "22c244fef84492cf2a8cda5b15c12b70930876768bb777b666ed93824355f65a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/reinforced-liquid-tank.png",
+      "sha256": "32ae870fdf9b2c202e1247a23721ca72fbda263d2a4cf4aa3fed9123a1374169"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/reinforced-liquid-tank.png.derived.json"
+}

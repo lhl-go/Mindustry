@@ -1,0 +1,45 @@
+{
+  "args": {
+    "prompt": "Use case: natural game-sprite atlas. Paint16 isolated top-down Mindustry environment props. Daoist Q bright clean refined hand-painted organic shapes matching attached references' craftsmanship ONLY, no UI/letters/people/frames. Requested3072×3072 square, exactly4equal columns×4equal rows, each sprite centered with15percent transparent padding. FULLY TRANSPARENT background; no ground disc, no drop shadow, no detached noise. STRICT VERTICAL TOP-DOWN ORTHOGRAPHIC: show plant crowns only, no tree side silhouettes or visible upright trunks. Independently different native variants.\nRow1 col1/2/3 REDWEED variants1/2/3: small round radial clumps of curled crimson red coral-like grass leaves seen directly above; col4 SPORE CLUSTER variant1: compact radial violet-purple organic mushroom/spore caps from above.\nRow2 col1/2 SPORE CLUSTER variants2/3 distinct rounded cap arrangement; col3 TENDRILS variant1, col4 TENDRILS variant2: thin muted violet sinuous root tendril cluster lying flat, 4-6 gently curling branches.\nRow3 col1 TENDRILS variant3 distinct flat curling pattern; col2 PINE: round layered jade-green needle canopy viewed DIRECTLY from above, center apex and radial branches, NO triangular side profile/trunk; col3 SNOW PINE: same round radial conifer canopy with dense white snow patches, different outline; col4 SPORE PINE: round radial lavender-purple spore-encrusted conifer crown, no trunk.\nRow4 col1 YELLOW CORAL: compact golden ochre organic coral with4-5 rounded cup-shaped lobes seen from above and warm amber centers. Col2 YELLOW CORAL CENTER: a single small round warm amber-gold center nodule only, isolated, no leaves, same painterly material. Col3 GLOWBLOB: muted rose-brown low fleshy alien organism with5-6 soft lobes and tiny darker red pores, strict above, no glow outside. Col4 SPAWN MARKER: one compact flat cinnabar-red hollow angular hexagonal ring with warm ivory inset edge and a simple ivory horizontal chevron stripe, no text, a crisp map marker with soft hand-painted edge; transparent middle/background.\nExact16 complete sprites, clean transparent cutout edges.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 19:03:43 UTC",
+  "returnedAt": "2026-10-26 19:04:55 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-a7b783c8-9402-4ef7-a968-1f867958a6c9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "regions": [
+    "redweed1",
+    "redweed2",
+    "redweed3",
+    "spore-cluster1",
+    "spore-cluster2",
+    "spore-cluster3",
+    "tendrils1",
+    "tendrils2",
+    "tendrils3",
+    "pine",
+    "snow-pine",
+    "spore-pine",
+    "yellowcoral",
+    "yellowcoral-center",
+    "glowblob1",
+    "spawn"
+  ]
+}

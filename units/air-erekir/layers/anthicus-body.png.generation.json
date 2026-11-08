@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "anthicus-body",
+  "file": "units/air-erekir/layers/anthicus-body.png",
+  "sha256": "32fb89c371b6357b308367def1e16419bb7ad223fb5255d972d44aa133d2f6a0",
+  "width": 298,
+  "height": 515,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/09-walker-body.png",
+      "sha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+      "generationRecord": "units/air-erekir/source/09-walker-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      1130,
+      5,
+      1440,
+      530
+    ],
+    "trimBoundsInRegion": [
+      20,
+      20,
+      286,
+      503
+    ],
+    "padding": 16,
+    "width": 298,
+    "height": 515,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

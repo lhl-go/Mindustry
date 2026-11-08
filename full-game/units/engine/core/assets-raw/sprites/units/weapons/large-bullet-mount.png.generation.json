@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+  "sha256": "99968ee184cd58742bd371c3ebcaecd250acd239f56a73374df9a8368302db8f",
+  "width": 70,
+  "height": 97,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/large-bullet-mount.png",
+      "sha256": "f4b6f40fd855ed09607604e712fd86ca518fec02355a72e016c0c49c06b615d1",
+      "generationRecord": "units/air-erekir-parts/assets/large-bullet-mount.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      32,
+      32,
+      343,
+      396
+    ],
+    "sourcePivot": [
+      190,
+      280
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      5,
+      1
+    ],
+    "sourceDimensions": [
+      375,
+      428
+    ],
+    "targetDimensions": [
+      70,
+      97
+    ],
+    "officialAlphaBounds": [
+      24,
+      13,
+      45,
+      73
+    ],
+    "scale": 0.19153225806451613,
+    "engineAnchorPx": [
+      35.0,
+      48.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/large-bullet-mount.png",
+    "gitBlobSha1": "92b785ef652daa82aee1f8a4875c19b3c5f2cdc4",
+    "sha256": "0d57bdcec9c6e43e912c282b516be77af74f19636528260bd167c2811e44955f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

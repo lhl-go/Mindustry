@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-26T19:10:22.337967+00:00",
+  "sourcePaths": 277,
+  "exportedPaths": 277,
+  "ninePatchMetadataExact": 52,
+  "errors": [],
+  "visualReview": "passed: 49 sectors on light/dark with 32px sample, 88 icon contacts, 277 compatibility paths, corrected checkbox/alert/slider controls, and expanded nine-patch samples inspected",
+  "runtimeIntegration": "unverified",
+  "sourceNativeArtAndCompatibilitySizesAreDistinct": true,
+  "limitations": [
+    "Compatibility exports intentionally keep upstream pixel dimensions and 1px nine-patch metadata. They have less detail than the supplied native art and approved HD skin masters.",
+    "Actual running game, font generation and OS cursor hotspot behavior are not verified.",
+    "Built-in generator did not disclose exact model or quality; provenance records distinguish target from actual."
+  ],
+  "status": "art_export_complete_runtime_unverified"
+}

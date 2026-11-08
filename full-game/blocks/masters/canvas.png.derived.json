@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/canvas.png",
+  "sha256": "6074a714c3449053fac2273e857570cc0e326ba77751538f79a5e53ac71ddb77",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logic-01.png",
+      "sha256": "fe7bd7b043e380f030e835646efd7c4ecf8ff12f0a799e95d2d769432cf0bae4",
+      "generationRecord": "full-game/blocks/records/logic-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      771,
+      760,
+      1049,
+      1024
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      278,
+      264
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    310,
+    296
+  ],
+  "anchorPixels": [
+    155.0,
+    148.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

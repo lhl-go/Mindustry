@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/vanquish.png",
+  "sha256": "2e09bc77baecc910d928fb966be73431e3884f49d084c93bee2c63d7f008b816",
+  "width": 508,
+  "height": 468,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/vanquish-body.png",
+      "sha256": "36396e17181d291b5e6c0c749b7e56bbe53636473085caa6ffd86ae222a183c0",
+      "generationRecord": "units/air-erekir/layers/vanquish-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+      "sha256": "ee4aa403fdc6d49fcd98e5d54c822b4142accd28a4ca11d77db93082e3c0db92",
+      "generationRecord": "units/air-erekir-parts/assets/vanquish-weapon.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+      "sha256": "952b0b08dfef214bf7076bb863b04fc925d851e5fa99e0017ee2c737735b2674",
+      "generationRecord": "units/air-erekir-parts/assets/vanquish-point-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/vanquish-body.png",
+        "role": "body",
+        "region": "vanquish",
+        "anchorPixels": [
+          254,
+          234
+        ],
+        "scale": 0.951417004048583,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          247.0,
+          226.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/vanquish-weapon.png",
+        "role": "weapon",
+        "region": "vanquish-weapon",
+        "anchorPixels": [
+          254.0,
+          242.6
+        ],
+        "scale": 0.7164634146341463,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          192,
+          305
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "role": "weapon",
+        "region": "vanquish-point-weapon",
+        "anchorPixels": [
+          131.8,
+          126.5
+        ],
+        "scale": 0.46030927835051544,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          128,
+          173
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "role": "weapon",
+        "region": "vanquish-point-weapon",
+        "anchorPixels": [
+          376.2,
+          126.5
+        ],
+        "scale": 0.46030927835051544,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          128,
+          173
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "role": "weapon",
+        "region": "vanquish-point-weapon",
+        "anchorPixels": [
+          131.8,
+          341.5
+        ],
+        "scale": 0.46030927835051544,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          128,
+          173
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/vanquish-point-weapon.png",
+        "role": "weapon",
+        "region": "vanquish-point-weapon",
+        "anchorPixels": [
+          376.2,
+          341.5
+        ],
+        "scale": 0.46030927835051544,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          128,
+          173
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

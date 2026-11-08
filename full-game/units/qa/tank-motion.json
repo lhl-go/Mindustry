@@ -1,0 +1,186 @@
+{
+  "status": "passed_static_simulation_and_visual_engine_not_verified",
+  "sourceCode": {
+    "file": "records/reference-unit-sources/UnitType.java",
+    "sha256": "b9f75e66aab62bffbb1084012481ba9260f9f5acc78b7ec59a3ec3d3c89b57b0",
+    "drawOrderLines": [
+      1513,
+      1546
+    ],
+    "drawTankLines": [
+      1806,
+      1824
+    ]
+  },
+  "checks": [
+    {
+      "id": "stell",
+      "bodyFile": "full-game/units/engine/core/assets-raw/sprites/units/stell.png",
+      "bodySha256": "d2b0723f7b6b477c89e7c54f1d4a91cc6c6e0a91a63aa17ea4e4c15c2dd15f6d",
+      "treadFile": "full-game/units/engine/core/assets-raw/sprites/units/stell-treads.png",
+      "treadSha256": "9965b42b943ace85c04ccb85c9cfeb4ec889d8ca1aec1d3680c92e3d33cd44db",
+      "treadBeforeBody": true,
+      "frameComparison": [
+        0,
+        9
+      ],
+      "visibleChangedPixels": 1221,
+      "exposedMotionRectangles": [
+        {
+          "group": 0,
+          "side": "left",
+          "uncoveredFraction": 0.6947
+        },
+        {
+          "group": 0,
+          "side": "right",
+          "uncoveredFraction": 0.6961
+        }
+      ],
+      "status": "passed_static_draw_order_and_frame_visibility",
+      "engineNotVerified": true
+    },
+    {
+      "id": "locus",
+      "bodyFile": "full-game/units/engine/core/assets-raw/sprites/units/locus.png",
+      "bodySha256": "42c8e859f675f76da279df9e3520ac0752eb983870b2bde5a615b2a4c39d43bb",
+      "treadFile": "full-game/units/engine/core/assets-raw/sprites/units/locus-treads.png",
+      "treadSha256": "7086fbbbe9699be3bc1cc76c94f7323b93c35b128b51fb11d495d4affca2b894",
+      "treadBeforeBody": true,
+      "frameComparison": [
+        0,
+        9
+      ],
+      "visibleChangedPixels": 2413,
+      "exposedMotionRectangles": [
+        {
+          "group": 0,
+          "side": "left",
+          "uncoveredFraction": 0.7071
+        },
+        {
+          "group": 0,
+          "side": "right",
+          "uncoveredFraction": 0.7078
+        }
+      ],
+      "status": "passed_static_draw_order_and_frame_visibility",
+      "engineNotVerified": true
+    },
+    {
+      "id": "precept",
+      "bodyFile": "full-game/units/engine/core/assets-raw/sprites/units/precept.png",
+      "bodySha256": "5c02dcec64ab9b8b62d1ba09516bafcdff1bceedc26f0cecd391f0a882987a81",
+      "treadFile": "full-game/units/engine/core/assets-raw/sprites/units/precept-treads.png",
+      "treadSha256": "9b1e82914654510990f445d47e56a8cb10cd97ed74491d0ec41cac477b5d74c9",
+      "treadBeforeBody": true,
+      "frameComparison": [
+        0,
+        9
+      ],
+      "visibleChangedPixels": 5328,
+      "exposedMotionRectangles": [
+        {
+          "group": 0,
+          "side": "left",
+          "uncoveredFraction": 0.6876
+        },
+        {
+          "group": 0,
+          "side": "right",
+          "uncoveredFraction": 0.6867
+        },
+        {
+          "group": 1,
+          "side": "left",
+          "uncoveredFraction": 0.7441
+        },
+        {
+          "group": 1,
+          "side": "right",
+          "uncoveredFraction": 0.7451
+        }
+      ],
+      "status": "passed_static_draw_order_and_frame_visibility",
+      "engineNotVerified": true
+    },
+    {
+      "id": "vanquish",
+      "bodyFile": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png",
+      "bodySha256": "a02641b8200b79c38d794d2ff9d3e34ad487be11ff7afad1625e0d84f2588733",
+      "treadFile": "full-game/units/engine/core/assets-raw/sprites/units/vanquish-treads.png",
+      "treadSha256": "7a85d6be6900ad1bf01a0d3f8639d6e48dd44a5308b159269c7364b88fe3e9d2",
+      "treadBeforeBody": true,
+      "frameComparison": [
+        0,
+        9
+      ],
+      "visibleChangedPixels": 6322,
+      "exposedMotionRectangles": [
+        {
+          "group": 0,
+          "side": "left",
+          "uncoveredFraction": 0.7555
+        },
+        {
+          "group": 0,
+          "side": "right",
+          "uncoveredFraction": 0.7558
+        }
+      ],
+      "status": "passed_static_draw_order_and_frame_visibility",
+      "engineNotVerified": true
+    },
+    {
+      "id": "conquer",
+      "bodyFile": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+      "bodySha256": "a826ce6b02fd557fb310b3a9a1412d5462e53a3028c1b6d59f63a7cd1e1f8932",
+      "treadFile": "full-game/units/engine/core/assets-raw/sprites/units/conquer-treads.png",
+      "treadSha256": "c93c17aaee1735be67fd1a885fc2a23dbc72db8bbf3620a0451620fe618f2ebc",
+      "treadBeforeBody": true,
+      "frameComparison": [
+        0,
+        9
+      ],
+      "visibleChangedPixels": 9365,
+      "exposedMotionRectangles": [
+        {
+          "group": 0,
+          "side": "left",
+          "uncoveredFraction": 0.806
+        },
+        {
+          "group": 0,
+          "side": "right",
+          "uncoveredFraction": 0.807
+        },
+        {
+          "group": 1,
+          "side": "left",
+          "uncoveredFraction": 0.789
+        },
+        {
+          "group": 1,
+          "side": "right",
+          "uncoveredFraction": 0.789
+        },
+        {
+          "group": 2,
+          "side": "left",
+          "uncoveredFraction": 0.9339
+        },
+        {
+          "group": 2,
+          "side": "right",
+          "uncoveredFraction": 0.9325
+        }
+      ],
+      "status": "passed_static_draw_order_and_frame_visibility",
+      "engineNotVerified": true
+    }
+  ],
+  "engineNotVerified": true,
+  "checkedAt": "2026-10-26T21:06:46.793065+00:00",
+  "visualReview": "Both dark/light contact sheets actually inspected by producer and root; visible frame differences, preserved static rails and armor. Conquer has one connected main component at alpha thresholds 16/128/245 across frames 0/9/17.",
+  "connectivityReport": "full-game/units/qa/conquer-alpha-connectivity.json"
+}

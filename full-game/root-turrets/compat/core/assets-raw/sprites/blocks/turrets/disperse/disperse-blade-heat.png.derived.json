@@ -1,0 +1,41 @@
+{
+  "region": "disperse-blade-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-heat.png",
+  "sha256": "a0db9a14622d623fda88fbdd31aadddebb6aa8f8d0d1fc0b370714b2ce2d37fb",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.432519+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/disperse/disperse-blade-heat.png",
+      "sha256": "c696361ef5b215e966c3bc9569814901454488b9947b81f766c8b2ab659df3e7",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-r.png",
+      "sha256": "a140ea0d31bff89c710c6d6542b165a977fdcd4af1cf70343cf75b84f0af3a09",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-l.png",
+      "sha256": "a140ea0d31bff89c710c6d6542b165a977fdcd4af1cf70343cf75b84f0af3a09",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-blade-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "disperse-blade-r",
+      "disperse-blade-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1691
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

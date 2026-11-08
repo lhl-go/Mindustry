@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+  "sha256": "daded76cc716e55c4ab619c7b9dea77884f228073522d399ea95cf3dbc923fb6",
+  "width": 39,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/layers/disrupt-missile-body.png",
+      "sha256": "598d07b11c7345c5e9d919fb114c2de69eb0bee80d51a6715aa15703efc93772",
+      "generationRecord": "units/special/layers/disrupt-missile-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      116,
+      32,
+      335,
+      614
+    ],
+    "sourcePivot": [
+      225.0,
+      323.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      10,
+      4
+    ],
+    "sourceDimensions": [
+      450,
+      646
+    ],
+    "targetDimensions": [
+      39,
+      60
+    ],
+    "officialAlphaBounds": [
+      3,
+      4,
+      36,
+      56
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      19.5,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/disrupt-missile.png",
+    "gitBlobSha1": "d2a9ff6e3a52425225d9f5c6c6a042c033969666",
+    "sha256": "48fd1f448c4faad6e15443e782c04c9d11573669eba7d3a79d2fe221d7fc950f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

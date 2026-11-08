@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/stell-cell.png",
+  "sha256": "41850191a16b268b441321015a29a8d00caa663bdc8261d954ec6c3285b54b48",
+  "width": 64,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/stell.png",
+      "sha256": "d2b0723f7b6b477c89e7c54f1d4a91cc6c6e0a91a63aa17ea4e4c15c2dd15f6d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/stell.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "stell",
+    "baseCanvas": [
+      64,
+      64
+    ],
+    "outputCanvas": [
+      64,
+      64
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/stell-cell.png",
+    "gitBlobSha1": "c0909f4df517cd03d2a78ee57fc6314ee80906dd",
+    "sha256": "8c2aebe8b5d43fc70bf296afaafdac7d6e32250a6fa9e932d7c472a8264e10b9"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

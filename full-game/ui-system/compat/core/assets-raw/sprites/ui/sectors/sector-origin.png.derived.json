@@ -1,0 +1,27 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-origin.png",
+  "sourceGitBlob": "8852690ad46454a618c3d005f4b776c9809834f2",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/sectors/sector-origin.png",
+  "sha256": "63d23be37194874891da64e59443d31a9dad37eb8deafb8f7b43186ecb377206",
+  "sourceSize": [
+    64,
+    64
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/sectors/sector-origin.png",
+      "sha256": "285c5cb574e484702584e924484ffde3ff50cc6d17583e50490531950c07ab90",
+      "record": "full-game/ui-system/sectors/sector-origin.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "sector-origin"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

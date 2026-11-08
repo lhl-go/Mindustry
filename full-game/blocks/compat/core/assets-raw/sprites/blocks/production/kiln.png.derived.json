@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/kiln.png",
+  "sourceGitBlob": "d3aaec4ff6c620c4c169ce1ba352f5ccb359e02c",
+  "sourceSha256": "a136a186b1e83a5892ff847dbae4d7fe19f47019796e89e490339171dd5c5159",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "kiln",
+  "blockId": "kiln",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln.png",
+  "sha256": "926539831c5c58b89b7fbbd65a4ec608b8364ebdb8dd1372b58539eca05f7655",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln.png",
+  "engineSha256": "926539831c5c58b89b7fbbd65a4ec608b8364ebdb8dd1372b58539eca05f7655",
+  "nativeFile": "full-game/blocks/masters/kiln.png",
+  "nativeSha256": "a2af948027c930ef010e8d6ebf4863399ad84a006bf21750aacc7bb936363650",
+  "nativeSize": [
+    340,
+    328
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/kiln.png",
+      "sha256": "a2af948027c930ef010e8d6ebf4863399ad84a006bf21750aacc7bb936363650"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/kiln.png",
+      "sha256": "a136a186b1e83a5892ff847dbae4d7fe19f47019796e89e490339171dd5c5159"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/kiln.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

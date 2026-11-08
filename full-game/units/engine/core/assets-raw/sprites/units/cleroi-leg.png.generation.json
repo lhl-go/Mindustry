@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-leg.png",
+  "sha256": "f6af02951efbc05afae50b464e6edcd2e62d63518193f4a9b2939bad07678458",
+  "width": 40,
+  "height": 36,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-short-upper.png",
+      "sha256": "2c1119478850802e55919429f3af1e8b0a534b69cf7f5e343ae9a1a73552517f",
+      "generationRecord": "units/air-erekir-parts/assets/leg-short-upper.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      32,
+      32,
+      143,
+      301
+    ],
+    "sourcePivot": [
+      82,
+      64
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      0,
+      10
+    ],
+    "sourceDimensions": [
+      175,
+      333
+    ],
+    "targetDimensions": [
+      40,
+      36
+    ],
+    "officialAlphaBounds": [
+      0,
+      5,
+      36,
+      31
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      20.0,
+      18.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cleroi-leg.png",
+    "gitBlobSha1": "cab7379bd259c6d9997a4759ebb39507b41a9f0f",
+    "sha256": "62359793c39a867116d7c6dd30e861c98ca5ad44e44bd806b83414f48fa67db2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

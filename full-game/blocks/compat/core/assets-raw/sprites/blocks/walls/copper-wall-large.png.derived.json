@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/copper-wall-large.png",
+  "sourceGitBlob": "00e890dabccd05376ab98f0933d5216e3790be2e",
+  "sourceSha256": "8a70c81258d49531de6d85acc5b20ea3d1ccbaa7798abdddbb48cc349f82b2c4",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "copper-wall-large",
+  "blockId": "copper-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/copper-wall-large.png",
+  "sha256": "270fb049ac759505f268b74efb48e84ffa536e1936356573eb5f1a97d68452cd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/copper-wall-large.png",
+  "engineSha256": "270fb049ac759505f268b74efb48e84ffa536e1936356573eb5f1a97d68452cd",
+  "nativeFile": "full-game/blocks/masters/copper-wall.png",
+  "nativeSha256": "7f951feee5eb81ebc5664f031aad7549c8b62a78fae5907fa6fa19de53d89ab2",
+  "nativeSize": [
+    325,
+    316
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/copper-wall.png",
+      "sha256": "7f951feee5eb81ebc5664f031aad7549c8b62a78fae5907fa6fa19de53d89ab2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/copper-wall-large.png",
+      "sha256": "8a70c81258d49531de6d85acc5b20ea3d1ccbaa7798abdddbb48cc349f82b2c4"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/copper-wall-large.png.derived.json"
+}

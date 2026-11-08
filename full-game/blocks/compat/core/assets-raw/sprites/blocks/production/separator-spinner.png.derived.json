@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/separator-spinner.png",
+  "sourceGitBlob": "0ab52e41dcb86e99d47816f2ff2130d8d259d054",
+  "sourceSha256": "1449c9544f148ef5315726cf3450cb96f16049219e6aa62c7adfc5b092ac28ed",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "separator-spinner",
+  "blockId": "separator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-spinner.png",
+  "sha256": "eeccaa93f2dd52865929e6e2c602946e3925626e27e2c7523e282c77209f5c9d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-spinner.png",
+  "engineSha256": "eeccaa93f2dd52865929e6e2c602946e3925626e27e2c7523e282c77209f5c9d",
+  "nativeFile": "full-game/blocks/masters/separator-spinner-part.png",
+  "nativeSha256": "ab63d4365cf78ec26f2ad745ec75bbdcde1df9430e291b28d49c138dd259bc77",
+  "nativeSize": [
+    268,
+    263
+  ],
+  "sourceAlphaBounds": [
+    14,
+    14,
+    50,
+    50
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/separator-spinner-part.png",
+      "sha256": "ab63d4365cf78ec26f2ad745ec75bbdcde1df9430e291b28d49c138dd259bc77"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/separator-spinner.png",
+      "sha256": "1449c9544f148ef5315726cf3450cb96f16049219e6aa62c7adfc5b092ac28ed"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/separator-spinner.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/14-control-details.png",
+  "sha256": "daef5fc7e84f83443072a843af6bbbdadc16051994f19433ca6da6cf17c92d3b",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T12:02:33-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "prompt": "Create game-ready native HD hand-painted UI component sprite sheet, requested 1536x1024, 4 columns by 2 rows EXACTLY eight isolated controls in reading order. Use attached approved Daoist Q jade-green ivory warm-gold art direction, beautifully hand-painted soft material shading, rounded and readable with minimal decorative cloud corners. No labels, text, screen, panel layouts or characters. Row1: 1 circular empty checkbox well: dark jade recessed circular center, fine gold ring, no symbol; 2 SAME matching circular checkbox checked: jade circle fine gold ring with one large ivory-gold checkmark; 3 tall vertical scrollbar thumb: simple rounded jade capsule fine gold rim, single restrained central cloud carving, proportion 1 wide to 3 tall; 4 matching horizontal scrollbar thumb: jade capsule gold rim proportion 3 wide to 1 tall. Row2: 5 slider handle: compact jade bead with fine golden frame and ivory center jewel, taller than wide, no arrows; 6 empty compact inventory socket: rounded square ivory parchment gold rim with a subtle diamond-shaped inner bevel, no object inside; 7 alert underline ornament: long thin vermilion/cinnabar brush-red strip, clear saturated red, tiny soft gold endcaps, width to height 6:1; 8 plain green progress fill: long jade bar with subtle hand-painted highlight, rounded gold endcaps, width to height 6:1. Each object centered and COMPLETE inside its equal grid cell with 15% empty border. All objects independent with generous transparent empty gaps and genuine alpha background. Keep same materials for all eight, no drop-shadow rectangles, no checkerboard pattern."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/14-control-details.txt",
+  "promptSha256": "32fc556ab6c4cf8a28863ff910824042822cbb045ee244c89b4b227cb6fb0b54",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\14-control-details-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-86c8a03c-ec62-4a3a-ab01-9e53000f6e45.png",
+    "nativePngSha256": "daef5fc7e84f83443072a843af6bbbdadc16051994f19433ca6da6cf17c92d3b",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 1226949,
+  "status": "generated_pending_review"
+}

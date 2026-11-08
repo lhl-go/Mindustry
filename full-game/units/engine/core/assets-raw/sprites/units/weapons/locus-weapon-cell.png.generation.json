@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+  "sha256": "ea648ce20ec77d4c1b0118fa92caf1bf232e78a06a3da850d3c81b7c5b7469d3",
+  "width": 96,
+  "height": 102,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon.png",
+      "sha256": "53b6a00993ed653ae3ea08a47f25fb53902a9436fa30297f115d2ebaa013bddb",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/locus-weapon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "locus-weapon",
+    "baseCanvas": [
+      96,
+      102
+    ],
+    "outputCanvas": [
+      96,
+      102
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/locus-weapon-cell.png",
+    "gitBlobSha1": "3ba48d74e2054ff6ce466edba6dac82eabc4ffb9",
+    "sha256": "4226b3b26fe48055225768233e76528e1f9d440a91b31e6dacc6072a28b51ba9"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

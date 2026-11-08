@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+  "sha256": "84ddb228e8914c882280d15609ca03074f1c20eafc2e5badeac72d58da648919",
+  "width": 214,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/additional-atlas/corvus-weapon.png",
+      "sha256": "97708f7887ec842c49dd838cc9364e0abff3cd13cada831884e7502565dc84f5",
+      "generationRecord": "full-game/units/engine/additional-atlas/corvus-weapon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_heat_mask",
+    "baseRegion": "corvus-weapon",
+    "baseCanvas": [
+      214,
+      140
+    ],
+    "outputCanvas": [
+      214,
+      140
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "existing warm-gold illuminated surface pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/corvus-weapon-heat.png",
+    "gitBlobSha1": "6ea3ffe1e71670d3da3859d83f06e89b82487612",
+    "sha256": "ae9f8b0cef3f9f1f3721dddbc1a8b90f194946b62e286e759ca2d59f301fd99b"
+  },
+  "runtime": {
+    "function": "Weapon/RegionPart heat draw",
+    "tint": "source-defined heatColor * recoil/warmup",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

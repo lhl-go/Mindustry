@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/vela.png",
+  "sha256": "7ab89e32e0e19417ba90e5fa325b3a192412e1f4e3f69d10f42660355001fa55",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+      "sha256": "099ab0f4c089671e0f33a7c27d36b064f7ff5d6568dc627e80fda8d3c4f88f18",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/vela.png",
+      "sha256": "46b0ccf7e2d9420d16dcbd5e34d75e847e17236da30c13bce409e06c3d76f5e8",
+      "generationRecord": "units/serpulo-ground-naval/bodies/vela.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+      "sha256": "81c8f5cb58027011d0e1c7884d15a2b9d35579c0214bbb60a2e85caf3ea7ba3c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+      "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      799,
+      832,
+      1401,
+      1427
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          183.55,
+          294.05
+        ],
+        "scale": [
+          0.6794871794871795,
+          0.6789883268482491
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          -8,
+          207
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-heavy.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+        "sourceAnchorPx": [
+          156.0,
+          83.48
+        ],
+        "targetAnchorPx": [
+          418.45,
+          294.05
+        ],
+        "scale": [
+          0.6794871794871795,
+          0.6789883268482491
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          300,
+          207
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/vela.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/vela.png.generation.json",
+        "sourceAnchorPx": [
+          202.5,
+          260.5
+        ],
+        "targetAnchorPx": [
+          301,
+          268
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          99,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json",
+        "sourceAnchorPx": [
+          157.0,
+          280.88
+        ],
+        "targetAnchorPx": [
+          301,
+          330.52
+        ],
+        "scale": [
+          0.3885350318471338,
+          0.38563829787234044
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          240,
+          222
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+        "sourceAnchorPx": [
+          126.5,
+          168.25
+        ],
+        "targetAnchorPx": [
+          179.5,
+          424.3
+        ],
+        "scale": [
+          0.3201581027667984,
+          0.3191489361702128
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          139,
+          371
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+        "sourceAnchorPx": [
+          126.5,
+          168.25
+        ],
+        "targetAnchorPx": [
+          422.5,
+          424.3
+        ],
+        "scale": [
+          0.3201581027667984,
+          0.3191489361702128
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          382,
+          371
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 602,
+    "height": 595,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 179818,
+    "opaquePixelCount": 171724,
+    "partialPixelCount": 6648,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      578,
+      571
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "vela",
+    "sha256": "7ab89e32e0e19417ba90e5fa325b3a192412e1f4e3f69d10f42660355001fa55",
+    "size": [
+      602,
+      595
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "region": "malign-mouth",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth.png",
+  "sha256": "662ec164def0f8dfb69370861be93e9c68a99a958300e094a28ec2dba905bd8b",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.145925+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/malign-mouth.png",
+      "sha256": "9e98be01e47fa53caa1ab236dd329ef592f1a7e2206fa59f5bcedaf28a131003",
+      "record": "full-game/root-turrets/masters/malign-mouth.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-mouth.png",
+      "sha256": "e107061165c7ff431c8d5ac7219b117f5f3b19cea35cc6941ff4333357643521",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      38,
+      7,
+      122,
+      94
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      307,
+      310
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

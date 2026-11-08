@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/build-tower-glow.png",
+  "sourceGitBlob": "757d26de8e6b16466b91238b3be33ffaf7addac9",
+  "sourceSha256": "7929e17b36613505a2fe80f08ef797ca85f98a21b94b1adaec17dbdcd912c012",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "build-tower-glow",
+  "blockId": "build-tower",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-glow.png",
+  "sha256": "47b86fcf053223869d965cce7eacf36807a218e1e315418ff19b50548d39d7a8",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-glow.png",
+  "engineSha256": "47b86fcf053223869d965cce7eacf36807a218e1e315418ff19b50548d39d7a8",
+  "nativeFile": "full-game/blocks/masters/build-tower-head-part.png",
+  "nativeSha256": "8928ba3f94cf0a166685d6d1f1f0504d1f490de997c5b7072cb68db5ffb9cca3",
+  "nativeSize": [
+    295,
+    268
+  ],
+  "sourceAlphaBounds": [
+    29,
+    18,
+    67,
+    83
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/build-tower-head-part.png",
+      "sha256": "8928ba3f94cf0a166685d6d1f1f0504d1f490de997c5b7072cb68db5ffb9cca3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/build-tower-glow.png",
+      "sha256": "7929e17b36613505a2fe80f08ef797ca85f98a21b94b1adaec17dbdcd912c012"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-glow.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower-glow.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/build-tower-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

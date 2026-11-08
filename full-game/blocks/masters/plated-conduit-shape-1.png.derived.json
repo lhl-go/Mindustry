@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/plated-conduit-shape-1.png",
+  "sha256": "ed82aa81b4d6a4a352ab417a4399f07a6c15bfc8ea14f4b0f6db82a78e26f117",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conduits-advanced-03.png",
+      "sha256": "9184e3661dffaa8a585db47b833c9d651a60d55f90437f363da1f89f61284bc8",
+      "generationRecord": "full-game/blocks/records/conduits-advanced-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      395,
+      356,
+      631,
+      596
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      236,
+      240
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    268,
+    272
+  ],
+  "anchorPixels": [
+    134.0,
+    136.0
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

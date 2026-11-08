@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-cruxscape",
+  "file": "full-game/ui-system/sectors/sector-cruxscape.png",
+  "sha256": "e164a6a3ede6d6a2770b6b929b653c12fa02b41eb5a53763d90c60a28fc2eaec",
+  "width": 392,
+  "height": 392,
+  "derivedAt": "2026-10-26T15:54:01.015824+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/08-sectors-02.png",
+    "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+    "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 1,
+    "sourceBox": [
+      454,
+      44,
+      799,
+      412
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

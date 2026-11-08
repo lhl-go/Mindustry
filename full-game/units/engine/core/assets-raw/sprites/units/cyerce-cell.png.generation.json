@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cyerce-cell.png",
+  "sha256": "c5729cf2310a6f937964a04479ab471d6865400ecf0406044a2ae3dc384053b5",
+  "width": 140,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cyerce.png",
+      "sha256": "01d583a3d027d4909f6227c15d6a550a3bc2b5ebd6a08f5ab902a7eb6ae4699e",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/cyerce.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "cyerce",
+    "baseCanvas": [
+      140,
+      140
+    ],
+    "outputCanvas": [
+      140,
+      140
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cyerce-cell.png",
+    "gitBlobSha1": "6dba8c92850515daeea9d8fb033e17e2f2b2f561",
+    "sha256": "c49c568d9ceff8ff773d8c95fc833bd11ffe2e9a7633864c4a991ce3a49fd601"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/core-shard.png",
+  "sha256": "c1b2a47d1af28faae315ab9829cba006ccff5d9227e01b87d66a26652b3f9060",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      93,
+      111,
+      298,
+      317
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      205,
+      206
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    237,
+    238
+  ],
+  "anchorPixels": [
+    118.5,
+    119.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/mech-fabricator.png",
+  "sourceGitBlob": "96592251aeff3d2a99aee8ac0059bd10bdc85411",
+  "sourceSha256": "694af1c529d3cf529f06cedadd5f7b0e0da3eae687c80af12fff52e0ab25b391",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "mech-fabricator",
+  "blockId": "mech-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator.png",
+  "sha256": "900f17a9f13fb8686d4ecce1f860464ca52a1ce7aca3fae75fa41a38a0b47e3d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator.png",
+  "engineSha256": "900f17a9f13fb8686d4ecce1f860464ca52a1ce7aca3fae75fa41a38a0b47e3d",
+  "nativeFile": "full-game/blocks/masters/mech-fabricator.png",
+  "nativeSha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7",
+  "nativeSize": [
+    348,
+    330
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mech-fabricator.png",
+      "sha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/mech-fabricator.png",
+      "sha256": "694af1c529d3cf529f06cedadd5f7b0e0da3eae687c80af12fff52e0ab25b391"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-fabricator.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mech-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

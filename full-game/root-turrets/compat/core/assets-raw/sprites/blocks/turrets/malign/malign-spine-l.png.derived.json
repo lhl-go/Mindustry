@@ -1,0 +1,42 @@
+{
+  "region": "malign-spine-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-l.png",
+  "sha256": "01e457b87447eb5f1ba6c2c649e4809e39453951838b161522164fd4934fda5d",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.150757+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/malign-spine-l.png",
+      "sha256": "0652bda58037bc8c4c3f74b22363689695ab9595e9a8ea174760bc2a1105c044",
+      "record": "full-game/root-turrets/masters/malign-spine-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-spine-l.png",
+      "sha256": "85a3e42d6832ad1c13a0eb7234e59cc10af22b80693bbe5ccd1ea1cd6b567d18",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      69,
+      37,
+      144,
+      91
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      317,
+      238
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

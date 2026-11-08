@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/12-basic-wall-tops.png",
+  "sha256": "0f8abf47ed85ceb0ebb273c19c910abee069fb640c48a474f5e332d309624ad7",
+  "generatedAt": "2026-10-26 17:46:48 UTC",
+  "startedAt": "2026-10-26 17:45:44 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-terrain atlas. Create18 NEW natural rock WALL TOP tiles for Mindustry. Strict vertical top-down orthographic, clean refined Daoist Q hand-painted geology, soft round generous rock planes like attached references' craftsmanship. No UI, people, text, frames, labels, symbols, perspective or side-view cliffs. Requested1536×3072 portrait, exact3 equal columns×6 equal rows,18 fullbleed square swatches with no gutters/dividers. Opaque rock fills each entire cell to all edges; NOT isolated boulders on a background. Wall caps visibly denser/taller than ground through broad sculpted rounded rock crowns and darker cracks, subtle overhead lighting; no directional gradient/vignette. Tileable quiet outer edges.\nEach row has two different small wall-cap variants left and center (few broad rock crowns); right is a separate larger 2×2 wall-cap design with more irregular broad connected crowns and internal fissures, NOT copy of small variant. Same material and light in entire row.\nRows:\n1 STONE WALL natural neutral cool light gray rounded limestone crowns with fine cool-gray fissures.\n2 DIRT WALL compact warm brown earth cliffs viewed from above, rounded packed clay mounds and dark small fractures, tiny stones.\n3 DACITE WALL pale warm gray speckled volcanic crowns with white quartz grains.\n4 SAND WALL warm pale beige sandstone cap with smooth rounded eroded rock surfaces.\n5 DUNE WALL slightly deeper amber-tan sandy rock cap with organic wind-rounded ridges and granular texture, no side perspective.\n6 SALT WALL pale ivory-white dense salt rock crowns with tiny crystalline edge sparkles and faint warm-gray cracks.\nExactly18different full square tiles, no borders, no stray objects, preserve natural readable broad material shape.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/12-basic-wall-tops.txt",
+  "promptSha256": "4ee5b3e544b7aef7d0476ce2e21320498ffd8cc3639f88512f3c919d95b8a372",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/12-basic-wall-tops.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-c4c7b5a1-bcf7-4955-85a6-b79f6676070f.png",
+    "originalOutputSha256": "0f8abf47ed85ceb0ebb273c19c910abee069fb640c48a474f5e332d309624ad7"
+  },
+  "regions": [
+    "stone-wall1",
+    "stone-wall2",
+    "stone-wall-large",
+    "dirt-wall1",
+    "dirt-wall2",
+    "dirt-wall-large",
+    "dacite-wall1",
+    "dacite-wall2",
+    "dacite-wall-large",
+    "sand-wall1",
+    "sand-wall2",
+    "sand-wall-large",
+    "dune-wall1",
+    "dune-wall2",
+    "dune-wall-large",
+    "salt-wall1",
+    "salt-wall2",
+    "salt-wall-large"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone-wall1.png",
+      "sha256": "5ac0b9cd9aad10a172604d5137a2e4e5642ab77708586a3b9cd51cc184d04f94"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone-wall2.png",
+      "sha256": "dd65a593a408ad12ef72319ab2c38828f266e5d75c6959edb000fc693837311a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone-wall-large.png",
+      "sha256": "04a3ba43dd697e714286ed68c1e76e874bad9a749967cd7d45e10ebb0b8facca"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt-wall1.png",
+      "sha256": "f9e041f3cccc999dc765afb4edf53d516d8ad3b4dd0ab1230c943c2dce4b940d"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt-wall2.png",
+      "sha256": "b85b0b70764386a51b72ac8d8624ab1d947fb204d3b219095028e1e151ef3892"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt-wall-large.png",
+      "sha256": "371a6f2ead65e44a375ab877875bc486053ffae867eed9abf8acf111be42bb54"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite-wall1.png",
+      "sha256": "348d132b1a4839be49f4502d61f46149519d9917fcdb8286202f3a7965654b85"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite-wall2.png",
+      "sha256": "3ef77cca5aebad90e4f07762344a95891f406975fb55a8e24f24bd5c58c9c82a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite-wall-large.png",
+      "sha256": "3395fa34fac10c644e0bfab04381f45ed98eb44e32a1d6c9ec407153ed16c1bc"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-wall1.png",
+      "sha256": "651063840602d8e54d9b873b2fd435643ff0056207ce7660edf32cafe688decd"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-wall2.png",
+      "sha256": "f51b7ad7be815d527d9c4dc6625cdd38a47be719da77c564276e6d4b43e8061c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-wall-large.png",
+      "sha256": "255cb393ba7eebbaaee84fb718735ac8c60c4522a18f44ce247d52ec9f43e082"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dune-wall1.png",
+      "sha256": "bc108a632737cd8d4cd0f54db0f37719cfe765513a919a77600590858f7ddecd"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dune-wall2.png",
+      "sha256": "5ba51ab2d528f562dc85a198cd9516277ad07166e07b0f119dc4c2cd60ef49a2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dune-wall-large.png",
+      "sha256": "2ebfe294eaf39a7cacc4a92827c9a9dc7a56234e8b0bcca1f8ba7bda69baf2d0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/salt-wall1.png",
+      "sha256": "e9e98d64370c17a50b2c134d72dc4c2b86af15506c6acc2dc70111ec807f9230"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/salt-wall2.png",
+      "sha256": "185572f53ce524077a766c1fb0767f971f9d51210f908efb88f33c1590ca10b0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/salt-wall-large.png",
+      "sha256": "1c50f01505e9c6279480a40ba79738c978238c2a6726aea02881336678216724"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

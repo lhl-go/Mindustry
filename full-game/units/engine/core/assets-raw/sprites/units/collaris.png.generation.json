@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/collaris.png",
+  "sha256": "1373fe12cae3d2f246b8500d7ccdffd8de4aa0b50f92fa271ba6e25b48a9b231",
+  "width": 195,
+  "height": 212,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/collaris-body-v2.png",
+      "sha256": "72b57c8c69045c1fcdc6838021c058fa757c1ae4dd8cdb43539921d5fa6572ea",
+      "generationRecord": "units/air-erekir/layers/collaris-body-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      758,
+      863
+    ],
+    "sourcePivot": [
+      387.0,
+      439.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      774,
+      879
+    ],
+    "targetDimensions": [
+      195,
+      212
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      191,
+      208
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      97.5,
+      106.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/collaris.png",
+    "gitBlobSha1": "bc741fdb39283627030eaa580f8de1ff85353520",
+    "sha256": "2d6e2ced89577d2118c51212860bffd6951c44ba00517793b4e6cda195580d76"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

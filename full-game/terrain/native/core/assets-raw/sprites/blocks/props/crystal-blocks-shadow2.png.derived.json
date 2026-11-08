@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks-shadow2.png",
+  "sha256": "f560e4cbcd6a8cd6ae68cfdd1920957bf0b8b884fe4b043b474b09f101da5286",
+  "size": [
+    329,
+    350
+  ],
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-blocks2.png",
+      "sha256": "ec78ecb75e363e9286c68ebd7454152198f5f5f611231d2ff544f599f4aca07a",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-blocks2.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks2.png",
+      "sha256": "abc8038eb34b6314ebd9ba89614a44afc1fa338b12b7bcc1969a999a93304a93",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks2.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 255,
+    "bodyNotUpscaled": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "derived at native body resolution; generated silhouette, local shadow operation"
+}

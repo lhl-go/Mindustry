@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/flux-reactor.png",
+  "sourceGitBlob": "0758766a4ca75db6a5312280044969ba6291e396",
+  "sourceSha256": "faa6716b1106a3f36740ff69585cf195c6eb76915efc957239040761d4671d24",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "flux-reactor",
+  "blockId": "flux-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor.png",
+  "sha256": "e726a9533da12413e5d6263186cf845919018ca0635adda64947ccd559c59537",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor.png",
+  "engineSha256": "e726a9533da12413e5d6263186cf845919018ca0635adda64947ccd559c59537",
+  "nativeFile": "full-game/blocks/masters/flux-reactor.png",
+  "nativeSha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1",
+  "nativeSize": [
+    374,
+    322
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/flux-reactor.png",
+      "sha256": "83b087335309f615226ca9d92c247e1a208cc12ccdc03e8b6978802981568cc1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/flux-reactor.png",
+      "sha256": "faa6716b1106a3f36740ff69585cf195c6eb76915efc957239040761d4671d24"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/flux-reactor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

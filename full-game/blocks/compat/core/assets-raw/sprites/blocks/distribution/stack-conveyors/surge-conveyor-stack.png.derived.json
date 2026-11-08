@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-stack.png",
+  "sourceGitBlob": "32badcd095a09ddc0179a2757b1ce40662110f57",
+  "sourceSha256": "d057e79fc38978d748de424d4fd6d715565475416df9fef0661a34e0899de915",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "surge-conveyor-stack",
+  "blockId": "surge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-stack.png",
+  "sha256": "c149f65a34832ea62887ac2d59f9997c7b67a08f04d237488869eaf916f15ce1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-stack.png",
+  "engineSha256": "c149f65a34832ea62887ac2d59f9997c7b67a08f04d237488869eaf916f15ce1",
+  "nativeFile": "full-game/blocks/masters/surge-conveyor-stack-part.png",
+  "nativeSha256": "1a8191144893283750b10b78dfbde407a2c9c41c31ccb64ab3a68a50d27c1021",
+  "nativeSize": [
+    325,
+    334
+  ],
+  "sourceAlphaBounds": [
+    3,
+    2,
+    29,
+    29
+  ],
+  "operation": {
+    "kind": "independent_native_part_fitted_to_original_canvas_and_bounds",
+    "part": "surge-conveyor-stack-part",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-conveyor-stack-part.png",
+      "sha256": "1a8191144893283750b10b78dfbde407a2c9c41c31ccb64ab3a68a50d27c1021"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/surge-conveyor-stack.png",
+      "sha256": "d057e79fc38978d748de424d4fd6d715565475416df9fef0661a34e0899de915"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-stack.png.derived.json"
+}

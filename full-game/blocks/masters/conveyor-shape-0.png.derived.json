@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/conveyor-shape-0.png",
+  "sha256": "f8ad52819f5eabbf9ee3a389da51b0ad8edd7195aed598e29cc457aac6d57532",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conveyors-connections-01.png",
+      "sha256": "89ed7e538b640e55aa8522b57e784df78a68a0beba511d32e8747cdd244e53ef",
+      "generationRecord": "full-game/blocks/records/conveyors-connections-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      46,
+      100,
+      293,
+      241
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      247,
+      141
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    279,
+    173
+  ],
+  "anchorPixels": [
+    139.5,
+    86.5
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

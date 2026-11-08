@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-geothermalStronghold",
+  "file": "full-game/ui-system/sectors/sector-geothermalStronghold.png",
+  "sha256": "9e6ac6deee7a4868ccb49d478e43d33ff6951487c4d818ca3e9c01ad6edff8d7",
+  "width": 420,
+  "height": 420,
+  "derivedAt": "2026-10-26T15:54:01.560462+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/09-sectors-03.png",
+    "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+    "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 0,
+    "sourceBox": [
+      13,
+      57,
+      409,
+      398
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

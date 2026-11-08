@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/anthicus-leg-base.png",
+  "sha256": "68fe3c3ff47ebb713a2b0b0ad6dea2a88e6f5c24e440a845ddfd5e372ddd9fb4",
+  "width": 64,
+  "height": 45,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-medium-lower.png",
+      "sha256": "0daf2f3585757c72aa5f579ae70131bf111fd1986f8e67a5ffdd74904a326ccb",
+      "generationRecord": "units/air-erekir-parts/assets/leg-medium-lower.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "rotate native limb 90deg CCW so its long axis follows Lines.line U/x axis; downsample to original line texture bounds",
+    "sourceTrim": [
+      32,
+      32,
+      166,
+      364
+    ],
+    "sourcePivot": [
+      99,
+      59
+    ],
+    "rotationDegreesCCW": 90,
+    "destinationTopLeft": [
+      4,
+      11
+    ],
+    "sourceDimensions": [
+      198,
+      396
+    ],
+    "targetDimensions": [
+      64,
+      45
+    ],
+    "officialAlphaBounds": [
+      4,
+      6,
+      60,
+      39
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      32.0,
+      22.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/anthicus-leg-base.png",
+    "gitBlobSha1": "0b92243f3082cd49beac6f0947c74609631c4bfc",
+    "sha256": "4b135f35a8a8ba2518e5a8878823ce4e09023366342199a32b39e72296eabbc0"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

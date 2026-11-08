@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+  "sha256": "ff5b04071c1d36163c3bfc616248c359a3630097180a81b53b1f045622d72378",
+  "width": 192,
+  "height": 277,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/omura-cannon.png",
+      "sha256": "8e738d8e3a25a0d8fc01bcc27aaf9b8b7864e66e2fc28af6a292df4987f109ad",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/omura-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_heat_mask",
+    "baseRegion": "omura-cannon",
+    "baseCanvas": [
+      192,
+      277
+    ],
+    "outputCanvas": [
+      192,
+      277
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "existing warm-gold illuminated surface pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/omura-cannon-heat.png",
+    "gitBlobSha1": "c3c0d6378cbb56a26f36b3e40488d4b47d34ac10",
+    "sha256": "4860fceb2c7366e468ecec091b3407bf7ed43483425d7c3bec20e3aad06daa3c"
+  },
+  "runtime": {
+    "function": "Weapon/RegionPart heat draw",
+    "tint": "source-defined heatColor * recoil/warmup",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

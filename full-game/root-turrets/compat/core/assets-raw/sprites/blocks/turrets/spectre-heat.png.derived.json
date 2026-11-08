@@ -1,0 +1,35 @@
+{
+  "region": "spectre-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/spectre-heat.png",
+  "sha256": "889fba38927bc505f659f5b5f042b8fb0e18c64b1f13fa53ffc882e6078797fa",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.535179+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/spectre-heat.png",
+      "sha256": "8e0d327c9f4e23e3e40e26714df131326643c0237dbc6864993dd2a183c8a8ee",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/spectre.png",
+      "sha256": "264efdd01d07926882e0aa069090febafbd598dba23893ea7290b6469f78826b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/spectre.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "spectre"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1977
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

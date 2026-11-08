@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/artillery-mount.png",
+  "sha256": "476fc49bc704d51edbc87bddf611a0dbb479f40e3e75257cd454d4c519b45f09",
+  "width": 70,
+  "height": 70,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-mortar.png",
+      "sha256": "f9dd0c25e2e08873be7ef758a50e2110169ce72f496c58be2bc8a58c952ecacd",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-mortar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      263,
+      287
+    ],
+    "sourcePivot": [
+      139.5,
+      219.25
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      14,
+      1
+    ],
+    "sourceDimensions": [
+      279,
+      303
+    ],
+    "targetDimensions": [
+      70,
+      70
+    ],
+    "officialAlphaBounds": [
+      23,
+      7,
+      42,
+      50
+    ],
+    "scale": 0.16728167281672818,
+    "engineAnchorPx": [
+      35.0,
+      35.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/artillery-mount.png",
+    "gitBlobSha1": "ac6552e539bcf82d84aa6f4fd9406eed5ba0b8b5",
+    "sha256": "50e15b9f64acafedaaaaa68d3b2b667ce04bd6727705508ade61ef51e9f65809"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

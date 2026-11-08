@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay19.png",
+  "sha256": "b1e329e07722887fda0618c4e82cbc6327a58faa60c8cdbcfce3f5d5c8560ea9",
+  "createdAt": "2026-10-26T17:24:43.601867+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay19.png",
+  "officialGitBlobSha1": "00d204f712df402d48e84bcfba0b1c1db13885f2",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets-raw/sprites/blocks/environment/character-overlay/character-overlay19.png",
+  "sourceSha256": "b1e329e07722887fda0618c4e82cbc6327a58faa60c8cdbcfce3f5d5c8560ea9",
+  "byteIdenticalToOfficial": true,
+  "width": 28,
+  "height": 28,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "reason": "Semantic 64-glyph reduced alphabet plus editor icons; 6-bit character and 2-bit rotation encoding must retain readable exact glyph identities. Official geometry retained, no AI art claimed.",
+  "technicalEvidence": [
+    "core/src/mindustry/world/blocks/environment/CharacterOverlay.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

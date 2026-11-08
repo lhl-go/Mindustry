@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator.png",
+  "sourceGitBlob": "a63c5c351a237250a2331f777749b80b811cdf55",
+  "sourceSha256": "dea28dfa669a2b1087128fe5ba5cb56d17ffd278898e81c4b83f5fde4a747e28",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "large-cliff-crusher-rotator",
+  "blockId": "large-cliff-crusher",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator.png",
+  "sha256": "8da6e3eee0ef3738e014f61a17cad88ffa8e808e29cf5a90119f3155976c5df3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator.png",
+  "engineSha256": "8da6e3eee0ef3738e014f61a17cad88ffa8e808e29cf5a90119f3155976c5df3",
+  "nativeFile": "full-game/blocks/masters/large-cliff-crusher-rotator-part.png",
+  "nativeSha256": "5dc8b0183dbbcd0b45af5c4b44e156ff4edc509d65a3fa8440fbe5877102f250",
+  "nativeSize": [
+    295,
+    287
+  ],
+  "sourceAlphaBounds": [
+    22,
+    22,
+    42,
+    42
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-cliff-crusher-rotator-part.png",
+      "sha256": "5dc8b0183dbbcd0b45af5c4b44e156ff4edc509d65a3fa8440fbe5877102f250"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/large-cliff-crusher-rotator.png",
+      "sha256": "dea28dfa669a2b1087128fe5ba5cb56d17ffd278898e81c4b83f5fde4a747e28"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-cliff-crusher-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

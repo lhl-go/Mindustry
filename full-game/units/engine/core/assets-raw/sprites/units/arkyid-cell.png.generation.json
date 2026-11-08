@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid-cell.png",
+  "sha256": "ac2dba51f7e6212877e367b13f63fb63930424d152188469deec4c7a411f8548",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid.png",
+      "sha256": "600b2b30f72d023536e9bda79cb1e91ade262032fbbd258bc191e6ee17c21b32",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/arkyid.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "arkyid",
+    "baseCanvas": [
+      128,
+      128
+    ],
+    "outputCanvas": [
+      128,
+      128
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/arkyid-cell.png",
+    "gitBlobSha1": "2cfccc7afba933ae77fe7d26a1b36e2d484a8034",
+    "sha256": "6b29b36b61c46676e4133586ab96661dcaba8b10afa321daa20aa48b7590b100"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

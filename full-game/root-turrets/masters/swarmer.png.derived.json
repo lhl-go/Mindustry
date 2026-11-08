@@ -1,0 +1,41 @@
+{
+  "region": "swarmer",
+  "file": "full-game/root-turrets/masters/swarmer.png",
+  "sha256": "7bb5f57417faf7085b2291cea17e3107b96efb29cc49fee198892b250c902d02",
+  "size": [
+    299,
+    306
+  ],
+  "derivedAt": "2026-10-26T18:34:45.532088+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/05-regions.png",
+      "sha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+      "record": "full-game/root-turrets/source/05-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 11,
+    "sourceBox": [
+      1222,
+      699,
+      1497,
+      981
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

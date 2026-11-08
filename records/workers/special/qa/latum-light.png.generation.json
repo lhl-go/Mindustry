@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "records/workers/special/qa/latum-light.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:17.327156+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 579,
+  "height": 1170,
+  "sha256": "697730662ff5ba1dfd8e15ef4f85dc16dbfe41ec80f19eb55cebbfac847fe0be",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/latum.png",
+      "sha256": "7a78fb426c0ea755516d11aec16c35915c69563b365ee146bb6d61df5969b56e",
+      "generationRecord": "units/special/assets/latum.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "alpha_composite_inspection_backdrop",
+    "background": [
+      240,
+      236,
+      224,
+      255
+    ],
+    "inspectionOnly": true,
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    255,
+    255
+  ],
+  "imageRetained": false,
+  "retentionReason": "Removed after final export verification per user retention rule."
+}

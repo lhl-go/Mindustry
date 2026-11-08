@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/rubble/rubble-2-0.png",
+  "sha256": "ff95f420984006bb55634811971fe42ffd46c8533deedfc54a06ca7f65b8d516",
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/rubble-2-0.png",
+      "sha256": "94283521b828893df7fa23e48ba7015558066af02b41e0fb5e93e6bf47cd1459",
+      "generationRecord": "full-game/items-fx/assets/rubble-2-0.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      64,
+      64
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

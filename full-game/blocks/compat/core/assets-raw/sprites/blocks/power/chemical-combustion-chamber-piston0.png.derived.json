@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston0.png",
+  "sourceGitBlob": "c34d9e07b70273a1b5c7a103431dce3a3475471c",
+  "sourceSha256": "0dfdc30d321ea862898737205d024c612b52762a8eb966d44af4a303363e793f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "chemical-combustion-chamber-piston0",
+  "blockId": "chemical-combustion-chamber",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston0.png",
+  "sha256": "a020a491af40afc1b80e74827d035b24f64608827a0b18978a24dc15ccbdcbd2",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston0.png",
+  "engineSha256": "a020a491af40afc1b80e74827d035b24f64608827a0b18978a24dc15ccbdcbd2",
+  "nativeFile": "full-game/blocks/masters/chemical-combustion-chamber-piston-part.png",
+  "nativeSha256": "1741dc9770e0e83d9a0b0cbaa3daf102ceecc9b91f78d3a3788460dd8b132711",
+  "nativeSize": [
+    205,
+    281
+  ],
+  "sourceAlphaBounds": [
+    44,
+    39,
+    87,
+    57
+  ],
+  "operation": {
+    "kind": "independent_native_piston_on_original_canvas",
+    "localRotationDegrees": -90,
+    "oppositeLightVariantVerticalFlip": false,
+    "runtimeMotion": "DrawPistons translation and rotation",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/chemical-combustion-chamber-piston-part.png",
+      "sha256": "1741dc9770e0e83d9a0b0cbaa3daf102ceecc9b91f78d3a3788460dd8b132711"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/chemical-combustion-chamber-piston0.png",
+      "sha256": "0dfdc30d321ea862898737205d024c612b52762a8eb966d44af4a303363e793f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-piston0.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

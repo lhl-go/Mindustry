@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/quasar.png",
+  "sha256": "c127968e0712e4c1fb3738296180bbc0082541c8f8f18052d1f9a4b6c8b27254",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/quasar.png",
+      "sha256": "966c148fd05ac3dd5dfa417cb78ba19f53788d590c07e9030ceaa546a4457e91",
+      "generationRecord": "units/serpulo-ground-naval/bodies/quasar.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-beam-laser.png",
+      "sha256": "3ef2e711bcb5f4b49fddf6866de6dd0cb28b57c2d5039e511c38daa4841b722e",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-beam-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      815,
+      850,
+      1385,
+      1401
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          149.57,
+          274.15
+        ],
+        "scale": [
+          0.6553398058252428,
+          0.6585365853658537
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          1,
+          203
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          420.43,
+          274.15
+        ],
+        "scale": [
+          0.6553398058252428,
+          0.6585365853658537
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          340,
+          203
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/quasar.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/quasar.png.generation.json",
+        "sourceAnchorPx": [
+          233.5,
+          241.5
+        ],
+        "targetAnchorPx": [
+          285,
+          250
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          51,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-beam-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-beam-laser.png.generation.json",
+        "sourceAnchorPx": [
+          117.5,
+          264.71
+        ],
+        "targetAnchorPx": [
+          84.19,
+          250
+        ],
+        "scale": [
+          0.574468085106383,
+          0.5774647887323944
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          17,
+          97
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-beam-laser.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-beam-laser.png.generation.json",
+        "sourceAnchorPx": [
+          117.5,
+          264.71
+        ],
+        "targetAnchorPx": [
+          485.81,
+          250
+        ],
+        "scale": [
+          0.574468085106383,
+          0.5774647887323944
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          418,
+          97
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 570,
+    "height": 551,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 144644,
+    "opaquePixelCount": 160918,
+    "partialPixelCount": 8508,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      546,
+      527
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "quasar",
+    "sha256": "c127968e0712e4c1fb3738296180bbc0082541c8f8f18052d1f9a4b6c8b27254",
+    "size": [
+      570,
+      551
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

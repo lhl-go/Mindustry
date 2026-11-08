@@ -1,0 +1,43 @@
+{
+  "args": {
+    "prompt": "Use case: stylized-concept. Create NEW Mindustry flat ground textures, pure top-down orthographic, bright refined Daoist Q hand-painted style matching attached references' craftsmanship ONLY. No UI, text, characters, symbols, props, walls or perspective. Requested 1536×3072 portrait, exactly 3 columns × 6 rows of square FULL-BLEED swatches. No gutters, borders, dividers or margins. Each row has THREE genuinely different painted variants with same mean color/brightness/feature scale. Uniform lighting across every cell, absolutely NO horizontal or vertical gradient, vignette, spotlight or directional stripe. Quiet smoothly tileable four edges; keep contrasts low and patterns irregular, avoid large repeating motifs. Every cell opaque.\nRow1 DACITE: pale warm gray fine-grained volcanic rock, tiny white quartz grains and subtle small irregular shallow cracks.\nRow2 DARK SAND: soft charcoal gray fine sand with faint subdued small wind ripples, matte, no bright large bands.\nRow3 RED ICE: muted dusty rose pink frozen ground with thin desaturated pale mauve ice veins and few subsurface bubbles, no lava.\nRow4 CHAR: desaturated ash-gray scorched flat ground with sparse tiny black charcoal fragments and ashy soft brushwork.\nRow5 HOT ROCK: dark gray basalt ground with sparse fine ember-orange cracks occupying under 10 percent, mostly stable solid rock, flat walkable surface.\nRow6 MAGMA ROCK: dark warm gray cracked ground with small irregular glowing orange-red molten fissures occupying about 25 percent, glowing yellow seam cores only, no giant lava pools.\nConsistent detailed hand-painted texture, generous readable flat material shapes. All18 variations have independent native details. No text or cell frames.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 16:39:46 UTC",
+  "returnedAt": "2026-10-26 16:41:26 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-d4ce38f8-61a0-4657-8427-b78f078f8ced.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "regions": [
+    "dacite1",
+    "dacite2",
+    "dacite3",
+    "darksand1",
+    "darksand2",
+    "darksand3",
+    "red-ice1",
+    "red-ice2",
+    "red-ice3",
+    "char1",
+    "char2",
+    "char3",
+    "hotrock1",
+    "hotrock2",
+    "hotrock3",
+    "magmarock1",
+    "magmarock2",
+    "magmarock3"
+  ]
+}

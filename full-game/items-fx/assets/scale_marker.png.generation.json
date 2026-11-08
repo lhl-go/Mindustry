@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/12-guidance.png",
+      "sha256": "877e08d2045708b63416279ab70ab060575dca1448b65057e8cabf70630f1f89",
+      "generationRecord": "full-game/items-fx/source/12-guidance.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1000,
+      500,
+      1536,
+      1024
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      65,
+      62,
+      437,
+      446
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/scale_marker.png",
+  "sha256": "5c6812655505c1d12367eba267978c5688f62bf232d7c91b76bd64e4387bd435",
+  "width": 404,
+  "height": 416,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:10.450045+00:00"
+}

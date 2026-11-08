@@ -1,0 +1,42 @@
+{
+  "region": "duo-barrel-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-l.png",
+  "sha256": "95880e7c12bff5c8e32428ed81939ff19e79f39a99d8d52d337edd3b73b96060",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.076327+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/duo-barrel-l.png",
+      "sha256": "ed2f2a1a26a8a5db628e3c57b7752d630747d1346be781e4cbd9a3861fe410eb",
+      "record": "full-game/root-turrets/masters/duo-barrel-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/duo/duo-barrel-l.png",
+      "sha256": "800149cd374899f3d546477d47961666e3aaf8510bc14079d0ee52ad8319262e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      4,
+      4,
+      13,
+      19
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      252,
+      330
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

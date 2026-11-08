@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/target-dummy-team.png",
+  "sourceGitBlob": "4875a72c1a3f950379ddf32b6f38935315a738a9",
+  "sourceSha256": "2af606071cb1da22caa5b2fe2c663e296345e5b7f507e327bba3fc5617111bde",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "target-dummy-team",
+  "blockId": "target-dummy",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/target-dummy-team.png",
+  "sha256": "cff3a4ddcb1030dbdeb2645a18f35ecd51905cbaac41bb54bd498cb9bc0b77d0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/target-dummy-team.png",
+  "engineSha256": "cff3a4ddcb1030dbdeb2645a18f35ecd51905cbaac41bb54bd498cb9bc0b77d0",
+  "nativeFile": "full-game/blocks/masters/target-dummy.png",
+  "nativeSha256": "85b899a1ade7c7deb360f85b3d5f88027d0f745e25e7b5936abf85b81676ae3c",
+  "nativeSize": [
+    316,
+    300
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "jade material",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/target-dummy.png",
+      "sha256": "85b899a1ade7c7deb360f85b3d5f88027d0f745e25e7b5936abf85b81676ae3c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/target-dummy-team.png",
+      "sha256": "2af606071cb1da22caa5b2fe2c663e296345e5b7f507e327bba3fc5617111bde"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/target-dummy-team.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/target-dummy-team.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/target-dummy.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

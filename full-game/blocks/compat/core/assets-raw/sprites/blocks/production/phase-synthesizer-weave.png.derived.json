@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-synthesizer-weave.png",
+  "sourceGitBlob": "0c82c7a8020d1baadc1b84abec96dec88320a745",
+  "sourceSha256": "9bc3fe7054d951053dd3054c9944521b5e21a03edb17be86aca1e751518e73e6",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "phase-synthesizer-weave",
+  "blockId": "phase-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave.png",
+  "sha256": "3aed82b7ad675f890864e977344d0dcfac7fec31205fcd109060e8ab17ef8422",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave.png",
+  "engineSha256": "3aed82b7ad675f890864e977344d0dcfac7fec31205fcd109060e8ab17ef8422",
+  "nativeFile": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+  "nativeSha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c",
+  "nativeSize": [
+    190,
+    374
+  ],
+  "sourceAlphaBounds": [
+    35,
+    26,
+    61,
+    70
+  ],
+  "operation": {
+    "kind": "independent_native_weaving_shuttle",
+    "runtimeMotion": "two counter-rotating layers",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-synthesizer-weave-part.png",
+      "sha256": "216f10ec72960900d5c0d7185c9010bac3ad3289f7d6926eba1739f6f3b1515c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-synthesizer-weave.png",
+      "sha256": "9bc3fe7054d951053dd3054c9944521b5e21a03edb17be86aca1e751518e73e6"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-weave.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

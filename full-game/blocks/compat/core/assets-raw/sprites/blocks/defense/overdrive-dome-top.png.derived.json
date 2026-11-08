@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/overdrive-dome-top.png",
+  "sourceGitBlob": "4daa23ba53a6f620e90c37b3a57cb93ff576abb0",
+  "sourceSha256": "4421d08ab212b865a687d3d118bd8926903f71a2924c500c618f089f200f082f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "overdrive-dome-top",
+  "blockId": "overdrive-dome",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-dome-top.png",
+  "sha256": "f6004604fc1ee6a2bf1fd931caa8056e737e4bd78a1666eba050f4d9e5416614",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-dome-top.png",
+  "engineSha256": "f6004604fc1ee6a2bf1fd931caa8056e737e4bd78a1666eba050f4d9e5416614",
+  "nativeFile": "full-game/blocks/masters/overdrive-dome.png",
+  "nativeSha256": "c142aa26f1856d4f4d19aa01f8ae158faba53067fe7fdf04f6daf25291390f56",
+  "nativeSize": [
+    393,
+    345
+  ],
+  "sourceAlphaBounds": [
+    18,
+    18,
+    78,
+    78
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/overdrive-dome.png",
+      "sha256": "c142aa26f1856d4f4d19aa01f8ae158faba53067fe7fdf04f6daf25291390f56"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/overdrive-dome-top.png",
+      "sha256": "4421d08ab212b865a687d3d118bd8926903f71a2924c500c618f089f200f082f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-dome-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-dome-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/overdrive-dome.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

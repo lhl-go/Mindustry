@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/04-liquids.png",
+      "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+      "generationRecord": "full-game/items-fx/source/04-liquids.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      17,
+      19,
+      428,
+      417
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-gallium.png",
+  "sha256": "ef896dfe684992dfe6ebfb596455876f695a6c22c9307ee0f7e0b4078d2b8ada",
+  "width": 443,
+  "height": 430,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.178476+00:00"
+}

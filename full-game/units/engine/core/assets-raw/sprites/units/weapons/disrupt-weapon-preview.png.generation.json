@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+  "sha256": "e02bbaa2de0e0d758aa7a84a83b86946704821a8e6716dd2bb4513faa8d78cc1",
+  "width": 82,
+  "height": 113,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/disrupt-weapon-preview.png",
+      "sha256": "855f0cf81ccc4b5dd91722140b9ebec54e94760016378c2667855b8ccb0ba8fb",
+      "generationRecord": "full-game/units/parts/disrupt-weapon-preview.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      43,
+      155,
+      757,
+      494
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      3,
+      36
+    ],
+    "sourceDimensions": [
+      800,
+      650
+    ],
+    "targetDimensions": [
+      82,
+      113
+    ],
+    "officialAlphaBounds": [
+      3,
+      11,
+      79,
+      97
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      41.0,
+      56.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/disrupt-weapon-preview.png",
+    "gitBlobSha1": "39bd8016e12c39424bcf01b890b3c5982feaeb0e",
+    "sha256": "adade585eb1f868b0908e728aebf629381a4975ba2c20df890e22b27303579cb"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

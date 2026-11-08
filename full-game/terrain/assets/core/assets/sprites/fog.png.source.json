@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets/sprites/fog.png",
+  "sha256": "a02f04a3c7d12e634dce330886b6f03faff7273eca42fe47279362cb8948ac1f",
+  "createdAt": "2026-10-26T17:24:44.244891+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets/sprites/fog.png",
+  "officialGitBlobSha1": "5121693e582c7a231147c9f919e2c5d917ad588b",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets/sprites/fog.png",
+  "sourceSha256": "a02f04a3c7d12e634dce330886b6f03faff7273eca42fe47279362cb8948ac1f",
+  "byteIdenticalToOfficial": true,
+  "width": 256,
+  "height": 256,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    250
+  ],
+  "reason": "Technical scalar/alpha modulation texture for procedural rendering; frequency, channel and repeat behavior retained byte-exact. These are runtime shader inputs, not replacement scenic paintings.",
+  "technicalEvidence": [
+    "core/src/mindustry/graphics/Shaders.java",
+    "core/src/mindustry/graphics/CacheLayer.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

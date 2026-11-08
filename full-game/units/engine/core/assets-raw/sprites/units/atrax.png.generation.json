@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/atrax.png",
+  "sha256": "0cc5bcd70eded0563faa888fb6d9a6aebc7815d25ec7bd0baa8e3655d01068b7",
+  "width": 88,
+  "height": 64,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/atrax.png",
+      "sha256": "763375f3c3675b73d608ba5e89edf9e6b739d1bdc2ef5e24e00848e00ef75048",
+      "generationRecord": "units/serpulo-ground-naval/bodies/atrax.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      351,
+      396
+    ],
+    "sourcePivot": [
+      183.5,
+      206.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      4
+    ],
+    "sourceDimensions": [
+      367,
+      412
+    ],
+    "targetDimensions": [
+      88,
+      64
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      84,
+      60
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      44.0,
+      32.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/atrax.png",
+    "gitBlobSha1": "b73d3046d099cf59b80bb57d50b19c1927454975",
+    "sha256": "152a62a97660a94dd89d4692ecadbfde504d7b57fb48973fb5efa946bc6de6a2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

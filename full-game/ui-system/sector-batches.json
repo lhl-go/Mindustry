@@ -1,0 +1,846 @@
+[
+  {
+    "batch": 1,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-01.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-aegis.png",
+        "sourceGitBlob": "6c94d6b757a8ecc84ae1e7aa723ee4499bec0613",
+        "sourceBytes": 604,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-aegis.png",
+        "sha256": "499884e9c00c0c996b8bd01933cc03babb07ff8ffd91f280808822d44f23a323",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+        "sourceGitBlob": "3d101b1403577cd2db1ad070b77b9350ace6134e",
+        "sourceBytes": 509,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-atlas.png",
+        "sha256": "d64170fead8a2ef4d648eaa5fa1cf02d66f35a4971d138f3b21e3835b6a6a189",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-atolls.png",
+        "sourceGitBlob": "77df2ab519d9c03bc8ee82f7fbc7f2f6dbb780da",
+        "sourceBytes": 701,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-atolls.png",
+        "sha256": "b35a4abae72b9b91b2d22845afecfd1e110d2b1e104a996ce42fd2a2b5c7e9e9",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-basin.png",
+        "sourceGitBlob": "d397bf100f4161422ff270782f2d7d0e6c78a759",
+        "sourceBytes": 660,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-basin.png",
+        "sha256": "3899f7ecbda7b4972e9606fa6c54680b626535b758860cf55e198b6140c7b53d",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-biomassFacility.png",
+        "sourceGitBlob": "dc328e89b1cf8de4f24acd8f1f7261fa60f58769",
+        "sourceBytes": 652,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-biomassFacility.png",
+        "sha256": "e68ed18f40cd7bf4ad62ebbf9d8c2a9fa3e9605cc324acd12a867d029f877467",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-caldera-erekir.png",
+        "sourceGitBlob": "82542e66e8a640d758bd6d219f236fe47b86784d",
+        "sourceBytes": 660,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-caldera-erekir.png",
+        "sha256": "160da3846d93330add30199fb1a337827feedc1f01e30eedbc4a4a316acabe2c",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-coastline.png",
+        "sourceGitBlob": "02c081073f6a610c1b45c3d2f547dc87e74e905f",
+        "sourceBytes": 759,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-coastline.png",
+        "sha256": "d1a5ec6689b35d60fea9d067d0c2961900e3c7c886ce5495c59c939fb26f06c8",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crateredBattleground.png",
+        "sourceGitBlob": "c9c402f09ad388a84121a6fa494429ef75719f92",
+        "sourceBytes": 660,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crateredBattleground.png",
+        "sha256": "f577dce8dff18bca6f95e3011a9cba57de434fff17c578a2c1859dd116db8266",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crevice.png",
+        "sourceGitBlob": "01a3482b1c31e1ae87484dbde7458a771ff0aba3",
+        "sourceBytes": 637,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crevice.png",
+        "sha256": "0073792407c43fe3333b15ffc163c14c2204599ceef4291adc90585f65badaf6",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  },
+  {
+    "batch": 2,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-02.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-crossroads.png",
+        "sourceGitBlob": "c97bbd3a2776a12da31c80de1cf021c678c7cac5",
+        "sourceBytes": 535,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-crossroads.png",
+        "sha256": "8cd3e9e38b52aad80156a075fd48a3faaa34f120ce093a6c32476167a30d4f36",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-cruxscape.png",
+        "sourceGitBlob": "c0a4e6de102e94246a22fb4522aa5ac742ebe041",
+        "sourceBytes": 695,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-cruxscape.png",
+        "sha256": "39dff2f85120db6c92bb1d92cead904cdfa1be87a1a03d9dded5003a24f7dc9b",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-desolateRift.png",
+        "sourceGitBlob": "2b03daef7e2f48ded3eb45a8ad7c2edb0c40bfaf",
+        "sourceBytes": 529,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-desolateRift.png",
+        "sha256": "65d775e740adc52a43120336eae3e821652d6a7ac408e57a7bed6f188b3b35f4",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-extractionOutpost.png",
+        "sourceGitBlob": "9b18e2c913db7e1bf972a598468e5fc4432e92b2",
+        "sourceBytes": 676,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-extractionOutpost.png",
+        "sha256": "74023abf006986680922fe8d138c461d5cdf357044f88be7436165f467a71a1a",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-facility32m.png",
+        "sourceGitBlob": "8d2746fcbbe4d0b4d9d7e37b8e082bba5149c77a",
+        "sourceBytes": 676,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-facility32m.png",
+        "sha256": "eed6c2a8ff4ddabf7ffe6cd4b317f69ee5fc914b9b3feeb2a28f1a2e16bd5693",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-fallenVessel.png",
+        "sourceGitBlob": "007d10eb79e71d1761425daaf610f6c088080327",
+        "sourceBytes": 819,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-fallenVessel.png",
+        "sha256": "dfb9596bdb6550f5c454a0ee4bcff51f190be615ef2169fb6382b0512044c946",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-frontier.png",
+        "sourceGitBlob": "72d526679d66d4f2938ba18096a81405d6855888",
+        "sourceBytes": 616,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-frontier.png",
+        "sha256": "41081853f1ffe582db8088f04c2c16779ea4e39140f88a8186b4489a54bf9ce1",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-frozenForest.png",
+        "sourceGitBlob": "180a317349c1f6b7a3d433e5e9b375ec292ad298",
+        "sourceBytes": 702,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-frozenForest.png",
+        "sha256": "c576c6cb02c08933fde24b58948e52040f5155a1586d3682351e6251a0867a06",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-fungalPass.png",
+        "sourceGitBlob": "50d9f1207bcfa395f3b42ec27f002c8878a6ebfb",
+        "sourceBytes": 497,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-fungalPass.png",
+        "sha256": "48119d6b28cdd1e7787f382cff1666c0274cf9310b999397ee4159d2ce325983",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  },
+  {
+    "batch": 3,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-03.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-geothermalStronghold.png",
+        "sourceGitBlob": "1d6a26d35b39784da546807adc059d3b576f58d3",
+        "sourceBytes": 774,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-geothermalStronghold.png",
+        "sha256": "a8b683b989a6207c3dbd7d0ff5d6b0c1ad41e9f695ac6887915c4cd1d65eb610",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-groundZero.png",
+        "sourceGitBlob": "caab01dad9d8d37d070a1f12e3386fe28e953780",
+        "sourceBytes": 640,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-groundZero.png",
+        "sha256": "1d2361f1a3f04612abb39cd0988277371095a7e1b5530396c91b2678d1b06184",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-impact0078.png",
+        "sourceGitBlob": "90e9aad6f3b0ceb6b3a34fe4878103d927eb5e16",
+        "sourceBytes": 626,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-impact0078.png",
+        "sha256": "14d4e75cc1399ef71b36f42071108a4e9ea1f6880e62247a612e0a5fe870858a",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-infestedCanyons.png",
+        "sourceGitBlob": "5bc4f5c3787052d5f64aff9538c92d0288d9a681",
+        "sourceBytes": 714,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-infestedCanyons.png",
+        "sha256": "f855c992c131e74faa41f677023388d734173aa64ebd878046827438b8c67e91",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-intersect.png",
+        "sourceGitBlob": "ddef0b7fdb18a7aa394b50e5bda66317e283c69e",
+        "sourceBytes": 618,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-intersect.png",
+        "sha256": "0b3174c764044feb7e6565a9558abcc57148cb81fd9d6ef97a89c3de6dd84d0e",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-karst.png",
+        "sourceGitBlob": "9a0b98f632996706d5a9459318becf8dde9baf98",
+        "sourceBytes": 654,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-karst.png",
+        "sha256": "647fe32abadae7019ffc97ad55adb66a01ae2fd286a760926ad08d6543b5bcc0",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-lake.png",
+        "sourceGitBlob": "cfd5dfdbb0cf88aa0a2f41e756f313121efb36f8",
+        "sourceBytes": 469,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-lake.png",
+        "sha256": "77d8e07ab6b91f7534b9c1022c2fde5242c0e5e0e751fd20ca33fd06785b2759",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-littoralShipyard.png",
+        "sourceGitBlob": "dc679611408a5cc7da52b9d3b22320c461734af9",
+        "sourceBytes": 852,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-littoralShipyard.png",
+        "sha256": "8f97e135a2c4d6a340fb07c713ac9396389db3600b55bd4fa0400341aaff0966",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-marsh.png",
+        "sourceGitBlob": "dcbc5bc6d325f5c028d6118ef8b8168a5e20a727",
+        "sourceBytes": 666,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-marsh.png",
+        "sha256": "a49e5d84b107d8c785406c4f5ef5b914999de2dfd952056df0af25c2d4ce7ac4",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  },
+  {
+    "batch": 4,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-04.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-mycelialBastion.png",
+        "sourceGitBlob": "fe0f310405d83486715a38c866ea7b239098b25e",
+        "sourceBytes": 629,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-mycelialBastion.png",
+        "sha256": "f08fa7993608f3a6efbc7eae545ae4835427bbaf4f6f5ec355014404d7f088e2",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-navalFortress.png",
+        "sourceGitBlob": "9b21ec68e5e8115d24e4cd58280b32adfe0706ff",
+        "sourceBytes": 848,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-navalFortress.png",
+        "sha256": "80e6c29277cd8f6ddefcf6856de8f1603480c999a58b66020d144b39f0a0907a",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-nuclearComplex.png",
+        "sourceGitBlob": "39037b3f906365549018e8dde11e34f320c17a03",
+        "sourceBytes": 661,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-nuclearComplex.png",
+        "sha256": "e2ac478e3e7e59ca981f629d59a30ce8adbb7d7d13db3a9057675a03ca9246b7",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-onset.png",
+        "sourceGitBlob": "8b8cf255a780933445f6fb3472af512133faa113",
+        "sourceBytes": 631,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-onset.png",
+        "sha256": "fa13903b8c4c788024cf7695e7d5e6b3efc3bd6a704ef8a3c6b19b13a52501af",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-origin.png",
+        "sourceGitBlob": "8852690ad46454a618c3d005f4b776c9809834f2",
+        "sourceBytes": 887,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-origin.png",
+        "sha256": "35294e9a9b2d7ebf6709f307189f93c0a89a355b9c0eec42037f7331bb96e3d1",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-overgrowth.png",
+        "sourceGitBlob": "656114a689a2a018caa2ab6873dda021ac512ecc",
+        "sourceBytes": 732,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-overgrowth.png",
+        "sha256": "eae70c503a6255b47d173ad69465e955c3aaf43251e3a5687def82d52c0925f9",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-peaks.png",
+        "sourceGitBlob": "43b90614cc93a4f338ef38809b10ac946efb7099",
+        "sourceBytes": 608,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-peaks.png",
+        "sha256": "7904155615f12777780d6de4e5bccce73100065f6fa9346afdc8e6d9e120d66a",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-perilousHarbor.png",
+        "sourceGitBlob": "b7d94b75630ab304ae89a2bfd18bd157f23cb48e",
+        "sourceBytes": 808,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-perilousHarbor.png",
+        "sha256": "49a884b44e2b8e958854d77c1e76556958dc1709231f403c588557fec2f65c14",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-planetaryTerminal.png",
+        "sourceGitBlob": "dfd4d8dd3d05650a7942057d22c67969768d5bf0",
+        "sourceBytes": 814,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-planetaryTerminal.png",
+        "sha256": "e90678be9e144f4911ad94f012749aea4617a2d63857c4f584d3f8a0617c8ec6",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  },
+  {
+    "batch": 5,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-05.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-ravine.png",
+        "sourceGitBlob": "206ba91e9f4a21f46b2b7876ba60fdb6803ab71a",
+        "sourceBytes": 636,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-ravine.png",
+        "sha256": "03e8d6d4344520c5b5ade1c2d92aa74c579bb5d9e0cf35b1a3dd3eda3fb148bd",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-ruinousShores.png",
+        "sourceGitBlob": "9ca7e86cefda6cf3a5b9ffb8b8ad15f445995328",
+        "sourceBytes": 633,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-ruinousShores.png",
+        "sha256": "986c7ae060992606d5a1ea314d1e5d01839b8d49b1d7ef0a6f13f8eb1efe9b8d",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-saltFlats.png",
+        "sourceGitBlob": "958053850c03f6103a9eaa76c4016393370e96b6",
+        "sourceBytes": 597,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-saltFlats.png",
+        "sha256": "94d95a999006072c7a467c6eb5c09c65d98beeeae436ff70c1c671cec0f8c31f",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-siege.png",
+        "sourceGitBlob": "492398fd3b9723a38ed47532dd19820b5ae5192a",
+        "sourceBytes": 722,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-siege.png",
+        "sha256": "5091bbb5103830f5eb057d8a108fd8d41e82d9208aa1a0972a1f46e2597d22d3",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-split.png",
+        "sourceGitBlob": "68889389a46ce08d4a3af305b3b8dcaadfd2b27d",
+        "sourceBytes": 631,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-split.png",
+        "sha256": "2b9cb5ae04469151025286790e15d49f3c61890aa1db11d9c26921a9ecfc3349",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-stainedMountains.png",
+        "sourceGitBlob": "8efb9e25d24883b6a3ecc7f520d86c7a69da8030",
+        "sourceBytes": 611,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-stainedMountains.png",
+        "sha256": "4a42a906cc9df57b3dcad98e0490578d41a372cc14ea2f4d460008e1ec1822f7",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-stronghold.png",
+        "sourceGitBlob": "aa3bc2212d53716d406ea36440d6401af5729952",
+        "sourceBytes": 648,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-stronghold.png",
+        "sha256": "6fc7a4b61164ccdb5ba9409ca9c6137f3331433e3621563d487249d751c450c6",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-sunkenPier.png",
+        "sourceGitBlob": "a930ae211712271bbfac40c21839e1489f1a4b0e",
+        "sourceBytes": 723,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-sunkenPier.png",
+        "sha256": "44e3b66250f97869a7581038e0bdd512f68e121e340d5183770f80975d06467c",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-taintedWoods.png",
+        "sourceGitBlob": "9ade8036fc11aa478a6d10fe6d741e55e4a53ae0",
+        "sourceBytes": 842,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-taintedWoods.png",
+        "sha256": "4692f73960e6188eada9b17af00b849070afdee0da86c8f2490e0e25be4f6980",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  },
+  {
+    "batch": 6,
+    "grid": [
+      3,
+      3
+    ],
+    "guide": "full-game/ui-system/reference/sector-guide-06.png",
+    "cells": [
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-tarFields.png",
+        "sourceGitBlob": "81c248e641e05bfe9f968fadb34b486aea0a86c1",
+        "sourceBytes": 750,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-tarFields.png",
+        "sha256": "1c0ced2a1e20a0f0d631c5d5e3da816674532d96ca1e05ca7a436b2dd7e33238",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-testingGrounds.png",
+        "sourceGitBlob": "78ea4df653e90f04a9ebc55129553745c523dc9a",
+        "sourceBytes": 711,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-testingGrounds.png",
+        "sha256": "e87b4dc16a0403591474d73a67cd52c2e4346f97b2a58000c2d77f29162ef772",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-weatheredChannels.png",
+        "sourceGitBlob": "fc85e19815fdb58b23c17a438c769595fea25dcd",
+        "sourceBytes": 675,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-weatheredChannels.png",
+        "sha256": "3fae6ac556fe04b3221b91522d767a4861813dd94ad50752e96bcaf7360bbd3c",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      },
+      {
+        "sourcePath": "core/assets-raw/sprites/ui/sectors/sector-windsweptIslands.png",
+        "sourceGitBlob": "7dbe82285ceb008e53fe70eb65fcfb88f4457f53",
+        "sourceBytes": 774,
+        "owner": "ui-system",
+        "status": "requires_mapping",
+        "output": null,
+        "disposition": null,
+        "localReference": "full-game/ui-system/reference/core/assets-raw/sprites/ui/sectors/sector-windsweptIslands.png",
+        "sha256": "3de296a42b7997023996ee10cca1270871de4d1c30f9b4ff9915de270ef1d02e",
+        "sourceSize": [
+          64,
+          64
+        ],
+        "sourceMode": "RGBA"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/eclipse-cell.png",
+  "sha256": "eb525ba080adf343805fd01048a62fd0b120833da0f478bba0bc5d3052a14b0e",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/eclipse.png",
+      "sha256": "1a72db7f021406e1c1c44c29d309424bc6ab983e9be6cff1fed48f5c8c76f84a",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/eclipse.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "eclipse",
+    "baseCanvas": [
+      320,
+      321
+    ],
+    "outputCanvas": [
+      320,
+      320
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/eclipse-cell.png",
+    "gitBlobSha1": "eba8627f99eef0c865c348d99223b1280518010a",
+    "sha256": "2f377ae92128e418b103b21ba0d3b2cb59eab83cc2881fd0357073f9f6555ace"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

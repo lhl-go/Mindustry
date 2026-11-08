@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/02-files-map.png",
+  "sha256": "fafb4adc96a869927f79c3bde5640115cbc7db3afd209a244fbf976f5175a5d4",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:17:11-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Production game icon sheet, 24 distinct symbols in exactly SIX columns by FOUR rows, transparent 1536x1024 canvas. Each 256x256 cell has ONE complete distinct icon centered, 155-175px subject, wide clean transparent gutters, absolutely no cut-off elements, grid frames, labels or text. Match attached style references only: refined hand-painted Daoist Q jade, warm ivory and fine golden accents, gently rounded outlines, beautifully painted texture and shading, readable at tiny size, not photographic and not plastic CGI. ROW 1 left to right: (1) eye, jade almond eye and ivory pupil; (2) eye-off, same eye crossed with a clear gold slash; (3) file-image, ivory page showing a jade mountain pictogram; (4) file-text, ivory page with three simple jade lines (no alphabet); (5) file, blank ivory page with folded gold corner; (6) fill, tipped jade pigment pail spilling a little jade paint. ROW 2: (7) flip, paired ivory triangles with a vertical gold mirror axis; (8) folder-parent, jade folder with clear gold up arrow; (9) grid, nine ivory square tiles in a 3x3 arrangement with gold separators; (10) hammer, chunky jade-handled gold carpenter hammer; (11) home, small ivory house with jade curved Taoist roof; (12) host, small ivory server chest with jade roof and three gold linking nodes. ROW 3: (13) info, jade circle with an ivory lowercase i clearly rendered as icon; (14) item, polished faceted golden ore chunk; (15) line, one strong diagonal jade stroke with gold endpoint dots; (16) link, two interlocking warm-gold chain loops; (17) liquid-consume, jade water droplet with a small downward gold arrow; (18) liquid, simple plump jade water droplet with ivory gleam. ROW 4: (19) load-image, ivory landscape page with gold incoming arrow; (20) load, jade archive box with a gold upward/outward arrow; (21) loading, ring of eight small jade/gold beads with a clear gap; (22) lock-open, open golden padlock with jade body; (23) lock, shut golden padlock with jade body; (24) map, folded ivory map with winding jade road and a small gold location pin. Keep icon identity, cell order, equal optical scale, soft natural hand painted details. TRUE transparent background; no background color or cast drop shadows.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/02-files-map.txt",
+  "promptSha256": "91a18f28bc28e65272721ffb1ecac26e3138c3fdc2afb43ef8d29704c96fba54",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\02-files-map.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-ca20f49f-8283-4f1a-9b94-0cdbefe5a657.png",
+    "nativePngSha256": "fafb4adc96a869927f79c3bde5640115cbc7db3afd209a244fbf976f5175a5d4",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 825615,
+  "status": "generated_pending_review"
+}

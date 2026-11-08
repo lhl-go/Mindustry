@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/09-rubble-small.png",
+      "sha256": "e017ff567f6150c4bfc499f130eb5d51416f78235f88e9b4d921a33428c2bdcc",
+      "generationRecord": "full-game/items-fx/source/09-rubble-small.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      965,
+      0,
+      1536,
+      475
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      14,
+      15,
+      548,
+      466
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/rubble-2-0.png",
+  "sha256": "94283521b828893df7fa23e48ba7015558066af02b41e0fb5e93e6bf47cd1459",
+  "width": 566,
+  "height": 483,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.969719+00:00"
+}

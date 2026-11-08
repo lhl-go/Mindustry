@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct-top.png",
+  "sourceGitBlob": "b986bc356d415825296b919a1947a0a601db4287",
+  "sourceSha256": "430a75e8f3aefda41945bcf0d6ccb33b23da44af74fe0b24d869ede752b28a6e",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "underflow-duct-top",
+  "blockId": "underflow-duct",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct-top.png",
+  "sha256": "222974ae143e2e0e0c447b5c88534b5c4c861ba39fa0dc89a2adb280dce0be56",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct-top.png",
+  "engineSha256": "222974ae143e2e0e0c447b5c88534b5c4c861ba39fa0dc89a2adb280dce0be56",
+  "nativeFile": "full-game/blocks/masters-derived/underflow-duct.png",
+  "nativeSha256": "c18695a661443a66bf7e4f2f5a6087ef19b85da88f6c0d75ae158d931f78720e",
+  "nativeSize": [
+    340,
+    240
+  ],
+  "sourceAlphaBounds": [
+    11,
+    0,
+    21,
+    32
+  ],
+  "operation": {
+    "kind": "painted_original_indicator_fitted_inside_new_body_bounds",
+    "bodyBounds": [
+      0,
+      5,
+      32,
+      27
+    ],
+    "canvasAndPivotUnchanged": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_body_aligned_direction_indicator",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters-derived/underflow-duct.png",
+      "sha256": "c18695a661443a66bf7e4f2f5a6087ef19b85da88f6c0d75ae158d931f78720e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/ducts/underflow-duct-top.png",
+      "sha256": "430a75e8f3aefda41945bcf0d6ccb33b23da44af74fe0b24d869ede752b28a6e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct-top.png.derived.json"
+}

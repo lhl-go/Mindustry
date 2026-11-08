@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+  "sha256": "9f535ebc1b83871200f7fb5d6fc3f3801864cb5baaa529c5e2744fa49be92cf8",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/zenith-missiles.png",
+      "sha256": "1c6074455f81f358e383b844ffb01cda310dc7005136a60d225f7356c06b5655",
+      "generationRecord": "units/air-erekir-parts/assets/zenith-missiles.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      305,
+      401
+    ],
+    "sourcePivot": [
+      168,
+      290
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      9,
+      4
+    ],
+    "sourceDimensions": [
+      337,
+      433
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      44,
+      44
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/zenith-missiles.png",
+    "gitBlobSha1": "f9b614d61105c657690889bef3ff846ecd7a8060",
+    "sha256": "d3eaa3b74a69e6cf778b5b61a87b0f130c9b378e9bb90c60e26a3be052aaf1c1"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

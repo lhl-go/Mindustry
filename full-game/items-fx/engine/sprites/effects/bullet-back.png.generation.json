@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/bullet-back.png",
+  "sha256": "16c6d980a1e6beb491a9499bec9aaaf37a57e61bf7515741603e79975d63b476",
+  "width": 52,
+  "height": 52,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/bullet-back.png",
+      "sha256": "eaecb0c582a2faac2e232cb73c166cc4ce5ce54519a9dd5cace7a4fb09679b14",
+      "generationRecord": "full-game/items-fx/assets/bullet-back.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      52,
+      52
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

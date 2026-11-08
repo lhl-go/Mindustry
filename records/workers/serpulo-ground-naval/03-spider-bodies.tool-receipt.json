@@ -1,0 +1,23 @@
+{
+  "stem": "03-spider-bodies",
+  "startedAt": "2026-10-26T09:57:37.257Z",
+  "returnedAt": "2026-10-26T10:02:18.989Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "submittedArguments": {
+    "prompt": "Use case: stylized-concept. Transparent body-only atlas for 5 top-down Daoist insect robot sprites.\nTwo primary references guide only hand-painted jade/ivory/warm-gold material and round shapes. No human or UI, no background.\n3-column ×2-row invisible grid: 3 bodies top row, 2 bottom left/center, bottom right empty. Requested3072×2048. Complete objects with generous transparent gutters. Orthographic directly OVERHEAD 90 degrees; front nose toward top. Only upper surfaces visible, no frontal robot.\nEXACTLY FIVE low insect-like machine BODY CHASSIS, with no external weapons and NO LEGS, because separate articulated legs will be supplied later. Leave circular bronze leg sockets visibly flush along sides.\nTop-left CRAWLER: small rounded beetle carapace with central ember explosive core and short rounded pointed nose, no weapon.\nTop-center ATRAX: compact jade crab-like carapace, 4 leg sockets, small bronze reservoir integrated at rear.\nTop-right SPIROCT: medium six-socket spider carapace with paired violet energy ports on top, pale jade back.\nBottom-left ARKYID: wide heavy six-socket carapace with higher ivory layered armor, recessed central artillery mounting ring, purple core protected inside.\nBottom-center TOXOPID: largest broad eight-socket armored spider chassis, dark jade layered crown shell with ivory cloud panels and reserved mounting points for paired front shock weapons and dorsal artillery. More complex than Arkyid.\nNO attached legs, no guns, no floating effects, no detached parts, no text, no labels, no checkerboard. Genuine transparent RGBA alpha0 around every body, opaque body surface. Clear smooth outlines and fine painted material, no glowing edge, no floor shadow. Do not scale-copy; each is uniquely drawn. Target GPT Image2.5 highest quality.\n",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4 as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-a91ba30f-981c-49b7-aa86-d6c6cd86f84f.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-a91ba30f-981c-49b7-aa86-d6c6cd86f84f.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

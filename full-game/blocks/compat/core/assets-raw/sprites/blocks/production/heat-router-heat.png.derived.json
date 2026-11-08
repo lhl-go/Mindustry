@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-router-heat.png",
+  "sourceGitBlob": "dd574df57dbca192a2f0ad8525312120783a706c",
+  "sourceSha256": "62cd38caf4e34731d469d543567bffb862f3e9c5807ddbd3888858393264cbf5",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-router-heat",
+  "blockId": "heat-router",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-heat.png",
+  "sha256": "e4e1833237e798b6c420f5555ad3ac19f1a5fad4e8523b34adef59977ddb7a1c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-heat.png",
+  "engineSha256": "e4e1833237e798b6c420f5555ad3ac19f1a5fad4e8523b34adef59977ddb7a1c",
+  "nativeFile": "full-game/blocks/masters/heat-router.png",
+  "nativeSha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779",
+  "nativeSize": [
+    375,
+    333
+  ],
+  "sourceAlphaBounds": [
+    65,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-router.png",
+      "sha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-router-heat.png",
+      "sha256": "62cd38caf4e34731d469d543567bffb862f3e9c5807ddbd3888858393264cbf5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

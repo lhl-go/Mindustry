@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-refabricator-top.png",
+  "sourceGitBlob": "7c91e756cd81c893597788238a5ffd17d703d49a",
+  "sourceSha256": "271da230a06ed7f644bd1ff5c2cb0303bcdf6354c04be479da558ddba83960a2",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "ship-refabricator-top",
+  "blockId": "ship-refabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator-top.png",
+  "sha256": "7bd663f5d985115e72b88bbb303396b74b5cf1db2946fd9e9910432f91dd466b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator-top.png",
+  "engineSha256": "7bd663f5d985115e72b88bbb303396b74b5cf1db2946fd9e9910432f91dd466b",
+  "nativeFile": "full-game/blocks/masters/ship-refabricator.png",
+  "nativeSha256": "6cc788e78fc5c0bc8e4317ba89d7fa6e960c0d577ced170f6ba5cbc6748ef8fd",
+  "nativeSize": [
+    336,
+    324
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-refabricator.png",
+      "sha256": "6cc788e78fc5c0bc8e4317ba89d7fa6e960c0d577ced170f6ba5cbc6748ef8fd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-refabricator-top.png",
+      "sha256": "271da230a06ed7f644bd1ff5c2cb0303bcdf6354c04be479da558ddba83960a2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-refabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

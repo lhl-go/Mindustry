@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/separator-spinner-part.png",
+  "sha256": "ab63d4365cf78ec26f2ad745ec75bbdcde1df9430e291b28d49c138dd259bc77",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      70,
+      555,
+      306,
+      786
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      236,
+      231
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    268,
+    263
+  ],
+  "anchorPixels": [
+    134.0,
+    131.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

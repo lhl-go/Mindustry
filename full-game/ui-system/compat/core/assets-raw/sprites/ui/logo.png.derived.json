@@ -1,0 +1,21 @@
+{
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/logo.png",
+  "sha256": "15cb20c445d039ad3304f9e8b80c6b0c58fd871964edde3abd18da6f3bf26d7d",
+  "derivedFrom": [
+    {
+      "file": "branding/tiangong-xianzhen/tiangong-xianzhen-logo.png",
+      "sha256": "bb68fe8164eba3da6fcfcebc9e5093e1594ef51770018b73c44b6c18de5ac06a",
+      "record": "branding/tiangong-xianzhen/tiangong-xianzhen-logo.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "exactTitle": "天工仙阵",
+    "note": "Exact upstream source canvas. Runtime mod provides the larger aspect-correct title separately."
+  },
+  "width": 768,
+  "height": 107,
+  "actualModel": null,
+  "actualQuality": null
+}

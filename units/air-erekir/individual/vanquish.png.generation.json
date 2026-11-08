@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "vanquish",
+  "file": "units/air-erekir/individual/vanquish.png",
+  "sha256": "3432e6ce96941500bdf82d7bea409ab06438623d44b483bca684fea6128f208e",
+  "width": 468,
+  "height": 509,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/03-erekir-tanks.png",
+      "sha256": "4c603a146c51110f4162f6e9eb657161f20a45114b630a14e21ee145a8f8360a",
+      "generationRecord": "units/air-erekir/source/03-erekir-tanks.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      20,
+      470,
+      495,
+      990
+    ],
+    "trimBoundsInRegion": [
+      22,
+      19,
+      458,
+      496
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 468,
+    "height": 509
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

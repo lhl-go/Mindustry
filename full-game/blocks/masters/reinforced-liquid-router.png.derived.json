@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-liquid-router.png",
+  "sha256": "103f69fd2ff42a351408c0fcb87df236e24b2548f9e234e6927e97020f148d9a",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      657,
+      651,
+      946,
+      932
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      289,
+      281
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    321,
+    313
+  ],
+  "anchorPixels": [
+    160.5,
+    156.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "file": "units/coordinator-recoil-fix/poly-weapon.png",
+  "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+  "width": 235,
+  "height": 398,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T07:53:56.892262-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/01-recoil-parts-v1.png",
+      "sha256": "529a62f74f4cfd41324d14e2223b3f19012664bd45800d62a018a2266078cc4e",
+      "generationRecord": "units/coordinator-recoil-fix/01-recoil-parts-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "operation": {
+    "type": "authorized_alpha_cleanup_crop_pad",
+    "alphaCutoff": 16,
+    "componentSelection": "one complete disconnected atlas object",
+    "sourceCropBox": [
+      202,
+      631,
+      373,
+      965
+    ],
+    "padding": 32,
+    "resampling": false,
+    "redrawing": false,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "rgbPolicy": "retained RGB unchanged; removed background RGB=0"
+  },
+  "authorization": "User explicitly authorized local alpha cleanup and slicing in production chat on 2026-10-26",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Derived from the builtin generation record; exact model and quality undisclosed",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "edgeAlphaNonzero": false,
+    "visualReview": "passed_art_review",
+    "checkedAt": "2026-10-26T07:58:17.213269-04:00"
+  }
+}

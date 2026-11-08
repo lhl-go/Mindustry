@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/tank-fabricator.png",
+  "sourceGitBlob": "c056220c41301ffb98f1c57d0604a528ab36c91e",
+  "sourceSha256": "614af78ecb66f6f5c7fd59cad46f2eef40fee9a6d216389a23bef72173c5ba25",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "tank-fabricator",
+  "blockId": "tank-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator.png",
+  "sha256": "1c1e45a647f120142399aebc554d0940b46dc9c844db6f29bc1b032fe3361ef9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator.png",
+  "engineSha256": "1c1e45a647f120142399aebc554d0940b46dc9c844db6f29bc1b032fe3361ef9",
+  "nativeFile": "full-game/blocks/masters/tank-fabricator.png",
+  "nativeSha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a",
+  "nativeSize": [
+    350,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tank-fabricator.png",
+      "sha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/tank-fabricator.png",
+      "sha256": "614af78ecb66f6f5c7fd59cad46f2eef40fee9a6d216389a23bef72173c5ba25"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tank-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

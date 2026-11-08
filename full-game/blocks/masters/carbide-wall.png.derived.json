@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/carbide-wall.png",
+  "sha256": "82045b2c1faf7629ef309fabab49bc5c852e78581fdc9cb365dfc5925d11298c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      754,
+      733,
+      1055,
+      1038
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      301,
+      305
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    333,
+    337
+  ],
+  "anchorPixels": [
+    166.5,
+    168.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

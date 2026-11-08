@@ -1,0 +1,35 @@
+{
+  "region": "malign-mouth-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth-heat.png",
+  "sha256": "34d4e2e2f8806115c8e70eaf102fdac7cebfd945de7bc9c75f30283eb7ec44f7",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.478060+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-mouth-heat.png",
+      "sha256": "8cb4b2b91dd4de78568abeff7cbc71398836e5284e2117c1dad31741f1478263",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth.png",
+      "sha256": "662ec164def0f8dfb69370861be93e9c68a99a958300e094a28ec2dba905bd8b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-mouth.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "malign-mouth"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1928
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-phase-fabric.png",
+  "sha256": "0f57107dfb06bdfce8abda9499309c0c9d3c13747b53d4a227d0b33b067f7e7b",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-phase-fabric.png",
+      "sha256": "71e4d79480b6d3d92d01bc7191d38249675d98ecf3336a07e4e11aaa347e197b",
+      "generationRecord": "full-game/items-fx/assets/item-phase-fabric.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

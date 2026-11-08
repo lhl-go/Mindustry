@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-sunkenPier",
+  "file": "full-game/ui-system/sectors/sector-sunkenPier.png",
+  "sha256": "c59cb832d30e7ec3f72f2ef6332a0ce64ce86e7449257444e4326d790902acf9",
+  "width": 414,
+  "height": 414,
+  "derivedAt": "2026-10-26T15:54:02.849880+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/11-sectors-05.png",
+    "sha256": "1f0e0e9969d40a968d456a436482fcac18041d30ae31eb06d4460e1a2bdfa346",
+    "generationRecord": "full-game/ui-system/source/11-sectors-05.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 7,
+    "sourceBox": [
+      436,
+      808,
+      826,
+      1197
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

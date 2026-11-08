@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/crawler.png",
+  "sha256": "d75605cd1a6eefcf38ba650d8f0c95835671139d6ce420783af9099a34123060",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-crawler.png",
+      "sha256": "3db3a9bb0b820ddc781384ff23ade36d7d41d82fdcca41cf87e013460b8603eb",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-crawler.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/crawler.png",
+      "sha256": "f61021deea7ede0fce81be2fab036a3638755cb56bfb46b8c8ff8a94314925fb",
+      "generationRecord": "units/serpulo-ground-naval/bodies/crawler.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      900,
+      891,
+      1300,
+      1351
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-crawler.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-crawler.png.generation.json",
+        "sourceAnchorPx": [
+          93.0,
+          79.42
+        ],
+        "targetAnchorPx": [
+          107.78,
+          229.1
+        ],
+        "scale": [
+          0.553763440860215,
+          0.554639175257732
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          -12,
+          171
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-crawler.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-crawler.png.generation.json",
+        "sourceAnchorPx": [
+          93.0,
+          79.42
+        ],
+        "targetAnchorPx": [
+          292.22,
+          229.1
+        ],
+        "scale": [
+          0.553763440860215,
+          0.554639175257732
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          229,
+          171
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/crawler.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/crawler.png.generation.json",
+        "sourceAnchorPx": [
+          159.0,
+          201.0
+        ],
+        "targetAnchorPx": [
+          200,
+          209
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          41,
+          8
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 400,
+    "height": 460,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 103483,
+    "opaquePixelCount": 75556,
+    "partialPixelCount": 4961,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      376,
+      436
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "crawler",
+    "sha256": "d75605cd1a6eefcf38ba650d8f0c95835671139d6ce420783af9099a34123060",
+    "size": [
+      400,
+      460
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

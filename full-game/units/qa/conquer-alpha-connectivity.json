@@ -1,0 +1,70 @@
+{
+  "method": "4-neighbour connectivity on actual tread-before-body RGBA composite; tiny <=5 pixel antialias specks excluded",
+  "checks": [
+    {
+      "frame": 0,
+      "threshold": 16,
+      "componentsOver5Pixels": [
+        37274
+      ]
+    },
+    {
+      "frame": 0,
+      "threshold": 128,
+      "componentsOver5Pixels": [
+        36952
+      ]
+    },
+    {
+      "frame": 0,
+      "threshold": 245,
+      "componentsOver5Pixels": [
+        36552
+      ]
+    },
+    {
+      "frame": 9,
+      "threshold": 16,
+      "componentsOver5Pixels": [
+        37274
+      ]
+    },
+    {
+      "frame": 9,
+      "threshold": 128,
+      "componentsOver5Pixels": [
+        36952
+      ]
+    },
+    {
+      "frame": 9,
+      "threshold": 245,
+      "componentsOver5Pixels": [
+        36642
+      ]
+    },
+    {
+      "frame": 17,
+      "threshold": 16,
+      "componentsOver5Pixels": [
+        37274
+      ]
+    },
+    {
+      "frame": 17,
+      "threshold": 128,
+      "componentsOver5Pixels": [
+        36952
+      ]
+    },
+    {
+      "frame": 17,
+      "threshold": 245,
+      "componentsOver5Pixels": [
+        36648
+      ]
+    }
+  ],
+  "bodyAndFrontTreadsConnected": true,
+  "engineNotVerified": true
+}

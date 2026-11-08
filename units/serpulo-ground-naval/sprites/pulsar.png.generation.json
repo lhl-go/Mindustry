@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/pulsar.png",
+  "sha256": "9c3ddbe7749b078c5cf8c4a75df5eec4a9b283d66a8d5769ad42008a32c1d455",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/bodies/pulsar.png",
+      "sha256": "53ebaee34282c17315d1f4f4a0d69dc22ef7f2851a0d7fa3db8e2d2400452f20",
+      "generationRecord": "units/serpulo-ground-naval/bodies/pulsar.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-electric-coil.png",
+      "sha256": "5ae705db8fd06a82c9217784685995211387a46bd9a8d105d0bd289a7e33363c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-electric-coil.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      825,
+      890,
+      1375,
+      1356
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          144.79,
+          230.25
+        ],
+        "scale": [
+          0.5533980582524272,
+          0.5508130081300813
+        ],
+        "rotationDegreesCCW": -18,
+        "mirrorHorizontal": true,
+        "topLeft": [
+          20,
+          171
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/leg-light.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+        "sourceAnchorPx": [
+          103.0,
+          80.4
+        ],
+        "targetAnchorPx": [
+          405.21,
+          230.25
+        ],
+        "scale": [
+          0.5533980582524272,
+          0.5508130081300813
+        ],
+        "rotationDegreesCCW": 18,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          336,
+          171
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/bodies/pulsar.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/pulsar.png.generation.json",
+        "sourceAnchorPx": [
+          224.5,
+          202.5
+        ],
+        "targetAnchorPx": [
+          275,
+          210
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          51,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-electric-coil.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-electric-coil.png.generation.json",
+        "sourceAnchorPx": [
+          142.0,
+          233.91
+        ],
+        "targetAnchorPx": [
+          86.42,
+          222.15
+        ],
+        "scale": [
+          0.4753521126760563,
+          0.473015873015873
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          19,
+          112
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/mech-electric-coil.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/mech-electric-coil.png.generation.json",
+        "sourceAnchorPx": [
+          142.0,
+          233.91
+        ],
+        "targetAnchorPx": [
+          463.58,
+          222.15
+        ],
+        "scale": [
+          0.4753521126760563,
+          0.473015873015873
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          396,
+          112
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 550,
+    "height": 466,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 120289,
+    "opaquePixelCount": 126921,
+    "partialPixelCount": 9090,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      526,
+      442
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "pulsar",
+    "sha256": "9c3ddbe7749b078c5cf8c4a75df5eec4a9b283d66a8d5769ad42008a32c1d455",
+    "size": [
+      550,
+      466
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

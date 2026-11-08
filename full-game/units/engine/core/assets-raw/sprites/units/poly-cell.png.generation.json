@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/poly-cell.png",
+  "sha256": "7d6c9faae9478ed761fb7774f76d294e7747bd29d6da49f2850c4aeebf9bb0a0",
+  "width": 56,
+  "height": 56,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/poly.png",
+      "sha256": "f7ccf6c1085f5c667aa6969ccba82a8e5bd2a93c09c7c92c812d8c065d7c9767",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/poly.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "poly",
+    "baseCanvas": [
+      56,
+      57
+    ],
+    "outputCanvas": [
+      56,
+      56
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/poly-cell.png",
+    "gitBlobSha1": "ee18427365744b84647422271cb2f0ed638532d6",
+    "sha256": "238532f8e5d994dc2b8b74cfd22dc3d22f0888a823a60ff0f560287fdee5f586"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

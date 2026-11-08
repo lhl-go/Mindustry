@@ -1,0 +1,55 @@
+{
+  "file": "full-game/blocks/qa/unit-factories-01-light.jpg",
+  "sha256": "653c94a5fb2a4ae7944c9e06484aab6e7853e6e308e9b5ce688e0c78aca0f434",
+  "operation": "QA downscale and actual alpha compositing only",
+  "sourceInputs": [
+    {
+      "file": "full-game/blocks/masters/ground-factory.png",
+      "sha256": "0215f6f6238d3f5998e3c0bab07c26bb5ba4e3655f75200ff89e74e4fbb76458"
+    },
+    {
+      "file": "full-game/blocks/masters/air-factory.png",
+      "sha256": "6830520efba20428ee3d27b01ec67e5678fd870dccd0879910b729d9cdd2b638"
+    },
+    {
+      "file": "full-game/blocks/masters/naval-factory.png",
+      "sha256": "2a71e96faae40e74eed2161fe6dd43bcd65c9e1099dcd185b08d13a2f821c5d3"
+    },
+    {
+      "file": "full-game/blocks/masters/additive-reconstructor.png",
+      "sha256": "0582135d0b1265213df546c7f12db471ea959918b72d55a115f5e90358ed61a8"
+    },
+    {
+      "file": "full-game/blocks/masters/multiplicative-reconstructor.png",
+      "sha256": "26534c6c1afa6489ea2dbbb9ca10754cc24fc88fef92ea236ec4b2499385adb1"
+    },
+    {
+      "file": "full-game/blocks/masters/exponential-reconstructor.png",
+      "sha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc"
+    },
+    {
+      "file": "full-game/blocks/masters/tetrative-reconstructor.png",
+      "sha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4"
+    },
+    {
+      "file": "full-game/blocks/masters/repair-point.png",
+      "sha256": "5052ad50387e1ac76dbb82564d244e993454fe7967dc905197316dae507a485e"
+    },
+    {
+      "file": "full-game/blocks/masters/repair-turret.png",
+      "sha256": "989090971d7ec1ef63b4ece02d3ac7edcbfa0b5bacacaecd9478cc8af7b14f6a"
+    },
+    {
+      "file": "full-game/blocks/masters/tank-fabricator.png",
+      "sha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a"
+    },
+    {
+      "file": "full-game/blocks/masters/ship-fabricator.png",
+      "sha256": "5edd993dedbd6b3a2d42930f46d538b42dc729b68c58f444a140c616fcd80ad7"
+    },
+    {
+      "file": "full-game/blocks/masters/mech-fabricator.png",
+      "sha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7"
+    }
+  ]
+}

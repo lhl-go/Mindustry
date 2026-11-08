@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/19-large-crystal-props.png",
+  "sha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456",
+  "generatedAt": "2026-10-26 19:25:00 UTC",
+  "startedAt": "2026-10-26 19:23:51 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1086,
+  "height": 1448,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    2304,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: top-down game-sprite atlas. Paint12 independent large crystal props for Mindustry in refined bright Daoist Q hand-painted finish. Attached approved refs guide polished material quality only, no UI/text/people/frames. Requested2304×3072 portrait, exact3equal columns×4equal rows, every cell one complete isolated cluster with15percent transparent clear margin, no overlap/cutoff. Fully transparent background, no ground disc or cast shadow. STRICT VERTICAL TOP-DOWN ORTHOGRAPHIC; crystal tips point radially outward from center in the horizontal map plane, upper facets visible, not side-view upright geodes. Each row3 different native silhouettes and facet arrangements, same family palette, not copies. Large crisp broad facets suitable200pixel game prop size, fine restrained painted highlights.\nRow1 CRYSTAL CLUSTER: desaturated lilac-purple starburst quartz crystals with pale dusty-rose edges, 7-11 chunky irregular pointed shards radiating outward, dense central hub.\nRow2 CRYSTAL BLOCKS: warm golden ochre mineral growth made of5-9 interlocking chunky square crystal facets seen from directly above, softly rounded corners, golden bevel highlights, irregular patch outline, no black outlines.\nRow3 CRYSTAL ORBS: mossy jade-green rounded bulbous mineral nodules seen from above,4-7 large green spheres with small satellites, luminous pale-lime crown facets, organic irregular grouping.\nRow4 VIBRANT CRYSTAL CLUSTER: brighter rosy violet-magenta mineral starburst with9-13 narrower angular points radiating outward, pale pink tips, crisp elegant facets, no glow haze outside silhouette.\nAll12 sprites complete isolated shapes, clean alpha between protrusions, no detached speckles or text. Beautiful coherent hand-painted broad readable mineral shapes.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/19-large-crystal-props.txt",
+  "promptSha256": "0ecdb80780fcc19a322e7afd70804b51ee356943d1959ad3417a9730c96e1e2e",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/19-large-crystal-props.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-6d7d7b0c-48d4-4002-8e68-ce5839b67506.png",
+    "originalOutputSha256": "ebc79a0078d68d8fa10c9b5fbfc5e1970a74d1ec525d079bb1ebb789e8791456"
+  },
+  "regions": [
+    "crystal-cluster1",
+    "crystal-cluster2",
+    "crystal-cluster3",
+    "crystal-blocks1",
+    "crystal-blocks2",
+    "crystal-blocks3",
+    "crystal-orbs1",
+    "crystal-orbs2",
+    "crystal-orbs3",
+    "vibrant-crystal-cluster1",
+    "vibrant-crystal-cluster2",
+    "vibrant-crystal-cluster3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-cluster1.png",
+      "sha256": "538478590829ff8e746c8246da439c6b6fe491888818b287607fd9b75e298696"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-cluster2.png",
+      "sha256": "ad695fc410ed054f4c3862c8c10a6a6d9ae47b4ceaa8a3bca3680aad02786f79"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-cluster3.png",
+      "sha256": "9690dc23174e05bb4e67a3def20dc8e301396b238e73549e3c10c981312c07f4"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks1.png",
+      "sha256": "d6319f59fdeac20acc2e6d6205e54f59f14711e310f718a9dd0c667026458a87"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks2.png",
+      "sha256": "abc8038eb34b6314ebd9ba89614a44afc1fa338b12b7bcc1969a999a93304a93"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-blocks3.png",
+      "sha256": "584d931ead1d7f48e145a83b67d90ef1c593c589820c7450fd03d54eff462930"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-orbs1.png",
+      "sha256": "30949c20a6830f11931b5fb35c4f2d49f284668362743b0f5463945da8f7c82f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-orbs2.png",
+      "sha256": "860060ca95b66e54303970428e26acd0d82235f6a5b9c790b8258e7c96066bc3"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-orbs3.png",
+      "sha256": "89f4e81781e69e3545f2a14795da90ed27f53fb02398d2c580ce467d488d9e1e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster1.png",
+      "sha256": "4e968d76386313bac1b6f43fd927846a80db0aff7ef7ecb0b5416e569f0c4681"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png",
+      "sha256": "a25cd5bdaeb3380764aee6762b3b726bbebb54e47750d589b78926d6dc4e56a7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster3.png",
+      "sha256": "532daf296699b6e1d6dc330c6cfda281856694059c6105ddf9e368044c03d56d"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

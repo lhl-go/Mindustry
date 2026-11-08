@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-acropolis-thruster1.png",
+  "sourceGitBlob": "0e7dad8704866c14c40e83d8d6879a13cb58c0ae",
+  "sourceSha256": "b8a77cf8c9b7b66b532e84d2605ed705f7ea1914ba34115ea2ccec3c1a1c1a79",
+  "sourceDimensions": [
+    288,
+    196
+  ],
+  "region": "core-acropolis-thruster1",
+  "blockId": "core-acropolis",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-thruster1.png",
+  "sha256": "50625e1065fd12a849aa52cf17f57534eac378737b1fac3a59dcfb5b0c05bdb1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-thruster1.png",
+  "engineSha256": "50625e1065fd12a849aa52cf17f57534eac378737b1fac3a59dcfb5b0c05bdb1",
+  "nativeFile": "full-game/blocks/masters/core-thruster-large-part.png",
+  "nativeSha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500",
+  "nativeSize": [
+    187,
+    419
+  ],
+  "sourceAlphaBounds": [
+    231,
+    20,
+    286,
+    175
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "1",
+    "localHorizontalMirror": true,
+    "localVerticalMirror": false,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-large-part.png",
+      "sha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-acropolis-thruster1.png",
+      "sha256": "b8a77cf8c9b7b66b532e84d2605ed705f7ea1914ba34115ea2ccec3c1a1c1a79"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-acropolis-thruster1.png.derived.json"
+}

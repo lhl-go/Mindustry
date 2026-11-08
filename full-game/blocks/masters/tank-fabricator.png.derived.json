@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/tank-fabricator.png",
+  "sha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      388,
+      746,
+      706,
+      1054
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      318,
+      308
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    350,
+    340
+  ],
+  "anchorPixels": [
+    175.0,
+    170.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

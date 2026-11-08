@@ -1,0 +1,41 @@
+{
+  "region": "malign-spine-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-heat.png",
+  "sha256": "2ae6de4bd9b3ee3c905bb9a87c3e2b46623a2170ea247e6febbb23a074629652",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.481745+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-spine-heat.png",
+      "sha256": "addce39e65aaabf92e04430031140fb75366e1e6ca3bc133b846696f3e677525",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-r.png",
+      "sha256": "01e457b87447eb5f1ba6c2c649e4809e39453951838b161522164fd4934fda5d",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-l.png",
+      "sha256": "01e457b87447eb5f1ba6c2c649e4809e39453951838b161522164fd4934fda5d",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-spine-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "malign-spine-r",
+      "malign-spine-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 2143
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

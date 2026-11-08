@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/basic-assembler-module-side1.png",
+  "sourceGitBlob": "2bc2f854655852cd6ad0c1c47235df686a148a9f",
+  "sourceSha256": "65d768f70e3b36b07aa3ab863a13d2f8fde93067e2e7aad8f9a517a2d8b39b57",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "basic-assembler-module-side1",
+  "blockId": "basic-assembler-module",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/basic-assembler-module-side1.png",
+  "sha256": "52a6b42c6898b52501bd7d54b3745ea54ed965e01d84409d8d7373bcd70efea6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/basic-assembler-module-side1.png",
+  "engineSha256": "52a6b42c6898b52501bd7d54b3745ea54ed965e01d84409d8d7373bcd70efea6",
+  "nativeFile": "full-game/blocks/masters/basic-assembler-module.png",
+  "nativeSha256": "0141b7ecc114b0b9c854e216e8843feb42fad537c945dabdda9433ef38d8d98d",
+  "nativeSize": [
+    276,
+    306
+  ],
+  "sourceAlphaBounds": [
+    127,
+    19,
+    160,
+    141
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "rotation-selected assembler side; runtime controls side1/side2 and orientation",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/basic-assembler-module.png",
+      "sha256": "0141b7ecc114b0b9c854e216e8843feb42fad537c945dabdda9433ef38d8d98d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/basic-assembler-module-side1.png",
+      "sha256": "65d768f70e3b36b07aa3ab863a13d2f8fde93067e2e7aad8f9a517a2d8b39b57"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/basic-assembler-module-side1.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/basic-assembler-module-side1.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/basic-assembler-module.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

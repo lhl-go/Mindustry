@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/tecta.png",
+  "sha256": "513bee172f479dd1eeb9cd0de411aab5c99e84b6ef62aefd935777517e6904b0",
+  "width": 860,
+  "height": 508,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+      "sha256": "b2df98235d395e928eaff7320eb3893f3682b0dabc5c6854a0375f7f90dc545e",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-upper.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+      "sha256": "11fbb8edfb86b8888f68092b5a0aeff36f2c89acacaeacd3fd6a186bdb2b2651",
+      "generationRecord": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/foot-heavy.png",
+      "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+      "generationRecord": "units/air-erekir-parts/assets/foot-heavy.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir/layers/tecta-body.png",
+      "sha256": "07d7148e17c1cdc37f3cbf3acc2076f420b1efb19b64aa38e81c9b929ebe3c46",
+      "generationRecord": "units/air-erekir/layers/tecta-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+      "sha256": "22a132f978d43a50be56de29860c5c2d39eef1e7045f039e3f12332f8deac35f",
+      "generationRecord": "units/air-erekir-parts/assets/tecta-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          293.8,
+          136.5
+        ],
+        "scale": 0.49992838000864237,
+        "rotationClockwise": -232.57753917881473,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          189.38,
+          56.6
+        ],
+        "scale": 0.37681046726823053,
+        "rotationClockwise": 58.36821153059876,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          98.58,
+          112.53
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          293.8,
+          254.0
+        ],
+        "scale": 0.4353960307912105,
+        "rotationClockwise": 65.7672355407459,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          189.38,
+          301.0
+        ],
+        "scale": 0.3412410867522729,
+        "rotationClockwise": -250.08278562294237,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          98.58,
+          268.1
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          293.8,
+          371.5
+        ],
+        "scale": 0.4999283800086426,
+        "rotationClockwise": 52.5775391788147,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          189.38,
+          451.4
+        ],
+        "scale": 0.3768104672682308,
+        "rotationClockwise": -238.3682115305987,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          98.58,
+          395.47
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": -80,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          566.2,
+          136.5
+        ],
+        "scale": 0.49992838000864237,
+        "rotationClockwise": -127.42246082118527,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          670.62,
+          56.6
+        ],
+        "scale": 0.3768104672682309,
+        "rotationClockwise": -58.36821153059878,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          761.42,
+          112.53
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          566.2,
+          254.0
+        ],
+        "scale": 0.4353960307912105,
+        "rotationClockwise": -65.7672355407459,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          670.62,
+          301.0
+        ],
+        "scale": 0.34124108675227327,
+        "rotationClockwise": -109.91721437705763,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          761.42,
+          268.1
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-upper.png",
+        "role": "leg_upper",
+        "region": "leg-heavy-upper",
+        "anchorPixels": [
+          566.2,
+          371.5
+        ],
+        "scale": 0.4999283800086426,
+        "rotationClockwise": -52.57753917881469,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          159,
+          77
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/leg-heavy-lower.png",
+        "role": "leg_lower",
+        "region": "leg-heavy-lower",
+        "anchorPixels": [
+          670.62,
+          451.4
+        ],
+        "scale": 0.3768104672682311,
+        "rotationClockwise": -121.63178846940127,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          126,
+          57
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/foot-heavy.png",
+        "role": "foot",
+        "region": "foot-heavy",
+        "anchorPixels": [
+          761.42,
+          395.47
+        ],
+        "scale": 0.20569579288025894,
+        "rotationClockwise": 80,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          184,
+          342
+        ]
+      },
+      {
+        "file": "units/air-erekir/layers/tecta-body.png",
+        "role": "body",
+        "region": "tecta",
+        "anchorPixels": [
+          430,
+          254
+        ],
+        "scale": 0.9552845528455285,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          237.5,
+          246.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+        "role": "weapon",
+        "region": "tecta-weapon",
+        "anchorPixels": [
+          307.42,
+          244.6
+        ],
+        "scale": 0.46484641638225255,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          179,
+          202
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/tecta-weapon.png",
+        "role": "weapon",
+        "region": "tecta-weapon",
+        "anchorPixels": [
+          552.58,
+          244.6
+        ],
+        "scale": 0.46484641638225255,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          179,
+          202
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

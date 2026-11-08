@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/titanium-wall.png",
+  "sha256": "c94331231fea6297443d6eb53b8c3d779fd30ac9aec0d29691d744a237ce4dce",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      406,
+      57,
+      693,
+      341
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      287,
+      284
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    319,
+    316
+  ],
+  "anchorPixels": [
+    159.5,
+    158.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

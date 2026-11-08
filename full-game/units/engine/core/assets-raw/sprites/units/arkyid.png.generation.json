@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/arkyid.png",
+  "sha256": "600b2b30f72d023536e9bda79cb1e91ade262032fbbd258bc191e6ee17c21b32",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/arkyid.png",
+      "sha256": "41f818296204960942bc7a3a16a18ffc86173c1406754b56b45af8e9084c353f",
+      "generationRecord": "units/serpulo-ground-naval/bodies/arkyid.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      537,
+      510
+    ],
+    "sourcePivot": [
+      276.5,
+      263.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      7
+    ],
+    "sourceDimensions": [
+      553,
+      526
+    ],
+    "targetDimensions": [
+      128,
+      128
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      124,
+      124
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      64.0,
+      64.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/arkyid.png",
+    "gitBlobSha1": "184ea910ae23208627e8c428fca22fcbb7adb81d",
+    "sha256": "50a4be1f81974598797be24e20412284da248b0810a5c16fe9455ae3e5aaf136"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

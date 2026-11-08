@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/01-minerals.png",
+      "sha256": "d25839eaf33a78a4b80feeb49e36b734c112086ceb6cd2d51e99069dfe527dc5",
+      "generationRecord": "full-game/items-fx/source/01-minerals.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      0,
+      1330,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      32,
+      98,
+      423,
+      418
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-metaglass.png",
+  "sha256": "27551d8bdea5ada5860c566081e4cc422064caca8ea76fb2391880416e5cb419",
+  "width": 423,
+  "height": 352,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.600275+00:00"
+}

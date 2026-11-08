@@ -1,0 +1,26 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/mine-bullet.png",
+      "sha256": "5dc6afb6a77400643bed72020bd6235e5a6432ab73bdcf4342ca6133ee0ce781",
+      "generationRecord": "full-game/items-fx/assets/mine-bullet.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "projectile_back_mask_from_front_alpha",
+    "alphaDilationKernel": 9,
+    "color": "white for engine backColor multiplication",
+    "canvas": "identical to front; center aligned"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived from AI art, no new model call.",
+  "file": "full-game/items-fx/assets/mine-bullet-back.png",
+  "sha256": "93474a782c37a365360ac7923a4c26f80b9f68c8c9b134cd98e52bd76f62c1fa",
+  "width": 282,
+  "height": 311,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:12.432271+00:00"
+}

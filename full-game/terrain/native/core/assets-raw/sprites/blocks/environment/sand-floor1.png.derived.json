@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-floor1.png",
+  "sha256": "38a0aeadcedd06c998a75d215593527b67235cb8ce50f5fe1e7183b5e2ebcf36",
+  "size": [
+    292,
+    291
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/01-basic-floors.png",
+      "sha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e",
+      "generationRecord": "full-game/terrain/source/01-basic-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    2,
+    1185,
+    294,
+    1476
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

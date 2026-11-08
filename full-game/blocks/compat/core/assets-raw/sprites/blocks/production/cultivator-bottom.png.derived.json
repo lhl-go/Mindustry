@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cultivator-bottom.png",
+  "sourceGitBlob": "e05f72e92ce1a7155e5fd12e70285b5e366fc01d",
+  "sourceSha256": "4d3af7e531f4f139f847e1df626d0ff92e5c09f72ffbd97117d1b26c4ed1bea5",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cultivator-bottom",
+  "blockId": "cultivator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-bottom.png",
+  "sha256": "d5a5cf040421925b557f4243c27a7ab9bcb76b53f26194eeba9ecd80cbf18045",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-bottom.png",
+  "engineSha256": "d5a5cf040421925b557f4243c27a7ab9bcb76b53f26194eeba9ecd80cbf18045",
+  "nativeFile": "full-game/blocks/masters/cultivator.png",
+  "nativeSha256": "8df58f3d3acbebb1f2f1153db0a8d3ac915e7516294f764f4dc4592d27e58e43",
+  "nativeSize": [
+    343,
+    327
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cultivator.png",
+      "sha256": "8df58f3d3acbebb1f2f1153db0a8d3ac915e7516294f764f4dc4592d27e58e43"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cultivator-bottom.png",
+      "sha256": "4d3af7e531f4f139f847e1df626d0ff92e5c09f72ffbd97117d1b26c4ed1bea5"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cultivator-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

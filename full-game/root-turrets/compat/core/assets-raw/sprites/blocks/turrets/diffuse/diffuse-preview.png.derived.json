@@ -1,0 +1,38 @@
+{
+  "region": "diffuse-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-preview.png",
+  "sha256": "718cd9a28fc09c10afd1d3cbb1674fc81330143addf1122534fa9428ec5e1702",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.574788+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse.png",
+      "sha256": "e73d01904cafa4825d3d949ec07764b90b3ccd23a360e9c7dafc992d68ab5a7b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-l.png",
+      "sha256": "e42620d49ff73388f6b68b187990e83a46b2432500a270f0daea94ac6fe83185",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-r.png",
+      "sha256": "e42620d49ff73388f6b68b187990e83a46b2432500a270f0daea94ac6fe83185",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/diffuse/diffuse-front-r.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

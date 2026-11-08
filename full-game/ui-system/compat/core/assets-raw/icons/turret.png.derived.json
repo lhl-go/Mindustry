@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/turret.png",
+  "sourceGitBlob": "32fd01b464fd55c2b2efad90d641948684f31477",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/turret.png",
+  "sha256": "b57803c98f0889afdf100d4bd9ee42b08c014a48b70044bde4b449b7b6e66ab3",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-turret.png",
+      "sha256": "fdbf59da69311b73c19bbfd6ea2f06e653bbc0550a13a342569dbc205b326bab",
+      "record": "ui/kit/icon-turret.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "turret",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

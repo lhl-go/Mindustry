@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/salt-wall2.png",
+  "sha256": "185572f53ce524077a766c1fb0767f971f9d51210f908efb88f33c1590ca10b0",
+  "size": [
+    291,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/12-basic-wall-tops.png",
+      "sha256": "0f8abf47ed85ceb0ebb273c19c910abee069fb640c48a474f5e332d309624ad7",
+      "generationRecord": "full-game/terrain/source/12-basic-wall-tops.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    1480,
+    589,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

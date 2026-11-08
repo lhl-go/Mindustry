@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-cluster3.png",
+      "sha256": "61cdf9fbe28e029bfc5a687e443cc77e2742ec8299c21afedcbb481b0648bc87",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-cluster3.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-cluster3.png",
+      "sha256": "9690dc23174e05bb4e67a3def20dc8e301396b238e73549e3c10c981312c07f4",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/crystal-cluster3.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 255,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 0.9518072289156626,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 255,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/crystal-cluster-shadow3.png",
+  "sha256": "a8a543317ba1e0af2221b33528f424214af058ec02a4836a7bb0113da6a1e143",
+  "createdAt": "2026-10-26T20:35:01.872211+00:00",
+  "width": 160,
+  "height": 160,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

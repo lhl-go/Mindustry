@@ -1,0 +1,51 @@
+{
+  "args": {
+    "prompt": "Use case: game material texture atlas. Paint21 independent native metal material swatches for Mindustry Daoist Q reskin, clean refined hand-painted material craftsmanship guided ONLY by attached2 references. No UI, characters, text, symbols, frame, panel layout or object geometry: PURE FLAT MATERIAL texture only. Requested1536×3584 portrait, exactly3equal columns×7equal rows, fullbleed square opaque cells with no margins/dividers. Uniform overhead light, no vignette/gradient, quiet tileable edges. Fine subtle grain and tiny irregular wear, low contrast. Even same material variants must have independently drawn native scratches and fleck layouts, never copied or simply recolored.\nRow1 col1 metal WALL1 sage-jade worn alloy with tiny antique-gold grain; col2 WALL2 muted cinnabar-copper metal with tiny warm gold microflecks; col3 WALL3 ivory-gray porcelain-alloy fine satin texture.\nRows2 and3 ALL6 cells: same family medium desaturated gray-green brushed metal with fine warm-gold specks, six independently painted microtextures, variants2 through7 of the metal7 family. No lattice patterns because connection geometry is applied separately.\nRow4 col1/2: same medium gray-green alloy variants8/9, two new texture distributions. Col3 pale warm ivory-gray alloy with fine horizontal microbrushing for metal8.\nRow5 ALL3: dark warm desaturated gray alloy with tiny antique gold grains and restrained scratches, three distinct native textures for metal13 variants2/3/4.\nRow6 col1/2 same dark warm gray antique-gold alloy, two new texture distributions for metal13 variants5/6. Col3 sage-jade worn wall alloy matching row1col1, different subtle grain.\nRow7 col1 muted cinnabar-copper wall alloy matching row1col2, different native texture; col2 dark charcoal-jade metal with faint diagonal brushing for dark-panel5; col3 dark charcoal-jade subtly hammered metal for dark-panel6, distinct grain.\nAll21 usable texture samples, beautifully painted, no labels or large repeated motifs.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "startedAt": "2026-10-26 20:01:39 UTC",
+  "returnedAt": "2026-10-26 20:03:02 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-b0cbce67-523a-4949-a922-6d9f597e5925.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3584
+  ],
+  "grid": [
+    3,
+    7
+  ],
+  "regions": [
+    "metal-wall-1-autotile",
+    "metal-wall-2-autotile",
+    "metal-wall-3-autotile",
+    "metal-tiles-7-mid-2",
+    "metal-tiles-7-mid-3",
+    "metal-tiles-7-mid-4",
+    "metal-tiles-7-mid-5",
+    "metal-tiles-7-mid-6",
+    "metal-tiles-7-mid-7",
+    "metal-tiles-7-mid-8",
+    "metal-tiles-7-mid-9",
+    "metal-tiles-8-mid-2",
+    "metal-tiles-13-mid-2",
+    "metal-tiles-13-mid-3",
+    "metal-tiles-13-mid-4",
+    "metal-tiles-13-mid-5",
+    "metal-tiles-13-mid-6",
+    "metal-wall-1-mid-2",
+    "metal-wall-2-mid-2",
+    "dark-panel-5",
+    "dark-panel-6"
+  ],
+  "exportMode": "ai_material_with_exact_official_autotile_geometry"
+}

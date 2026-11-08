@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/disrupt.png",
+  "sha256": "776f8890657283f32af53f533716991f6fdfaed5daca69ff426acc10d84c6d3f",
+  "width": 524,
+  "height": 440,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    },
+    {
+      "file": "units/air-erekir/layers/disrupt-body.png",
+      "sha256": "272d002067d65e09722ae73e55c5a1dad5ca35f3c5843d18a22bcdefe240984e",
+      "generationRecord": "units/air-erekir/layers/disrupt-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+      "sha256": "42505a151c76cae62311356f340b1bd41c01fb7e2f49104b7c303204ef76db13",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "designed_rear_wing",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          186.8,
+          274.04
+        ],
+        "scale": 0.3588669950738916,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "designed_rear_wing",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          337.2,
+          274.04
+        ],
+        "scale": 0.3588669950738916,
+        "rotationClockwise": 0,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir/layers/disrupt-body.png",
+        "role": "body",
+        "region": "disrupt",
+        "anchorPixels": [
+          262,
+          220
+        ],
+        "scale": 0.4752275025278059,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          494.5,
+          406.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+        "role": "weapon",
+        "region": "disrupt-weapon",
+        "anchorPixels": [
+          168.0,
+          150.52
+        ],
+        "scale": 0.3194174757281554,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          242,
+          255
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-weapon.png",
+        "role": "weapon",
+        "region": "disrupt-weapon",
+        "anchorPixels": [
+          356.0,
+          150.52
+        ],
+        "scale": 0.3194174757281554,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          242,
+          255
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

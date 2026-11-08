@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/pneumatic-drill.png",
+  "sha256": "6a9de89eda777b5d583b1378ff7b9b41cf9b95f68009d03f4e32ed88040b0de9",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      395,
+      49,
+      691,
+      339
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      296,
+      290
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    328,
+    322
+  ],
+  "anchorPixels": [
+    164.0,
+    161.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

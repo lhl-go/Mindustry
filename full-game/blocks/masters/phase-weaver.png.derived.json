@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/phase-weaver.png",
+  "sha256": "61a16331d3e1a57e2dceab8b53f378ee235ef9d8cbaa399cf8322dd6a317894c",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-serpulo-01.png",
+      "sha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "generationRecord": "full-game/blocks/records/production-serpulo-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      795,
+      379,
+      1118,
+      662
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      323,
+      283
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    355,
+    315
+  ],
+  "anchorPixels": [
+    177.5,
+    157.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

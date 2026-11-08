@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/vault.png",
+  "sha256": "7e2831fd9fba999fbe28c703ceb5791a00130155ae968949d45a49f831f3b540",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1128,
+      414,
+      1413,
+      682
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      285,
+      268
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    317,
+    300
+  ],
+  "anchorPixels": [
+    158.5,
+    150.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

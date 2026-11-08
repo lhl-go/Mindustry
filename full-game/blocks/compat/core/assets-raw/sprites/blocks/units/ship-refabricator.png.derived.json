@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/ship-refabricator.png",
+  "sourceGitBlob": "bc9ddfe97fb29fde155b871c58c6896d22107ed6",
+  "sourceSha256": "d08dbb8af5ebb62d6c253af5bb455c89d3b99db6bb699a6afecd028b88d8a722",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "ship-refabricator",
+  "blockId": "ship-refabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator.png",
+  "sha256": "f59daa707f6821e6de48e529afc30ccd222c3f2275b6aabcea7a942b3a624cd5",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator.png",
+  "engineSha256": "f59daa707f6821e6de48e529afc30ccd222c3f2275b6aabcea7a942b3a624cd5",
+  "nativeFile": "full-game/blocks/masters/ship-refabricator.png",
+  "nativeSha256": "6cc788e78fc5c0bc8e4317ba89d7fa6e960c0d577ced170f6ba5cbc6748ef8fd",
+  "nativeSize": [
+    336,
+    324
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/ship-refabricator.png",
+      "sha256": "6cc788e78fc5c0bc8e4317ba89d7fa6e960c0d577ced170f6ba5cbc6748ef8fd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/ship-refabricator.png",
+      "sha256": "d08dbb8af5ebb62d6c253af5bb455c89d3b99db6bb699a6afecd028b88d8a722"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/ship-refabricator.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/ship-refabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-edge.png",
+  "sourceGitBlob": "13b2c8ee49ffb92fa548bd5782eb13bee4b83e43",
+  "sourceSha256": "5dfac00f46bc3ed95cc3dc50f8ea659c5b2856e2f3ee89b1f7491b49ac76ecd3",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "reinforced-payload-conveyor-edge",
+  "blockId": "reinforced-payload-conveyor",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-edge.png",
+  "sha256": "614aad989162202b520f79d80a3b6837c197869a6af4f07c6b73abc3f33af550",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-edge.png",
+  "engineSha256": "614aad989162202b520f79d80a3b6837c197869a6af4f07c6b73abc3f33af550",
+  "nativeFile": "full-game/blocks/masters/reinforced-payload-conveyor.png",
+  "nativeSha256": "123df7da78971fc8fa40d00a75a64272eb4f2c5997a4fdfd1514faab32de89e9",
+  "nativeSize": [
+    225,
+    302
+  ],
+  "sourceAlphaBounds": [
+    82,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "fixed top frame / original connection edge",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-payload-conveyor.png",
+      "sha256": "123df7da78971fc8fa40d00a75a64272eb4f2c5997a4fdfd1514faab32de89e9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/reinforced-payload-conveyor-edge.png",
+      "sha256": "5dfac00f46bc3ed95cc3dc50f8ea659c5b2856e2f3ee89b1f7491b49ac76ecd3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-edge.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-conveyor-edge.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/reinforced-payload-conveyor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

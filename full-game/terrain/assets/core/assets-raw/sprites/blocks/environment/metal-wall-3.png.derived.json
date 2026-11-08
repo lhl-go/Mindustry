@@ -1,0 +1,35 @@
+{
+  "kind": "hybrid_base_icon",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-3-autotile.png",
+      "sha256": "ce98233cf861eb2fa2ab5aa4de4067c08d203dd0952ff0951087ee07a678614d",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-wall-3-autotile.png.derived.json",
+      "role": "shared material of corresponding authored atlas"
+    },
+    {
+      "file": "full-game/terrain/reference/core/assets-raw/sprites/blocks/environment/metal-wall-3.png",
+      "sha256": "b8f8c4f16bf29b30930ff2496129803b7340c620b5249848538ec284a9fca616",
+      "officialPath": "core/assets-raw/sprites/blocks/environment/metal-wall-3.png",
+      "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+      "role": "original base geometry/shading"
+    }
+  ],
+  "operation": {
+    "type": "downsample_shared_native_material_to32_apply_official_alpha_and_normalized_shading",
+    "sharedWith": "metal-wall-3-autotile",
+    "newIndependentVariant": false
+  },
+  "license": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/metal-wall-3.png",
+  "sha256": "266bbea726617c2689f554d1a1115f1b6984bc157fc4e3fa08f11d06775439dd",
+  "createdAt": "2026-10-26T20:35:01.771371+00:00",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

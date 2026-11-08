@@ -1,0 +1,37 @@
+{
+  "file": "full-game/units/parts/joint-socket.png",
+  "sha256": "beaf27ce24b01061c00354178269fbe1a4042cf63ce2ef2b2ee4257ddfacb9ce",
+  "width": 498,
+  "height": 487,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/source/unit-bases-joints.png",
+      "sha256": "b98abe39616f5c44f16d077cc28c1c13765e0618235468b1bcd1a9837c0b4f08",
+      "generationRecord": "full-game/units/source/unit-bases-joints.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_crop_alpha_cleanup",
+    "crop": [
+      1000,
+      490,
+      1536,
+      1024
+    ],
+    "trim": [
+      32,
+      19,
+      498,
+      474
+    ],
+    "padding": 16,
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded builtin generation; actual model/quality not disclosed."
+}

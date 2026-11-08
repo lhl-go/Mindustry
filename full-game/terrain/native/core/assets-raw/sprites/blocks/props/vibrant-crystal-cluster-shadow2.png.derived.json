@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster-shadow2.png",
+  "sha256": "1b2c2735a77a94ac15f33a600d8e069ccc45e5e21e9af998668be581d0b7dfce",
+  "size": [
+    365,
+    428
+  ],
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png",
+      "sha256": "39b130ceaec74ef46cf7a0070b5b4a91fa7f323259ba1dd2e52ee11e50a2c41a",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png",
+      "sha256": "a25cd5bdaeb3380764aee6762b3b726bbebb54e47750d589b78926d6dc4e56a7",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster2.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 255,
+    "bodyNotUpscaled": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "role": "derived at native body resolution; generated silhouette, local shadow operation"
+}

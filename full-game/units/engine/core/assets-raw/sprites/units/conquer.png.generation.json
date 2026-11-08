@@ -1,0 +1,86 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+  "sha256": "a826ce6b02fd557fb310b3a9a1412d5462e53a3028c1b6d59f63a7cd1e1f8932",
+  "width": 213,
+  "height": 276,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/revised-bodies/conquer-body.png",
+      "sha256": "5fa98b92b108964e6cfa329babf518206d7042019f46a890cf11563c1453e59d",
+      "generationRecord": "full-game/units/revised-bodies/conquer-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "original_canvas_export_after_layer_separation",
+    "sourceTrim": [
+      16,
+      16,
+      524,
+      494
+    ],
+    "sourceDimensions": [
+      540,
+      510
+    ],
+    "destinationTopLeft": [
+      4,
+      42
+    ],
+    "scaledSize": [
+      205,
+      193
+    ],
+    "engineWindows": [
+      [
+        25,
+        178,
+        67,
+        243
+      ],
+      [
+        146,
+        178,
+        188,
+        243
+      ],
+      [
+        18,
+        65,
+        41,
+        80
+      ],
+      [
+        172,
+        65,
+        195,
+        80
+      ],
+      [
+        55,
+        32,
+        84,
+        49
+      ],
+      [
+        129,
+        32,
+        158,
+        49
+      ]
+    ],
+    "registrationPreserved": true,
+    "edgeAntialiasRemovedInsideMotionWindows": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/conquer.png",
+    "gitBlobSha1": "6d2d669ec1fbfcf3023281f5ade1df1022f362a2",
+    "sha256": "c8ffb0134161de2f989c55e5fb7666678f981f723938a5efc46420e0bdd35063"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Downsample of traced corrected native body; no new image generation.",
+  "engineNotVerified": true
+}

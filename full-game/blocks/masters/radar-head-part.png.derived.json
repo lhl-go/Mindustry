@@ -1,0 +1,53 @@
+{
+  "file": "full-game/blocks/masters/radar-head-part.png",
+  "sha256": "23e339209902ebe838acfed5f45be84ac7b9bc9e9628b5d2c4a368668bc1a9ee",
+  "derivedAt": "2026-10-27T02:26:11.082530+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-heads-pistons-02.png",
+      "sha256": "a15eba9085fdc6380778b98fdc107e92bd2fade57b235129ab45ba0b8e648668",
+      "generationRecord": "full-game/blocks/records/moving-heads-pistons-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      54,
+      302,
+      310,
+      507
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      256,
+      205
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1,
+    "newPaintedDetail": false
+  },
+  "nativeSize": [
+    288,
+    237
+  ],
+  "anchorPixels": [
+    144.0,
+    118.5
+  ],
+  "artRole": "independent_detached_part",
+  "actualModel": null,
+  "actualQuality": null,
+  "orientation": "native source orientation retained; compatibility exporter must match the fixed renderer convention",
+  "sourceEdgeContactPixels": {
+    "left": 0,
+    "top": 0,
+    "right": 0,
+    "bottom": 0
+  },
+  "sourceEdgeNote": null,
+  "engineNotVerified": true
+}

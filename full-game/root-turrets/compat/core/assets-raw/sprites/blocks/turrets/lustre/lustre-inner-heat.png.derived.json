@@ -1,0 +1,41 @@
+{
+  "region": "lustre-inner-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-heat.png",
+  "sha256": "b48250a2a5a77c12f973c916ef1eb90dcad2cc53d3032000f163a19c985da837",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.455551+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-inner-heat.png",
+      "sha256": "bd4fa503eee9f5a310ff10e332914a02cc709a1effe02de2e2300bb8bb24fff8",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-r.png",
+      "sha256": "b0c54f2e1391b1aab27365fdf8bd099683b4a50a9905681914c66d9ccd8dd76f",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-l.png",
+      "sha256": "b0c54f2e1391b1aab27365fdf8bd099683b4a50a9905681914c66d9ccd8dd76f",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-inner-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "lustre-inner-r",
+      "lustre-inner-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 874
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

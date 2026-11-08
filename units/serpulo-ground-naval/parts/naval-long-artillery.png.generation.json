@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/parts/naval-long-artillery.png",
+  "sha256": "b788b9c0cd9d971303400b53c9f2d9ff4295050756789622cf624701705fa42e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20",
+      "generationRecord": "records/workers/serpulo-ground-naval/11-naval-weapons.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      1196,
+      10,
+      1490,
+      391
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 326,
+    "height": 413,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 71424,
+    "opaquePixelCount": 60676,
+    "partialPixelCount": 2538,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      310,
+      397
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    163.0,
+    301.75
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "part"
+}

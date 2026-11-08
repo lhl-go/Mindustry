@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cyerce.png",
+  "sha256": "01d583a3d027d4909f6227c15d6a550a3bc2b5ebd6a08f5ab902a7eb6ae4699e",
+  "width": 140,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/cyerce-body.png",
+      "sha256": "64a90e55df36119cc4ed4f565ae5d310006cff1c269bc1a5da618aaf9b801134",
+      "generationRecord": "units/serpulo-root-parts/layers/cyerce-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      381,
+      527
+    ],
+    "sourcePivot": [
+      206.5,
+      279.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      24,
+      4
+    ],
+    "sourceDimensions": [
+      413,
+      559
+    ],
+    "targetDimensions": [
+      140,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      136,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      70.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cyerce.png",
+    "gitBlobSha1": "75a4908109ce596411232540290f8b767010c73a",
+    "sha256": "2dda279da19c1a5d1945ed55cdbf22c01696a8e2d9163b3195746340026e0be5"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

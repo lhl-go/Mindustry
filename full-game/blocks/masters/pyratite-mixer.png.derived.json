@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/pyratite-mixer.png",
+  "sha256": "18313f3642425b3bebade068ad93f416fe9490eeb1bceec1af095ca87d18fb23",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-serpulo-01.png",
+      "sha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "generationRecord": "full-game/blocks/records/production-serpulo-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      421,
+      700,
+      735,
+      982
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      314,
+      282
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    346,
+    314
+  ],
+  "anchorPixels": [
+    173.0,
+    157.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

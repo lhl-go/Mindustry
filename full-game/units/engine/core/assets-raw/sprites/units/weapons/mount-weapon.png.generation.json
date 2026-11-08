@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/mount-weapon.png",
+  "sha256": "2a4e8775f279510bab7cc06dca9173df685786791bd4de906aa0b36fd95aac12",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-deck-cannon.png",
+      "sha256": "41c94dd4905d306f02becc7bfc347ff2b0ffe3bec1a70966c5648758b7a761f8",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      216,
+      261
+    ],
+    "sourcePivot": [
+      116.0,
+      199.75
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      11,
+      1
+    ],
+    "sourceDimensions": [
+      232,
+      277
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      20,
+      7,
+      28,
+      30
+    ],
+    "scale": 0.1251700680272109,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/mount-weapon.png",
+    "gitBlobSha1": "f6176f26ea747307fb94f6d628425955aeab1e17",
+    "sha256": "4219ee246c53b73a5305865e7a60707fe85eaac8c6b07e49f34a8fd578bf38ce"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

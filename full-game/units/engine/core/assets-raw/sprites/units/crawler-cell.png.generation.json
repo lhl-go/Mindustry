@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler-cell.png",
+  "sha256": "5bdfab13f4b442d65c51e01b3036102c36899f749b4dd13365c8cbf16d5449aa",
+  "width": 48,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/crawler.png",
+      "sha256": "db9287d1903febaff79e86f7bb7c5bd44499c8d6693e690df8f460b6a82e99fa",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/crawler.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "crawler",
+    "baseCanvas": [
+      48,
+      48
+    ],
+    "outputCanvas": [
+      48,
+      48
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/crawler-cell.png",
+    "gitBlobSha1": "c77471dc6bf99b338e54477e108297d61043d073",
+    "sha256": "31308d7a7eba220227d147f5aa9886b814084a2b3893484b84ac0172bf3cc00b"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

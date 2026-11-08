@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkycite-floor.png",
+  "sha256": "2b1b694a2ac5f4bfd4252eb55b3e9d9fd01106e5ba2d286c627552280e7f53b2",
+  "size": [
+    358,
+    358
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/03-liquids-salt.png",
+      "sha256": "0412041f336228c00390514d12c867df14335dd4f7c4fa86102f3dc53d6f9259",
+      "generationRecord": "full-game/terrain/source/03-liquids-salt.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    364,
+    1088,
+    722,
+    1446
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

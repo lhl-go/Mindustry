@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/disassembler-spinner-part.png",
+  "sha256": "4ad781d57bffe535ddab051dca13fbc8a3d222e3174839c83692f232ba2838d8",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      415,
+      553,
+      676,
+      795
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      261,
+      242
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    293,
+    274
+  ],
+  "anchorPixels": [
+    146.5,
+    137.0
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

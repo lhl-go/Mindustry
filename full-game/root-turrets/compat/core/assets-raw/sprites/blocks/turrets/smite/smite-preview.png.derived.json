@@ -1,0 +1,78 @@
+{
+  "region": "smite-preview",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-preview.png",
+  "sha256": "b182e36dabed763a1f80fc51af3eec40c1a63e1c2419afedb575caa52452f8bf",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.621854+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-back-l.png",
+      "sha256": "f0f164007ae1366db63bc6cbcc278308071d047153efa895dc194bce34e84e60",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-back-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-back-r.png",
+      "sha256": "f0f164007ae1366db63bc6cbcc278308071d047153efa895dc194bce34e84e60",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-back-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-l.png",
+      "sha256": "0e74c00f424af3389dd77fc9f352f184ae5ff8ef1e26ea71aa0d7acb13c2e967",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-r.png",
+      "sha256": "0e74c00f424af3389dd77fc9f352f184ae5ff8ef1e26ea71aa0d7acb13c2e967",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-bar-l.png",
+      "sha256": "80a42406fee82c9ce5c3c5efd94cc6889fb5e7e8efe53c96a0002d4bdc546949",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-bar-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-bar-r.png",
+      "sha256": "80a42406fee82c9ce5c3c5efd94cc6889fb5e7e8efe53c96a0002d4bdc546949",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-bar-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-l.png",
+      "sha256": "4a3cd94be7e7162174fcf995d7608ac8e0ea8bafb4530bd12d66ed17ce54b75a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-r.png",
+      "sha256": "4a3cd94be7e7162174fcf995d7608ac8e0ea8bafb4530bd12d66ed17ce54b75a",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-blade-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-front-l.png",
+      "sha256": "ab5d44877d2e76e493bc92c711ab5bc72797bda65f8686ec601d161f38af6f15",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-front-l.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-front-r.png",
+      "sha256": "ab5d44877d2e76e493bc92c711ab5bc72797bda65f8686ec601d161f38af6f15",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-front-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-mid.png",
+      "sha256": "03cf5a39bcc0d2048184a99a196b634b7930398233f1d4b7573da5471a48fc61",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "new_region_layer_composite",
+    "pose": "original-canvas neutral overlay; runtime offset/recoil and repeated procedural part instances remain consumer controlled",
+    "rendererEvidence": "full-game/root-turrets/reference/RegionPart.java",
+    "includesBase": false,
+    "newArtwork": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

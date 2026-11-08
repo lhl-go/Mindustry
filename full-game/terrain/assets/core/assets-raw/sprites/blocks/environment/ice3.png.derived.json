@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/ice3.png",
+  "sha256": "c3bc5880ee673b5ea3eb72000bbf8e54b34eb07bd59704666915efd5dd6f478f",
+  "createdAt": "2026-10-26T16:41:59.911302+00:00",
+  "kind": "derived_image",
+  "format": "PNG",
+  "mode": "RGB",
+  "width": 32,
+  "height": 32,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/02-cold-living-floors.png",
+      "sha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5",
+      "generationRecord": "full-game/terrain/source/02-cold-living-floors.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "crop_native_independent_material_variant_downsample_and_seam_edge_blend",
+    "sourceBBox": [
+      593,
+      298,
+      885,
+      589
+    ],
+    "nativeExtractedSize": [
+      292,
+      291
+    ],
+    "targetSize": [
+      32,
+      32
+    ],
+    "filter": "Lanczos downsample only",
+    "seamStripPixels": 3,
+    "seamBlend": "Periodic-plus-smooth boundary-discontinuity correction then paired opposing edges averaged with narrow 3px linear falloff; no new detail generated.",
+    "noNewPaintedDetail": true,
+    "periodicSmoothCorrectionRms": 4.594992311183755
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized cleanup only."
+}

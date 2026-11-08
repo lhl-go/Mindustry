@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-root-parts/layers/retusa-body.png",
+  "sha256": "661c50658f15c04dd9683727c640f55bbb2eb5fcc9d88df64dced17e742e9b3e",
+  "createdAt": "2026-10-26T10:56:28.050964+00:00",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85",
+      "generationRecord": "units/serpulo-root-parts/14-support-hulls-v2.png.generation.json"
+    }
+  ],
+  "operation": "Native-resolution connected-component extraction, alpha >=16 isolated-region mask, alpha rescale clip((a-8)*255/237), RGB unchanged except alpha0 pixels zeroed; bbox crop and 32px transparent padding. No resize or repaint.",
+  "sourceBox": [
+    170,
+    13,
+    442,
+    484
+  ],
+  "nativeSourceSize": [
+    1536,
+    1024
+  ],
+  "exportSize": [
+    336,
+    535
+  ],
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generation record; host did not disclose model or quality.",
+  "userAuthorization": "2026-10-26 explicit approval for local cleaning and slicing",
+  "role": "body-only hull",
+  "runtimeRegistrationVerified": false
+}

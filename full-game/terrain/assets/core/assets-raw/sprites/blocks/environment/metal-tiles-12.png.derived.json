@@ -1,0 +1,35 @@
+{
+  "kind": "hybrid_base_icon",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-12-autotile1.png",
+      "sha256": "0f359149ef14c5ffff8231ab08e777ca7d0a860a9ea79d7def95d50eb14eac21",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-12-autotile1.png.derived.json",
+      "role": "shared material of corresponding authored atlas"
+    },
+    {
+      "file": "full-game/terrain/reference/core/assets-raw/sprites/blocks/environment/metal-tiles-12.png",
+      "sha256": "b016007f6ae196b8f649fe16758d8f8ba3cb9b21e371ad2d9d1096393e9047d3",
+      "officialPath": "core/assets-raw/sprites/blocks/environment/metal-tiles-12.png",
+      "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+      "role": "original base geometry/shading"
+    }
+  ],
+  "operation": {
+    "type": "downsample_shared_native_material_to32_apply_official_alpha_and_normalized_shading",
+    "sharedWith": "metal-tiles-12-autotile1",
+    "newIndependentVariant": false
+  },
+  "license": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/metal-tiles-12.png",
+  "sha256": "1fdd3d503bd60f5e611ee4d534f28f37c1b166fc9003ba437caf59bd096097b8",
+  "createdAt": "2026-10-26T20:35:01.754188+00:00",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

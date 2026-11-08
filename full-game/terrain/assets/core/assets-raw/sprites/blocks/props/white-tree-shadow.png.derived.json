@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "7b28a50fb8b5659df0a84ece16c1a66c5d3b824738527df51e1fbf5079045887",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png",
+      "sha256": "f6578b3c1a5aa5b3228201c08188016c09bda8515f2e332986323876a7b0c2fa",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/white-tree.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 138,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 1,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 138,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree-shadow.png",
+  "sha256": "6dc912fd7a8f2c6da1c75b714071d3ea37c7d10623f0a63288d5332105bb374d",
+  "createdAt": "2026-10-26T20:35:02.075191+00:00",
+  "width": 353,
+  "height": 348,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/underline-disabled.9.png",
+  "sourceGitBlob": "d0b71215568de913cec28aab483bba2a745727aa",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/underline-disabled.9.png",
+  "sha256": "a5aa70bed9f3e2d93b5ab562420c6b670f631f159a00afa03371dafb4c78d7fa",
+  "sourceSize": [
+    38,
+    29
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/stat_field.png",
+      "sha256": "c175e6e627776393cb7371df797ebe88bdfa0916769829269089ee22ac9b8c46",
+      "record": "ui/kit/stat_field.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/underline-disabled.9.png",
+      "sha256": "069de5b4a1ff3ffa0d1a3f573e72d309f77d9f1b5d6794ccb95c148d6c524c7f",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      12.0,
+      12.0,
+      12.0,
+      12.0
+    ],
+    "sourceCanvas": [
+      38,
+      29
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "disabled",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

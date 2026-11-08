@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/toxopid.png",
+  "sha256": "96d349f3d3563009f9e885ec860d701541ef9f5071fc864bec5629888bfaf925",
+  "width": 160,
+  "height": 190,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/toxopid.png",
+      "sha256": "ce2663f2821bfbc6bfa50bfbac938db5d43abecf6ebe8017c45d5baef885563a",
+      "generationRecord": "units/serpulo-ground-naval/bodies/toxopid.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      615,
+      546
+    ],
+    "sourcePivot": [
+      315.5,
+      281.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      28
+    ],
+    "sourceDimensions": [
+      631,
+      562
+    ],
+    "targetDimensions": [
+      160,
+      190
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      156,
+      186
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      80.0,
+      95.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/toxopid.png",
+    "gitBlobSha1": "3f4037e94b239ef9cb3b26c959608a25ed0194c3",
+    "sha256": "e27eeac16eb3f6dcd2e3046840003f591c2befe1fe2b61ff698fbad972b0436a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

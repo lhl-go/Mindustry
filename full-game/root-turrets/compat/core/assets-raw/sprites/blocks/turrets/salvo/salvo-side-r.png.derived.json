@@ -1,0 +1,44 @@
+{
+  "region": "salvo-side-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/salvo/salvo-side-r.png",
+  "sha256": "596874bbfac54f130bfb50f819d2a86e4db7e17050e06d61ab097d7d4341896e",
+  "size": [
+    64,
+    64
+  ],
+  "derivedAt": "2026-10-26T18:34:46.348823+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/salvo-side-l.png",
+      "sha256": "912dbd52e1558b215b238503e9690e1998c89094aa396c344fdcbdd038228aa0",
+      "record": "full-game/root-turrets/masters/salvo-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/salvo/salvo-side-r.png",
+      "sha256": "dc7156d3f2029390abd7266cff9f0335f9e229f904381012d64cf0a784d197e7",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/salvo/salvo-side-l.png",
+      "sha256": "bb50d870698ed9b2d53503158b8d031e89d4b9fa237e64e6d82d0bd113bc9bcb",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      40,
+      25,
+      59,
+      60
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

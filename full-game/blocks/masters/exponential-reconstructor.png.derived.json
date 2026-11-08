@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/exponential-reconstructor.png",
+  "sha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      375,
+      405,
+      712,
+      708
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      337,
+      303
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    369,
+    335
+  ],
+  "anchorPixels": [
+    184.5,
+    167.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

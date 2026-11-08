@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/thorium-wall.png",
+  "sourceGitBlob": "deb9edeea0ccf3118c7c867052961948ff97ffda",
+  "sourceSha256": "cfbc5884f1d22bebf88f7d38b8092d80f155b24d704307425cad0015b3931c4a",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "thorium-wall",
+  "blockId": "thorium-wall",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thorium-wall.png",
+  "sha256": "b597d4117300d27c1ed4fbcdf6a1c4d5226cb471440a5e310dab1e91da4e3997",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thorium-wall.png",
+  "engineSha256": "b597d4117300d27c1ed4fbcdf6a1c4d5226cb471440a5e310dab1e91da4e3997",
+  "nativeFile": "full-game/blocks/masters/thorium-wall.png",
+  "nativeSha256": "21965fcb28f669fad331e170e8a082d47a23d7ad2a06b3c5697527cc769603c4",
+  "nativeSize": [
+    321,
+    324
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/thorium-wall.png",
+      "sha256": "21965fcb28f669fad331e170e8a082d47a23d7ad2a06b3c5697527cc769603c4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/thorium-wall.png",
+      "sha256": "cfbc5884f1d22bebf88f7d38b8092d80f155b24d704307425cad0015b3931c4a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thorium-wall.png.derived.json"
+}

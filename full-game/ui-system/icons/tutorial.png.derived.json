@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "tutorial",
+  "file": "full-game/ui-system/icons/tutorial.png",
+  "sha256": "7389ded190db7918e7fc01dd12f2880d98b932e138c1620fa7fa198de29b8e50",
+  "width": 321,
+  "height": 321,
+  "nativeCropPixels": [
+    297,
+    273
+  ],
+  "derivedAt": "2026-10-26T15:24:55.911693+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/04-cursors-mascots.png",
+    "sha256": "830e850f6ed5124f64618cea75f17923427e230dc2b78768f00900010f2b23e8",
+    "generationRecord": "full-game/ui-system/source/04-cursors-mascots.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      4,
+      4
+    ],
+    "cellIndex": 2,
+    "sourceBox": [
+      634,
+      70,
+      931,
+      343
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      12,
+      24
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

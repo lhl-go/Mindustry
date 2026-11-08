@@ -1,0 +1,41 @@
+{
+  "region": "sublimate-front-l",
+  "file": "full-game/root-turrets/masters/sublimate-front-l.png",
+  "sha256": "681e4a273095dbdfda41266237b4396f6dbff08a9cfbc476a4d1e3cea1a4123e",
+  "size": [
+    305,
+    243
+  ],
+  "derivedAt": "2026-10-26T18:34:45.352144+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/05-regions.png",
+      "sha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+      "record": "full-game/root-turrets/source/05-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 8,
+    "sourceBox": [
+      65,
+      740,
+      346,
+      959
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/steam-generator-top.png",
+  "sourceGitBlob": "c0a7cf2c3f0530ab6027a1348c3121eabeb3861b",
+  "sourceSha256": "58755588461ce3b6947bea9b4ff22acb5189ed8f65c6a665d77f1c9bac6256d7",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "steam-generator-top",
+  "blockId": "steam-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-top.png",
+  "sha256": "cdb3f4b342589cc1780ef09c50bc1da0140dcc5129a99076fab35256ce9afa95",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-top.png",
+  "engineSha256": "cdb3f4b342589cc1780ef09c50bc1da0140dcc5129a99076fab35256ce9afa95",
+  "nativeFile": "full-game/blocks/masters/steam-generator.png",
+  "nativeSha256": "fa77b793844b5a150693b31929d0d5810c59c1331c2ec2d9129c8c2611b19fcd",
+  "nativeSize": [
+    354,
+    371
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/steam-generator.png",
+      "sha256": "fa77b793844b5a150693b31929d0d5810c59c1331c2ec2d9129c8c2611b19fcd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator-top.png",
+      "sha256": "58755588461ce3b6947bea9b4ff22acb5189ed8f65c6a665d77f1c9bac6256d7"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

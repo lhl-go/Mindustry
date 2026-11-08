@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-out-9.png",
+  "sourceGitBlob": "84409c2c690d0bd5360534b05652cd8ff6e825d1",
+  "sourceSha256": "4914785f5bbb5d62512109c8333eed241190a64855a42846b53466fcf9328f46",
+  "sourceDimensions": [
+    288,
+    288
+  ],
+  "region": "factory-out-9",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-9.png",
+  "sha256": "aa913c7416dcedc8474af4aba575afc612431348be2203596b8adceb8073edf7",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-9.png",
+  "engineSha256": "aa913c7416dcedc8474af4aba575afc612431348be2203596b8adceb8073edf7",
+  "nativeFile": "full-game/blocks/masters/tetrative-reconstructor.png",
+  "nativeSha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4",
+  "nativeSize": [
+    389,
+    374
+  ],
+  "sourceAlphaBounds": [
+    181,
+    13,
+    288,
+    275
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-out-9",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tetrative-reconstructor.png",
+      "sha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-out-9.png",
+      "sha256": "4914785f5bbb5d62512109c8333eed241190a64855a42846b53466fcf9328f46"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-9.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-out-9.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tetrative-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

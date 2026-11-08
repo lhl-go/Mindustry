@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/tank-fabricator-top.png",
+  "sourceGitBlob": "4e5ee09f664321fe27e83d5532701bb17e8603bd",
+  "sourceSha256": "fd530f21c855d57ca3ae090563c94b4532a2d65be236004a3495e67164fad8d1",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "tank-fabricator-top",
+  "blockId": "tank-fabricator",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator-top.png",
+  "sha256": "1aae3c41f10d525717d4bdd2452790d53d3e84e6acbc9f9f318bf0978bb9dc6d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator-top.png",
+  "engineSha256": "1aae3c41f10d525717d4bdd2452790d53d3e84e6acbc9f9f318bf0978bb9dc6d",
+  "nativeFile": "full-game/blocks/masters/tank-fabricator.png",
+  "nativeSha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a",
+  "nativeSize": [
+    350,
+    340
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tank-fabricator.png",
+      "sha256": "44c8d224723076549226ba3b64a177a81ce7408c8bf64d8ef205e8f84347f33a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/tank-fabricator-top.png",
+      "sha256": "fd530f21c855d57ca3ae090563c94b4532a2d65be236004a3495e67164fad8d1"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tank-fabricator-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tank-fabricator.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

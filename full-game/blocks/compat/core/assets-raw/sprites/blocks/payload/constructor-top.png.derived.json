@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/constructor-top.png",
+  "sourceGitBlob": "bf852e56351ac7080892d3511c9cc176d355c322",
+  "sourceSha256": "f43369ed6b04321ba6ca156763c1629708d5b37aaca2b0ff662d430fd3b17074",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "constructor-top",
+  "blockId": "constructor",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/constructor-top.png",
+  "sha256": "19140cb4550196b71bd5a7e23844a864efa0e08253b75da85b1e84b86cfd04b6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/constructor-top.png",
+  "engineSha256": "19140cb4550196b71bd5a7e23844a864efa0e08253b75da85b1e84b86cfd04b6",
+  "nativeFile": "full-game/blocks/masters/constructor.png",
+  "nativeSha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9",
+  "nativeSize": [
+    292,
+    315
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/constructor.png",
+      "sha256": "0f3b6a9cb538c09c722711d043c1804b07c3367dc8a3d78b43dd7df6f33a54f9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/constructor-top.png",
+      "sha256": "f43369ed6b04321ba6ca156763c1629708d5b37aaca2b0ff662d430fd3b17074"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/constructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/constructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/constructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

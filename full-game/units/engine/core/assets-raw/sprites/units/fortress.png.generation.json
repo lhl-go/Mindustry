@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress.png",
+  "sha256": "43f504e0748a4cd69fe1a47ff345e4f7cac8beea6d2a66eaddcb4f664b5ae427",
+  "width": 100,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/fortress.png",
+      "sha256": "9de9f92fb02488a9c24024dc696ff571cde9717747db6c8f858c9449e47c7876",
+      "generationRecord": "units/serpulo-ground-naval/bodies/fortress.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      442,
+      404
+    ],
+    "sourcePivot": [
+      229.0,
+      210.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      10,
+      4
+    ],
+    "sourceDimensions": [
+      458,
+      420
+    ],
+    "targetDimensions": [
+      100,
+      80
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      96,
+      76
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      50.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/fortress.png",
+    "gitBlobSha1": "1dc89c484240802d0f61d8c2aad27e1fa7bd03f3",
+    "sha256": "8aa606338480d7b4f8bea20acbd330677709498a99a197891ebe51a5b12aa2cb"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

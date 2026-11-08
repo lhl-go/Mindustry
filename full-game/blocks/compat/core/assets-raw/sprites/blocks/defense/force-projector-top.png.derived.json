@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/force-projector-top.png",
+  "sourceGitBlob": "540cc9b221c8dc9bd0ba55aee8f9ed439fc36c51",
+  "sourceSha256": "6462b6e685dd7692e7aef29f631ef2736c25e733377ce9186c6d8d698e180e21",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "force-projector-top",
+  "blockId": "force-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/force-projector-top.png",
+  "sha256": "923eacdabf2a96bf94d35bf442462dbf3c2f4f4b7eb4b15bfef72c0e3e31ee5e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/force-projector-top.png",
+  "engineSha256": "923eacdabf2a96bf94d35bf442462dbf3c2f4f4b7eb4b15bfef72c0e3e31ee5e",
+  "nativeFile": "full-game/blocks/masters/force-projector.png",
+  "nativeSha256": "d7b01088813e20f3e39295933ff7c6c008f736e40441b28d31f071ef87b24485",
+  "nativeSize": [
+    319,
+    296
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    72,
+    72
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": false,
+    "colorRule": "original additive glow palette",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/force-projector.png",
+      "sha256": "d7b01088813e20f3e39295933ff7c6c008f736e40441b28d31f071ef87b24485"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/force-projector-top.png",
+      "sha256": "6462b6e685dd7692e7aef29f631ef2736c25e733377ce9186c6d8d698e180e21"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/force-projector-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/force-projector-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/force-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

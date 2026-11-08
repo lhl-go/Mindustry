@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/pulverizer-rotator.png",
+  "sourceGitBlob": "e89e5ed5e74669456c7191abe22445e916da2271",
+  "sourceSha256": "739fc50624a31010be32ce91227c773d5bd810e47ab29902c94dfde8d097aff0",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "pulverizer-rotator",
+  "blockId": "pulverizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer-rotator.png",
+  "sha256": "42b62e0b9ae3829e249458022996e98f27165e96acab55506c14b28c70a497d1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer-rotator.png",
+  "engineSha256": "42b62e0b9ae3829e249458022996e98f27165e96acab55506c14b28c70a497d1",
+  "nativeFile": "full-game/blocks/masters/pulverizer-rotator-part.png",
+  "nativeSha256": "f4881ea9c34207dc8d9159e7c9c5c9f19617eefdb8ae9c0f3d662ab2dc134a22",
+  "nativeSize": [
+    256,
+    254
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    28,
+    28
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pulverizer-rotator-part.png",
+      "sha256": "f4881ea9c34207dc8d9159e7c9c5c9f19617eefdb8ae9c0f3d662ab2dc134a22"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/pulverizer-rotator.png",
+      "sha256": "739fc50624a31010be32ce91227c773d5bd810e47ab29902c94dfde8d097aff0"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/pulverizer-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

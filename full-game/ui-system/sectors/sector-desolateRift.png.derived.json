@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-desolateRift",
+  "file": "full-game/ui-system/sectors/sector-desolateRift.png",
+  "sha256": "f85e92763062fc7c255e0d89d83ea5c054e203b29639f042a2c333acc971fd90",
+  "width": 395,
+  "height": 395,
+  "derivedAt": "2026-10-26T15:54:01.027746+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/08-sectors-02.png",
+    "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+    "generationRecord": "full-game/ui-system/source/08-sectors-02.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 2,
+    "sourceBox": [
+      849,
+      56,
+      1220,
+      397
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

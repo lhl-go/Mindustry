@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+  "sha256": "eacfdb6ebca62383afe8407d35d15096e636f6c685ad2f1b442d13f5638a800d",
+  "width": 63,
+  "height": 113,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      25
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      63,
+      113
+    ],
+    "officialAlphaBounds": [
+      20,
+      4,
+      59,
+      77
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      31.5,
+      56.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/disrupt-weapon-blade.png",
+    "gitBlobSha1": "3cc4e4aaae19ce7c5729c4a8fa89679b9c12f4ba",
+    "sha256": "268255a57e8392fa162c0bad490cb94f50ba19688d39d7a8682451753398c555"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

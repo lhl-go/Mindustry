@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/beam-link.png",
+  "sha256": "612e05cb6766ccb8365d97010cba4e4c1cc3e8dbe2597ed7c5a2357c2e7a4eba",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      98,
+      640,
+      212,
+      924
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      114,
+      284
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    146,
+    316
+  ],
+  "anchorPixels": [
+    73.0,
+    158.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

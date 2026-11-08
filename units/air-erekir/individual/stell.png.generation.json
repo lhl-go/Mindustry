@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "stell",
+  "file": "units/air-erekir/individual/stell.png",
+  "sha256": "8b0c3c4d3dd3d1ebb99ce0a5834774f7b8c4988eab83459a093a3d66d0daf773",
+  "width": 332,
+  "height": 382,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/03-erekir-tanks.png",
+      "sha256": "4c603a146c51110f4162f6e9eb657161f20a45114b630a14e21ee145a8f8360a",
+      "generationRecord": "units/air-erekir/source/03-erekir-tanks.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      90,
+      50,
+      430,
+      455
+    ],
+    "trimBoundsInRegion": [
+      20,
+      28,
+      320,
+      378
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 332,
+    "height": 382
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

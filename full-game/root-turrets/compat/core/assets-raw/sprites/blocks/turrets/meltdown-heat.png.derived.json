@@ -1,0 +1,35 @@
+{
+  "region": "meltdown-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/meltdown-heat.png",
+  "sha256": "90b1399ec55e95a26c78059b5a86211debea7e7533b0b474ae747ce8e0cb8231",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.487405+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/meltdown-heat.png",
+      "sha256": "8f8760452b6922f83a7eea2b2fe4908cb255f79eb1f8c2cfc18e1f0ca879843c",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/meltdown.png",
+      "sha256": "9ba51ee38b68f196ebe7d85f20de629df535e3aac55b660cad74eec8c1fb282b",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/meltdown.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "meltdown"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 2337
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

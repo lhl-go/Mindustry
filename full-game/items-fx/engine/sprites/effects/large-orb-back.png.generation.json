@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/large-orb-back.png",
+  "sha256": "89d805b69394634d058ca62fb52cc02befc0725d9a05caa67fbff0352b53ac82",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/large-orb-back.png",
+      "sha256": "f2185d0ee4bfa05f84413bb21f798218bb19285e83e733be1607aba70c256cdb",
+      "generationRecord": "full-game/items-fx/assets/large-orb-back.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      80,
+      80
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

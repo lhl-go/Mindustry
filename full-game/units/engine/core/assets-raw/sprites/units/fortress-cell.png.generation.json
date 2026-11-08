@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-cell.png",
+  "sha256": "a87a5f6fe4576fd6d07388e4685df0284818763732c3931768ea5ba6881866d8",
+  "width": 100,
+  "height": 80,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress.png",
+      "sha256": "43f504e0748a4cd69fe1a47ff345e4f7cac8beea6d2a66eaddcb4f664b5ae427",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/fortress.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "fortress",
+    "baseCanvas": [
+      100,
+      80
+    ],
+    "outputCanvas": [
+      100,
+      80
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/fortress-cell.png",
+    "gitBlobSha1": "368735f7d5cf2fac8c39f973e9a23ed13222c85d",
+    "sha256": "71f3e321039e578933bb8f6572f101130a3cc530e689a11af08244786e2c5113"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

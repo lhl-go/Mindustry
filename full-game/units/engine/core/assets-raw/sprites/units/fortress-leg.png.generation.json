@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/fortress-leg.png",
+  "sha256": "08446be9cc18b9f9fa0d34712769dab286c58a66c8572ee4093b3f27ecfa6ca1",
+  "width": 80,
+  "height": 60,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/leg-light.png",
+      "sha256": "13f53ee30b407db47727a4738e0321ff1a25fe41f088039935f82c246ec16645",
+      "generationRecord": "units/serpulo-ground-naval/parts/leg-light.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      190,
+      476
+    ],
+    "sourcePivot": [
+      103.0,
+      80.4
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      54,
+      4
+    ],
+    "sourceDimensions": [
+      206,
+      492
+    ],
+    "targetDimensions": [
+      80,
+      60
+    ],
+    "officialAlphaBounds": [
+      54,
+      4,
+      75,
+      56
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      40.0,
+      30.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/fortress-leg.png",
+    "gitBlobSha1": "fc4c7ad566861f34aae94ae2418e92881cae0354",
+    "sha256": "8f0db0f20632a2f49f442b55a79a0fad31cdff63c55866a43d00561089c6a4e3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

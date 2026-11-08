@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quad-cell.png",
+  "sha256": "218241291dab56f6a3ee5d5e14a61ed40cdc8a619d64c3a46afbbbd76f0da42f",
+  "width": 220,
+  "height": 220,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quad.png",
+      "sha256": "b9ff06e0fd4536db13430ad797a4b544a27ce701bdaebcc87210866743eda40b",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/quad.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "quad",
+    "baseCanvas": [
+      220,
+      220
+    ],
+    "outputCanvas": [
+      220,
+      220
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quad-cell.png",
+    "gitBlobSha1": "13222f495b8ffa93db3407679495b14c9177eeb0",
+    "sha256": "71981a970453ae3a1e496d17b7ea52494330727b3c00e4452f48556870f981fd"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

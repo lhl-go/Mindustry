@@ -1,0 +1,44 @@
+{
+  "region": "disperse-side-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/disperse/disperse-side-r.png",
+  "sha256": "d8962dbd275bd87e8ac1a7c2388b932e0c3b7801728c2d615f9f0609858e90cf",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.312078+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/disperse-side-l.png",
+      "sha256": "50d1cb757deddc7877693e8e850a5306bae256b50c829f7817a15033d6f78468",
+      "record": "full-game/root-turrets/masters/disperse-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/disperse/disperse-side-r.png",
+      "sha256": "df1078312d8d75af880984796b3a6b1d86364eca3787d89ed9c6642d15dfdf5f",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/disperse/disperse-side-l.png",
+      "sha256": "692d0a9708eb44147162cd563ae2d5d9657b3f09b88937dc9725815b85039008",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      89,
+      48,
+      117,
+      114
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

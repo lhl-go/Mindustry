@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+  "sha256": "b56c799f3f6f777b9bfa3800211a86ba9f06cc909e072a57032a2d837fcd6f98",
+  "width": 29,
+  "height": 183,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      438,
+      351
+    ],
+    "sourcePivot": [
+      399,
+      70
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      5,
+      46
+    ],
+    "sourceDimensions": [
+      470,
+      383
+    ],
+    "targetDimensions": [
+      29,
+      183
+    ],
+    "officialAlphaBounds": [
+      5,
+      4,
+      24,
+      103
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      14.5,
+      91.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/conquer-weapon-blade.png",
+    "gitBlobSha1": "4d4181e03553bf69323d418d156769c4ae421054",
+    "sha256": "3d96c663c639eb2b170e6c964dcaeab2341ddd10e5782e50abb3de633882a67e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

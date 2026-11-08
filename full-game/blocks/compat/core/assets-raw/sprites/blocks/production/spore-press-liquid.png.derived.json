@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/spore-press-liquid.png",
+  "sourceGitBlob": "c1e631410c24f1c1c5ab51a3418be2726ebab7de",
+  "sourceSha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "spore-press-liquid",
+  "blockId": "spore-press",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-liquid.png",
+  "sha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-liquid.png",
+  "engineSha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/production/spore-press-liquid.png",
+  "nativeSha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12",
+  "nativeSize": [
+    64,
+    64
+  ],
+  "sourceAlphaBounds": [
+    24,
+    24,
+    40,
+    40
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/spore-press-liquid.png",
+      "sha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/spore-press-liquid.png",
+      "sha256": "541f324660a9dd0ad7484d3aa1e5e159b81f7a7d3b55c97bdb9c023120edca12"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,40 @@
+{
+  "file": "full-game/units/generated-atlas/locus-treads0-7.png",
+  "sha256": "381718f63a7823ccde9ad058428ef9868f8c72d090878853d900b8fe94616a4d",
+  "width": 1,
+  "height": 76,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus-treads.png",
+      "sha256": "7086fbbbe9699be3bc1cc76c94f7323b93c35b128b51fb11d495d4affca2b894",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/locus-treads.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "official_tread_animation_generator",
+    "sampleRect": [
+      17,
+      10,
+      1,
+      76
+    ],
+    "frame": 7,
+    "treadFrames": 18,
+    "treadPullOffset": 5,
+    "formula": "idx=y+i; if idx>=height: idx=(idx-height+pullOffset)%height"
+  },
+  "sourceCode": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lines": [
+      616,
+      640
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Official procedural shifting of new painted belt pixels, not AI frame generation.",
+  "engineNotVerified": true
+}

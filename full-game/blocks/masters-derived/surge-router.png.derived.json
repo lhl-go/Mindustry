@@ -1,0 +1,61 @@
+{
+  "file": "full-game/blocks/masters-derived/surge-router.png",
+  "sha256": "64932a9c1c90bf5ecdbf3051ae07a163fd299b58fa886b9abd7fbd73602c0a96",
+  "nativeSize": [
+    326,
+    306
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-router.png",
+      "sha256": "77fd935ea1124c9c42a644dc287283420233eb2085387b7a0b4b43c31bb6b67e",
+      "generationRecord": "full-game/blocks/masters/surge-router.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_fixed_directional_glyph_cleanup",
+    "maskPolygon": [
+      [
+        133,
+        146
+      ],
+      [
+        163,
+        125
+      ],
+      [
+        195,
+        148
+      ],
+      [
+        196,
+        168
+      ],
+      [
+        182,
+        172
+      ],
+      [
+        164,
+        157
+      ],
+      [
+        146,
+        172
+      ],
+      [
+        132,
+        166
+      ]
+    ],
+    "maskPixels": 1982,
+    "method": "Harmonic RGB interpolation from existing adjacent source pixels, 1500 Jacobi iterations; no outside pixel or alpha changes",
+    "newPaintedDetail": false,
+    "scale": 1
+  },
+  "reason": "This fixed body must not encode a directional arrow; the separately rotating original top region supplies direction.",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeEvidence": "DuctRouter/StackRouter/OverflowDuct use fixed body plus independently rotating top region."
+}

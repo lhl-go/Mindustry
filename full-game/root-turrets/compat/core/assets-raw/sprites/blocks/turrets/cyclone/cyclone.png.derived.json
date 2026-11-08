@@ -1,0 +1,42 @@
+{
+  "region": "cyclone",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/cyclone/cyclone.png",
+  "sha256": "8ac09d29ad23c2f941b8e946342702a4ab1c69843a965da1b9e334659b50b7cc",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.049279+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/cyclone.png",
+      "sha256": "e1ff84917eb20dec2e7f567d86234d5d2fe2dd20e5c25962b2d436012d6ab447",
+      "record": "full-game/root-turrets/masters/cyclone.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/cyclone/cyclone.png",
+      "sha256": "10a0045c9eda73a65fc7df465ac30eca14ef832c484c2c9d9ae742c852aa3950",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      12,
+      21,
+      84,
+      89
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      358,
+      330
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

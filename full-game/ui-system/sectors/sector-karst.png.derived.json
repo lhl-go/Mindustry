@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-karst",
+  "file": "full-game/ui-system/sectors/sector-karst.png",
+  "sha256": "f050cbe92bccb8500bc15a6e2ff9501be38db2db8da9809de72bc48e6068f74a",
+  "width": 410,
+  "height": 410,
+  "derivedAt": "2026-10-26T15:54:01.626848+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/09-sectors-03.png",
+    "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+    "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 5,
+    "sourceBox": [
+      855,
+      455,
+      1241,
+      807
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

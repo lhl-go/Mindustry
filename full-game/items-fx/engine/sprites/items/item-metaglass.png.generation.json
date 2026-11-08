@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-metaglass.png",
+  "sha256": "5fd5fe82cce65533c5b0d3a1d28feb27a1cf6cde14c6082365a8db09121a86a6",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-metaglass.png",
+      "sha256": "27551d8bdea5ada5860c566081e4cc422064caca8ea76fb2391880416e5cb419",
+      "generationRecord": "full-game/items-fx/assets/item-metaglass.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

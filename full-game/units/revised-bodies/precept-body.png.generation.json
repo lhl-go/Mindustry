@@ -1,0 +1,93 @@
+{
+  "file": "full-game/units/revised-bodies/precept-body.png",
+  "sha256": "a0b1bb6f66e6271c6b5222ddfcd999d45095882127c14840216763c877fbd21f",
+  "width": 492,
+  "height": 459,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/precept-body.png",
+      "sha256": "514c8542222f97129342c74f7f10aee01800d3daf600017bc355a2367b6b6526",
+      "generationRecord": "units/air-erekir/layers/precept-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_motion_layer_separation",
+    "description": "Clear only inner source-defined moving tread bands from the overlying body; retain outer rails, end armor and all other original painted pixels. Complete tread canvas fills the cleared areas below.",
+    "engineWindows": [
+      [
+        20,
+        52,
+        42,
+        119
+      ],
+      [
+        78,
+        52,
+        100,
+        119
+      ],
+      [
+        46,
+        20,
+        59,
+        74
+      ],
+      [
+        61,
+        20,
+        74,
+        74
+      ]
+    ],
+    "nativeWindows": [
+      [
+        81,
+        155,
+        173,
+        431
+      ],
+      [
+        319,
+        155,
+        411,
+        431
+      ],
+      [
+        188,
+        24,
+        242,
+        246
+      ],
+      [
+        250,
+        24,
+        304,
+        246
+      ]
+    ],
+    "sourceToEngineScale": [
+      0.24347826086956523,
+      0.24355971896955503
+    ],
+    "sourceTrim": [
+      16,
+      16,
+      476,
+      443
+    ],
+    "destinationTopLeft": [
+      4,
+      18
+    ],
+    "staticRailFractionPerSide": 0.12,
+    "staticEndFractionPerSide": 0.05,
+    "noNewPaintedPixels": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Authorized local layer separation from current final native art; no new model call.",
+  "engineNotVerified": true
+}

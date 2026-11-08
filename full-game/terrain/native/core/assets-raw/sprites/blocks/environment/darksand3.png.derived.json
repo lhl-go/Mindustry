@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand3.png",
+  "sha256": "e6fcc7dc4522f61056d6e94eeff6681886a804b54d11f07d6b704d52a748a005",
+  "size": [
+    292,
+    291
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/04-volcanic-floors.png",
+      "sha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc",
+      "generationRecord": "full-game/terrain/source/04-volcanic-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    298,
+    885,
+    589
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

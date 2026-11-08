@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-router-over.png",
+  "sourceGitBlob": "52195b27a1e7331962461e9f56e6e55691c74244",
+  "sourceSha256": "b0c73ed09dddffb3b5ec9226b6b84e51eaca76257ae87a37e9bb89d5d769c8d3",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "payload-router-over",
+  "blockId": "payload-router",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-router-over.png",
+  "sha256": "ae331f5dfb74ee301195fa942ce4f50bb05b0fea35c1cf56e0ec81b913b88256",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-router-over.png",
+  "engineSha256": "ae331f5dfb74ee301195fa942ce4f50bb05b0fea35c1cf56e0ec81b913b88256",
+  "nativeFile": "full-game/blocks/masters/payload-router.png",
+  "nativeSha256": "8c4ce6de9fe65df89ca1d1f90905d89871207f4ffc118f47d8b7e1fbfe8fa4a2",
+  "nativeSize": [
+    303,
+    287
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "fixed router border",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-router.png",
+      "sha256": "8c4ce6de9fe65df89ca1d1f90905d89871207f4ffc118f47d8b7e1fbfe8fa4a2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-router-over.png",
+      "sha256": "b0c73ed09dddffb3b5ec9226b6b84e51eaca76257ae87a37e9bb89d5d769c8d3"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-router-over.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-router-over.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-router.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/bridge-conduit.png",
+  "sourceGitBlob": "9249b2b4ad0552a83d43ec523f867ba4356945e2",
+  "sourceSha256": "bc6aa97257c1393dc74d362623eaa755575c4b8a869e6449bf6726c6173f1eee",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "bridge-conduit",
+  "blockId": "bridge-conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/bridge-conduit.png",
+  "sha256": "af830177e946d283dee1422aa13541d7b79c5af9320969990a08384d4f22be7e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/bridge-conduit.png",
+  "engineSha256": "af830177e946d283dee1422aa13541d7b79c5af9320969990a08384d4f22be7e",
+  "nativeFile": "full-game/blocks/masters/bridge-conduit.png",
+  "nativeSha256": "b0fecfcc704c16123bf5f01bbf8f82a45f177e84cd559ebc19b8f097d131846e",
+  "nativeSize": [
+    223,
+    216
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/bridge-conduit.png",
+      "sha256": "b0fecfcc704c16123bf5f01bbf8f82a45f177e84cd559ebc19b8f097d131846e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/bridge-conduit.png",
+      "sha256": "bc6aa97257c1393dc74d362623eaa755575c4b8a869e6449bf6726c6173f1eee"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/bridge-conduit.png.derived.json"
+}

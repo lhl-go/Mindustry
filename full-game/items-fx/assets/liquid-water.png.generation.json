@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/04-liquids.png",
+      "sha256": "f13c8d4a300c50bb098215f82a22a14d7542a10fe693bdef3b066a37b4d0c2a2",
+      "generationRecord": "full-game/items-fx/source/04-liquids.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      0,
+      0,
+      444,
+      444
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      30,
+      37,
+      439,
+      422
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/liquid-water.png",
+  "sha256": "c9824033c9cd4074aa0baaa86d3125872ee3fd16e1018e541fe5b72a02fcb85b",
+  "width": 441,
+  "height": 417,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.067644+00:00"
+}

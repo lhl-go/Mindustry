@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/interplanetary-accelerator.png",
+  "sha256": "cb066f20ae760b4bae85cd3ab60af18499194d83050261b3824860010c4c2bf4",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      731,
+      713,
+      1079,
+      1059
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      348,
+      346
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    380,
+    378
+  ],
+  "anchorPixels": [
+    190.0,
+    189.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

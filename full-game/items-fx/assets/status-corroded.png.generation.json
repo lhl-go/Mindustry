@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/06-statuses-elements.png",
+      "sha256": "a57d9a2950185382c5765ad615de70b0b9dd30a56ded85087462a6d7ee616c14",
+      "generationRecord": "full-game/items-fx/source/06-statuses-elements.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      27,
+      25,
+      422,
+      428
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-corroded.png",
+  "sha256": "4e34a8ddbaee384f882f119b0e0f5b8cecddd288a5067d5d7f729c58f508a7a3",
+  "width": 427,
+  "height": 435,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.530164+00:00"
+}

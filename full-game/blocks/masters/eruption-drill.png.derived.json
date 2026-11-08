@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/eruption-drill.png",
+  "sha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/mining-bodies-01.png",
+      "sha256": "27ab3d10efcbb29df61617cb9e8a572fca9ad81c612bd8c00c329041fbfa3a2f",
+      "generationRecord": "full-game/blocks/records/mining-bodies-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      739,
+      725,
+      1071,
+      1034
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      332,
+      309
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    364,
+    341
+  ],
+  "anchorPixels": [
+    182.0,
+    170.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

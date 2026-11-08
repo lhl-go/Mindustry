@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/magmarock2.png",
+  "sha256": "93b97b1fde563b61e386f919ce6ddca69b24b07a0cc3884645775222eff5dcff",
+  "size": [
+    291,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/04-volcanic-floors.png",
+      "sha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc",
+      "generationRecord": "full-game/terrain/source/04-volcanic-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    298,
+    1480,
+    589,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

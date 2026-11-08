@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/core-bastion.png",
+  "sha256": "85effdd77472a601eb0cb4176543746f908813894a15f3deeb7206d3fdd1d331",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1142,
+      60,
+      1414,
+      342
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      272,
+      282
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    304,
+    314
+  ],
+  "anchorPixels": [
+    152.0,
+    157.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

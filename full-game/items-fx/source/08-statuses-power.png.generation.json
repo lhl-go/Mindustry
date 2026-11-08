@@ -1,0 +1,69 @@
+{
+  "file": "full-game/items-fx/source/08-statuses-power.png",
+  "sha256": "bda3badfec43648fe7bec7fd2e3b3aae4760344bd4e14592a0110dff1751cb4c",
+  "generatedAt": "2026-10-26T16:33:43.395Z",
+  "startedAt": "2026-10-26T16:31:47.572Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Production game sprite sheet, exactly 4 distinct isolated sprites. Strict invisible 2 columns x2 rows reading order; unused final cell empty. Requested 1536x1536. The two attached refs dictate fine Daoist chibi painted style, jade ivory warm-gold finish, clean rounded detailed art, but preserve described colors. 1 overdrive: golden triple chevron blazing upward around a jade core. 2 overclock: jade mechanical gear with a tiny golden clock-hand and bright energizing teal sparks. 3 shielded: stout ivory/jade shield with warm-gold trim and centered yin-yang. 4 boss: imposing dark-red and purple horned golden crown with a fierce central diamond. Entire objects inside each cell with generous15% margins, no overlaps. Genuine transparent RGBA. No text, border, plaque, floor, grid, cast shadow, glow fog or UI. Status symbols should read at small size, pictorial silhouette only, not square button backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/08-statuses-power.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/08-statuses-power.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-97143d01-8c75-4319-96e7-dc8d9d9f120a.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "status-overdrive",
+    "status-overclock",
+    "status-shielded",
+    "status-boss"
+  ],
+  "sourceImageRetained": true
+}

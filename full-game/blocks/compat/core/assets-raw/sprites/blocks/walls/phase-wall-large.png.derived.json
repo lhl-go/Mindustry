@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/phase-wall-large.png",
+  "sourceGitBlob": "daac191bd47830ba23fedbbe4c435cb052aaa7bd",
+  "sourceSha256": "65146be8a42fece2451fe9b70200775472c74c61ed0d78086a7914aca53bbe71",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-wall-large",
+  "blockId": "phase-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/phase-wall-large.png",
+  "sha256": "c89e5c72bf684f5df10e00b7e3eb6e2e58d8e877a635fc8d59b55bee8be0092e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/phase-wall-large.png",
+  "engineSha256": "c89e5c72bf684f5df10e00b7e3eb6e2e58d8e877a635fc8d59b55bee8be0092e",
+  "nativeFile": "full-game/blocks/masters/phase-wall.png",
+  "nativeSha256": "0d8139076d5e73547a14292b61760886528b8aa5d7b5b137dd905e930616acc9",
+  "nativeSize": [
+    318,
+    312
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-wall.png",
+      "sha256": "0d8139076d5e73547a14292b61760886528b8aa5d7b5b137dd905e930616acc9"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/phase-wall-large.png",
+      "sha256": "65146be8a42fece2451fe9b70200775472c74c61ed0d78086a7914aca53bbe71"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/phase-wall-large.png.derived.json"
+}

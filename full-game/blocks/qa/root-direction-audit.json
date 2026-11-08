@@ -1,0 +1,265 @@
+{
+  "checkedAt": "2026-10-28T08:03:46.685802+00:00",
+  "status": "passed_static_direction_and_assembly_review_runtime_unverified",
+  "sourceBatch": {
+    "file": "full-game/blocks/batches/root.json",
+    "sourceCount": 367,
+    "artContentDigest": "0ce9ca21e01f053cc2e44d5073ff2d2c7bcf52daec8598ff3e4e8a8b403f7dff",
+    "digestDefinition": "SHA256 of sorted JSON pairs [file,sha256] for all exported root art; metadata status changes do not invalidate this audit."
+  },
+  "checks": [
+    {
+      "region": "surge-router",
+      "fixedArrowRemoved": true,
+      "alphaUnchanged": true,
+      "allPixelsOutsideRemovalMaskUnchanged": true,
+      "derivedNativeUsedByCompatibility": true
+    },
+    {
+      "region": "overflow-duct",
+      "fixedArrowRemoved": true,
+      "alphaUnchanged": true,
+      "allPixelsOutsideRemovalMaskUnchanged": true,
+      "derivedNativeUsedByCompatibility": true
+    },
+    {
+      "region": "underflow-duct",
+      "fixedArrowRemoved": true,
+      "alphaUnchanged": true,
+      "allPixelsOutsideRemovalMaskUnchanged": true,
+      "derivedNativeUsedByCompatibility": true
+    },
+    {
+      "region": "liquid-overflow-gate",
+      "fixedArrowRemoved": true,
+      "alphaUnchanged": true,
+      "allPixelsOutsideRemovalMaskUnchanged": true,
+      "derivedNativeUsedByCompatibility": true
+    },
+    {
+      "region": "plastanium-conveyor",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "plastanium-conveyor-0",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "plastanium-conveyor-1",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "plastanium-conveyor-2",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "surge-conveyor",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "surge-conveyor-0",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "surge-conveyor-1",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "surge-conveyor-2",
+      "nativeQuarterTurnBeforeExport": -90,
+      "runtimeRule": "StackConveyor rotation zero is east; runtime still supplies normal quarter turns."
+    },
+    {
+      "region": "core-acropolis-thruster1",
+      "largeNativeNozzlesMirroredEast": true
+    },
+    {
+      "region": "core-acropolis-thruster2",
+      "largeNativeNozzlesMirroredEast": true
+    },
+    {
+      "region": "core-nucleus-thruster1",
+      "largeNativeNozzlesMirroredEast": true
+    },
+    {
+      "region": "core-nucleus-thruster2",
+      "largeNativeNozzlesMirroredEast": true
+    },
+    {
+      "region": "underflow-duct-top",
+      "indicatorBounds": [
+        12,
+        5,
+        19,
+        27
+      ],
+      "newBodyBounds": [
+        0,
+        5,
+        32,
+        27
+      ],
+      "originalCanvasAndPivotPreserved": true,
+      "indicatorContainedByNewBodyBounds": true,
+      "originalAlphaShapeRelocatedLocally": true
+    },
+    {
+      "region": "liquid-overflow-gate-top",
+      "indicatorBounds": [
+        5,
+        5,
+        27,
+        27
+      ],
+      "newBodyBounds": [
+        0,
+        5,
+        32,
+        27
+      ],
+      "originalCanvasAndPivotPreserved": true,
+      "indicatorContainedByNewBodyBounds": true,
+      "originalAlphaShapeRelocatedLocally": true
+    }
+  ],
+  "assemblySources": [
+    {
+      "region": "surge-router",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/surge-router.png",
+      "sha256": "b5ab727c902e9bea61eea328f3f916d09d9251d5602eea71fd642a89cb7acd58"
+    },
+    {
+      "region": "surge-router-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/surge-router-top.png",
+      "sha256": "9364e9b2cc55b6f5634f7b787d4ef5321e66f6cb69e9cd18bb3e8ca2f48edd43"
+    },
+    {
+      "region": "overflow-duct",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct.png",
+      "sha256": "c5618e51a6734e171228a26c97c7226d07de6f2a2e57921d6e73956cb0120426"
+    },
+    {
+      "region": "overflow-duct-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/overflow-duct-top.png",
+      "sha256": "6a6ff5dc523fa9b9d7d906b5e021ad48e74151be94b874f7f8be6b600200e6f4"
+    },
+    {
+      "region": "underflow-duct",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct.png",
+      "sha256": "368b389be1577999d5845d85abe7b18d4a11cc19dbae1a255412039c1c48c2ab"
+    },
+    {
+      "region": "underflow-duct-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/underflow-duct-top.png",
+      "sha256": "222974ae143e2e0e0c447b5c88534b5c4c861ba39fa0dc89a2adb280dce0be56"
+    },
+    {
+      "region": "liquid-overflow-gate",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate.png",
+      "sha256": "f4304381ced706de56558e0c59ce84eb0fdb8a71a07ef571e0f6ff27aa6d6081"
+    },
+    {
+      "region": "liquid-overflow-gate-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/liquid-overflow-gate-top.png",
+      "sha256": "2b89f2ab7033a44ba01dee7d85050c6969477550344d9d5d534254bdc3de2164"
+    },
+    {
+      "region": "duct-router",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-router.png",
+      "sha256": "9f72c66e7f5a89ddd61dec48c9c2ac55a862b6cc457a89e654d978d795618670"
+    },
+    {
+      "region": "duct-router-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/ducts/duct-router-top.png",
+      "sha256": "92d54d02661d6b8286d3d187967c4d9f6602036e8692b97419c3802cbaa7ac61"
+    },
+    {
+      "region": "thruster",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thruster.png",
+      "sha256": "a7b1eb4cafa83e2f778eba29320991951286e4e2c8ca0f034fcc6b25f76fbe32"
+    },
+    {
+      "region": "thruster-top",
+      "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/thruster-top.png",
+      "sha256": "52db8e78dc084a00299b4ea7295f5e8bc16cfd870ccfd34732f0b3300b9f3e94"
+    }
+  ],
+  "sourceCodeEvidence": [
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__StackConveyor.java",
+      "sha256": "c9bae6cd889f9c5a0744095d3098bfb4a7568d52b636c777ae82c8190604619e"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__DuctRouter.java",
+      "sha256": "8e576915b21874b936dd267be86493e7c5b69356a8caa3a89b0e648912131ff0"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__StackRouter.java",
+      "sha256": "b542c593aaebf6ad0b05455e4de0ad1d3e568d59aa8db831cc7b768ddc0e5a0e"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__OverflowDuct.java",
+      "sha256": "a252bfaf8a8e0529bdfc899496464be8fe8486b3dce3ae5c8ec135b0153c85fa"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__defense__Thruster.java",
+      "sha256": "13d64d4c6e04d9c715bdc88484b6589b9ffe6832851add69946775ffdd56dab0"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__storage__CoreBlock.java",
+      "sha256": "6945695056475120efe586b270e5939d0d22cf4e433ce66780c863a694c79b06"
+    },
+    {
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__MassDriver.java",
+      "sha256": "2da44217384b962157b2a0a41713d18e513054ee446a57f61f3e9adef6cd04fc"
+    }
+  ],
+  "contactSheets": [
+    {
+      "file": "full-game/blocks/qa/root-direction-audit-final-assemblies.png",
+      "sha256": "b0afc3eea9fc7f8d582d19366f541e6da24ffa35cc488da103229f7106407b4b"
+    },
+    {
+      "file": "full-game/blocks/qa/root-direction-audit-final-parts-01.png",
+      "sha256": "df3af6321e0487c98c8fdc615bee2c3a018175e976e9e6c741a58a69680b862b"
+    }
+  ],
+  "findingsResolved": [
+    "Stack conveyor source axis normalized north-to-east before source-canvas mapping.",
+    "Four fixed body arrows removed from local derivative artwork, leaving direction to top layers.",
+    "Decorative thruster uses separate stationary pedestal and one rotating assembly.",
+    "Large core native nozzles mirrored east before original corner and runtime quarter-turn rules."
+  ],
+  "interpretationCorrections": [
+    "Duct-router central mark is a three-branch junction symbol, not a one-way arrow; retained.",
+    "Mass-driver north rectangular channel is the muzzle; south round feature is the rear pivot. No 180-degree turn was required."
+  ],
+  "limits": [
+    "Static assembly simulation only; Mindustry engine was not executed.",
+    "liquid-overflow-gate is an orphan legacy source pair with no active v160.7 Blocks.java definition. Structural base/top separation is retained, without claiming an active renderer.",
+    "Thruster extends Wall, is sandboxOnly, and has no thrust behavior."
+  ],
+  "runtimeIntegrationVerified": false,
+  "passed": true,
+  "visualReview": {
+    "actuallyViewed": true,
+    "sheets": [
+      "full-game/blocks/qa/root-direction-audit-final-assemblies.png",
+      "full-game/blocks/qa/root-direction-audit-final-parts-01.png"
+    ],
+    "observations": [
+      "Stack belts face east in their rotation-zero exports. Four large-core nozzle exports face outward after mirroring.",
+      "Four fixed-body direction glyphs are cleared; rotating top layers define the visual direction independently.",
+      "Underflow and legacy liquid indicators are fitted within the new body bounds and no longer hover separately above the body.",
+      "Thruster uses one rotating assembly above a different stationary pedestal, without the earlier duplicated nozzle.",
+      "Duct-router Y symbol and mass-driver front/rear interpretation have been retained correctly."
+    ]
+  }
+}

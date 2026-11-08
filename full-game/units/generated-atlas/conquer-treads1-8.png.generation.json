@@ -1,0 +1,40 @@
+{
+  "file": "full-game/units/generated-atlas/conquer-treads1-8.png",
+  "sha256": "0377151a4161c5b38d1b668823989d1e0736c9f3990f37ba7c1ae5d77524e554",
+  "width": 1,
+  "height": 17,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer-treads.png",
+      "sha256": "c93c17aaee1735be67fd1a885fc2a23dbc72db8bbf3620a0451620fe618f2ebc",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/conquer-treads.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "official_tread_animation_generator",
+    "sampleRect": [
+      15,
+      42,
+      1,
+      17
+    ],
+    "frame": 8,
+    "treadFrames": 18,
+    "treadPullOffset": 1,
+    "formula": "idx=y+i; if idx>=height: idx=(idx-height+pullOffset)%height"
+  },
+  "sourceCode": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lines": [
+      616,
+      640
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Official procedural shifting of new painted belt pixels, not AI frame generation.",
+  "engineNotVerified": true
+}

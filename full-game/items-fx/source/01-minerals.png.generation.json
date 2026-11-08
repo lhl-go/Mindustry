@@ -1,0 +1,73 @@
+{
+  "file": "full-game/items-fx/source/01-minerals.png",
+  "sha256": "d25839eaf33a78a4b80feeb49e36b734c112086ceb6cd2d51e99069dfe527dc5",
+  "generatedAt": "2026-10-26T15:45:55.823Z",
+  "startedAt": "2026-10-26T15:45:11.673Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Create a production inventory sprite sheet: exactly EIGHT distinct isolated resources arranged evenly in a strict invisible 4-column by 2-row grid, row-major reading order. Each fits comfortably inside its cell with 15% clear margin. Native requested 2048x1024. True transparent RGBA background, NO floor, shadow, panel, text, labels or grid. Draw close-up readable hand-painted HD game item icons in the refined Daoist chibi material language of the two attached references: rounded crystalline forms, jade/ivory and restrained warm-gold detail. These are resource objects, NOT UI panels; preserve each resource's unique identity COLOR. Row1: (1) COPPER: rich orange copper ore nuggets with subtle metallic facets, (2) LEAD: muted violet-gray heavy ore cluster, (3) METAGLASS: milky clear pale-blue glass ingot with luminous translucent edges, (4) GRAPHITE: dark blue-gray stacked carbon graphite rods. Row2: (5) SAND: small creamy-beige pile of fine sand in a shallow curved heap, (6) COAL: chunky black coal cluster with charcoal facets, (7) TITANIUM: crisp cool blue titanium metal crystal nuggets, (8) THORIUM: pink luminous mineral crystal cluster with pale white mineral growths. Distinct silhouettes, all equal visual weight and fully separated. Intricate but clean painted shading, no photorealism, no plastic render, no faces or words. All edges fully inside their cell. Both supplied images are STYLE reference only.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/01-minerals.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/01-minerals.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-90422431-550f-4b77-bd1e-a39f23fbdc05.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "item-copper",
+    "item-lead",
+    "item-metaglass",
+    "item-graphite",
+    "item-sand",
+    "item-coal",
+    "item-titanium",
+    "item-thorium"
+  ],
+  "sourceImageRetained": true
+}

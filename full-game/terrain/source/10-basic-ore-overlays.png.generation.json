@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/10-basic-ore-overlays.png",
+  "sha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c",
+  "generatedAt": "2026-10-26 17:30:54 UTC",
+  "startedAt": "2026-10-26 17:29:50 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 821,
+  "height": 1916,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    1536,
+    3584
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite sheet. Paint21 independent Mindustry mineral ORE OVERLAYS in refined Daoist Q bright hand-painted style. Attached references ONLY for polished hand-painted finish, no UI, text, people, symbols or frames. Requested1536×3584 portrait, exact3 equal columns×7 equal rows;21 separate centered ore patches, transparent background. Each patch fits70percent of its cell with15percent clean transparent margins, no crossing. STRICT TOP-DOWN: minerals are small flat fragmented veins embedded flush in ground, NOT heaps, mountains, tall crystal clusters, cubes or inventory items. Transparent gaps between broken flecks let terrain show through. Each row3 native different formations of same ore, different branching/separated chip placement, not copies. Each patch should cover about35-55percent of its bounding footprint with several chunky small flecks connected by hairline vein fragments, broad simple readable shapes at32pixel final.\nRows top to bottom:\n1 COPPER warm copper-orange metallic irregular flecks with subtle golden highlights.\n2 LEAD muted lavender-gray dense metallic chips.\n3 COAL almost black charcoal fragments with small gray soft facets, matte.\n4 TITANIUM desaturated bright blue steel ore chips and fine blue veins.\n5 THORIUM dusty rose-pink rare ore chips with tiny pale-pink inner glints, no glow haze.\n6 SCRAP small rusty brown gray broken metal fragments embedded flat, a few tiny bent plate chips.\n7 BERYLLIUM pale jade green mineral flecks and short thin veins.\nAll21 each independent consistent style, overhead light, no ground squares or blobs beneath ore, complete clean transparent alpha outside and between flecks. No shadows cast outside silhouette, no text.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/10-basic-ore-overlays.txt",
+  "promptSha256": "4743adc6405745bd60f7116e27a9d3e427f54e5308bdc523827dc2872b10b954",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/10-basic-ore-overlays.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5d944cae-bda0-40b9-9d2e-5af728978cc2.png",
+    "originalOutputSha256": "c66004e2c5c4941b9e1639c874131b195bdd3e8a4b9f1ff8bac07d0bc26f100c"
+  },
+  "regions": [
+    "ore-copper1",
+    "ore-copper2",
+    "ore-copper3",
+    "ore-lead1",
+    "ore-lead2",
+    "ore-lead3",
+    "ore-coal1",
+    "ore-coal2",
+    "ore-coal3",
+    "ore-titanium1",
+    "ore-titanium2",
+    "ore-titanium3",
+    "ore-thorium1",
+    "ore-thorium2",
+    "ore-thorium3",
+    "ore-scrap1",
+    "ore-scrap2",
+    "ore-scrap3",
+    "ore-beryllium1",
+    "ore-beryllium2",
+    "ore-beryllium3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-copper1.png",
+      "sha256": "a7f64c37a717ede1210be247d08226b6766b2a7a20d7ede74df367806341bce8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-copper2.png",
+      "sha256": "fb5d3f3cedb640df945acacf872ff9a2b61c54ad72ba4991999ac79b49ce3223"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-copper3.png",
+      "sha256": "9804924d1987b0d35a061475400b350cc5ae7a8ce8632e23094b739711e76d50"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-lead1.png",
+      "sha256": "4c44745c35f8fa0d1ad8387a190c93a7da69634da0797a2e58aed8fafa15c83a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-lead2.png",
+      "sha256": "be2d9e24497b198a2008b7be1c23721885b307d3e56f360f3704fe6141e676a7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-lead3.png",
+      "sha256": "93fde083936f101dc9198199a014f1cf14561d546eca5899d524f09dd7707fda"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-coal1.png",
+      "sha256": "234d227f9f641db2c58184a861fad76d7b969a79964feebe31150bc656731ff0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-coal2.png",
+      "sha256": "c6ff8eb0c7804cc84f32e5c8b5b9e9f7720b8309aa1a1a236f85c538564d8d5f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-coal3.png",
+      "sha256": "7886b1f626ed0de1572fac1cf526db095f96bebde08218c4d67b1abc7297ff96"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-titanium1.png",
+      "sha256": "9dc7ae98b6decb489a9983ea06ff951f869b2811c902b2b140a0e5d79c760fed"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-titanium2.png",
+      "sha256": "2a83dc4dccd2ed8945e0e636c72e9ef8e515076e7cea78c0917bbfbe3e9480e0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-titanium3.png",
+      "sha256": "703f1116eab3dd3c41aa4b05cc234f3b76edebc912bae068de7969cf98e3ec11"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium1.png",
+      "sha256": "415288ef882c8a137992565d6991519641dc1b1945d18927f0f80d910ab30002"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium2.png",
+      "sha256": "964914cadf0723626da628a1b976d87e5729bad140d9112fa464006b0932f581"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-thorium3.png",
+      "sha256": "c392f2aa960cf94334ac12358342cc04f932cb2155a13a28f3d6da8163a6604e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-scrap1.png",
+      "sha256": "37cdcb2fed28a3d9ac3e71f4141b8910ba8c5843384fbf2ac68ec494323799ea"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-scrap2.png",
+      "sha256": "4f1ee78752a69ee7ad51e9d078308c9b253327d84b5d8ecdca1b3f7c4fae9043"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-scrap3.png",
+      "sha256": "9bbc6b41f5093548e7294fe010ea92335644b7fb7cb30facb7cb420818267936"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-beryllium1.png",
+      "sha256": "5773c38b521577d613a2baab97dd48fbe15cc36b123cdcf5db72ff0ad1949813"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-beryllium2.png",
+      "sha256": "d614e6601cf5e96a6e8994a3edfc5b071245f962be7155a7c72a1b39c9e9f304"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ore-beryllium3.png",
+      "sha256": "ecadd5e58442201c2afb95d0d35c00b29740283c2b54f7e6aec5c0bf7cd221a4"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

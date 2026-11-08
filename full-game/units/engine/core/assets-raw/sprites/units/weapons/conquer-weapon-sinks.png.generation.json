@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+  "sha256": "c6f5f2985fffc276c6ac34b5a53f8ed7ad7b0b2b4571b88b50aff99f1c810c2e",
+  "width": 48,
+  "height": 50,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      183,
+      403
+    ],
+    "sourcePivot": [
+      110,
+      219
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      18,
+      5
+    ],
+    "sourceDimensions": [
+      215,
+      435
+    ],
+    "targetDimensions": [
+      48,
+      50
+    ],
+    "officialAlphaBounds": [
+      6,
+      5,
+      44,
+      43
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      25.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/conquer-weapon-sinks.png",
+    "gitBlobSha1": "a41a37c05a93edc8c2ff985b4eeeefe4802cd12a",
+    "sha256": "3e835dd5c3b24153a0a5611d7082d351592d7fce8543e99026f4d90668e77db1"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

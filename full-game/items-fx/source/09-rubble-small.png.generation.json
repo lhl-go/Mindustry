@@ -1,0 +1,70 @@
+{
+  "file": "full-game/items-fx/source/09-rubble-small.png",
+  "sha256": "e017ff567f6150c4bfc499f130eb5d51416f78235f88e9b4d921a33428c2bdcc",
+  "generatedAt": "2026-10-26T16:37:22.414Z",
+  "startedAt": "2026-10-26T16:35:44.103Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Production game sprite sheet, exactly 5 distinct isolated sprites. Strict invisible 3 columns x2 rows reading order; unused final cell empty. Requested 1536x1024. The two attached refs dictate fine Daoist chibi painted style, jade ivory warm-gold finish, clean rounded detailed art, but preserve described colors. Top-down orthographic rubble decals, no terrain floor. 1 tiny compact shattered ivory jade machine, few chips. 2 different tiny collapsed brown-gold timber and jade chips. 3 medium square footprint of destroyed jade workshop, broken corner pillar and beam. 4 different medium footprint of shattered copper apparatus and tiled fragments. 5 larger round footprint broken ivory-gold shrine-machine, scattered stone and one cracked jade medallion. Every wreck distinctly shaped, hollow gaps truly transparent, no surviving intact building. Entire objects inside each cell with generous15% margins, no overlaps. Genuine transparent RGBA. No text, border, plaque, floor, grid, cast shadow, glow fog or UI. Status symbols should read at small size, pictorial silhouette only, not square button backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/09-rubble-small.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/09-rubble-small.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-4155336a-00e2-4287-8371-05cac77c486b.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "rubble-1-0",
+    "rubble-1-1",
+    "rubble-2-0",
+    "rubble-2-1",
+    "rubble-3-0"
+  ],
+  "sourceImageRetained": true
+}

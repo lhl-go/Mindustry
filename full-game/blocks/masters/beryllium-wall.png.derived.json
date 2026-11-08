@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/beryllium-wall.png",
+  "sha256": "5985fa9651c424a4b74bb18d253ae1cc65637a5b24786a26a23dcfe3149ceaee",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1102,
+      401,
+      1394,
+      684
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      292,
+      283
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    324,
+    315
+  ],
+  "anchorPixels": [
+    162.0,
+    157.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

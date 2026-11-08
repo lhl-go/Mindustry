@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge-glow.png",
+  "sourceGitBlob": "379eb103947dfe00331072c9cd219f014c5e8359",
+  "sourceSha256": "89e1550f7942f8ad5c312e9f24bda4d75e23fddc7a544d6eeb495f85206ce42f",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "surge-conveyor-edge-glow",
+  "blockId": "surge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge-glow.png",
+  "sha256": "751ce621f55f68ede43c2f03d8c73c49ce18ef753f58fd8be986aab73d406911",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge-glow.png",
+  "engineSha256": "751ce621f55f68ede43c2f03d8c73c49ce18ef753f58fd8be986aab73d406911",
+  "nativeFile": "full-game/blocks/masters/surge-conveyor.png",
+  "nativeSha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f",
+  "nativeSize": [
+    313,
+    301
+  ],
+  "sourceAlphaBounds": [
+    6,
+    6,
+    26,
+    26
+  ],
+  "operation": {
+    "kind": "neutral_original_effect_alpha_clipped_to_new_body",
+    "newPaintedDetail": false,
+    "nativeMaterialRotationBeforePlacement": -90,
+    "orientationReason": "StackConveyor rotation=0 points east; original concept belt axis points north."
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-conveyor.png",
+      "sha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge-glow.png",
+      "sha256": "89e1550f7942f8ad5c312e9f24bda4d75e23fddc7a544d6eeb495f85206ce42f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge-glow.png.derived.json"
+}

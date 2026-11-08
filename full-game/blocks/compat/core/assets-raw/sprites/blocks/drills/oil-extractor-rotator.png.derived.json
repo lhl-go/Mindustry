@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/oil-extractor-rotator.png",
+  "sourceGitBlob": "c10a7b78ce8e7c236be18c98b6ddac5f6d37c2a9",
+  "sourceSha256": "e6e36e0ce8af10b5905eae8976b6c73b55b538e3d1f33ee69a5111edbe820e66",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oil-extractor-rotator",
+  "blockId": "oil-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-rotator.png",
+  "sha256": "6e6c3be56ac60e2d0e14831ff4ef74e19c3ba64561da8811bc54088ad2846406",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-rotator.png",
+  "engineSha256": "6e6c3be56ac60e2d0e14831ff4ef74e19c3ba64561da8811bc54088ad2846406",
+  "nativeFile": "full-game/blocks/masters/oil-extractor-rotator-part.png",
+  "nativeSha256": "a6ab5320ca70f45c1a3cbd1eba01ef5ca1b9b697eb7bf8954d5fa845455d1245",
+  "nativeSize": [
+    304,
+    267
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    84,
+    84
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/oil-extractor-rotator-part.png",
+      "sha256": "a6ab5320ca70f45c1a3cbd1eba01ef5ca1b9b697eb7bf8954d5fa845455d1245"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor-rotator.png",
+      "sha256": "e6e36e0ce8af10b5905eae8976b6c73b55b538e3d1f33ee69a5111edbe820e66"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

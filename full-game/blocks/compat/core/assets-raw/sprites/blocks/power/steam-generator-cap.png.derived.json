@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/steam-generator-cap.png",
+  "sourceGitBlob": "72c818dd29b1bcd11e6c21f94a44ffa42e4c491b",
+  "sourceSha256": "ce73bbcda4658e6464daa2ead0ffd696b91431b1bbb7dbea28191f90157f372d",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "steam-generator-cap",
+  "blockId": "steam-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-cap.png",
+  "sha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-cap.png",
+  "engineSha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "nativeFile": "full-game/units/parts/joint-cap-small.png",
+  "nativeSha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+  "nativeSize": [
+    372,
+    283
+  ],
+  "sourceAlphaBounds": [
+    16,
+    16,
+    48,
+    48
+  ],
+  "operation": {
+    "kind": "independent_static_turbine_hub_cap",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-small.png",
+      "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator-cap.png",
+      "sha256": "ce73bbcda4658e6464daa2ead0ffd696b91431b1bbb7dbea28191f90157f372d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-cap.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

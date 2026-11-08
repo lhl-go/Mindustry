@@ -1,0 +1,20 @@
+{
+  "baseline": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "scope": "all artificial block sprite paths excluding environment/props/fire/extra",
+  "styleReferences": [
+    "designs/mail-ui-v1/01-mail-event.png",
+    "designs/team-ui-v2/team-ui-v2.png"
+  ],
+  "camera": "orthographic top-down, north-up for directional machines",
+  "nativeArt": "builtin image_gen only; no code-drawn substitute",
+  "allowedDerivations": [
+    "alpha cleanup",
+    "native cell slicing",
+    "rotation",
+    "downscale to official canvas",
+    "source-derived animated motion",
+    "material/team/heat masks extracted from generated artwork"
+  ],
+  "completion": "each required source path has explicit distinct artwork or documented compatible same-identity variant derivation; required moving layers separated; runtime draw operations mapped; visual and numeric QA; engine unverified until actually exercised",
+  "modelDisclosure": "target config snapshot; actual model and quality null when host does not disclose"
+}

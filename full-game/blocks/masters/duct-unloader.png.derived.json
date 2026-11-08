@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/duct-unloader.png",
+  "sha256": "5eade2f337a7f2f53b92b9209f55e28a77d64d0bc490ac9cfcad9a94b8549abb",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      63,
+      661,
+      278,
+      916
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      215,
+      255
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    247,
+    287
+  ],
+  "anchorPixels": [
+    123.5,
+    143.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

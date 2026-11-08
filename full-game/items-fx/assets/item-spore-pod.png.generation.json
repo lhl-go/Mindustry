@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/02-refined-materials.png",
+      "sha256": "9080234a953266c55b672946700d872f2a4fd7d2dfac354b85d9795ab0cf9958",
+      "generationRecord": "full-game/items-fx/source/02-refined-materials.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      28,
+      18,
+      402,
+      409
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/item-spore-pod.png",
+  "sha256": "294a84021e18c682ec8a66e2bda1ba43d8a82dee5475c61479a9cf15e5cb92d7",
+  "width": 406,
+  "height": 423,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:08.820345+00:00"
+}

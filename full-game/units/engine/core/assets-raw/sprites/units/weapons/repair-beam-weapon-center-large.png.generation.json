@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+  "sha256": "45557175482f10957c71b49c27f81d31f4b54615deca5c03e0585238e7773c3e",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-repair-lens.png",
+      "sha256": "e4d3e8b8afdcd2273a3b31eb920286a8a29a606ce5fff4df7b4db30d95047b51",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      237,
+      219
+    ],
+    "sourcePivot": [
+      126.5,
+      168.25
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      7,
+      1
+    ],
+    "sourceDimensions": [
+      253,
+      235
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      13,
+      5,
+      35,
+      33
+    ],
+    "scale": 0.1510673234811166,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/repair-beam-weapon-center-large.png",
+    "gitBlobSha1": "2053dbbe2c05792da952139326b9a9d86927b227",
+    "sha256": "9c6e26dc1bc8e747a952c20759719754e3df9ebc259fe01e250c6dd129a08309"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

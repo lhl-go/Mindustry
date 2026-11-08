@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/merui.png",
+  "sha256": "993cffbca91035efe6974a1eb407cd31b51f74b42795f7ebfe34ce2bf95aeed2",
+  "width": 56,
+  "height": 54,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/merui-body-v2.png",
+      "sha256": "bb18178d01933c1ec5c46901a8c724911614dd834227fe6ad5df23fec48a540c",
+      "generationRecord": "units/air-erekir/layers/merui-body-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      773,
+      825
+    ],
+    "sourcePivot": [
+      394.5,
+      420.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      4
+    ],
+    "sourceDimensions": [
+      789,
+      841
+    ],
+    "targetDimensions": [
+      56,
+      54
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      52,
+      50
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.0,
+      27.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/merui.png",
+    "gitBlobSha1": "270c8efc539d2e7f72663231c09919b2178fcbdd",
+    "sha256": "9a754d34dab8ef60c69d243789091baff608d907b448cbf03b9f5080ac48342c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

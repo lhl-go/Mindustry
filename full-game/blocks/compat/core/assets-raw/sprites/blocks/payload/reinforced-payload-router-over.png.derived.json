@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/reinforced-payload-router-over.png",
+  "sourceGitBlob": "e7b14a86bce4438bd34dee170a576dccf4fcdb36",
+  "sourceSha256": "ff808d7e11e05bd5f7389be2546865ae49bb3bb33dde4895a15f332a1528323d",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "reinforced-payload-router-over",
+  "blockId": "reinforced-payload-router",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-router-over.png",
+  "sha256": "0c0ccd537cec3a3bf49dd8566d3d0298103737a43acc52d1a1f3e867308ec2ed",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-router-over.png",
+  "engineSha256": "0c0ccd537cec3a3bf49dd8566d3d0298103737a43acc52d1a1f3e867308ec2ed",
+  "nativeFile": "full-game/blocks/masters/reinforced-payload-router-v2.png",
+  "nativeSha256": "3fe847eeefee998396dd3700dfcb814785b8e6465e1ebd8d95b936ecae7fa860",
+  "nativeSize": [
+    415,
+    368
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "fixed router border",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-payload-router-v2.png",
+      "sha256": "3fe847eeefee998396dd3700dfcb814785b8e6465e1ebd8d95b936ecae7fa860"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/reinforced-payload-router-over.png",
+      "sha256": "ff808d7e11e05bd5f7389be2546865ae49bb3bb33dde4895a15f332a1528323d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-router-over.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/reinforced-payload-router-over.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/reinforced-payload-router-v2.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

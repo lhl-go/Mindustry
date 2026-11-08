@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/05-app-icon.png",
+  "sha256": "b390a21ca6ee5556e2dce490424da5c45c94b8da696ce838e035bd6740932102",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    1024,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:27:41-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Create ONE finished square app icon for a Daoist Q high-definition hand-painted interpretation of Mindustry, 1024x1024 opaque PNG. Attached images are the mandatory style references: jade green, ivory parchment, warm gold, soft rounded hand-painted natural lighting with delicate Taoist cloud curls. Strong simple iconic silhouette filling 78 percent of canvas, safe rounded-square platform crop, no lettering. Central ivory and jade Taiji disc built into a warm gold industrial gear, with a small jade-roofed alchemy factory incorporated at the top of the disc, and two very short symmetrical jade conveyor arms feeding into the gear on the lower left and right. The Taiji and gear together are a coherent single emblem, clean recognizable at32px. Warm-gold outer gear teeth are broad and rounded, mechanically readable. Deep jade softly painted background with understated pale cloud swirls near corners, no UI frame, no human character, no noisy distant scenery. Refined original game icon, cheerful and clean, painterly, no plastic toy gloss, no photorealism. Keep all emblem details inside a central circle and leave about100px negative margin. Highest available native detail.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/05-app-icon.txt",
+  "promptSha256": "6b20e4313a06613b5272363e4959852e973e6966e65354dd6fce422e4f0f277d",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\05-app-icon.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-768b5b4f-b1ae-41e0-8ea7-ddc2363ffddf.png",
+    "nativePngSha256": "b390a21ca6ee5556e2dce490424da5c45c94b8da696ce838e035bd6740932102",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": null,
+  "alphaTransparentPixels": 0,
+  "status": "generated_pending_review"
+}

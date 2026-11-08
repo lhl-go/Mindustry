@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi-cell.png",
+  "sha256": "a1da48ce86b46822da9805c8d343509cbbbbef9da44544bd9bdf0f1d13e5275f",
+  "width": 76,
+  "height": 76,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi.png",
+      "sha256": "9f0cb3ae895271934580287c6fb1e81fed3277d9217f41b6cc62f6bf3571e86d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/cleroi.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "cleroi",
+    "baseCanvas": [
+      84,
+      85
+    ],
+    "outputCanvas": [
+      76,
+      76
+    ],
+    "centerRegistrationOffset": [
+      -4,
+      -4
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cleroi-cell.png",
+    "gitBlobSha1": "ab1922cf29a43fb3ef106da1faa52b693d2210c2",
+    "sha256": "7f414296358c628c5bf1d3183bfb47cbf3695eb0f96149430f482ef83d596f5f"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-weaver-weave.png",
+  "sourceGitBlob": "b6dd7d29f46e41dec8f1f6cc22106963d7197838",
+  "sourceSha256": "e63281a2fc7a853a7061c327ffe4e17db6d77ee81f547a97b5f2c783070bc431",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-weaver-weave",
+  "blockId": "phase-weaver",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver-weave.png",
+  "sha256": "e6a2347a2e727ce6b4494b7d0fda121c5d293539e332c9e1496cece862eada1b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver-weave.png",
+  "engineSha256": "e6a2347a2e727ce6b4494b7d0fda121c5d293539e332c9e1496cece862eada1b",
+  "nativeFile": "full-game/blocks/masters/phase-weaver-weave-part.png",
+  "nativeSha256": "97d75b1d042a1cdbc5cf435847fd55892a7ff82b4f4238d97bfdf225d1f6097a",
+  "nativeSize": [
+    170,
+    352
+  ],
+  "sourceAlphaBounds": [
+    15,
+    15,
+    49,
+    49
+  ],
+  "operation": {
+    "kind": "independent_native_weaving_shuttle",
+    "runtimeMotion": "continuous rotation",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-weaver-weave-part.png",
+      "sha256": "97d75b1d042a1cdbc5cf435847fd55892a7ff82b4f4238d97bfdf225d1f6097a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-weaver-weave.png",
+      "sha256": "e63281a2fc7a853a7061c327ffe4e17db6d77ee81f547a97b5f2c783070bc431"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-weaver-weave.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

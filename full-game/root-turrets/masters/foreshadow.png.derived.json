@@ -1,0 +1,41 @@
+{
+  "region": "foreshadow",
+  "file": "full-game/root-turrets/masters/foreshadow.png",
+  "sha256": "ade991adeb0c06b9f2a91b5a4ba2940f125e3894b91726fab6da30645fe530bb",
+  "size": [
+    336,
+    345
+  ],
+  "derivedAt": "2026-10-26T18:34:43.381802+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/02-regions.png",
+      "sha256": "3c3105bf17a7cdeb45aa9560ec1c61d370bb62bdcfb2c6961f8a27281d3ffb46",
+      "record": "full-game/root-turrets/source/02-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 9,
+    "sourceBox": [
+      437,
+      684,
+      749,
+      1005
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

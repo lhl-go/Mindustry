@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-infestedCanyons",
+  "file": "full-game/ui-system/sectors/sector-infestedCanyons.png",
+  "sha256": "2a23a21b119272b64ca660e2904f968323bece505cd7016e29539f2934cc8acd",
+  "width": 411,
+  "height": 411,
+  "derivedAt": "2026-10-26T15:54:01.600902+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/09-sectors-03.png",
+    "sha256": "d8b85c5ce498431e5a0442159ceb200947221ccbf218143f0185c9466a074b34",
+    "generationRecord": "full-game/ui-system/source/09-sectors-03.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 3,
+    "sourceBox": [
+      16,
+      428,
+      403,
+      807
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-08T08:18:22.861512+00:00",
+  "repository": "https://github.com/lhl-go/Mindustry",
+  "priorVerifiedCommit": "03be447829a0c5e21f2df102acfa08176ef91920",
+  "priorTree": "bf67c5fefdd677867f87c6769b04465f668c1678",
+  "purpose": "Keep source and publication audit before local directory removal",
+  "additionalFiles": [
+    {
+      "file": "exports/checksums.sha256",
+      "bytes": 214422,
+      "sha256": "947a9be3fed23a2eb96fbe3f7167ffb001daa125b3a8cf5316cc2be8196b79d3"
+    },
+    {
+      "file": "records/package-verification.json",
+      "bytes": 499,
+      "sha256": "5801fd5313d6d11660609c22d72499b1b15a7154979d01591aa95dfe713b5d5d"
+    },
+    {
+      "file": "records/github-publish-audit.json",
+      "bytes": 151089,
+      "sha256": "6a6f035a5f58842d3e942c77fafeb97e2c76382c40358c020d1e31a3ff652fdf"
+    },
+    {
+      "file": "records/coordinator-audit/final-coordinator-audit.json",
+      "bytes": 44044,
+      "sha256": "2a73b7f2e864d31ad7b9fe588239b100eade6e4d302133fa11a3aeec7ddb0ade"
+    },
+    {
+      "file": "records/publication-final-verification-20261030.json",
+      "bytes": 750,
+      "sha256": "a6cae71a07887748a41c537ed7429cbb32e73d0d16a24d7369185538de0cbf79"
+    }
+  ],
+  "historicalEvidenceKeepsOriginalScope": true,
+  "currentFullRelease": {
+    "tag": "v160.7-art",
+    "assetCount": 54,
+    "fixedGameVersion": "v160.7"
+  },
+  "excludedLocalIntermediates": {
+    "full-game/blocks/batches/hud-working.json": "Explicitly superseded in full-game/qa/publication-preflight-review.json",
+    "full-game/blocks/batches/root-working.json": "Explicitly superseded in full-game/qa/publication-preflight-review.json",
+    "full-game/ui-system/brand/title-logo.png": "Superseded by current Chinese branding, explicitly excluded in delivery-files.json",
+    "full-game/ui-system/icons/ranai.png": "Reference/intermediate explicitly excluded in full-game/source-retention.json",
+    "branding/tiangong-xianzhen/finish_logo.py": "Old intermediate branding script explicitly excluded by integration/freeze_revision.py",
+    "branding/tiangong-xianzhen/record_logo.py": "Old intermediate branding script explicitly excluded by integration/freeze_revision.py",
+    "full-game/verification-cache.json": "Reproducible cache"
+  },
+  "allOriginalPublishedResourceBytesRetained": true,
+  "priorChecksumAndArchiveRecordsAreFixedHistoricalEvidence": true
+}

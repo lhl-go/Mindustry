@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/deconstructor-top.png",
+  "sourceGitBlob": "ced9f4de1e0a66231521fad3999b1b771674c8b5",
+  "sourceSha256": "f9ca9c440ef3150b64198b9f8c9213a166a12c7a79052cb84d64c75067eca629",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "deconstructor-top",
+  "blockId": "deconstructor",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/deconstructor-top.png",
+  "sha256": "419a83e3a64aab56cecb9e969e39e8f73afb766d1d29a58fec5c89d284a5f438",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/deconstructor-top.png",
+  "engineSha256": "419a83e3a64aab56cecb9e969e39e8f73afb766d1d29a58fec5c89d284a5f438",
+  "nativeFile": "full-game/blocks/masters/deconstructor.png",
+  "nativeSha256": "fe9e9bff33de9113d1829e27581e6c89ee4f152d8fe5aaf4df344413f40e2a59",
+  "nativeSize": [
+    369,
+    261
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/deconstructor.png",
+      "sha256": "fe9e9bff33de9113d1829e27581e6c89ee4f152d8fe5aaf4df344413f40e2a59"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/deconstructor-top.png",
+      "sha256": "f9ca9c440ef3150b64198b9f8c9213a166a12c7a79052cb84d64c75067eca629"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/deconstructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/deconstructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/deconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

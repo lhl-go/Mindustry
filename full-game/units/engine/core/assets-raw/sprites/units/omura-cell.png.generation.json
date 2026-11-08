@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/omura-cell.png",
+  "sha256": "0186b79563ca889eb6f5fba974774db615ed6b9a0efb53e2db4ec5f2fd2b8fbe",
+  "width": 280,
+  "height": 400,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/omura.png",
+      "sha256": "06179405777b5d2d284b6a7499ec6ff67584b08b67b5404db154de1b7be1ee3e",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/omura.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "omura",
+    "baseCanvas": [
+      264,
+      351
+    ],
+    "outputCanvas": [
+      280,
+      400
+    ],
+    "centerRegistrationOffset": [
+      8,
+      24
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/omura-cell.png",
+    "gitBlobSha1": "504824b015fa6c41aa7eaa18a88d778200bea22b",
+    "sha256": "b07a60ca213a20fda58b5df7c0298eed4c89b8ab6216b99b10e77d4a9ae25c8a"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

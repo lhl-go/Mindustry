@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/repair-point-base.png",
+  "sourceGitBlob": "5cc56cb24b8ba0e0daefb3728459968691c55143",
+  "sourceSha256": "783f717620fc362e48ac16fec5748cffb8c6024415c638dd5b94f5ed95abb061",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "repair-point-base",
+  "blockId": "repair-point",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point-base.png",
+  "sha256": "fa927bdf005fc2c25b8af1b456771e0c55438049826a0a52cba8e51b43f6df3f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point-base.png",
+  "engineSha256": "fa927bdf005fc2c25b8af1b456771e0c55438049826a0a52cba8e51b43f6df3f",
+  "nativeFile": "full-game/units/parts/mech-base-heavy.png",
+  "nativeSha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522",
+  "nativeSize": [
+    620,
+    447
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "type": "stationary_native_pedestal",
+    "containsRotatingHead": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-heavy.png",
+      "sha256": "b0b7c89278491e3349e3bb545d6a05300b0f47b215fce9c6675076d837b58522"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/repair-point-base.png",
+      "sha256": "783f717620fc362e48ac16fec5748cffb8c6024415c638dd5b94f5ed95abb061"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point-base.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point-base.png.derived.json",
+  "nativeGenerationRecord": "full-game/units/parts/mech-base-heavy.png.generation.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

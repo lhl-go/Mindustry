@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/assembly-drone.png",
+  "sha256": "475d527779873e1b5ebfbebdabeed7155b848fd98a90b3c68a48e7e45dace63f",
+  "width": 52,
+  "height": 55,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/assembly-drone.png",
+      "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+      "generationRecord": "units/special/assets/assembly-drone.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      574,
+      547
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      6
+    ],
+    "sourceDimensions": [
+      606,
+      579
+    ],
+    "targetDimensions": [
+      52,
+      55
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      48,
+      51
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      26.0,
+      27.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/assembly-drone.png",
+    "gitBlobSha1": "fa6c784b168916b3519f64a0d198be45304af3a3",
+    "sha256": "5053b6c12de57dd1a0d6e293e14c5e11f6033a25eefaafac803cc54bc2f0d12e"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/oil-extractor-liquid.png",
+  "sourceGitBlob": "6639f0889b36675ad43f435fa418fc5a4a084cb5",
+  "sourceSha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oil-extractor-liquid",
+  "blockId": "oil-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-liquid.png",
+  "sha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-liquid.png",
+  "engineSha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor-liquid.png",
+  "nativeSha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b",
+  "nativeSize": [
+    96,
+    96
+  ],
+  "sourceAlphaBounds": [
+    20,
+    20,
+    76,
+    76
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor-liquid.png",
+      "sha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/oil-extractor-liquid.png",
+      "sha256": "aaa6ed41a0d908a637d3174e81be951d2795b7f84bba99262154c5d2cf05c33b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/oil-extractor-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

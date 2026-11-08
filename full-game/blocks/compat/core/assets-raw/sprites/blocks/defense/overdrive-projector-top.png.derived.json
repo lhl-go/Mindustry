@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/overdrive-projector-top.png",
+  "sourceGitBlob": "5b51c8dfd1ef79d37cab9bc08467c1e232c10f95",
+  "sourceSha256": "77042880e82131125a9c612f76d1c0c8db9aa6fcb64d12f867036730e96b5dc2",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "overdrive-projector-top",
+  "blockId": "overdrive-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-projector-top.png",
+  "sha256": "65dfc35c746e05778aa0d048dbc978a356599f4371335504a0a526cdeb348318",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-projector-top.png",
+  "engineSha256": "65dfc35c746e05778aa0d048dbc978a356599f4371335504a0a526cdeb348318",
+  "nativeFile": "full-game/blocks/masters/overdrive-projector.png",
+  "nativeSha256": "5ca82a5433ab6b3c14aff7e6b23d624682fac70200c8807df860810c18e40336",
+  "nativeSize": [
+    279,
+    272
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    52,
+    52
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/overdrive-projector.png",
+      "sha256": "5ca82a5433ab6b3c14aff7e6b23d624682fac70200c8807df860810c18e40336"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/overdrive-projector-top.png",
+      "sha256": "77042880e82131125a9c612f76d1c0c8db9aa6fcb64d12f867036730e96b5dc2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-projector-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/overdrive-projector-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/overdrive-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

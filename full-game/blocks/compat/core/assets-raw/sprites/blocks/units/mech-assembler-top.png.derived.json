@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/mech-assembler-top.png",
+  "sourceGitBlob": "40f43fdd24d85f54348f6fa202914e8d73554d1f",
+  "sourceSha256": "3c87ec04204a043791b0a06b9c27162dabf001225d45565b1ca6edba28aca15d",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "mech-assembler-top",
+  "blockId": "mech-assembler",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-top.png",
+  "sha256": "1dce4fc46460df77ec987c736f9a258cada5f7f4daf7b50080246776f5dca79e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-top.png",
+  "engineSha256": "1dce4fc46460df77ec987c736f9a258cada5f7f4daf7b50080246776f5dca79e",
+  "nativeFile": "full-game/blocks/masters/mech-assembler.png",
+  "nativeSha256": "a46c04329a1bf08e3119f44d2d39105d504e93f585674260d25c92be5671cc58",
+  "nativeSize": [
+    339,
+    346
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mech-assembler.png",
+      "sha256": "a46c04329a1bf08e3119f44d2d39105d504e93f585674260d25c92be5671cc58"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/mech-assembler-top.png",
+      "sha256": "3c87ec04204a043791b0a06b9c27162dabf001225d45565b1ca6edba28aca15d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/mech-assembler-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mech-assembler.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,975 @@
+{
+  "auditAt": "2026-10-26T12:56:02.594980+00:00",
+  "readOnly": true,
+  "snapshotInputs": {
+    "exports\\manifest.json": "a84416f91b528655b9e6c90b81b9399c3eadf1f3b3efd764ecd7f2a4f3fe708f",
+    "records\\production-ledger.json": "5797754b275b97b02d61984fa77a47a26c3a912a8230c58a38cddcacfe5ba497",
+    "records\\inventory-units.json": "7c5338dac3d84870bf5d532950093b3dba0a83b9805a41bb5621f2d3cf1f0cda",
+    "records\\inventory-ui.json": "9ff340d7c934fed79fc74864583484507d6aea6e58c5afe740cb49c7ac722fe0"
+  },
+  "manifestStatus": "art_complete_runtime_unverified",
+  "units": {
+    "required": 68,
+    "mapped": 68,
+    "uniqueIds": 68,
+    "missing": [],
+    "extra": [],
+    "duplicates": [],
+    "nonVisualMappings": [
+      {
+        "id": "block",
+        "mapping": "Official internal block proxy; draws the associated building, no independent unit image."
+      }
+    ],
+    "uniquePrimaryPngs": 68
+  },
+  "ui": {
+    "requiredGroups": 64,
+    "mappedGroups": 64,
+    "missingGroups": [],
+    "stateFamilies": 308,
+    "latestRenderChecks": 616,
+    "uncoveredChecks": [],
+    "failedLatestChecks": [],
+    "staleLatestCheckCount": 0,
+    "staleCheckSample": [],
+    "reports": [
+      {
+        "file": "records/ui-render-all.json",
+        "createdAt": "2026-10-26T12:14:58.672Z",
+        "recordCount": 616,
+        "reportedErrors": [],
+        "changedInputs": []
+      },
+      {
+        "file": "records/ui-render-component.json",
+        "createdAt": "2026-10-26T10:08:07.992Z",
+        "recordCount": 170,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js"
+        ]
+      },
+      {
+        "file": "records/ui-render-dialog.json",
+        "createdAt": "2026-10-26T10:07:38.796Z",
+        "recordCount": 110,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js"
+        ]
+      },
+      {
+        "file": "records/ui-render-screen-UI-002-UI-006-UI-008-UI-023.json",
+        "createdAt": "2026-10-26T10:03:40.954Z",
+        "recordCount": 84,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/dialog-component-variants.js",
+          "ui/preview/dialog-component-variants.css"
+        ]
+      },
+      {
+        "file": "records/ui-render-screen.json",
+        "createdAt": "2026-10-26T09:38:19.631Z",
+        "recordCount": 336,
+        "reportedErrors": [],
+        "changedInputs": [
+          "ui/preview/index.html",
+          "ui/preview/preview.js",
+          "ui/preview/screen-variants.js"
+        ]
+      }
+    ]
+  },
+  "checkedAssetCount": 865,
+  "checkedProvenanceRecordCount": 279,
+  "assetIssues": [],
+  "historicalSourceReferences": [
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/manifold.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/assembly-drone.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/01-drones-target-v1.png",
+      "record": "units/special/assets/dummy.png.generation.json",
+      "sha256": "cca6a375ab360bba6a7b8112d7ab495b12600a589b2c09f9794a9a3566255333"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-phase.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-surge.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/04-scathe-variants-v1.png",
+      "record": "units/special/assets/scathe-missile-surge-split.png.generation.json",
+      "sha256": "22cf0a2222bdea0d5997d29a7dce806c023b1ce50688d3696d7467362dbba248"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/anthicus-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/quell-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/assets/scathe-missile.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-left-fin.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-body.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "record": "units/special/layers/disrupt-missile-right-fin.png.generation.json",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment2.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment1.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/renale-segment0.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment3.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment2.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment1.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/special/boards/02-neoplasm-segments-v1.png",
+      "record": "units/special/layers/latum-segment0.png.generation.json",
+      "sha256": "8e72a74466d0e9c1650266915d5bb6f7b6cc0ce58ba0006c0a7b8e01e5dbe524"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-light.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/dagger.png.generation.json",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-autocannon.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/mace.png.generation.json",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-flame-pair.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/fortress.png.generation.json",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-mortar.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-heavy.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/scepter.png.generation.json",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-heavy-burst.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/07-assault-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/reign.png.generation.json",
+      "sha256": "16b9669b83d3d6a29c494e4b04372ca4dcdd82834b7efef6d11998fc0bca40f4"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-siege-shotgun.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/nova.png.generation.json",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-repair-bolt.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/pulsar.png.generation.json",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-electric-coil.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/quasar.png.generation.json",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-beam-laser.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/vela.png.generation.json",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-repair-lens.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-upper.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-lower.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-foot.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/08-support-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/corvus.png.generation.json",
+      "sha256": "4a13a93803ac05c006cece9adfa7ecdeb53073b389b3957a0a300397895cc436"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/10-locomotion-parts.png",
+      "record": "units/serpulo-ground-naval/parts/leg-crawler.png.generation.json",
+      "sha256": "d23ae74d8bb797c69f0e39122b0878f68ee5ee2cac9ffe24f2c222ff53d612ef"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/crawler.png.generation.json",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/atrax.png.generation.json",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/spiroct.png.generation.json",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-sap-emitter.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/arkyid.png.generation.json",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-purple-artillery.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "record": "units/serpulo-ground-naval/bodies/toxopid.png.generation.json",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/09-mech-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/mech-shock-cannon.png.generation.json",
+      "sha256": "aa2822496278111c361c7bf4ca8af36c68a9a9778a8e76cca4dc467881ef9f54"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "record": "units/serpulo-ground-naval/bodies/risso.png.generation.json",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-deck-cannon.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-missile-pair.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "record": "units/serpulo-ground-naval/bodies/minke.png.generation.json",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-deck-mortar.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "record": "units/serpulo-ground-naval/bodies/bryde.png.generation.json",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-long-artillery.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "record": "units/serpulo-ground-naval/bodies/sei.png.generation.json",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-missile-six.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "record": "units/serpulo-ground-naval/bodies/omura.png.generation.json",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-railgun.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "record": "units/serpulo-root-parts/layers/retusa-body.png.derived.json",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "record": "units/serpulo-root-parts/layers/oxynoe-body.png.derived.json",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-plasma-flame.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "record": "units/serpulo-root-parts/layers/cyerce-body.png.derived.json",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-plasma-missile.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "record": "units/serpulo-root-parts/layers/aegires-body.png.derived.json",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85"
+    },
+    {
+      "file": "units/serpulo-root-parts/14-support-hulls-v2.png",
+      "record": "units/serpulo-root-parts/layers/navanax-body.png.derived.json",
+      "sha256": "30a75303a102bebde8c76bf856f838bfdfa9a878644944f66a6c8b97aafe3f85"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-emp-cannon.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/serpulo-ground-naval/boards/11-naval-weapons.png",
+      "record": "units/serpulo-ground-naval/parts/naval-plasma-laser.png.generation.json",
+      "sha256": "aee844263e67947f8efb1255e45839cdf44f3d475773145005e395afd0847f20"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/zenith-missiles.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/missiles-mount.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/large-bullet-mount.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/large-laser-mount.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/large-artillery.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/heal-weapon-mount.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/stell-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/track-strip.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/locus-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/precept-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/vanquish-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/vanquish-point-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/conquer-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-short-upper.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-short-lower.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/foot-short.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/merui-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/cleroi-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/cleroi-point-defense.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-medium-upper.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-medium-lower.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/foot-medium.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/anthicus-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-heavy-upper.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/leg-heavy-lower.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/foot-heavy.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/tecta-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/03-motion-defense.png",
+      "record": "units/air-erekir-parts/assets/tecta-shield.png.derived.json",
+      "sha256": "506f66350e5f2484071ffe2b7489b6aebcdcf47d5f3afcde0193161a29b06a3f"
+    },
+    {
+      "file": "units/air-erekir-parts/source/02-ground-weapons.png",
+      "record": "units/air-erekir-parts/assets/collaris-weapon.png.derived.json",
+      "sha256": "85cbd8f5f823cdc26b5cb5c4dd1a73ed25fb2ba19510cd2aface6051d920846a"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/quell-weapon.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/disrupt-weapon.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/air-erekir-parts/source/01-air-weapons.png",
+      "record": "units/air-erekir-parts/assets/build-weapon.png.derived.json",
+      "sha256": "3a7e03650e161ce68f46dd73b78fefc103b7f6ec739543e90f8c45ae7d579538"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/alpha-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/small-basic-weapon.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/beta-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/small-mount-weapon.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+      "record": "units/root-builders/layers/gamma-body.png.derived.json",
+      "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-search.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-filter.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-sort.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-refresh.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-close.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-settings.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-play.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-pause.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-save.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-folder.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-import.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-export.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-planet.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-research.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-blueprint.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-mods.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-database.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-network.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-drill.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-conveyor.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-furnace.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-power.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-turret.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "ui/components/ui-functional-icons-v1.png",
+      "record": "ui/kit/icon-drone.png.derived.json",
+      "sha256": "cf087f6728c66439d9c10d6dad0aea3919e269cc5afc907d97758570d6151104"
+    },
+    {
+      "file": "characters/02-alchemy-engineer-v1.png",
+      "record": "characters/02-alchemy-engineer-clean.png.derived.json",
+      "sha256": "5576da7362d1f220ad6271bf62328fa10199ddf4c0188c496771d8c270972926"
+    }
+  ],
+  "runtimeIntegrationVerified": false,
+  "snapshotConclusion": "artifacts_consistent_runtime_not_verified",
+  "finalIndependentValidation": {
+    "checkedAt": "2026-10-26T13:01:32.752033+00:00",
+    "ledgerStatus": "art_complete_runtime_unverified",
+    "manifestStatus": "art_complete_runtime_unverified",
+    "mergedRecoilPatch": [
+      {
+        "id": "poly",
+        "composite": "units/coordinator-recoil-fix/poly-assembled.png",
+        "sha256": "73bb63102e8173588624820914cc0d29061f1a43533056db2d7e14cfd477e2fc",
+        "layers": [
+          "units/coordinator-recoil-fix/poly-body.png",
+          "units/coordinator-recoil-fix/poly-weapon.png"
+        ],
+        "officialProperties": {
+          "x": 3.75,
+          "y": -2.5,
+          "top": false,
+          "mirror": true,
+          "rotate": false,
+          "baseRotation": 0,
+          "recoil": 2,
+          "layerOffset": 0
+        },
+        "visualReview": {
+          "status": "passed_art_review",
+          "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+          "weaponIndependent": true,
+          "sourceDefinedWeaponInstances": 2,
+          "engineRuntimeVerified": false,
+          "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+          "observations": [
+            "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+            "Independent complete weapon part has its own transparent canvas",
+            "Rest and recoil mock preserve underpaint and show no double weapon",
+            "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+          ]
+        },
+        "assemblyInstances": [
+          {
+            "mirrorX": true,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              285.58,
+              510.4
+            ]
+          },
+          {
+            "mirrorX": false,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              632.42,
+              510.4
+            ]
+          }
+        ]
+      },
+      {
+        "id": "elude",
+        "composite": "units/coordinator-recoil-fix/elude-assembled.png",
+        "sha256": "c2aa17b3e11e536e260f65265e39846cc08825a2227e46e3a5bc2ef24f001d0e",
+        "layers": [
+          "units/coordinator-recoil-fix/elude-body.png",
+          "units/coordinator-recoil-fix/elude-weapon.png"
+        ],
+        "officialProperties": {
+          "x": 4,
+          "y": -2,
+          "top": true,
+          "mirror": true,
+          "rotate": false,
+          "baseRotation": -35,
+          "recoil": 1.5,
+          "layerOffset": 0
+        },
+        "visualReview": {
+          "status": "passed_art_review",
+          "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+          "weaponIndependent": true,
+          "sourceDefinedWeaponInstances": 2,
+          "engineRuntimeVerified": false,
+          "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+          "observations": [
+            "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+            "Independent complete weapon part has its own transparent canvas",
+            "Rest and recoil mock preserve underpaint and show no double weapon",
+            "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+          ]
+        },
+        "assemblyInstances": [
+          {
+            "mirrorX": true,
+            "rotationDegrees": 35,
+            "anchorPixels": [
+              295.47,
+              409.2
+            ]
+          },
+          {
+            "mirrorX": false,
+            "rotationDegrees": -35,
+            "anchorPixels": [
+              461.53,
+              409.2
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avert",
+        "composite": "units/coordinator-recoil-fix/avert-assembled.png",
+        "sha256": "4efe1a7ca9a9c52087613a8ac4b17f87eb13a9ee4ee9b8c1b48be0536d8981de",
+        "layers": [
+          "units/coordinator-recoil-fix/avert-body.png",
+          "units/coordinator-recoil-fix/avert-weapon.png"
+        ],
+        "officialProperties": {
+          "x": 0,
+          "y": 6.5,
+          "shootY": 5,
+          "top": false,
+          "mirror": false,
+          "rotate": false,
+          "baseRotation": 0,
+          "recoil": 1,
+          "layerOffset": -0.01
+        },
+        "visualReview": {
+          "status": "passed_art_review",
+          "bodyUnderpaint": "no weapon texture or transparent hole beneath mounts",
+          "weaponIndependent": true,
+          "sourceDefinedWeaponInstances": 1,
+          "engineRuntimeVerified": false,
+          "checkedAt": "2026-10-26T07:58:17.213269-04:00",
+          "observations": [
+            "Weapon-free body has complete matching armor below mounts; no cutout holes or baked moving barrel",
+            "Independent complete weapon part has its own transparent canvas",
+            "Rest and recoil mock preserve underpaint and show no double weapon",
+            "Original identity/material retained; canonical source mirror/recoil values separately preserved"
+          ]
+        },
+        "assemblyInstances": [
+          {
+            "mirrorX": false,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              473.5,
+              357.2
+            ]
+          }
+        ]
+      }
+    ],
+    "semanticReviewReuse": "Prior passed source/part semantic checks for unchanged 65 unit IDs retained; the 3 fixes now validated against current merged manifests.",
+    "eludeFinalDiagnosticViewed": {
+      "file": "records/coordinator-recoil-fix/elude-rest-and-recoil.jpg",
+      "sha256": "5f1457ea6efc42bb823efe8496ee2502e3e93868b095664129a4cf223023fb4d",
+      "observation": "Final mirrored weapons now face outward at the source-defined +/-35 degrees; rest and recoil expose continuous armor, complete independent barrels and no duplicate baked weapon."
+    },
+    "openArtIssues": [],
+    "officialStatePngFiles": 616,
+    "producerFinalPhysicalVerification": {
+      "passed": true,
+      "imageCount": 865,
+      "evidence": "records/final-delivery-verification.json",
+      "sha256": "ca015e7b062ee9ae897c29995de39305d0b4c4bb34c1cf4498df4336a424fe8d"
+    },
+    "zip": {
+      "archive": "exports/Mindustry-Daoist-Art-v160.7.zip",
+      "sha256": "e47acaff018e493b5528647e0c1d2e00b442f2943ea6c7af1fb9a58e1ece4bbd",
+      "bytes": 518594507,
+      "members": 1824,
+      "expectedMembers": 1824,
+      "requiredPathsChecked": 1169,
+      "missingRequiredPaths": [],
+      "checksumMemberMissing": [],
+      "unsafePaths": [],
+      "duplicateMembers": [],
+      "checksumFileMatchesFrozenLocal": true,
+      "keyMemberHashMismatches": [],
+      "excludedIntermediateCount": 32,
+      "excludedIntermediateMembersFound": [],
+      "excludedIntermediateFilesStillLocal": 32,
+      "crcVerificationReused": {
+        "verified": true,
+        "evidence": "records/package-verification.json",
+        "exactArchiveHashMatches": true
+      },
+      "frozenLocalChecksumEntriesChecked": 1823,
+      "frozenLocalChecksumMismatches": []
+    },
+    "errors": [],
+    "runtimeIntegrationVerified": false
+  },
+  "finalConclusion": "passed_complete_local_art_delivery_runtime_unverified"
+}

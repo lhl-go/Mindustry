@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-floor-damaged1.png",
+  "sha256": "353fc72e71618a6bb9657600f4c9c92e11b5b9f5245a15db161dba2b4356ac16",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/09-mats-metal-floors.png",
+      "sha256": "337503faab04d04ad74d1ef3467eae8f2b3110d67b329b75247532b0a2a8676a",
+      "generationRecord": "full-game/terrain/source/09-mats-metal-floors.png.generation.json"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    889,
+    885,
+    1181
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

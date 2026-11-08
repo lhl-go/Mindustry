@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/incinerator.png",
+  "sha256": "8df912daa416c9ddca387e5c51b6f31966db017fb26226e3e4a8bbcbfee91242",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-processors-02.png",
+      "sha256": "54be5eb1b09a666896a5ee8f3ace5dfd8585a5175e818e3fc258b447f58084ba",
+      "generationRecord": "full-game/blocks/records/production-processors-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      411,
+      369,
+      741,
+      659
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      330,
+      290
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    362,
+    322
+  ],
+  "anchorPixels": [
+    181.0,
+    161.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

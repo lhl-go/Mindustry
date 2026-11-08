@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/beryllium-wall-large.png",
+  "sourceGitBlob": "0278823e03b99cbb7838bb39bf26f093898817ff",
+  "sourceSha256": "105c29fd2898d8bcde07357fe53daa40de630e60ec8ec065644486a48bd280dc",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "beryllium-wall-large",
+  "blockId": "beryllium-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/beryllium-wall-large.png",
+  "sha256": "59166f963127a9686430274e105856d72dcbd60ec2cde2e1dc94b674c3011a73",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/beryllium-wall-large.png",
+  "engineSha256": "59166f963127a9686430274e105856d72dcbd60ec2cde2e1dc94b674c3011a73",
+  "nativeFile": "full-game/blocks/masters/beryllium-wall.png",
+  "nativeSha256": "5985fa9651c424a4b74bb18d253ae1cc65637a5b24786a26a23dcfe3149ceaee",
+  "nativeSize": [
+    324,
+    315
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/beryllium-wall.png",
+      "sha256": "5985fa9651c424a4b74bb18d253ae1cc65637a5b24786a26a23dcfe3149ceaee"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/beryllium-wall-large.png",
+      "sha256": "105c29fd2898d8bcde07357fe53daa40de630e60ec8ec065644486a48bd280dc"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/beryllium-wall-large.png.derived.json"
+}

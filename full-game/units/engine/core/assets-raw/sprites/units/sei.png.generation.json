@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/sei.png",
+  "sha256": "74e34474c030694d614bc201e4296e5858693d1a52ed46a0470ab4204034c151",
+  "width": 198,
+  "height": 228,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/sei.png",
+      "sha256": "60df1f865e4bac6a695ad13768cfd2c8016d667c55e13141ac0d32062e98220e",
+      "generationRecord": "units/serpulo-ground-naval/bodies/sei.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      377,
+      523
+    ],
+    "sourcePivot": [
+      196.5,
+      269.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      20,
+      4
+    ],
+    "sourceDimensions": [
+      393,
+      539
+    ],
+    "targetDimensions": [
+      198,
+      228
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      194,
+      224
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      99.0,
+      114.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/sei.png",
+    "gitBlobSha1": "122cd107ab1562c70395924b356127a45e1fece8",
+    "sha256": "dada2bbe14604c668daa0ac11bc31df30041b994be115cc5dadf6b5867dcc6a5"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

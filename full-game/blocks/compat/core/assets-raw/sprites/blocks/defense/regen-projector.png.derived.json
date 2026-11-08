@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/regen-projector.png",
+  "sourceGitBlob": "f18e5bb857d60b45c63b13917ec8c64b47d2f2c2",
+  "sourceSha256": "23a74642eb9e8af6c43983cc12d2fa78bfb84fa38c43b822741c6aeebf6e3232",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "regen-projector",
+  "blockId": "regen-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector.png",
+  "sha256": "de943bbf329ece32f354ffb0d20766dcc57e745dae2fdf0d35a346f2ba9cc10b",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector.png",
+  "engineSha256": "de943bbf329ece32f354ffb0d20766dcc57e745dae2fdf0d35a346f2ba9cc10b",
+  "nativeFile": "full-game/blocks/masters/regen-projector.png",
+  "nativeSha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf",
+  "nativeSize": [
+    355,
+    336
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "hydrogen reservoir frame; original liquid windows remain open",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/regen-projector.png",
+      "sha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/regen-projector.png",
+      "sha256": "23a74642eb9e8af6c43983cc12d2fa78bfb84fa38c43b822741c6aeebf6e3232"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/regen-projector.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/regen-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electric-heater.png",
+  "sourceGitBlob": "e90c2b62a8d6168a738497e426bd4f612b64269d",
+  "sourceSha256": "0c2f27efcce8a2c5baa14e4a88a285137fb2304d3e8075d2c35a64f9562d8d73",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "electric-heater",
+  "blockId": "electric-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater.png",
+  "sha256": "07f4a4c6b722aaf2cf024057cbcbf2461aadcc3da318742646c491ed566347cd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater.png",
+  "engineSha256": "07f4a4c6b722aaf2cf024057cbcbf2461aadcc3da318742646c491ed566347cd",
+  "nativeFile": "full-game/blocks/masters/electric-heater.png",
+  "nativeSha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b",
+  "nativeSize": [
+    301,
+    301
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electric-heater.png",
+      "sha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electric-heater.png",
+      "sha256": "0c2f27efcce8a2c5baa14e4a88a285137fb2304d3e8075d2c35a64f9562d8d73"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

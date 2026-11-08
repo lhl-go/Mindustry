@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-smelter.png",
+  "sourceGitBlob": "0d8a3b5475f3e9b026ed6aa55cde9024f7e1a5c7",
+  "sourceSha256": "d3ccc37fd9e939a03e4bbe3bc007bd94a7d8538cdee3902944e4417564b426d9",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-smelter",
+  "blockId": "surge-smelter",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter.png",
+  "sha256": "ee3500fe0a076b7d390ad53e9b7f828942bcfa5bb51f048b50b8a85d236520a9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter.png",
+  "engineSha256": "ee3500fe0a076b7d390ad53e9b7f828942bcfa5bb51f048b50b8a85d236520a9",
+  "nativeFile": "full-game/blocks/masters/surge-smelter.png",
+  "nativeSha256": "330eae4366d003105249a00f7f8397e9fe91be241e7c47f244a4faa864784d73",
+  "nativeSize": [
+    367,
+    342
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-smelter.png",
+      "sha256": "330eae4366d003105249a00f7f8397e9fe91be241e7c47f244a4faa864784d73"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-smelter.png",
+      "sha256": "d3ccc37fd9e939a03e4bbe3bc007bd94a7d8538cdee3902944e4417564b426d9"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

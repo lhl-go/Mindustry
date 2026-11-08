@@ -1,0 +1,62 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/stell.png",
+  "sha256": "d2b0723f7b6b477c89e7c54f1d4a91cc6c6e0a91a63aa17ea4e4c15c2dd15f6d",
+  "width": 64,
+  "height": 64,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/revised-bodies/stell-body.png",
+      "sha256": "cd3e1b63c380b04c89a43cb4273e7ede1a4ea6cc51df10bbea09e5be5b7b8c75",
+      "generationRecord": "full-game/units/revised-bodies/stell-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "original_canvas_export_after_layer_separation",
+    "sourceTrim": [
+      16,
+      16,
+      387,
+      345
+    ],
+    "sourceDimensions": [
+      403,
+      361
+    ],
+    "destinationTopLeft": [
+      4,
+      7
+    ],
+    "scaledSize": [
+      56,
+      50
+    ],
+    "engineWindows": [
+      [
+        14,
+        10,
+        24,
+        55
+      ],
+      [
+        40,
+        10,
+        50,
+        55
+      ]
+    ],
+    "registrationPreserved": true,
+    "edgeAntialiasRemovedInsideMotionWindows": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/stell.png",
+    "gitBlobSha1": "e2eb8ec5ac0cfa487f77c303533bbb936b7fbc0e",
+    "sha256": "5d7d69cd8a866b09c01cb2342ecda2642d953dadfad2c0f9adea184359683537"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Downsample of traced corrected native body; no new image generation.",
+  "engineNotVerified": true
+}

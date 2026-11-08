@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-router.png",
+  "sourceGitBlob": "0120bf6b0bf4ba8d16b47cad2047d62368f9d001",
+  "sourceSha256": "0171544dde4d1f25c4e5148ec01c38dae2108a7c4bc621b113a805f5dd9000c4",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-router",
+  "blockId": "heat-router",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router.png",
+  "sha256": "a55a3d1ff71045a6b17790f8b94eb47310e101afb65c33548aa6603602bcfd01",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router.png",
+  "engineSha256": "a55a3d1ff71045a6b17790f8b94eb47310e101afb65c33548aa6603602bcfd01",
+  "nativeFile": "full-game/blocks/masters/heat-router.png",
+  "nativeSha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779",
+  "nativeSize": [
+    375,
+    333
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-router.png",
+      "sha256": "18bff0d9ba606ad3d88013c89c027f4a8b4c04f5e6919924afea3965774c4779"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-router.png",
+      "sha256": "0171544dde4d1f25c4e5148ec01c38dae2108a7c4bc621b113a805f5dd9000c4"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-router.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat-top.png",
+  "sourceGitBlob": "96f13221525774633e6929038e96f640c030cbcd",
+  "sourceSha256": "838143ba09739e5f9cbe5932b90cb6938a155492cee24e3bf947eb677a854174",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "cyanogen-synthesizer-heat-top",
+  "blockId": "cyanogen-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat-top.png",
+  "sha256": "386881d910b85bad2202d61b427273b56e304fd6291c58040e4ef10ea3d3a47a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat-top.png",
+  "engineSha256": "386881d910b85bad2202d61b427273b56e304fd6291c58040e4ef10ea3d3a47a",
+  "nativeFile": "full-game/blocks/masters/cyanogen-synthesizer.png",
+  "nativeSha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16",
+  "nativeSize": [
+    312,
+    334
+  ],
+  "sourceAlphaBounds": [
+    13,
+    13,
+    83,
+    83
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cyanogen-synthesizer.png",
+      "sha256": "f06f12d18d8ed40bd2a70f19b450e5a44734d054f5110d9dbc01806471e4af16"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/cyanogen-synthesizer-heat-top.png",
+      "sha256": "838143ba09739e5f9cbe5932b90cb6938a155492cee24e3bf947eb677a854174"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/cyanogen-synthesizer-heat-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/carbide-crucible.png",
+  "sourceGitBlob": "dc23c2a8fe91f2275e9f5b022c87cd2f27575cfc",
+  "sourceSha256": "4b23ac92df48f345d850246e181c7e47091e73f4b48718f44a9af8c3fc068061",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "carbide-crucible",
+  "blockId": "carbide-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/carbide-crucible.png",
+  "sha256": "f961766dd9a46693bdb76b1a2a8c698321b0552ae032cd94edf16730fefbd512",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/carbide-crucible.png",
+  "engineSha256": "f961766dd9a46693bdb76b1a2a8c698321b0552ae032cd94edf16730fefbd512",
+  "nativeFile": "full-game/blocks/masters/carbide-crucible.png",
+  "nativeSha256": "9e8deb8f4b224750b200d8b9d4e9d2edef97d8c4b7a4dec4d7b5d716b357686e",
+  "nativeSize": [
+    377,
+    350
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/carbide-crucible.png",
+      "sha256": "9e8deb8f4b224750b200d8b9d4e9d2edef97d8c4b7a4dec4d7b5d716b357686e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/carbide-crucible.png",
+      "sha256": "4b23ac92df48f345d850246e181c7e47091e73f4b48718f44a9af8c3fc068061"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/carbide-crucible.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/search.png",
+  "sourceGitBlob": "02736c1a4b5580d92e25788452f0cdecf53c9341",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/search.png",
+  "sha256": "d4b69c69464ef22bad8280d3c302855b45560d5a8aa6ecc06c4760e8d8665c37",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-search.png",
+      "sha256": "996989383d8a2e2d89f362b5d6d1b93ef5892117a55a9e892c0fa644e55a5031",
+      "record": "ui/kit/icon-search.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "search",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

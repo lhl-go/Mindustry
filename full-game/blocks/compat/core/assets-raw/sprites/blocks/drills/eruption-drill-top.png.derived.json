@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/eruption-drill-top.png",
+  "sourceGitBlob": "69b4faaa8e4e00c9906a1741a417e3c88d2a4aea",
+  "sourceSha256": "0060efa831443f05ba7f40afc5b9ed3016605d833c879fb6bb329f97231833cc",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "eruption-drill-top",
+  "blockId": "eruption-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-top.png",
+  "sha256": "05a7088e2d6077049c5119d83b1a87bb79245d2fa18998d18b1f82335d646bed",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-top.png",
+  "engineSha256": "05a7088e2d6077049c5119d83b1a87bb79245d2fa18998d18b1f82335d646bed",
+  "nativeFile": "full-game/blocks/masters/eruption-drill.png",
+  "nativeSha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81",
+  "nativeSize": [
+    364,
+    341
+  ],
+  "sourceAlphaBounds": [
+    27,
+    27,
+    133,
+    133
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/eruption-drill.png",
+      "sha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-top.png",
+      "sha256": "0060efa831443f05ba7f40afc5b9ed3016605d833c879fb6bb329f97231833cc"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

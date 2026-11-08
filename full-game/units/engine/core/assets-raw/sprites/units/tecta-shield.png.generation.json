@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-shield.png",
+  "sha256": "c316ea48f9baf57648fdc6faac9ba6ff16120e8b73cc20dfe6810704a7286190",
+  "width": 124,
+  "height": 161,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/tecta-shield.png",
+      "sha256": "e6e7b08ee8cf7f96ef7eb909b2951c82ee7b7b63c4db45748bd54c892ccb8f58",
+      "generationRecord": "units/air-erekir-parts/assets/tecta-shield.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      321,
+      366
+    ],
+    "sourcePivot": [
+      176,
+      200
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      14
+    ],
+    "sourceDimensions": [
+      353,
+      398
+    ],
+    "targetDimensions": [
+      124,
+      161
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      120,
+      157
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      62.0,
+      80.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/tecta-shield.png",
+    "gitBlobSha1": "6ef60f4ac9a9fcbf2ee095ec94f267b55f4a84ad",
+    "sha256": "47c4fbfa823bfa8672ccb1a75df0c7b6d6f2978d4295734635f556c7eca4b7c6"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

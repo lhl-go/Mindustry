@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-citadel-team.png",
+  "sourceGitBlob": "c4412053d9d3067cef517dc85fb2e0813848d2af",
+  "sourceSha256": "1c58e39c2c0824517552755bebe2c5020fb6fe0fe5996fec14bb40817feecc9c",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "core-citadel-team",
+  "blockId": "core-citadel",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-team.png",
+  "sha256": "db94c53b7029c08d345924827c56b23217ce4f745da42afd6b06083b137230f6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-team.png",
+  "engineSha256": "db94c53b7029c08d345924827c56b23217ce4f745da42afd6b06083b137230f6",
+  "nativeFile": "full-game/blocks/masters/core-citadel.png",
+  "nativeSha256": "72a702334cecceb0704718d8330493404aa4cffb06279102e5f64447782749e7",
+  "nativeSize": [
+    373,
+    365
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-citadel.png",
+      "sha256": "72a702334cecceb0704718d8330493404aa4cffb06279102e5f64447782749e7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-citadel-team.png",
+      "sha256": "1c58e39c2c0824517552755bebe2c5020fb6fe0fe5996fec14bb40817feecc9c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-citadel-team.png.derived.json"
+}

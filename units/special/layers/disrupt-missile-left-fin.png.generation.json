@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/layers/disrupt-missile-left-fin.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.423013+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 450,
+  "height": 646,
+  "sha256": "448bddee6b6f1081e2cbd4b3e66a1c58798ff612da4dde9ce56fe9721bd1de3a",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+      "generationRecord": "units/special/boards/03-main-missiles-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "component_crop_and_translate_to_common_canvas",
+    "sourceBBox": [
+      58,
+      766,
+      185,
+      1122
+    ],
+    "destination": [
+      32,
+      166
+    ],
+    "mask": "alpha >= 16",
+    "pixelResampling": false
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "pivotNote": "body uses canvas center; fin hinge estimates in unit manifest require runtime verification"
+}

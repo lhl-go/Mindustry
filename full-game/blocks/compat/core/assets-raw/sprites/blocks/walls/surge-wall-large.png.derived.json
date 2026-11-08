@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/surge-wall-large.png",
+  "sourceGitBlob": "e0cc1b8b866db25e34cd1adfaed900078c536e57",
+  "sourceSha256": "5d9c4ed45cf31f0d772dd50d1d2aff31237c606f529919d8fdeac5648be591bf",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "surge-wall-large",
+  "blockId": "surge-wall-large",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/surge-wall-large.png",
+  "sha256": "8fe7a67decf59036d0e39d4144b079f1f4ab8edb592760f73bede5aab5333c95",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/surge-wall-large.png",
+  "engineSha256": "8fe7a67decf59036d0e39d4144b079f1f4ab8edb592760f73bede5aab5333c95",
+  "nativeFile": "full-game/blocks/masters/surge-wall.png",
+  "nativeSha256": "9b7370dd3ed407295dbac93fc9ff6d82310a4bc4fd017383aa8090944cc3e239",
+  "nativeSize": [
+    328,
+    320
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_identity_fitted_to_original_canvas_bounds",
+    "variantSharesAcceptedIdentity": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-wall.png",
+      "sha256": "9b7370dd3ed407295dbac93fc9ff6d82310a4bc4fd017383aa8090944cc3e239"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/surge-wall-large.png",
+      "sha256": "5d9c4ed45cf31f0d772dd50d1d2aff31237c606f529919d8fdeac5648be591bf"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/surge-wall-large.png.derived.json"
+}

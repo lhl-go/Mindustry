@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/additional-atlas/corvus-weapon.png",
+  "sha256": "97708f7887ec842c49dd838cc9364e0abff3cd13cada831884e7502565dc84f5",
+  "width": 214,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-continuous-laser.png",
+      "sha256": "81c8f5cb58027011d0e1c7884d15a2b9d35579c0214bbb60a2e85caf3ea7ba3c",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-continuous-laser.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      298,
+      360
+    ],
+    "sourcePivot": [
+      157.0,
+      280.88
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      70,
+      1
+    ],
+    "sourceDimensions": [
+      314,
+      376
+    ],
+    "targetDimensions": [
+      214,
+      140
+    ],
+    "officialAlphaBounds": [
+      0,
+      0,
+      214,
+      140
+    ],
+    "scale": 0.26049531863485353,
+    "engineAnchorPx": [
+      107.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "additional-atlas/corvus-weapon.png",
+    "gitBlobSha1": null,
+    "sha256": null
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

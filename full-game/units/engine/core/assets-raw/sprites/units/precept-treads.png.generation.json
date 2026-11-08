@@ -1,0 +1,76 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/precept-treads.png",
+  "sha256": "9b1e82914654510990f445d47e56a8cb10cd97ed74491d0ec41cac477b5d74c9",
+  "width": 120,
+  "height": 140,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/track-strip.png",
+      "sha256": "60bec0c5e4449327e3bc54784e97b8389605af25976d09c7c9fa75690d1ad8d9",
+      "generationRecord": "units/air-erekir-parts/assets/track-strip.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "paired_tread_canvas_from_native_track_component",
+    "placements": [
+      {
+        "left": [
+          16,
+          48,
+          30,
+          75
+        ],
+        "right": [
+          74,
+          48,
+          30,
+          75
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      },
+      {
+        "left": [
+          44,
+          17,
+          17,
+          60
+        ],
+        "right": [
+          59,
+          17,
+          17,
+          60
+        ],
+        "sampleColumnFromNativeBeltCenter": true
+      }
+    ],
+    "officialTreadRects": [
+      [
+        -44,
+        -22,
+        30,
+        75
+      ],
+      [
+        -16,
+        -53,
+        17,
+        60
+      ]
+    ],
+    "cropAndDownsampleOnly": true,
+    "sourceFrames": 18,
+    "sourceTreadPullOffset": 5
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/precept-treads.png",
+    "sha256": "4731391fe0d1b05c505132d016536cc5e13eb1b6f03e993959cfa009f986bf0c",
+    "gitBlobSha1": "916cd739e56d69842836e2c65b258676246e5c5b"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Local assembly from traced native tread strip.",
+  "engineNotVerified": true
+}

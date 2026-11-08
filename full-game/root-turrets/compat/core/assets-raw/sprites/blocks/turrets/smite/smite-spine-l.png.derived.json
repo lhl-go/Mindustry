@@ -1,0 +1,42 @@
+{
+  "region": "smite-spine-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/smite/smite-spine-l.png",
+  "sha256": "0e74c00f424af3389dd77fc9f352f184ae5ff8ef1e26ea71aa0d7acb13c2e967",
+  "size": [
+    130,
+    65
+  ],
+  "derivedAt": "2026-10-26T18:34:46.220977+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/smite-spine-l.png",
+      "sha256": "67c4991d3742620ef70b4ee681d418d14cb55e9a7fa7f310334f11433fdea6a1",
+      "record": "full-game/root-turrets/masters/smite-spine-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/smite/smite-spine-l.png",
+      "sha256": "455721cb4f29c403c0fdafc87d5bc8f100c35fc00eb85dc43db05b6a73918c2c",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      56,
+      9,
+      121,
+      42
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      349,
+      200
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

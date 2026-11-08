@@ -1,0 +1,62 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/locus.png",
+  "sha256": "42c8e859f675f76da279df9e3520ac0752eb983870b2bde5a615b2a4c39d43bb",
+  "width": 96,
+  "height": 96,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/revised-bodies/locus-body.png",
+      "sha256": "ceb1f69cd073b4a96aa2e758188b3043f1493cd2bab34eef7cbce8f6a9257251",
+      "generationRecord": "full-game/units/revised-bodies/locus-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "original_canvas_export_after_layer_separation",
+    "sourceTrim": [
+      16,
+      16,
+      439,
+      407
+    ],
+    "sourceDimensions": [
+      455,
+      423
+    ],
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "scaledSize": [
+      88,
+      81
+    ],
+    "engineWindows": [
+      [
+        19,
+        14,
+        34,
+        82
+      ],
+      [
+        62,
+        14,
+        77,
+        82
+      ]
+    ],
+    "registrationPreserved": true,
+    "edgeAntialiasRemovedInsideMotionWindows": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/locus.png",
+    "gitBlobSha1": "7d69b23f0408e645973b90a6c07f99bc8f8fb66b",
+    "sha256": "f211461e30551b17194a2688b407dae75fb10fa5411930d91b7f3b3dc708056d"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Downsample of traced corrected native body; no new image generation.",
+  "engineNotVerified": true
+}

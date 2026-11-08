@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/repair-point.png",
+  "sourceGitBlob": "f3c0a07472f660943e6e2dc9b1ec76b58ae27b37",
+  "sourceSha256": "8a864b6a660f08caa9fc2e36971822dd6e80a1e2b47ce2a99c1acd709f9863a4",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "repair-point",
+  "blockId": "repair-point",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point.png",
+  "sha256": "5c424c05debad3b59d6f4b3c9e8c02b1779aa65fde2d8002bf32de326ff48fbd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point.png",
+  "engineSha256": "5c424c05debad3b59d6f4b3c9e8c02b1779aa65fde2d8002bf32de326ff48fbd",
+  "nativeFile": "full-game/blocks/masters/repair-point-head-part.png",
+  "nativeSha256": "ee6e4c302a40fcd3332e87581e10f4b67c4cba24de6612aa61302407c4074662",
+  "nativeSize": [
+    269,
+    199
+  ],
+  "sourceAlphaBounds": [
+    8,
+    3,
+    24,
+    29
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "repair-point-head-part",
+    "role": "independent rotating head; visible nozzle corrected to source +Y direction",
+    "localRotationDegrees": 180,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/repair-point-head-part.png",
+      "sha256": "ee6e4c302a40fcd3332e87581e10f4b67c4cba24de6612aa61302407c4074662"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/repair-point.png",
+      "sha256": "8a864b6a660f08caa9fc2e36971822dd6e80a1e2b47ce2a99c1acd709f9863a4"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/repair-point.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/repair-point-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

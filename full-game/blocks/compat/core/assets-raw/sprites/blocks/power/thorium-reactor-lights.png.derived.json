@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/thorium-reactor-lights.png",
+  "sourceGitBlob": "5af4b45d78a82428bc6f5b0e9f92dd33e5ef009f",
+  "sourceSha256": "690d0f6f2243f295dec0b6c99c4a6670bdb13d35932ede5e4c43c7a849efb835",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "thorium-reactor-lights",
+  "blockId": "thorium-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-lights.png",
+  "sha256": "2909b7b660eacc521c04dcc62f6015d0f36a5ac4a27849a4e23b5b2047976f80",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-lights.png",
+  "engineSha256": "2909b7b660eacc521c04dcc62f6015d0f36a5ac4a27849a4e23b5b2047976f80",
+  "nativeFile": "full-game/blocks/masters/thorium-reactor.png",
+  "nativeSha256": "ebf7793b8166178a58f42acfb4fb79f4c7fe6bc558361f9ea95366e585c46b21",
+  "nativeSize": [
+    341,
+    348
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/thorium-reactor.png",
+      "sha256": "ebf7793b8166178a58f42acfb4fb79f4c7fe6bc558361f9ea95366e585c46b21"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/thorium-reactor-lights.png",
+      "sha256": "690d0f6f2243f295dec0b6c99c4a6670bdb13d35932ede5e4c43c7a849efb835"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-lights.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

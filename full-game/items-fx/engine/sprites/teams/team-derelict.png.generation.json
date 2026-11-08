@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/teams/team-derelict.png",
+  "sha256": "720e93ced4351e5ed588b59fbbfb1336a59f7004a855bd73a5410c135f77e8d8",
+  "width": 62,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/team-derelict.png",
+      "sha256": "1da6fba3d9354406c49fe7cef9dc31bdfa8d2a74d7f7ea39cc8746fcf30ff946",
+      "generationRecord": "full-game/items-fx/assets/team-derelict.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      62,
+      62
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

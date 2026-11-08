@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "tecta",
+  "file": "units/air-erekir/individual/tecta.png",
+  "sha256": "c1a5d2e9c01a61cb33f9a6a4a6643ee00e280caa0d6684a7a96251d7c1a0b83c",
+  "width": 515,
+  "height": 506,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/04-erekir-walkers.png",
+      "sha256": "c8f0d20e2e4b83a0480d9ce6713bea527749ca829bc9a4d2423a7bfcdb2b58e7",
+      "generationRecord": "units/air-erekir/source/04-erekir-walkers.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      25,
+      475,
+      545,
+      1000
+    ],
+    "trimBoundsInRegion": [
+      24,
+      25,
+      507,
+      499
+    ],
+    "padding": 16,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1,
+    "width": 515,
+    "height": 506
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native source generation record; host did not disclose exact model or quality.",
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "engineRuntimeVerified": false,
+  "sourceImageRetained": true,
+  "status": "intermediate_retained_cleanup_blocked",
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

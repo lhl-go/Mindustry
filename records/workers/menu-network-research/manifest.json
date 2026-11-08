@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "worker": "menu-network-research",
+  "updatedAt": "2026-10-26T08:12:25.417887+00:00",
+  "functionalVersion": "v160.7",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "status": "five_static_concepts_complete_runtime_and_remaining_states_pending",
+  "assetCount": 5,
+  "route": "builtin",
+  "modelTarget": "GPT Image 2.5 / config gpt-image-2.5-sunburst",
+  "qualityTarget": "max",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidenceLimit": "工具未披露，配置与提示词不等于已显式锁定实际型号或质量。",
+  "nativeResolutionNote": "全部实际输出1672×941；目标2560×1440未达到，未缩放或程序重绘。",
+  "integrationNote": "五张为静态整屏概念，动态文字、交互、控件切片与客户端运行验收不由此宣称完成。其余状态由协调者使用共用控件与原生文字构建。",
+  "assets": [
+    {
+      "uiId": "UI-001",
+      "title": "主菜单与游戏子菜单",
+      "file": "ui/menu-network-research/01-main-menu-v1.png",
+      "generationRecord": "ui/menu-network-research/01-main-menu-v1.png.generation.json",
+      "prompt": "prompts/menu-network-research/01-main-menu-v1.txt",
+      "toolReceipt": "records/workers/menu-network-research/01-main-menu-v1.tool-receipt.json",
+      "sha256": "0bc1b478b53ecb641f030454a607e848a01684d07f522d501430af1548b42144",
+      "nativeSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "requestedSize": {
+        "width": 2560,
+        "height": 1440
+      },
+      "requestedSizeAchieved": false,
+      "resized": false,
+      "staticConceptState": "visual_reviewed",
+      "coveredConceptStates": [
+        "桌面主菜单",
+        "开始游戏子菜单展开"
+      ],
+      "remainingStatesForCoordinator": [
+        "移动端菜单",
+        "资料库子菜单与平台条件入口"
+      ],
+      "visualReview": {
+        "result": "passed_for_static_concept",
+        "inspectedUsing": "tool returned full image preview",
+        "observations": [
+          "六项主导航及四项游戏入口文字清楚，当前选中态明确。",
+          "背景保持工厂、运输、炼器与塔防辨识度；画面无旧项目游戏名。"
+        ],
+        "blockingVisualIssues": [],
+        "runtimeAcceptance": false
+      },
+      "runtimeIntegrated": false,
+      "sliceExported": false,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "uiId": "UI-007",
+      "title": "联机服务器列表与添加地址弹窗",
+      "file": "ui/menu-network-research/02-network-join-v1.png",
+      "generationRecord": "ui/menu-network-research/02-network-join-v1.png.generation.json",
+      "prompt": "prompts/menu-network-research/02-network-join-v1.txt",
+      "toolReceipt": "records/workers/menu-network-research/02-network-join-v1.tool-receipt.json",
+      "sha256": "733563cc0ef60d324795ba86349f7c7cfb610a94e60acb00303a3961b3bab889",
+      "nativeSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "requestedSize": {
+        "width": 2560,
+        "height": 1440
+      },
+      "requestedSizeAchieved": false,
+      "resized": false,
+      "staticConceptState": "visual_reviewed",
+      "coveredConceptStates": [
+        "局域网／已保存／社区列表",
+        "玩家名称",
+        "搜索与延迟排序",
+        "添加地址弹窗"
+      ],
+      "remainingStatesForCoordinator": [
+        "发现中／空列表",
+        "版本不兼容",
+        "连接／重连",
+        "编辑地址状态"
+      ],
+      "visualReview": {
+        "result": "passed_for_static_concept",
+        "inspectedUsing": "tool returned full image preview",
+        "observations": [
+          "三组服务器行、人数延迟、收藏与编辑删除图标可辨。",
+          "192.0.2.10:6567 地址完整，取消和确定操作区分，弹窗层级清楚。"
+        ],
+        "blockingVisualIssues": [],
+        "runtimeAcceptance": false
+      },
+      "runtimeIntegrated": false,
+      "sliceExported": false,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "uiId": "UI-006",
+      "title": "科技树与节点详情",
+      "file": "ui/menu-network-research/03-research-tree-v1.png",
+      "generationRecord": "ui/menu-network-research/03-research-tree-v1.png.generation.json",
+      "prompt": "prompts/menu-network-research/03-research-tree-v1.txt",
+      "toolReceipt": "records/workers/menu-network-research/03-research-tree-v1.tool-receipt.json",
+      "sha256": "b3d12b4dae39a458992daa8aa6b9b4d90e178582f3aeaae701667564117b0e50",
+      "nativeSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "requestedSize": {
+        "width": 2560,
+        "height": 1440
+      },
+      "requestedSizeAchieved": false,
+      "resized": false,
+      "staticConceptState": "visual_reviewed",
+      "coveredConceptStates": [
+        "研究树选择入口",
+        "已解锁／可研究／条件未满足",
+        "研究进度",
+        "节点详情展开"
+      ],
+      "remainingStatesForCoordinator": [
+        "资源不足样例",
+        "切换研究树展开",
+        "缩放平移交互"
+      ],
+      "visualReview": {
+        "result": "passed_for_static_concept",
+        "inspectedUsing": "tool returned full image preview",
+        "observations": [
+          "样例依赖与 SerpuloTechTree.java 中已核对分支相符。",
+          "中文节点名称、连接线、选中分类器详情和资源需求清楚。",
+          "研究数量为演示，不声称是官方实际费用。"
+        ],
+        "blockingVisualIssues": [],
+        "runtimeAcceptance": false
+      },
+      "runtimeIntegrated": false,
+      "sliceExported": false,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "uiId": "UI-005",
+      "title": "战役星球与区块选择",
+      "file": "ui/menu-network-research/04-campaign-planet-v1.png",
+      "generationRecord": "ui/menu-network-research/04-campaign-planet-v1.png.generation.json",
+      "prompt": "prompts/menu-network-research/04-campaign-planet-v1.txt",
+      "toolReceipt": "records/workers/menu-network-research/04-campaign-planet-v1.tool-receipt.json",
+      "sha256": "20bda6735f4cda773e39cda2ff4326affc589fcea36cc32196b0debba6097b51",
+      "nativeSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "requestedSize": {
+        "width": 2560,
+        "height": 1440
+      },
+      "requestedSizeAchieved": false,
+      "resized": false,
+      "staticConceptState": "visual_reviewed",
+      "coveredConceptStates": [
+        "星球选择",
+        "可发射／锁定／已占领／受袭",
+        "发射来源选择入口",
+        "全局概览入口"
+      ],
+      "remainingStatesForCoordinator": [
+        "已占领区块继续／进入",
+        "详细生产／进出口／存储统计",
+        "改名／图标／放弃区块弹窗"
+      ],
+      "visualReview": {
+        "result": "passed_for_static_concept",
+        "inspectedUsing": "tool returned full image preview",
+        "observations": [
+          "球面六边形区块、四种状态和 172→175 发射路线明确。",
+          "Serpulo/Erekir、资源和发射来源中文数字可读。"
+        ],
+        "blockingVisualIssues": [],
+        "runtimeAcceptance": false
+      },
+      "runtimeIntegrated": false,
+      "sliceExported": false,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "uiId": "UI-018",
+      "title": "地图编辑工作台",
+      "file": "ui/menu-network-research/05-map-editor-v1.png",
+      "generationRecord": "ui/menu-network-research/05-map-editor-v1.png.generation.json",
+      "prompt": "prompts/menu-network-research/05-map-editor-v1.txt",
+      "toolReceipt": "records/workers/menu-network-research/05-map-editor-v1.tool-receipt.json",
+      "sha256": "71c6e2f541366c2c784b5ee3cbf0bce94c6bf082a7cddd892f4973aa8f88488f",
+      "nativeSize": {
+        "width": 1672,
+        "height": 941
+      },
+      "requestedSize": {
+        "width": 2560,
+        "height": 1440
+      },
+      "requestedSizeAchieved": false,
+      "resized": false,
+      "staticConceptState": "visual_reviewed",
+      "coveredConceptStates": [
+        "画笔选中",
+        "网格启用",
+        "撤销可用／重做禁用",
+        "画笔大小",
+        "显示建筑／地形／地表",
+        "旋转",
+        "未保存"
+      ],
+      "remainingStatesForCoordinator": [
+        "菜单展开",
+        "编辑器测试前后",
+        "其他工具子模式与选择态"
+      ],
+      "visualReview": {
+        "result": "passed_for_static_concept",
+        "inspectedUsing": "tool returned full image preview",
+        "observations": [
+          "画布、工具、方块分类和材质网格层级清楚。",
+          "地表选中时仅显示地表纹理，避免类别与内容混淆。",
+          "地图名星号和未保存状态、画笔与网格选中态可读。"
+        ],
+        "blockingVisualIssues": [],
+        "runtimeAcceptance": false
+      },
+      "runtimeIntegrated": false,
+      "sliceExported": false,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "region": "sublimate-top",
+  "file": "full-game/root-turrets/masters/sublimate-top.png",
+  "sha256": "77d68f3abc9048697b2f468bda30f2c9580924dabda6e4cbf38778b7a970f7ae",
+  "size": [
+    277,
+    294
+  ],
+  "derivedAt": "2026-10-26T18:34:45.470489+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/05-regions.png",
+      "sha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+      "record": "full-game/root-turrets/source/05-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 10,
+    "sourceBox": [
+      832,
+      706,
+      1085,
+      976
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

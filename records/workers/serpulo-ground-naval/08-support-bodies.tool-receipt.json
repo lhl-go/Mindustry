@@ -1,0 +1,23 @@
+{
+  "stem": "08-support-bodies",
+  "startedAt": "2026-10-26T08:49:29.380Z",
+  "returnedAt": "2026-10-26T08:50:59.096Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "submittedArguments": {
+    "prompt": "Use case: stylized-concept. Source atlas for actual TOP-DOWN strategy game body sprites.\nImages 1 and 2 guide ONLY the refined hand-painted Daoist jade-green / warm-ivory / warm-gold material quality and rounded shapes. DO NOT use their people, human proportions, faces, UI panels, backdrop or text.\nEXACTLY FIVE bare mechanical CHASSIS body sprites in an invisible 3 columns × 2 rows grid: three in top row, two in bottom left and bottom center, bottom right empty. Requested 3072×2048 PNG. Each complete chassis isolated with wide clear spacing and 18% transparent cell margins.\nABSOLUTELY VERTICAL CAMERA 90 DEGREES LOOKING STRAIGHT DOWN ON A FLOOR-PLANE MACHINE. No side wall or front chest view, no standing humanoid, no isometric perspective. Only roof/top surfaces visible, like a flat orthographic technical plan rendered in fine painted color. Nose/front is at TOP of image. Body shapes must look rotatable in an RTS, not portrait art.\nFive distinct ENERGY SUPPORT MECH BODY CHASSIS only. Exclude all weapons, arms, legs and emission beams. Horizontal low armored machine roofs seen directly overhead. All noses face UP. Tier progression: small ivory oval support chassis with tiny rear boost vents; rounded broader twin-coil support chassis; medium pale-jade broad shield chassis with green circular emitter; larger streamlined heavy-laser support chassis with four small rear lift vents; massive four-leg walker central jade-ring reactor chassis with FOUR side leg sockets and elongated rail mounting channel, but no legs or gun attached. No head, face, standing robot, upright chest or humanoid silhouette.\nPaint finished rounded jade enamel, ivory ceramic armor and restrained antique bronze trim; clear low-profile mechanical forms, soft controlled shading, fine cloud motif only inside panels. NO mechanical parts overlap each other. Fully opaque body interiors. Genuinely transparent exterior alpha=0, no shadow or glow, no matte, no checkerboard, no captions, no labels, no text, no guide grid. No firing, no disconnected decorations. Crisp edges, no plastic 3D, no photorealism. Target GPT Image 2.5 maximum quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "outputHint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4 as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-b13e16ae-eb0f-4836-b404-c982941f3fa5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-0154-7ad3-a6e3-516e485322b4\\exec-b13e16ae-eb0f-4836-b404-c982941f3fa5.png",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "actualModel": null,
+  "actualQuality": null
+}

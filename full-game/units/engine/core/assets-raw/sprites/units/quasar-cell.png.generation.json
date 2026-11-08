@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar-cell.png",
+  "sha256": "f892e83c73a89d56c2ab1e50baac030b328092f3ec41f38a523ab7fa81e138b5",
+  "width": 80,
+  "height": 80,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar.png",
+      "sha256": "43bae9f5e093729808ac45b67f6bc2a42067cbe7b6c335f84b0f10728d9aec57",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/quasar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "quasar",
+    "baseCanvas": [
+      80,
+      80
+    ],
+    "outputCanvas": [
+      80,
+      80
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quasar-cell.png",
+    "gitBlobSha1": "d15d720349a7735794f729de59f2520f05e84c61",
+    "sha256": "7cd9de75a46bdb5d52ec09a8a00e5f7852cd09ee3f0467444a67a41e7941ed34"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

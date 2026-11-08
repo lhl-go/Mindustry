@@ -1,0 +1,313 @@
+{
+  "checkedAt": "2026-10-26T09:43:10.582771+00:00",
+  "functionalCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "sourceFileCount": 177,
+  "sourceScanErrors": [],
+  "dynamicConfigurations": [
+    {
+      "className": "Accelerator",
+      "source": "core/src/mindustry/world/blocks/campaign/Accelerator.java",
+      "sourceSha256": "f995c099ff68a57ecda04f7530da021ce97215f58ea6ce99a868e8a8d35ef91d",
+      "line": 258,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "星球发射选择 → UI-005",
+      "preview": "ui/preview/index.html?id=UI-002&state=6",
+      "png": "ui/states/UI-002--s06--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "LandingPad",
+      "source": "core/src/mindustry/world/blocks/campaign/LandingPad.java",
+      "sourceSha256": "ed1c9fbb6822308202c2644bf54e176800f67c8970a50224473d88d81608aaa8",
+      "line": 378,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "物品格＋进口/出口来源选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=7",
+      "png": "ui/states/UI-002--s07--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "LaunchPad",
+      "source": "core/src/mindustry/world/blocks/campaign/LaunchPad.java",
+      "sourceSha256": "f43c34b805e0466e04b54bd5c888fc0a618da187ab194309f79036db1ff3505f",
+      "line": 185,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "出口目的地选择 → UI-005",
+      "preview": "ui/preview/index.html?id=UI-002&state=8",
+      "png": "ui/states/UI-002--s08--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "TargetDummy",
+      "source": "core/src/mindustry/world/blocks/defense/TargetDummy.java",
+      "sourceSha256": "f06ac70d607a538507267272671f8e15e05a694b566b2f2ffd8ce58fdf9c638d",
+      "line": 240,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "敌方/飞行复选框＋护甲/重置时间/尺寸",
+      "preview": "ui/preview/index.html?id=UI-002&state=9",
+      "png": "ui/states/UI-002--s09--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "DirectionalUnloader",
+      "source": "core/src/mindustry/world/blocks/distribution/DirectionalUnloader.java",
+      "sourceSha256": "325d5cbe6f21a187bd9f0c3a24b9709df78985a7c09f49d964efaf75d5efc7e0",
+      "line": 145,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=10",
+      "png": "ui/states/UI-002--s10--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "DuctRouter",
+      "source": "core/src/mindustry/world/blocks/distribution/DuctRouter.java",
+      "sourceSha256": "8e576915b21874b936dd267be86493e7c5b69356a8caa3a89b0e648912131ff0",
+      "line": 124,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=11",
+      "png": "ui/states/UI-002--s11--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "Sorter",
+      "source": "core/src/mindustry/world/blocks/distribution/Sorter.java",
+      "sourceSha256": "1ad3a14e9fd2ec06ca32d0428417f97922098edc5affafc0d2603a8eb5f5c2e7",
+      "line": 146,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=12",
+      "png": "ui/states/UI-002--s12--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "CanvasBlock",
+      "source": "core/src/mindustry/world/blocks/logic/CanvasBlock.java",
+      "sourceSha256": "6e6b9e5a5eece794e833862827d4e3382d54a01376791c15df4b489e468e6e94",
+      "line": 310,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "编辑入口 → UI-027",
+      "preview": "ui/preview/index.html?id=UI-002&state=13",
+      "png": "ui/states/UI-002--s13--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "LogicBlock",
+      "source": "core/src/mindustry/world/blocks/logic/LogicBlock.java",
+      "sourceSha256": "ebef3b95a129ed6887d2e3956fe23aee5da9f00cd724b8309b48ad1239e33508",
+      "line": 737,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "编辑入口 → UI-024",
+      "preview": "ui/preview/index.html?id=UI-002&state=14",
+      "png": "ui/states/UI-002--s14--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "MessageBlock",
+      "source": "core/src/mindustry/world/blocks/logic/MessageBlock.java",
+      "sourceSha256": "f1c422c6fc907c535a3b8d6776cb3923f46b53845cdb67955af9d37055d1c1e5",
+      "line": 109,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "多行消息编辑 → D-02",
+      "preview": "ui/preview/index.html?id=UI-002&state=15",
+      "png": "ui/states/UI-002--s15--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "Constructor",
+      "source": "core/src/mindustry/world/blocks/payloads/Constructor.java",
+      "sourceSha256": "b46c7e52fe5c99ba8ef6478f3150761d1c9b8e6573df411a15166988d1147063",
+      "line": 67,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "建筑配方格",
+      "preview": "ui/preview/index.html?id=UI-002&state=16",
+      "png": "ui/states/UI-002--s16--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "PayloadRouter",
+      "source": "core/src/mindustry/world/blocks/payloads/PayloadRouter.java",
+      "sourceSha256": "21c2f64066ce0bb8dce17f8f33e922f63412e16df5527abe60a52d4a6d3b1e40",
+      "line": 183,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "建筑与单位载荷选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=17",
+      "png": "ui/states/UI-002--s17--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "PayloadSource",
+      "source": "core/src/mindustry/world/blocks/payloads/PayloadSource.java",
+      "sourceSha256": "842e5c42b7b666e09c7e9878832faf49d568302998eb9ec7c3bbd12e1de0e973",
+      "line": 113,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "建筑与单位载荷来源",
+      "preview": "ui/preview/index.html?id=UI-002&state=18",
+      "png": "ui/states/UI-002--s18--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "LightBlock",
+      "source": "core/src/mindustry/world/blocks/power/LightBlock.java",
+      "sourceSha256": "3b178ba6fcc31c0837d17f3310c04bdcef223e0053a57353c9ebc9493078d77b",
+      "line": 109,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "颜色选择 → D-10",
+      "preview": "ui/preview/index.html?id=UI-002&state=19",
+      "png": "ui/states/UI-002--s19--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "ItemSource",
+      "source": "core/src/mindustry/world/blocks/sandbox/ItemSource.java",
+      "sourceSha256": "280eec0e7197f9e9567a29caa405fa8f7d9c803dd7e33975de2f890b00cdb87a",
+      "line": 115,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=20",
+      "png": "ui/states/UI-002--s20--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "LiquidSource",
+      "source": "core/src/mindustry/world/blocks/sandbox/LiquidSource.java",
+      "sourceSha256": "c5b99599982c7a2b520a57b0149744858b4ec373f2fb6cf22ce0d96f0fb4b37a",
+      "line": 93,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "液体格",
+      "preview": "ui/preview/index.html?id=UI-002&state=21",
+      "png": "ui/states/UI-002--s21--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "CoreBlock",
+      "source": "core/src/mindustry/world/blocks/storage/CoreBlock.java",
+      "sourceSha256": "6945695056475120efe586b270e5939d0d22cf4e433ce66780c863a694c79b06",
+      "line": 289,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "队伍选择及可用限制",
+      "preview": "ui/preview/index.html?id=UI-002&state=22",
+      "png": "ui/states/UI-002--s22--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "Unloader",
+      "source": "core/src/mindustry/world/blocks/storage/Unloader.java",
+      "sourceSha256": "f8ffbd64b6993e6f5c103fee6cd2efa5c8ac8431ddcee9e0e3212cbf30f26ff5",
+      "line": 285,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=23",
+      "png": "ui/states/UI-002--s23--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "Reconstructor",
+      "source": "core/src/mindustry/world/blocks/units/Reconstructor.java",
+      "sourceSha256": "087689a4c78e4b9c4e645b055999ff339d164286afe80b335a43b5366328c5f7",
+      "line": 215,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "单位默认指令选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=24",
+      "png": "ui/states/UI-002--s24--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "UnitCargoUnloadPoint",
+      "source": "core/src/mindustry/world/blocks/units/UnitCargoUnloadPoint.java",
+      "sourceSha256": "113b560f2ef28330cff6da65740f50f683c56e42422f5e77367e61460d32d2f6",
+      "line": 82,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "可搜索物品选择格＋取消选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=25",
+      "png": "ui/states/UI-002--s25--desktop.png",
+      "mapped": true
+    },
+    {
+      "className": "UnitFactory",
+      "source": "core/src/mindustry/world/blocks/units/UnitFactory.java",
+      "sourceSha256": "9f20236f93ca01f00e434f2aa24aa4085d14a63c09b3badd3a4fa55f51fdf0fe",
+      "line": 285,
+      "implementation": "ui/preview/screen-variants.js#dynamicConfiguration",
+      "controls": "生产单位格＋默认指令选择",
+      "preview": "ui/preview/index.html?id=UI-002&state=26",
+      "png": "ui/states/UI-002--s26--desktop.png",
+      "mapped": true
+    }
+  ],
+  "mapAssetTypes": [
+    {
+      "type": "图片",
+      "sourceClass": "MapImagesView",
+      "sourceSha256": "7c0f9161b17fb90c0cce5457cfaee26d0b19300683cc1087dae6042134f3f602",
+      "preview": "ui/preview/index.html?id=UI-026&state=5",
+      "png": "ui/states/UI-026--s05--desktop.png",
+      "additionalReuse": "D-11 file chooser; D-01 destructive confirmation"
+    },
+    {
+      "type": "音效",
+      "sourceClass": "MapAudioView",
+      "sourceSha256": "0ab5030150ab14ca58f7744625daa649d98308744837e3c98bb88e71785282e4",
+      "preview": "ui/preview/index.html?id=UI-026&state=6",
+      "png": "ui/states/UI-026--s06--desktop.png",
+      "additionalReuse": "D-11 file chooser; D-01 destructive confirmation"
+    },
+    {
+      "type": "音乐",
+      "sourceClass": "MapAudioView",
+      "sourceSha256": "0ab5030150ab14ca58f7744625daa649d98308744837e3c98bb88e71785282e4",
+      "preview": "ui/preview/index.html?id=UI-026&state=7",
+      "png": "ui/states/UI-026--s07--desktop.png",
+      "additionalReuse": "D-11 file chooser; D-01 destructive confirmation"
+    },
+    {
+      "type": "文本",
+      "sourceClass": "MapBundlesView",
+      "sourceSha256": "d63e7a8664f97af7dadc67685cbe3844c7b94773f2e4b263aec4de62f0d165cd",
+      "preview": "ui/preview/index.html?id=UI-026&state=8",
+      "png": "ui/states/UI-026--s08--desktop.png",
+      "additionalReuse": "UI-025 map translation editor"
+    },
+    {
+      "type": "内容",
+      "sourceClass": "MapContentView",
+      "sourceSha256": "a7386f36b85a2528999d7aff4a3e88779c93a2b938d3760b8682b5e37b692925",
+      "preview": "ui/preview/index.html?id=UI-026&state=9",
+      "png": "ui/states/UI-026--s09--desktop.png",
+      "additionalReuse": "D-11 file chooser; D-01 destructive confirmation"
+    },
+    {
+      "type": "补丁",
+      "sourceClass": "MapPatchesView",
+      "sourceSha256": "7edb7da42a344bc9942b29456a1fdbe5a988b899675affc116b16b7273c4c99f",
+      "preview": "ui/preview/index.html?id=UI-026&state=10",
+      "png": "ui/states/UI-026--s10--desktop.png",
+      "additionalReuse": "D-11 file chooser; D-01 destructive confirmation"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-01",
+      "status": "art_mapping_closed",
+      "evidence": "21 concrete configuration classes plus shared ItemSelection helper scanned and mapped individually"
+    },
+    {
+      "id": "GAP-02",
+      "status": "art_mapping_closed",
+      "evidence": "6 asset categories, including separate sound/music modes of MapAudioView"
+    },
+    {
+      "id": "GAP-03",
+      "status": "browser_layout_checked_runtime_unverified",
+      "evidence": "Desktop 1366x768 and mobile 844x390 layout checks; no Java/Android/iOS client was modified or run."
+    }
+  ],
+  "notClaimed": [
+    "Complete game implementation",
+    "Server functionality",
+    "Real save/mod/ZIP operations",
+    "Engine atlas registration",
+    "Platform-native keyboard/dialog correctness"
+  ]
+}

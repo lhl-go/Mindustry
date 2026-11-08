@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+  "sha256": "ea55407e1ef842cc28ac621295164d8f81dda9df51407ef01324a0992d551823",
+  "width": 68,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/layers/renale-segment0.png",
+      "sha256": "d4e67d9fa535b383fab7bb4f732cb2a997d7d89ec84fd97097e766ea1ee03c3e",
+      "generationRecord": "units/special/layers/renale-segment0.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      73,
+      569,
+      368,
+      849
+    ],
+    "sourcePivot": [
+      221.0,
+      440.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      4
+    ],
+    "sourceDimensions": [
+      442,
+      881
+    ],
+    "targetDimensions": [
+      68,
+      62
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      64,
+      58
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      34.0,
+      31.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/neoplasm/renale-segment0.png",
+    "gitBlobSha1": "98230644183ff219fded1936f97b2ce11bdaf037",
+    "sha256": "f2251d1050439d3c91663ebde2f30419f94a47acbc23a8c2bf92fe20109dbceb"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

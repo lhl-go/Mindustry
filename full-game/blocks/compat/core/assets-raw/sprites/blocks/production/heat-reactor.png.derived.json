@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/heat-reactor.png",
+  "sourceGitBlob": "a23dffaddbd1a8cae7279971c921b56c12449ad4",
+  "sourceSha256": "643c36829ad018abef5ae646503e653e3f76e06c0531028f44a3fea22db20172",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "heat-reactor",
+  "blockId": "heat-reactor",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor.png",
+  "sha256": "44060bfcda0a3b64d8cd66af7aaf7b0b34e37782599fc490bbfc1e806710deec",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor.png",
+  "engineSha256": "44060bfcda0a3b64d8cd66af7aaf7b0b34e37782599fc490bbfc1e806710deec",
+  "nativeFile": "full-game/blocks/masters/heat-reactor.png",
+  "nativeSha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96",
+  "nativeSize": [
+    353,
+    380
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/heat-reactor.png",
+      "sha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/heat-reactor.png",
+      "sha256": "643c36829ad018abef5ae646503e653e3f76e06c0531028f44a3fea22db20172"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/heat-reactor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

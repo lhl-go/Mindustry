@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/dagger-base.png",
+  "sha256": "6d6a4f9aa1c15a57e46c0a43736fc78b6ca26172039f23f92f65e19e87c51673",
+  "width": 48,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/mech-base-small.png",
+      "sha256": "f9bd721912f4ade8d63aa201865c446b9c2cec06897668286551ec869785be24",
+      "generationRecord": "full-game/units/parts/mech-base-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      398,
+      285
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      12,
+      17
+    ],
+    "sourceDimensions": [
+      414,
+      301
+    ],
+    "targetDimensions": [
+      48,
+      48
+    ],
+    "officialAlphaBounds": [
+      12,
+      16,
+      36,
+      35
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      24.0,
+      24.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/dagger-base.png",
+    "gitBlobSha1": "0c9e4973e8a5e2e1dc5a74257a59a2aef654094d",
+    "sha256": "08ca1afefa9bc3a2e7ea4e73bdecbd3743c336d48c6b8c7110608e5f576e1205"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

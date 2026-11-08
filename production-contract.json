@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "project": "Mindustry Daoist Q Art",
+  "status": "art_complete_runtime_unverified",
+  "authorizedScope": "用户于 2026-10-26 要求参照 Anuken/Mindustry 做完本次游戏 UI 与角色/单位美术，不止首批概念图。",
+  "reference": {
+    "repository": "https://github.com/Anuken/Mindustry",
+    "release": "v160.7",
+    "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+    "verifiedOn": "2026-10-26",
+    "releaseUrl": "https://github.com/Anuken/Mindustry/releases/tag/v160.7"
+  },
+  "inventories": {
+    "ui": "records/inventory-ui.json",
+    "units": "records/inventory-units.json",
+    "rule": "以上清单尚在核对时不可把缺失文件视为空清单。清单中的每项都需最终资产或明确的复用映射，不能用一张风格示例覆盖整类。"
+  },
+  "inventoryBaseline": {
+    "verifiedOn": "2026-10-26",
+    "uiIndependentSurfaces": 28,
+    "uiReusableDialogFamilies": 16,
+    "uiSharedComponentFamilies": 20,
+    "uiProductionGroups": 64,
+    "instantiatedUnitIds": 69,
+    "normalGameplayVisualUnits": 58,
+    "specialUnitIds": 11,
+    "unitArtMappingsRequired": 68,
+    "unitWithoutIndependentArt": "block",
+    "meaning": "这是参考清单规模，不是已完成数量。UI 动态建筑配置、专用编辑行和运行平台边界仍按 inventory-ui.openCoverage 补查。",
+    "productionStateDestination": "records/production-ledger.json"
+  },
+  "artDirection": {
+    "style": "道家 Q 版高清手绘；玉绿、象牙米白、暖金，圆润云纹控件，精细手绘明暗；与现有 image 项目一致。",
+    "primaryReferences": [
+      "../designs/mail-ui-v1/01-mail-event.png",
+      "../designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "referenceUse": "每次新生成/AI 编辑先按上级 AGENTS.md 读规则，实际查看并附上适用参考原图；Mindustry 只供功能、单位身份、结构和布局参考。",
+    "modelConfiguration": "../config/image-generation.json",
+    "requestedFamily": "GPT Image 2.5",
+    "generationRoute": "builtin",
+    "evidencePolicy": "每张图的实际参数、返回型号和质量仅填真实证据；未披露的字段不得当作已锁定配置型号。"
+  },
+  "delivery": {
+    "root": ".",
+    "userInputs": "input/",
+    "ui": "ui/",
+    "characters": "characters/",
+    "units": "units/",
+    "verifiedGameAssets": "exports/",
+    "records": "records/",
+    "prompts": "prompts/",
+    "uiCoverage": "覆盖固定版本中玩家可见界面、弹窗类型、编辑器和共用组件。可共用控件的对话框通过逐项映射实现覆盖，不无意义重复生成同一框板。完整页设计和可接入控件必须区分状态。",
+    "unitCoverage": "为官方单位清单逐项映射道家机关、灵兽或御器形象；保留建造、地面、空中、海军、辅助等差异。公开特殊单位、内部/生成实体分别列明，不漏记或混入常规角色总数。",
+    "unitRepresentation": "原版可旋转的俯视单位需要俯视朝向和必要的机体、炮塔、武器等分层说明。站姿人物立绘不能代替所有俯视单位。单张整套设计板不能声称已完成独立可加载文件。",
+    "nativeResolution": "目标尺寸和真实返回尺寸分开记录；不通过放大冒称原生高清。",
+    "derivedAssets": "经正式合同切分、裁切、缩放的交付文件保留 derivedFrom、来源哈希与处理说明；需要新造型细节必须调用图像模型。",
+    "transparency": "独立角色、单位与需透明的控件检查真实 Alpha、外沿色边、杂点、裁切及必要留白；伪透明和未解决杂边不能标正式素材验收通过。",
+    "integration": "提供源文件到官方资源/功能的映射、尺寸、层级、锚点和使用说明。运行时接入未验证前如实标未验证，不把静态美术当作可运行游戏或服务端。"
+  },
+  "workflow": {
+    "initialOwnerThread": "01a17720-2a4e-70c0-a0de-f389672e250d",
+    "initialOwnedAssets": [
+      "ui/01-factory-defense-hud-v1.png",
+      "characters/02-alchemy-engineer-*"
+    ],
+    "initialBatchStatus": "resolved_see_records_first_batch_resolution",
+    "initialBatchResolution": "records/first-batch-resolution.json",
+    "nextSteps": [],
+    "completionRule": "所有必需项均有真实本地文件或可核验复用映射、逐图来源完整、阻塞美术问题关闭，才能将美术包标 complete；首批概念完成不代表全项目完成。",
+    "sharedGit": "本制作任务不操作共享 Git HEAD/index/refs，不接管固定批次上传。",
+    "artProductionStatus": "complete"
+  },
+  "acceptedAt": "2026-10-26T12:46:03.418521+00:00",
+  "acceptanceSummary": "records/acceptance-summary.json"
+}

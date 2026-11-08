@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/liquid-neoplasm.png",
+  "sha256": "740344b9da973863a9304cae54beba15c0cfbe6f712fd31bc08ff1592457dbfd",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/liquid-neoplasm.png",
+      "sha256": "161d9e9d42f4ed44ca5b5d423bb6d5ab67af2009fd3382e2fa13b6a5ec2996f4",
+      "generationRecord": "full-game/items-fx/assets/liquid-neoplasm.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

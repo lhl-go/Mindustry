@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/plastanium-conveyor.png",
+  "sha256": "d3bd7838142de380037b9d3033e1eb51b1ccf07fd8ea6b4c86a57081115e7aa2",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      44,
+      74,
+      297,
+      303
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      253,
+      229
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    285,
+    261
+  ],
+  "anchorPixels": [
+    142.5,
+    130.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

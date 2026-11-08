@@ -1,0 +1,41 @@
+{
+  "region": "sublimate-nozzle-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-heat.png",
+  "sha256": "f57c3ea3f67072bd54519e149680e36f1200bff1c81ac15aa14f866c5e613424",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.552621+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate-nozzle-heat.png",
+      "sha256": "7254c49dec7b4ac612c986659d5d8c213ccf0b4432018d1024c72a2a6f69559c",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-r.png",
+      "sha256": "2a146ee2cdac58282a111c328bf4d8f821f25b857e11807833bbe32448c0145e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png",
+      "sha256": "2a146ee2cdac58282a111c328bf4d8f821f25b857e11807833bbe32448c0145e",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-nozzle-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "sublimate-nozzle-r",
+      "sublimate-nozzle-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 593
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

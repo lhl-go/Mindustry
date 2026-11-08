@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/switch.png",
+  "sha256": "874f89c1b19b4817bd7a4eaee088a51a73a6ea9af92c782a165e814a34c9f8e8",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logic-01.png",
+      "sha256": "fe7bd7b043e380f030e835646efd7c4ecf8ff12f0a799e95d2d769432cf0bae4",
+      "generationRecord": "full-game/blocks/records/logic-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      417,
+      36,
+      671,
+      323
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      254,
+      287
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    286,
+    319
+  ],
+  "anchorPixels": [
+    143.0,
+    159.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

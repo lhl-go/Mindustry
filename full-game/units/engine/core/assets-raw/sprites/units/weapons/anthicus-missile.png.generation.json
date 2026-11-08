@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+  "sha256": "5a24732368e9e735b865f10a57abf20c641b9f2c667398d0cb032e6ca9d57488",
+  "width": 28,
+  "height": 28,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/anthicus-missile.png",
+      "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+      "generationRecord": "units/special/assets/anthicus-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      277,
+      470
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      2
+    ],
+    "sourceDimensions": [
+      309,
+      502
+    ],
+    "targetDimensions": [
+      28,
+      28
+    ],
+    "officialAlphaBounds": [
+      2,
+      2,
+      26,
+      26
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      14.0,
+      14.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/anthicus-missile.png",
+    "gitBlobSha1": "5bb8d3b91e61804c811055fb976c856d3ff93894",
+    "sha256": "d02d0bb053b912c1bb867927ff88016f24d250a4cba402e2870b1ceaac16c90a"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

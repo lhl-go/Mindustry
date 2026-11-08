@@ -1,0 +1,100 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-icon.png",
+  "sourceGitBlob": "b3ae59668c98cbee6573fb21395e3f6d164d252f",
+  "sourceSha256": "5f3a4f1d2c9dfd5e9337f0f55766886bc9bc8038b11a7a1ab5e854650911b408",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "pyrolysis-generator-piston-icon",
+  "blockId": "pyrolysis-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-icon.png",
+  "sha256": "5ddb9af39d65ffe6e4e57af07c6146916b0f0c880491f3e7474d7d1bbd2c1091",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-icon.png",
+  "engineSha256": "5ddb9af39d65ffe6e4e57af07c6146916b0f0c880491f3e7474d7d1bbd2c1091",
+  "nativeFile": "full-game/blocks/masters/pyrolysis-generator-piston-part.png",
+  "nativeSha256": "94583e1afdda06a872dda1695627ba75be40f58c4617589e98b96b64df7e7eec",
+  "nativeSize": [
+    163,
+    283
+  ],
+  "sourceAlphaBounds": [
+    7,
+    7,
+    89,
+    89
+  ],
+  "operation": {
+    "kind": "plan_icon_composed_from_independent_native_pistons",
+    "originalComponentBoxes": [
+      [
+        54,
+        42,
+        89,
+        54
+      ],
+      [
+        51,
+        51,
+        81,
+        81
+      ],
+      [
+        42,
+        54,
+        54,
+        89
+      ],
+      [
+        15,
+        51,
+        45,
+        81
+      ],
+      [
+        7,
+        42,
+        42,
+        54
+      ],
+      [
+        15,
+        15,
+        45,
+        45
+      ],
+      [
+        42,
+        7,
+        54,
+        42
+      ],
+      [
+        51,
+        15,
+        81,
+        45
+      ]
+    ],
+    "runtimeAnimation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pyrolysis-generator-piston-part.png",
+      "sha256": "94583e1afdda06a872dda1695627ba75be40f58c4617589e98b96b64df7e7eec"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/pyrolysis-generator-piston-icon.png",
+      "sha256": "5f3a4f1d2c9dfd5e9337f0f55766886bc9bc8038b11a7a1ab5e854650911b408"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-icon.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

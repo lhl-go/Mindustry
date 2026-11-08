@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/additive-reconstructor.png",
+  "sha256": "0582135d0b1265213df546c7f12db471ea959918b72d55a115f5e90358ed61a8",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1123,
+      68,
+      1422,
+      350
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      299,
+      282
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    331,
+    314
+  ],
+  "anchorPixels": [
+    165.5,
+    157.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

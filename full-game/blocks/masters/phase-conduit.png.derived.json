@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/phase-conduit.png",
+  "sha256": "dff8230eb78058e5448bc1320161f7cf331c5b9f516d388bd97014e387890e0a",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1322,
+      350,
+      1611,
+      621
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      289,
+      271
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    321,
+    303
+  ],
+  "anchorPixels": [
+    160.5,
+    151.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "project": "Mindustry Daoist Q full-game art",
+  "status": "art_complete_runtime_unverified",
+  "authorizedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "authorization": "用户要求继续达到完整游戏全部美术完成程度，未达到则继续做完。",
+  "reference": {
+    "repository": "https://github.com/Anuken/Mindustry",
+    "release": "v160.7",
+    "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+    "tree": "../records/reference-ui-sources/official-tree-v160.7.json"
+  },
+  "previousAcceptedScope": {
+    "contract": "../production-contract.json",
+    "scope": "UI and units only",
+    "frozenArchive": "../exports/Mindustry-Daoist-Art-v160.7.zip",
+    "status": "accepted_for_its_original_scope"
+  },
+  "scope": [
+    "all player-visible UI and icons",
+    "all unit identities and required render parts",
+    "all construction blocks and their render layers",
+    "terrain, natural walls, ores, props and variants",
+    "items, liquids, statuses, projectiles and texture-dependent effects",
+    "world and planet visuals, campaign thumbnails",
+    "application icon, title logo and cursors",
+    "atlas-ready mapping and verified necessary technical texture reuse"
+  ],
+  "excluded": [
+    "music and sound, which are not visual art",
+    "new gameplay and server features",
+    "store marketing campaigns beyond existing project image requirements"
+  ],
+  "artDirection": "Follow the approved Daoist Q high-definition hand-painted jade/ivory/gold reference art. Preserve functional visual distinction and fixed upstream resource geometry.",
+  "route": "builtin image_gen; no newly paid API route authorized",
+  "localProcessing": "Already explicitly authorized pixel cleanup, cropping and slicing; record every derivation and source hash.",
+  "ownership": {
+    "blocks": "units_serpulo",
+    "terrain": "hud_review",
+    "items-fx": "units_air_erekir",
+    "ui-system": "root",
+    "inventory-and-integration": "root"
+  },
+  "completionCriteria": [
+    "Every upstream visual source and every runtime-only visual family has a reviewed disposition; no implicit empty categories.",
+    "Every required new identity has actual accepted art; a representative sheet does not stand for missing assets.",
+    "All required layers, variants, transparency, pivots and tile edge behavior are exported and checked.",
+    "Reused or programmatic visuals have exact evidence, technical reason and provenance, and are not represented as newly generated art.",
+    "Coverage, alpha, native dimensions, source chains and consumer mappings pass validation; remaining issues prevent complete status.",
+    "Final all-art package and public repository reflect the complete verified scope. Runtime verification limits remain explicit."
+  ],
+  "publication": "New full-game batch prepared after all art checks. Publication receipt is recorded separately and is required before claiming GitHub completion.",
+  "completedAt": "2026-10-28T08:08:58.981089+00:00",
+  "completionEvidence": [
+    "full-game/coverage.json",
+    "full-game/runtime-visuals/review.json",
+    "full-game/qa/gallery-review.json"
+  ],
+  "currentBrand": "天工仙阵",
+  "integrationRevision": "full-game/integration/README.md",
+  "desktopRuntimeAcceptance": "full-game/integration/qa/runtime-acceptance.json",
+  "desktopRuntimeAcceptancePassed": true
+}

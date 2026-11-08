@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+  "sha256": "14058ccb7ae95ec05f1df8f676f48069aa900dd9f72ee9afa866fb92ec24753e",
+  "width": 62,
+  "height": 95,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/special/assets/scathe-missile-surge.png",
+      "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+      "generationRecord": "units/special/assets/scathe-missile-surge.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      471,
+      835
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      7,
+      4
+    ],
+    "sourceDimensions": [
+      503,
+      867
+    ],
+    "targetDimensions": [
+      62,
+      95
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      58,
+      91
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      31.0,
+      47.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scathe-missile-surge.png",
+    "gitBlobSha1": "fd05b27d08dabf614e74fe8921275d84cdb8a84c",
+    "sha256": "bf2afbdc13ad8753ecd5dc921f3ddbbf989eb45713fac6169783367b9b77b315"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

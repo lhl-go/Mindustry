@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/metal-tiles-13-autotile.png",
+  "sha256": "8d4b0b67f43784ca835ed429509f4c3a39bccd97d95a4bd4ce8c7e54dc596592",
+  "size": [
+    292,
+    292
+  ],
+  "mode": "RGB",
+  "nativeResolution": true,
+  "resized": false,
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/21-autotile-materials.png",
+      "sha256": "66edebf859594112a1bc9421c5a1fdbc5eca5fb8ed3811eab5afe94571ca003b",
+      "generationRecord": "full-game/terrain/source/21-autotile-materials.png.generation.json",
+      "role": "new AI-painted material"
+    }
+  ],
+  "sourceBBox": [
+    593,
+    1480,
+    885,
+    1772
+  ],
+  "operation": "native crop with periodic-plus-smooth boundary correction and 3px edge pairing; no resize or new painted detail",
+  "seamCheck": {
+    "opposingEdgesByteEqual": true,
+    "scope": "same native tile only; runtime mixing not verified"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source host generation; no model/quality metadata disclosed."
+}

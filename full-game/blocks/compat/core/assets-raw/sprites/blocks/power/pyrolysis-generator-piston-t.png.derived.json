@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-t.png",
+  "sourceGitBlob": "ec2c0575590dd3feb19e1d766705eb6d4d52a446",
+  "sourceSha256": "0d545533bcc35d9cc7da69f51360ad70e4f22ec1868f4f60f6b76cb285f471cb",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "pyrolysis-generator-piston-t",
+  "blockId": "pyrolysis-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-t.png",
+  "sha256": "c55ba6b356af314f999ba3deb330f5dfb3c12ff58e0d022d4f68639b73374d21",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-t.png",
+  "engineSha256": "c55ba6b356af314f999ba3deb330f5dfb3c12ff58e0d022d4f68639b73374d21",
+  "nativeFile": "full-game/blocks/masters/pyrolysis-generator-piston-t-part.png",
+  "nativeSha256": "46b8dbae41080f8f11baa5f73e846b26f47d4e401b8347f44754a3c3f195c85f",
+  "nativeSize": [
+    344,
+    281
+  ],
+  "sourceAlphaBounds": [
+    54,
+    42,
+    89,
+    54
+  ],
+  "operation": {
+    "kind": "independent_native_piston_on_original_canvas",
+    "localRotationDegrees": -90,
+    "oppositeLightVariantVerticalFlip": false,
+    "runtimeMotion": "DrawPistons translation and rotation",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/pyrolysis-generator-piston-t-part.png",
+      "sha256": "46b8dbae41080f8f11baa5f73e846b26f47d4e401b8347f44754a3c3f195c85f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/pyrolysis-generator-piston-t.png",
+      "sha256": "0d545533bcc35d9cc7da69f51360ad70e4f22ec1868f4f60f6b76cb285f471cb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/pyrolysis-generator-piston-t.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

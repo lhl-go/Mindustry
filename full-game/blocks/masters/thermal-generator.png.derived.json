@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/thermal-generator.png",
+  "sha256": "5ae4d6e1c3198ca6e215462d714ba32f63fc3c8616f827630d0d238a5ff5b890",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/power-static-01.png",
+      "sha256": "71d3a81df78dc2fd289884ae287a56ad644c934cb8511b51bf3c13d41cfff59f",
+      "generationRecord": "full-game/blocks/records/power-static-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      652,
+      944,
+      901,
+      1196
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      249,
+      252
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    281,
+    284
+  ],
+  "anchorPixels": [
+    140.5,
+    142.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

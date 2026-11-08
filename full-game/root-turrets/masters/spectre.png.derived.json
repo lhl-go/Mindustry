@@ -1,0 +1,41 @@
+{
+  "region": "spectre",
+  "file": "full-game/root-turrets/masters/spectre.png",
+  "sha256": "5a7301d99a66e5c2313242651168348cfaf775ad8e2269520bdf1e87e5a7c382",
+  "size": [
+    293,
+    339
+  ],
+  "derivedAt": "2026-10-26T18:34:45.186542+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/05-regions.png",
+      "sha256": "0228423b95b97e0d952b9cd15d6ae7be703daffa644a7e5ff51b7a0fe2743c99",
+      "record": "full-game/root-turrets/source/05-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 5,
+    "sourceBox": [
+      446,
+      342,
+      715,
+      657
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

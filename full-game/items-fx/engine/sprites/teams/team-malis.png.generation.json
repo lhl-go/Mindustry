@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/teams/team-malis.png",
+  "sha256": "475def937984cc726ec27a816d9279e23d8f0715fe6807934fa3532028124756",
+  "width": 62,
+  "height": 62,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/team-malis.png",
+      "sha256": "7a516eef13e224814104e9c53c69092d7248a188ad6899290d1d1d1b23404ac1",
+      "generationRecord": "full-game/items-fx/assets/team-malis.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      62,
+      62
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

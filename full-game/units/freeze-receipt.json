@@ -1,0 +1,24 @@
+{
+  "status": "complete_art_atlas_exports_engine_not_verified",
+  "frozenAt": "2026-10-26T21:06:46.793065+00:00",
+  "revision": "tank_motion_occlusion_corrected",
+  "manifest": "full-game/units/manifest.json",
+  "manifestSha256": "e6892cc1cf0a05b1acad0063907b2dcb75d6d4e067b3d6f1144858dbc1fcf1ee",
+  "qaReport": "full-game/units/qa/report.json",
+  "qaSha256": "9e73ca7e6c53e8a1790d9bf97b0e327ab7606d5321258a0dc9403a15f8469690",
+  "motionQa": "full-game/units/qa/tank-motion.json",
+  "motionQaSha256": "8703eab44df18fc173b671a925dd317c22f7e007e1a55226fb4736acd26e67f0",
+  "counts": {
+    "sourcePaths": 290,
+    "masks": 87,
+    "newPaintedComponents": 6,
+    "revisedNativeBodies": 5,
+    "additionalWeaponBases": 2,
+    "generatedTreadFrames": 144
+  },
+  "staticDrawOrderSimulationVerified": true,
+  "engineNotVerified": true,
+  "localCleanupDeleted": true,
+  "localCleanupRecord": "full-game/root-unit-source-cleanup.json",
+  "archiveExcludedImageCount": 292
+}

@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar-cell.png",
+  "sha256": "eba2a83655a68c5739dd6102a7cf88c68b0f0431f925818c413d63bc53914143",
+  "width": 58,
+  "height": 48,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar.png",
+      "sha256": "e2edfb9b962e7ce84c04250b5ff0186647dc32f763074579ced6238b5f56b887",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/pulsar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "pulsar",
+    "baseCanvas": [
+      68,
+      58
+    ],
+    "outputCanvas": [
+      58,
+      48
+    ],
+    "centerRegistrationOffset": [
+      -5,
+      -5
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/pulsar-cell.png",
+    "gitBlobSha1": "9268d386516f98fd8b92e8efc5166d69c0299735",
+    "sha256": "ec37e5189d650db9a40d7c0f5e2867f14717ccc287d8e16c6e0ac97610195b33"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

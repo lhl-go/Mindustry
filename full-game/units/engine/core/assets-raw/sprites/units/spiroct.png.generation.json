@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/spiroct.png",
+  "sha256": "afe294fcad9147f08a17a9ae75b8f05485a0c7e9be4c712229c87fb9b35e61cf",
+  "width": 94,
+  "height": 75,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/spiroct.png",
+      "sha256": "966d26262c7b263db546ed3e435ae24d2fe5d4c06a82f1bc034370d92fbd450c",
+      "generationRecord": "units/serpulo-ground-naval/bodies/spiroct.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      409,
+      480
+    ],
+    "sourcePivot": [
+      212.5,
+      248.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      18,
+      4
+    ],
+    "sourceDimensions": [
+      425,
+      496
+    ],
+    "targetDimensions": [
+      94,
+      75
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      90,
+      71
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      47.0,
+      37.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/spiroct.png",
+    "gitBlobSha1": "36df70869ab9a1b16660a52f67b5a53f69e82fce",
+    "sha256": "759c41e6e3726e981c52ad67ba77b0ac5ff1d6f0213f92d0e817f1eb9bb2fa3f"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

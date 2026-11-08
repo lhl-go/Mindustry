@@ -1,0 +1,60 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/beta.png",
+  "sha256": "de0debcb567b4e627df22568f5a5899cc49fe38013d9a2da51ef66baf48ff151",
+  "width": 56,
+  "height": 54,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/beta-body.png",
+      "sha256": "c167f74b8a10d6ae96ca59567d2dca56150f9c455b87f3a7aa08c8c0b73e80e6",
+      "generationRecord": "units/root-builders/layers/beta-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      556,
+      478
+    ],
+    "sourcePivot": null,
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      6
+    ],
+    "sourceDimensions": [
+      588,
+      510
+    ],
+    "targetDimensions": [
+      56,
+      54
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      52,
+      50
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.0,
+      27.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/beta.png",
+    "gitBlobSha1": "3a6de9a054aaee67e4fcdca181ae20e7c2a3b77d",
+    "sha256": "f3259a7538dbc3fa57f9ddbf33a63d8209f553cc4a480cf6d3ab157bfc7f7da2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "region": "sublimate",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate.png",
+  "sha256": "d5026d433f526e82c0970513e0e6fcc6675e4d51582b021e5562080119fd2255",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.245601+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/sublimate.png",
+      "sha256": "11dab8af019f8cde76d709f580e0e6b56a31d4f38b77417a73b6b8ae5ace9841",
+      "record": "full-game/root-turrets/masters/sublimate.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate.png",
+      "sha256": "7c9c1dffa42762f14a1dd0c4f337cbdf69779546b930372fc35dbe13e7e6517a",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      18,
+      36,
+      78,
+      90
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      329,
+      311
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-vault.png",
+  "sha256": "241f248e99428797c1ea03c99964a7096f11e8f65abf39415ccffc84a6cf8e82",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      358,
+      741,
+      671,
+      1038
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      313,
+      297
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    345,
+    329
+  ],
+  "anchorPixels": [
+    172.5,
+    164.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

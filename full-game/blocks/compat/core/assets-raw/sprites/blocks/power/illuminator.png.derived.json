@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/illuminator.png",
+  "sourceGitBlob": "09b2f5cbb9f73ff8999a7f8ea4ca5d67900c418f",
+  "sourceSha256": "4eb6c06b2aa9e1257cb5d4b0486d0c25f3268defc42956f043417a70658bfb8e",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "illuminator",
+  "blockId": "illuminator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator.png",
+  "sha256": "4259fa92e2c765f3794f3b537205371044ccc3abcce0083b3b5b18c53da1c222",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator.png",
+  "engineSha256": "4259fa92e2c765f3794f3b537205371044ccc3abcce0083b3b5b18c53da1c222",
+  "nativeFile": "full-game/blocks/masters/illuminator.png",
+  "nativeSha256": "0a69a5341bf45f991a533c725f20fca04aa9049fbae78cfe66ee97eb56b627e0",
+  "nativeSize": [
+    276,
+    287
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/illuminator.png",
+      "sha256": "0a69a5341bf45f991a533c725f20fca04aa9049fbae78cfe66ee97eb56b627e0"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/illuminator.png",
+      "sha256": "4eb6c06b2aa9e1257cb5d4b0486d0c25f3268defc42956f043417a70658bfb8e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/illuminator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

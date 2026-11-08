@@ -1,0 +1,48 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/bridge-conveyor-arrow.png",
+  "sourceGitBlob": "b8b62bcb34fb9cd4b015780005a44224a7335f22",
+  "sourceSha256": "eebd75bbe968dc25c2c7ae1e61c2d2730f62c3cec8747484f3b15c2229e16a82",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "bridge-conveyor-arrow",
+  "blockId": "bridge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-arrow.png",
+  "sha256": "70fbc1dc4b927baea94e7e9b8e6fb78d439cd2f61be26da48815154cc544607d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-arrow.png",
+  "engineSha256": "70fbc1dc4b927baea94e7e9b8e6fb78d439cd2f61be26da48815154cc544607d",
+  "nativeFile": "full-game/blocks/masters/bridge-arrow-part.png",
+  "nativeSha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427",
+  "nativeSize": [
+    183,
+    178
+  ],
+  "sourceAlphaBounds": [
+    12,
+    8,
+    20,
+    24
+  ],
+  "operation": {
+    "kind": "native_right_facing_arrow_original_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/bridge-arrow-part.png",
+      "sha256": "1d8a74dcbb36f1ea86e6bde21a4bd6d9f902bccd0e69bf707e5f6823093c8427"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/bridge-conveyor-arrow.png",
+      "sha256": "eebd75bbe968dc25c2c7ae1e61c2d2730f62c3cec8747484f3b15c2229e16a82"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/bridge-conveyor-arrow.png.derived.json"
+}

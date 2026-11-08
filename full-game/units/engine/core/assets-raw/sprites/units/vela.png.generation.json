@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vela.png",
+  "sha256": "e366f53fcfd5514df5acf197e162e3fbdab10b87c085f3e14c87eeea8615e8f6",
+  "width": 170,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/vela.png",
+      "sha256": "46b0ccf7e2d9420d16dcbd5e34d75e847e17236da30c13bce409e06c3d76f5e8",
+      "generationRecord": "units/serpulo-ground-naval/bodies/vela.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      389,
+      505
+    ],
+    "sourcePivot": [
+      202.5,
+      260.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      34,
+      4
+    ],
+    "sourceDimensions": [
+      405,
+      521
+    ],
+    "targetDimensions": [
+      170,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      166,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      85.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vela.png",
+    "gitBlobSha1": "b1c734abd421975531b3d171551016654232f346",
+    "sha256": "5f2a7377e6e7583d1e82043ac06596f15bc583b8d6b3e731ca1323770a1ba875"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

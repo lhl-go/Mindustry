@@ -1,0 +1,1033 @@
+{
+  "checkedAt": "2026-10-26T19:20:01.971811+00:00",
+  "status": "technical_dependencies_and_procedural_families_reviewed",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "counts": {
+    ".frag": 29,
+    ".vert": 12,
+    ".woff": 3,
+    ".ttf": 3
+  },
+  "fontGlyphCount": 138,
+  "fontGlyphs": [
+    {
+      "name": "file-text-fill",
+      "codepoint": 61788,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file",
+      "codepoint": 61787,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-text",
+      "codepoint": 61686,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "left",
+      "codepoint": 59394,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "right",
+      "codepoint": 59395,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "up",
+      "codepoint": 59396,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "down",
+      "codepoint": 59397,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "home",
+      "codepoint": 59399,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "ok",
+      "codepoint": 59392,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "image",
+      "codepoint": 59400,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "star",
+      "codepoint": 59401,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "resize",
+      "codepoint": 59403,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "wrench",
+      "codepoint": 59407,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "github-square",
+      "codepoint": 62208,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-image",
+      "codepoint": 61893,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "add",
+      "codepoint": 59411,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "edit",
+      "codepoint": 59414,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "chart-bar",
+      "codepoint": 59417,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "plane-outline",
+      "codepoint": 59418,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "filter",
+      "codepoint": 61616,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "folder",
+      "codepoint": 59421,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "steam",
+      "codepoint": 59426,
+      "sourceFamily": "zocial",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "down-open",
+      "codepoint": 59428,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "left-open",
+      "codepoint": 59429,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "up-open",
+      "codepoint": 59430,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "map",
+      "codepoint": 59431,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "rotate",
+      "codepoint": 59427,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "play",
+      "codepoint": 59433,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "pause",
+      "codepoint": 59398,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "list",
+      "codepoint": 59409,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "cancel",
+      "codepoint": 59413,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "move",
+      "codepoint": 59416,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "terminal",
+      "codepoint": 61728,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "undo",
+      "codepoint": 59445,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "redo",
+      "codepoint": 59446,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "info",
+      "codepoint": 61737,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "info-circle",
+      "codepoint": 59447,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "right-open-out",
+      "codepoint": 59449,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "right-open",
+      "codepoint": 59450,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "waves",
+      "codepoint": 59451,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "filters",
+      "codepoint": 59454,
+      "sourceFamily": "iconic",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "layers",
+      "codepoint": 59455,
+      "sourceFamily": "iconic",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "eraser",
+      "codepoint": 61741,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "book-open",
+      "codepoint": 59393,
+      "sourceFamily": "entypo",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "grid",
+      "codepoint": 61481,
+      "sourceFamily": "mfglabs",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "flip-x",
+      "codepoint": 59410,
+      "sourceFamily": "elusive",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "flip-y",
+      "codepoint": 59458,
+      "sourceFamily": "elusive",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "diagonal",
+      "codepoint": 59460,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "discord_",
+      "codepoint": 59405,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "reddit-alien",
+      "codepoint": 62081,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "github_",
+      "codepoint": 62216,
+      "sourceFamily": "brandico",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "googleplay",
+      "codepoint": 59453,
+      "sourceFamily": "zocial",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "android",
+      "codepoint": 59461,
+      "sourceFamily": "zocial",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "trello",
+      "codepoint": 61825,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "logic",
+      "codepoint": 59406,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "distribution",
+      "codepoint": 59412,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "hammer",
+      "codepoint": 59415,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "save",
+      "codepoint": 59419,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "link",
+      "codepoint": 59420,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "itchio",
+      "codepoint": 59434,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "line",
+      "codepoint": 59435,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "admin",
+      "codepoint": 59436,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "spray-1",
+      "codepoint": 59437,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "crafting",
+      "codepoint": 59440,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "fill",
+      "codepoint": 59468,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "paste",
+      "codepoint": 59474,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "effect",
+      "codepoint": 59475,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "book",
+      "codepoint": 59483,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "liquid",
+      "codepoint": 59484,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "host",
+      "codepoint": 59485,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "production",
+      "codepoint": 59486,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "exit",
+      "codepoint": 59487,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "mode-pvp",
+      "codepoint": 59489,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "mode-attack",
+      "codepoint": 59493,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "refresh-1",
+      "codepoint": 59495,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "none",
+      "codepoint": 59496,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "pencil_",
+      "codepoint": 59497,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "refresh",
+      "codepoint": 59498,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "mode-survival",
+      "codepoint": 59499,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "command-rally",
+      "codepoint": 59500,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "units",
+      "codepoint": 59501,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "command-attack",
+      "codepoint": 59502,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "trash",
+      "codepoint": 59503,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "chat",
+      "codepoint": 59504,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "turret",
+      "codepoint": 59505,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "players",
+      "codepoint": 59506,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "editor",
+      "codepoint": 59507,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "copy",
+      "codepoint": 59508,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "tree",
+      "codepoint": 59509,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "lock-open",
+      "codepoint": 59510,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "pick",
+      "codepoint": 59511,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "export",
+      "codepoint": 59512,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "download",
+      "codepoint": 59513,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "upload",
+      "codepoint": 59515,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "settings",
+      "codepoint": 59516,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "spray",
+      "codepoint": 59517,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "zoom",
+      "codepoint": 59530,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "power_old",
+      "codepoint": 59531,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "power_",
+      "codepoint": 59408,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "menu",
+      "codepoint": 59532,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "lock",
+      "codepoint": 59533,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "eye",
+      "codepoint": 59534,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "eye-off",
+      "codepoint": 59535,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "warning",
+      "codepoint": 9888,
+      "sourceFamily": "modernpics",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "terrain",
+      "codepoint": 59492,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "defense",
+      "codepoint": 59469,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "planet",
+      "codepoint": 59443,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "arrow-note",
+      "codepoint": 59444,
+      "sourceFamily": "custom_icons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "music",
+      "codepoint": 59402,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-audio",
+      "codepoint": 61895,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "volume-off",
+      "codepoint": 59404,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "volume-down",
+      "codepoint": 59423,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "volume-up",
+      "codepoint": 59424,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "tag",
+      "codepoint": 59425,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "tags",
+      "codepoint": 59432,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "battery-4",
+      "codepoint": 62016,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "battery-3",
+      "codepoint": 62017,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "battery-2",
+      "codepoint": 62018,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "battery-1",
+      "codepoint": 62019,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "battery-0",
+      "codepoint": 62020,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-code",
+      "codepoint": 61897,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-video",
+      "codepoint": 61896,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "file-archive",
+      "codepoint": 61894,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "folder-open",
+      "codepoint": 59438,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "folder-empty",
+      "codepoint": 61716,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "folder-open-empty",
+      "codepoint": 61717,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "inbox",
+      "codepoint": 59439,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "sitemap",
+      "codepoint": 61672,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "cloud",
+      "codepoint": 59441,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "upload-cloud",
+      "codepoint": 61678,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "download-cloud",
+      "codepoint": 61677,
+      "sourceFamily": "fontawesome",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "rain",
+      "codepoint": 59442,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "cloud-sun",
+      "codepoint": 59448,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "drizzle",
+      "codepoint": 59452,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "cloud-flash",
+      "codepoint": 59456,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "cloud-wind",
+      "codepoint": 59457,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "box",
+      "codepoint": 59422,
+      "sourceFamily": "entypo",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    },
+    {
+      "name": "chart-alt",
+      "codepoint": 59459,
+      "sourceFamily": "typicons",
+      "disposition": "existing_font_glyph_retained",
+      "reason": "Codepoint-compatible monochrome symbol fallback; styled atlas images do not automatically replace font glyphs."
+    }
+  ],
+  "families": [
+    {
+      "id": "localized-fonts",
+      "evidence": "core/src/mindustry/ui/Fonts.java",
+      "disposition": "exact_upstream_font_reuse",
+      "details": "Main/Japanese text, monospace logic, icon and tech fonts retain readable glyphs and original metrics."
+    },
+    {
+      "id": "planet-surfaces-clouds-atmosphere",
+      "evidence": "core/src/mindustry/content/Planets.java",
+      "disposition": "retain_mesh_algorithms_and_palettes",
+      "details": "Sun, Serpulo, Erekir, Tantros and asteroid meshes are generated from geometry/noise, not omitted image files. Their original functional surface palettes and geometry remain. Campaign emblems and space cubemap are provided by the art domains.",
+      "planetConstructorNames": [
+        "sun",
+        "erekir",
+        "tantros",
+        "serpulo"
+      ]
+    },
+    {
+      "id": "lighting-fog-fluids-shields",
+      "evidence": "core/src/mindustry/graphics/Shaders.java",
+      "disposition": "exact_shader_reuse",
+      "details": "41 shader files retained. New source textures remain separate, preserving sampler names and runtime tint behavior."
+    },
+    {
+      "id": "267-runtime-fx-callbacks",
+      "evidence": "full-game/items-fx/runtime-fx.json",
+      "disposition": "retain_exact_official_callbacks",
+      "details": "Primitive circles, rays, dust, smoke, lightning and explosions retain official drawing algorithms and gameplay parameters. All texture dependencies have explicit source mappings."
+    },
+    {
+      "id": "128-build-time-fluid-and-particle-regions",
+      "evidence": "full-game/items-fx/runtime-atlas.json",
+      "disposition": "preserve_official_generator_contract",
+      "details": "16 bubble and 12 splash masks exported; 50 liquid and 50 gas regions generated by preserved official algorithm."
+    },
+    {
+      "id": "block-and-unit-runtime-transforms",
+      "evidence": "full-game/blocks/inventory.json",
+      "disposition": "keep_original_renderer_transforms",
+      "details": "Rotation, recoil, legs, tread frames, draw-part loops and moving pistons consume the new original-canvas layers. Their renderer is not a separate missing art sheet."
+    },
+    {
+      "id": "world-layout-and-map-data",
+      "evidence": "records/reference-ui-sources/official-tree-v160.7.json",
+      "disposition": "keep_original_map_and_generator_data",
+      "details": "114 msav files are binary gameplay maps, not images. Source content layouts, procedural world generators and map saves are preserved in the upstream game; no map save is represented as new art."
+    }
+  ],
+  "errors": [],
+  "runtimeIntegrationVerified": false,
+  "scopeLimitation": "These dependencies are explicitly reused. This package does not claim that every font outline, procedural particle or 3D mesh has been redrawn in the Daoist style."
+}

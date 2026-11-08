@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/cliff-crusher-rotator.png",
+  "sourceGitBlob": "a63c5c351a237250a2331f777749b80b811cdf55",
+  "sourceSha256": "dea28dfa669a2b1087128fe5ba5cb56d17ffd278898e81c4b83f5fde4a747e28",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "cliff-crusher-rotator",
+  "blockId": "cliff-crusher",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-rotator.png",
+  "sha256": "f4d01638b978edf8d112a00f0bae6bae0c98889165c2264fa2bf03e1ea8ffdf1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-rotator.png",
+  "engineSha256": "f4d01638b978edf8d112a00f0bae6bae0c98889165c2264fa2bf03e1ea8ffdf1",
+  "nativeFile": "full-game/blocks/masters/cliff-crusher-rotator-part.png",
+  "nativeSha256": "64af80708f08314b8ad3e105c4f9a942c0857f5f3ad59a4e791625b1185f0061",
+  "nativeSize": [
+    277,
+    273
+  ],
+  "sourceAlphaBounds": [
+    22,
+    22,
+    42,
+    42
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/cliff-crusher-rotator-part.png",
+      "sha256": "64af80708f08314b8ad3e105c4f9a942c0857f5f3ad59a4e791625b1185f0061"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/cliff-crusher-rotator.png",
+      "sha256": "dea28dfa669a2b1087128fe5ba5cb56d17ffd278898e81c4b83f5fde4a747e28"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/cliff-crusher-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

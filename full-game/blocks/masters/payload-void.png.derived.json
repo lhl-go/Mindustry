@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/payload-void.png",
+  "sha256": "de7d99f6d6e380f8f1d290151d53452adeaad5a4520b1db20f5c70b6c3c9a118",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      89,
+      827,
+      341,
+      1052
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      252,
+      225
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    284,
+    257
+  ],
+  "anchorPixels": [
+    142.0,
+    128.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

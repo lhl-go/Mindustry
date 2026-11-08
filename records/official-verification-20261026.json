@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-26",
+  "timezone": "America/New_York",
+  "method": "web search followed by opening official documentation pages",
+  "modelRequestedByUser": "GPT Image 2.5",
+  "configTarget": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max"
+  },
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "finding": "官方模型页列出 GPT Image 2.5 Sunburst；可用质量包括 low、medium、high、xhigh、max、auto。"
+    },
+    {
+      "url": "https://developers.openai.com/api/reference/resources/images/methods/generate",
+      "finding": "官方生成接口列出 Sunburst 与其快照，并支持 max。"
+    }
+  ],
+  "limits": "官方产品/接口能力核对不证明本次内置工具返回了精确型号或质量。内置实际参数没有 model、quality 或 size。本任务不改共享配置，不使用付费 API/CLI。"
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/source/12-walker-body-correction.png",
+  "sha256": "c70965a4eb5697386d1be6c7c4ea57e06fec4f28a64a3f7b0d4752ae553d538f",
+  "generatedAt": "2026-10-26T11:12:06.236Z",
+  "generatedAtBasis": "tool_return_receipt_time",
+  "startedAt": "2026-10-26T11:07:54.859Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    2048,
+    1024
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Precisely EDIT these two legless mechanical walker body sprites. Left object must be reference1 Merui, right object reference2 Collaris. Two complete isolated hulls side-by-side on real transparent RGBA. Requested2048x1024. Strict top-down north-facing. Preserve exact jade/ivory/warm-gold hand-painted shell design, scale details and side limb sockets. CRITICAL CORRECTIONS: Merui REMOVE the whole large open mortar tube at the top of the hull, including its gold round gun base and green rounded lens. Replace that entire top zone by continuous solid jade-and-ivory armored shell matching existing plates, short rounded pointed nose and only a SMALL FLAT round mounting pad. There must be NO cylinder, barrel, muzzle, lens or gun above the shell. Collaris REMOVE the entire gold cylindrical centerline cannon running vertically between its top pointed nose and center medallion. Replace this channel with contiguous flat jade/ivory armor, same subtle painted panel ornament. Do not leave any exposed gold tube or muzzle. Keep a SMALL FLAT mounting pad only. Keep all side limb sockets open and all margins. No legs, no guns, no weapons, no detached parts, no background, no shadows/haze, no text. References3/4 style only, do not draw UI or figures.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\layers\\merui-body.png",
+      "D:\\work\\image\\mindustry-image\\units\\air-erekir\\layers\\collaris-body.png",
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无型号、质量或尺寸参数，返回未披露精确型号和质量。",
+  "prompt": "prompts/air-erekir/12-walker-body-correction.txt",
+  "promptSha256": "1c68b345a3b093f73516063cd11a3d2809a57d81d1214901a5096913c8d91203",
+  "references": [
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\layers\\merui-body.png",
+      "sha256": "284dc27143816560c75047b3f7d28fe4d6f28c7135b8ba11cd3149e53c54e765",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\units\\air-erekir\\layers\\collaris-body.png",
+      "sha256": "75d956cac8571234adf3331c8acd451b03e98cce728057882e16cfbc0995f12d",
+      "purpose": "edit_target",
+      "inspected": true,
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    },
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    }
+  ],
+  "evidence": {
+    "receipt": "records/workers/air-erekir/12-walker-body-correction.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-2ee970d6-5f3f-478c-941c-ea8462bb07cb.png",
+    "originalOutputSha256": "c70965a4eb5697386d1be6c7c4ea57e06fec4f28a64a3f7b0d4752ae553d538f",
+    "sourceBytesPreserved": true,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaInspection": {
+    "present": true,
+    "transparentPixels": 800556,
+    "opaquePixels": 519,
+    "partialPixels": 772463
+  },
+  "units": [
+    "merui-body-v2",
+    "collaris-body-v2"
+  ],
+  "status": "intermediate_retained_cleanup_blocked",
+  "sourceImageRetained": true,
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}

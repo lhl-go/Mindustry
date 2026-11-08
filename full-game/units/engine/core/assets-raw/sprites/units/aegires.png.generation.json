@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/aegires.png",
+  "sha256": "03a79206b8b2629a051a3b9e20e3e793a7f3c8e9869ead3d5effcabeda8f098f",
+  "width": 218,
+  "height": 241,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/aegires-body.png",
+      "sha256": "1a05fa676247d7b541cff832ca1cdae48a549ab18fa6d8cae0b476bceb39cb55",
+      "generationRecord": "units/serpulo-root-parts/layers/aegires-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      509,
+      542
+    ],
+    "sourcePivot": [
+      270.5,
+      287.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      541,
+      574
+    ],
+    "targetDimensions": [
+      218,
+      241
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      214,
+      237
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      109.0,
+      120.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/aegires.png",
+    "gitBlobSha1": "4514fb20357bb0449096d5d916b73f7492653ede",
+    "sha256": "c3a833c085b49c217afee513356e53aae037683ac52b3bb45ab9bbb842f1e967"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

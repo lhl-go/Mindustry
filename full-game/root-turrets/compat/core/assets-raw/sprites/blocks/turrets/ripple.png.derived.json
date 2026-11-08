@@ -1,0 +1,42 @@
+{
+  "region": "ripple",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/ripple.png",
+  "sha256": "9ef1fb810beb54dc431e4731bd084bc2f52e8ae1b1f4bebf72b49e41ce83143e",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.163021+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/ripple.png",
+      "sha256": "dea800ff710bc26af60069f6eb734238b1dd60cf8c4563f6e7eec9163e5f0033",
+      "record": "full-game/root-turrets/masters/ripple.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/ripple.png",
+      "sha256": "e36e2a8275cc56e4f3feede0b0cc240051bf1fbce054ff2ce702e8b10dbbc12a",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      9,
+      4,
+      87,
+      88
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      332,
+      343
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

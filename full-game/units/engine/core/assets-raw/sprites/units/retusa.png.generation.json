@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/retusa.png",
+  "sha256": "46cdd89b605a3cd449c1ea67fd7d54fb86880fbe04a4ff30f8305d6f649228a6",
+  "width": 70,
+  "height": 78,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/retusa-body.png",
+      "sha256": "661c50658f15c04dd9683727c640f55bbb2eb5fcc9d88df64dced17e742e9b3e",
+      "generationRecord": "units/serpulo-root-parts/layers/retusa-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      304,
+      503
+    ],
+    "sourcePivot": [
+      168.0,
+      267.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      15,
+      4
+    ],
+    "sourceDimensions": [
+      336,
+      535
+    ],
+    "targetDimensions": [
+      70,
+      78
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      66,
+      74
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      35.0,
+      39.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/retusa.png",
+    "gitBlobSha1": "367e0d5921ee542f8dace93458348417cde0c9ab",
+    "sha256": "fff586e1a65901350948bb7aa5c8b5248dbcc303da18aadce65df58b2ccac39c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

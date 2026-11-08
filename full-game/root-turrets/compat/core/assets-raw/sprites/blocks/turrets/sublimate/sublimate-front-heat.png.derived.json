@@ -1,0 +1,41 @@
+{
+  "region": "sublimate-front-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-heat.png",
+  "sha256": "76e42c7deac02f91ed5c5b8f22f43bdbe53c153c014836983ff0a968147eafa4",
+  "size": [
+    58,
+    39
+  ],
+  "derivedAt": "2026-10-26T18:34:46.544288+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate-front-heat.png",
+      "sha256": "77694bc5de29c0fdc28ff5bb9a0325753f3fc1c2cad124b6a5eaccd0821a7b82",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-r.png",
+      "sha256": "40b10e5b4efabd7b2af5ae0016de035e6cdb69c19bf2f5e7b4b56b1efb3c5a92",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-l.png",
+      "sha256": "40b10e5b4efabd7b2af5ae0016de035e6cdb69c19bf2f5e7b4b56b1efb3c5a92",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-front-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "sublimate-front-r",
+      "sublimate-front-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 435
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/plastanium-compressor-top.png",
+  "sourceGitBlob": "52892006b48125e743e5f608f2d0d9db0fddfbb8",
+  "sourceSha256": "6a11b6dd1221e05a1eafa53bd11dc6104d5b5ffd9202079520d7ea48b75eab3e",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "plastanium-compressor-top",
+  "blockId": "plastanium-compressor",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor-top.png",
+  "sha256": "a9225f13d4e6fcaf2d6d7321d4b7c4e1ba0cb883bbce1001726a4487c035fc96",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor-top.png",
+  "engineSha256": "a9225f13d4e6fcaf2d6d7321d4b7c4e1ba0cb883bbce1001726a4487c035fc96",
+  "nativeFile": "full-game/blocks/masters/plastanium-compressor.png",
+  "nativeSha256": "6cc1997b0c00bb622d0c38c4ed3336cfdaf6119e52956ffa94e19ece1fd23605",
+  "nativeSize": [
+    342,
+    334
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    60,
+    60
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plastanium-compressor.png",
+      "sha256": "6cc1997b0c00bb622d0c38c4ed3336cfdaf6119e52956ffa94e19ece1fd23605"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/plastanium-compressor-top.png",
+      "sha256": "6a11b6dd1221e05a1eafa53bd11dc6104d5b5ffd9202079520d7ea48b75eab3e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/plastanium-compressor-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

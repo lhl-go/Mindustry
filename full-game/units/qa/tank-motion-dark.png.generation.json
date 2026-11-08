@@ -1,0 +1,752 @@
+{
+  "file": "full-game/units/qa/tank-motion-dark.png",
+  "sha256": "5b6a8f89e996a84c923099d3de612bdd5aaa49c59dab39ea0e7a7d75f6113afa",
+  "operation": "QA simulation only: source-defined tread/frame placement first, body overlay second, enlarged pixels for review; final column visualizes actual changed pixels",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/stell.png",
+      "sha256": "d2b0723f7b6b477c89e7c54f1d4a91cc6c6e0a91a63aa17ea4e4c15c2dd15f6d",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/stell.png.generation.json"
+    },
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/locus.png",
+      "sha256": "42c8e859f675f76da279df9e3520ac0752eb983870b2bde5a615b2a4c39d43bb",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/locus.png.generation.json"
+    },
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept.png",
+      "sha256": "5c02dcec64ab9b8b62d1ba09516bafcdff1bceedc26f0cecd391f0a882987a81",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/precept.png.generation.json"
+    },
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png",
+      "sha256": "a02641b8200b79c38d794d2ff9d3e34ad487be11ff7afad1625e0d84f2588733",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png.generation.json"
+    },
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png",
+      "sha256": "a826ce6b02fd557fb310b3a9a1412d5462e53a3028c1b6d59f63a7cd1e1f8932",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/conquer.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-0.png",
+      "sha256": "8929da30069c86f4c5e2d83e0393239f18c5821f4139a9d88028ca195cdb9ec0",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-1.png",
+      "sha256": "b7c4742d0202aed64d05d06b510e28f9c6a16db06be32f7acde55345798615a6",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-2.png",
+      "sha256": "d9947c326e7adcb496697709f12a86c7544d80e4fdc9682f982560d482822deb",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-3.png",
+      "sha256": "ae9cbdaafabcdd04df3ac855d9ec99ad098bbad9fdd1ad69e70e94ef9bb789cf",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-4.png",
+      "sha256": "ba1a38652895b68f83d68416c7f3154fa0862fc56394575513015b83a7c3eed3",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-5.png",
+      "sha256": "79627e551cc014d3d2f0253d96fda4a89f4e471623e7ccdb817679cca1e0a44a",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-6.png",
+      "sha256": "0179fc8efa570c8116558ddc2c964e83ad6fde7be296a82070239fe76d457d42",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-7.png",
+      "sha256": "31f65ff02b4d12376080e5bba4153988a7a785b42dc3f82be139925a390e6892",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-8.png",
+      "sha256": "b525d30226106d9b4268e6ffa151ea08a567857145ed7837200f2b16457811ce",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-9.png",
+      "sha256": "280617fb06ac001ec8b9adb5ecacf9d748b88ed8eef115a3db384c0ff5818ed8",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-10.png",
+      "sha256": "d9d4bdda95ecb45df06094868f2b8839e2eef7b91f3a1598c03099443ca3ff32",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-11.png",
+      "sha256": "bed4e918b2b90788b3d046a9d360de2f33fe4917b47187f9143ca997f4ce5f88",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-12.png",
+      "sha256": "94abc640b11ccc58c7d76f1f01ae1197722531372935cda38f94c2488393bec2",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-13.png",
+      "sha256": "1e0e03c0ce1c7d38f573542b3ae91eb965fbe3b54a45c7dcbffe00bda3dd79a9",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-14.png",
+      "sha256": "9c7c1394e065356a4c530da812ef78a21d48d7a8ed4d9afd91581aef8ddb3f75",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-15.png",
+      "sha256": "d9a747d5e185a366c286a7dcfdeefddf81b33faf730280a856fa3c5422e8646a",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-16.png",
+      "sha256": "96d7620258c73f2d1c2bc57c5e32defe18fbfabafda5bfd2dfd0e39daebcd3d5",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads0-17.png",
+      "sha256": "5aba01fbb135d18ce0528afae12a9a178bdf6f0bb2648da7fe92e559b1473527",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads0-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-0.png",
+      "sha256": "bff3dece1b0564e2137c22442741645124e1c821071a645a4778b300146e668b",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-1.png",
+      "sha256": "b7a914582783e79d762603031a3970bd8605d356738a3eebd4708fc18b32e6bf",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-2.png",
+      "sha256": "cf151ee209c14959b0be19c2c49617448f6df32c9c3417a51ea5395eb1a6d23c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-3.png",
+      "sha256": "f14eae5754df0b7ea0effa6ea346742a9776a7e02956e079ff36aa26249b26a0",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-4.png",
+      "sha256": "aa871cbe987faceea84b2b3f9581690712f6d85aae96f0db1bc2898b34731df8",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-5.png",
+      "sha256": "b38111234857847866ede1ba8d6a07d3ef57817da1b5148b102d7f57db26764d",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-6.png",
+      "sha256": "8bf2d35938ba5d77f2b9556b30fbcb9ed1ee5ca0c0dd86df61adad50d2516574",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-7.png",
+      "sha256": "cfe8519c93d3af54a985a05e5e66ed6ecc18043fd1dd041795263daf14d31b45",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-8.png",
+      "sha256": "0377151a4161c5b38d1b668823989d1e0736c9f3990f37ba7c1ae5d77524e554",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-9.png",
+      "sha256": "b00f70831eb5faff4e65bc5b7adedefbc402bebdd696911718d3af6e88ba759c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-10.png",
+      "sha256": "16ffb755ab05a35eb71d31118fd161ad0e2481b14640f41cedd91757b4d01b14",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-11.png",
+      "sha256": "b37fe63dcb6162c3ca7e20a61ba002c8fa51f02abfd6c25257b95f84c6359344",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-12.png",
+      "sha256": "23ea4c3274c3d8095907df4d826f4e366669954f85c71737d31beba5cc5ae57d",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-13.png",
+      "sha256": "be67a800687fcb8ac40f945232afc9da9a7c0f864bc007f0296f38369b3e3af8",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-14.png",
+      "sha256": "0c50066e76660702e30e143bcdbc97d4c6546a540d0d3a6c902279f1a9a4833d",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-15.png",
+      "sha256": "c8164ec0016caed77f8709abe391cf21e843b6fc570b334cf623dadb4c6f00d7",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-16.png",
+      "sha256": "5d76bd81ccdf90d516941eaa3cca2f98398bc790b29cfaa31d6e1d681142708e",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads1-17.png",
+      "sha256": "ff0a444bbb9e6ea11e92e27d7961f51872d282948c7cf0a60f96fca0eca6ce73",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads1-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-0.png",
+      "sha256": "aedbaa687055a39c3b68e87c0716b1cdd229dfbdf758f83343a89386337e5a00",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-1.png",
+      "sha256": "b30eeca86a0dd8df9a9afa043f7952e7fa538b33214d5b77329b57d3bfc1e7cd",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-2.png",
+      "sha256": "685851f468187b72c140776e3df17ee4db08c8f48a15303c86924206ecd86406",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-3.png",
+      "sha256": "98023d773fab073f8530b901da7f4b0fc081e241c547c26b49516ecfcfc6259c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-4.png",
+      "sha256": "462c13c807a97c8ef96764821d0023b09679b58a899ca01f70c705d2cfb01d5e",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-5.png",
+      "sha256": "991437d700024f707e226914294a94c9d1bf36f37041b27000b36bf7111d2adb",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-6.png",
+      "sha256": "c0c2201e3362deee6d660fcd15c7993086eedb0bd30ee6edcd1a41f9a213002c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-7.png",
+      "sha256": "4f1fc1b4ecb5d230ca21a51d16f1d77d80b63b545abd89b5a4d505018d72e64f",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-8.png",
+      "sha256": "6865dcd124b0c9e237ec6eb43138e12b196d903b02e37ab69aa0466901108ee4",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-9.png",
+      "sha256": "56d28582b2ae129cf77917639caacd6ffa8419513b88682da9c341754321b39f",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-10.png",
+      "sha256": "4371b5250b21b27ed48cc8f2c8723698f4c9d4244706b25681fedef98e429b0c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-11.png",
+      "sha256": "a61f86b783299b71cf01ea9a8adeaa259a833ab3799bb20183188bde17dcf103",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-12.png",
+      "sha256": "d4916c1ed60a4a867b7ce7bc5b1fcb713045185e5b9f964350b297b2d2043c80",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-13.png",
+      "sha256": "eb8c4816864e0d148ea6b6a9476eb8bbb935b87cbd19687a67146dba012acd80",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-14.png",
+      "sha256": "812b7d107b67efe1b397dab50daa82225df1ea69db5a5f5e8881347c4966cd2e",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-15.png",
+      "sha256": "6fd9c6e327c8253b546b781f4c044fa1556ce7995e8047f918e0f9a3272393f0",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-16.png",
+      "sha256": "25cbcd575628a3e61aff6ab0e3944d7d1deb9296e304762a18b09fc3b09de90c",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/conquer-treads2-17.png",
+      "sha256": "d4df4484f65dd38cbe0cef313b4f971909abd39d0bff95719e13b75f0b63f280",
+      "generationRecord": "full-game/units/generated-atlas/conquer-treads2-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-0.png",
+      "sha256": "6919c173d99eb6e7ed183a723bff3fcb1bcffb1017589256653e0eaa1340c948",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-1.png",
+      "sha256": "ab18e4779cf61aabdddcc259546388a6149c52b42d12b2fea7fc89e93941bfb9",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-2.png",
+      "sha256": "8931897ac45d0ffb748346ae828a1111dbbe64711bd63e0edf6eae204cfbb74b",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-3.png",
+      "sha256": "ac445ea42e17035dd01d9e8d0553d7eca0fefb15d60df0a189df38dfb3cdc026",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-4.png",
+      "sha256": "d43bac665e25c4f673c67ab3b9efc3e4642b5c598859381dfd614cfc3a94d24a",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-5.png",
+      "sha256": "64ab381194a36ec6d4e83aa454fb7039f085ed50ee76d2dc5a7c75af5c1bb2dd",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-6.png",
+      "sha256": "ddf7ca02fc57e5d6db10738e68ba9f325a766b09c063eb520612e972c7fc81dc",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-7.png",
+      "sha256": "381718f63a7823ccde9ad058428ef9868f8c72d090878853d900b8fe94616a4d",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-8.png",
+      "sha256": "db613e0827f368278ad653d61dcaeac38df5eae337e9c4e934d7e56b6fd3535f",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-9.png",
+      "sha256": "b777c54b1726fba7d6eb5933fbf0a219045afded907fb5b5e73322780ca33ce3",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-10.png",
+      "sha256": "773a03936d418d5301769f4b566b9e4e9d687cf0145f540ed7e6c8a0d0b37a2e",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-11.png",
+      "sha256": "34fcb26ec93b61038c7af81dbb96a3831629ddc220d0447d068733db16ccdaa5",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-12.png",
+      "sha256": "a32ece2e127f03f3db72f258d2c038d6347736632fe95a649c51310bedbd94ad",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-13.png",
+      "sha256": "cded3276e5e3d30083c10418c9b61be222c9ffe496609132f5863d4db60f06c7",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-14.png",
+      "sha256": "ad06af81028d69f2b9fc05a7f778a3f39bdd081123c57ddb6233dd3d8799c607",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-15.png",
+      "sha256": "3fac7d390d76cb8fae28263a7b20c9088e77016d5f1c96771a0a0c6f3c426370",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-16.png",
+      "sha256": "4466c2cf02dc4067836141571fd7310d114831544a0b72171c32e71b92a299e6",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/locus-treads0-17.png",
+      "sha256": "ea87477dc075642620d2995799ab5026e400428d840c656fd09a518923958c59",
+      "generationRecord": "full-game/units/generated-atlas/locus-treads0-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-0.png",
+      "sha256": "7d80124f78a203797c5c1d8a219626ae9aaf6ec701d657d8ba8bda45b9b08131",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-1.png",
+      "sha256": "4430015127aa22c8074a0772133ba936db391be78543e6d7025ff7a1f9d4f56a",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-2.png",
+      "sha256": "b4af560e824a4247327da104957c111347899c3ef832bd54181280429705b943",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-3.png",
+      "sha256": "d8ae022b6572798557c25d55bce5a189643fda593fb1488f9bd3c938dcc34fd9",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-4.png",
+      "sha256": "00f995d4f88d6348c296389c006bf4629c52fe2ed490c27aebd14343c6e7cd00",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-5.png",
+      "sha256": "b35e04bf0262a58f8120f6c53b4c3532d71c97792e3766f197990d3c047d33f0",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-6.png",
+      "sha256": "41075a55ca496d936f281a3b3cefd0c0dc366e3dfeb0fbb687462fd1d1d0781b",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-7.png",
+      "sha256": "9f6ce3ead12836a79cc6dc16afad61b786980ab348aebe563a093d247329555b",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-8.png",
+      "sha256": "c7d092b0b19a2f042a8fadf1f054f9f166b036bf0a4f4c6262386afffd3ff1ff",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-9.png",
+      "sha256": "037728ad232829bde40d27e62aef67430625a86a056c0c015d46117ead168797",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-10.png",
+      "sha256": "6e5532f67ce82ee2c96ac0d7de700ac4be600dbff04e8e74b7e5b0cb37a79cb6",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-11.png",
+      "sha256": "40100d50efd93fd091bfb7349907ce41b60e4690a05012512fc75746e5558a54",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-12.png",
+      "sha256": "802a76aa21f80f721c8360ed54cacc100497011d1e2b155a2c6170e01d8ebedb",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-13.png",
+      "sha256": "267cc0debd4f80775328a242104d3667ddb04c954fa956540abbe0bb9b3ffb27",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-14.png",
+      "sha256": "1a9cd53ae6f52a548fadbb9c59a34369b5be8f144bbf92b4ea3e8b24e0e2641f",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-15.png",
+      "sha256": "bb968378845e7997dad4cf51373f02ea631067552fd5fc92235dc4dcf52d6af1",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-16.png",
+      "sha256": "750450fe0a2d1f095ea7b93d9addf36dc5f8480389c37944a04ac7a639abba51",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads0-17.png",
+      "sha256": "f3a508d89c9e91dab24aa82db506732ff2843418d6d80b0a42dde692ae443f0f",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads0-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-0.png",
+      "sha256": "b0d3936a8ee321652886733bd3ca14eb4e1f6a28f7e9635d54fcd7564a46f68a",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-1.png",
+      "sha256": "cfc02e6e3c0996ab8cf2f9fba864f3a06101e6a8597cb7c93ba2bf4b15bac0ba",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-2.png",
+      "sha256": "b6e8d8cf50b1b31d131b606af6a1e9b48fafda8cffff5c8258d841658296e35e",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-3.png",
+      "sha256": "f3c73d2103c4cb80989863c93711830667d864ff107217639a45bb30c1409fde",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-4.png",
+      "sha256": "d32552aae909a6ece29685a5231e1df52becd0718a90b59872a3b3f8065282cd",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-5.png",
+      "sha256": "1d12d2299527d4d44bf01197441b572d1ab4dd5c0bbf92373d060d7925ca9b5d",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-6.png",
+      "sha256": "9f56dc4e78f1f986c48833aaea419cb7a460f4e622a5367b6b7d6f6781222ada",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-7.png",
+      "sha256": "cfeba401b130984a2f54ed99cc34e31edc51ea94e4326650efdf8a8e113a10d8",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-8.png",
+      "sha256": "099969c213c2b1894639824c4c6ee19dab2fd01474bfd10167e8f0921f0ef955",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-9.png",
+      "sha256": "55e7e7f7743d01d295bc1ab718f9143bd8759faf8ef71793e7a1eb7e22e8063c",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-10.png",
+      "sha256": "0565d068dcb3dab836cff909bf18de6c9b2c4cd86e1774bde5ca63e7191e77fc",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-11.png",
+      "sha256": "78c1d9445bc8fe3c7d196f50857cf29201e8d4ea680dbb8aefba1b04b8a4bd93",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-12.png",
+      "sha256": "22c9eb5258ba53901b196c1ad37703c384309f563f2cc3ae3be25fed7dc4ced4",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-13.png",
+      "sha256": "93f6f4388048079dcbee9775bd72a02f2913e891c9094f7d6ebbb65053a7d410",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-14.png",
+      "sha256": "f98af4a683d83977f34afb7ddcd59519fbb0b4b25f6cb55a34d9f0c9069f6db4",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-15.png",
+      "sha256": "2d4478b31a7938f66bce53297a8d9224d7d47686e4b1ec636b2918f0a37d63c3",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-16.png",
+      "sha256": "a8b866ad470e0447571a218ea1c774b5fa0c38953947a4e9afe8275b6b0c39bc",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/precept-treads1-17.png",
+      "sha256": "0f7388cd97ddc3679c1f8b1213897b563127a2662ed2369c726aef39483dbcc2",
+      "generationRecord": "full-game/units/generated-atlas/precept-treads1-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-0.png",
+      "sha256": "8754ee6f94723f179ddae1dc46ad694cdc17627995bfbb772d654851f7afb4c1",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-1.png",
+      "sha256": "d1ee2e44776f185277cb01d9a1d2946f753f8ffff1e63d5e2c84c87481aaf5e1",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-2.png",
+      "sha256": "7dccf652482b77b433ac10af883f0658c93a3c2825a4bb5b1bcc676df04acf0b",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-3.png",
+      "sha256": "f4ad0315b8cc5099530d7a30341602bde391b33fa1ae00ac6e6bb6ea3607fd9b",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-4.png",
+      "sha256": "5fcd3fc5aa133914e283c543e1cb64a98dbb22c9d21319cce1686937562634a4",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-5.png",
+      "sha256": "65dd335600fe451e96eaea7cf81c25aeeb80a7267c5acb8f64f56450cc5ccf71",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-6.png",
+      "sha256": "e33392e8b8024d536fa2a3e8360d9e9f2ec634891500d20d2a205d1497c7647f",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-7.png",
+      "sha256": "e611558a1f1a3bc54386f00de22c1250fbee3b91159f39dcbbeb97271f452dfb",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-8.png",
+      "sha256": "73c1cc2cc77739a14e87becafec9359ad301cd514165cd0efc162e8093757b89",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-9.png",
+      "sha256": "324a11f392a934f9d69b6fb60b26df20d09af72d41658a40646da5d7e5a69275",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-10.png",
+      "sha256": "7b788f4e32380d864b73acbd0543db1ee5c4ef40eaf7ffafd74c8c03bfe905c5",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-11.png",
+      "sha256": "95c0a46e7f847a5fea1ba13f8475711ad050e1cb65e28fd324e648b05625e07e",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-12.png",
+      "sha256": "fba8172094e32637293b22d79ca6de20b7a6f60ae8aa827fdaf7e07dc3ed30df",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-13.png",
+      "sha256": "cb0bda7e28f66a19fb1ae52be8177c6f522a0d8cb04f112694822c357b4a6a29",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-14.png",
+      "sha256": "05a76650c31150ce059c36d8273ebc7ade7fcefc8434ba06770bdb153d74013d",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-15.png",
+      "sha256": "2267510d0c408c382e3b43ca1fc06a42099f37fa9a8bdb74fc4705bfdc93bdbf",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-16.png",
+      "sha256": "945dad526ebbf29ff5f6632feb498ce96dc591a21262ab7f696f6dd578ad3912",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/stell-treads0-17.png",
+      "sha256": "4792532eb65e8d63118d22acb4b5362cdc602ad0e536c95da9c0bae2b37e4982",
+      "generationRecord": "full-game/units/generated-atlas/stell-treads0-17.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-0.png",
+      "sha256": "cc511e89d043b6eb772719a3d40f57edba1860cd4e91a96e1b4a95a2890248ae",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-0.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-1.png",
+      "sha256": "a4a6620ad528893037e3da4ff6e7fa6f9585ba02a4bb28cd0fca532714e10d60",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-1.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-2.png",
+      "sha256": "f82745f34dc605941aa22d95bac270612f6c8cc2798e772579ef813e35d39514",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-2.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-3.png",
+      "sha256": "6a1889eb2b1bd7faf770ba4e3fb9c5c7a1b33284ecf8781ed70a5b0a64d8186e",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-3.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-4.png",
+      "sha256": "8081742bb8f1643570da4118b019cfc02fafc1d98eb0cc19642d0f6f5f3e284b",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-4.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-5.png",
+      "sha256": "60a48e48f4b0ce3a7dfd66fc36fabc7ad24905430a0a6789c7aead551db6e415",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-5.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-6.png",
+      "sha256": "b2ec64a47faa2e423c1fd0cc1a453053cca5f997abe23bfc50c00f6b675061c2",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-6.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-7.png",
+      "sha256": "04785a2975afb988f72da0beecdb2ffc1ff88ea88754950a5d13fd302789c54d",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-7.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-8.png",
+      "sha256": "96033241b513e0693475399ccb4bb69061cccd232e4bf9b23c09284a405b506c",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-8.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-9.png",
+      "sha256": "ab4db76d37f85ab38192d3f70c8cfed8f865a75611141577ddba01785db39d57",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-9.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-10.png",
+      "sha256": "2be6e5005f5530c1bd8bda5edde1c77b1c0054e38c508b4031cd6ed6dbee8cea",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-10.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-11.png",
+      "sha256": "d91c2bf11bd9fb82893ca33dfdb6c71b496e275127037b9418dbb1df09de6ca1",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-11.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-12.png",
+      "sha256": "82fdcd248a127004ea9d36fc137b7e725bcce087d2a07e6d614fd5dff0bf7878",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-12.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-13.png",
+      "sha256": "071dcc29f53c24e78f826049f104adfd8fccc24cd842597acf55ed6423d792bf",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-13.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-14.png",
+      "sha256": "55dbe3634f003136c4e2170777d842e93b10a37207f0866951ea4d403091c218",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-14.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-15.png",
+      "sha256": "fea8b69df134709a6ad7373ecb70ad7e11e0e07b14c15ed2454bcca07ad18590",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-15.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-16.png",
+      "sha256": "7df6dd404a9ea0fcb50ddbf0d4808a72e46bc6621411a83d8c9ac5f6ecafb1c5",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-16.png.generation.json"
+    },
+    {
+      "file": "full-game/units/generated-atlas/vanquish-treads0-17.png",
+      "sha256": "a73b13bd01d8e1484125edd941fd248326a910cf65ed7941b9ec7d00b4dabe89",
+      "generationRecord": "full-game/units/generated-atlas/vanquish-treads0-17.png.generation.json"
+    }
+  ]
+}

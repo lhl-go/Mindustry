@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/large-shield-projector.png",
+  "sha256": "4b7c1232c2f44417045603e7a54c93b8bc17a21bf825cf312afd5aba9241c5f3",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1071,
+      693,
+      1413,
+      1048
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      342,
+      355
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    374,
+    387
+  ],
+  "anchorPixels": [
+    187.0,
+    193.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

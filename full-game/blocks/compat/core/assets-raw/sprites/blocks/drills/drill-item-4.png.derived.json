@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/drill-item-4.png",
+  "sourceGitBlob": "a18efb5dd402687e164167b8078d4ac075c9329d",
+  "sourceSha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "drill-item-4",
+  "blockId": null,
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/drill-item-4.png",
+  "sha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/drill-item-4.png",
+  "engineSha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/drill-item-4.png",
+  "nativeSha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f",
+  "nativeSize": [
+    128,
+    128
+  ],
+  "sourceAlphaBounds": [
+    56,
+    56,
+    72,
+    72
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/drill-item-4.png",
+      "sha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/drill-item-4.png",
+      "sha256": "918bbe4dd811cff3db6953df3307d64ad7a9485e3bfcaae5cd77c51611751c2f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/drill-item-4.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

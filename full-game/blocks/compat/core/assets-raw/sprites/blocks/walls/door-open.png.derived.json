@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/walls/door-open.png",
+  "sourceGitBlob": "c4f7b79495fcd3fe8699e45481a4e524cceb5543",
+  "sourceSha256": "4dfda30dfc314013e346eeae9e1c3a3939d032d704699f4028ca281cc5845301",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "door-open",
+  "blockId": "door",
+  "category": "walls",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-open.png",
+  "sha256": "50f49e83316fe6706501b772df2a4d72320cfe2d72abaed58edaa15fb2527272",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-open.png",
+  "engineSha256": "50f49e83316fe6706501b772df2a4d72320cfe2d72abaed58edaa15fb2527272",
+  "nativeFile": "full-game/blocks/masters/door.png",
+  "nativeSha256": "c9c3ecea07aa3505cf164dbe65506e590f9e982697ac7e2618036ccc495b362a",
+  "nativeSize": [
+    239,
+    235
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_door_material_on_exact_original_open_frame_geometry",
+    "centerRemainsTransparent": true,
+    "nativeMasterIsDesignMaterialSource": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_open_frame_with_original_passage_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/door.png",
+      "sha256": "c9c3ecea07aa3505cf164dbe65506e590f9e982697ac7e2618036ccc495b362a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/walls/door-open.png",
+      "sha256": "4dfda30dfc314013e346eeae9e1c3a3939d032d704699f4028ca281cc5845301"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/walls/door-open.png.derived.json"
+}

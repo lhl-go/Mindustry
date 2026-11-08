@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/mender.png",
+  "sha256": "3f9941e25d98170600b04d7b4513b65f720b226a8c5d291302dca3595702f877",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      93,
+      117,
+      282,
+      302
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      189,
+      185
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    221,
+    217
+  ],
+  "anchorPixels": [
+    110.5,
+    108.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "file": "units/coordinator-recoil-fix/poly-assembled.png",
+  "sha256": "73bb63102e8173588624820914cc0d29061f1a43533056db2d7e14cfd477e2fc",
+  "width": 918,
+  "height": 904,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T07:53:57.053713-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/poly-body.png",
+      "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+      "record": "units/coordinator-recoil-fix/poly-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/poly-weapon.png",
+      "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+      "record": "units/coordinator-recoil-fix/poly-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "documented_static_layer_composition",
+    "bodyOriginPixels": [
+      160,
+      160
+    ],
+    "weaponScale": 0.42,
+    "weaponInstances": [
+      {
+        "mirrorX": true,
+        "rotationDegrees": 0,
+        "anchorPixels": [
+          285.58,
+          510.4
+        ]
+      },
+      {
+        "mirrorX": false,
+        "rotationDegrees": 0,
+        "anchorPixels": [
+          632.42,
+          510.4
+        ]
+      }
+    ],
+    "weaponPivotNormalized": [
+      0.5,
+      0.78
+    ],
+    "pixelAlignment": "estimated_art_alignment; not runtime verified",
+    "canonicalSourceCoordinates": "preserved separately in patch asset officialWeaponOffsets; never replaced by pixels",
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Derived parts inherit generation evidence",
+  "runtimeIntegrationVerified": false
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/pulsar.png",
+  "sha256": "e2edfb9b962e7ce84c04250b5ff0186647dc32f763074579ced6238b5f56b887",
+  "width": 68,
+  "height": 58,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/pulsar.png",
+      "sha256": "53ebaee34282c17315d1f4f4a0d69dc22ef7f2851a0d7fa3db8e2d2400452f20",
+      "generationRecord": "units/serpulo-ground-naval/bodies/pulsar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      433,
+      389
+    ],
+    "sourcePivot": [
+      224.5,
+      202.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      4
+    ],
+    "sourceDimensions": [
+      449,
+      405
+    ],
+    "targetDimensions": [
+      68,
+      58
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      64,
+      54
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      34.0,
+      29.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/pulsar.png",
+    "gitBlobSha1": "b16864d31c9049383b01473a1edb676c9bc58e3d",
+    "sha256": "7ab3c5f7a144b693baaf2241e167629cb10648491295ed52df7ae4dbd23761c0"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,44 @@
+{
+  "region": "duo-barrel-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/duo/duo-barrel-r.png",
+  "sha256": "d07e7f8f24c599b441c2291dfae42a1b1a2d7384ff51975da96570e44df1ea90",
+  "size": [
+    32,
+    32
+  ],
+  "derivedAt": "2026-10-26T18:34:46.317635+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/duo-barrel-l.png",
+      "sha256": "ed2f2a1a26a8a5db628e3c57b7752d630747d1346be781e4cbd9a3861fe410eb",
+      "record": "full-game/root-turrets/masters/duo-barrel-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/duo/duo-barrel-r.png",
+      "sha256": "d21fb9c02eb51b2be6e981eb45d5e326c88936683357d865a4661dc4fda2c1e2",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/duo/duo-barrel-l.png",
+      "sha256": "800149cd374899f3d546477d47961666e3aaf8510bc14079d0ee52ad8319262e",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": true,
+    "sourceAlphaIdentical": false,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      19,
+      4,
+      28,
+      19
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

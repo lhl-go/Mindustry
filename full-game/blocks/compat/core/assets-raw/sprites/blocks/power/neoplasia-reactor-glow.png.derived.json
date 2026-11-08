@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/neoplasia-reactor-glow.png",
+  "sourceGitBlob": "88336542e8d0f062435e8189028232592cfeac0b",
+  "sourceSha256": "5b3a6b1063ac6c893254ac567c33dac392bc76c885f96d9b49ca85fc2e0e9973",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "neoplasia-reactor-glow",
+  "blockId": "neoplasia-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-glow.png",
+  "sha256": "5c188ab1ee9fe8c6991a55b9cd57f19f901dc0f32766525db0355530f122b9a9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-glow.png",
+  "engineSha256": "5c188ab1ee9fe8c6991a55b9cd57f19f901dc0f32766525db0355530f122b9a9",
+  "nativeFile": "full-game/blocks/masters/neoplasia-reactor.png",
+  "nativeSha256": "708558be96036fe20a86088c01aae69d5dd6ba2990b71c890a73191883add44e",
+  "nativeSize": [
+    363,
+    353
+  ],
+  "sourceAlphaBounds": [
+    14,
+    14,
+    146,
+    146
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/neoplasia-reactor.png",
+      "sha256": "708558be96036fe20a86088c01aae69d5dd6ba2990b71c890a73191883add44e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/neoplasia-reactor-glow.png",
+      "sha256": "5b3a6b1063ac6c893254ac567c33dac392bc76c885f96d9b49ca85fc2e0e9973"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

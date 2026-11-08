@@ -1,0 +1,512 @@
+{
+  "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialClass": "mindustry.entities.comp.FireComp",
+  "source": "full-game/items-fx/references/FireComp.java",
+  "sourceSha256": "b1f8a453fe1714a1b89c9def18668991b7d93a570fddfc43bb843e0038949d52",
+  "sourceParameters": {
+    "frames": 40,
+    "durationTicks": 90,
+    "ticksPerFrame": 2.25,
+    "warmupDurationTicks": 20
+  },
+  "fps": 26.666666666666668,
+  "durationMs": 1500,
+  "loop": true,
+  "canvas": [
+    384,
+    384
+  ],
+  "atlasAnchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "visualBaseNormalized": [
+    0.5,
+    0.859375
+  ],
+  "runtimeFrame": "floor(animation), animation += Time.delta / (duration / frames); animation %= frames",
+  "runtimeLight": "Drawf.light radius=50+Mathf.absin(5,5), Pal.lightFlame, opacity0.6; retain original.",
+  "frames": [
+    {
+      "index": 0,
+      "id": "fire0",
+      "file": "full-game/items-fx/assets/fire0.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire0.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 1,
+      "id": "fire1",
+      "file": "full-game/items-fx/assets/fire1.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire1.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 2,
+      "id": "fire2",
+      "file": "full-game/items-fx/assets/fire2.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire2.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 3,
+      "id": "fire3",
+      "file": "full-game/items-fx/assets/fire3.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire3.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 4,
+      "id": "fire4",
+      "file": "full-game/items-fx/assets/fire4.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire4.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 5,
+      "id": "fire5",
+      "file": "full-game/items-fx/assets/fire5.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire5.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 6,
+      "id": "fire6",
+      "file": "full-game/items-fx/assets/fire6.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire6.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 7,
+      "id": "fire7",
+      "file": "full-game/items-fx/assets/fire7.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire7.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 8,
+      "id": "fire8",
+      "file": "full-game/items-fx/assets/fire8.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire8.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 9,
+      "id": "fire9",
+      "file": "full-game/items-fx/assets/fire9.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire9.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 10,
+      "id": "fire10",
+      "file": "full-game/items-fx/assets/fire10.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire10.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 11,
+      "id": "fire11",
+      "file": "full-game/items-fx/assets/fire11.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire11.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 12,
+      "id": "fire12",
+      "file": "full-game/items-fx/assets/fire12.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire12.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 13,
+      "id": "fire13",
+      "file": "full-game/items-fx/assets/fire13.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire13.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 14,
+      "id": "fire14",
+      "file": "full-game/items-fx/assets/fire14.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire14.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 15,
+      "id": "fire15",
+      "file": "full-game/items-fx/assets/fire15.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire15.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 16,
+      "id": "fire16",
+      "file": "full-game/items-fx/assets/fire16.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire16.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 17,
+      "id": "fire17",
+      "file": "full-game/items-fx/assets/fire17.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire17.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 18,
+      "id": "fire18",
+      "file": "full-game/items-fx/assets/fire18.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire18.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 19,
+      "id": "fire19",
+      "file": "full-game/items-fx/assets/fire19.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire19.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 20,
+      "id": "fire20",
+      "file": "full-game/items-fx/assets/fire20.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire20.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 21,
+      "id": "fire21",
+      "file": "full-game/items-fx/assets/fire21.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire21.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 22,
+      "id": "fire22",
+      "file": "full-game/items-fx/assets/fire22.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire22.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 23,
+      "id": "fire23",
+      "file": "full-game/items-fx/assets/fire23.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire23.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 24,
+      "id": "fire24",
+      "file": "full-game/items-fx/assets/fire24.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire24.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 25,
+      "id": "fire25",
+      "file": "full-game/items-fx/assets/fire25.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire25.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 26,
+      "id": "fire26",
+      "file": "full-game/items-fx/assets/fire26.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire26.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 27,
+      "id": "fire27",
+      "file": "full-game/items-fx/assets/fire27.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire27.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 28,
+      "id": "fire28",
+      "file": "full-game/items-fx/assets/fire28.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire28.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 29,
+      "id": "fire29",
+      "file": "full-game/items-fx/assets/fire29.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire29.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 30,
+      "id": "fire30",
+      "file": "full-game/items-fx/assets/fire30.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire30.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 31,
+      "id": "fire31",
+      "file": "full-game/items-fx/assets/fire31.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire31.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 32,
+      "id": "fire32",
+      "file": "full-game/items-fx/assets/fire32.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire32.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 33,
+      "id": "fire33",
+      "file": "full-game/items-fx/assets/fire33.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire33.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 34,
+      "id": "fire34",
+      "file": "full-game/items-fx/assets/fire34.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire34.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 35,
+      "id": "fire35",
+      "file": "full-game/items-fx/assets/fire35.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire35.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 36,
+      "id": "fire36",
+      "file": "full-game/items-fx/assets/fire36.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire36.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 37,
+      "id": "fire37",
+      "file": "full-game/items-fx/assets/fire37.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire37.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 38,
+      "id": "fire38",
+      "file": "full-game/items-fx/assets/fire38.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire38.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "index": 39,
+      "id": "fire39",
+      "file": "full-game/items-fx/assets/fire39.png",
+      "engineFile": "full-game/items-fx/engine/sprites/blocks/fire/fire39.png",
+      "durationTicks": 2.25,
+      "durationMs": 37.5,
+      "anchorNormalized": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "engineNotVerified": true
+}

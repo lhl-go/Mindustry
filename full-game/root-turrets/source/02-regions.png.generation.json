@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/root-turrets/source/02-regions.png",
+  "sha256": "3c3105bf17a7cdeb45aa9560ec1c61d370bb62bdcfb2c6961f8a27281d3ffb46",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "requestedSize": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T12:40:53-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/root-turrets/reference/guide-02.png"
+    ],
+    "prompt": "Finished game-ready transparent sprite board, requested 1536x1024, exactly 4 columns x 3 rows of twelve DISTINCT turret render parts. Repaint all corresponding shapes in third image with high-detail Daoist Q hand-painted style from first two images: jade, ivory, warm gold, slate-blue metal, restrained cloud engraving and soft rounded material shading. Preserve each source region silhouette and holes, original relative proportions and north/up orientation. STRICT straight top-down orthographic, NO isometric angle, no structures or pads below weapons. Row1: cyclone main dark turret chassis with copper-gold segmented side armor and central straight rib, WITHOUT moving barrels; cyclone-barrel-1 SINGLE short rectangular grey cannon tube/metal barrel with dark left shading, no chassis; diffuse main V split chassis dark grey with coral-pink energy insets; diffuse-front-l SINGLE crooked left front arm in dark grey and coral-pink, no mirrored twin. Row2: disperse-blade-l SINGLE thin long left blade with ivory/light-blue diagonal bands, source asymmetric silhouette; disperse-mid tall slotted double-rail central spine with white-blue trim; disperse-side-l SINGLE angular dark grey side cover strip; duo small symmetrical copper-and-ivory circular/diamond rear housing WITHOUT its moving barrels, leave the pale interior docking region. Row3: duo-barrel-l SINGLE asymmetric copper cannon barrel, source wedge silhouette rising upper right, no separate twin; foreshadow large upright U-groove railgun dark graphite with gold/copper side channels, double prongs upward; fuse dark graphite three-paired purple-blue crystal chambers around central spine; hail small brown circular mortar housing with white ivory top insert and copper central pipe. Keep every component independent and complete, centered in equal grid cell with 13% empty margins. Thin warm gold accents and hand-painted shading must preserve mechanical identification. NO names/letters, NO grid, NO background, NO glow outside silhouette. Real alpha clear gaps. No whole turrets in cells requested as single detached parts."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/root-turrets/prompts/02-regions.txt",
+  "promptSha256": "463187d9bf3a5b1fc5c6868f24afab4c0230d3a9e43050c141d666329cbfac10",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\root-turrets\\reference\\guide-02.png",
+      "sha256": "f85edca568d45c3e2aef2a8ee766bf170b55311e5e66730759acbc464e9be5f5",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\root-turrets\\records\\02-regions-tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-6becd14c-6c74-449a-86d0-8c47a98b40ce.png",
+    "nativePngSha256": "3c3105bf17a7cdeb45aa9560ec1c61d370bb62bdcfb2c6961f8a27281d3ffb46",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaTransparentPixels": 931266,
+  "status": "generated_pending_review"
+}

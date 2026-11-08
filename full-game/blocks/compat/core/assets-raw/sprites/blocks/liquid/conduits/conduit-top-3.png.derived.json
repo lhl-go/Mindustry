@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-3.png",
+  "sourceGitBlob": "b45e11ccf41f1d662f35611cab1af7b318ef1e64",
+  "sourceSha256": "5ecfab835a505523bfd632b99264bff7b931d686e8d684351401fe1b1670241c",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "conduit-top-3",
+  "blockId": "conduit",
+  "category": "liquid",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-3.png",
+  "sha256": "23d728c72224dc02447ffc0fd41da58500208e67b7e97112522b33fc372a1a5f",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-3.png",
+  "engineSha256": "23d728c72224dc02447ffc0fd41da58500208e67b7e97112522b33fc372a1a5f",
+  "nativeFile": "full-game/blocks/masters/conduit-shape-3.png",
+  "nativeSha256": "c47c22567aa26e272bda038cc5116959b05f4361c8a0aa4b6df2b7b615502afe",
+  "nativeSize": [
+    324,
+    293
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_exact_official_connection_and_phase_geometry",
+    "connectionIndex": 3,
+    "animationFrame": null,
+    "topLayerUsesOriginalTransparentChannels": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true
+  },
+  "disposition": "styled_material_with_original_connection_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/conduit-shape-3.png",
+      "sha256": "c47c22567aa26e272bda038cc5116959b05f4361c8a0aa4b6df2b7b615502afe"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/liquid/conduits/conduit-top-3.png",
+      "sha256": "5ecfab835a505523bfd632b99264bff7b931d686e8d684351401fe1b1670241c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/liquid/conduits/conduit-top-3.png.derived.json"
+}

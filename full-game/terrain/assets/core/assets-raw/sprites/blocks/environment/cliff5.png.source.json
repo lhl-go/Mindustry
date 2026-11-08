@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/environment/cliff5.png",
+  "sha256": "a58e4737d78236cc8243f8f7a668ac7ff8f655f7846379ba1eacd01ee3ca90c8",
+  "createdAt": "2026-10-26T17:24:43.696627+00:00",
+  "kind": "official_technical_asset_retained",
+  "artSource": "official_retained_technical",
+  "newlyDrawn": false,
+  "sourceRepository": "https://github.com/Anuken/Mindustry",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "officialPath": "core/assets-raw/sprites/blocks/environment/cliff5.png",
+  "officialGitBlobSha1": "2e71f802f2327c796670fff7720953af3640f2e0",
+  "upstreamUrl": "https://github.com/Anuken/Mindustry/blob/17012d61d9e4c3cbd9820d87e81c24495486ac53/core/assets-raw/sprites/blocks/environment/cliff5.png",
+  "sourceSha256": "a58e4737d78236cc8243f8f7a668ac7ff8f655f7846379ba1eacd01ee3ca90c8",
+  "byteIdenticalToOfficial": true,
+  "width": 64,
+  "height": 64,
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "reason": "Binary cliff silhouette masks are combined into256 data-indexed cliffmask regions and tinted by floor.mapColor in Cliff.drawBase; geometric connectivity mask retained, no AI surface painting claimed.",
+  "technicalEvidence": [
+    "core/src/mindustry/world/blocks/environment/Cliff.java",
+    "tools/src/mindustry/tools/Generators.java"
+  ],
+  "license": {
+    "file": "full-game/terrain/licenses/Mindustry-LICENSE.txt",
+    "sha256": "963392e038d7bea128e55cc67dd691c204593db3527060667f0c82f0f0a1be64",
+    "identifier": "GPL-3.0 repository LICENSE",
+    "note": "Preserved upstream LICENSE and source attribution; no claim of new AI ownership over retained upstream pixels."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Not AI-generated: exact upstream technical resource retained."
+}

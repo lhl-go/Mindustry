@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/plasma-bore-glow.png",
+  "sourceGitBlob": "fbfe8c4a7a1b52d9267ae05b80af47d8fa3694da",
+  "sourceSha256": "2e17e404fe65998d8f94bae447ff9f9ec17eb15eec46bac8aa2fc4cda65e268b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "plasma-bore-glow",
+  "blockId": "plasma-bore",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-glow.png",
+  "sha256": "24fec4eb68adea79c278254d4a8e069d42706fdc6820f29531c7b22d54429c87",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-glow.png",
+  "engineSha256": "24fec4eb68adea79c278254d4a8e069d42706fdc6820f29531c7b22d54429c87",
+  "nativeFile": "full-game/blocks/masters/plasma-bore.png",
+  "nativeSha256": "6abbfb717061ccae9ddc1e607b0261ce714f4bdf9a8fc88eadfb00e1e60fd610",
+  "nativeSize": [
+    246,
+    316
+  ],
+  "sourceAlphaBounds": [
+    18,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/plasma-bore.png",
+      "sha256": "6abbfb717061ccae9ddc1e607b0261ce714f4bdf9a8fc88eadfb00e1e60fd610"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/plasma-bore-glow.png",
+      "sha256": "2e17e404fe65998d8f94bae447ff9f9ec17eb15eec46bac8aa2fc4cda65e268b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/plasma-bore-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

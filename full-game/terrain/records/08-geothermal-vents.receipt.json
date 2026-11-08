@@ -1,0 +1,45 @@
+{
+  "args": {
+    "prompt": "Use case: game-sprite atlas. Create SIXTEEN isolated geothermal steam vent ground OVERLAYS for Mindustry. Strict top-down orthographic, flat ground openings, refined clean bright Daoist Q hand-painted rock style. Attached2 images guide craftsmanship only; NO UI, people, text, frames, symbols. Requested3072×3072 square, exactly4 columns×4rows evenly spaced. Each complete vent graphic centered in own cell occupying about70 percent of cell; at least15percent transparent clear padding each side; no touching cell boundaries. All background FULLY TRANSPARENT. Do not draw square opaque ground tiles. Each vent is an irregular shallow rocky ring embedded into ground with a small dim central heat fissure/opening, broken organic rock rim and sparse mineral grains, viewed directly above. No tall chimney, no smoke/steam plume (animated steam added in engine). Each pair is TWO separately painted patterns of same material, not copies.\nRow1: two pale natural cool gray STONE vents (col1,col2), then two charcoal blue-gray BASALT vents (col3,col4).\nRow2: two muted lavender-gray RHYOLITE vents (col1,col2), then two warm golden ochre YELLOW STONE vents (col3,col4).\nRow3: two very dark blue-charcoal CARBON vents (col1,col2), then two desaturated slate-blue teal ARKYIC STONE vents (col3,col4).\nRow4: two dusty terracotta RED STONE vents (col1,col2), then two pale gray-lilac CRYSTALLINE STONE vents with tiny lavender crystal grains in the rim (col3,col4).\nNatural irregular rounded crack rings, tiny warm muted yellow hot central slit. Every piece complete with clean transparent outside, no drop shadow detached from piece, no labels or decoration. Consistent overhead soft light, attractive hand-painted broad readable game shapes.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 17:03:38 UTC",
+  "returnedAt": "2026-10-26 17:05:02 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-cd6656bb-80e7-4c86-a75a-6b3343d7190b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "grid": [
+    4,
+    4
+  ],
+  "regions": [
+    "stone-vent1",
+    "stone-vent2",
+    "basalt-vent1",
+    "basalt-vent2",
+    "rhyolite-vent1",
+    "rhyolite-vent2",
+    "yellow-stone-vent1",
+    "yellow-stone-vent2",
+    "carbon-vent1",
+    "carbon-vent2",
+    "arkyic-vent1",
+    "arkyic-vent2",
+    "red-stone-vent1",
+    "red-stone-vent2",
+    "crystalline-vent1",
+    "crystalline-vent2"
+  ]
+}

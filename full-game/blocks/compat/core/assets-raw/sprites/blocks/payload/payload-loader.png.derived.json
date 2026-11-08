@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-loader.png",
+  "sourceGitBlob": "0262be6c74c274806339415c950dd06ace61545b",
+  "sourceSha256": "2a61039165145a5a0e5823bed58dfdcf46bbf915152d2359bd958a02facaac1e",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "payload-loader",
+  "blockId": "payload-loader",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-loader.png",
+  "sha256": "bf002c947c29ab5ffaf0ae062675f6caa9cfa8e459cd20057b95896011347afb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-loader.png",
+  "engineSha256": "bf002c947c29ab5ffaf0ae062675f6caa9cfa8e459cd20057b95896011347afb",
+  "nativeFile": "full-game/blocks/masters/payload-loader.png",
+  "nativeSha256": "92ca34c92cb12ec4e0f8d7f923bb0dd850a61ce319f0603b639719e953bc696e",
+  "nativeSize": [
+    283,
+    270
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-loader.png",
+      "sha256": "92ca34c92cb12ec4e0f8d7f923bb0dd850a61ce319f0603b639719e953bc696e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-loader.png",
+      "sha256": "2a61039165145a5a0e5823bed58dfdcf46bbf915152d2359bd958a02facaac1e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-loader.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-loader.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-loader.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

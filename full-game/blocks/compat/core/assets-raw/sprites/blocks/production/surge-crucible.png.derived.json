@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-crucible.png",
+  "sourceGitBlob": "8380ad3d4b530250ae7ae6520c4d8de84a3a4754",
+  "sourceSha256": "d442f831aaa51f01d419fffd081ecc2c1826279ce764c1cd9e56f2d0302488a1",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-crucible",
+  "blockId": "surge-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible.png",
+  "sha256": "3598bc0455961306818404e8f27bed0818b8042acf444064a9b8bb42d67039b5",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible.png",
+  "engineSha256": "3598bc0455961306818404e8f27bed0818b8042acf444064a9b8bb42d67039b5",
+  "nativeFile": "full-game/blocks/masters/surge-crucible.png",
+  "nativeSha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44",
+  "nativeSize": [
+    355,
+    358
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-crucible.png",
+      "sha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible.png",
+      "sha256": "d442f831aaa51f01d419fffd081ecc2c1826279ce764c1cd9e56f2d0302488a1"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

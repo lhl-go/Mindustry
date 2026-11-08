@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-synthesizer-vents.png",
+  "sourceGitBlob": "fc374249d2dc256eecd7810f3c87047c1e096cc3",
+  "sourceSha256": "0b2b4620872b889792d90e3dab57b8929abdef836284a092cfc1c1d0cf01d296",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "phase-synthesizer-vents",
+  "blockId": "phase-synthesizer",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-vents.png",
+  "sha256": "686a46d07fe5ecd4ffd1caaaac10eb465fe38ac5a08a1b3f1080fc5733b34c8a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-vents.png",
+  "engineSha256": "686a46d07fe5ecd4ffd1caaaac10eb465fe38ac5a08a1b3f1080fc5733b34c8a",
+  "nativeFile": "full-game/blocks/masters/phase-synthesizer.png",
+  "nativeSha256": "866780adf1e59d57d17bcf09110cfc7f7ee03c1dc1f2cfea5c587b5bdc87d1ea",
+  "nativeSize": [
+    349,
+    377
+  ],
+  "sourceAlphaBounds": [
+    1,
+    1,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-synthesizer.png",
+      "sha256": "866780adf1e59d57d17bcf09110cfc7f7ee03c1dc1f2cfea5c587b5bdc87d1ea"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-synthesizer-vents.png",
+      "sha256": "0b2b4620872b889792d90e3dab57b8929abdef836284a092cfc1c1d0cf01d296"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-synthesizer-vents.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,62 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/build-tower.png",
+  "sourceGitBlob": "b78d473bfce0af8bb34e811f7621c385e2037d9e",
+  "sourceSha256": "04cfdd194067aee0fb7d8caaace3664ac517025cf461e9660a4d96423c16597f",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "build-tower",
+  "blockId": "build-tower",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower.png",
+  "sha256": "af824c543cba9a7f9133dd573b862f742a0688c87a0095bc553e1934f8d2fa9a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower.png",
+  "engineSha256": "af824c543cba9a7f9133dd573b862f742a0688c87a0095bc553e1934f8d2fa9a",
+  "nativeFile": "full-game/blocks/masters/build-tower-head-part.png",
+  "nativeSha256": "8928ba3f94cf0a166685d6d1f1f0504d1f490de997c5b7072cb68db5ffb9cca3",
+  "nativeSize": [
+    295,
+    268
+  ],
+  "sourceAlphaBounds": [
+    6,
+    10,
+    90,
+    91
+  ],
+  "operation": {
+    "type": "independent_native_part_original_canvas",
+    "part": "build-tower-head-part",
+    "role": "independent rotating head; visible nozzle corrected to source +Y direction",
+    "localRotationDegrees": 180,
+    "localMirrorX": false,
+    "originalAlphaBoundsPlacement": true,
+    "runtimeRotationAppliedSeparately": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/build-tower-head-part.png",
+      "sha256": "8928ba3f94cf0a166685d6d1f1f0504d1f490de997c5b7072cb68db5ffb9cca3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/build-tower.png",
+      "sha256": "04cfdd194067aee0fb7d8caaace3664ac517025cf461e9660a4d96423c16597f"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/build-tower.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/build-tower-head-part.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

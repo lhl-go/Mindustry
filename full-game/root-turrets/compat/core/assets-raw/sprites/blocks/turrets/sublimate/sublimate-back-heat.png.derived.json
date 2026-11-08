@@ -1,0 +1,41 @@
+{
+  "region": "sublimate-back-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-heat.png",
+  "sha256": "b058accb52974f7a03d584fc42f4bd3b44b8736fed711a48349c68f65a2b48c6",
+  "size": [
+    53,
+    55
+  ],
+  "derivedAt": "2026-10-26T18:34:46.539091+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate-back-heat.png",
+      "sha256": "eeb7d6ef4fb45e1c5fda8088e394db600be1d95d7e154fdf78d860385ab03843",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-r.png",
+      "sha256": "2b36f6d694340445c6ebd0459b285dedda4918f0c61279a9e539483ca83507bf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-r.png.derived.json"
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-l.png",
+      "sha256": "2b36f6d694340445c6ebd0459b285dedda4918f0c61279a9e539483ca83507bf",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-back-l.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "sublimate-back-r",
+      "sublimate-back-l"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 472
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

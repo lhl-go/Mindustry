@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/horizon-cell.png",
+  "sha256": "249680f7f04cb2f8271940acec32c88066413b26c5a7ecd5954e41fa175031f2",
+  "width": 72,
+  "height": 72,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/horizon.png",
+      "sha256": "2264203e43c2591051184484de900dc2219383eb6caeaefcae4e2dba98d32a6b",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/horizon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "horizon",
+    "baseCanvas": [
+      72,
+      72
+    ],
+    "outputCanvas": [
+      72,
+      72
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/horizon-cell.png",
+    "gitBlobSha1": "704b0dea1524c22b25ebd23a481bd1544d1a3dc1",
+    "sha256": "3b6b0c1f05e96309e27b6282bea31994d23318caca00f32af0a78e1fbd502abf"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

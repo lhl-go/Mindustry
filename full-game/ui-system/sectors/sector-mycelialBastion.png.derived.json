@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "sector-mycelialBastion",
+  "file": "full-game/ui-system/sectors/sector-mycelialBastion.png",
+  "sha256": "e65a274be9f75f446e2d2de59fa46429b82c231aea8e7ca14ebee47cdddd6ff2",
+  "width": 407,
+  "height": 407,
+  "derivedAt": "2026-10-26T15:54:02.142744+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/10-sectors-04.png",
+    "sha256": "849ab40e442ccada8ae5475a8ff0d9a8a0db53caa890523fe5e17d74f58cd76d",
+    "generationRecord": "full-game/ui-system/source/10-sectors-04.png.generation.json"
+  },
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      3,
+      3
+    ],
+    "index": 0,
+    "sourceBox": [
+      26,
+      47,
+      409,
+      394
+    ],
+    "alphaCutoff": 16,
+    "minComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "validation": {
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

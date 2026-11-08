@@ -1,0 +1,40 @@
+{
+  "file": "full-game/units/generated-atlas/precept-treads1-0.png",
+  "sha256": "b0d3936a8ee321652886733bd3ca14eb4e1f6a28f7e9635d54fcd7564a46f68a",
+  "width": 1,
+  "height": 60,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/precept-treads.png",
+      "sha256": "9b1e82914654510990f445d47e56a8cb10cd97ed74491d0ec41cac477b5d74c9",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/precept-treads.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "official_tread_animation_generator",
+    "sampleRect": [
+      44,
+      17,
+      1,
+      60
+    ],
+    "frame": 0,
+    "treadFrames": 18,
+    "treadPullOffset": 5,
+    "formula": "idx=y+i; if idx>=height: idx=(idx-height+pullOffset)%height"
+  },
+  "sourceCode": {
+    "file": "full-game/items-fx/references/Generators.java",
+    "sha256": "b9e0cdf08896baf6a2a6a21e43226ce29060edf4214bceea2a3cc6c00d5e23b0",
+    "lines": [
+      616,
+      640
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Official procedural shifting of new painted belt pixels, not AI frame generation.",
+  "engineNotVerified": true
+}

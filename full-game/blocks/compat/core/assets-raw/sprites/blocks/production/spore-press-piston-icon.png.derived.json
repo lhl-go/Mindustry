@@ -1,0 +1,76 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/spore-press-piston-icon.png",
+  "sourceGitBlob": "921a96ef36371b6ae8857bfab01929af3ac806c7",
+  "sourceSha256": "6d35e52569b6bbaaaf62f096639e7f7fa4457617284ac8ec2ecf3f262ae8fce1",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "spore-press-piston-icon",
+  "blockId": "spore-press",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston-icon.png",
+  "sha256": "b64a2d48bc7890651b93161b6fb9d6a6b5f4a4376976e7205629555341d371ea",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston-icon.png",
+  "engineSha256": "b64a2d48bc7890651b93161b6fb9d6a6b5f4a4376976e7205629555341d371ea",
+  "nativeFile": "full-game/blocks/masters/spore-press-piston-part.png",
+  "nativeSha256": "6050e296f315fc8c17445c9ea761df0e12b10936cbdf8c5632445c18b7a847d8",
+  "nativeSize": [
+    132,
+    253
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    60,
+    60
+  ],
+  "operation": {
+    "kind": "plan_icon_composed_from_independent_native_pistons",
+    "originalComponentBoxes": [
+      [
+        49,
+        28,
+        60,
+        36
+      ],
+      [
+        28,
+        49,
+        36,
+        60
+      ],
+      [
+        4,
+        28,
+        15,
+        36
+      ],
+      [
+        28,
+        4,
+        36,
+        15
+      ]
+    ],
+    "runtimeAnimation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/spore-press-piston-part.png",
+      "sha256": "6050e296f315fc8c17445c9ea761df0e12b10936cbdf8c5632445c18b7a847d8"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/spore-press-piston-icon.png",
+      "sha256": "6d35e52569b6bbaaaf62f096639e7f7fa4457617284ac8ec2ecf3f262ae8fce1"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/spore-press-piston-icon.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

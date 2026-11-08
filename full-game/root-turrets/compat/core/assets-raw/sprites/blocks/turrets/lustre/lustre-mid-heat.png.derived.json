@@ -1,0 +1,35 @@
+{
+  "region": "lustre-mid-heat",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-mid-heat.png",
+  "sha256": "cd5952f742f9623b2a560ee7df24eebe7b6ea2783fa8b3fb3ac67a74d0e9035a",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.458939+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-mid-heat.png",
+      "sha256": "1c161fc19736a310224324f5760dfa51f1188f51dab456dafd2c2622aa113dbb",
+      "record": null
+    },
+    {
+      "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-mid.png",
+      "sha256": "e749cfca78f7906fa425cff69674022ac708f63286ae9878baaf1141e49ee784",
+      "record": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-mid.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "white_heat_mask_intersection_with_new_part_alpha",
+    "reason": "RegionPart and DrawTurret render this neutral alpha additively with runtime heat color; intersecting with actual new part avoids glow on detached empty pixels.",
+    "matchedNewRegions": [
+      "lustre-mid"
+    ],
+    "newArtwork": false,
+    "alphaPixels": 1029
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

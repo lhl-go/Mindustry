@@ -1,0 +1,44 @@
+{
+  "region": "titan-side-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan-side-r.png",
+  "sha256": "d6de2eb074514011a1764dfc9ec601d8cf15d5244b381a0272da07ae74cb3c71",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.407886+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/titan-side-l.png",
+      "sha256": "c4e6e937606b8e10018ef5f0eaaf82115611aec6b1ffef21bb2df030ed4b2575",
+      "record": "full-game/root-turrets/masters/titan-side-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan-side-r.png",
+      "sha256": "10bb4bc7f3e95a9ca8d2879e541111a19372672cac676bc898c2250ab223162d",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan-side-l.png",
+      "sha256": "547fcfeda0e92e84c1c5d91983cc5a3a9bb3fcc32a07d6f9f10f966a086e9a23",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      82,
+      19,
+      121,
+      117
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

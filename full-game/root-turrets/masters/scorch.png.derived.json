@@ -1,0 +1,41 @@
+{
+  "region": "scorch",
+  "file": "full-game/root-turrets/masters/scorch.png",
+  "sha256": "62fbe04341c21d5c43c9c76fd3a24bcfb7a8cee6f7562ffc955c287195aaaa61",
+  "size": [
+    324,
+    323
+  ],
+  "derivedAt": "2026-10-26T18:34:44.735728+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 9,
+    "sourceBox": [
+      426,
+      694,
+      726,
+      993
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26 12:43:17 UTC",
+  "reviewer": "hud_review",
+  "status": "passed_visual_spot_check_with_scroll_notes",
+  "scope": "Read-only visual inspection of 8 requested final PNGs using view_image; no UI edits or screenshot regeneration; no repeated 616-state automated run.",
+  "sampleCount": 8,
+  "images": [
+    {
+      "file": "ui/states/UI-001--s00--desktop.png",
+      "sha256": "39ac6462399a5eef84cf391e90696c8f207d69157287b4db5066c1e50dcdb7ed",
+      "size": [
+        1366,
+        768
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "桌面主菜单",
+      "observed": "Mindustry 标题、两行玩法介绍、战役/加入游戏/自定义游戏/读取存档/更多/设置均清楚；菜单与工厂背景分离，无文本相互覆盖。"
+    },
+    {
+      "file": "ui/states/UI-002--s00--desktop.png",
+      "sha256": "8a8385dd7d89cdf3edfb1e39680b49f705a8e85aedb4c82bcf0b0dca347ffef9",
+      "size": [
+        1366,
+        768
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "桌面建造模式",
+      "observed": "顶部资源、波次倒计时与核心生命，右上暂停和小地图，左下建造单位卡，底部建造分类与六建筑卡均可见；实际单位图正常，边框与数值不遮挡关键操作。"
+    },
+    {
+      "file": "ui/states/UI-007--s00--desktop.png",
+      "sha256": "101911d8bbb9ac6c28b88f937f3af1de770add17232058b832737c5cf369d62e",
+      "size": [
+        1366,
+        768
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "本地／远程／公开列表",
+      "observed": "公开页签选中；服务器列表、人数/延迟、选中服务器详情、搜索/添加/刷新/加入游戏层级清楚，中文可读。"
+    },
+    {
+      "file": "ui/states/UI-023--s03--mobile.png",
+      "sha256": "3bd08f0367d86e7c82d7953bc7797b7533198147f35ab80c95fdfd5dc066305b",
+      "size": [
+        844,
+        390
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "重命名／删除",
+      "observed": "世界处理器管理显示选中处理器位置和指令数，右侧名称输入、应用名称、删除说明与删除按钮，底部返回列表完整可见。"
+    },
+    {
+      "file": "ui/states/UI-014--s03--mobile.png",
+      "sha256": "c003fdaeb1e09636cc99bd005306195a6862006bcedf4c3df48625284302b80b",
+      "size": [
+        844,
+        390
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "发行版本选择",
+      "observed": "v1.1.0 选中、v1.0.0 已安装、v0.9.0 旧版明确区别；底部取消和下载所选版本完整可见。",
+      "scrollNote": "版本下拉框位于内容滚动裁口下缘，静态首屏仅露上部；发行版列表本身完整。"
+    },
+    {
+      "file": "ui/states/UI-026--s09--desktop.png",
+      "sha256": "6e688007f97084f1b0ac4eac7e72a43e9f8e6fadfef1432d3a98d8e42fe824f5",
+      "size": [
+        1366,
+        768
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "资源类型：内容",
+      "observed": "内容页签选中，jade-turret.hjson 列表与右侧内部名称、建筑类型、内容文本、重新加载齐备；清空和完成按钮完整。",
+      "scrollNote": "右侧从剪贴板导入按钮位于面板下缘，首屏可见部分；内容文本区域也按表单窗口裁口显示。"
+    },
+    {
+      "file": "ui/states/D-11--s03--mobile.png",
+      "sha256": "275492fb4dc002a16e08b77d09181d3f85d39d13fde196dae17901f95d24974c",
+      "size": [
+        844,
+        390
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "打开／保存／取消",
+      "observed": "保存文件标题、maps/ 路径、目录和文件列表清楚，底部取消/打开现有/保存按钮完整。",
+      "scrollNote": "文件名字段位于对话框内容滚动裁口下缘，值 new-map.msav 可辨，字段底边首屏未显示。"
+    },
+    {
+      "file": "ui/states/C-06--s00--mobile.png",
+      "sha256": "eb219121e3e288601face49b312815cf34bd541def7c4a89c1165c8b82ca7daf",
+      "size": [
+        844,
+        390
+      ],
+      "actuallyViewed": true,
+      "result": "no_blocking_visual_issue_observed",
+      "expectedState": "默认（同一组件板同时展示六种必需状态）",
+      "observed": "输入组件板的默认、焦点、选择状态清楚：焦点绿环和文本选中高亮真实区分；下排光标/禁用/无效标签及控件上部可见，返回按钮完整。",
+      "scrollNote": "下排三个状态的控件下半部位于首屏滚动裁口之外；这张静态图不能单独展示完整下排。"
+    }
+  ],
+  "styleConclusion": "八张均延续玉绿主控件/选中态、暖金边框、米白纸纹面板与云纹/流苏装饰；中文是清楚的原生排版。实战 HUD 与背景使用同套机关美术，未混入另一套游戏皮肤。",
+  "blockingFindings": [],
+  "nonBlockingObservations": "UI-014、UI-026、D-11、C-06 的部分次级内容位于滚动裁口下缘；按上述逐图观察保留，不把首屏裁切误写成所有控件同时完整可见。本轮只看 PNG，未新增滚动交互结论。",
+  "priorEvidenceContext": "Root reported records/ui-render-all.json completed 616 desktop/mobile checks with zero errors/brokenImages/outside controls. This independent spot check does not reassert a full rerun.",
+  "runtimeIntegrationVerified": false
+}

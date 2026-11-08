@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/mechanical-drill-top.png",
+  "sourceGitBlob": "dae2776c58c55a6d86a759ca4a9d5bb745d62808",
+  "sourceSha256": "300268496166d67071cf09ab036c8567c7da92869ea08cc893b841be90fb1211",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "mechanical-drill-top",
+  "blockId": "mechanical-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-top.png",
+  "sha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-top.png",
+  "engineSha256": "77f56596f6b34c98a9af276f1f85d66b2d5dfa0bd7e19181386c3f5e50b5ae01",
+  "nativeFile": "full-game/units/parts/joint-cap-small.png",
+  "nativeSha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+  "nativeSize": [
+    372,
+    283
+  ],
+  "sourceAlphaBounds": [
+    16,
+    16,
+    48,
+    48
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      16,
+      16,
+      48,
+      48
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-small.png",
+      "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/mechanical-drill-top.png",
+      "sha256": "300268496166d67071cf09ab036c8567c7da92869ea08cc893b841be90fb1211"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

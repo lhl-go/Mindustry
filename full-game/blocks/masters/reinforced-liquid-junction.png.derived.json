@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/reinforced-liquid-junction.png",
+  "sha256": "70f5ba189f8c51d764b52b734a719c72fc7b2ad11fa57e3f4e86cc2ad2965f58",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/liquid-machinery-04.png",
+      "sha256": "a677ce22ac47e1c278bc4c054faf0038dc680cefa71c4adc2282f42b06843529",
+      "generationRecord": "full-game/blocks/records/liquid-machinery-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      8,
+      652,
+      306,
+      932
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      298,
+      280
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    330,
+    312
+  ],
+  "anchorPixels": [
+    165.0,
+    156.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

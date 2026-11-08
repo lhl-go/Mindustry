@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/emanate-cell.png",
+  "sha256": "f8680bb4ca7a47ce51ff58d2eb9d2663b89b0dd37ff7f5b5eea1f62a5a8705a4",
+  "width": 82,
+  "height": 84,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/emanate.png",
+      "sha256": "8c624b1e27b78a700894a5ca95f920db7a2e7b55d851b7346f32a314df30f5d7",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/emanate.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "emanate",
+    "baseCanvas": [
+      82,
+      84
+    ],
+    "outputCanvas": [
+      82,
+      84
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/emanate-cell.png",
+    "gitBlobSha1": "101a01b9ece24d3beadc5827f0a1c73671f2e64f",
+    "sha256": "e571a761789bebc55ea746b188598716b39500b0836fa08c3ea5155cf1898198"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

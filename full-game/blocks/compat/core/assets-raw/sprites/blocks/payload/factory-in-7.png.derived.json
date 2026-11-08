@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/factory-in-7.png",
+  "sourceGitBlob": "1861a46c35313b0ec95ca920cfe017195c6f7379",
+  "sourceSha256": "ffe7c1e8e9fa20388e40d8fa22b59f80402c73571361d258c914269f90481ccb",
+  "sourceDimensions": [
+    224,
+    224
+  ],
+  "region": "factory-in-7",
+  "blockId": null,
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-7.png",
+  "sha256": "291caa86f0a424ee40ae6342fbe92fc448f333c79c45b77efcbe2b6a6f70ae5c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-7.png",
+  "engineSha256": "291caa86f0a424ee40ae6342fbe92fc448f333c79c45b77efcbe2b6a6f70ae5c",
+  "nativeFile": "full-game/blocks/masters/exponential-reconstructor.png",
+  "nativeSha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc",
+  "nativeSize": [
+    369,
+    335
+  ],
+  "sourceAlphaBounds": [
+    0,
+    10,
+    83,
+    214
+  ],
+  "operation": {
+    "type": "painted_material_with_original_runtime_geometry",
+    "role": "shared PayloadBlock fallback factory-in-7",
+    "originalAlphaPreservedExactly": true,
+    "originalOffsetPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "flatStationarySurface": false
+  },
+  "disposition": "styled_material_with_original_runtime_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/exponential-reconstructor.png",
+      "sha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/factory-in-7.png",
+      "sha256": "ffe7c1e8e9fa20388e40d8fa22b59f80402c73571361d258c914269f90481ccb"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-7.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/factory-in-7.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/exponential-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

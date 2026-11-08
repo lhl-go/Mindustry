@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/bryde.png",
+  "sha256": "6c5950c39d2ea748cf8ae4709c1f84c3391c39dd5833cd47bcc9693854f8661e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/bryde.png",
+      "sha256": "24d45c89fccb3e20b3b09b8b77e8ba66bfdd5d802595521fb73cb60b4ecb30f1",
+      "generationRecord": "units/serpulo-ground-naval/bodies/bryde.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-long-artillery.png",
+      "sha256": "b788b9c0cd9d971303400b53c9f2d9ff4295050756789622cf624701705fa42e",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-long-artillery.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-missile-pair.png",
+      "sha256": "d63d678364473e3e5ae962df64a244463072a812a797d1ed9d1a3de3fd0046dc",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-pair.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      916,
+      828,
+      1284,
+      1371
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-ground-naval/bodies/bryde.png",
+        "generationRecord": "units/serpulo-ground-naval/bodies/bryde.png.generation.json",
+        "sourceAnchorPx": [
+          176.0,
+          263.5
+        ],
+        "targetAnchorPx": [
+          184,
+          272
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          8,
+          8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-long-artillery.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-long-artillery.png.generation.json",
+        "sourceAnchorPx": [
+          163.0,
+          301.75
+        ],
+        "targetAnchorPx": [
+          184,
+          340.51
+        ],
+        "scale": [
+          0.4325153374233129,
+          0.43099273607748184
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          114,
+          210
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-missile-pair.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-pair.png.generation.json",
+        "sourceAnchorPx": [
+          132.0,
+          211.75
+        ],
+        "targetAnchorPx": [
+          64.32,
+          372.13
+        ],
+        "scale": [
+          0.3181818181818182,
+          0.32081911262798635
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          22,
+          304
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-missile-pair.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-missile-pair.png.generation.json",
+        "sourceAnchorPx": [
+          132.0,
+          211.75
+        ],
+        "targetAnchorPx": [
+          303.68,
+          372.13
+        ],
+        "scale": [
+          0.3181818181818182,
+          0.32081911262798635
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          262,
+          304
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 368,
+    "height": 543,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 99932,
+    "opaquePixelCount": 96810,
+    "partialPixelCount": 3082,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      344,
+      519
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "bryde",
+    "sha256": "6c5950c39d2ea748cf8ae4709c1f84c3391c39dd5833cd47bcc9693854f8661e",
+    "size": [
+      368,
+      543
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

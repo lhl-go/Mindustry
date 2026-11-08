@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>天工仙阵 · 道家 Q 版美术包</title><link rel="stylesheet" href="gallery.css"></head><body>
+<header><div><span class="eyebrow">MINDUSTRY · v160.7</span><h1>天工仙阵</h1><p>道家 Q 版 UI、角色与机关单位美术</p></div><img src="../characters/02-alchemy-engineer-clean.png" alt="炼器道童"></header>
+<nav><button class="active" data-tab="overview">交付总览</button><button data-tab="ui">界面与状态</button><button data-tab="units">单位素材</button><button data-tab="kit">共用控件</button><a href="README.md">接入说明</a></nav>
+<main><section id="overview"><div id="summary" class="summary"></div><div class="notice">所有页面均为美术布局与演示数据。浏览器预览不连接服务器、不操作存档；桌面客户端美术渲染检查与浏览器设计预览的范围见全量接入说明。实际原生尺寸、裁切、分层和型号证据见各文件的记录。</div><h2>整屏美术设计</h2><div id="concepts" class="concepts"></div></section>
+<section id="ui" hidden><div class="sectionhead"><h2>界面与状态</h2><a href="../ui/preview/index.html" target="_blank">独立打开完整预览 ↗</a></div><p>左侧选择界面，顶部切换状态和桌面／移动视口。状态 PNG 与共用皮肤均可独立查看。</p><iframe id="uiPreview" title="界面状态预览" src="../ui/preview/index.html"></iframe><div id="uiScreens" class="screenlinks"></div></section>
+<section id="units" hidden><div class="sectionhead"><h2>单位素材</h2><div><input id="unitSearch" placeholder="搜索名称、ID 或家族"><select id="unitGroup"><option value="">全部家族</option></select></div></div><p>点开 PNG 查看原图。透明图预览支持深浅底；完整分层、锚点与源坐标记录可直接打开。</p><div class="toolbar"><button id="backgroundToggle">切换深浅背景</button><span id="unitCount"></span></div><div id="unitGrid" class="unitgrid"></div></section>
+<section id="kit" hidden><h2>共用控件</h2><p>透明切片、四态按钮、九宫格边界和 24 个功能图标。原生文字独立排版，列表、滑块、颜色与进度由客户端控件绘制。</p><div id="kitGrid" class="kitgrid"></div></section></main>
+<footer>生成图与切片来源见旁侧 JSON，界面状态图来源见批量渲染记录。内置工具未返回具体型号／画质，配置目标不作为实际返回证明。</footer>
+<script src="delivery-data.js"></script><script src="gallery.js"></script></body></html>

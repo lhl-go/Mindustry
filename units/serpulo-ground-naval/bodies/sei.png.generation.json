@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/bodies/sei.png",
+  "sha256": "60df1f865e4bac6a695ad13768cfd2c8016d667c55e13141ac0d32062e98220e",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/13-assault-hulls.png",
+      "sha256": "d36ce24fbe7901ac57283d8fd2958a996d114fff9ae1bbb687c7142a7a9293a2",
+      "generationRecord": "records/workers/serpulo-ground-naval/13-assault-hulls.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      88,
+      502,
+      449,
+      1009
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 393,
+    "height": 539,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 90450,
+    "opaquePixelCount": 118488,
+    "partialPixelCount": 2889,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      377,
+      523
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    196.5,
+    269.5
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "body"
+}

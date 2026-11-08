@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "worker": "root-builders",
+  "updatedAt": "2026-10-26T09:53:23.770794+00:00",
+  "status": "three_builder_art_exports_complete_runtime_pending",
+  "assets": [
+    {
+      "id": "alpha",
+      "officialNameZhCN": "阿尔法",
+      "family": "serpulo-core",
+      "file": "units/root-builders/assets/alpha-v2.png",
+      "generationRecord": "units/root-builders/assets/alpha-v2.png.derived.json",
+      "sha256": "4a3bd5e2151b362dd97eb2edfd531f0b082c12b6caef0884a6210c0245882692",
+      "size": [
+        432,
+        419
+      ],
+      "status": "static_art_exported_runtime_unverified",
+      "layers": [
+        {
+          "role": "weapon_mirrored_pair",
+          "file": "units/root-builders/layers/small-basic-weapon.png",
+          "officialRegion": "small-basic-weapon",
+          "top": false,
+          "mirror": true,
+          "officialOffset": [
+            2.75,
+            1
+          ],
+          "orientationCorrectionDegrees": 180
+        },
+        {
+          "role": "body",
+          "file": "units/root-builders/layers/alpha-body.png",
+          "officialRegion": "alpha",
+          "pivot": "canvas_center"
+        }
+      ],
+      "layerFiles": [
+        "units/root-builders/layers/small-basic-weapon.png",
+        "units/root-builders/layers/alpha-body.png"
+      ],
+      "layerAlignment": {
+        "type": "estimated_art_alignment",
+        "artAttachmentPlacements": [
+          {
+            "side": -1,
+            "topLeftPixels": [
+              82,
+              63
+            ],
+            "size": [
+              92,
+              113
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.7754177832071311
+          },
+          {
+            "side": 1,
+            "topLeftPixels": [
+              258,
+              63
+            ],
+            "size": [
+              92,
+              113
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.7628580257901759
+          }
+        ],
+        "officialOffsetsRetainedInLayerMetadata": true,
+        "requiresRuntimeRegistration": true
+      },
+      "effects": "Reuse official engine plume, build beam, mining beam and laser effects; not baked in PNG.",
+      "runtimeVerified": false,
+      "sourceBoards": [
+        "units/root-builders/boards/01-core-builders-parts-v1.png"
+      ],
+      "visualReview": "passed_visible_weapon_tips_and_clean_alpha"
+    },
+    {
+      "id": "beta",
+      "officialNameZhCN": "贝塔",
+      "family": "serpulo-core",
+      "file": "units/root-builders/assets/beta-v2.png",
+      "generationRecord": "units/root-builders/assets/beta-v2.png.derived.json",
+      "sha256": "21d407f0b41657d826ba89a4e2b13da7f2d32e6bb82195b71779583a09b2fda1",
+      "size": [
+        588,
+        510
+      ],
+      "status": "static_art_exported_runtime_unverified",
+      "layers": [
+        {
+          "role": "weapon_mirrored_pair",
+          "file": "units/root-builders/layers/small-mount-weapon.png",
+          "officialRegion": "small-mount-weapon",
+          "top": false,
+          "mirror": true,
+          "officialOffset": [
+            3,
+            1
+          ],
+          "orientationCorrectionDegrees": 180
+        },
+        {
+          "role": "body",
+          "file": "units/root-builders/layers/beta-body.png",
+          "officialRegion": "beta",
+          "pivot": "canvas_center"
+        }
+      ],
+      "layerFiles": [
+        "units/root-builders/layers/small-mount-weapon.png",
+        "units/root-builders/layers/beta-body.png"
+      ],
+      "layerAlignment": {
+        "type": "estimated_art_alignment",
+        "artAttachmentPlacements": [
+          {
+            "side": -1,
+            "topLeftPixels": [
+              102,
+              67
+            ],
+            "size": [
+              131,
+              148
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.8125693302951869
+          },
+          {
+            "side": 1,
+            "topLeftPixels": [
+              354,
+              67
+            ],
+            "size": [
+              131,
+              148
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.80520292270183
+          }
+        ],
+        "officialOffsetsRetainedInLayerMetadata": true,
+        "requiresRuntimeRegistration": true
+      },
+      "effects": "Reuse official engine plume, build beam, mining beam and laser effects; not baked in PNG.",
+      "runtimeVerified": false,
+      "sourceBoards": [
+        "units/root-builders/boards/01-core-builders-parts-v1.png"
+      ],
+      "visualReview": "passed_visible_weapon_tips_and_clean_alpha"
+    },
+    {
+      "id": "gamma",
+      "officialNameZhCN": "伽马",
+      "family": "serpulo-core",
+      "file": "units/root-builders/assets/gamma-v3.png",
+      "generationRecord": "units/root-builders/assets/gamma-v3.png.derived.json",
+      "sha256": "941e66efc8bae6c79c5e1f9428440e49c04d3153c98d39c0e07625484cfc5a83",
+      "size": [
+        538,
+        603
+      ],
+      "status": "static_art_exported_runtime_unverified",
+      "layers": [
+        {
+          "role": "weapon_mirrored_pair",
+          "file": "units/root-builders/layers/small-mount-weapon.png",
+          "officialRegion": "small-mount-weapon",
+          "top": false,
+          "mirror": true,
+          "officialOffset": [
+            1,
+            2
+          ],
+          "orientationCorrectionDegrees": 180
+        },
+        {
+          "role": "body",
+          "file": "units/root-builders/layers/gamma-body.png",
+          "officialRegion": "gamma",
+          "pivot": "canvas_center"
+        }
+      ],
+      "layerFiles": [
+        "units/root-builders/layers/small-mount-weapon.png",
+        "units/root-builders/layers/gamma-body.png"
+      ],
+      "layerAlignment": {
+        "type": "estimated_art_alignment",
+        "artAttachmentPlacements": [
+          {
+            "side": -1,
+            "topLeftPixels": [
+              96,
+              50
+            ],
+            "size": [
+              118,
+              133
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.5599552041387975
+          },
+          {
+            "side": 1,
+            "topLeftPixels": [
+              324,
+              50
+            ],
+            "size": [
+              118,
+              133
+            ],
+            "mountPivotNormalized": [
+              0.5,
+              0.82
+            ],
+            "visibleFractionAfterBody": 0.5611944914533175
+          }
+        ],
+        "officialOffsetsRetainedInLayerMetadata": true,
+        "requiresRuntimeRegistration": true
+      },
+      "effects": "Reuse official engine plume, build beam, mining beam and laser effects; not baked in PNG.",
+      "runtimeVerified": false,
+      "sourceBoards": [
+        "units/root-builders/boards/01-core-builders-parts-v1.png"
+      ],
+      "visualReview": "passed_visible_weapon_tips_and_clean_alpha"
+    }
+  ],
+  "board": {
+    "file": "units/root-builders/boards/01-core-builders-parts-v1.png",
+    "sha256": "40ea129f33832d0e6b898b8041bf9661ebac2cdfb6d7d945c242746ee9fdb35f",
+    "generationRecord": "units/root-builders/boards/01-core-builders-parts-v1.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ],
+    "imageRetained": false
+  },
+  "uniqueLayerCount": 5,
+  "independentUnitPngCount": 3,
+  "actualModel": null,
+  "actualQuality": null,
+  "notes": [
+    "Weapon images were rotated 180 degrees so muzzle points up.",
+    "Beta and Gamma share exactly the same small-mount-weapon file, matching the official region reuse.",
+    "Composite previews downsample weapon art; native independent body and weapon PNGs are preserved.",
+    "A third weapon candidate in the generated board is unused; no false unique-region claim."
+  ],
+  "runtimeIntegrationVerified": false,
+  "visualReview": "passed",
+  "sourceImagesRetained": false
+}

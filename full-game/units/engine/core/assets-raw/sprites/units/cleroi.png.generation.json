@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/cleroi.png",
+  "sha256": "9f0cb3ae895271934580287c6fb1e81fed3277d9217f41b6cc62f6bf3571e86d",
+  "width": 84,
+  "height": 85,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/cleroi-body.png",
+      "sha256": "5ce14a6b757074b65d2afef3aeb5f0469b5a7c29dac13900c6facbebb15abdc0",
+      "generationRecord": "units/air-erekir/layers/cleroi-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      494,
+      400
+    ],
+    "sourcePivot": [
+      255.0,
+      208.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      12
+    ],
+    "sourceDimensions": [
+      510,
+      416
+    ],
+    "targetDimensions": [
+      84,
+      85
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      80,
+      81
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      42.0,
+      42.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/cleroi.png",
+    "gitBlobSha1": "c48211473d1b23b0421637600543090385cffd89",
+    "sha256": "0464c6283f62ace7adbac39fc0e0c818544ac7fde36bf56a222191d0ea9fb4d3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

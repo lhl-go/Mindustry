@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/trash.png",
+  "sourceGitBlob": "e0f419f2f38b1c379817f37bed824d2e9bf729e1",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/trash.png",
+  "sha256": "1663aa015bd544c5a821ae8a4a79e54ee340707275312d107cc000551fb85e87",
+  "sourceSize": [
+    14,
+    14
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/trash.png",
+      "sha256": "b7b3b0b1ac70928a4a7291724edc330b8e2544fe698160a380642ba32e97fdb7",
+      "record": "full-game/ui-system/icons/trash.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "trash",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

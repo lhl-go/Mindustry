@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/items/item-sand.png",
+  "sha256": "d52de56cada95188a4a9b1aa35af174404fa54e08e68c3c80ce6e74ee0e8a9dd",
+  "width": 32,
+  "height": 32,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/item-sand.png",
+      "sha256": "90411686b945c04ceefc3adaf5117dd4bf34fd8a4a7d2cc525e702fffde74ee5",
+      "generationRecord": "full-game/items-fx/assets/item-sand.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      32,
+      32
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

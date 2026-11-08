@@ -1,0 +1,57 @@
+{
+  "file": "full-game/blocks/boards/ducts-conduit-connections-02.png",
+  "sha256": "8c6c6123608c6ba508ac65735a6ee38bab02a71f53c03e9ae57e10df1e1f642f",
+  "generatedAt": "2026-10-26T16:47:39.457590+00:00",
+  "width": 1619,
+  "height": 971,
+  "format": "RGBA PNG",
+  "tool": "image_gen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed image_gen exposes no model/quality selector and returns no verifiable model/quality metadata.",
+  "evidence": {
+    "receipt": "full-game/blocks/records/ducts-conduit-connections-02.receipt.json"
+  },
+  "prompt": "full-game/blocks/prompts/ducts-conduit-connections-02.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary user-confirmed art direction",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary user-confirmed art direction",
+      "actuallyAttached": true
+    },
+    {
+      "file": "mindustry-image/full-game/blocks/boards/conveyors-connections-01.png",
+      "sha256": "89ed7e538b640e55aa8522b57e784df78a68a0beba511d32e8747cdd244e53ef",
+      "purpose": "technical topology reference actually attached",
+      "actuallyAttached": true
+    }
+  ],
+  "sourceImageRetained": true
+}

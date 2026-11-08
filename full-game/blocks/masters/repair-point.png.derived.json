@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/repair-point.png",
+  "sha256": "5052ad50387e1ac76dbb82564d244e993454fe7967dc905197316dae507a485e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1149,
+      448,
+      1386,
+      672
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      237,
+      224
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    269,
+    256
+  ],
+  "anchorPixels": [
+    134.5,
+    128.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

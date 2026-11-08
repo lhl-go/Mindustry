@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-glow.png",
+  "sourceGitBlob": "dc693222b29ba053803f8abe322ec35464406874",
+  "sourceSha256": "c54ad3cce2d20510ed7c5700b2f5cb91fb46761b2c7ed77dbbfb2a05418fffff",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "chemical-combustion-chamber-glow",
+  "blockId": "chemical-combustion-chamber",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-glow.png",
+  "sha256": "a0830699974e7abf9093ebbd8bace8d48821aef2cba502c9cb78eeb23144d652",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-glow.png",
+  "engineSha256": "a0830699974e7abf9093ebbd8bace8d48821aef2cba502c9cb78eeb23144d652",
+  "nativeFile": "full-game/blocks/masters/chemical-combustion-chamber.png",
+  "nativeSha256": "eb4fe26ebb654d9711a4cf02f067c0749db5d3207af802f3d196d608bb98ec7f",
+  "nativeSize": [
+    332,
+    330
+  ],
+  "sourceAlphaBounds": [
+    2,
+    2,
+    95,
+    95
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/chemical-combustion-chamber.png",
+      "sha256": "eb4fe26ebb654d9711a4cf02f067c0749db5d3207af802f3d196d608bb98ec7f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/chemical-combustion-chamber-glow.png",
+      "sha256": "c54ad3cce2d20510ed7c5700b2f5cb91fb46761b2c7ed77dbbfb2a05418fffff"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/chemical-combustion-chamber-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

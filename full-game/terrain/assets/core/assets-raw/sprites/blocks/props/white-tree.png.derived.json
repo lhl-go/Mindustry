@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/white-tree.png",
+  "sha256": "7b28a50fb8b5659df0a84ece16c1a66c5d3b824738527df51e1fbf5079045887",
+  "createdAt": "2026-10-26T19:36:48.411424+00:00",
+  "kind": "derived_image",
+  "width": 320,
+  "height": 320,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/source/20-white-trees.png",
+      "sha256": "8a513720bd47bb6e81879cd91325b7e18e375a70ca6b261f3d6a0c20a21074ba",
+      "generationRecord": "full-game/terrain/source/20-white-trees.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "native_connected_component_crop_alpha_cleanup_downsample_register",
+    "sourceBBox": [
+      27,
+      17,
+      896,
+      871
+    ],
+    "nativeExtractedSize": [
+      869,
+      854
+    ],
+    "nativeComponents": 1,
+    "componentThresholdAlpha": 16,
+    "minimumComponentArea": 16,
+    "nearOpaqueAlphaSnappedAt": 245,
+    "filter": "Lanczos downsample only",
+    "contentScale": 0.35443037974683544,
+    "exportPadding": 6,
+    "registeredCanvas": [
+      320,
+      320
+    ],
+    "noNewPaintedDetail": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited source generation; local authorized pixel cleanup only."
+}

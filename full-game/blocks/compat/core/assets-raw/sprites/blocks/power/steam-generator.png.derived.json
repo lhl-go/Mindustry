@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/steam-generator.png",
+  "sourceGitBlob": "958247f0d251ea65a1d60ac31c4018e500c81ea7",
+  "sourceSha256": "287f918c86646284d23a593dd44409c1e8fd55dfedcf3bff70db656e94bead6d",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "steam-generator",
+  "blockId": "steam-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator.png",
+  "sha256": "b4aea19c491d89935c2475df839287f787e3c92d9be8616cb905316a53917488",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator.png",
+  "engineSha256": "b4aea19c491d89935c2475df839287f787e3c92d9be8616cb905316a53917488",
+  "nativeFile": "full-game/blocks/masters/steam-generator.png",
+  "nativeSha256": "fa77b793844b5a150693b31929d0d5810c59c1331c2ec2d9129c8c2611b19fcd",
+  "nativeSize": [
+    354,
+    371
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/steam-generator.png",
+      "sha256": "fa77b793844b5a150693b31929d0d5810c59c1331c2ec2d9129c8c2611b19fcd"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator.png",
+      "sha256": "287f918c86646284d23a593dd44409c1e8fd55dfedcf3bff70db656e94bead6d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

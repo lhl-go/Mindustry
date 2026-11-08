@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/obviate.png",
+  "sha256": "a1b1acc30eaf960e87c1fdb7508e20162206e16ff77020cf25a088ddd3d5168a",
+  "width": 510,
+  "height": 505,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/obviate.png",
+      "sha256": "35a2e9754939cb1c541849fc846c579e204b6547cd0979751e62e0a9edda0f79",
+      "generationRecord": "units/air-erekir/individual/obviate.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+      "sha256": "e1918698b6dc7680b5c3cfcc6dc5e185da301df51e3b0916f7d9bb973b772334",
+      "generationRecord": "units/air-erekir-parts/assets/disrupt-tail.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/individual/obviate.png",
+        "role": "body",
+        "region": "obviate",
+        "anchorPixels": [
+          255,
+          253
+        ],
+        "scale": 0.9251968503937008,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          254.0,
+          252.0
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          203.3,
+          276.3
+        ],
+        "scale": 0.21995073891625616,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/disrupt-tail.png",
+        "role": "auxiliary_blade",
+        "region": "disrupt-tail",
+        "anchorPixels": [
+          306.7,
+          276.3
+        ],
+        "scale": 0.21995073891625616,
+        "rotationClockwise": 0,
+        "mirrorX": true,
+        "pivotSourcePixels": [
+          399,
+          70
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

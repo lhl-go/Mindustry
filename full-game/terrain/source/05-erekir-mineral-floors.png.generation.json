@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/05-erekir-mineral-floors.png",
+  "sha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31",
+  "generatedAt": "2026-10-26 16:45:03 UTC",
+  "startedAt": "2026-10-26 16:43:06 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    2048,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Paint 24 NEW Mindustry terrain floor tiles, refined clean bright Daoist Q hand-painted materials using two attached references as craftsmanship reference ONLY. NO UI, text, symbols, people, raised props or perspective. Requested2048×3072 portrait, exactly FOUR columns × SIX rows of square full-bleed material swatches without gutters, lines, borders or labels. Strict top-down FLAT GROUND. Each row FOUR different native variants of same material, uniform mean brightness/color and feature scale, distinct patterns no copied tiles. Even overhead daylight, no lighting gradient/vignette. Fine material texture, soft rounded broad planes, sparse accents and low-medium contrast; naturally tileable quiet edges, every cell opaque.\nRow1 BERYLLIC STONE: desaturated pale sage-jade gray rock, tiny beryl-green mineral grains, soft irregular chalky stone plates.\nRow2 DENSE RED STONE: dense dusty rust-red brick-colored natural rock with close irregular hairline fractures and subtle dark mottling, NOT manufactured bricks.\nRow3 RED STONE: lighter warm terracotta rosy stone ground with broad rounded natural plates, fine warm beige mineral veins.\nRow4 FERRIC STONE: muted warm iron-brown ocher rock with tiny rusty orange iron flecks and sparse shallow soft cracks.\nRow5 ROUGH RHYOLITE: muted purple-mauve gray rough volcanic ground, coarse rounded rocky grains and small shallow surface fissures, all flat.\nRow6 CARBON STONE: very dark blue charcoal-gray carbon-rich ground, flat broad smooth fractured plates with subtle blue-gray rims, no bright lava.\nPreserve sensible functional material identity; never simply recolor a shared crack drawing. Precisely24 fullbleed squares, no text.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/05-erekir-mineral-floors.txt",
+  "promptSha256": "14cb80fad2b20d32b7e8f3a911acaa20c44d7ce16706a49dcf63974061fa80b8",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/05-erekir-mineral-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5bdfd5ef-0fb4-445d-99d0-e1281d34058e.png",
+    "originalOutputSha256": "5f11ae253ba5882898a5a2d5db8cc47248a41a2408014e36d65b90b6ae54fa31"
+  },
+  "regions": [
+    "beryllic-stone1",
+    "beryllic-stone2",
+    "beryllic-stone3",
+    "beryllic-stone4",
+    "dense-red-stone1",
+    "dense-red-stone2",
+    "dense-red-stone3",
+    "dense-red-stone4",
+    "red-stone1",
+    "red-stone2",
+    "red-stone3",
+    "red-stone4",
+    "ferric-stone1",
+    "ferric-stone2",
+    "ferric-stone3",
+    "ferric-stone4",
+    "rough-rhyolite1",
+    "rough-rhyolite2",
+    "rough-rhyolite3",
+    "rough-rhyolite4",
+    "carbon-stone1",
+    "carbon-stone2",
+    "carbon-stone3",
+    "carbon-stone4"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone1.png",
+      "sha256": "39ab40ded75332775def394452132945e9d7381956193d6776b3992ba011e7a9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone2.png",
+      "sha256": "1333de59db7998643e0d863fbbea4bd8ac9d6aaeb43669e6b6195d63fa60b11e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone3.png",
+      "sha256": "4716ce9d6ffb8628c3a202650f2cdccb3dadb67311ee9058176e854bb17d3fa5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/beryllic-stone4.png",
+      "sha256": "5aed4dba7ee7ffc523b6df1183d0ab0e63f2a375244aa8adeb30366dcf196f56"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dense-red-stone1.png",
+      "sha256": "bdc5838a421f8a58cf1f682582978bc1b0f6d6d744a1ab93b2243e82065099eb"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dense-red-stone2.png",
+      "sha256": "1ff1da9d5007c639ea14eaf89bc5518785ef531a09c0971b9e23c90a7af5ab65"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dense-red-stone3.png",
+      "sha256": "92109c6ba45297db8549e336b5f5642db805e435b4bccb90245ef90c1cc62584"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dense-red-stone4.png",
+      "sha256": "5eaa58637331b2b87db1c09b82aad4a2b20cd73ca6e476c623adab9e0f844338"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone1.png",
+      "sha256": "0da35974fe9415ebf947b8db9958e8d632f4011b21bd36c90a6b1330e20a71a7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone2.png",
+      "sha256": "a520dbccfd6a9844402c8fbfbfe11458118cd4c6c59f8776fcda8f84a83e790b"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone3.png",
+      "sha256": "d2c073634272150c492d9210faec9cd3a941d57228855b0f3608ee16e7d7aedf"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone4.png",
+      "sha256": "fae5cb56777318e34e9d27ad317c210543357044aa3c9748b0bce7ff094df79a"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone1.png",
+      "sha256": "1965216d6fbc41baa7b6b6c63ab03157b9c54f831a25c5f3b4d440b7e19db649"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone2.png",
+      "sha256": "fe7328d8dd2f4630d84c480cc61d825fd94654023be72670dcddbeb85553a818"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone3.png",
+      "sha256": "266029da0a2a92ed77e939dfebd0bf26ba6b5ab491ebb3ab8a97a168fa5aa048"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ferric-stone4.png",
+      "sha256": "dd49eabf16391fec129d94f8631bf1a3fc219043ef8223cb7ff5028ce7e8c746"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rough-rhyolite1.png",
+      "sha256": "0cfea7ebd4c9b9a405e0e4073a6835699039370109c43033c405a7c698451569"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rough-rhyolite2.png",
+      "sha256": "91bd20323602611d42f9556863a00e6fe4aee81416e9979cbbf89991f77427da"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rough-rhyolite3.png",
+      "sha256": "60e9ac988bd99af65d0a2836fa9ab6377c658e2270c0e038953e3ed094debe5c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rough-rhyolite4.png",
+      "sha256": "85bdc04cbef95578f2dfed9db79442219e794f58a5b94bc9e9d83c9c17bc02e0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-stone1.png",
+      "sha256": "66e8be86c9d3a599ccbf18b8d61aa579b2c8029d6eb8d99c33d3854618ecb343"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-stone2.png",
+      "sha256": "efdf5998854684a459b2ca8db90dfdb1bb3e25a00179d471f32b16f76f292b58"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-stone3.png",
+      "sha256": "48268761122b23770eeb0b53b4a5b6511086332039795e80a0de08fc41cd5b3f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-stone4.png",
+      "sha256": "c5a6d3a75c91e56e3c4c0a4e4da8f1145b612dbad841882ca2f5c7b32dbe041a"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

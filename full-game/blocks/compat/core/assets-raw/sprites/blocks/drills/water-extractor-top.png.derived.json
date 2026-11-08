@@ -1,0 +1,56 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/water-extractor-top.png",
+  "sourceGitBlob": "3671dd0817bcf193bd43ad8b1daa011be8892a42",
+  "sourceSha256": "e8821ff6e02372ed119ec63b8a3355de334b95daa2eb3e7a6b4539851083b8c2",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "water-extractor-top",
+  "blockId": "water-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-top.png",
+  "sha256": "d31aba7320dd25e9ea5401c5ff9a82567e419ea6d05f61b213734bd850af47ab",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-top.png",
+  "engineSha256": "d31aba7320dd25e9ea5401c5ff9a82567e419ea6d05f61b213734bd850af47ab",
+  "nativeFile": "full-game/units/parts/joint-cap-small.png",
+  "nativeSha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7",
+  "nativeSize": [
+    372,
+    283
+  ],
+  "sourceAlphaBounds": [
+    12,
+    12,
+    52,
+    52
+  ],
+  "operation": {
+    "kind": "independent_static_hub_cap",
+    "originalHubBounds": [
+      12,
+      12,
+      52,
+      52
+    ],
+    "doesNotReplaceRotorWithWholeBuilding": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/parts/joint-cap-small.png",
+      "sha256": "557f1e2fec07764dab1045ad9071484984ad302490637996d22ff699e8f9a6a7"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/water-extractor-top.png",
+      "sha256": "e8821ff6e02372ed119ec63b8a3355de334b95daa2eb3e7a6b4539851083b8c2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

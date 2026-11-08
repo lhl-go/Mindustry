@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "scope": "All fixed v160.7 environment and natural-prop sprite paths, planet/sky and required technical textures",
+  "sourceCommit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "route": "builtin image_gen",
+  "artSource": "host_image",
+  "sceneMode": "tile_mode",
+  "worldUnitsPerTile": 8,
+  "intendedCamera": "orthographic top-down",
+  "logicalFloorSize": [
+    32,
+    32
+  ],
+  "nativeSizePolicy": "Preserve actual-resolution native crops. Original-size compatibility resample is separately disclosed for6skybox faces and1space image; no added detail claimed.",
+  "runtimeIntegrationVerified": false,
+  "state": "complete_static_art_runtime_pending",
+  "firstBatch": {
+    "materials": [
+      "stone",
+      "basalt",
+      "shale",
+      "dirt",
+      "sand-floor",
+      "mud"
+    ],
+    "variantsPerMaterial": 3,
+    "count": 18
+  },
+  "permissions": "Local pixel cleanup and slicing authorized; original art generated via built-in tool. No shared Git or old frozen output modifications.",
+  "finalMappedCount": 733,
+  "generationCount": 25
+}

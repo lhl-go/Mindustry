@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/08-geothermal-vents.png",
+  "sha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290",
+  "generatedAt": "2026-10-26 17:05:02 UTC",
+  "startedAt": "2026-10-26 17:03:38 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: game-sprite atlas. Create SIXTEEN isolated geothermal steam vent ground OVERLAYS for Mindustry. Strict top-down orthographic, flat ground openings, refined clean bright Daoist Q hand-painted rock style. Attached2 images guide craftsmanship only; NO UI, people, text, frames, symbols. Requested3072×3072 square, exactly4 columns×4rows evenly spaced. Each complete vent graphic centered in own cell occupying about70 percent of cell; at least15percent transparent clear padding each side; no touching cell boundaries. All background FULLY TRANSPARENT. Do not draw square opaque ground tiles. Each vent is an irregular shallow rocky ring embedded into ground with a small dim central heat fissure/opening, broken organic rock rim and sparse mineral grains, viewed directly above. No tall chimney, no smoke/steam plume (animated steam added in engine). Each pair is TWO separately painted patterns of same material, not copies.\nRow1: two pale natural cool gray STONE vents (col1,col2), then two charcoal blue-gray BASALT vents (col3,col4).\nRow2: two muted lavender-gray RHYOLITE vents (col1,col2), then two warm golden ochre YELLOW STONE vents (col3,col4).\nRow3: two very dark blue-charcoal CARBON vents (col1,col2), then two desaturated slate-blue teal ARKYIC STONE vents (col3,col4).\nRow4: two dusty terracotta RED STONE vents (col1,col2), then two pale gray-lilac CRYSTALLINE STONE vents with tiny lavender crystal grains in the rim (col3,col4).\nNatural irregular rounded crack rings, tiny warm muted yellow hot central slit. Every piece complete with clean transparent outside, no drop shadow detached from piece, no labels or decoration. Consistent overhead soft light, attractive hand-painted broad readable game shapes.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/08-geothermal-vents.txt",
+  "promptSha256": "3e45c7d02c968a1d7ce8d1352639e59b25fbf9edeaa5ab2d58c5f4ecf1c6e0ac",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/08-geothermal-vents.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-cd6656bb-80e7-4c86-a75a-6b3343d7190b.png",
+    "originalOutputSha256": "b65710cbf2b989a1e5f5e174ec3f7b01578ef43cda530ee0ad39cc1868e9e290"
+  },
+  "regions": [
+    "stone-vent1",
+    "stone-vent2",
+    "basalt-vent1",
+    "basalt-vent2",
+    "rhyolite-vent1",
+    "rhyolite-vent2",
+    "yellow-stone-vent1",
+    "yellow-stone-vent2",
+    "carbon-vent1",
+    "carbon-vent2",
+    "arkyic-vent1",
+    "arkyic-vent2",
+    "red-stone-vent1",
+    "red-stone-vent2",
+    "crystalline-vent1",
+    "crystalline-vent2"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone-vent1.png",
+      "sha256": "11a962fa4d42653ab49636dc40d69df0ded85f863ea03cf3a663cee1f7dd8a81"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone-vent2.png",
+      "sha256": "aa0eb13730f194b2c559cbc3fa7f3cfd39b6e934ee32a6c8c2f63c66a0e07c38"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/basalt-vent1.png",
+      "sha256": "7aed4c6981a1c77b54965e61b51b03c873c93b39b6ed229965016ebdf3c10b75"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/basalt-vent2.png",
+      "sha256": "cacf7d82fdc6d295a439565f94a5c56cffcf7c425fe1d13538ed18065e16e3d7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-vent1.png",
+      "sha256": "326abcb8db5c58a448ed6ec62d8df1360011cffc063d93274de41df06ea47f56"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-vent2.png",
+      "sha256": "c5d00f40a69c40c7d795becbd67c002433efcd8f971e30d3b762ee4516c0bd86"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-vent1.png",
+      "sha256": "ab815bf27e48332d067360757551aab61f8cf1857a0b1c420a86297feb03dd0c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-vent2.png",
+      "sha256": "32f90fcd85925bda9f94069646a87c39cac96dfb975aa003d94402c15f3ae659"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-vent1.png",
+      "sha256": "1c2236ed28d338cd0ae917704dae27199f1996d50078615ac95d885da87a9790"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/carbon-vent2.png",
+      "sha256": "64d474f1b9cca1d7779c174810d7a8b69fd09e2695fe1f24afeab88074bc46b5"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-vent1.png",
+      "sha256": "75dbe66a286049d5979514e540c966f47e0b3cf97e5336141c423b954d39f84c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-vent2.png",
+      "sha256": "9c6b7e94177c327b48b8464417050c8fdce8c6041ce831009d4e5321bdbd2e05"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone-vent1.png",
+      "sha256": "e6cae085a6798baab9b75fb2ab7073c8c242433e476143dad4e3575a867bc4c7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-stone-vent2.png",
+      "sha256": "5efd9df750ffa46a2f0977a1a1253bc9ad8b16ed139eab24a01d8d6b8fd28f20"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-vent1.png",
+      "sha256": "95d8e57c6bac15d3d953844ba263bc4bed163f3c2faa9a5999730c070b70ec1e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/crystalline-vent2.png",
+      "sha256": "7847bb9c5ddd6e6f4a0cb0be3c27bb60b3d742c27b61e41442ed570d4a1af98a"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

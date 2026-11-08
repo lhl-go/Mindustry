@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/world-cell.png",
+  "sha256": "d15403a5b24f6489420dfed9248429dd86c5831a2c8308626f94798ad43c7950",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/sandbox-world-final-01.png",
+      "sha256": "dc3465a9192509fb4a5e783c338f9e1b5e5193a550ae56498942866d2976d729",
+      "generationRecord": "full-game/blocks/records/sandbox-world-final-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      421,
+      36,
+      751,
+      369
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      330,
+      333
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    362,
+    365
+  ],
+  "anchorPixels": [
+    181.0,
+    182.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

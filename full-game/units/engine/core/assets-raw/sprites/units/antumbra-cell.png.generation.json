@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/antumbra-cell.png",
+  "sha256": "00ce7cbaf75a43f36bc1d612ffd5d8fd09c059f0ffe6557646fff01c103d8713",
+  "width": 216,
+  "height": 240,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/antumbra.png",
+      "sha256": "7086038c3ab4933dba5bf66f29abdc9b04481c1615ac1684b986943540d128d4",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/antumbra.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "antumbra",
+    "baseCanvas": [
+      216,
+      240
+    ],
+    "outputCanvas": [
+      216,
+      240
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/antumbra-cell.png",
+    "gitBlobSha1": "85c7517229526bd4e4982b248a806d88bdd1a0c6",
+    "sha256": "da44259bf58382f648d37477f25fccaefb1b2928564fafd443168eb3d1871685"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

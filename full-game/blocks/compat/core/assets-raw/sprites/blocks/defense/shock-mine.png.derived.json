@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/shock-mine.png",
+  "sourceGitBlob": "3a286f0d26a331f9f809de0b868bcf9ca372b413",
+  "sourceSha256": "e2b1906b6abfea728c572b02283c2c5691e735fd35d361dcd4c53d6e8fa896c2",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "shock-mine",
+  "blockId": "shock-mine",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine.png",
+  "sha256": "6b0e57a9f22b922dc39e49687a5cb43b385008e2dde87796f7fe4301d9fe0879",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine.png",
+  "engineSha256": "6b0e57a9f22b922dc39e49687a5cb43b385008e2dde87796f7fe4301d9fe0879",
+  "nativeFile": "full-game/blocks/masters/shock-mine.png",
+  "nativeSha256": "ba0c423cb7b8d3cc38b64d200bf0a94507aa5ca897724a93ecba9edf640fe4c3",
+  "nativeSize": [
+    188,
+    186
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    28,
+    28
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shock-mine.png",
+      "sha256": "ba0c423cb7b8d3cc38b64d200bf0a94507aa5ca897724a93ecba9edf640fe4c3"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/shock-mine.png",
+      "sha256": "e2b1906b6abfea728c572b02283c2c5691e735fd35d361dcd4c53d6e8fa896c2"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shock-mine.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/shock-mine.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

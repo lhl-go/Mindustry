@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/eclipse.png",
+  "sha256": "1a72db7f021406e1c1c44c29d309424bc6ab983e9be6cff1fed48f5c8c76f84a",
+  "width": 320,
+  "height": 321,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/eclipse-body.png",
+      "sha256": "80db0edc11629f1d269625a554a345756c24ac8fc173de19cfb819446c6b7f5c",
+      "generationRecord": "units/air-erekir/layers/eclipse-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      724,
+      708
+    ],
+    "sourcePivot": [
+      370.0,
+      362.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      740,
+      724
+    ],
+    "targetDimensions": [
+      320,
+      321
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      316,
+      317
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      160.0,
+      160.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/eclipse.png",
+    "gitBlobSha1": "5d49e2132e2eb0d1fc129c25e12778453f9b2303",
+    "sha256": "83230f2772f09b6681e5c8e2699e071a17e1cc18ba2302fb04e8b0d99cce0d65"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

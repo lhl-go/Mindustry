@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/shockwave-tower.png",
+  "sourceGitBlob": "dff1d431182881a8dcfdea53ec296dba12be38cb",
+  "sourceSha256": "265e55966e72e818f2d12326dc36fd6891793dfa1f4a45bb266cc5f5bc36e0cf",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "shockwave-tower",
+  "blockId": "shockwave-tower",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower.png",
+  "sha256": "f39f3f49856a7738e019f4ece5dfb3ac6d16879806784eeac60bbdd8a6875055",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower.png",
+  "engineSha256": "f39f3f49856a7738e019f4ece5dfb3ac6d16879806784eeac60bbdd8a6875055",
+  "nativeFile": "full-game/blocks/masters/shockwave-tower.png",
+  "nativeSha256": "d37c6f03ad701942f3d74ce76c6356ebabc2545c6d6e79b4064c0a8e1f30c07c",
+  "nativeSize": [
+    334,
+    327
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/shockwave-tower.png",
+      "sha256": "d37c6f03ad701942f3d74ce76c6356ebabc2545c6d6e79b4064c0a8e1f30c07c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/shockwave-tower.png",
+      "sha256": "265e55966e72e818f2d12326dc36fd6891793dfa1f4a45bb266cc5f5bc36e0cf"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/shockwave-tower.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/shockwave-tower.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

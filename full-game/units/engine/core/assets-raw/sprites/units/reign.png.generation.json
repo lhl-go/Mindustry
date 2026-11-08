@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/reign.png",
+  "sha256": "1abd461cd4acda0b47f67d132759f5c967a44873500381cd8e1362c3071867dc",
+  "width": 214,
+  "height": 140,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/reign.png",
+      "sha256": "199355d2f43a07bc71252b3ffd4e3868d3d2c962f38b5f89bc50e8ca3b493a8b",
+      "generationRecord": "units/serpulo-ground-naval/bodies/reign.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      644,
+      487
+    ],
+    "sourcePivot": [
+      330.0,
+      251.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      19,
+      4
+    ],
+    "sourceDimensions": [
+      660,
+      503
+    ],
+    "targetDimensions": [
+      214,
+      140
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      210,
+      136
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      107.0,
+      70.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/reign.png",
+    "gitBlobSha1": "6e7b81c1461493c124855b1c48cddf98a635ba30",
+    "sha256": "fadb8678e0de7863d86f619510b7dad5a68d65297e72def5f99b71d0f2f0f0c7"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

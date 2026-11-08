@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/mech-fabricator.png",
+  "sha256": "f9a9a6508a1b6c68db7181b489c0e30d984e774c25c1c4e0550e105fcdb674b7",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-01.png",
+      "sha256": "939912efdd2d6a43275d9eeed115a00030b6844f7a61849adfa98289097f7ac3",
+      "generationRecord": "full-game/blocks/records/unit-factories-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1112,
+      747,
+      1428,
+      1045
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      316,
+      298
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    348,
+    330
+  ],
+  "anchorPixels": [
+    174.0,
+    165.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/cursor.png",
+  "sourceGitBlob": "1025a08a9eab8b62fde96fa9039099d358c7eda3",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/cursor.png",
+  "sha256": "86346fed3464a5d7289dc14648b4c0b91b832202c9770508072f29846a23929a",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/cursor.png",
+      "sha256": "4ff4082578a7c9103383b21ebc9e99af3d3254cc340b1a479ff382b1ae3ba597",
+      "record": "full-game/ui-system/icons/cursor.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "cursor",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

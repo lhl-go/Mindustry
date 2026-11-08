@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-10-26T08:48:08.598208+00:00",
+  "result": "passed_files_pixels_provenance_and_static_visual_only",
+  "validation": {
+    "exactAssigned12Ids": true,
+    "uniqueUnitAndLayerPngs": 22,
+    "allPngHeadersAndHashesMatch": true,
+    "allGenerationAndDerivationRecordsPresent": true,
+    "allReferenceAndPromptHashesMatch": true,
+    "allAssetAlphaMeaningful": true,
+    "allAssetTransparentPaddingAtLeast32Px": true,
+    "allFullyTransparentRgbZero": true,
+    "all12ViewedOnDarkAndLightBackgrounds": true,
+    "runtimeIntegrationAccepted": false
+  },
+  "sourceBoardSizes": [
+    [
+      1774,
+      887
+    ],
+    [
+      1254,
+      1254
+    ],
+    [
+      1254,
+      1254
+    ],
+    [
+      1774,
+      887
+    ]
+  ],
+  "assets": [
+    {
+      "id": "manifold",
+      "file": "units/special/assets/manifold.png",
+      "sha256": "24ba028e845145ce8ea54f3c017799a43fbb62e6c1caabf66bebcef5114c47fc",
+      "size": [
+        625,
+        661
+      ]
+    },
+    {
+      "id": "assembly-drone",
+      "file": "units/special/assets/assembly-drone.png",
+      "sha256": "b9bd0b3db83f72e49b26949758c5c6de71c26029531b1b9ae7f1feeb09f09391",
+      "size": [
+        606,
+        579
+      ]
+    },
+    {
+      "id": "dummy",
+      "file": "units/special/assets/dummy.png",
+      "sha256": "efe2b30f1efa5bc82a6e3df8b2d3b264a5c017f1b8e1232f3030e486a476a804",
+      "size": [
+        608,
+        633
+      ]
+    },
+    {
+      "id": "scathe-missile-phase",
+      "file": "units/special/assets/scathe-missile-phase.png",
+      "sha256": "896c1249f81baee16b99ffb52aff9b13b712bc5e7c64cbcb5a78ecb845862ef6",
+      "size": [
+        612,
+        872
+      ]
+    },
+    {
+      "id": "scathe-missile-surge",
+      "file": "units/special/assets/scathe-missile-surge.png",
+      "sha256": "48cab5ebbeb5f471c7ce3c78e8ab49eebff84acde3696109fc77970911ff20a3",
+      "size": [
+        503,
+        867
+      ]
+    },
+    {
+      "id": "scathe-missile-surge-split",
+      "file": "units/special/assets/scathe-missile-surge-split.png",
+      "sha256": "cc2ed09cf91eb0803684dc26a668f909a9a8a9243ced16b419291ca920cc39c3",
+      "size": [
+        354,
+        592
+      ]
+    },
+    {
+      "id": "anthicus-missile",
+      "file": "units/special/assets/anthicus-missile.png",
+      "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+      "size": [
+        309,
+        502
+      ]
+    },
+    {
+      "id": "quell-missile",
+      "file": "units/special/assets/quell-missile.png",
+      "sha256": "180d8ea9ca5d0d958f537db0d769fe88e05aaa32942777964c67d38a82a3cc13",
+      "size": [
+        417,
+        504
+      ]
+    },
+    {
+      "id": "scathe-missile",
+      "file": "units/special/assets/scathe-missile.png",
+      "sha256": "b3fe6e58587a9f91820e7780d3dba2fddf339463cfefc44876f19e752d07748c",
+      "size": [
+        489,
+        668
+      ]
+    },
+    {
+      "id": "disrupt-missile",
+      "file": "units/special/assets/disrupt-missile.png",
+      "sha256": "6081ed6d0e9b3dd3ac72a88a1845f4c995258ffe2664f27f0e3c0402a26b53ce",
+      "size": [
+        450,
+        646
+      ]
+    },
+    {
+      "id": "renale",
+      "file": "units/special/assets/renale.png",
+      "sha256": "ab832cbfcc66bb308f47533de7a22b4d7d542c518abad7737e56d84fafb85382",
+      "size": [
+        442,
+        881
+      ]
+    },
+    {
+      "id": "latum",
+      "file": "units/special/assets/latum.png",
+      "sha256": "7a78fb426c0ea755516d11aec16c35915c69563b365ee146bb6d61df5969b56e",
+      "size": [
+        579,
+        1170
+      ]
+    }
+  ]
+}

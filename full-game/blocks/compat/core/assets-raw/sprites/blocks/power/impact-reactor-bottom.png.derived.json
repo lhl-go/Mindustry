@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/impact-reactor-bottom.png",
+  "sourceGitBlob": "3ca55b02077fb66e492bd7fa1750710e8b94381b",
+  "sourceSha256": "d85359051abcb183d9bca62878cfee209d3a29a9e4c252d828104b4ef86aa1ff",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-reactor-bottom",
+  "blockId": "impact-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-bottom.png",
+  "sha256": "d382110a59fdafc3aa00a582e6ec2fb375ddc656815161f129795427928bed46",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-bottom.png",
+  "engineSha256": "d382110a59fdafc3aa00a582e6ec2fb375ddc656815161f129795427928bed46",
+  "nativeFile": "full-game/blocks/masters/impact-reactor.png",
+  "nativeSha256": "330e4e145e28ccc056819150dc35d575b5278a4ce736643023da19a217932bb2",
+  "nativeSize": [
+    364,
+    343
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    128,
+    128
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/impact-reactor.png",
+      "sha256": "330e4e145e28ccc056819150dc35d575b5278a4ce736643023da19a217932bb2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/impact-reactor-bottom.png",
+      "sha256": "d85359051abcb183d9bca62878cfee209d3a29a9e4c252d828104b4ef86aa1ff"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-bottom.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

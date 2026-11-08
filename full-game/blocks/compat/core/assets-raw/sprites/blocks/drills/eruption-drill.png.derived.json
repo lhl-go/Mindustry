@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/eruption-drill.png",
+  "sourceGitBlob": "f4b809a51e7259c5113c17a7b3db8799b2a317bf",
+  "sourceSha256": "4febf95fad8705e1192868957644e5d024be6506114968d7115c1f088e82874e",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "eruption-drill",
+  "blockId": "eruption-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill.png",
+  "sha256": "ae3b0d7842a58f5670658d12f1b9af7faffb85fd913eb616faba25f9dd08847a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill.png",
+  "engineSha256": "ae3b0d7842a58f5670658d12f1b9af7faffb85fd913eb616faba25f9dd08847a",
+  "nativeFile": "full-game/blocks/masters/eruption-drill.png",
+  "nativeSha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81",
+  "nativeSize": [
+    364,
+    341
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/eruption-drill.png",
+      "sha256": "f812727eecfdda626732d0558a57aec295605643fe291282c41471af5dfddd81"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill.png",
+      "sha256": "4febf95fad8705e1192868957644e5d024be6506114968d7115c1f088e82874e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/large-plasma-bore-glow.png",
+  "sourceGitBlob": "b17b63b0e1c3d277c2f66c86e9e4a440c2e89f78",
+  "sourceSha256": "2dd540041ded69668cf903b4f26258248566ed4a2d4f7253e4a291e3c2065872",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "large-plasma-bore-glow",
+  "blockId": "large-plasma-bore",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore-glow.png",
+  "sha256": "2485b052495b599b0aa152c922cfe093458f8d470656255214c80c6dfacd4c33",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore-glow.png",
+  "engineSha256": "2485b052495b599b0aa152c922cfe093458f8d470656255214c80c6dfacd4c33",
+  "nativeFile": "full-game/blocks/masters/large-plasma-bore.png",
+  "nativeSha256": "36abef31058d341819d57954a501a09652f6d2e7d15bca4f0965a077d335b506",
+  "nativeSize": [
+    383,
+    309
+  ],
+  "sourceAlphaBounds": [
+    30,
+    3,
+    96,
+    93
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/large-plasma-bore.png",
+      "sha256": "36abef31058d341819d57954a501a09652f6d2e7d15bca4f0965a077d335b506"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/large-plasma-bore-glow.png",
+      "sha256": "2dd540041ded69668cf903b4f26258248566ed4a2d4f7253e4a291e3c2065872"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/large-plasma-bore-glow.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

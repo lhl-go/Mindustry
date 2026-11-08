@@ -1,0 +1,26 @@
+{
+  "region": "tsunami-liquid",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/tsunami-liquid.png",
+  "sha256": "1f2ebb4749c53661b3ebbb868494d45e10e18e584ff1dec80b0a1da1d16f3f10",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.410057+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/tsunami-liquid.png",
+      "sha256": "2e2225186fe793bb26293dcdfcbb6ab998ee63a673dbd6762d94f971b9993f28",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "pixel_exact_technical_liquid_alpha",
+    "reason": "DrawTurret.drawTurret uses Drawf.liquid with actual fluid color and fill amount; neutral exact reservoir alpha is required. Geometry remains fixed original canvas.",
+    "encoding": "Pixel values retained; PNG container bytes may differ."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

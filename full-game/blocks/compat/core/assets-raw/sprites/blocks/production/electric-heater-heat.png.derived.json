@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electric-heater-heat.png",
+  "sourceGitBlob": "1b293c32c8e5c4ef6aa3fe146b2fa17ef6c7c31c",
+  "sourceSha256": "ad03f4b0e06592f69a9cc2dc01a2872df574d595c49fe4fa58754bbcd3edf2ef",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "electric-heater-heat",
+  "blockId": "electric-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-heat.png",
+  "sha256": "5b268b4acb701c0b85a497c82bd341d2249a5ffbe9ccf26c572b616cacf20e56",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-heat.png",
+  "engineSha256": "5b268b4acb701c0b85a497c82bd341d2249a5ffbe9ccf26c572b616cacf20e56",
+  "nativeFile": "full-game/blocks/masters/electric-heater.png",
+  "nativeSha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b",
+  "nativeSize": [
+    301,
+    301
+  ],
+  "sourceAlphaBounds": [
+    12,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electric-heater.png",
+      "sha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electric-heater-heat.png",
+      "sha256": "ad03f4b0e06592f69a9cc2dc01a2872df574d595c49fe4fa58754bbcd3edf2ef"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

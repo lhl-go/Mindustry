@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/regen-projector.png",
+  "sha256": "14b5e43a01a38ef4449d1b5a5dde46c3de38b2c0883154b10d6c057c311d0baf",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      28,
+      728,
+      351,
+      1032
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      323,
+      304
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    355,
+    336
+  ],
+  "anchorPixels": [
+    177.5,
+    168.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

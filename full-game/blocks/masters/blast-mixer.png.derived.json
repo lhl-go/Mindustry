@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/blast-mixer.png",
+  "sha256": "905a80b65230d0475bc9560334aba4d67aec175cea00a4987e5a7e3ebf0153fa",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-serpulo-01.png",
+      "sha256": "722eeac010c9a3d53e8c92bdf015e3741c5363fa5065833e98abf9e611aa87fc",
+      "generationRecord": "full-game/blocks/records/production-serpulo-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      815,
+      690,
+      1126,
+      980
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      311,
+      290
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    343,
+    322
+  ],
+  "anchorPixels": [
+    171.5,
+    161.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

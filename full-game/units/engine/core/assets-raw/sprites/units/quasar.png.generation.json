@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/quasar.png",
+  "sha256": "43bae9f5e093729808ac45b67f6bc2a42067cbe7b6c335f84b0f10728d9aec57",
+  "width": 80,
+  "height": 80,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/quasar.png",
+      "sha256": "966c148fd05ac3dd5dfa417cb78ba19f53788d590c07e9030ceaa546a4457e91",
+      "generationRecord": "units/serpulo-ground-naval/bodies/quasar.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      451,
+      467
+    ],
+    "sourcePivot": [
+      233.5,
+      241.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      6,
+      4
+    ],
+    "sourceDimensions": [
+      467,
+      483
+    ],
+    "targetDimensions": [
+      80,
+      80
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      76,
+      76
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      40.0,
+      40.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/quasar.png",
+    "gitBlobSha1": "dfbf9825814e33c6c227283e2fd13545e73500b8",
+    "sha256": "63d3de379a90971e246b876c787473a60f4ffbab9ad1fb65da40e44d5e7483c3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

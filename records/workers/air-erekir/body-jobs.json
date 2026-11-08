@@ -1,0 +1,77 @@
+[
+  {
+    "stem": "07-air-utility-body",
+    "names": [
+      "zenith-body",
+      "antumbra-body",
+      "eclipse-body",
+      "mega-body",
+      "incite-body"
+    ],
+    "args": {
+      "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 contains attack aircraft; Image2 contains support aircraft; Image3 contains core builders; Image4/5 style references. Draw these FIVE bodies in exact reading order:\n1 zenith, image1 top-right: same pointed jet hull and wings; REMOVE paired missile racks, leave smooth gold-rimmed mounting pads.\n2 antumbra, image1 bottom-left: same wide heavy hull and rear engines; REMOVE all missile and rotary-gun turrets, replace covered areas with uninterrupted matching armor.\n3 eclipse, image1 bottom-center: same broad winged capital hull and engines; REMOVE all long laser cannons and small gun turrets, leave clean round mounting bases only.\n4 mega, image2 top-right: same white cargo lifter hull, cargo opening, wings, carrying arms and engines; REMOVE small green repair weapon turrets only.\n5 incite, image3 middle: same four-engine builder hull and cargo socket; REMOVE small rotating tool head near side, retain main body and fixed clamps.\nOnly hulls; do not include any detached weapons elsewhere.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\01-serpulo-air-assault.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\02-serpulo-air-support.png",
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\06-erekir-core-builders.png",
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "stem": "08-tank-body",
+    "names": [
+      "stell-body",
+      "locus-body",
+      "precept-body",
+      "vanquish-body",
+      "conquer-body"
+    ],
+    "args": {
+      "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 is the 5-tank atlas. Preserve its five chassis in the exact same tier order: Stell,Locus,Precept,Vanquish,Conquer. REMOVE every cannon barrel, entire rotating turret and secondary weapon. Reveal complete matching flat upper chassis armor beneath, with simple small round bronze pivot sockets. Keep all treads, lower hulls, lamps, side armor. Each hull fully complete and separate. No guns of any kind. Reference2/3 are style only.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\03-erekir-tanks.png",
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "stem": "09-walker-body",
+    "names": [
+      "merui-body",
+      "cleroi-body",
+      "anthicus-body",
+      "tecta-body",
+      "collaris-body"
+    ],
+    "args": {
+      "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nImage1 is the five-walker atlas. Preserve the FIVE central armored bodies only in tier order Merui,Cleroi,Anthicus,Tecta,Collaris. REMOVE ALL legs, feet, upper/lower limbs, guns, missile pods and external translucent shields. Each is now a self-contained central jade-and-ivory dorsal shell with small round limb sockets on sides and a complete seamless armor surface under removed guns. Keep distinct beetle/crab/mantis/turtle/spider shell shapes. No remaining legs or cannons, no detached parts. Style references2/3.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\04-erekir-walkers.png",
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "stem": "10-erekir-carrier-body",
+    "names": [
+      "quell-body",
+      "disrupt-body"
+    ],
+    "args": {
+      "prompt": "Edit the provided generated Daoist mechanical unit designs into production BODY-ONLY sprite assets. Keep the exact refined jade-green/ivory/warm-gold hand-painted art style, silhouette identity, strict orthographic dorsal top view facing north, materials and mechanical details of the supplied references. The mail and party UI references are style only, never draw their UI or people. Each output object must be a COMPLETE seamless hull with solid painted armor underneath removed attachments, never a cut hole or black patch. Genuine transparent RGBA background, no floor/shadows/glow backdrop, no text, no grid, no labels. Clean antialiased edges, no floating specks. Requested3072×2048,3:2. Five isolated complete bodies in invisible 3 columns by 2 rows: top-left,top-center,top-right,bottom-left,bottom-center; last cell empty. 12% margin in each cell, absolutely no contact between objects. No reimagining into front views.\nOVERRIDE layout: exactly TWO large complete hulls side by side, requested 2048×1024,2:1, equal cells. LEFT is Quell from image1 bottom-left; RIGHT is Disrupt from image1 bottom-right. Preserve their original nose-up hull, engines, mechanical construction and distinct scale. REMOVE every missile launcher basket/turret from both bodies, reveal complete smooth armor below with round mount sockets. For DISRUPT also REMOVE its outer rear pair of swept movable tail wings while retaining the central fuselage, fixed front wings and engine pods. Its removed tail fins will be provided separately. No detached components in this image. Style refs2/3.",
+      "referenced_image_paths": [
+        "D:\\work\\image\\mindustry-image\\units\\air-erekir\\source\\05-erekir-air.png",
+        "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+        "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+      ],
+      "transparent_background": true
+    }
+  }
+]

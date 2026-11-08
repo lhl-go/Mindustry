@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/mend-projector.png",
+  "sourceGitBlob": "b2872d412045fff80913d31b7a160e3be2966428",
+  "sourceSha256": "93d172b1b8fbca27df758889cc83e9b89a96a412f173c35ce06a922d58f9c2dd",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "mend-projector",
+  "blockId": "mend-projector",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mend-projector.png",
+  "sha256": "0ecc739937b2643b17a183a22b9a611d32020533ffed579a6b6d680db6119295",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mend-projector.png",
+  "engineSha256": "0ecc739937b2643b17a183a22b9a611d32020533ffed579a6b6d680db6119295",
+  "nativeFile": "full-game/blocks/masters/mend-projector.png",
+  "nativeSha256": "dce8b239547647b0608ca6b0b8e7fe8b8246c4c37721b03475c196b0643d7717",
+  "nativeSize": [
+    332,
+    314
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mend-projector.png",
+      "sha256": "dce8b239547647b0608ca6b0b8e7fe8b8246c4c37721b03475c196b0643d7717"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/mend-projector.png",
+      "sha256": "93d172b1b8fbca27df758889cc83e9b89a96a412f173c35ce06a922d58f9c2dd"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mend-projector.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mend-projector.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mend-projector.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/bridge-conveyor.png",
+  "sha256": "617b9a980cfe9b041ccd8bc8ac9ed87cc1f45349a1661843dd09b095abef1804",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      389,
+      66,
+      585,
+      298
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      196,
+      232
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    228,
+    264
+  ],
+  "anchorPixels": [
+    114.0,
+    132.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/defense/mender-top.png",
+  "sourceGitBlob": "c1feb9910aab63abd2aef3fffff0aec03b0cf932",
+  "sourceSha256": "fba86d42fc5f99cc27e495c844f797e8b28b2f48cde4c2ad2f3aa8e27fcc7495",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "mender-top",
+  "blockId": "mender",
+  "category": "defense",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender-top.png",
+  "sha256": "9570ba8ab4ef6d2a09895af463690a997570ff24fa4cb1eb88ff927de2b17cf0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender-top.png",
+  "engineSha256": "9570ba8ab4ef6d2a09895af463690a997570ff24fa4cb1eb88ff927de2b17cf0",
+  "nativeFile": "full-game/blocks/masters/mender.png",
+  "nativeSha256": "3f9941e25d98170600b04d7b4513b65f720b226a8c5d291302dca3595702f877",
+  "nativeSize": [
+    221,
+    217
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    24,
+    24
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mender.png",
+      "sha256": "3f9941e25d98170600b04d7b4513b65f720b226a8c5d291302dca3595702f877"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/defense/mender-top.png",
+      "sha256": "fba86d42fc5f99cc27e495c844f797e8b28b2f48cde4c2ad2f3aa8e27fcc7495"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/defense/mender-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/mender.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

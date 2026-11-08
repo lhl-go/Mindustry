@@ -1,0 +1,41 @@
+{
+  "region": "scatter-mid",
+  "file": "full-game/root-turrets/masters/scatter-mid.png",
+  "sha256": "41bfa9418d4654b3d9e85189586527328b41b458587ae7897404361d336ded83",
+  "size": [
+    122,
+    341
+  ],
+  "derivedAt": "2026-10-26T18:34:44.683516+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/04-regions.png",
+      "sha256": "c75a10674fd55bf77607f3f6cf27be67ffdabe159e950cbf45f449f625c5f548",
+      "record": "full-game/root-turrets/source/04-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      3
+    ],
+    "cell": 8,
+    "sourceBox": [
+      143,
+      691,
+      241,
+      1008
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

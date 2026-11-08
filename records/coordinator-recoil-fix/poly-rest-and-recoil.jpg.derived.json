@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "file": "records/coordinator-recoil-fix/poly-rest-and-recoil.jpg",
+  "sha256": "239b121d70693a8069a09792cd88abaea1bf1a3c2af2498f11c3e6c8fadc9973",
+  "width": 1500,
+  "height": 739,
+  "format": "JPEG",
+  "derivedAt": "2026-10-26T07:58:17.213269-04:00",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/poly-body.png",
+      "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+      "record": "units/coordinator-recoil-fix/poly-body.png.derived.json"
+    },
+    {
+      "file": "units/coordinator-recoil-fix/poly-weapon.png",
+      "sha256": "167c5f8b9f6ed0f8981bbc8e77677a97e4ed5c878de204ae158357b48789304d",
+      "record": "units/coordinator-recoil-fix/poly-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "qa_contact_composition",
+    "panels": [
+      "rest on ivory",
+      "weapon-only 16px recoil mock on dark jade"
+    ],
+    "references": [
+      {
+        "file": "units/coordinator-recoil-fix/poly-body.png",
+        "role": "body",
+        "originPixels": [
+          160,
+          160
+        ]
+      },
+      {
+        "file": "units/coordinator-recoil-fix/poly-weapon.png",
+        "role": "weapon",
+        "scale": 0.42,
+        "instances": [
+          {
+            "mirrorX": true,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              285.58,
+              510.4
+            ]
+          },
+          {
+            "mirrorX": false,
+            "rotationDegrees": 0,
+            "anchorPixels": [
+              632.42,
+              510.4
+            ]
+          }
+        ],
+        "pivotNormalized": [
+          0.5,
+          0.78
+        ],
+        "coordinateStatus": "estimated_art_alignment; canonical world coordinates retained in officialWeaponOffsets"
+      }
+    ],
+    "thumbnailMaxSize": [
+      1500,
+      750
+    ],
+    "newPaint": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "purpose": "visual QA evidence, not a new game sprite or model generation",
+  "runtimeIntegrationVerified": false
+}

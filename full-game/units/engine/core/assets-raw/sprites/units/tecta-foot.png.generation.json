@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/tecta-foot.png",
+  "sha256": "b7b937162e592a564e093ddb64359f71b551cc8ca687b439109ef19d346e2ae5",
+  "width": 70,
+  "height": 70,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir-parts/assets/foot-heavy.png",
+      "sha256": "ef5398dee242313b52e6cb930e146b05789eb5351aad15ae343922629a7cc78f",
+      "generationRecord": "units/air-erekir-parts/assets/foot-heavy.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      341,
+      371
+    ],
+    "sourcePivot": [
+      184,
+      342
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      8,
+      4
+    ],
+    "sourceDimensions": [
+      373,
+      403
+    ],
+    "targetDimensions": [
+      70,
+      70
+    ],
+    "officialAlphaBounds": [
+      6,
+      4,
+      66,
+      66
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      35.0,
+      35.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/tecta-foot.png",
+    "gitBlobSha1": "f035f791d4816aef3efa8cce1957f85b9dae645d",
+    "sha256": "66f98032c04cb9c0b0130aff90cfabb5734d5f06a74db3b20d56e7c274e964f8"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

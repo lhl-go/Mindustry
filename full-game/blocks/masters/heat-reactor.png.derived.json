@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/heat-reactor.png",
+  "sha256": "f4d33a0baa2c807e21a7b714351ba5fcad0e568ef09448ba48d4feaa5219bb96",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-heat-03.png",
+      "sha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "generationRecord": "full-game/blocks/records/production-heat-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      735,
+      702,
+      1056,
+      1050
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      321,
+      348
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    353,
+    380
+  ],
+  "anchorPixels": [
+    176.5,
+    190.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

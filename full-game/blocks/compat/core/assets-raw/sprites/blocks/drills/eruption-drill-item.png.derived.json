@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/eruption-drill-item.png",
+  "sourceGitBlob": "73a5e7624e3e362b06fe0bb00d622f2aa0bc69e4",
+  "sourceSha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "eruption-drill-item",
+  "blockId": "eruption-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-item.png",
+  "sha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-item.png",
+  "engineSha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-item.png",
+  "nativeSha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39",
+  "nativeSize": [
+    128,
+    128
+  ],
+  "sourceAlphaBounds": [
+    57,
+    57,
+    71,
+    71
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-item.png",
+      "sha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/eruption-drill-item.png",
+      "sha256": "39d3775954374387c1ee7d2cdd8e3bacd98e70d81b44e37226affeec038f6f39"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/eruption-drill-item.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

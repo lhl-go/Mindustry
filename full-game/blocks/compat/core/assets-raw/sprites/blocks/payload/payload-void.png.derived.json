@@ -1,0 +1,57 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/payload/payload-void.png",
+  "sourceGitBlob": "4c6b7b2070727408c4a70398c074326bca804c3e",
+  "sourceSha256": "9bc31c705dbac3883b99f0ead0faf04a0a73fcfab0f580ec9f9fd0e343beba59",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "payload-void",
+  "blockId": "payload-void",
+  "category": "payload",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void.png",
+  "sha256": "93496be91c2df3e4b4b9784bf4fd81dd0461d20f14415dc1e9a659a49e499bf3",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void.png",
+  "engineSha256": "93496be91c2df3e4b4b9784bf4fd81dd0461d20f14415dc1e9a659a49e499bf3",
+  "nativeFile": "full-game/blocks/masters/payload-void.png",
+  "nativeSha256": "de7d99f6d6e380f8f1d290151d53452adeaad5a4520b1db20f5c70b6c3c9a118",
+  "nativeSize": [
+    284,
+    257
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_original_canvas_export",
+    "role": "stationary native building body",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/payload-void.png",
+      "sha256": "de7d99f6d6e380f8f1d290151d53452adeaad5a4520b1db20f5c70b6c3c9a118"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/payload/payload-void.png",
+      "sha256": "9bc31c705dbac3883b99f0ead0faf04a0a73fcfab0f580ec9f9fd0e343beba59"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/payload/payload-void.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/payload-void.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "region": "titan",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/titan/titan.png",
+  "sha256": "25a8a7737a28508e71cfd0b8ce024ee7e51a0dba77697d4d3f10d600e68d6125",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.266397+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/titan.png",
+      "sha256": "7939ad58b46291f9ed4823a30bd3235c0407e434a1185e8c05ef2b172f543763",
+      "record": "full-game/root-turrets/masters/titan.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/titan/titan.png",
+      "sha256": "27a3726f1fb212ea8dec0906b82e115ed90ff7f1aa2fe786a61b7cdeeb7c593d",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      32,
+      29,
+      96,
+      123
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      318,
+      401
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

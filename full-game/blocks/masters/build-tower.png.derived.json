@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/build-tower.png",
+  "sha256": "5a9a8bf33134a54f4a912f59223e293ff0aa41194a03e06c69b2dc0a30545f2d",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/support-defense-01.png",
+      "sha256": "8be883ca50786b8c1ed81ccda9e12b103a75f56005a72c319875955d08382e6a",
+      "generationRecord": "full-game/blocks/records/support-defense-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1079,
+      387,
+      1401,
+      675
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      322,
+      288
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    354,
+    320
+  ],
+  "anchorPixels": [
+    177.0,
+    160.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

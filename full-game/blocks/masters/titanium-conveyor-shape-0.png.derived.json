@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/titanium-conveyor-shape-0.png",
+  "sha256": "c8a4acac389324ce925fe498b3508551b3d49d8e7fb91b42d9ff2a3027487725",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conveyors-connections-01.png",
+      "sha256": "89ed7e538b640e55aa8522b57e784df78a68a0beba511d32e8747cdd244e53ef",
+      "generationRecord": "full-game/blocks/records/conveyors-connections-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      45,
+      418,
+      297,
+      560
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      252,
+      142
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    284,
+    174
+  ],
+  "anchorPixels": [
+    142.0,
+    87.0
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

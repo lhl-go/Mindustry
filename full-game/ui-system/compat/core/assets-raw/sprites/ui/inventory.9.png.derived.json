@@ -1,0 +1,43 @@
+{
+  "sourcePath": "core/assets-raw/sprites/ui/inventory.9.png",
+  "sourceGitBlob": "97990b925364dfddcf4ad337b7155bcdae7c84c1",
+  "file": "full-game/ui-system/compat/core/assets-raw/sprites/ui/inventory.9.png",
+  "sha256": "ad3408b015d02bf4ea52aa48291a200d1748cc5e50b2c8567196aeb0cf852840",
+  "sourceSize": [
+    26,
+    42
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/controls/inventory.png",
+      "sha256": "572c9d7b48ee247418103fc84db9cd8456301fcbac1334a8a4f7c0f8851a4973",
+      "record": "full-game/ui-system/controls/inventory.png.derived.json"
+    },
+    {
+      "file": "full-game/ui-system/reference/core/assets-raw/sprites/ui/inventory.9.png",
+      "sha256": "688dbba81aa7032cad66b82e8934d57923ff3f1d6e0a7aba03bd47d322cee3b5",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "nine_slice_skin_resample_with_original_metadata",
+    "skinBordersLeftBottomRightTop": [
+      97.0,
+      74.0,
+      97.0,
+      99.0
+    ],
+    "sourceCanvas": [
+      26,
+      42
+    ],
+    "preserved": "All four 1px metadata rows byte-exact; interior alpha clipped to original geometry. Nine source regions independently resampled.",
+    "stateTransform": "normal",
+    "resampling": "LANCZOS"
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "exported_pending_visual_review",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

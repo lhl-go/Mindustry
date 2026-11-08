@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/steam-generator-liquid.png",
+  "sourceGitBlob": "7f074dda625bb25fb0179c6b0dd2416b798ca02e",
+  "sourceSha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "steam-generator-liquid",
+  "blockId": "steam-generator",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-liquid.png",
+  "sha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-liquid.png",
+  "engineSha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/power/steam-generator-liquid.png",
+  "nativeSha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443",
+  "nativeSize": [
+    64,
+    64
+  ],
+  "sourceAlphaBounds": [
+    27,
+    27,
+    37,
+    37
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator-liquid.png",
+      "sha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/steam-generator-liquid.png",
+      "sha256": "b6cbaef2558626bd2c2aa4a62ea555c44af3ffa79594d7185b0e93ace1fad443"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/steam-generator-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

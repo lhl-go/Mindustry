@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/sprites/oxynoe.png",
+  "sha256": "f00e217a24413e13e67679b421b8e913818acfc4174f430a74a36354308adccc",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "actualModel": null,
+  "actualQuality": null,
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/oxynoe-body.png",
+      "sha256": "60415af4b8bb17f04df3795c903a57f88e825425b4403d022e3135f47b85714b",
+      "generationRecord": "units/serpulo-root-parts/layers/oxynoe-body.png.derived.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+      "sha256": "a9cb255ee833c402f09dd2cfea27402894948b36249c52e2caeffd322e281e97",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-flame.png.generation.json"
+    },
+    {
+      "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+      "sha256": "6a5df320b38727eba02d7542d47b4a193026708c8fd66f55e1eaac306fb9b4a5",
+      "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_layer_assembly_static_preview",
+    "noProgramDrawnArt": true,
+    "noUpscaling": true,
+    "canvasCrop": [
+      927,
+      837,
+      1273,
+      1363
+    ],
+    "transforms": [
+      {
+        "file": "units/serpulo-root-parts/layers/oxynoe-body.png",
+        "generationRecord": "units/serpulo-root-parts/layers/oxynoe-body.png.derived.json",
+        "sourceAnchorPx": [
+          181.0,
+          271.0
+        ],
+        "targetAnchorPx": [
+          173,
+          263
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          -8,
+          -8
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-flame.png.generation.json",
+        "sourceAnchorPx": [
+          141.5,
+          201.25
+        ],
+        "targetAnchorPx": [
+          82.5,
+          181.7
+        ],
+        "scale": [
+          0.3462897526501767,
+          0.34408602150537637
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          33,
+          112
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-plasma-flame.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-plasma-flame.png.generation.json",
+        "sourceAnchorPx": [
+          141.5,
+          201.25
+        ],
+        "targetAnchorPx": [
+          263.5,
+          181.7
+        ],
+        "scale": [
+          0.3462897526501767,
+          0.34408602150537637
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          215,
+          112
+        ],
+        "upscaled": false
+      },
+      {
+        "file": "units/serpulo-ground-naval/parts/naval-point-defense.png",
+        "generationRecord": "units/serpulo-ground-naval/parts/naval-point-defense.png.generation.json",
+        "sourceAnchorPx": [
+          109.0,
+          191.5
+        ],
+        "targetAnchorPx": [
+          173,
+          317.2
+        ],
+        "scale": [
+          0.41284403669724773,
+          0.41353383458646614
+        ],
+        "rotationDegreesCCW": 0,
+        "mirrorHorizontal": false,
+        "topLeft": [
+          128,
+          238
+        ],
+        "upscaled": false
+      }
+    ]
+  },
+  "image": {
+    "width": 346,
+    "height": 526,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 84053,
+    "opaquePixelCount": 94735,
+    "partialPixelCount": 3208,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      24,
+      24,
+      322,
+      502
+    ],
+    "clearCanvasBorder": true
+  },
+  "engineNotVerified": true,
+  "validation": {
+    "id": "oxynoe",
+    "sha256": "f00e217a24413e13e67679b421b8e913818acfc4174f430a74a36354308adccc",
+    "size": [
+      346,
+      526
+    ],
+    "alphaRange": [
+      0,
+      255
+    ],
+    "substantialConnectedComponents": 1,
+    "tinyDetachedPixels": 0,
+    "clearBorder": true,
+    "visualReview": "passed: shallow/deep/gray alpha composites, complete silhouette, upright orientation and visible role-specific weapons/legs",
+    "rootIndependentReview": "passed: parent inspected light and dark final 25-unit contacts",
+    "engineNotVerified": true
+  }
+}

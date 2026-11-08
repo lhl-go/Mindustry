@@ -1,0 +1,62 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/vanquish.png",
+  "sha256": "a02641b8200b79c38d794d2ff9d3e34ad487be11ff7afad1625e0d84f2588733",
+  "width": 154,
+  "height": 154,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/revised-bodies/vanquish-body.png",
+      "sha256": "a03b7595a4e972c6298cfecf6bf067250db47b3c692215481a4ee6c2d4f95f05",
+      "generationRecord": "full-game/units/revised-bodies/vanquish-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "original_canvas_export_after_layer_separation",
+    "sourceTrim": [
+      16,
+      16,
+      478,
+      436
+    ],
+    "sourceDimensions": [
+      494,
+      452
+    ],
+    "destinationTopLeft": [
+      4,
+      10
+    ],
+    "scaledSize": [
+      146,
+      133
+    ],
+    "engineWindows": [
+      [
+        25,
+        22,
+        47,
+        140
+      ],
+      [
+        107,
+        22,
+        129,
+        140
+      ]
+    ],
+    "registrationPreserved": true,
+    "edgeAntialiasRemovedInsideMotionWindows": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/vanquish.png",
+    "gitBlobSha1": "c867e2f81d2020490121069052f7d4e3430ecaa9",
+    "sha256": "b6276cbf9e3ed001490d548f021d6687c2606f2820a1efb20b4b45f1374c8b0c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Downsample of traced corrected native body; no new image generation.",
+  "engineNotVerified": true
+}

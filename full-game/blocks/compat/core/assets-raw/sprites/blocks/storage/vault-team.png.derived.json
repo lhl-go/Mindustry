@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/vault-team.png",
+  "sourceGitBlob": "0ce6a50222fd484319703bf5e775088b8cb981dd",
+  "sourceSha256": "8a81b0553ac5867c0d253747f1aa08473ff35246e0cbcfbb8fb0cccde3a29519",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "vault-team",
+  "blockId": "vault",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault-team.png",
+  "sha256": "39f6e36fd57ff18e030a4f25f1a679347a60d70bf92d961385419c6b9c60e7c1",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault-team.png",
+  "engineSha256": "39f6e36fd57ff18e030a4f25f1a679347a60d70bf92d961385419c6b9c60e7c1",
+  "nativeFile": "full-game/blocks/masters/vault.png",
+  "nativeSha256": "7e2831fd9fba999fbe28c703ceb5791a00130155ae968949d45a49f831f3b540",
+  "nativeSize": [
+    317,
+    300
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/vault.png",
+      "sha256": "7e2831fd9fba999fbe28c703ceb5791a00130155ae968949d45a49f831f3b540"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/vault-team.png",
+      "sha256": "8a81b0553ac5867c0d253747f1aa08473ff35246e0cbcfbb8fb0cccde3a29519"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/vault-team.png.derived.json"
+}

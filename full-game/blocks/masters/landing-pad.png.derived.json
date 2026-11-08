@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/landing-pad.png",
+  "sha256": "3827d23aaeca6322af9b84cbab1c8209f45ba4a88af1d8beb7da3c2f867d11a1",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/storage-cores-01.png",
+      "sha256": "bfaccf66cc9e6ad991ebc3b7020921545163d93a9db4245324e7e29a883edc1b",
+      "generationRecord": "full-game/blocks/records/storage-cores-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1075,
+      732,
+      1419,
+      1047
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      344,
+      315
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    376,
+    347
+  ],
+  "anchorPixels": [
+    188.0,
+    173.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

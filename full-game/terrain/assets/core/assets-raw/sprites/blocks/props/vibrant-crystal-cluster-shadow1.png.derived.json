@@ -1,0 +1,42 @@
+{
+  "kind": "derived_shadow",
+  "derivedFrom": [
+    {
+      "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster1.png",
+      "sha256": "9102675529d34efc8f992f458a1c1242e66bfbf62b253c2d1be1e52636def40c",
+      "record": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster1.png.derived.json",
+      "role": "actual new body silhouette"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster1.png",
+      "sha256": "4e968d76386313bac1b6f43fd927846a80db0aff7ef7ecb0b5416e569f0c4681",
+      "record": "full-game/terrain/native/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster1.png.derived.json",
+      "role": "native painted body alpha"
+    }
+  ],
+  "operation": {
+    "type": "black_alpha_silhouette_soften_and_center_on_official_shadow_canvas",
+    "maximumAlpha": 255,
+    "blurSigmaEnginePixels": 1.25,
+    "engineSilhouetteScale": 0.9856115107913669,
+    "shadowOffset": "unchanged runtime TallBlock -3 / TreeBlock -4 world units; not baked into image",
+    "runtimeRotation": "unchanged source class",
+    "newPaintedVariant": false
+  },
+  "nativeOperation": {
+    "type": "native_body_alpha_black_shadow_with_2.5_percent_padding_and_softening",
+    "maximumAlpha": 255,
+    "bodyNotUpscaled": true
+  },
+  "schemaVersion": 1,
+  "file": "full-game/terrain/assets/core/assets-raw/sprites/blocks/props/vibrant-crystal-cluster-shadow1.png",
+  "sha256": "b219c25b2d8ac52b97cf6a0e573e20c0b7728befae235fde1a010ae54b8a6cc9",
+  "createdAt": "2026-10-26T20:35:01.921095+00:00",
+  "width": 139,
+  "height": 146,
+  "mode": "RGBA",
+  "format": "PNG",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited host generation; actual model/quality undisclosed. Local pixel operation is not a new generation."
+}

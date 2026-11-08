@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-nucleus-thruster2.png",
+  "sourceGitBlob": "83897e87d7ceaf22902a774e935e54252ee92140",
+  "sourceSha256": "0b14ea5b0e7476ba471165786b6c6dd1942d233321d56f515a96fdd5ed662705",
+  "sourceDimensions": [
+    240,
+    164
+  ],
+  "region": "core-nucleus-thruster2",
+  "blockId": "core-nucleus",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-thruster2.png",
+  "sha256": "035a4b79cedb37ee71a50d13317381ff527329a1b16442f9f3adc4b7baade3c0",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-thruster2.png",
+  "engineSha256": "035a4b79cedb37ee71a50d13317381ff527329a1b16442f9f3adc4b7baade3c0",
+  "nativeFile": "full-game/blocks/masters/core-thruster-large-part.png",
+  "nativeSha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500",
+  "nativeSize": [
+    187,
+    419
+  ],
+  "sourceAlphaBounds": [
+    193,
+    17,
+    236,
+    147
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "2",
+    "localHorizontalMirror": true,
+    "localVerticalMirror": true,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-large-part.png",
+      "sha256": "abc21c346d4c35f21b35871421d91e529dba183ee7ddf032613f2d63338ae500"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-nucleus-thruster2.png",
+      "sha256": "0b14ea5b0e7476ba471165786b6c6dd1942d233321d56f515a96fdd5ed662705"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-nucleus-thruster2.png.derived.json"
+}

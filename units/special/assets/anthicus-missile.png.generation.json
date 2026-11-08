@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "file": "units/special/assets/anthicus-missile.png",
+  "pathBase": "mindustry-image/",
+  "createdAt": "2026-10-26T08:31:16.284769+00:00",
+  "kind": "derived_image",
+  "tool": "local Pillow / NumPy",
+  "route": "local_authorized_pixel_processing",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 309,
+  "height": 502,
+  "sha256": "aa99747d2ad6ebf9acfae7d0f50030f5a2a846ea02be7a1094c4fa5540dcb9f4",
+  "derivedFrom": [
+    {
+      "file": "units/special/boards/03-main-missiles-v1.png",
+      "sha256": "5da300fe7c5c7b02866df99b4282c0e267486ead9c33cc3086a254516a395155",
+      "generationRecord": "units/special/boards/03-main-missiles-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "connected_component_extract_crop_pad",
+    "sourceBBox": [
+      207,
+      50,
+      452,
+      488
+    ],
+    "mask": "alpha >= 16; isolated components below area 20 excluded",
+    "padding": 32,
+    "pixelResampling": false,
+    "hiddenRGB": "zeroed outside retained alpha mask"
+  },
+  "resized": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "继承来源记录；本地处理未调用生成模型。",
+  "alphaExtrema": [
+    0,
+    255
+  ]
+}

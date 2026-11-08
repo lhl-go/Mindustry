@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "units/serpulo-ground-naval/bodies/arkyid.png",
+  "sha256": "41f818296204960942bc7a3a16a18ffc86173c1406754b56b45af8e9084c353f",
+  "createdAt": "2026-10-26T11:06:19.710063+00:00",
+  "route": "local-derived",
+  "tool": "Python/Pillow",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/boards/03-spider-bodies.png",
+      "sha256": "b900c56c38984347096aa9cc47efae52f43032ce77d1db6f2a87461c4dc94a0d",
+      "generationRecord": "records/workers/serpulo-ground-naval/03-spider-bodies.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "sourceImageRetained": false,
+      "retentionNote": "Historical native-source path/hash; source board removed after verified independent export."
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_alpha_cleanup_connected_component_crop",
+    "alphaBelow16": "clear_alpha_and_RGB",
+    "alphaAtLeast245": "set_opaque",
+    "componentIsolation": "retain every pixel of this connected subject; discard unrelated components",
+    "sourceBounds": [
+      58,
+      469,
+      579,
+      963
+    ],
+    "padding": 16,
+    "resized": false,
+    "upscaled": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "See source generationRecord; no new model call",
+  "image": {
+    "width": 553,
+    "height": 526,
+    "format": "PNG",
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelCount": 114026,
+    "opaquePixelCount": 172764,
+    "partialPixelCount": 4088,
+    "transparentRgbIsZero": true,
+    "contentBounds": [
+      16,
+      16,
+      537,
+      510
+    ],
+    "clearCanvasBorder": true
+  },
+  "anchorPx": [
+    276.5,
+    263.0
+  ],
+  "anchorBasis": "visually selected center or visible pivot; engine alignment unverified",
+  "forward": "up / negative image y",
+  "role": "body"
+}

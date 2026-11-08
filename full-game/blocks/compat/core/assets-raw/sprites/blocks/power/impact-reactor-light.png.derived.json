@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/impact-reactor-light.png",
+  "sourceGitBlob": "0563c2a1516af1d8567e135d43fcc17cbbc71e3d",
+  "sourceSha256": "8f7e5b27d06282c1a2fef3610a1ede4d7ba1ffc0792f0b3f0c5893de18613a7e",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-reactor-light",
+  "blockId": "impact-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-light.png",
+  "sha256": "c8f075ce3d4415f4bbca0afe05821aabf64309d3d470f6cb0088a4faf0a7cb62",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-light.png",
+  "engineSha256": "c8f075ce3d4415f4bbca0afe05821aabf64309d3d470f6cb0088a4faf0a7cb62",
+  "nativeFile": "full-game/blocks/masters/impact-reactor.png",
+  "nativeSha256": "330e4e145e28ccc056819150dc35d575b5278a4ce736643023da19a217932bb2",
+  "nativeSize": [
+    364,
+    343
+  ],
+  "sourceAlphaBounds": [
+    56,
+    56,
+    72,
+    72
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/impact-reactor.png",
+      "sha256": "330e4e145e28ccc056819150dc35d575b5278a4ce736643023da19a217932bb2"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/impact-reactor-light.png",
+      "sha256": "8f7e5b27d06282c1a2fef3610a1ede4d7ba1ffc0792f0b3f0c5893de18613a7e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/impact-reactor-light.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

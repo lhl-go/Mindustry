@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/turbine-condenser-rotator.png",
+  "sourceGitBlob": "76e45e92970a7d185b08c7a0f1931aa15405d365",
+  "sourceSha256": "73712a152200a4fd354aab219606bf13f88c884b66543f76aeb42613aa083719",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "turbine-condenser-rotator",
+  "blockId": "turbine-condenser",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator.png",
+  "sha256": "c3e4ae776f4d0ed50ccbbcc2d3b927950ff9641ab2ca69115a68442560904e84",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator.png",
+  "engineSha256": "c3e4ae776f4d0ed50ccbbcc2d3b927950ff9641ab2ca69115a68442560904e84",
+  "nativeFile": "full-game/blocks/masters/turbine-condenser-rotator-part.png",
+  "nativeSha256": "ff252f607f75dd382bbd319ba18f4e945658af58eb72df70c705dfe218b7da62",
+  "nativeSize": [
+    274,
+    288
+  ],
+  "sourceAlphaBounds": [
+    15,
+    15,
+    81,
+    81
+  ],
+  "operation": {
+    "kind": "independent_native_rotor_on_original_canvas",
+    "runtimeMotion": "continuous rotation",
+    "rotationalExposureDegrees": null,
+    "blurDerivedFromSameRotor": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/turbine-condenser-rotator-part.png",
+      "sha256": "ff252f607f75dd382bbd319ba18f4e945658af58eb72df70c705dfe218b7da62"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/turbine-condenser-rotator.png",
+      "sha256": "73712a152200a4fd354aab219606bf13f88c884b66543f76aeb42613aa083719"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/turbine-condenser-rotator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

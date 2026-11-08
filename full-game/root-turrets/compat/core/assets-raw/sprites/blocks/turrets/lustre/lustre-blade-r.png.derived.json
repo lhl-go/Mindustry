@@ -1,0 +1,44 @@
+{
+  "region": "lustre-blade-r",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/lustre/lustre-blade-r.png",
+  "sha256": "0847c6b30d5ae21ef7dd605b98347d55314540607c1d880b28765701708cf66c",
+  "size": [
+    128,
+    128
+  ],
+  "derivedAt": "2026-10-26T18:34:46.323035+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/lustre-blade-l.png",
+      "sha256": "0b2173f51f4e1b9bf84546388aefdeb92ad349241c7c220a8ad82b12a2395099",
+      "record": "full-game/root-turrets/masters/lustre-blade-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-blade-r.png",
+      "sha256": "81680a50abefe6de9a70946283273a719af47a12a2aa57f96d14429c5795205c",
+      "record": null
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/lustre/lustre-blade-l.png",
+      "sha256": "bdd02424478f8765b20d8359c6c5e1b07bc8fc52b24ce0d97790b30b6de8a0ca",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "paired_part_derivation",
+    "mirrorPixels": false,
+    "sourceAlphaIdentical": true,
+    "reason": "RegionPart.java loads -r and -l with the same geometry then applies Draw.xscl sign for the second side. No pre-mirror when source alpha is identical. Duo separate barrels use opposite canvas bounds.",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      64,
+      7,
+      120,
+      117
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

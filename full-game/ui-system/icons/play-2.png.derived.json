@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "play-2",
+  "file": "full-game/ui-system/icons/play-2.png",
+  "sha256": "a92088dbfc97e28b9f1ba2e21f32934ee398e046837769d191a7b7a70063d316",
+  "width": 225,
+  "height": 225,
+  "nativeCropPixels": [
+    201,
+    160
+  ],
+  "derivedAt": "2026-10-26T15:24:54.806869+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/03-actions-modes.png",
+    "sha256": "1061bca76b587d24776bb7f5ee5feff25d07c0d58bd4d7feee8f6f9a117748df",
+    "generationRecord": "full-game/ui-system/source/03-actions-modes.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 9,
+    "sourceBox": [
+      799,
+      319,
+      1000,
+      479
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      12,
+      32
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

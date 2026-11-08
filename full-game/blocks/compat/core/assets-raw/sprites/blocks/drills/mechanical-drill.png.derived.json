@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/mechanical-drill.png",
+  "sourceGitBlob": "2685c038c1e0de5208b99c36424ee5adb1441607",
+  "sourceSha256": "91c08bcc1fb086e396e05a22b3bc0c40a6bb35a656ef8baec850502b06d05804",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "mechanical-drill",
+  "blockId": "mechanical-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill.png",
+  "sha256": "722c23537e0db6b43122596f1a1a9c2a5515414fc9113f48cb8e5da0b1eb476a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill.png",
+  "engineSha256": "722c23537e0db6b43122596f1a1a9c2a5515414fc9113f48cb8e5da0b1eb476a",
+  "nativeFile": "full-game/blocks/masters/mechanical-drill.png",
+  "nativeSha256": "2c6a8ffad2856d246f106a027173a43e65e77fd7b6553744b7f36bab548ad5ba",
+  "nativeSize": [
+    286,
+    285
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/mechanical-drill.png",
+      "sha256": "2c6a8ffad2856d246f106a027173a43e65e77fd7b6553744b7f36bab548ad5ba"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/mechanical-drill.png",
+      "sha256": "91c08bcc1fb086e396e05a22b3bc0c40a6bb35a656ef8baec850502b06d05804"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/mechanical-drill.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

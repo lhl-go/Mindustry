@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/oxynoe.png",
+  "sha256": "21a2c8ab31b61aa44ae4c46a6acc202f2733ea8713fa1570246bef123a8fe06d",
+  "width": 88,
+  "height": 101,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-root-parts/layers/oxynoe-body.png",
+      "sha256": "60415af4b8bb17f04df3795c903a57f88e825425b4403d022e3135f47b85714b",
+      "generationRecord": "units/serpulo-root-parts/layers/oxynoe-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      330,
+      510
+    ],
+    "sourcePivot": [
+      181.0,
+      271.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      15,
+      4
+    ],
+    "sourceDimensions": [
+      362,
+      542
+    ],
+    "targetDimensions": [
+      88,
+      101
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      84,
+      97
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      44.0,
+      50.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/oxynoe.png",
+    "gitBlobSha1": "35a4d45cbcc36272bdc293707061c3ea0da3c75b",
+    "sha256": "4ab65f02c1bc10b79928efb74c2f8c91771b9ef65dc9062edaca0bda35c8f4d3"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

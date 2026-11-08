@@ -1,0 +1,63 @@
+{
+  "sourceAcceptance": "records/acceptance-first-batch.json",
+  "resolvedAt": "2026-10-26T09:33:26.970163+00:00",
+  "issues": [
+    {
+      "id": "CHAR-EDGE-01",
+      "status": "closed_in_final_export",
+      "file": "characters/02-alchemy-engineer-clean.png",
+      "sha256": "525e394aa6ab714f51f11c83ba84e5135f6a64793299cae78f8cd00cd2e90f74",
+      "evidence": "characters/02-alchemy-engineer-clean.png.derived.json"
+    },
+    {
+      "id": "CHAR-ALPHA-02",
+      "status": "closed_in_final_export",
+      "file": "characters/02-alchemy-engineer-clean.png",
+      "evidence": "records/character-alpha-qa.jpg"
+    },
+    {
+      "id": "HUD-CATEGORY-01",
+      "status": "closed_in_native_control_layout",
+      "evidence": "ui/preview/?id=UI-002&state=0",
+      "resolution": "Defense category contains only defensive buildings; AI concept preserved as design reference."
+    },
+    {
+      "id": "HUD-DIRECTION-02",
+      "status": "removed_from_delivered_hud",
+      "evidence": "ui/preview/?id=UI-002&state=0",
+      "resolution": "Native HUD crop excludes the erroneous directional arrows; markers are separate controls."
+    },
+    {
+      "id": "NATIVE-SIZE-01",
+      "status": "reported_host_output_limitation",
+      "requested": [
+        2560,
+        1440
+      ],
+      "actual": [
+        1672,
+        941
+      ],
+      "resampled": false
+    },
+    {
+      "id": "NATIVE-SIZE-02",
+      "status": "reported_host_output_limitation",
+      "requested": [
+        2048,
+        2048
+      ],
+      "actualSource": [
+        1254,
+        1254
+      ],
+      "finalCanvas": [
+        1328,
+        1328
+      ],
+      "resampled": false,
+      "note": "Larger final canvas is transparent padding, not higher native detail."
+    }
+  ],
+  "runtimeIntegrationVerified": false
+}

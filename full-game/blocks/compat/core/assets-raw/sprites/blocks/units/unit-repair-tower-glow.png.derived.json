@@ -1,0 +1,61 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/unit-repair-tower-glow.png",
+  "sourceGitBlob": "7db58e59443e836c47ad46addeb5ba7b30a83811",
+  "sourceSha256": "cf4f8effb60b7ec10be2ec1fbae1be35d5cf8d2705d906599f301a3284a9a5f8",
+  "sourceDimensions": [
+    84,
+    84
+  ],
+  "region": "unit-repair-tower-glow",
+  "blockId": "unit-repair-tower",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower-glow.png",
+  "sha256": "86b952f9e08b58fbb67116d3d1d14c0a9127d9d376e2ecd94f35718aadd245dd",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower-glow.png",
+  "engineSha256": "86b952f9e08b58fbb67116d3d1d14c0a9127d9d376e2ecd94f35718aadd245dd",
+  "nativeFile": "full-game/blocks/masters/unit-repair-tower.png",
+  "nativeSha256": "9f801493278ed0a44dcce9bbcc4479a22535a16e58f557df3df5b02a731fa019",
+  "nativeSize": [
+    314,
+    339
+  ],
+  "sourceAlphaBounds": [
+    4,
+    4,
+    80,
+    80
+  ],
+  "operation": {
+    "type": "new_component_aligned_effect_mask",
+    "whiteRgb": true,
+    "colorRule": "white for runtime tint",
+    "alphaContainedByNewBody": true,
+    "selection": "warm-gold painted highlights",
+    "followsHeadRotation": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/unit-repair-tower.png",
+      "sha256": "9f801493278ed0a44dcce9bbcc4479a22535a16e58f557df3df5b02a731fa019"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/unit-repair-tower-glow.png",
+      "sha256": "cf4f8effb60b7ec10be2ec1fbae1be35d5cf8d2705d906599f301a3284a9a5f8"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower-glow.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/unit-repair-tower-glow.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/unit-repair-tower.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

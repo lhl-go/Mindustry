@@ -1,0 +1,61 @@
+{
+  "file": "full-game/blocks/masters-derived/underflow-duct.png",
+  "sha256": "c18695a661443a66bf7e4f2f5a6087ef19b85da88f6c0d75ae158d931f78720e",
+  "nativeSize": [
+    340,
+    240
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/underflow-duct.png",
+      "sha256": "a91161ac80ea13e8b723b64990f6af9173598250378ba6521c6a8f882cd2e6f0",
+      "generationRecord": "full-game/blocks/masters/underflow-duct.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_local_fixed_directional_glyph_cleanup",
+    "maskPolygon": [
+      [
+        144,
+        130
+      ],
+      [
+        170,
+        109
+      ],
+      [
+        198,
+        132
+      ],
+      [
+        198,
+        152
+      ],
+      [
+        185,
+        155
+      ],
+      [
+        170,
+        141
+      ],
+      [
+        155,
+        155
+      ],
+      [
+        143,
+        150
+      ]
+    ],
+    "maskPixels": 1704,
+    "method": "Harmonic RGB interpolation from existing adjacent source pixels, 1500 Jacobi iterations; no outside pixel or alpha changes",
+    "newPaintedDetail": false,
+    "scale": 1
+  },
+  "reason": "This fixed body must not encode a directional arrow; the separately rotating original top region supplies direction.",
+  "runtimeIntegrationVerified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeEvidence": "DuctRouter/StackRouter/OverflowDuct use fixed body plus independently rotating top region."
+}

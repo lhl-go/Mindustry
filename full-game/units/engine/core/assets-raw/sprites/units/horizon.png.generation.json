@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/horizon.png",
+  "sha256": "2264203e43c2591051184484de900dc2219383eb6caeaefcae4e2dba98d32a6b",
+  "width": 72,
+  "height": 72,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/individual/horizon.png",
+      "sha256": "bde20e7f36ec53aaa7fd85494af5d1827a31f4430c0202845c958aed48a7b184",
+      "generationRecord": "units/air-erekir/individual/horizon.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      504,
+      438
+    ],
+    "sourcePivot": [
+      260.0,
+      227.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      8
+    ],
+    "sourceDimensions": [
+      520,
+      454
+    ],
+    "targetDimensions": [
+      72,
+      72
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      68,
+      68
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      36.0,
+      36.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/horizon.png",
+    "gitBlobSha1": "eda5795cc9d7e37749ad5d79eeb16ff99b93b602",
+    "sha256": "2800c00117efc0cee0a875d24b4ee9165c4a5aa55114f6d688deac9568e61f5c"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

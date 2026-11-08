@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/tungsten-wall.png",
+  "sha256": "829a6ac37cd1584e348742811b92b168a6e5265b7287fe3cbc3cfd00558bba88",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/defense-walls-01.png",
+      "sha256": "d4aa999b3cab5cd41ee4d2b428cea4aecd9972b3b9e486294cbdacf3fc1a830e",
+      "generationRecord": "full-game/blocks/records/defense-walls-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      58,
+      739,
+      355,
+      1035
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      297,
+      296
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    329,
+    328
+  ],
+  "anchorPixels": [
+    164.5,
+    164.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

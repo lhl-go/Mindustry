@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/neoplasia-reactor-middle.png",
+  "sourceGitBlob": "3b1e8154c633558a6a69c4920c16517fc9035879",
+  "sourceSha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "neoplasia-reactor-middle",
+  "blockId": "neoplasia-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-middle.png",
+  "sha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-middle.png",
+  "engineSha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/power/neoplasia-reactor-middle.png",
+  "nativeSha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c",
+  "nativeSize": [
+    160,
+    160
+  ],
+  "sourceAlphaBounds": [
+    62,
+    62,
+    98,
+    98
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/neoplasia-reactor-middle.png",
+      "sha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/neoplasia-reactor-middle.png",
+      "sha256": "cdd53c5fb4977300e8f5cce2c9682dd1ea441fa53efd283228a6b9aa29b0272c"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/neoplasia-reactor-middle.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

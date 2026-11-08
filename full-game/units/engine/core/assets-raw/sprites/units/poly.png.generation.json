@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/poly.png",
+  "sha256": "f7ccf6c1085f5c667aa6969ccba82a8e5bd2a93c09c7c92c812d8c065d7c9767",
+  "width": 56,
+  "height": 57,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/coordinator-recoil-fix/poly-body.png",
+      "sha256": "16585d59ce5eb3f718a2ebaa697f0cc08d77e5e38ef4b76b924ec60a88a2d355",
+      "generationRecord": "units/coordinator-recoil-fix/poly-body.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      32,
+      32,
+      566,
+      552
+    ],
+    "sourcePivot": [
+      299.0,
+      292.0
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      4,
+      5
+    ],
+    "sourceDimensions": [
+      598,
+      584
+    ],
+    "targetDimensions": [
+      56,
+      57
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      52,
+      53
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      28.0,
+      28.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/poly.png",
+    "gitBlobSha1": "dd3c76e96ffe9df07fa6a0f18abb915f0d7886a0",
+    "sha256": "4432f70addd402a6eaee13b94fd02b2d13011011895a80979986c036b374f0ad"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

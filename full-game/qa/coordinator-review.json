@@ -1,0 +1,79 @@
+{
+  "recordedAt": "2026-10-27T02:23:17.375374+00:00",
+  "reviewer": "root coordinator",
+  "status": "selected_final_contacts_reviewed",
+  "sheets": [
+    {
+      "file": "full-game/terrain/qa/23-planet-icons-alpha.png",
+      "sha256": "7c47d11c151ce9bb62467f30b26408d1918598aed8f75d15c59def5853719244",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Planet identity, transparent perimeter on light/dark; no additional defect observed."
+    },
+    {
+      "file": "full-game/terrain/qa/26-base-icons-shadows.png",
+      "sha256": "6546de320a39cbbae8f0c217161fdef3ef9fdb9e05d08d952cf130dd2987e5d3",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Connection-dependent metal tiles and body-derived shadow alpha remain distinct technical layers."
+    },
+    {
+      "file": "full-game/terrain/qa/27-skybox-space.png",
+      "sha256": "e6f84b89be83998e848f25bb495eb7403f3e221b5b2c63e9b749b9669dccd608",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Six projected sky faces and repeatable space texture; native projection and compatibility upscale are documented."
+    },
+    {
+      "file": "full-game/units/qa/additional-dark.png",
+      "sha256": "ac39040cc09d49b6c51f81dab7c5cc27171581a4e036f57b466e83a3d250e902",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Six distinct native bases/joints and two independent weapon-base exports have clean silhouettes."
+    },
+    {
+      "file": "full-game/units/qa/treads-frames.png",
+      "sha256": "74926ffb04fa9ebb6ce079d6e4040386a3bc4d7d353366a707c6760d00a3431d",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "All eight 18-frame tread-strip groups present; one-pixel-wide runtime generator output is not misrepresented as new painting."
+    },
+    {
+      "file": "full-game/units/qa/masks-02-dark.png",
+      "sha256": "db5ef5ddaeaeffc2b4d4a9bfc4c6fdd4755beb56212fffaef6f43f5ba709ab0a",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Cell, heat and glow overlays follow body/weapon surfaces; corrected conquer weapon/sink masks now use the corresponding component."
+    },
+    {
+      "file": "full-game/units/qa/atlas-01-dark.png",
+      "sha256": "d2625978634292cb3eb3cd7749c20e17b3f2d15c1b017308f803782f087d2ee1",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Final corrected unit source exports include paired tank tread geometry."
+    },
+    {
+      "file": "full-game/units/qa/masks-01-dark.png",
+      "sha256": "64c53ad600bbf3dc3fcd583296e5310edba31fd69ac72bb59f17103059612c1c",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Team-color and glow layers checked against corrected body placement; source canvas dimensions retained."
+    },
+    {
+      "file": "full-game/units/qa/tank-motion-dark.png",
+      "sha256": "5b6a8f89e996a84c923099d3de612bdd5aaa49c59dab39ea0e7a7d75f6113afa",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Five tank bodies leave moving tread windows visible in the upstream tread-before-body drawing order; frame 0/9 differ visibly."
+    },
+    {
+      "file": "full-game/units/qa/tank-motion-light.png",
+      "sha256": "47ad6e570eb9781d15486f5bd671e2248bd009905964c4ee143e5c32b889cac5",
+      "reviewedDirectly": true,
+      "result": "no_additional_static_visual_defect_observed",
+      "note": "Light-background simulation confirms static armor is retained and exposed moving tracks remain attached; Conquer alpha connectivity is separately verified."
+    }
+  ],
+  "scope": "Independent static visual spot checks in addition to each domain owner's full contact review and automated geometry/hash validation. The selected sheets are not a substitute for complete source-path coverage.",
+  "runtimeIntegrationVerified": false
+}

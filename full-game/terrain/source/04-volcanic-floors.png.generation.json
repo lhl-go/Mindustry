@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/04-volcanic-floors.png",
+  "sha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc",
+  "generatedAt": "2026-10-26 16:41:26 UTC",
+  "startedAt": "2026-10-26 16:39:46 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Create NEW Mindustry flat ground textures, pure top-down orthographic, bright refined Daoist Q hand-painted style matching attached references' craftsmanship ONLY. No UI, text, characters, symbols, props, walls or perspective. Requested 1536×3072 portrait, exactly 3 columns × 6 rows of square FULL-BLEED swatches. No gutters, borders, dividers or margins. Each row has THREE genuinely different painted variants with same mean color/brightness/feature scale. Uniform lighting across every cell, absolutely NO horizontal or vertical gradient, vignette, spotlight or directional stripe. Quiet smoothly tileable four edges; keep contrasts low and patterns irregular, avoid large repeating motifs. Every cell opaque.\nRow1 DACITE: pale warm gray fine-grained volcanic rock, tiny white quartz grains and subtle small irregular shallow cracks.\nRow2 DARK SAND: soft charcoal gray fine sand with faint subdued small wind ripples, matte, no bright large bands.\nRow3 RED ICE: muted dusty rose pink frozen ground with thin desaturated pale mauve ice veins and few subsurface bubbles, no lava.\nRow4 CHAR: desaturated ash-gray scorched flat ground with sparse tiny black charcoal fragments and ashy soft brushwork.\nRow5 HOT ROCK: dark gray basalt ground with sparse fine ember-orange cracks occupying under 10 percent, mostly stable solid rock, flat walkable surface.\nRow6 MAGMA ROCK: dark warm gray cracked ground with small irregular glowing orange-red molten fissures occupying about 25 percent, glowing yellow seam cores only, no giant lava pools.\nConsistent detailed hand-painted texture, generous readable flat material shapes. All18 variations have independent native details. No text or cell frames.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/04-volcanic-floors.txt",
+  "promptSha256": "84941979044651d052930c6b07cae3f06932e924a2c66edcb5b0bef6b00efad5",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/04-volcanic-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-d4ce38f8-61a0-4657-8427-b78f078f8ced.png",
+    "originalOutputSha256": "2e74a00f47a2b580828a630addd1a5557cc8747b49cc884d20f34bf47dd9d6dc"
+  },
+  "regions": [
+    "dacite1",
+    "dacite2",
+    "dacite3",
+    "darksand1",
+    "darksand2",
+    "darksand3",
+    "red-ice1",
+    "red-ice2",
+    "red-ice3",
+    "char1",
+    "char2",
+    "char3",
+    "hotrock1",
+    "hotrock2",
+    "hotrock3",
+    "magmarock1",
+    "magmarock2",
+    "magmarock3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite1.png",
+      "sha256": "cd6c68ab5204eb73eb8d596ef4f7f6f400642f306b0b4ae804b5193ee2794594"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite2.png",
+      "sha256": "2d8753f2ae1db904734f9ab1aa9ca68827ad35e1d83e86ebdf876889f1e9772c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dacite3.png",
+      "sha256": "1ba4f656c28db4726fa3ba7c8ce9562ef102e379fdd2d920183025f71015e5c3"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand1.png",
+      "sha256": "9a675d2ce46e87d5331455af9baf8f89a4d367ae989e3aa174472217eb09fb7d"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand2.png",
+      "sha256": "bc163832de4a532e02e0214bafec54b88c7a88fe64aa3e9553e8915bc28160be"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/darksand3.png",
+      "sha256": "e6fcc7dc4522f61056d6e94eeff6681886a804b54d11f07d6b704d52a748a005"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-ice1.png",
+      "sha256": "3381bf0295c921470c0178f4887b6942e6250884a0d781a74808ca42beb25a54"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-ice2.png",
+      "sha256": "92f7cd1bcff69932cbd39381683f7589b7ce1b06e56809095434daee4e8911d6"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/red-ice3.png",
+      "sha256": "1c8fe043ceeca6ea2408cdaa4ac856a36862e5cbfdc9ad95bbc47958213d59d1"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/char1.png",
+      "sha256": "a147f5dedaf7b0e9bfc0b3a47d42d795eae1165443c4928411844f7eedf76d56"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/char2.png",
+      "sha256": "bc3de1fce6189454ae849ecaaec2d0489d4745f377467f34746079bb36fb0e56"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/char3.png",
+      "sha256": "ccce2d062bf530372a37b2920e6c1888a4e8a7e0ddcdec7cddccf87ebfddb065"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/hotrock1.png",
+      "sha256": "0399b62414b9559850d212c9fabccfb778445b64b1ebb4177fe43e8b0deba35f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/hotrock2.png",
+      "sha256": "919e5456ca12cf578bbd936bcc873a005ede449e9bc1096f94ad58ac4f50c827"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/hotrock3.png",
+      "sha256": "8821961bd85ca92e4e82390b7022cf94d60f6dcc60c904addd7df673820278e0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/magmarock1.png",
+      "sha256": "871c7fc7fc12812016379b52884f05422ea42874ee2eed201d67f8eca69c2904"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/magmarock2.png",
+      "sha256": "93b97b1fde563b61e386f919ce6ddca69b24b07a0cc3884645775222eff5dcff"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/magmarock3.png",
+      "sha256": "9c30a78fefa728c241b225538b614c4b1b993a7e3145463ddfc634e5d19802e9"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

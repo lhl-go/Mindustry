@@ -1,0 +1,42 @@
+{
+  "region": "tsunami-top",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/tsunami-top.png",
+  "sha256": "8f8c0ffab519bccbf6f5ef3d417366e6e4d24848f31b9778ae798568d51cbf5a",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.269349+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/tsunami-top.png",
+      "sha256": "ac11ebe5e9e4a4bc8cef594a4189761f0b7a6ec30f9c4270dd95435eda0d25d8",
+      "record": "full-game/root-turrets/masters/tsunami-top.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/tsunami-top.png",
+      "sha256": "001b68c6d3fc3e67589a0cd2e1fa2451a5e8d1559cbb7629d7ad90bacff36209",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      21,
+      64,
+      78,
+      72
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      316,
+      84
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

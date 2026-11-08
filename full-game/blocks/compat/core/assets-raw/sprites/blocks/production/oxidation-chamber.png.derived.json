@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/oxidation-chamber.png",
+  "sourceGitBlob": "ebee304b7b0c3eabe476dbc98b53de343523d02c",
+  "sourceSha256": "86cbf7602a9c26483e18a255c979c9372c1fa7e769b31f0e6b1ea0f1fca5e386",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "oxidation-chamber",
+  "blockId": "oxidation-chamber",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber.png",
+  "sha256": "c6a1559f3e6b430acf6ac027c3177019f70765feba4a85e2045df2d76e0aba5e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber.png",
+  "engineSha256": "c6a1559f3e6b430acf6ac027c3177019f70765feba4a85e2045df2d76e0aba5e",
+  "nativeFile": "full-game/blocks/masters/oxidation-chamber.png",
+  "nativeSha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05",
+  "nativeSize": [
+    358,
+    326
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/oxidation-chamber.png",
+      "sha256": "a242d6c00306df6032f34c5df70d77740b397e83fe84f44ee55280fa2c71aa05"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/oxidation-chamber.png",
+      "sha256": "86cbf7602a9c26483e18a255c979c9372c1fa7e769b31f0e6b1ea0f1fca5e386"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/oxidation-chamber.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

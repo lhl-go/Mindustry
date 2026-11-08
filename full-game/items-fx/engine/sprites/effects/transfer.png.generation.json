@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/transfer.png",
+  "sha256": "2f43dc94102d6a0663d1205589e5a49c24caf50aa1e7c4da150b1eb8f4d5d39a",
+  "width": 4,
+  "height": 48,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/transfer.png",
+      "sha256": "b280c64ac23c31df62d6c7e9ad2793739b2f566a4add297eb340acaa7f27f19c",
+      "generationRecord": "full-game/items-fx/assets/transfer.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      4,
+      48
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

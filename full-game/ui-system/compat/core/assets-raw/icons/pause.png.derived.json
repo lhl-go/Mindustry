@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/pause.png",
+  "sourceGitBlob": "7471836eaaf369540b7e35eae92c22c0c9abf6bb",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/pause.png",
+  "sha256": "c09fcb72a9e570b3166339cba5022e02c2a6a40a17be048c7ec1a68274f73be2",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-pause.png",
+      "sha256": "80c070d90e972c8f472c022e4f0d785551f45827112cf163c3b10462e0b76820",
+      "record": "ui/kit/icon-pause.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "pause",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

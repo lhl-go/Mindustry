@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-crucible-heat.png",
+  "sourceGitBlob": "92151659ecfdbd1dee2f8025f56c188adbadba71",
+  "sourceSha256": "554674c91bd6f462f184b9e36cc578ab9c2035222e59163293bca0a2b310681a",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-crucible-heat",
+  "blockId": "surge-crucible",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-heat.png",
+  "sha256": "9649200c0ef7e7d680f9ed7ef443cbd04f4f98c870be022a555daabece079b9d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-heat.png",
+  "engineSha256": "9649200c0ef7e7d680f9ed7ef443cbd04f4f98c870be022a555daabece079b9d",
+  "nativeFile": "full-game/blocks/masters/surge-crucible.png",
+  "nativeSha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44",
+  "nativeSize": [
+    355,
+    358
+  ],
+  "sourceAlphaBounds": [
+    65,
+    0,
+    96,
+    96
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": true,
+    "warmupOverlay": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-crucible.png",
+      "sha256": "1024042088a6868dcc9f227ed97782362932c14b2b6c1dc0262baef54ac44b44"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-crucible-heat.png",
+      "sha256": "554674c91bd6f462f184b9e36cc578ab9c2035222e59163293bca0a2b310681a"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-crucible-heat.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

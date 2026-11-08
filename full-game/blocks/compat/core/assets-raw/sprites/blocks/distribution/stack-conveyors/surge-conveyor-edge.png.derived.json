@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge.png",
+  "sourceGitBlob": "8144b95cbefcef48e58c1d6f6156c81557393903",
+  "sourceSha256": "42135e59f14fccd0b3ffbdba1e6b778999f1052acf3d2d75758d597aa41cbb5d",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "surge-conveyor-edge",
+  "blockId": "surge-conveyor",
+  "category": "distribution",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge.png",
+  "sha256": "38b07346f98dcbc8e331e19f6d0682bda5504f86608bd5b9486d239094b9cffb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge.png",
+  "engineSha256": "38b07346f98dcbc8e331e19f6d0682bda5504f86608bd5b9486d239094b9cffb",
+  "nativeFile": "full-game/blocks/masters/surge-conveyor.png",
+  "nativeSha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f",
+  "nativeSize": [
+    313,
+    301
+  ],
+  "sourceAlphaBounds": [
+    23,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "painted_material_with_original_layer_or_state_geometry",
+    "transparentChannelsPreserved": true,
+    "newPaintedDetail": false,
+    "nativeMasterIsDesignMaterialSource": true,
+    "nativeMaterialRotationBeforePlacement": -90,
+    "orientationReason": "StackConveyor rotation=0 points east; original concept belt axis points north."
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-conveyor.png",
+      "sha256": "e25e294c90e0f1ed89e0596741b66fecd4b223816df4f019c7b6a8211b33b27f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge.png",
+      "sha256": "42135e59f14fccd0b3ffbdba1e6b778999f1052acf3d2d75758d597aa41cbb5d"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/distribution/stack-conveyors/surge-conveyor-edge.png.derived.json"
+}

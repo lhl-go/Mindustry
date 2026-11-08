@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "file": "characters/02-alchemy-engineer-clean.png",
+  "sha256": "525e394aa6ab714f51f11c83ba84e5135f6a64793299cae78f8cd00cd2e90f74",
+  "derivedAt": "2026-10-26T04:03:16.638534-04:00",
+  "derivedFrom": {
+    "file": "characters/02-alchemy-engineer-v1.png",
+    "sha256": "5576da7362d1f220ad6271bf62328fa10199ddf4c0188c496771d8c270972926",
+    "generationRecord": "characters/02-alchemy-engineer-v1.png.generation.json",
+    "nativeSize": [
+      1254,
+      1254
+    ]
+  },
+  "operation": {
+    "kind": "authorized_alpha_cleanup_crop_and_pad",
+    "alphaCutoff": 16,
+    "componentPolicy": "largest_8_connected_component",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255); values>=245 become255",
+    "rgbPolicy": "retained RGB unchanged; removed transparent pixels set RGB zero",
+    "sourceCropBox": [
+      186,
+      10,
+      1039,
+      1242
+    ],
+    "padding": 48,
+    "canvasOffset": [
+      237,
+      48
+    ],
+    "resampling": false,
+    "redrawing": false
+  },
+  "width": 1328,
+  "height": 1328,
+  "format": "PNG",
+  "mode": "RGBA",
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Derived from source record; not a new model generation.",
+  "authorization": "2026-10-26 user explicitly answered 允许本地清理和切片（推荐）",
+  "removedComponentCount": 2,
+  "retainedPixelCount": 539020,
+  "validation": {
+    "realAlpha": true,
+    "visualReview": "passed_on_light_dark_and_neutral_alpha_composites",
+    "runtimeIntegration": "not_verified",
+    "visualEvidence": "records/character-alpha-qa.jpg",
+    "reviewedBy": "root",
+    "reviewedAt": "2026-10-26T09:33:26.970163+00:00",
+    "notes": "Retained subject RGB unchanged. No visible fringe or isolated outer specks on actual alpha composite; invisible RGB in the raw source was not treated as opaque image content."
+  },
+  "sourceImageRetained": false
+}

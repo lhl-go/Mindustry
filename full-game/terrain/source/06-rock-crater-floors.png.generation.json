@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/06-rock-crater-floors.png",
+  "sha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8",
+  "generatedAt": "2026-10-26 16:54:13 UTC",
+  "startedAt": "2026-10-26 16:53:18 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. NEW Mindustry flat terrain texture atlas. Attached approved images ONLY guide clean bright refined Daoist Q hand-painted material finish. Never draw UI, text, symbols, people, walls or props. Requested1536×3072 portrait, exactly THREE equal columns × SIX equal rows; 18 square fullbleed swatches, no gutters, borders, margins or labels. Every row three different native variants, same average light/color/detail scale, independent cracks and grains. Pure overhead orthographic flat ground with uniform diffuse daylight, no gradient/vignette, quiet tileable four edges, low contrast broad readable shapes. Every cell opaque.\nRow1 RHYOLITE: muted lavender-gray fine volcanic stone ground, subtly layered fine mineral streaks and small rounded shallow fracture plates.\nRow2 RHYOLITE CRATER: same muted lavender-gray base but sparse small shallow circular meteor impact depressions and fine scattered dust, craters subtle and flat not black holes.\nRow3 REGOLITH: dusty pale mauve tan lunar soil, tiny rounded pebbles and fine compact powder with subtle pitted irregular marks.\nRow4 YELLOW STONE: warm muted golden yellow-ochre mineral stone, naturally broken soft round stone plates, ivory-tan tiny grains.\nRow5 YELLOW STONE PLATES: same golden ochre geological material with large thin irregular flat flaking plates and delicate warm beige seams, no manufactured bricks or tiles.\nRow6 ARKYIC STONE: desaturated blue slate cyan-gray alien mineral rock, subtle teal flecks, broad rounded cracked flat surface.\nExactly18 distinct cells no repeated copy, no typography, no outlines.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/06-rock-crater-floors.txt",
+  "promptSha256": "d7ba1dfa80d706144e7538dd71bb315e1d57270ff790b9310321d4cbe831b639",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/06-rock-crater-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-88f242ce-4e59-422c-a618-846138c09332.png",
+    "originalOutputSha256": "68294be63fc3e72b44bc498ab2b81a7005843f6947abef151521ef39716a93e8"
+  },
+  "regions": [
+    "rhyolite1",
+    "rhyolite2",
+    "rhyolite3",
+    "rhyolite-crater1",
+    "rhyolite-crater2",
+    "rhyolite-crater3",
+    "regolith1",
+    "regolith2",
+    "regolith3",
+    "yellow-stone1",
+    "yellow-stone2",
+    "yellow-stone3",
+    "yellow-stone-plates1",
+    "yellow-stone-plates2",
+    "yellow-stone-plates3",
+    "arkyic-stone1",
+    "arkyic-stone2",
+    "arkyic-stone3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite1.png",
+      "sha256": "703d52d77c6c754cf3ef8200c3cff7f769137667dbbbef172d5b6cd7aede3ca0"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite2.png",
+      "sha256": "3495c1b6076836e7b26e47b39df92f7214eea7de6a2ec5b01a7f877aefa44368"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite3.png",
+      "sha256": "605ddef38246a9b753ffa56f32932966ae72f4ca7d7b4a16d6aec724db543a97"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-crater1.png",
+      "sha256": "b4ea815cffb3cc89de15e1fe3a86268758a6aabe588f6a27e0629e4fb1343287"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-crater2.png",
+      "sha256": "c342efaa97820cb52f577faa8dfbde159bc292da12d493259039a08fd41eea40"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/rhyolite-crater3.png",
+      "sha256": "a8c062b360e18b9374dcefbd3c28c7b297e11fa5c1c10243f07644da5ea39089"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith1.png",
+      "sha256": "2fc380aa68f7c43e464de501e8bbc0e3f929b6aea60d4fda45cfe8bf6735d01c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith2.png",
+      "sha256": "8b9fd1fa1b434a44ed1467840cccfe285bb9e04e4c41bfd3170c957e5ceaf0d2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/regolith3.png",
+      "sha256": "7c8b298028989c468b9d09ce8ebb92a3390ec720372258855affb726191eead9"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone1.png",
+      "sha256": "7ee43471655f267a8669362b07f01cc0a6ff70745883df61d55d1e6fce3764eb"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone2.png",
+      "sha256": "cc23fcf332dc1c86ce2589054e84a6a74a7321e32e15246929d7b84280ee6659"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone3.png",
+      "sha256": "04d1752111ce41521354c72c7e36421c273843b9c8ad3ab6e41e2f3165d3d4b1"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-plates1.png",
+      "sha256": "8ad686b5e131e5e16cabaf5e53de76df4c58960fa9bcb26735d0fd68213deb44"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-plates2.png",
+      "sha256": "f8d9f1eb8cd92bb93ee246ab275c10b54b1a84690a2de9afea360921add0cba3"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/yellow-stone-plates3.png",
+      "sha256": "81f9d631036a63ef5903cba80df9d97a9c31183dcd262268e7040ac37d16b831"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-stone1.png",
+      "sha256": "67c61bcdd99776150d81fda06b6c8d43a6948fb802ac8a3eb81e5c1daf12b091"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-stone2.png",
+      "sha256": "b7d3974e1f61038e331fc359a0d65b421d3af99b9110dab2072ad1eb16051a60"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/arkyic-stone3.png",
+      "sha256": "97f9ad37370b6f5b736becc6d869dc23f50c6dd57688c7588025c048cc2b2b85"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

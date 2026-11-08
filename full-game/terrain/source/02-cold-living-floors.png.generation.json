@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/02-cold-living-floors.png",
+  "sha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5",
+  "generatedAt": "2026-10-26 16:34:59 UTC",
+  "startedAt": "2026-10-26 16:33:52 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Asset type: Mindustry flat terrain texture atlas. Use the two attached approved UI references ONLY for their bright clean refined Daoist Q hand-painted material finish. Pure TOP-DOWN GROUND TEXTURE ONLY, no UI, people, letters, symbols, frames, objects or perspective. Requested 1536×3072 portrait, exactly THREE equal columns and SIX equal rows: 18 square full-bleed swatches, no gutters/dividers/margins. Each row has 3 independently painted variations of same material, matching average light/color and scale but different small details, never identical copies. Every square has quiet matching tileable edges on all four sides; no large features cut at borders, no global atlas vignette. Soft overhead daylight, gentle broad value range, crisp refined brushwork suitable readable game terrain.\nRow1 SNOW: clean ivory white packed soft snow with sparse pale cool-blue undulations, tiny subtle depressions, no footprints.\nRow2 ICE: pale cyan blue translucent frozen surface, delicate thin ice cracks and faint white subsurface bubbles, flat glossy yet restrained.\nRow3 ICE-SNOW: pale icy cyan slabs mostly covered by soft white snow dust, organic patches feathering together, flat walkable frozen ground.\nRow4 GRASS: fresh jade green tiny dense short grass painted as smooth close-cropped ground with sparse tiny clover marks, no upright grass props.\nRow5 MOSS: lush deeper green velvety dense moss, tiny rounded cushions embedded in flat ground, slightly uneven organic speckling, no flowers or objects.\nRow6 SPORE-MOSS: muted violet lilac fluffy alien moss carpet, soft tiny rounded spores merged in flat ground, no tall mushrooms.\nAll eighteen fully opaque. No blank cells, text, labels or symbols. Natural hand-painted material variety; do not color-swap one texture into another.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/02-cold-living-floors.txt",
+  "promptSha256": "c6465a84daa1cac33d26f56f4efcbf5c505557edfaa5bbcf37a52b59545e9bd4",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/02-cold-living-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-f35fc2c2-842b-4534-96f0-d2b93fe04aa0.png",
+    "originalOutputSha256": "a0c8369179be44b39f7328997025a59276ed93d21c411b3f614d8eeabdbfe3d5"
+  },
+  "regions": [
+    "snow1",
+    "snow2",
+    "snow3",
+    "ice1",
+    "ice2",
+    "ice3",
+    "ice-snow1",
+    "ice-snow2",
+    "ice-snow3",
+    "grass1",
+    "grass2",
+    "grass3",
+    "moss1",
+    "moss2",
+    "moss3",
+    "spore-moss1",
+    "spore-moss2",
+    "spore-moss3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/snow1.png",
+      "sha256": "b0b85a44f81c2981a620b8bdd2471a51e7852148067287a80300d5fd61ed7b99"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/snow2.png",
+      "sha256": "86f4741cecff84bd2320c0e7af1acf7d1b4300239bb4e37499d7566f52854b7e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/snow3.png",
+      "sha256": "6e4110863efbb268534f84581d4f5f225407d33365fc486c0385677673fc86b8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice1.png",
+      "sha256": "53fc789f540e50c18d45b3c6dc5c7654c72ca9c8e7fae93c82279245de3aebf1"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice2.png",
+      "sha256": "bd96614b8a6778f64f6e44298e8cfc699f92e6238cae71526b060ab3b77a9370"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice3.png",
+      "sha256": "8524b0df7b340b7047068c9fd88d096dbb11e1ecd97fc57cc69588a7d6acf0f2"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice-snow1.png",
+      "sha256": "8deabfe8c774850294f74df29f5cbe6a9bbe4a98caf8a9f80db8ce19d6eabb60"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice-snow2.png",
+      "sha256": "2bf3a532d23827f19ab833c8046d904582189b4199a2f4a5336919979d8ab693"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/ice-snow3.png",
+      "sha256": "3860a37dedec87bc7722c8553ee2bf16ca61a7832ac51d2522a7f20150b874bc"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/grass1.png",
+      "sha256": "4cca35b47b927c6a3fd87e6b13367472ddad4fd4c8fe5762b0bfc019cb10356c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/grass2.png",
+      "sha256": "1b30146656282cdb2bd5e827a98555ef2fc317974a15ad2a06cd46f150a5bc69"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/grass3.png",
+      "sha256": "ec31f4951e04ffae5ab1b12e7a3fecdf18043b2a485ea9b8006683b8dbd88a5c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/moss1.png",
+      "sha256": "d2578238baabc558c455711d047cbd9df04fa415bdbfe7c5aa76b6514ad1c62f"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/moss2.png",
+      "sha256": "c3bdf1da0cec4acfb286a03cdbc0c88ce181e1a4df17cb97c8fd34602e71cc84"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/moss3.png",
+      "sha256": "70461d12f7a43424d01d34af32a8a14f7735ea16dc3ba503c34deb9851debe68"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spore-moss1.png",
+      "sha256": "e1e6efd8775983ce6ce687e0700f08adfd77ba85c3272a2f39ada7b64c7eaedc"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spore-moss2.png",
+      "sha256": "4de0c769e01c14961cc2d4c93ca28f38d605e346674e07ebf24f3423f3cca447"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/spore-moss3.png",
+      "sha256": "bc485971ec70e2cdfb4efc6139b05061d1558faeed6874a325cd6f936357f405"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

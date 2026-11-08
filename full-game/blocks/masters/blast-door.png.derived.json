@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/blast-door.png",
+  "sha256": "73409a370b87720605a082c18933dfef66d23ac0dba8e6d0dab1efae347f7e54",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/payload-and-doors-01.png",
+      "sha256": "015fdcf778cdd7288d6a577d303c48c76b31e4ddb234fa8215ce88b2e248c1b5",
+      "generationRecord": "full-game/blocks/records/payload-and-doors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1101,
+      806,
+      1393,
+      1060
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      292,
+      254
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    324,
+    286
+  ],
+  "anchorPixels": [
+    162.0,
+    143.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

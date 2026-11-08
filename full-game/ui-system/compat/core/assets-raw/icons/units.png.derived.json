@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/units.png",
+  "sourceGitBlob": "1ee9cd9f554285f0a199d923b65aa83035a26fed",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/units.png",
+  "sha256": "164168150212b626e10f210a8b8c2015d0a46310c3742f71a10d4157cafded58",
+  "sourceSize": [
+    10,
+    10
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/units.png",
+      "sha256": "efb9943fffbd683dc16c1c742fd3f62be92131ee00fca71f6bbed7fd17496171",
+      "record": "full-game/ui-system/icons/units.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "units",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

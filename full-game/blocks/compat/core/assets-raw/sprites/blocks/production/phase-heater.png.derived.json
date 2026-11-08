@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/phase-heater.png",
+  "sourceGitBlob": "3563a591b4c572b955a614be5560e0ae0da0c894",
+  "sourceSha256": "f707a3e80dea6f4ca7a131a8ddf363149c2321662d8ec995cd15bb48fae78be5",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "phase-heater",
+  "blockId": "phase-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater.png",
+  "sha256": "8d9e6408145128146dcfef37416a14f5151d9f241d6fecdc196bd08b599629f2",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater.png",
+  "engineSha256": "8d9e6408145128146dcfef37416a14f5151d9f241d6fecdc196bd08b599629f2",
+  "nativeFile": "full-game/blocks/masters/phase-heater.png",
+  "nativeSha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4",
+  "nativeSize": [
+    350,
+    305
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/phase-heater.png",
+      "sha256": "8849d89a83c6729380f99aed88facd259cdeed78d5bc2afe1eaef01383611be4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/phase-heater.png",
+      "sha256": "f707a3e80dea6f4ca7a131a8ddf363149c2321662d8ec995cd15bb48fae78be5"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/phase-heater.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

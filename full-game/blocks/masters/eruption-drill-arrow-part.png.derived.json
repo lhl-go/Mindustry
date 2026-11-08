@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/eruption-drill-arrow-part.png",
+  "sha256": "152307b78a111b3111f5d843db1843a920c51ad6e8047045d6a8624a2e066684",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/moving-rotors-01.png",
+      "sha256": "f5042d8de2a2f9c1fa1a969dff2ea616ff8ff72987f9d37e7c15d9ae670a799f",
+      "generationRecord": "full-game/blocks/records/moving-rotors-01.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1111,
+      797,
+      1417,
+      1076
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      306,
+      279
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    338,
+    311
+  ],
+  "anchorPixels": [
+    169.0,
+    155.5
+  ],
+  "orientation": "north/up",
+  "artRole": "moving-part",
+  "engineNotVerified": true
+}

@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/prime-refabricator.png",
+  "sha256": "88aebf1b9abc54ede7bd1fdcb3d162a5d5d4c0b7213e2d9a95b3b3ed421b5b34",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/unit-factories-02.png",
+      "sha256": "2d53d7214c86a54a7b69b126037f3b4bea2eb388818676ce0228a013240315b0",
+      "generationRecord": "full-game/blocks/records/unit-factories-02.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      1069,
+      18,
+      1443,
+      389
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      374,
+      371
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    406,
+    403
+  ],
+  "anchorPixels": [
+    203.0,
+    201.5
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+  "sha256": "8225ca041e1bfa7a90b35cd196b6c2a0251072984a24c6e020528895f78805e0",
+  "width": 56,
+  "height": 102,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/parts/mech-heavy-burst.png",
+      "sha256": "8bbfada5fabe3652cfde5836e25d06be3a89954853552aa467e99ccf86c8b4ad",
+      "generationRecord": "units/serpulo-ground-naval/parts/mech-heavy-burst.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native painted weapon pivot registered to original region center; bounded downsampling",
+    "sourceTrim": [
+      16,
+      16,
+      278,
+      322
+    ],
+    "sourcePivot": [
+      147.0,
+      251.62
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      1,
+      2
+    ],
+    "sourceDimensions": [
+      294,
+      338
+    ],
+    "targetDimensions": [
+      56,
+      102
+    ],
+    "officialAlphaBounds": [
+      12,
+      8,
+      46,
+      92
+    ],
+    "scale": 0.20610687022900764,
+    "engineAnchorPx": [
+      28.0,
+      51.0
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scepter-weapon.png",
+    "gitBlobSha1": "07ff2b1629f79c992889bf267e09523d3d8f156c",
+    "sha256": "66096cc7081acf323fe210252811513682350117660852e750f9bbaf62f57eb4"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/08-sectors-02.png",
+  "sha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    1536,
+    1536
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:40:59-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Restyle nine tiny campaign-sector map emblems into high-definition Daoist Q hand-painted materials, as a production sprite atlas. Exactly3columns by3rows, square1536x1536 true transparent PNG. Every cell contains one complete icon with at least50px breathing space, no touching other cells. Images1 and2 are mandatory jade/ivory/gold Daoist Q style references. Image3 is the exact9-cell silhouette and color-region reference: keep each icon's separate wings, holes, open centers and overall orientation; black pixels mean empty transparency; beige cell gutters and labels must disappear. Image4 is accepted previous batch for matching rendering polish only, do not copy its symbols. Make finely painted colored stone/jade terrain symbols, round softened corners, thin subtle warm-gold edging and a few cloud curls, no scenes or characters. ROW1: crossroads (ochre left curved fork, dark brown inner branch, muted red right V); cruxscape (large coral red diamond above a detached red downward chevron, four gray corner chips); desolateRift (two gray outer cliffs forming a broad U around dark inner V, empty center). ROW2: extractionOutpost (coral red upper arch with small diamond hole, pale sand/ivory lower angular basin with a larger open center); facility32m (slate gray upper arch around notch, lavender and ivory lower side segments, preserve central large hole); fallenVessel (slate gray/indigo layered diagonal geometric fragments, detached upper corner bars, recognizable angular shipwreck emblem). ROW3: frontier (pale gray lavender jagged U cliffs, one sand-colored left segment, broad open center); frozenForest (two branching pale lavender trunks, purple lower bases, ivory snow along bottom, clearly distinct two tree-like stems); fungalPass (two purple outer upward horns cradling dark gray-purple center diamond, separated by the original angular gaps). Preserve the exact placement of every guide symbol, thin decorative hand painted surface detail, no added frames, no words, no numbers, no opaque backdrop, no glow haze. Equal optical scale and clean alpha.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/reference/sector-guide-02.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/source/07-sectors-01.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/08-sectors-02.txt",
+  "promptSha256": "e267304ef6295feaf77ade1cbe207354caed6f0a7c9517c8a0590d4b77f4c99a",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\reference\\sector-guide-02.png",
+      "sha256": "c9b7b973b95f8b6193d9419f93b65e95dd9bbe93a7e6e65c2708c3ed0d4c44be",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\source\\07-sectors-01.png",
+      "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\08-sectors-02.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-a8d4eba2-caff-441a-8c60-198892447e48.png",
+    "nativePngSha256": "65779bba38b0413e76f5c64f7f286ba0184f6e1561fb87b90393cac30903b26c",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaTransparentPixels": 761483,
+  "status": "generated_pending_review"
+}

@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/reinforced-container-team.png",
+  "sourceGitBlob": "dae1a854c0eef8a8c2a1bad471642d1e6d76266a",
+  "sourceSha256": "0f6e0581674158637dadaef99dcb7538d672e29042e5cd896b102e32a579cd4e",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "reinforced-container-team",
+  "blockId": "reinforced-container",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/reinforced-container-team.png",
+  "sha256": "8611fd117b98e0bdfb02da1b464309cb65652ceaf35e5cf6ee5dbe677e82d4bb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/reinforced-container-team.png",
+  "engineSha256": "8611fd117b98e0bdfb02da1b464309cb65652ceaf35e5cf6ee5dbe677e82d4bb",
+  "nativeFile": "full-game/blocks/masters/reinforced-container.png",
+  "nativeSha256": "feba1679c19b24fead28786841a12f6c9efee7dc18c75a439dd8daeaf7a92796",
+  "nativeSize": [
+    271,
+    254
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "white_team_mask_selected_from_new_jade_body",
+    "alphaLimitedToNewBody": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "new_body_aligned_technical_mask",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/reinforced-container.png",
+      "sha256": "feba1679c19b24fead28786841a12f6c9efee7dc18c75a439dd8daeaf7a92796"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/reinforced-container-team.png",
+      "sha256": "0f6e0581674158637dadaef99dcb7538d672e29042e5cd896b102e32a579cd4e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/reinforced-container-team.png.derived.json"
+}

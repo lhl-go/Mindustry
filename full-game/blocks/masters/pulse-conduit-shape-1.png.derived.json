@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/pulse-conduit-shape-1.png",
+  "sha256": "89f1dd7d07d62e4e0adbfbb9589738af7a9f40caa2f0ca21a6c072950c8f573e",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/conduits-advanced-03.png",
+      "sha256": "9184e3661dffaa8a585db47b833c9d651a60d55f90437f363da1f89f61284bc8",
+      "generationRecord": "full-game/blocks/records/conduits-advanced-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      411,
+      34,
+      630,
+      247
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      219,
+      213
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    251,
+    245
+  ],
+  "anchorPixels": [
+    125.5,
+    122.5
+  ],
+  "orientation": "north/up",
+  "artRole": "connection-master",
+  "engineNotVerified": true
+}

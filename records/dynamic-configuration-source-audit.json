@@ -1,0 +1,352 @@
+{
+  "commit": "17012d61d9e4c3cbd9820d87e81c24495486ac53",
+  "scannedFileCount": 177,
+  "requestedFileCount": 177,
+  "errors": [],
+  "builders": [
+    {
+      "path": "core/src/mindustry/world/blocks/ItemSelection.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__ItemSelection.java",
+      "sha256": "bae6b111cf87eae6973151728b06b7db50aae548d8f5540425367f633fe0d3d4",
+      "matches": [
+        {
+          "line": 22,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){\n        buildTable(table, items, holder, consumer, true);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(null, table, items, holder, consumer, closeSelect, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int columns){\n        buildTable(null, table, items, holder, consumer, true, 5, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){\n        buildTable(block, table, items, holder, consumer, true, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(block, table, items, holder, consumer, closeSelect, 5 ,4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();"
+        },
+        {
+          "line": 26,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(null, table, items, holder, consumer, closeSelect, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int columns){\n        buildTable(null, table, items, holder, consumer, true, 5, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){\n        buildTable(block, table, items, holder, consumer, true, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(block, table, items, holder, consumer, closeSelect, 5 ,4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;"
+        },
+        {
+          "line": 30,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int columns){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int columns){\n        buildTable(null, table, items, holder, consumer, true, 5, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){\n        buildTable(block, table, items, holder, consumer, true, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(block, table, items, holder, consumer, closeSelect, 5 ,4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){"
+        },
+        {
+          "line": 34,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer){\n        buildTable(block, table, items, holder, consumer, true, 5, 4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(block, table, items, holder, consumer, closeSelect, 5 ,4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){\n                if(!item.unlockedNow() || !item.isOnPlanet(state.getPlanet()) || item.isHidden()) continue;\n\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearNoneTogglei, Mathf.clamp(item.selectionSize, 0f, 40f), () -> {\n                    if(closeSelect) control.input.config.hideConfig();"
+        },
+        {
+          "line": 38,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect){\n        buildTable(block, table, items, holder, consumer, closeSelect, 5 ,4);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){\n                if(!item.unlockedNow() || !item.isOnPlanet(state.getPlanet()) || item.isHidden()) continue;\n\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearNoneTogglei, Mathf.clamp(item.selectionSize, 0f, 40f), () -> {\n                    if(closeSelect) control.input.config.hideConfig();\n                }).tooltip(item.localizedName).group(group).get();\n                button.changed(() -> consumer.get(button.isChecked() ? item : null));\n                button.getStyle().imageUp = new TextureRegionDrawable(item.uiIcon);\n                button.update(() -> button.setChecked(holder.get() == item));"
+        },
+        {
+          "line": 42,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(block, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){\n                if(!item.unlockedNow() || !item.isOnPlanet(state.getPlanet()) || item.isHidden()) continue;\n\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearNoneTogglei, Mathf.clamp(item.selectionSize, 0f, 40f), () -> {\n                    if(closeSelect) control.input.config.hideConfig();\n                }).tooltip(item.localizedName).group(group).get();\n                button.changed(() -> consumer.get(button.isChecked() ? item : null));\n                button.getStyle().imageUp = new TextureRegionDrawable(item.uiIcon);\n                button.update(() -> button.setChecked(holder.get() == item));\n\n                if(i++ % columns == (columns - 1)){\n                    cont.row();\n                    rowCount++;"
+        },
+        {
+          "line": 46,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, int rows, int columns){\n        buildTable(null, table, items, holder, consumer, true, rows, columns);\n    }\n\n    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){\n                if(!item.unlockedNow() || !item.isOnPlanet(state.getPlanet()) || item.isHidden()) continue;\n\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearNoneTogglei, Mathf.clamp(item.selectionSize, 0f, 40f), () -> {\n                    if(closeSelect) control.input.config.hideConfig();\n                }).tooltip(item.localizedName).group(group).get();\n                button.changed(() -> consumer.get(button.isChecked() ? item : null));\n                button.getStyle().imageUp = new TextureRegionDrawable(item.uiIcon);\n                button.update(() -> button.setChecked(holder.get() == item));\n\n                if(i++ % columns == (columns - 1)){\n                    cont.row();\n                    rowCount++;\n                }\n            }\n        };\n"
+        },
+        {
+          "line": 50,
+          "declaration": "public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){",
+          "excerpt": "    public static <T extends UnlockableContent> void buildTable(@Nullable Block block, Table table, Seq<T> items, Prov<T> holder, Cons<T> consumer, boolean closeSelect, int rows, int columns){\n        ButtonGroup<ImageButton> group = new ButtonGroup<>();\n        group.setMinCheckCount(0);\n        Table cont = new Table().top();\n        cont.defaults().size(40);\n\n        if(search != null) search.clearText();\n\n        Runnable rebuild = () -> {\n            group.clear();\n            cont.clearChildren();\n\n            var text = search != null ? search.getText() : \"\";\n            int i = 0;\n            rowCount = 0;\n\n            Seq<T> list = items.select(u -> (text.isEmpty() || u.localizedName.toLowerCase().contains(text.toLowerCase())));\n            for(T item : list){\n                if(!item.unlockedNow() || !item.isOnPlanet(state.getPlanet()) || item.isHidden()) continue;\n\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearNoneTogglei, Mathf.clamp(item.selectionSize, 0f, 40f), () -> {\n                    if(closeSelect) control.input.config.hideConfig();\n                }).tooltip(item.localizedName).group(group).get();\n                button.changed(() -> consumer.get(button.isChecked() ? item : null));\n                button.getStyle().imageUp = new TextureRegionDrawable(item.uiIcon);\n                button.update(() -> button.setChecked(holder.get() == item));\n\n                if(i++ % columns == (columns - 1)){\n                    cont.row();\n                    rowCount++;\n                }\n            }\n        };\n\n        rebuild.run();\n\n        Table main = new Table().background(Styles.black6);\n        if(rowCount > rows * 1.5f){"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/campaign/Accelerator.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__campaign__Accelerator.java",
+      "sha256": "f995c099ff68a57ecda04f7530da021ce97215f58ea6ce99a868e8a8d35ef91d",
+      "matches": [
+        {
+          "line": 258,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            deselect();\n\n            if(!canLaunch()) return;\n\n            ui.planet.showPlanetLaunch(state.rules.sector, launchCandidates == null ? state.rules.sector.planet.launchCandidates : launchCandidates, sector -> {\n                if(canLaunch()){\n                    consume();\n                    ItemSeq resources = new ItemSeq();\n                    resources.add(items);\n                    items.clear();\n\n                    power.graph.useBatteries(powerBufferRequirement);\n                    progress = 0f;\n\n                    renderer.showLaunch(this);\n\n                    Time.runTask(launchDuration() - 6f, () -> {\n                        //unlock right before launch\n                        launching = false;\n                        sector.planet.unlockedOnLand.each(UnlockableContent::unlock);\n\n                        universe.clearLoadoutInfo();\n                        universe.updateLaunchResources(resources);\n                        universe.updateLoadout((CoreBlock)launchBlock);\n\n                        control.playSector(sector);\n                    });\n                }\n            });\n\n            Events.fire(Trigger.acceleratorUse);\n        }\n\n        @Override\n        public int getMaximumAccepted(Item item){\n            return capacities[item.id] + (isCoreBuilt() ? launchBlock.itemCapacity : 0);\n        }"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/campaign/LandingPad.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__campaign__LandingPad.java",
+      "sha256": "ed1c9fbb6822308202c2644bf54e176800f67c8970a50224473d88d81608aaa8",
+      "matches": [
+        {
+          "line": 378,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n\n            ItemSelection.buildTable(LandingPad.this, table, content.items(), () -> config, this::configure, selectionRows, selectionColumns);\n\n            if(!net.client() && !isFake()){\n                table.row();\n\n                table.table(t -> {\n                    t.background(Styles.black6);\n\n                    t.button(Icon.downOpen, Styles.clearNonei, 40f, () -> {\n                        if(config == null || !state.isCampaign()) return;\n\n                        for(Sector sector : state.getPlanet().sectors){\n                            if(!canRedirectExports(sector)) continue;\n                            sector.info.destination = state.getSector();\n                            sector.saveInfo();\n                        }\n                        state.getSector().info.refreshImportRates(state.getPlanet());\n                    }).disabled(button -> config == null || !state.isCampaign() || (!state.getPlanet().sectors.contains(this::canRedirectExports)))\n                    .tooltip(\"@sectors.redirect\").get();\n                }).fillX().left();\n            }\n        }\n\n        private boolean canRedirectExports(Sector sector){\n            return sector.hasBase() && sector != state.getSector() && sector.info.hasExport(config) && sector.info.destination != state.getSector();\n        }\n\n        @Override\n        public void display(Table table){\n            super.display(table);\n\n            if(!state.isCampaign() || net.client() || team != player.team() || isFake()) return;\n\n            table.row();\n            table.label(() -> {\n                if(!state.isCampaign() || isFake()) return \"\";"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/campaign/LaunchPad.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__campaign__LaunchPad.java",
+      "sha256": "f43c34b805e0466e04b54bd5c888fc0a618da187ab194309f79036db1ff3505f",
+      "matches": [
+        {
+          "line": 185,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            if(!state.isCampaign() || net.client()){\n                deselect();\n                return;\n            }\n\n            table.button(Icon.upOpen, Styles.cleari, () -> {\n                ui.planet.showSelect(state.rules.sector, other -> {\n                    if(state.isCampaign() && other.planet == state.rules.sector.planet){\n                        var prev = state.rules.sector.info.destination;\n                        state.rules.sector.info.destination = other;\n                        if(prev != null){\n                            prev.info.refreshImportRates(state.getPlanet());\n                        }\n                    }\n                });\n                deselect();\n            }).size(40f);\n        }\n\n        @Override\n        public byte version(){\n            return 1;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.f(launchCounter);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            if(revision >= 1){\n                launchCounter = read.f();\n            }\n        }"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/defense/TargetDummy.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__defense__TargetDummy.java",
+      "sha256": "f06ac70d607a538507267272671f8e15e05a694b566b2f2ffd8ce58fdf9c638d",
+      "matches": [
+        {
+          "line": 240,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            table.table(t -> {\n                t.background(Styles.black6);\n                t.defaults().left();\n\n                t.check(Core.bundle.get(\"rules.enemyteam\"), unitTeam != team, b -> configureInt(0, Mathf.num(b))).colspan(3).row();\n                t.check(Core.bundle.get(\"stat.flying\"), boosting, b -> configureInt(1, Mathf.num(b))).colspan(3).row();\n                t.add(Core.bundle.get(\"stat.armor\"));\n                t.field(\"\" + (int)unitArmor, TextFieldFilter.digitsOnly, s -> configureInt(2, Strings.parseInt(s))).valid(val -> Strings.parseInt(val, Integer.MAX_VALUE) < 100_000).width(200f).padLeft(8f).colspan(2).row();\n                t.add(Core.bundle.get(\"stat.resettime\"));\n                t.field(Strings.autoFixed(resetTime / 60f, 2), TextFieldFilter.floatsOnly, s -> configureInt(3, (int)(Strings.parseFloat(s) * 60f))).valid(Strings::canParsePositiveFloat).padLeft(8f).growX();\n                t.add(StatUnit.seconds.localized()).padLeft(8).row();\n                t.add(Core.bundle.get(\"stat.hitsize\"));\n                t.field(\"\" + (dummySize/tilesize), TextFieldFilter.floatsOnly, s -> configureInt(4, Float.floatToIntBits(Strings.parseFloat(s) * tilesize)))\n                .valid(val -> {\n                    float parsed = Strings.parseFloat(val, Float.MAX_VALUE);\n                    return parsed >= 0.1f && parsed <= maxDummySize;\n                }).padLeft(8f).growX();\n                t.add(StatUnit.blocks.localized()).padLeft(8f);\n            }).top().grow().margin(8f);\n        }\n\n        //helper to send the rest of values, since config does not support arrays\n        public void configureInt(int index, int value){\n            int[] values = config();\n            values[index] = value;\n            configure(values);\n        }\n\n        public int dummyTeam(){\n            if(unitTeam != team) return team.id; //Return to own team\n            return team != state.rules.waveTeam ? state.rules.waveTeam.id : (team.id % (Team.all.length - 1)) + 1;\n        }\n\n        @Override\n        public int[] config(){\n            //note: float[] is not supported in build 160\n            return new int[]{Mathf.num(unitTeam != team), Mathf.num(boosting), (int)unitArmor, (int)resetTime, Float.floatToIntBits(dummySize)};"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/distribution/DirectionalUnloader.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__DirectionalUnloader.java",
+      "sha256": "325d5cbe6f21a187bd9f0c3a24b9709df78985a7c09f49d964efaf75d5efc7e0",
+      "matches": [
+        {
+          "line": 145,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(DirectionalUnloader.this, table, content.items(), () -> unloadItem, this::configure);\n        }\n\n        @Override\n        public Item config(){\n            return unloadItem;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(unloadItem == null ? -1 : unloadItem.id);\n            write.s(offset);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            int id = read.s();\n            unloadItem = id == -1 ? null : content.item(id);\n            offset = read.s();\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/distribution/DuctRouter.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__DuctRouter.java",
+      "sha256": "8e576915b21874b936dd267be86493e7c5b69356a8caa3a89b0e648912131ff0",
+      "matches": [
+        {
+          "line": 124,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(DuctRouter.this, table, content.items(), () -> sortItem, this::configure);\n        }\n\n        @Override\n        public void configured(Unit player, Object value){\n            super.configured(player, value);\n\n            if(!headless){\n                recache();\n                renderer.minimap.update(tile);\n            }\n        }\n\n        @Nullable\n        public Building target(){\n            if(current == null) return null;\n\n            int dump = cdump;\n\n            for(int i = 0; i < proximity.size; i++){\n                Building other = proximity.get((i + dump) % proximity.size);\n                int rel = relativeTo(other);\n\n                if(!(sortItem != null && (current == sortItem) != (rel == rotation)) && !(rel == (rotation + 2) % 4) && other.team == team && other.acceptItem(this, current)){\n                    incrementDump(proximity.size);\n                    return other;\n                }\n\n                incrementDump(proximity.size);\n            }\n\n            return null;\n        }\n\n        @Override\n        public boolean acceptItem(Building source, Item item){\n            return current == null && items.total() == 0 &&"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/distribution/Sorter.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__distribution__Sorter.java",
+      "sha256": "1ad3a14e9fd2ec06ca32d0428417f97922098edc5affafc0d2603a8eb5f5c2e7",
+      "matches": [
+        {
+          "line": 146,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(Sorter.this, table, content.items(), () -> sortItem, this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public Item config(){\n            return sortItem;\n        }\n\n        @Override\n        public byte version(){\n            return 2;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(sortItem == null ? -1 : sortItem.id);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            sortItem = content.item(read.s());\n\n            if(revision == 1){\n                new DirectionalItemBuffer(20).read(read);\n            }\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/logic/CanvasBlock.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__logic__CanvasBlock.java",
+      "sha256": "6e6b9e5a5eece794e833862827d4e3382d54a01376791c15df4b489e468e6e94",
+      "matches": [
+        {
+          "line": 310,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            table.button(Icon.pencil, Styles.cleari, () -> new CanvasEditDialog(this).show()).size(40f);\n        }\n\n        @Override\n        public boolean onConfigureBuildTapped(Building other){\n            if(this == other){\n                deselect();\n                return false;\n            }\n\n            return true;\n        }\n\n        @Override\n        public byte[] config(){\n            return data;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n\n            //for future canvas resizing events\n            write.i(data.length);\n            write.b(data);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n\n            int len = read.i();\n            if(data.length == len){\n                read.b(data);\n            }else{\n                read.skip(len);\n            }"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/logic/LogicBlock.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__logic__LogicBlock.java",
+      "sha256": "ebef3b95a129ed6887d2e3956fe23aee5da9f00cd724b8309b48ad1239e33508",
+      "matches": [
+        {
+          "line": 737,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            table.button(Icon.pencil, Styles.cleari, this::showEditDialog).size(40);\n        }\n\n        public void showEditDialog(){\n            showEditDialog(false);\n        }\n\n        public void showEditDialog(boolean forceEditor){\n            ui.logic.show(code, executor, privileged, code -> {\n                boolean prev = state.rules.editor;\n                //this is a hack to allow configuration to work correctly in the editor for privileged processors\n                if(forceEditor) state.rules.editor = true;\n                byte[] bytes = compress(code, relativeConnections());\n                if(bytes.length > maxCompressedLen){\n                    ui.showErrorMessage(Core.bundle.format(\"logic.error.toolong\", maxCompressedLen, bytes.length));\n                }else{\n                    configure(bytes);\n                    state.rules.editor = prev;\n                }\n            });\n        }\n\n        @Override\n        public boolean onConfigureBuildTapped(Building other){\n            if(this == other || !accessible()){\n                deselect();\n                return false;\n            }\n\n            if(validLink(other)){\n                configure(other.pos());\n                return false;\n            }\n\n            return super.onConfigureBuildTapped(other);\n        }\n"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/logic/MessageBlock.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__logic__MessageBlock.java",
+      "sha256": "f1c422c6fc907c535a3b8d6776cb3923f46b53845cdb67955af9d37055d1c1e5",
+      "matches": [
+        {
+          "line": 109,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            table.button(Icon.pencil, Styles.cleari, () -> {\n                if(mobile){\n                    var contents = message;\n                    Core.input.getTextInput(new TextInput(){{\n                        text = contents.toString();\n                        multiline = true;\n                        maxLength = maxTextLength;\n                        accepted = str -> {\n                            if(!str.contentEquals(contents)) configure(str);\n                        };\n                    }});\n                }else{\n                    BaseDialog dialog = new BaseDialog(\"@editmessage\");\n                    dialog.setFillParent(false);\n                    TextArea a = dialog.cont.add(new TextArea(message.toString().replace(\"\\r\", \"\\n\"))).size(380f, 160f).get();\n                    a.setFilter((textField, c) -> {\n                        if(c == '\\n'){\n                            int count = 0;\n                            for(int i = 0; i < textField.getText().length(); i++){\n                                if(textField.getText().charAt(i) == '\\n'){\n                                    count++;\n                                }\n                            }\n                            return count < maxNewlines;\n                        }\n                        return true;\n                    });\n                    a.setMaxLength(maxTextLength);\n                    dialog.cont.row();\n                    dialog.cont.label(() -> a.getText().length() + \" / \" + maxTextLength).color(Color.lightGray);\n                    dialog.buttons.button(\"@ok\", () -> {\n                        if(!a.getText().contentEquals(message)) configure(a.getText());\n                        dialog.hide();\n                    }).size(130f, 60f);\n                    dialog.update(() -> {\n                        if(tile.build != this){\n                            dialog.hide();"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/payloads/Constructor.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__payloads__Constructor.java",
+      "sha256": "b46c7e52fe5c99ba8ef6478f3150761d1c9b8e6573df411a15166988d1147063",
+      "matches": [
+        {
+          "line": 67,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(Constructor.this, table, filter.isEmpty() ? content.blocks().select(Constructor.this::canProduce) : filter, () -> recipe, this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public Object config(){\n            return recipe;\n        }\n\n        @Override\n        public void drawSelect(){\n            if(recipe != null){\n                float dx = x - size * tilesize/2f, dy = y + size * tilesize/2f;\n                TextureRegion icon = recipe.uiIcon;\n                Draw.mixcol(Color.darkGray, 1f);\n                //Fixes size because modded content icons are not scaled\n                Draw.rect(icon, dx - 0.7f, dy - 1f, Draw.scl * Draw.xscl * 24f, Draw.scl * Draw.yscl * 24f);\n                Draw.reset();\n                Draw.rect(icon, dx, dy, Draw.scl * Draw.xscl * 24f, Draw.scl * Draw.yscl * 24f);\n            }\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(recipe == null ? -1 : recipe.id);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            recipe = Vars.content.block(read.s());\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/payloads/PayloadRouter.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__payloads__PayloadRouter.java",
+      "sha256": "21c2f64066ce0bb8dce17f8f33e922f63412e16df5527abe60a52d4a6d3b1e40",
+      "matches": [
+        {
+          "line": 183,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(PayloadRouter.this, table,\n                content.blocks().select(PayloadRouter.this::canSort).<UnlockableContent>as()\n                .add(content.units().select(PayloadRouter.this::canSort).as()),\n                () -> (UnlockableContent)config(), this::configure);\n        }\n\n        @Override\n        public Object config(){\n            return sorted;\n        }\n\n        @Override\n        public byte version(){\n            return 1;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.b(sorted == null ? -1 : sorted.getContentType().ordinal());\n            write.s(sorted == null ? -1 : sorted.id);\n            write.b(recDir);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            if(revision >= 1){\n                byte ctype = read.b();\n                short sort = read.s();\n                sorted = ctype == -1 ? null : Vars.content.getByID(ContentType.all[ctype], sort);\n                recDir = read.b();\n                checkMatch();\n            }\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/payloads/PayloadSource.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__payloads__PayloadSource.java",
+      "sha256": "842e5c42b7b666e09c7e9878832faf49d568302998eb9ec7c3bbd12e1de0e973",
+      "matches": [
+        {
+          "line": 113,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(PayloadSource.this, table,\n                content.blocks().select(PayloadSource.this::canProduce).<UnlockableContent>as()\n                .add(content.units().select(PayloadSource.this::canProduce).as()),\n            () -> (UnlockableContent)config(), this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public Object config(){\n            return unit == null ? configBlock : unit;\n        }\n\n        @Override\n        public boolean acceptPayload(Building source, Payload payload){\n            return false;\n        }\n\n        @Override\n        public void updateTile(){\n            super.updateTile();\n            if(payload == null){\n                scl = 0f;\n                if(unit != null){\n                    payload = new UnitPayload(unit.create(team));\n\n                    Unit p = ((UnitPayload)payload).unit;\n                    if(commandPos != null && p.isCommandable()){\n                        p.command().commandPosition(commandPos);\n                    }\n\n                    Events.fire(new UnitCreateEvent(p, this));\n                }else if(configBlock != null){\n                    payload = new BuildPayload(configBlock, team);\n                }\n                payVector.setZero();\n                payRotation = rotdeg();\n            }\n            scl = Mathf.lerpDelta(scl, 1f, 0.1f);"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/power/LightBlock.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__power__LightBlock.java",
+      "sha256": "3b178ba6fcc31c0837d17f3310c04bdcef223e0053a57353c9ebc9493078d77b",
+      "matches": [
+        {
+          "line": 109,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            table.button(Icon.pencil, Styles.cleari, () -> {\n                ui.picker.show(Tmp.c1.set(color).a(0.5f), false, res -> configure(res.rgba()));\n                deselect();\n            }).size(40f);\n        }\n\n        @Override\n        public boolean onConfigureBuildTapped(Building other){\n            if(this == other){\n                deselect();\n                return false;\n            }\n\n            return true;\n        }\n\n        @Override\n        public void drawLight(){\n            Drawf.light(x, y, lightRadius * Math.min(smoothTime, 2f), Tmp.c1.set(color), brightness * efficiency);\n        }\n\n        @Override\n        public Integer config(){\n            return color;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.i(color);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            color = read.i();\n        }"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/sandbox/ItemSource.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__sandbox__ItemSource.java",
+      "sha256": "280eec0e7197f9e9567a29caa405fa8f7d9c803dd7e33975de2f890b00cdb87a",
+      "matches": [
+        {
+          "line": 115,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(ItemSource.this, table, content.items(), () -> outputItem, this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public boolean acceptItem(Building source, Item item){\n            return false;\n        }\n\n        @Override\n        public Item config(){\n            return outputItem;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(outputItem == null ? -1 : outputItem.id);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            outputItem = content.item(read.s());\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/sandbox/LiquidSource.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__sandbox__LiquidSource.java",
+      "sha256": "c5b99599982c7a2b520a57b0149744858b4ec373f2fb6cf22ce0d96f0fb4b37a",
+      "matches": [
+        {
+          "line": 93,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(LiquidSource.this, table, content.liquids(), () -> source, this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public Liquid config(){\n            return source;\n        }\n\n        @Override\n        public byte version(){\n            return 1;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(source == null ? -1 : source.id);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            int id = revision == 1 ? read.s() : read.b();\n            source = id == -1 ? null : content.liquid(id);\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/storage/CoreBlock.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__storage__CoreBlock.java",
+      "sha256": "6945695056475120efe586b270e5939d0d22cf4e433ce66780c863a694c79b06",
+      "matches": [
+        {
+          "line": 289,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            if(!state.rules.coreBuildAndConfig || (team == state.rules.defaultTeam && team.cores().size == 1)){\n                deselect();\n                return;\n            }\n\n            ButtonGroup<ImageButton> group = new ButtonGroup<>();\n            group.setMinCheckCount(0);\n            Table cont = new Table();\n            cont.defaults().size(32f);\n\n            int i = 0;\n            for(Team team : Team.baseTeams){\n                ImageButton button = cont.button(Tex.whiteui, Styles.clearTogglei, 24f, () -> {\n                }).group(group).get();\n                button.changed(() -> {\n                    if(button.isChecked()){\n                        configure(team.id);\n                    }\n                });\n                button.getStyle().imageUpColor = team.color;\n                button.update(() -> button.setChecked(this.team == team));\n\n                if(i++ % 3 == 2){\n                    cont.row();\n                }\n            }\n\n            ScrollPane pane = new ScrollPane(cont, Styles.smallPane);\n            pane.setScrollingDisabled(true, false);\n            pane.setOverscroll(false, false);\n            table.add(pane).maxHeight(Scl.scl(40f * 2f)).left();\n            table.row();\n        }\n\n        @Override\n        public void configured(@Nullable Unit builder, @Nullable Object value){\n            super.configured(builder, value);"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/storage/Unloader.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__storage__Unloader.java",
+      "sha256": "f8ffbd64b6993e6f5c103fee6cd2efa5c8ac8431ddcee9e0e3212cbf30f26ff5",
+      "matches": [
+        {
+          "line": 285,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(Unloader.this, table, content.items(), () -> sortItem, this::configure, selectionRows, selectionColumns);\n        }\n\n        @Override\n        public Item config(){\n            return sortItem;\n        }\n\n        @Override\n        public byte version(){\n            return 1;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(sortItem == null ? -1 : sortItem.id);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            int id = revision == 1 ? read.s() : read.b();\n            sortItem = id == -1 ? null : content.item(id);\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/units/Reconstructor.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__units__Reconstructor.java",
+      "sha256": "087689a4c78e4b9c4e645b055999ff339d164286afe80b335a43b5366328c5f7",
+      "matches": [
+        {
+          "line": 215,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            var unit = unit();\n\n            if(!showAllCommands && unit == null) return;\n\n            var group = new ButtonGroup<ImageButton>();\n            group.setMinCheckCount(0);\n            int i = 0, columns = 5;\n\n            table.background(Styles.black6);\n\n            var list = unit == null ? Vars.content.unitCommands().copy() : unit().commands;\n            for(var item : list){\n                ImageButton button = table.button(item.getIcon(), Styles.clearNoneTogglei, 44f, () -> {\n                    configure(item);\n                    deselect();\n                }).tooltip(item.localized()).group(group).get();\n\n                button.update(() -> button.setChecked(command == item || (command == null && unit != null && unit.defaultCommand == item)));\n\n                if(++i % columns == 0){\n                    table.row();\n                }\n            }\n        }\n\n        @Override\n        public boolean acceptPayload(Building source, Payload payload){\n            if(!(this.payload == null\n            && (this.enabled || source == this)\n            && relativeTo(source) != rotation\n            && payload instanceof UnitPayload pay)){\n                return false;\n            }\n\n            var upgrade = upgrade(pay.unit.type);\n\n            if(upgrade != null){"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/units/UnitCargoUnloadPoint.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__units__UnitCargoUnloadPoint.java",
+      "sha256": "113b560f2ef28330cff6da65740f50f683c56e42422f5e77367e61460d32d2f6",
+      "matches": [
+        {
+          "line": 82,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            ItemSelection.buildTable(UnitCargoUnloadPoint.this, table, content.items(), () -> item, this::configure);\n        }\n\n        @Override\n        public Object config(){\n            return item;\n        }\n\n        @Override\n        public void write(Writes write){\n            super.write(write);\n            write.s(item == null ? -1 : item.id);\n            write.bool(stale);\n        }\n\n        @Override\n        public void read(Reads read, byte revision){\n            super.read(read, revision);\n            item = Vars.content.item(read.s());\n            stale = read.bool();\n        }\n    }\n}"
+        }
+      ]
+    },
+    {
+      "path": "core/src/mindustry/world/blocks/units/UnitFactory.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__world__blocks__units__UnitFactory.java",
+      "sha256": "9f20236f93ca01f00e434f2aa24aa4085d14a63c09b3badd3a4fa55f51fdf0fe",
+      "matches": [
+        {
+          "line": 285,
+          "declaration": "public void buildConfiguration(Table table){",
+          "excerpt": "        public void buildConfiguration(Table table){\n            Seq<UnitType> units = Seq.with(plans).map(u -> u.unit).retainAll(u -> u.unlockedNow() && !u.isBanned());\n\n            if(units.any()){\n                ItemSelection.buildTable(UnitFactory.this, table, units, () -> currentPlan == -1 ? null : plans.get(currentPlan).unit, unit -> configure(plans.indexOf(u -> u.unit == unit)), selectionRows, selectionColumns);\n\n                table.row();\n\n                Table commands = new Table();\n                commands.top().left();\n\n                Runnable rebuildCommands = () -> {\n                    commands.clear();\n                    commands.background(null);\n                    var unit = unit();\n                    if(unit != null && canSetCommand()){\n                        commands.background(Styles.black6);\n                        var group = new ButtonGroup<ImageButton>();\n                        group.setMinCheckCount(0);\n                        int i = 0, columns = Mathf.clamp(units.size, 2, selectionColumns);\n                        var list = unit.commands;\n\n                        commands.image(Tex.whiteui, Pal.gray).height(4f).growX().colspan(columns).row();\n\n                        for(var item : list){\n                            ImageButton button = commands.button(item.getIcon(), Styles.clearNoneTogglei, 40f, () -> {\n                                configure(item);\n                            }).tooltip(item.localized()).group(group).get();\n\n                            button.update(() -> button.setChecked(command == item || (command == null && unit.defaultCommand == item)));\n\n                            if(++i % columns == 0){\n                                commands.row();\n                            }\n                        }\n\n                        if(list.size < columns){\n                            for(int j = 0; j < (columns - list.size); j++){"
+        }
+      ]
+    }
+  ],
+  "mapAssetTypes": [
+    {
+      "path": "core/src/mindustry/editor/data/AssetView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__AssetView.java",
+      "sha256": "829e8cec04718af2c8e00f7d4ee2e3efb724f540773763f44cdac0e6346f7f62",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapAssetsDialog.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapAssetsDialog.java",
+      "sha256": "edbc91019b3f507ec78faabbd9880647294cec9028f1c976badb6f894d553e12",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapAudioView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapAudioView.java",
+      "sha256": "0ab5030150ab14ca58f7744625daa649d98308744837e3c98bb88e71785282e4",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapBundlesView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapBundlesView.java",
+      "sha256": "d63e7a8664f97af7dadc67685cbe3844c7b94773f2e4b263aec4de62f0d165cd",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapContentView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapContentView.java",
+      "sha256": "a7386f36b85a2528999d7aff4a3e88779c93a2b938d3760b8682b5e37b692925",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapImagesView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapImagesView.java",
+      "sha256": "7c0f9161b17fb90c0cce5457cfaee26d0b19300683cc1087dae6042134f3f602",
+      "matches": []
+    },
+    {
+      "path": "core/src/mindustry/editor/data/MapPatchesView.java",
+      "file": "records/reference-dynamic-sources/core__src__mindustry__editor__data__MapPatchesView.java",
+      "sha256": "7edb7da42a344bc9942b29456a1fdbe5a988b899675affc116b16b7273c4c99f",
+      "matches": []
+    }
+  ],
+  "runtimePlatformValidation": "outside_static_artwork_validation"
+}

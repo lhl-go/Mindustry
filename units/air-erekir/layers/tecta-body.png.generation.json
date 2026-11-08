@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "tecta-body",
+  "file": "units/air-erekir/layers/tecta-body.png",
+  "sha256": "07d7148e17c1cdc37f3cbf3acc2076f420b1efb19b64aa38e81c9b929ebe3c46",
+  "width": 475,
+  "height": 492,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/09-walker-body.png",
+      "sha256": "5c18dfd26fb8003921679810313c012f12bc7573212377073d6c6cf194a558a4",
+      "generationRecord": "units/air-erekir/source/09-walker-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      55,
+      495,
+      540,
+      995
+    ],
+    "trimBoundsInRegion": [
+      20,
+      19,
+      463,
+      479
+    ],
+    "padding": 16,
+    "width": 475,
+    "height": 492,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

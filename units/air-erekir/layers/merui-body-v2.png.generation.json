@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "merui-body",
+  "file": "units/air-erekir/layers/merui-body-v2.png",
+  "sha256": "bb18178d01933c1ec5c46901a8c724911614dd834227fe6ad5df23fec48a540c",
+  "width": 789,
+  "height": 841,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/12-walker-body-correction.png",
+      "sha256": "c70965a4eb5697386d1be6c7c4ea57e06fec4f28a64a3f7b0d4752ae553d538f",
+      "generationRecord": "units/air-erekir/source/12-walker-body-correction.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      80,
+      30,
+      885,
+      877
+    ],
+    "trimBoundsInRegion": [
+      28,
+      21,
+      785,
+      830
+    ],
+    "padding": 16,
+    "width": 789,
+    "height": 841,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

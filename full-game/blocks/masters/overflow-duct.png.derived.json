@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/overflow-duct.png",
+  "sha256": "a93780c96e6e3d829ad6f20379f2773b3f789aa0000069b40e78d5285c0c251f",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/logistics-special-04.png",
+      "sha256": "7fcaeecfcfd2057428620f454b9c8f27feb11c5609c47b06f9372662bcb7dc58",
+      "generationRecord": "full-game/blocks/records/logistics-special-04.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      674,
+      372,
+      946,
+      604
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      272,
+      232
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 1,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    304,
+    264
+  ],
+  "anchorPixels": [
+    152.0,
+    132.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

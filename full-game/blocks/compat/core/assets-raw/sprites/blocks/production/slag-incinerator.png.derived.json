@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/slag-incinerator.png",
+  "sourceGitBlob": "2ad32b475b14e5c8753caa92c2cf7c4da2dfc29f",
+  "sourceSha256": "99883fc696992a9e2c5186d1585cf9dd293a033d7297d5da59e75dcea1cd47ab",
+  "sourceDimensions": [
+    32,
+    32
+  ],
+  "region": "slag-incinerator",
+  "blockId": "slag-incinerator",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator.png",
+  "sha256": "d1a01b2dc66295faad212f25bf7a62edea19c1f4504c462549fc7673585f9c53",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator.png",
+  "engineSha256": "d1a01b2dc66295faad212f25bf7a62edea19c1f4504c462549fc7673585f9c53",
+  "nativeFile": "full-game/blocks/masters/slag-incinerator.png",
+  "nativeSha256": "335b39a9a7ca45c3fb6113b1debb0e798a2a5e587547622a7998cf1555d2026d",
+  "nativeSize": [
+    320,
+    311
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    32,
+    32
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/slag-incinerator.png",
+      "sha256": "335b39a9a7ca45c3fb6113b1debb0e798a2a5e587547622a7998cf1555d2026d"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/slag-incinerator.png",
+      "sha256": "99883fc696992a9e2c5186d1585cf9dd293a033d7297d5da59e75dcea1cd47ab"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/slag-incinerator.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

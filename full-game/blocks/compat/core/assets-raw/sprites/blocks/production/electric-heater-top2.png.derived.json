@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/electric-heater-top2.png",
+  "sourceGitBlob": "6e8ffe98cd8dc63120c0223b1684a45e04287be0",
+  "sourceSha256": "1818c15024d56932f1e4c12857e0545527520fa061eba53b8ac72ae5b332f796",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "electric-heater-top2",
+  "blockId": "electric-heater",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-top2.png",
+  "sha256": "b47990b5cd1fd921568ca3e48cafb00ec26c5c0a62e4c7534c7993712b83deff",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-top2.png",
+  "engineSha256": "b47990b5cd1fd921568ca3e48cafb00ec26c5c0a62e4c7534c7993712b83deff",
+  "nativeFile": "full-game/blocks/masters/electric-heater.png",
+  "nativeSha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b",
+  "nativeSize": [
+    301,
+    301
+  ],
+  "sourceAlphaBounds": [
+    17,
+    9,
+    64,
+    55
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": "2",
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/electric-heater.png",
+      "sha256": "aabacd61692034e8b2d26092ad03775522a8762e0067b64d9d73b0b55fc6908b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/electric-heater-top2.png",
+      "sha256": "1818c15024d56932f1e4c12857e0545527520fa061eba53b8ac72ae5b332f796"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/electric-heater-top2.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

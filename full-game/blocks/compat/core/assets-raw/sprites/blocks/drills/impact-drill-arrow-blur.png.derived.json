@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/impact-drill-arrow-blur.png",
+  "sourceGitBlob": "49913d21d4c999d0c39fe593dcd94799562617f0",
+  "sourceSha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e",
+  "sourceDimensions": [
+    128,
+    128
+  ],
+  "region": "impact-drill-arrow-blur",
+  "blockId": "impact-drill",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow-blur.png",
+  "sha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow-blur.png",
+  "engineSha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow-blur.png",
+  "nativeSha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e",
+  "nativeSize": [
+    128,
+    128
+  ],
+  "sourceAlphaBounds": [
+    62,
+    26,
+    102,
+    66
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow-blur.png",
+      "sha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/impact-drill-arrow-blur.png",
+      "sha256": "e1a67052bb8fd9b4525dbe33db8508cd9084c5de1f2b644208931886e6e1243e"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/impact-drill-arrow-blur.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

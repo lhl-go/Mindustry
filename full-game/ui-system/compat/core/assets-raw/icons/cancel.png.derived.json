@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/cancel.png",
+  "sourceGitBlob": "03ea12174f578754b7a4c6e589af8f25d7c9b54a",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/cancel.png",
+  "sha256": "ba4965b949f717775ec133788c4074ca4a4ae3d85847b7b3321dff5ba9e8992f",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "ui/kit/icon-close.png",
+      "sha256": "2c7433db422c0170572add91d0d79f064c915ddb1f76f575576d9032c42e59f6",
+      "record": "ui/kit/icon-close.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "cancel",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

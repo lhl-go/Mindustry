@@ -1,0 +1,28 @@
+{
+  "sourcePath": "core/assets-raw/icons/elevation.png",
+  "sourceGitBlob": "cbc30c8cc12572b9fd3d914a6988d6def7c23ff7",
+  "file": "full-game/ui-system/compat/core/assets-raw/icons/elevation.png",
+  "sha256": "cd68c07aeca27da1f6d8d3f298aad9b73ba5a73ab76be1d5af10bacdac7634c7",
+  "sourceSize": [
+    16,
+    16
+  ],
+  "derivedFrom": [
+    {
+      "file": "full-game/ui-system/icons/elevation.png",
+      "sha256": "d145dffe0ca0283f3d375ca13abecb205ee467d88b6955bffca59154ba9d4b34",
+      "record": "full-game/ui-system/icons/elevation.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "contain_downsample",
+    "resampling": "LANCZOS",
+    "semanticKey": "elevation",
+    "usage": "Original icon canvas size. Full-color HD master supplied separately; original monochrome font glyph retained for legibility."
+  },
+  "disposition": "derived_from_styled_art",
+  "status": "art_export_complete_runtime_unverified",
+  "runtime": "unverified",
+  "actualModel": null,
+  "actualQuality": null
+}

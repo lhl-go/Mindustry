@@ -1,0 +1,33 @@
+{
+  "stem": "07-statuses-combat",
+  "names": [
+    "status-sapped",
+    "status-electrified",
+    "status-shocked",
+    "status-blasted",
+    "status-disarmed",
+    "status-unmoving",
+    "status-slow",
+    "status-fast"
+  ],
+  "cols": 4,
+  "rows": 2,
+  "args": {
+    "prompt": "Production game sprite sheet, exactly 8 distinct isolated sprites. Strict invisible 4 columns x2 rows reading order; unused final cell empty. Requested 2048x1024. The two attached refs dictate fine Daoist chibi painted style, jade ivory warm-gold finish, clean rounded detailed art, but preserve described colors. 1 sapped: purple draining spiral pulling a pale glowing spirit pearl downward. 2 electrified: sharp blue branching electrical bolt around a small gold ring. 3 shocked: yellow single zigzag lightning burst. 4 blasted: red-orange radial explosion with black center. 5 disarmed: broken jade sword in two pieces with a small locking seal. 6 unmoving: jade boot chained to a square golden padlock. 7 slow: small jade snail with heavy spiral shell. 8 fast: winged jade boot with three golden speed streaks. Entire objects inside each cell with generous15% margins, no overlaps. Genuine transparent RGBA. No text, border, plaque, floor, grid, cast shadow, glow fog or UI. Status symbols should read at small size, pictorial silhouette only, not square button backgrounds.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26T16:28:35.391Z",
+  "returnedAt": "2026-10-26T16:29:45.596Z",
+  "tool": "image_gen.imagegen",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc as C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-a691196f-04f1-481d-9882-1dab797a7bde.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  }
+}

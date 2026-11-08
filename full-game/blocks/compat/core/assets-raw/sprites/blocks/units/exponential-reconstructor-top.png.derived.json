@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/exponential-reconstructor-top.png",
+  "sourceGitBlob": "1bd16c4cde95657be2d1d07c5350e19eb8cdcd55",
+  "sourceSha256": "0ae9fea26babf25d12b95cac86eb4945cf7334c11168745c0a0cd1422cf28a40",
+  "sourceDimensions": [
+    224,
+    224
+  ],
+  "region": "exponential-reconstructor-top",
+  "blockId": "exponential-reconstructor",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/exponential-reconstructor-top.png",
+  "sha256": "9a59330767e3239066a75e24a1d9bde74a887ab1e9f1851dc935ecf74b60f50a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/exponential-reconstructor-top.png",
+  "engineSha256": "9a59330767e3239066a75e24a1d9bde74a887ab1e9f1851dc935ecf74b60f50a",
+  "nativeFile": "full-game/blocks/masters/exponential-reconstructor.png",
+  "nativeSha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc",
+  "nativeSize": [
+    369,
+    335
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    224,
+    224
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/exponential-reconstructor.png",
+      "sha256": "950058020f8a8fb3d19e2c0bf86ef26430f6e14c396b016ace8348837fca52cc"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/exponential-reconstructor-top.png",
+      "sha256": "0ae9fea26babf25d12b95cac86eb4945cf7334c11168745c0a0cd1422cf28a40"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/exponential-reconstructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/exponential-reconstructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/exponential-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

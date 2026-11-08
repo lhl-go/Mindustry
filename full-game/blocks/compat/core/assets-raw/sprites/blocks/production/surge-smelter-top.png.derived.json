@@ -1,0 +1,52 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/surge-smelter-top.png",
+  "sourceGitBlob": "a3ff2513e39dd4e130015290d277ab7abf92780e",
+  "sourceSha256": "abbb5cf6be3a1283aeff3daae1181a37e3d4c05c8df0c24cee6f14d3ec19321b",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "surge-smelter-top",
+  "blockId": "surge-smelter",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter-top.png",
+  "sha256": "ccf9cf9c96d0eee23969364adc5424a0b74d526a8765f9ccf58ba51e6c3d85e9",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter-top.png",
+  "engineSha256": "ccf9cf9c96d0eee23969364adc5424a0b74d526a8765f9ccf58ba51e6c3d85e9",
+  "nativeFile": "full-game/blocks/masters/surge-smelter.png",
+  "nativeSha256": "330eae4366d003105249a00f7f8397e9fe91be241e7c47f244a4faa864784d73",
+  "nativeSize": [
+    367,
+    342
+  ],
+  "sourceAlphaBounds": [
+    26,
+    26,
+    70,
+    70
+  ],
+  "operation": {
+    "kind": "neutral_effect_mask_with_exact_original_directional_alpha",
+    "runtimeTintPreserved": true,
+    "singleSideHeatRotatedPerInput": false,
+    "warmupOverlay": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "retained_functional_effect_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/surge-smelter.png",
+      "sha256": "330eae4366d003105249a00f7f8397e9fe91be241e7c47f244a4faa864784d73"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/surge-smelter-top.png",
+      "sha256": "abbb5cf6be3a1283aeff3daae1181a37e3d4c05c8df0c24cee6f14d3ec19321b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/surge-smelter-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

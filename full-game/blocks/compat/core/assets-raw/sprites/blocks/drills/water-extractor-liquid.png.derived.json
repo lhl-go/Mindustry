@@ -1,0 +1,50 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/water-extractor-liquid.png",
+  "sourceGitBlob": "a0d71353f2497daa0ed45813a718fc4ec5f3becf",
+  "sourceSha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "water-extractor-liquid",
+  "blockId": "water-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-liquid.png",
+  "sha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-liquid.png",
+  "engineSha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654",
+  "nativeFile": "full-game/blocks/reference-sprites/blocks/drills/water-extractor-liquid.png",
+  "nativeSha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654",
+  "nativeSize": [
+    64,
+    64
+  ],
+  "sourceAlphaBounds": [
+    8,
+    8,
+    56,
+    56
+  ],
+  "operation": {
+    "kind": "exact_original_runtime_tint_mask_or_burst_glyph",
+    "newPaintedDetail": false,
+    "reason": "The renderer tints this neutral stencil and/or places it repeatedly at runtime."
+  },
+  "disposition": "exact_upstream_technical_reuse",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/water-extractor-liquid.png",
+      "sha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/water-extractor-liquid.png",
+      "sha256": "50d33b5d2c682239363de0b805ce5cc9508e686c499cfd6fef5c8336f9eee654"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor-liquid.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

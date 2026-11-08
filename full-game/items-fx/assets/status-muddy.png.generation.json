@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/06-statuses-elements.png",
+      "sha256": "a57d9a2950185382c5765ad615de70b0b9dd30a56ded85087462a6d7ee616c14",
+      "generationRecord": "full-game/items-fx/source/06-statuses-elements.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      6,
+      14,
+      426,
+      427
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/status-muddy.png",
+  "sha256": "a105b97b31acce6b8304d195e299c41790c306ab8a0a93037e2cb25f04643eeb",
+  "width": 452,
+  "height": 445,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.512690+00:00"
+}

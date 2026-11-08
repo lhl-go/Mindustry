@@ -1,0 +1,69 @@
+{
+  "file": "full-game/units/revised-bodies/vanquish-body.png",
+  "sha256": "a03b7595a4e972c6298cfecf6bf067250db47b3c692215481a4ee6c2d4f95f05",
+  "width": 494,
+  "height": 452,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/vanquish-body.png",
+      "sha256": "36396e17181d291b5e6c0c749b7e56bbe53636473085caa6ffd86ae222a183c0",
+      "generationRecord": "units/air-erekir/layers/vanquish-body.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized_motion_layer_separation",
+    "description": "Clear only inner source-defined moving tread bands from the overlying body; retain outer rails, end armor and all other original painted pixels. Complete tread canvas fills the cleared areas below.",
+    "engineWindows": [
+      [
+        25,
+        22,
+        47,
+        140
+      ],
+      [
+        107,
+        22,
+        129,
+        140
+      ]
+    ],
+    "nativeWindows": [
+      [
+        82,
+        53,
+        153,
+        427
+      ],
+      [
+        341,
+        53,
+        412,
+        427
+      ]
+    ],
+    "sourceToEngineScale": [
+      0.31601731601731603,
+      0.31666666666666665
+    ],
+    "sourceTrim": [
+      16,
+      16,
+      478,
+      436
+    ],
+    "destinationTopLeft": [
+      4,
+      10
+    ],
+    "staticRailFractionPerSide": 0.12,
+    "staticEndFractionPerSide": 0.05,
+    "noNewPaintedPixels": true
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Authorized local layer separation from current final native art; no new model call.",
+  "engineNotVerified": true
+}

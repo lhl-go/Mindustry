@@ -1,0 +1,65 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/power/thorium-reactor-top.png",
+  "sourceGitBlob": "a22ce50d604b80230c1721f0e95edb4b1b38ea1e",
+  "sourceSha256": "a215a854375523b3137bc431d6e068772d5a234e59a539ec55b1367ece8311d0",
+  "sourceDimensions": [
+    96,
+    96
+  ],
+  "region": "thorium-reactor-top",
+  "blockId": "thorium-reactor",
+  "category": "power",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-top.png",
+  "sha256": "3ddfed736a6ce76aae2a9cb1d15e9f92addac33da4bd8255f4db9f167a5e7998",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-top.png",
+  "engineSha256": "3ddfed736a6ce76aae2a9cb1d15e9f92addac33da4bd8255f4db9f167a5e7998",
+  "nativeFile": "full-game/blocks/masters/thorium-reactor.png",
+  "nativeSha256": "ebf7793b8166178a58f42acfb4fb79f4c7fe6bc558361f9ea95366e585c46b21",
+  "nativeSize": [
+    341,
+    348
+  ],
+  "sourceAlphaBounds": [
+    39,
+    39,
+    57,
+    57
+  ],
+  "operation": {
+    "kind": "native_painted_texture_through_original_functional_layer_geometry",
+    "transparentChannelsPreserved": true,
+    "exactOriginalAlpha": true,
+    "nativeMasterIsTextureSource": true,
+    "directionVariant": null,
+    "paddingMaterial": "Existing liquid-source jade crop [150,145,210,205] fills only areas outside the painted silhouette; no new detail.",
+    "liquidOutputHuePreserved": false,
+    "newPaintedDetail": false
+  },
+  "disposition": "styled_material_with_original_layer_geometry",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/thorium-reactor.png",
+      "sha256": "ebf7793b8166178a58f42acfb4fb79f4c7fe6bc558361f9ea95366e585c46b21"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/power/thorium-reactor-top.png",
+      "sha256": "a215a854375523b3137bc431d6e068772d5a234e59a539ec55b1367ece8311d0"
+    },
+    {
+      "file": "full-game/blocks/masters/liquid-source.png",
+      "sha256": "183c1bf1fe50b87a23e3001ed8330d0e9bd86186f3faecd147ea1211ab45c695",
+      "crop": [
+        150,
+        145,
+        210,
+        205
+      ]
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/power/thorium-reactor-top.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

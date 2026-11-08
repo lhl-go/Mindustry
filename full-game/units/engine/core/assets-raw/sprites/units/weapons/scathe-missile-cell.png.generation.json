@@ -1,0 +1,50 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+  "sha256": "8954ebb1b4a1df1813040dc64132f6cda49c7c22713236925e9ac8f87edae272",
+  "width": 58,
+  "height": 95,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile.png",
+      "sha256": "dbb387ad2396e6d02677be328adfe302d11a3270386135894fc06893cb2986ad",
+      "generationRecord": "full-game/units/engine/core/assets-raw/sprites/units/weapons/scathe-missile.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "new_shape_aligned_white_cell_mask",
+    "baseRegion": "scathe-missile",
+    "baseCanvas": [
+      58,
+      95
+    ],
+    "outputCanvas": [
+      58,
+      95
+    ],
+    "centerRegistrationOffset": [
+      0,
+      0
+    ],
+    "colorSelection": "central existing jade pixels",
+    "fallbackToClippedCentralOpaquePatch": false,
+    "preservesOriginalMaskPixels": false,
+    "whiteRgb": true,
+    "alphaLimitedToNewBody": true
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/weapons/scathe-missile-cell.png",
+    "gitBlobSha1": "7854083dfd74dba7e77b2fd1d17ee5880abd5ac5",
+    "sha256": "2f834a5b6f69229928783702d41e0b2fa64f33f268cd78c23f1fed4fe7e65031"
+  },
+  "runtime": {
+    "function": "UnitType.drawCell/cellColor",
+    "tint": "runtime team/health color",
+    "geometry": "same unit/part center; canvas differences accounted for"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Pixel-derived mask from traced new art; no image model call.",
+  "engineNotVerified": true
+}

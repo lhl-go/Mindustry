@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "semanticKey": "loading",
+  "file": "full-game/ui-system/icons/loading.png",
+  "sha256": "f87f54fe85ef3d8220ef025d58e1e919f9277f7f6be3a2975d66e3ba8cc8582c",
+  "width": 223,
+  "height": 223,
+  "nativeCropPixels": [
+    197,
+    199
+  ],
+  "derivedAt": "2026-10-26T15:24:53.963688+00:00",
+  "derivedFrom": {
+    "file": "full-game/ui-system/source/02-files-map.png",
+    "sha256": "fafb4adc96a869927f79c3bde5640115cbc7db3afd209a244fbf976f5175a5d4",
+    "generationRecord": "full-game/ui-system/source/02-files-map.png.generation.json",
+    "nativeSize": [
+      1536,
+      1024
+    ]
+  },
+  "operation": {
+    "kind": "alpha_component_group_crop_and_padding",
+    "grid": [
+      6,
+      4
+    ],
+    "cellIndex": 20,
+    "sourceBox": [
+      549,
+      754,
+      746,
+      953
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "componentGrouping": "complete components assigned by bbox midpoint; no component cut on cell lines",
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12,
+    "canvasOffset": [
+      13,
+      12
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "modelEvidence": "Inherited from source, not newly generated",
+  "validation": {
+    "realAlpha": true,
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "visualReview": "pending",
+    "runtime": "unverified"
+  }
+}

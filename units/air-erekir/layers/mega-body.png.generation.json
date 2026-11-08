@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "mega-body",
+  "file": "units/air-erekir/layers/mega-body.png",
+  "sha256": "113f04b8beb019d134c31600aadfdf04c6d8a6e5240ea2245a35b41c0c034680",
+  "width": 535,
+  "height": 467,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/source/07-air-utility-body.png",
+      "sha256": "a387de6f44e9c8527b38fcf6dd12fac392d39a66a55bb7c5a36519e21a427227",
+      "generationRecord": "units/air-erekir/source/07-air-utility-body.png.generation.json",
+      "sourceImageRetained": true,
+      "deletionPending": true,
+      "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+    }
+  ],
+  "operation": {
+    "type": "native_pixel_crop_and_alpha_cleanup",
+    "cropRegion": [
+      5,
+      475,
+      540,
+      950
+    ],
+    "trimBoundsInRegion": [
+      16,
+      19,
+      519,
+      454
+    ],
+    "padding": 16,
+    "width": 535,
+    "height": 467,
+    "alphaLowThreshold": 16,
+    "opaqueThreshold": 245,
+    "keepLargestConnectedComponent": true,
+    "dilatePixels": 1
+  },
+  "upsampled": false,
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "sourceModelEvidence": "See native generation record; host exact model and quality undisclosed."
+}

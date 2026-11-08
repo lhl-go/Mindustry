@@ -1,0 +1,39 @@
+{
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/source/05-gases-teams.png",
+      "sha256": "3d582e88f6ddd9b5148615345dfcba0f3101d02de9e45a1d265bd43556348110",
+      "generationRecord": "full-game/items-fx/source/05-gases-teams.png.generation.json"
+    }
+  ],
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Source host model/quality not disclosed; see source generation record.",
+  "operation": {
+    "type": "native_cell_crop_alpha_cleanup",
+    "crop": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "alphaBelow16ToZero": true,
+    "alphaAtLeast245To255": true,
+    "transparentRgbZeroed": true,
+    "trim": [
+      51,
+      30,
+      406,
+      403
+    ],
+    "padding": 16
+  },
+  "file": "full-game/items-fx/assets/team-derelict.png",
+  "sha256": "1da6fba3d9354406c49fe7cef9dc31bdfa8d2a74d7f7ea39cc8746fcf30ff946",
+  "width": 387,
+  "height": 405,
+  "format": "PNG",
+  "mode": "RGBA",
+  "exportedAt": "2026-10-26T18:00:09.334393+00:00"
+}

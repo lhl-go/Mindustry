@@ -1,0 +1,63 @@
+{
+  "file": "full-game/units/engine/core/assets-raw/sprites/units/omura.png",
+  "sha256": "06179405777b5d2d284b6a7499ec6ff67584b08b67b5404db154de1b7be1ee3e",
+  "width": 264,
+  "height": 351,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "units/serpulo-ground-naval/bodies/omura.png",
+      "sha256": "e52710d47a0355dd57f22aa2c40fe0a68b9ba62f7f259a04514a4794f4b34911",
+      "generationRecord": "units/serpulo-ground-naval/bodies/omura.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "engine_atlas_export",
+    "description": "native art downsample and register to original alpha bounds",
+    "sourceTrim": [
+      16,
+      16,
+      333,
+      545
+    ],
+    "sourcePivot": [
+      174.5,
+      280.5
+    ],
+    "rotationDegreesCCW": 0,
+    "destinationTopLeft": [
+      29,
+      4
+    ],
+    "sourceDimensions": [
+      349,
+      561
+    ],
+    "targetDimensions": [
+      264,
+      351
+    ],
+    "officialAlphaBounds": [
+      4,
+      4,
+      260,
+      347
+    ],
+    "scale": null,
+    "engineAnchorPx": [
+      132.0,
+      175.5
+    ]
+  },
+  "officialSource": {
+    "path": "core/assets-raw/sprites/units/omura.png",
+    "gitBlobSha1": "d29aff77397dfddbffc47efb126373255b560e35",
+    "sha256": "31b6902641f3ff55f028d7ed6fd9b39ac722abb80c2ce60be0148e63417b86f2"
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Derived from recorded native art; no new generation call.",
+  "engineNotVerified": true
+}

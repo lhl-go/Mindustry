@@ -1,0 +1,68 @@
+{
+  "file": "units/root-builders/assets/beta-v2.png",
+  "sha256": "21d407f0b41657d826ba89a4e2b13da7f2d32e6bb82195b71779583a09b2fda1",
+  "width": 588,
+  "height": 510,
+  "mode": "RGBA",
+  "derivedAt": "2026-10-26T10:13:39.919584+00:00",
+  "derivedFrom": [
+    {
+      "file": "units/root-builders/layers/beta-body.png",
+      "sha256": "c167f74b8a10d6ae96ca59567d2dca56150f9c455b87f3a7aa08c8c0b73e80e6",
+      "generationRecord": "units/root-builders/layers/beta-body.png.derived.json"
+    },
+    {
+      "file": "units/root-builders/layers/small-mount-weapon.png",
+      "sha256": "453a4dbb8c0d3fa3cef503fafca768cab97089766f986f81ff6f2e5cee85077b",
+      "generationRecord": "units/root-builders/layers/small-mount-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "kind": "static_art_mount_composite",
+    "order": [
+      "weapon_pair",
+      "body"
+    ],
+    "bodyResampled": false,
+    "weaponDownsampled": true,
+    "redrawn": false,
+    "placements": [
+      {
+        "side": -1,
+        "topLeftPixels": [
+          102,
+          67
+        ],
+        "size": [
+          131,
+          148
+        ],
+        "mountPivotNormalized": [
+          0.5,
+          0.82
+        ],
+        "visibleFractionAfterBody": 0.8125693302951869
+      },
+      {
+        "side": 1,
+        "topLeftPixels": [
+          354,
+          67
+        ],
+        "size": [
+          131,
+          148
+        ],
+        "mountPivotNormalized": [
+          0.5,
+          0.82
+        ],
+        "visibleFractionAfterBody": 0.80520292270183
+      }
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "alignmentEvidence": "Estimated art attachment anchors adjusted to expose the weapon tips. These are design coordinates, not validated official runtime Weapon.x/y.",
+  "runtimeIntegrationVerified": false
+}

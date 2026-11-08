@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/multiplicative-reconstructor-top.png",
+  "sourceGitBlob": "d48314ce89a25ed6afb4d7b18d86870f961b26bb",
+  "sourceSha256": "620aa5747503cd9a2c18db8b73ae1c9021003e61d57dafb1331b120cd3ed2c45",
+  "sourceDimensions": [
+    160,
+    160
+  ],
+  "region": "multiplicative-reconstructor-top",
+  "blockId": "multiplicative-reconstructor",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/multiplicative-reconstructor-top.png",
+  "sha256": "bdbdcb66a4ad5c80a3756cd42987ed4e87666677cdbf86933e4971932170765c",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/multiplicative-reconstructor-top.png",
+  "engineSha256": "bdbdcb66a4ad5c80a3756cd42987ed4e87666677cdbf86933e4971932170765c",
+  "nativeFile": "full-game/blocks/masters/multiplicative-reconstructor.png",
+  "nativeSha256": "26534c6c1afa6489ea2dbbb9ca10754cc24fc88fef92ea236ec4b2499385adb1",
+  "nativeSize": [
+    336,
+    336
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    160,
+    160
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/multiplicative-reconstructor.png",
+      "sha256": "26534c6c1afa6489ea2dbbb9ca10754cc24fc88fef92ea236ec4b2499385adb1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/multiplicative-reconstructor-top.png",
+      "sha256": "620aa5747503cd9a2c18db8b73ae1c9021003e61d57dafb1331b120cd3ed2c45"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/multiplicative-reconstructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/multiplicative-reconstructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/multiplicative-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

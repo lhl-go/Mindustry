@@ -1,0 +1,42 @@
+{
+  "file": "full-game/blocks/masters/small-heat-redirector.png",
+  "sha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/boards/production-heat-03.png",
+      "sha256": "6ca19ea2d4ae97bb40793416cb6efbd10c424b51de29b290303df9a24fc14671",
+      "generationRecord": "full-game/blocks/records/production-heat-03.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "authorized native alpha cleanup and crop",
+    "cellBox": [
+      72,
+      413,
+      279,
+      649
+    ],
+    "subjectBoxInCell": [
+      0,
+      0,
+      207,
+      236
+    ],
+    "alphaBelow16": "clear RGBA",
+    "alphaAtLeast245": 255,
+    "removedTinyComponents": 0,
+    "paddingPixels": 16,
+    "scale": 1
+  },
+  "nativeSize": [
+    239,
+    268
+  ],
+  "anchorPixels": [
+    119.5,
+    134.0
+  ],
+  "orientation": "north/up",
+  "artRole": "body",
+  "engineNotVerified": true
+}

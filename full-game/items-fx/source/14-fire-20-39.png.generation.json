@@ -1,0 +1,92 @@
+{
+  "file": "full-game/items-fx/source/14-fire-20-39.png",
+  "sha256": "35149b9d22555331896f6a409eb55e403b6279c467197f05b3aad357053186f7",
+  "generatedAt": "2026-10-26T16:56:45.643Z",
+  "startedAt": "2026-10-26T16:55:21.607Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1403,
+  "height": 1121,
+  "format": "PNG",
+  "mode": "RGBA",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Generate exactly TWENTY successive animation frames of the SAME looping fire shown in the THIRD attached reference. First two images define Daoist Q painting style. The third image is frames0-19, preserve this exact flame character, rendering, colors and overall scale. New output is frames20-39: strict regular five columns by four rows of identical cells, no text/grid. Requested2048x1638. Continue after the bottom-right frame of third reference. Central orange flame slowly bends from its current LEFT lean back through vertical toward a slight RIGHT lean, cloud-curl tongues unfold and retract, cream-yellow core flickers gradually. By frame39 approach the TOP-LEFT flame pose of reference so the 40-frame loop wraps naturally. Do not fade out or grow from nothing. Same base diameter and base position every frame, base centerx50%, baseline75% of cell. IMPORTANT increase transparent cell gutters: at least15% empty around EACH complete flame; never touch cell edge. Each flame may contain tiny sparks inside its own cell. True transparent RGBA cutouts, no dark or colored background or floor, no lettering. 20 individual smoothly varying frames, not duplicates, no mirrored whole frames. Preserve detailed warm orange/cream hand-painted fire.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\mindustry-image\\full-game\\items-fx\\source\\13-fire-00-19.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host managed, tool does not expose model/quality selectors or actual metadata.",
+  "prompt": "full-game/items-fx/prompts/14-fire-20-39.txt",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:\\work\\image\\mindustry-image\\full-game\\items-fx\\source\\13-fire-00-19.png",
+      "sha256": "663ebdaadd9f78c289c58d3fa03900c115548a3d3f4a263c14eb4eae026bc43d",
+      "purpose": "primary_style_reference",
+      "actuallyAttached": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/items-fx/records/14-fire-20-39.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-2387e0c2-c948-47de-86e2-7a3de16f49c1.png",
+    "fields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "names": [
+    "fire20",
+    "fire21",
+    "fire22",
+    "fire23",
+    "fire24",
+    "fire25",
+    "fire26",
+    "fire27",
+    "fire28",
+    "fire29",
+    "fire30",
+    "fire31",
+    "fire32",
+    "fire33",
+    "fire34",
+    "fire35",
+    "fire36",
+    "fire37",
+    "fire38",
+    "fire39"
+  ],
+  "sourceImageRetained": true
+}

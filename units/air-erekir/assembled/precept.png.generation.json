@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/assembled/precept.png",
+  "sha256": "af90bebcca9457aa079967f72b1d5293366820cd44c419e4881fc428306b3070",
+  "width": 508,
+  "height": 492,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "units/air-erekir/layers/precept-body.png",
+      "sha256": "514c8542222f97129342c74f7f10aee01800d3daf600017bc355a2367b6b6526",
+      "generationRecord": "units/air-erekir/layers/precept-body.png.generation.json"
+    },
+    {
+      "file": "units/air-erekir-parts/assets/precept-weapon.png",
+      "sha256": "4f5b7455ff5f2dbfb6c4aa2e9b63b7dee99df528162586a9d656b571279fb47c",
+      "generationRecord": "units/air-erekir-parts/assets/precept-weapon.png.derived.json"
+    }
+  ],
+  "operation": {
+    "type": "assembly_of_native_generated_layers",
+    "noUpsampling": true,
+    "placements": [
+      {
+        "file": "units/air-erekir/layers/precept-body.png",
+        "role": "body",
+        "region": "precept",
+        "anchorPixels": [
+          254,
+          254
+        ],
+        "scale": 0.9552845528455285,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          246.0,
+          229.5
+        ]
+      },
+      {
+        "file": "units/air-erekir-parts/assets/precept-weapon.png",
+        "role": "weapon",
+        "region": "precept-weapon",
+        "anchorPixels": [
+          254.0,
+          254.0
+        ],
+        "scale": 0.916245487364621,
+        "rotationClockwise": 0,
+        "mirrorX": false,
+        "pivotSourcePixels": [
+          170,
+          272
+        ]
+      }
+    ],
+    "note": "Downsampling, mirroring, rotation and alpha compositing only; no procedural drawing."
+  },
+  "facing": "north",
+  "actualModel": null,
+  "actualQuality": null,
+  "engineRuntimeVerified": false
+}

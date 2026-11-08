@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/terrain/source/01-basic-floors.png",
+  "sha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e",
+  "generatedAt": "2026-10-26 15:50:29 UTC",
+  "startedAt": "2026-10-26 15:49:30 UTC",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "width": 887,
+  "height": 1774,
+  "format": "PNG",
+  "mode": "RGB",
+  "requestedSize": [
+    1536,
+    3072
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Asset type: Mindustry terrain floor texture atlas, strict vertical top-down orthographic. Create NEW painted GROUND TEXTURES only. Use attached approved mail and party references ONLY for the refined bright clean Daoist Q hand-painted finish and restrained jade/ivory/warm stone material harmony. DO NOT draw UI frames, letters, numbers, labels, characters, symbols, objects, raised blocks or scenery. Terrain retains functional material colors, not all green. Requested 1536×3072 tall image, exactly 3 equal columns × 6 equal rows, EIGHTEEN full-bleed square terrain swatches. NO gaps, gutters, outlines, framing, rounded corners or margins: each 1/3-width by 1/6-height cell is its own continuous FLAT tile. Within every row draw THREE genuinely different variations of its same ground material, with same average color and scale but different cracks/grain/pebble distribution. Do not repeat one tile three times. Texture details only, no elevation view. Each tile should tile on all four edges without dominant cut lines; edges quiet, consistent and natural; broad contrast kept low for gameplay legibility. Soft overhead daylight, high-end delicate hand-painted texture, no photoreal noise.\nRows top to bottom:\n1 STONE: natural pale cool gray limestone with subtle jade-gray shading, rounded embedded stones and fine irregular hairline cracks, mostly smooth walkable ground.\n2 BASALT: darker charcoal blue-gray cooled basalt, small rounded polygon cracks with subdued lighter rims, no lava, retain readable broad shapes.\n3 SHALE: muted purple-gray layered flat shale with irregular overlapping thin flakes embedded in ground, no raised rocky wall.\n4 DIRT: warm cocoa-brown compact earth, occasional tiny embedded pebbles, gentle granular brushwork, no plants.\n5 SAND: warm pale ivory-beige fine desert sand with soft wind ripple brush strokes, no rocks, no dunes viewed from the side.\n6 MUD: damp desaturated warm gray-brown mud, soft smooth wet clay mottling with tiny shallow glossy patches, no open water pool.\nAll eighteen cells fully opaque. No blank cells, no lighting vignette over whole atlas. Pure usable ground imagery, no text or dividers.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具无型号/质量/尺寸选择器，回执未披露实际型号或质量。",
+  "prompt": "full-game/terrain/prompts/01-basic-floors.txt",
+  "promptSha256": "716dae0785e8ce23a86de824bca65cbc9ab644c71bc7a08625c86f7dd026a0bf",
+  "references": [
+    {
+      "file": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    },
+    {
+      "file": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary approved Daoist Q style only",
+      "personallyViewed": true
+    }
+  ],
+  "evidence": {
+    "receipt": "full-game/terrain/records/01-basic-floors.receipt.json",
+    "originalOutput": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-0b58413c-3375-48d0-9111-87976a6dcab5.png",
+    "originalOutputSha256": "8a1e98b113941fc29740c2c06fec2ae8b1e194d9f81e7388f2c2891cf67a3b4e"
+  },
+  "regions": [
+    "stone1",
+    "stone2",
+    "stone3",
+    "basalt1",
+    "basalt2",
+    "basalt3",
+    "shale1",
+    "shale2",
+    "shale3",
+    "dirt1",
+    "dirt2",
+    "dirt3",
+    "sand-floor1",
+    "sand-floor2",
+    "sand-floor3",
+    "mud1",
+    "mud2",
+    "mud3"
+  ],
+  "status": "native_generation_exported_to_mapped_assets",
+  "currentSourceRetentionReason": "Consumed source board; final exports accepted. Local deletion rejected by automatic approval; original image remains locally and is excluded from formal archive.",
+  "nativeExports": [
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone1.png",
+      "sha256": "3480a0db504a1995c54f4e9a2ea303587b1d876531f534cb236043e2deb06996"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone2.png",
+      "sha256": "f1759b324ab69f665d3d1d6d5a64e12dc18661974227e58979ed8d90ee4ad621"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/stone3.png",
+      "sha256": "20edd5355982a8de7149fccd3e2ee8dda4e14f646a521226c04ed48caafdf884"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/basalt1.png",
+      "sha256": "fd45bca2b3c971e8e616313ea72f055d069551acf4511a44365ffa3bec86d136"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/basalt2.png",
+      "sha256": "5181f654d1a7cf40f7002b35a3c8f114db097d991510dbeeb267bdd7aae48e0e"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/basalt3.png",
+      "sha256": "1ddbb671024083595e4f944539ac4ca364e71b680f9eec309f8bebe063a2be6d"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shale1.png",
+      "sha256": "9a3735110672bd91f7de497fe3830d50152cdd037097375453e2b9bce68ce11c"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shale2.png",
+      "sha256": "3db9806acba5f754d1e9b4197dda592e664d21d88b2ee823ed910079fd8b6c62"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/shale3.png",
+      "sha256": "7d663c9813c5d2f4b7dd8f1ff958de0afe1abd8945144d897f1164ad89006373"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt1.png",
+      "sha256": "c36880b36c7af7dc3a0b47dc84d40f3ddf6c22c06f7dc3400cac48d89c2be5b8"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt2.png",
+      "sha256": "d2e0ae523587312556891cfb02684cdc1dc510b06f790a96e20614a27343eeca"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/dirt3.png",
+      "sha256": "dfb3f1658ae31b628e9d07240f1b4304eea71585a5db9fc3a006bf4244c0c763"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-floor1.png",
+      "sha256": "38a0aeadcedd06c998a75d215593527b67235cb8ce50f5fe1e7183b5e2ebcf36"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-floor2.png",
+      "sha256": "21a0b5d09cc76dc9fe07f6a0e6284c6200e265249e9196ef7dbc4d68b6b11302"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/sand-floor3.png",
+      "sha256": "69eb386f3717f8f0990e18851fd38477b8310f96291bdb9021e12fbb6a09bf34"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/mud1.png",
+      "sha256": "7205f5b9f8c8abfc2bd86ccbcd0d72fbe7cc18c78f0aa57a029fc130d0c1b785"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/mud2.png",
+      "sha256": "4e05bccfefe25be472ab75cfce5ea1cd9fc9c46a144e74e7b3f9a6e02fab65b7"
+    },
+    {
+      "file": "full-game/terrain/native/core/assets-raw/sprites/blocks/environment/mud3.png",
+      "sha256": "c2b990db366d1bbc1a0b2c9659d34747158273680e5af8b6d4b248a6d32c6b0d"
+    }
+  ],
+  "sourceImageLocalPresent": true,
+  "sourceImageIncludedInDelivery": false,
+  "consumedSourceRetentionRecord": "full-game/terrain/retention-cleanup.json"
+}

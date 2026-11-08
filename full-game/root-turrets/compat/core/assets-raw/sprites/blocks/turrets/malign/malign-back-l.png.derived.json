@@ -1,0 +1,42 @@
+{
+  "region": "malign-back-l",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/malign/malign-back-l.png",
+  "sha256": "66f8950000c7057ef64ca48d7db7b15a21eb8e05e5706689b814301bf3718a2a",
+  "size": [
+    160,
+    160
+  ],
+  "derivedAt": "2026-10-26T18:34:46.120176+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/masters/malign-back-l.png",
+      "sha256": "36572badd684de58c280666ed87fc46a65bf78496d6ade862988b23d04333f60",
+      "record": "full-game/root-turrets/masters/malign-back-l.png.derived.json"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/malign/malign-back-l.png",
+      "sha256": "f1cacdbed63f9c65b7f14f617eb2eab26b858d46518d0a258f0d3fd7610f5995",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "fit_generated_region_to_original_alpha_bounds",
+    "resampling": "LANCZOS",
+    "targetBox": [
+      95,
+      76,
+      151,
+      138
+    ],
+    "canvasPivot": "unchanged center",
+    "nativeMasterSize": [
+      292,
+      313
+    ],
+    "requiresRuntimeCalibration": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

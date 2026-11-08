@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "ui/01-factory-defense-hud-v1.png",
+  "pathBase": "mindustry-image/",
+  "generatedAt": "2026-10-26T03:37:03.712000-04:00",
+  "generatedAtBasis": "Tool result receipt time; server generation timestamp not disclosed",
+  "startedAt": "2026-10-26T07:36:10.968Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "toolCallId": null,
+  "toolResultId": null,
+  "outputArtifactStem": "exec-2b9480fe-a337-474c-ab73-17361ef10228",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "byteLength": 3217233,
+  "sha256": "be493b1db5f13fc2a21619b6d058e60258f2b35a9b2990169639cde23a814f64",
+  "pngVerified": true,
+  "metadataKeys": [],
+  "alpha": null,
+  "pngChunks": [
+    "IHDR",
+    "caBX",
+    "IDAT",
+    "IEND"
+  ],
+  "nativeSize": {
+    "width": 1672,
+    "height": 941
+  },
+  "requestedSize": {
+    "width": 2560,
+    "height": 1440,
+    "submission": "prompt_only"
+  },
+  "requestedSizeAchieved": false,
+  "resized": false,
+  "pixelPostprocessing": false,
+  "status": "generated_concept_reviewed_with_notes",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "userExplicitModel": "GPT Image 2.5",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "D:\\work\\image\\designs\\main-hud-20261021\\sprites\\bag.png"
+    ],
+    "prompt": "Use case: ui-mockup\nCreate one polished, fully painted 16:9 landscape factory tower-defense gameplay HUD concept for the working label “Mindustry”, requested native canvas 2560×1440. This is a new client art direction concept with demonstration numbers.\nInput images: Reference 1 (mail UI) and Reference 2 (team UI) are mandatory PRIMARY ART STYLE references. Closely carry over their refined Daoist Chinese chibi hand-painted rendering, jade-green and teal enamel, warm ivory silk-paper panels, thin warm-gold carved edges, rounded cloud / ruyi corners, restrained tassels and clear Chinese hierarchy. Do not copy their mail or party layouts, titles, portraits, event content, or nighttime background.\nComposition: genuine usable in-game HUD, not a poster, brochure or giant modal window. A large uninterrupted central top-down / high overhead tactical factory battlefield occupies about 65–70% of the screen. Thin compact resources strip along top-left, compact wave/core panel at top-center, square minimap upper-right. Bottom 19% holds a building category row and 8 readable building cards. Lower-left small selected construction-unit panel beside the building tray. Leave breathing room and a clear visual hierarchy.\nGameplay scene: bright clean daylight; light gray stone and sandy mineral terrain, low rounded jade rocks, trees only around outer terrain. An intelligible production chain: copper ore patch in left-middle under a squat mechanical drill; a clearly continuous orthogonal conveyor belt carrying distinct copper chunks to a bronze furnace; a second belt takes processed bars to a jade-and-ivory hexagonal base core at center-left. Branch supply feeds a row of three compact bronze-and-jade turrets defending the right flank behind a low stone wall with an open gate. A few small enemy red-accented mechanical crawlers approach from the right with clear direction. Visible warm firing effects are restrained. Conveyors must visibly connect machine ports, turn coherently and never end randomly. Small construction flying mechanism near the core with a green selection circle. Daoist alchemy workshop silhouettes, mechanical arms, pipework, a few subtle talisman motifs; preserve industrial production readability. No giant human character hiding the battlefield.\nUI: ivory paper for data and secondary controls; jade + gold for active category, main button and headings. Dark deep-jade text at readable size. Use a clean clear Chinese font, not messy calligraphy. Flat aligned icon+number rows, no repeated currencies. Small English working label “Mindustry” in upper-left only.\nExact visible text:\ntop resources: “铜 1,240” “铅 860” “石墨 320” “硅 180” “电力 +240/s”\ntop-center: “第 12 波” “下一波 00:38” “核心 100%” with a full green core health bar\nminimap heading: “小地图”\nbottom categories: “采集” “运输” “生产” “电力” “防御” “单位”; “防御” selected jade\nbottom 8 cards: “钻头” “传送带” “分流器” “炼炉” “发电机” “炮塔” “城墙” “修复器”\nselected unit card: “建造单位” “生命 150/150” “建造中”\nsmall unobtrusive bottom note: “概念演示”\nTop-right small rounded pause and menu icon buttons. Detail sublabels only if legible; do not add paragraphs or additional invented titles.\nStyle: exceptional precise hand-painted completion like the references, rounded solid forms, soft painterly light, controlled gold/jade sheen, large crisp silhouettes, polished icon details, no plastic toy rendering, no pixel art, no photorealism, no noise. Restrained red tassels and a single small lantern on the core as seasonal flavor. No full ornate outside picture frame. No “五行奇谈”, no mail/party content, no night sky, no character portraits copied from references, no watermark. Opaque full-frame image; prioritize readable tactical composition. Target configured GPT Image 2.5 highest quality.\nReference 3 is an existing HUD bag badge: use only its rounded jade-and-gold icon construction and fine painted finish as secondary guidance. It must not turn this factory HUD into an RPG inventory."
+  },
+  "parameterLimitations": "内置接口只开放 prompt、参考图与 transparent_background；型号、质量、尺寸无专用参数。",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露精确型号或质量。PNG 内嵌软件代理版本仅为 gpt-image，未给出2.5、Sunburst或max，且本次未验证其加密签名，不能据此确认实际具体型号。",
+  "prompt": "prompts/01-factory-defense-hud-v1.txt",
+  "promptSha256": "117be7632a1b16ed4862821ac43d8e151cf4f1b3365f49e2a0d4935736fb58d8",
+  "references": [
+    {
+      "path": "../designs/mail-ui-v1/01-mail-event.png",
+      "absolutePath": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/team-ui-v2/team-ui-v2.png",
+      "absolutePath": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspectedBeforeSubmission": true
+    },
+    {
+      "path": "../designs/main-hud-20261021/sprites/bag.png",
+      "absolutePath": "D:\\work\\image\\designs\\main-hud-20261021\\sprites\\bag.png",
+      "sha256": "a80c21c6364715cdb18bb99c33db4df3e10c7e278989dc1f379b052ea7386acf",
+      "purpose": "secondary_hud_material_reference",
+      "inspectedBeforeSubmission": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "records/01-factory-defense-hud-v1.tool-receipt.json",
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ],
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-2b9480fe-a337-474c-ab73-17361ef10228.png",
+    "originalOutputSha256": "be493b1db5f13fc2a21619b6d058e60258f2b35a9b2990169639cde23a814f64",
+    "projectBytesMatchOriginal": true,
+    "embeddedModelMetadataFound": false,
+    "officialVerification": "records/official-verification-20261026.json",
+    "embeddedProvenance": "records/01-factory-defense-hud-v1.embedded-provenance.json",
+    "embeddedSoftwareAgentVersion": "gpt-image",
+    "embeddedProvenanceSignatureVerified": false
+  }
+}

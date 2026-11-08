@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/small-heat-redirector.png",
+  "sourceGitBlob": "3b51f89bbc8e093d2bfdb2c3394860b4da99ef56",
+  "sourceSha256": "a9cb322c569bddc7b11114ef2a68b3eaaaec123bdc1ee65b343cc266e456026b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "small-heat-redirector",
+  "blockId": "small-heat-redirector",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector.png",
+  "sha256": "9a4aa81fb99af6624570192c1f4a8d6c8d1ee3f4f7ed1986827a7bd27aa0ee40",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector.png",
+  "engineSha256": "9a4aa81fb99af6624570192c1f4a8d6c8d1ee3f4f7ed1986827a7bd27aa0ee40",
+  "nativeFile": "full-game/blocks/masters/small-heat-redirector.png",
+  "nativeSha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1",
+  "nativeSize": [
+    239,
+    268
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/small-heat-redirector.png",
+      "sha256": "3ec59a2f8d84a50787a8ed93f31efe4a8da1fc8653f9cc9ac625ebb6ee1bebb1"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/small-heat-redirector.png",
+      "sha256": "a9cb322c569bddc7b11114ef2a68b3eaaaec123bdc1ee65b343cc266e456026b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/small-heat-redirector.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "file": "full-game/ui-system/source/07-sectors-01.png",
+  "sha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "requestedSize": [
+    1536,
+    1536
+  ],
+  "resized": false,
+  "generatedAt": "2026-10-26T11:37:33-04:00",
+  "generatedAtBasis": "tool_return_receipt",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Create a production atlas of NINE campaign sector emblems as an image-guided restyle. Output square 1536x1536 true transparent PNG, THREE columns THREE rows, each of9 equal512x512cells with generous60px transparent margins. Reference1 and reference2 define Daoist Q refined hand-painted jade/ivory/gold style; reference3 is an EXACT9-cell shape/layout and biome color guide, not an art-style reference. In each corresponding cell, preserve that guide's distinctive angular silhouette, the number of separate lobes and orientation, the central holes/open gaps, plus relative biome colors. Turn flat pixelated shapes into clean rounded hand-painted stone/jade/wood landmark symbols with fine subtle bevels, delicate restrained cloud motifs and natural soft shading. Do NOT turn them into identical circular badges or landscapes, do not fill the intentional open centers. Black pixels in guide are EMPTY/TRANSPARENT, NOT black painted backgrounds. Remove guide labels and gray cell backgrounds entirely. ROW1: aegis has two brown upper wings and dark gray lower V around one lavender central diamond; atlas has three chunky brown/orange wings around an open dark center; atolls has a blue/gray/pale-sand segmented ring and separate central coral red core. ROW2: basin has irregular brown/green lower wings with lavender upper bridge and an open middle; biomassFacility has pale-gray/purple angled segments around a negative center with ivory corner details; caldera-erekir has orange/ochre/gray lava-like angled strata. ROW3: coastline has curling pale sand, blue sea and gray slate segments; crateredBattleground is a gray rounded angular crater ring with pale snow fragments and an open center; crevice has deep-purple, muted-red and ochre cliff blocks separated by a jagged dark crevice that remains transparent. Exact row order. Emblems only, no text, no numerals, no UI frames, no characters, no extra scenery or cast shadows. Native detail should be crisp and readable after downscaling to the small original sector icon size.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/image/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/image/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/image/mindustry-image/full-game/ui-system/reference/sector-first-nine-guide.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed built-in tool provides no model/quality/size selectors or exact returned model/quality. Config and prompt are targets only.",
+  "prompt": "full-game/ui-system/prompts/07-sectors-01.txt",
+  "promptSha256": "24302a5368b3fbecd5ac7f202caa7df1e744b1cded2b9bc9a93b47527146c086",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "actuallySubmitted": true
+    },
+    {
+      "path": "D:\\work\\image\\mindustry-image\\full-game\\ui-system\\reference\\sector-first-nine-guide.png",
+      "sha256": "91965a189565afd2b840e61d502d54243be59e236caf0f7b7036a90d05250a16",
+      "purpose": "edit_target_or_secondary_reference",
+      "actuallySubmitted": true
+    }
+  ],
+  "evidence": {
+    "toolReceipt": "full-game\\ui-system\\records\\07-sectors-01.tool-receipt.json",
+    "outputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17720-2a4e-70c0-a0de-f389672e250d\\exec-d905e2ad-3b53-4569-83fa-7afe0aa457b5.png",
+    "nativePngSha256": "3c88d7e3941c4fcf306c46e082c3e92ef3b973a46c563ae0244e2cc51a0537bc",
+    "returnedKeys": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaTransparentPixels": 795095,
+  "status": "generated_pending_review"
+}

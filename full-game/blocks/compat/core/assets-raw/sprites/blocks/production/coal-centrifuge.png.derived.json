@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/production/coal-centrifuge.png",
+  "sourceGitBlob": "33509c7e92b192211591077f7e423ac7a2c1c2f9",
+  "sourceSha256": "1c3cb52356d4a6064226df986bd94b696723c416e1cc9237444979db46ce936b",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "coal-centrifuge",
+  "blockId": "coal-centrifuge",
+  "category": "production",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/coal-centrifuge.png",
+  "sha256": "d94a24490b3de7a25665b160aebddcbaa8c4273e36ac744df4e642c9d028decb",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/coal-centrifuge.png",
+  "engineSha256": "d94a24490b3de7a25665b160aebddcbaa8c4273e36ac744df4e642c9d028decb",
+  "nativeFile": "full-game/blocks/masters/coal-centrifuge.png",
+  "nativeSha256": "8212a532cd40d72af7e1f95ec35da19ad88d8858386f319baf9e5265eba9a13f",
+  "nativeSize": [
+    321,
+    327
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/coal-centrifuge.png",
+      "sha256": "8212a532cd40d72af7e1f95ec35da19ad88d8858386f319baf9e5265eba9a13f"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/production/coal-centrifuge.png",
+      "sha256": "1c3cb52356d4a6064226df986bd94b696723c416e1cc9237444979db46ce936b"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/production/coal-centrifuge.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

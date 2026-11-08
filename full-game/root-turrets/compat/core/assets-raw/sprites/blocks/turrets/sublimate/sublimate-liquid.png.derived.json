@@ -1,0 +1,26 @@
+{
+  "region": "sublimate-liquid",
+  "file": "full-game/root-turrets/compat/core/assets-raw/sprites/blocks/turrets/sublimate/sublimate-liquid.png",
+  "sha256": "8c75218f970ba67b153c56716b3e9f6b4e3ea4f34ae6de9144bce0dc9842fee8",
+  "size": [
+    96,
+    96
+  ],
+  "derivedAt": "2026-10-26T18:34:46.396272+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/turrets/sublimate/sublimate-liquid.png",
+      "sha256": "397cb1f999212d5265aeb6dce39d2a9cd7e116d3bc65a6f6cd9ec62d06adf823",
+      "record": null
+    }
+  ],
+  "operation": {
+    "kind": "pixel_exact_technical_liquid_alpha",
+    "reason": "DrawTurret.drawTurret uses Drawf.liquid with actual fluid color and fill amount; neutral exact reservoir alpha is required. Geometry remains fixed original canvas.",
+    "encoding": "Pixel values retained; PNG container bytes may differ."
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "passed_native_light_dark_and_neutral_assembly"
+}

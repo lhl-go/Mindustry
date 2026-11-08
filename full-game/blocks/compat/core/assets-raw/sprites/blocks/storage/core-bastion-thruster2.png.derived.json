@@ -1,0 +1,53 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/storage/core-bastion-thruster2.png",
+  "sourceGitBlob": "23cee644e74c4ba0ce8fbbe20442e631bc150b03",
+  "sourceSha256": "8c5540e68850d4ca4f40eda307008d8baf7bb9c405518ba8631b8cf51e21cc75",
+  "sourceDimensions": [
+    200,
+    106
+  ],
+  "region": "core-bastion-thruster2",
+  "blockId": "core-bastion",
+  "category": "storage",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion-thruster2.png",
+  "sha256": "b8fef61a74519d16eaa4e9f55adb2a504b11bae90f55b7372ff615fead129c3a",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion-thruster2.png",
+  "engineSha256": "b8fef61a74519d16eaa4e9f55adb2a504b11bae90f55b7372ff615fead129c3a",
+  "nativeFile": "full-game/blocks/masters/core-thruster-small-part.png",
+  "nativeSha256": "80f319782af080c046bf0bb642e1ed2440caaa3bbc5a3344887cb09d49e3205a",
+  "nativeSize": [
+    150,
+    311
+  ],
+  "sourceAlphaBounds": [
+    158,
+    9,
+    193,
+    97
+  ],
+  "operation": {
+    "kind": "independent_thruster_bracket_original_offset",
+    "oppositeCornerVariant": "2",
+    "localHorizontalMirror": false,
+    "localVerticalMirror": true,
+    "nativeNozzlesAlignedEastBeforeRuntimeQuarterTurns": true,
+    "sourceBoundsUsedForPlacement": true,
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/core-thruster-small-part.png",
+      "sha256": "80f319782af080c046bf0bb642e1ed2440caaa3bbc5a3344887cb09d49e3205a"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/storage/core-bastion-thruster2.png",
+      "sha256": "8c5540e68850d4ca4f40eda307008d8baf7bb9c405518ba8631b8cf51e21cc75"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/storage/core-bastion-thruster2.png.derived.json"
+}

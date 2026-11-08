@@ -1,0 +1,41 @@
+{
+  "region": "tsunami-top",
+  "file": "full-game/root-turrets/masters/tsunami-top.png",
+  "sha256": "ac11ebe5e9e4a4bc8cef594a4189761f0b7a6ec30f9c4270dd95435eda0d25d8",
+  "size": [
+    316,
+    84
+  ],
+  "derivedAt": "2026-10-26T18:34:45.850872+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/06-regions.png",
+      "sha256": "383d4a9e635604bc928cfeee7fb3365b882bd17b4c01b5bfda911a7ee9eefbc7",
+      "record": "full-game/root-turrets/source/06-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      2
+    ],
+    "cell": 4,
+    "sourceBox": [
+      63,
+      716,
+      355,
+      776
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

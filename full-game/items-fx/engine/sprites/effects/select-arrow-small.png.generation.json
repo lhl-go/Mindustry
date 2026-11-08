@@ -1,0 +1,32 @@
+{
+  "file": "full-game/items-fx/engine/sprites/effects/select-arrow-small.png",
+  "sha256": "09c5ba618a68b3530d765774ad7630a4d9658e6f1011663fee2e77df6289bdba",
+  "width": 59,
+  "height": 59,
+  "mode": "RGBA",
+  "format": "PNG",
+  "derivedFrom": [
+    {
+      "file": "full-game/items-fx/assets/select-arrow-small.png",
+      "sha256": "0cb25e2c024f8a13874afb6f614a78a4bbc28a96361d3f216e609c88ac2bce58",
+      "generationRecord": "full-game/items-fx/assets/select-arrow-small.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "downsample_for_original_engine_region_canvas",
+    "officialSize": [
+      59,
+      59
+    ],
+    "resampler": "Lanczos",
+    "aspectRatioPreserved": true,
+    "anchorNormalized": [
+      0.5,
+      0.5
+    ]
+  },
+  "upsampled": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Engine export from traced native art, no new image generation."
+}

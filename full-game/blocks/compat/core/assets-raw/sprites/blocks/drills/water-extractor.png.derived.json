@@ -1,0 +1,49 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/drills/water-extractor.png",
+  "sourceGitBlob": "f38c9e71684fbeb1d3a29fa0a3386bd9f69f1a66",
+  "sourceSha256": "bd6bbd11b74058af34cc3f0467b53f86ac82efeb2176b5992a4568e622a707b1",
+  "sourceDimensions": [
+    64,
+    64
+  ],
+  "region": "water-extractor",
+  "blockId": "water-extractor",
+  "category": "drills",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor.png",
+  "sha256": "f2670e3b9e0fcbfdea1102bf3b8beeb4fad0498170c1bbe1249cd41019b2efe6",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor.png",
+  "engineSha256": "f2670e3b9e0fcbfdea1102bf3b8beeb4fad0498170c1bbe1249cd41019b2efe6",
+  "nativeFile": "full-game/blocks/masters/water-extractor.png",
+  "nativeSha256": "11541f2253618f5d7559a7487b58a769208df555132c2d67f00d173e7eeccd9b",
+  "nativeSize": [
+    316,
+    305
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    64,
+    64
+  ],
+  "operation": {
+    "kind": "native_building_fitted_to_original_canvas_bounds",
+    "newPaintedDetail": false
+  },
+  "disposition": "derived_from_styled_art",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/water-extractor.png",
+      "sha256": "11541f2253618f5d7559a7487b58a769208df555132c2d67f00d173e7eeccd9b"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/drills/water-extractor.png",
+      "sha256": "bd6bbd11b74058af34cc3f0467b53f86ac82efeb2176b5992a4568e622a707b1"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/drills/water-extractor.png.derived.json",
+  "staticReview": "full-game/blocks/qa/industry-final-review.json"
+}

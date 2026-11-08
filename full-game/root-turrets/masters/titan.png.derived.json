@@ -1,0 +1,41 @@
+{
+  "region": "titan",
+  "file": "full-game/root-turrets/masters/titan.png",
+  "sha256": "7939ad58b46291f9ed4823a30bd3235c0407e434a1185e8c05ef2b172f543763",
+  "size": [
+    318,
+    401
+  ],
+  "derivedAt": "2026-10-26T18:34:45.642171+00:00",
+  "derivedFrom": [
+    {
+      "file": "full-game/root-turrets/source/06-regions.png",
+      "sha256": "383d4a9e635604bc928cfeee7fb3365b882bd17b4c01b5bfda911a7ee9eefbc7",
+      "record": "full-game/root-turrets/source/06-regions.png.generation.json"
+    }
+  ],
+  "operation": {
+    "kind": "authorized_alpha_component_crop_padding",
+    "grid": [
+      4,
+      2
+    ],
+    "cell": 0,
+    "sourceBox": [
+      67,
+      97,
+      361,
+      474
+    ],
+    "alphaCutoff": 16,
+    "minimumComponentArea": 28,
+    "alphaRemap": "clip(round((alpha-8)*255/237),0,255)",
+    "retainedRGBUnchanged": true,
+    "resampling": false,
+    "padding": 12
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "runtime": "unverified",
+  "visualReview": "pending"
+}

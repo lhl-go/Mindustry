@@ -1,0 +1,50 @@
+{
+  "args": {
+    "prompt": "Use case: game-sprite sheet. Paint21 independent Mindustry mineral ORE OVERLAYS in refined Daoist Q bright hand-painted style. Attached references ONLY for polished hand-painted finish, no UI, text, people, symbols or frames. Requested1536×3584 portrait, exact3 equal columns×7 equal rows;21 separate centered ore patches, transparent background. Each patch fits70percent of its cell with15percent clean transparent margins, no crossing. STRICT TOP-DOWN: minerals are small flat fragmented veins embedded flush in ground, NOT heaps, mountains, tall crystal clusters, cubes or inventory items. Transparent gaps between broken flecks let terrain show through. Each row3 native different formations of same ore, different branching/separated chip placement, not copies. Each patch should cover about35-55percent of its bounding footprint with several chunky small flecks connected by hairline vein fragments, broad simple readable shapes at32pixel final.\nRows top to bottom:\n1 COPPER warm copper-orange metallic irregular flecks with subtle golden highlights.\n2 LEAD muted lavender-gray dense metallic chips.\n3 COAL almost black charcoal fragments with small gray soft facets, matte.\n4 TITANIUM desaturated bright blue steel ore chips and fine blue veins.\n5 THORIUM dusty rose-pink rare ore chips with tiny pale-pink inner glints, no glow haze.\n6 SCRAP small rusty brown gray broken metal fragments embedded flat, a few tiny bent plate chips.\n7 BERYLLIUM pale jade green mineral flecks and short thin veins.\nAll21 each independent consistent style, overhead light, no ground squares or blobs beneath ore, complete clean transparent alpha outside and between flecks. No shadows cast outside silhouette, no text.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "startedAt": "2026-10-26 17:29:50 UTC",
+  "returnedAt": "2026-10-26 17:30:54 UTC",
+  "result": {
+    "keys": [
+      "image_url",
+      "output_hint"
+    ],
+    "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a as C:\\Users\\luyua\\.codex\\generated_images\\01a17720-9b3c-7cb3-bb7c-c5bb48cf6b8a\\exec-5d944cae-bda0-40b9-9d2e-5af728978cc2.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+  },
+  "requestedSize": [
+    1536,
+    3584
+  ],
+  "grid": [
+    3,
+    7
+  ],
+  "regions": [
+    "ore-copper1",
+    "ore-copper2",
+    "ore-copper3",
+    "ore-lead1",
+    "ore-lead2",
+    "ore-lead3",
+    "ore-coal1",
+    "ore-coal2",
+    "ore-coal3",
+    "ore-titanium1",
+    "ore-titanium2",
+    "ore-titanium3",
+    "ore-thorium1",
+    "ore-thorium2",
+    "ore-thorium3",
+    "ore-scrap1",
+    "ore-scrap2",
+    "ore-scrap3",
+    "ore-beryllium1",
+    "ore-beryllium2",
+    "ore-beryllium3"
+  ]
+}

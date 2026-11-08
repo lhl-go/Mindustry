@@ -1,0 +1,59 @@
+{
+  "sourcePath": "core/assets-raw/sprites/blocks/units/tetrative-reconstructor-top.png",
+  "sourceGitBlob": "bf92d01f2a1df15e7a5ce6d32046b15785d8ff7f",
+  "sourceSha256": "dcf41a3d4f5d40df70558d996ac4f24b30ba610d242f535f12dc95bfe62a27db",
+  "sourceDimensions": [
+    288,
+    288
+  ],
+  "region": "tetrative-reconstructor-top",
+  "blockId": "tetrative-reconstructor",
+  "category": "units",
+  "file": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tetrative-reconstructor-top.png",
+  "sha256": "62e3b5f0750152da448a0d11380e564235985355151f9cb66d069090e77aa13d",
+  "engineFile": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tetrative-reconstructor-top.png",
+  "engineSha256": "62e3b5f0750152da448a0d11380e564235985355151f9cb66d069090e77aa13d",
+  "nativeFile": "full-game/blocks/masters/tetrative-reconstructor.png",
+  "nativeSha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4",
+  "nativeSize": [
+    389,
+    374
+  ],
+  "sourceAlphaBounds": [
+    0,
+    0,
+    288,
+    288
+  ],
+  "operation": {
+    "type": "native_body_foreground_occlusion_layer",
+    "bodyPixelsUnchanged": true,
+    "alphaLimitedToBodyAndOriginalForeground": true,
+    "newPaintedDetail": false,
+    "role": "foreground over payload; same positioned paint as stationary body"
+  },
+  "disposition": "native_body_aligned_foreground",
+  "derivedFrom": [
+    {
+      "file": "full-game/blocks/masters/tetrative-reconstructor.png",
+      "sha256": "bcdc54ad56d91e039d3385d059630959abd7d0d71bea61c98c8f319eec8c14a4"
+    },
+    {
+      "file": "full-game/blocks/reference-sprites/blocks/units/tetrative-reconstructor-top.png",
+      "sha256": "dcf41a3d4f5d40df70558d996ac4f24b30ba610d242f535f12dc95bfe62a27db"
+    }
+  ],
+  "actualModel": null,
+  "actualQuality": null,
+  "runtimeIntegrationVerified": false,
+  "status": "art_export_complete_runtime_unverified",
+  "record": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tetrative-reconstructor-top.png.derived.json",
+  "generationRecord": "full-game/blocks/compat/core/assets-raw/sprites/blocks/units/tetrative-reconstructor-top.png.derived.json",
+  "nativeGenerationRecord": "full-game/blocks/masters/tetrative-reconstructor.png.derived.json",
+  "engineNotVerified": true,
+  "runtimeRules": {
+    "originalCanvasPreserved": true,
+    "pivot": "original source canvas center",
+    "sourceCodeUnchanged": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "file": "units/air-erekir/source/05-erekir-air.png",
+  "sha256": "6ff6836bb46a7a2369253e591a6ba21a200f5d8f9d5a177ac0d9eaf3dd93e606",
+  "generatedAt": "2026-10-26T08:42:22.567Z",
+  "generatedAtBasis": "tool_return_receipt_time",
+  "startedAt": "2026-10-26T08:38:50.185Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "requestedSize": [
+    3072,
+    2048
+  ],
+  "resized": false,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "latest_verified",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-22",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/reference/resources/images/methods/generate"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "size": null,
+    "prompt": "Use case: stylized-concept. Create a high-definition hand-painted RTS game unit atlas, original Daoist chibi mechanical designs for Mindustry v160.7 art adaptation. The two attached images are PRIMARY art-style references ONLY: borrow their refined painted jade-green, ivory enamel, warm gold/brass, rounded cloud ornament, gentle shading, precise material finish. Do not copy the UI, people, text, scenery or frames. No humans.\nCritical camera: ALL units are strict orthographic TOP-DOWN, looking straight down at their dorsal surfaces, nose and weapon barrels oriented straight UP (north). Never front-facing portraits or isometric side views. Bilateral machinery and complete silhouettes, no cast ground shadows. Clear restrained hand-painted 2D shading, no plastic 3D toys, no pixel art.\nLayout: requested native 3072×2048 canvas, landscape 3:2. EXACTLY FIVE SEPARATE complete units in equal 3-column by 2-row invisible cells: top-left, top-center, top-right, bottom-left, bottom-center; bottom-right EMPTY transparent. Each silhouette wholly contained within its own cell with generous 12% margins/gutters, equal visual presentation size with tier-dependent complexity. No overlap across cells. No grid lines, labels, numbers, symbols outside objects, panels, backdrop, swatches or captions.\nTransparent output: genuine RGBA transparent background in every outside gap; no checkerboard or colored matte. Clean opaque object surfaces, crisp antialiased edges, no detached particles, halos or stray colored specks. Avoid tiny floating tassels; restrained Daoist motifs integrated into solid armor and mechanisms.\n\nObjects in exact reading order:\n1. ELUDE T1: low hovering jade skimmer, small narrow pointed hull, four clearly visible compact hover pads, paired forward homing-bolt emitters, no wings or tracks.\n2. AVERT T2: compact flying crescent dart with two swept jade wings and a single centered forward cannon, rear golden thruster, modest armored form.\n3. OBVIATE T3: agile jade lightning aircraft with three paired angular wing blades, clear central ivory hull and twin side energy emitters, several small rear thrusters.\n4. QUELL T4: large flying missile carrier with two wide engine pods, conspicuous paired rotatable brass missile launcher baskets, armored jade central fuselage and payload socket.\n5. DISRUPT T5: monumental airborne missile siege carrier, four wide symmetrical jade-and-ivory wings with multiple engines, large paired heavy missile-launcher turrets and broad heavy central payload hull; most massive in this family.\nDo not print the English identifiers; they only specify distinct identities. Show equipment attached in neutral forward pose. Complete unclipped silhouettes; preserve functional differences. Target configured GPT Image 2.5 highest quality.",
+    "referenced_image_paths": [
+      "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无型号、质量或尺寸参数，返回未披露精确型号和质量。",
+  "prompt": "prompts/air-erekir/05-erekir-air.txt",
+  "promptSha256": "0074c3a74fdb990413bc1cb02de2803b2a11ca51e00a55a4c3b4dce85a973e54",
+  "references": [
+    {
+      "path": "D:\\work\\image\\designs\\mail-ui-v1\\01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    },
+    {
+      "path": "D:\\work\\image\\designs\\team-ui-v2\\team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "primary_style_reference",
+      "inspected": true
+    }
+  ],
+  "evidence": {
+    "receipt": "records/workers/air-erekir/05-erekir-air.receipt.json",
+    "originalOutputPath": "C:\\Users\\luyua\\.codex\\generated_images\\01a17737-5210-73f1-a3be-2545758a53bc\\exec-77964ed8-58e1-4f1e-b06e-44bce6d7503b.png",
+    "originalOutputSha256": "6ff6836bb46a7a2369253e591a6ba21a200f5d8f9d5a177ac0d9eaf3dd93e606",
+    "sourceBytesPreserved": true,
+    "returnedFields": [
+      "image_url",
+      "output_hint"
+    ]
+  },
+  "alphaInspection": {
+    "present": true,
+    "transparentPixels": 875536,
+    "opaquePixels": 0,
+    "partialPixels": 697328
+  },
+  "units": [
+    "elude",
+    "avert",
+    "obviate",
+    "quell",
+    "disrupt"
+  ],
+  "status": "intermediate_retained_cleanup_blocked",
+  "sourceImageRetained": true,
+  "imageRetained": true,
+  "deletionPending": true,
+  "retentionReason": "Automatic approval rejected Remove-Item cleanup command with blocked by policy; no detailed reason returned. No files were deleted. No retry through an alternative route."
+}
